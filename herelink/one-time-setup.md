@@ -31,5 +31,10 @@ In case there is a need to pair with a different AirUnit module, follow the foll
 3. Release the Pair/Reset button.
 4. The Pair Successful dialog box will show up. Click OK and the Units should be paired now. The LED on the AirUnit will turn solid Green.
 
+#### **Selecting FCC/CE settings**
 
+1. Select![](../.gitbook/assets/windowsqgc.ico)and scroll down in General Tab
+2. Select RF Authentication option and choose the relevant setting for your region.
+
+\*\*\*\*
 
