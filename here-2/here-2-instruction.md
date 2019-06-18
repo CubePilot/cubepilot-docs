@@ -46,7 +46,7 @@ Launch Mission Planner. Click “Initial Setup,” then “Load custom firmware.
 
 ![Step 7: Enable CAN](../.gitbook/assets/step-7.jpg)
 
-Click “Config/Tuning,” then “Full Parameter List,” then search for “CAN\_,” change CAN\_P1\_DRIVER to 1 and click “Write Params.”
+Click **Config/Tuning** then **Full Parameter List** then search for **CAN\_**, change **CAN\_P1\_DRIVER** to **1** and click **Write Params**.
 
 ## Step 8: Reboot the cube
 
@@ -56,7 +56,7 @@ Unplug the USB cable, plug it back in and reconnect Mission Planner.
 
 ![Step 9: Using the Mission Planner SLCAN interface](../.gitbook/assets/step-9.jpg)
 
-Click “Initial Setup,” then “Optional Hardware,” then UAVCAN, then “SLCan Mode CAN1.” Connected CAN devices \(in this case, a Here 2\) will be listed.
+Click **Initial Setup**, then **Optional Hardware**, then UAVCAN, then **SLCan Mode CAN1**. Connected CAN devices \(in this case, a Here 2\) will be listed.
 
 ## Step 10: Flash the bootloader updater
 
@@ -64,7 +64,7 @@ Click “Initial Setup,” then “Optional Hardware,” then UAVCAN, then “SL
 
 The bootloader updater performs the procedure listed to the left, which will start immediately after the firmware update completes.
 
-On the Here 2 entry in the list, select “Update,” navigate to the bootloader\_updater file and open it. After this point, DO NOT DISCONNECT POWER UNTIL THE LEDS ARE EITHER GREEN OR YELLOW, OR 3 MINUTES HAVE ELAPSED.
+On the Here 2 entry in the list, select **Update**, navigate to the **bootloader\_updater** file and open it. After this point, **DO NOT DISCONNECT POWER UNTIL THE LEDS ARE EITHER GREEN OR YELLOW, OR 3 MINUTES HAVE ELAPSED.**
 
 {% file src="../.gitbook/assets/here2\_bootloader\_updater-crc.bin" %}
 
