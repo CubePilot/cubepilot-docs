@@ -70,9 +70,9 @@ On the Here 2 entry in the list, select **Update**, navigate to the **bootloader
 
 ## Step 11: Flash the application
 
-Follow the same procedure as in Step 10, but select the file Here2\_com.hex.here\_2.1 file instead.
+Follow the same procedure as in Step 10, but select the Here2\_com.hex.here\_2.1-crc.bin file instead.
 
-{% file src="../.gitbook/assets/here2\_com.hex.here\_2.1-crc.bin" %}
+Download link: [Here2_com.hex.here_2.1-crc.bin](https://drive.google.com/file/d/1k58daEDRUsKpHaeh_X033cuORToroe74/view?usp=sharing)
 
 
 
