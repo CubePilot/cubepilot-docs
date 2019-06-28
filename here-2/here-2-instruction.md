@@ -72,7 +72,7 @@ On the Here 2 entry in the list, select **Update**, navigate to the **bootloader
 
 Follow the same procedure as in Step 10, but select the Here2\_com.hex.here\_2.1-crc.bin file instead.
 
-Download link: [Here2_com.hex.here_2.1-crc.bin](https://drive.google.com/file/d/1k58daEDRUsKpHaeh_X033cuORToroe74/view?usp=sharing)
+{% file src="../.gitbook/assets/Here2\_com.hex.here\_2.1-crc.bin" %}
 
 
 
