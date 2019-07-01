@@ -30,7 +30,7 @@ Using the supplied USB cable, connect the Cube to your computer.
 
 The required version of mission planner is 1.3.66 or later. Mission planner can be retrieved from
 
-{% embed url="https://firmware.ardupilot.org" %}
+{% embed url="https://firmware.ardupilot.org" caption="" %}
 
 ## Step 5: Download ArduCopter master
 
@@ -72,7 +72,5 @@ On the Here 2 entry in the list, select **Update**, navigate to the **bootloader
 
 Follow the same procedure as in Step 10, but select the Here2\_com.hex.here\_2.1-crc.bin file instead.
 
-{% file src="../.gitbook/assets/Here2\_com.hex.here\_2.1-crc.bin" %}
-
-
+{% file src="../.gitbook/assets/here2\_com.hex.here\_2.1-crc.bin" %}
 
