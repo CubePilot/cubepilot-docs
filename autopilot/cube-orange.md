@@ -292,4 +292,14 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | 55 | VDD\_BRICK\_VALID | I | Main Power valid signal |
 | 56 | FMU\_CH4\_PROT | O | FMU PWM Output Channel 4 |
 | 57 | VDD\_BACKUP\_VALID | I | Backup Power valid Signal |
+| 58 | FMU\_CH5\_PROT | O | FMU PWM Output Channel 5 |
+| 59 | VBUS\_VALID | I | USB bus valid signal |
+| 60 | FMU\_CH6\_PROT | O | FMU PWM Output Channel 6 |
+| 61 | VDD\_5V\_IN\_PROT | I | Main power \(5V\) into FMU from power selection |
+| 62 | PPM\_SBUS\_PROT | I | PPM / S.Bus Signal Input |
+| 63 | VDD\_5V\_IN\_PROT | I | Main power \(5V\) into FMU from power selection |
+| 64 | S.BUS\_OUT | O | S.Bus Signal Output |
+| 65 | IO\_VDD\_5V5 | O | IO VDD 5.5 V |
+| 66 | IO\_CH8\_PROT | O | I/O PWM Output Channel 8 |
+| 67 | SPI\_EXT\_MISO | I | External SPI, for Debug only |
 
