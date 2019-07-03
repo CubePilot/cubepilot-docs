@@ -12,3 +12,8 @@
 
 * [Here 2 Instruction](here-2/here-2-instruction.md)
 
+## Autopilot
+
+* [Cube Orange](autopilot/cube-orange.md)
+* [Cube Yellow](autopilot/cube-yellow.md)
+
