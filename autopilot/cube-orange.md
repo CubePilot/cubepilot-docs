@@ -302,4 +302,19 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | 65 | IO\_VDD\_5V5 | O | IO VDD 5.5 V |
 | 66 | IO\_CH8\_PROT | O | I/O PWM Output Channel 8 |
 | 67 | SPI\_EXT\_MISO | I | External SPI, for Debug only |
+| 68 | IO\_CH7\_PROT | O | I/O PWM Channel 7 |
+| 69 | IO\_SWDIO | I/O | I/O serial wire debug |
+| 70 | IO\_CH6\_PROT | O | I/O PWM Output Channel 6 |
+| 71 | IO\_SWCLK | O | I/O Serial Wire Debug Clock |
+| 72 | IO\_CH5\_PROT | O | I/O PWM Output Channel 5 |
+| 73 | SPI\_EXT\_SCK | O | External SPI, for Debug only |
+| 74 | IO\_CH4\_PROT | O | I/O PWM Output Channel 4 |
+| 75 | IO\_!RESET | I | I/O Reset Pin |
+| 76 | IO\_CH3\_PROT | O | I/O PWM Output Channel 3 |
+| 77 | CAN\_L\_1 | I/O | FMU CAN bus Low Signal Driver |
+| 78 | IO\_CH2\_PROT | O | I/O PWM Output Channel 2 |
+| 79 | CAN\_H\_1 | I/O | FMU CAN bus High Signal Driver |
+| 80  | IO\_CH1\_PROT | O | I/O PWM Output Channel 1 |
+
+
 
