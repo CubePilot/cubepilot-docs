@@ -316,5 +316,11 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | 79 | CAN\_H\_1 | I/O | FMU CAN bus High Signal Driver |
 | 80  | IO\_CH1\_PROT | O | I/O PWM Output Channel 1 |
 
+## Serial Ports Data
 
+### Port Interface and Pin Label
+
+![Port Interface and Pin Label](../.gitbook/assets/port-interface-and-pin-label.jpg)
+
+## SERIAL 1 / UART 1 \| Port: TELEM1
 
