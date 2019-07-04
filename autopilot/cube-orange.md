@@ -339,4 +339,9 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | Pin | Name | I/O | Voltage | Cable Colour | Definition |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | OUT | 5V | RED/GRAY | VCC |
+| 2 | SERIAL\_2\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 2 TX \(Transmit Data\) |
+| 3 | SERIAL\_2\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 2 RX \(Receive Data\) |
+| 4 | SERIAL\_2\_CTS \(TX\) | OUT | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 2 CTS \(Clear To Send\) |
+| 5 | SERIAL\_2\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 2 RTS \(Request To Send\) |
+| 6 | GND |  | GND | BLACK | GND |
 
