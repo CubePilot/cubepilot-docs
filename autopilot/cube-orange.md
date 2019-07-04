@@ -345,3 +345,38 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | 5 | SERIAL\_2\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 2 RTS \(Request To Send\) |
 | 6 | GND |  | GND | BLACK | GND |
 
+## SERIAL 3 / UART 3 \(GPS\) / I2C 1 \| Port: GPS1
+
+| Pin | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | IN | 5V | RED | VCC Power Supply To GPS From AP |
+| 2 | SERIAL\_3\_RX | IN | 3.3 V - 5.0 V TTL | BLACK | UART 3 RX \(Receive Data\) |
+| 3 | SERIAL\_3\_TX | OUT | 3.3 V - 5.0 V TTL | BLACK | UART 3 TX \(Transmit Data\) |
+| 4 | I2C\_1\_SCL | IN | 3.3 V | BLACK | I2C 1 Clock Signal |
+| 5 | I2C\_1\_SDA | IN/OUT | 3.3 V | BLACK | I2C 1 Serial Data |
+| 6 | BUTTON |  | GND | BLACK | Signal shorted to GND on press |
+| 7 | IO\_LED\_SAFET\_PROT |  | GND | BLACK | LED Driver For Safety Button |
+| 8 | GND |  | GND | BLACK | GND |
+
+## SERIAL 4 / UART 4 / I2C 2 \| Port: GPS2
+
+| Pin | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | 5V | RED/GRAY | VCC Power Supply To GPS From Application Processor \(AP\) |
+| 2 | SERIAL\_4\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 4 TX \(Transmit Data\) |
+| 3 | SERIAL\_4\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 4 RX \(Receive Data\) |
+| 4 | I2C\_2\_SCL | OUT | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 Clock Signal |
+| 5 | I2C\_2\_SDA | IN | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 Serial Data |
+| 6 | GND |  | GND | BLACK | GND |
+
+## SERIAL 5 / UART 5 \(Debug Console\) / S.Bus Output \| Port: CONS SBUSo
+
+| Pin | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 SBUSo | S.Bus\_Out | OUT |  |  | S.Bus Signal Output |
+| 2 CONS | SERIAL\_5\_TX | OUT | 3.3 V - 5.0 V TTL |  |  |
+| 3 SBUSo | VDD\_SERVO | OUT | Servo Voltage |  |  |
+| 4 CONS | SERIAL\_5\_RX | IN | 3.3 V - 5.0 V TTL |  | UART 5 RX \(Receive Data\) |
+| 5 SBUSo | GND |  | GND |  | GND |
+| 6 CONS | GND |  | GND |  | GND |
+
