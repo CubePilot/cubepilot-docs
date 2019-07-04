@@ -72,8 +72,9 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | Type of Sensors | Model |
 | :--- | :--- |
 | Accelerometer | ICM20948 / ICM20649 / ICM20602 |
-| Gyroscope | L3GD20 / ICM20649 / ICM20602 |
+| Gyroscope | ICM20649 / ICM20602 |
 | Barometric Pressure Sensor | MS5611 |
+| Magnetometer | ICM20948 |
 
 ## Ports Definition
 
@@ -323,4 +324,13 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 ![Port Interface and Pin Label](../.gitbook/assets/port-interface-and-pin-label.jpg)
 
 ## SERIAL 1 / UART 1 \| Port: TELEM1
+
+| Pin | Name | I/O | Voltage | Wire Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1  | VCC\_5V | OUT | 5V | RED/GRAY | VCC |
+| 2 | SERIAL\_1\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 1 TX \(Transmit Data\) |
+| 3 | SERIAL\_1\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 1 RX \(Receive Data\) |
+| 4 | SERIAL\_1\_CTS \(TX\) | OUT | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 1 CTS \(Clear To Send\) |
+| 5 | SERIAL\_1\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 1 RTS \(Request To Send\) |
+| 6 | GND |  | GND | BLACK | GND |
 
