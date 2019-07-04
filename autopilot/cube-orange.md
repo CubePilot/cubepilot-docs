@@ -73,7 +73,7 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | :--- | :--- |
 | Accelerometer | ICM20948 / ICM20649 / ICM20602 |
 | Gyroscope | ICM20649 / ICM20602 |
-| Barometric Pressure Sensor | MS5611 |
+| Barometric Pressure Sensor | MS5611x2 |
 | Magnetometer | ICM20948 |
 
 ## Ports Definition
