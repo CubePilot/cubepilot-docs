@@ -68,7 +68,7 @@ Cube Orange can pilot any kind of Plane, Copter and Rover with ground station ap
 | Processor | Model |
 | :--- | :--- |
 | Main Processor | STM32H753VIT6 \(32 Bit ARM® Cortex®-M7, 400 MHz, 2 MB flash, 864 KB SRAM\) |
-| Coprocessor | STM32F100 \(32 Bit ARM® Cortex®-M3, 24 MHz, 8 KB SRAM\) |
+| Coprocessor | STM32F103 \(32 Bit ARM® Cortex®-M3, 24 MHz, 8 KB SRAM\) |
 
 ### Sensors <a id="sensors"></a>
 
