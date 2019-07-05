@@ -66,7 +66,7 @@ Cube Yellow can pilot any kind of Plane, Copter and Rover with ground station ap
 | Processor | Model |
 | :--- | :--- |
 | Main Processor | STM32F777VIT6 \(32 Bit ARM® Cortex®-M7, 216 MHz, 2 MB flash, 512 KB SRAM\) |
-| Coprocessor | STM32F100 \(32 Bit ARM® Cortex®-M3, 24 MHz, 8 KB SRAM\) |
+| Coprocessor | STM32F103 \(32 Bit ARM® Cortex®-M3, 24 MHz, 8 KB SRAM\) |
 
 ### Sensors <a id="sensors"></a>
 
