@@ -44,7 +44,7 @@ Cube Orange can pilot any kind of Plane, Copter and Rover with ground station ap
 ### Interfaces <a id="interfaces"></a>
 
 * 5 UART \(serial ports\): 1 with high-power capability; 2 with hardware flow control
-* 2 CAN bus \(1 with internal 3.3 V transceiver; 1 on expansion connector\)
+* 3 CAN bus \(1 with internal 3.3 V transceiver; 1 on expansion connector\)
 * Compatible with Spektrum DSM® signal input
 * Compatible with Futaba S.Bus® signal input and output
 * Compatible with PPM signal input
