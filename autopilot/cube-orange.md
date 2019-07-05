@@ -6,235 +6,150 @@ description: Cube Orange Flight Controller and Carrier Board Specification
 
 Cube Orange target to education, drones lovers and professional cost-effective flight control hardware providers.
 
-The new generation of more powerful H7 processor, stronger performance, faster, more secure, built-in triple redundant sensor, temperature control shock absorption IUM.
+The next generation high performance H7 processor has better performance, faster speed ,and more safe. Cube Orange is equipped with triple redundant sensors, which are temperature controlled and vibration damped IMUs.
 
-With the help of flight software, Cube Orange can completely fly any remotely controlled aircraft, helicopter or multi-rotor vehicle and become a more professional UAV platform.Getting Super Powers
+Cube Orange can pilot any kind of Plane, Copter and Rover with ground station application, proving that it is a professional Unmanned Aerial Vehicle \(UAV\) platform.
 
-## About Cube Orange
+## About Cube Orange <a id="about-cube-orange"></a>
 
-#### Design goals for this generation
+### Goals <a id="goals"></a>
 
-* An integrated all-in-one, integrated flight control 
-* Provide adequate data interfaces for most applications that do not require extensions 
-* Easier to use, more powerful processors, faster processing 
-* Better sensor performance, better power optimization 
-* Better microcontroller resources 
-* Higher reliability and reduced integration complexity 
-* Integrated encryption/hashing module for aes-128, -192 and -256 encryption hardware acceleration, support GCM and CCM, 3DES and hashing \(MD5, sha-1 and sha-2\) algorithm
+* An integrated and single board/box all-in-one flight controller
+* Provide sufficient interfaces for most applications without expansion
+* Improve ease-of-use ,processing performance and processing speed
+* Improve sensor performance and efficiency
+* Improve microcontroller resources
+* Better reliability and reduce integration complexity
+* Integrated cryptographic and HASH modules: AES-128, -192 and -256 for hardware acceleration. Support GCM, CCM, 3DES, and hash \(MD5, SHA-1, and SHA-2\) algorithm
 
-## Design feature
+### Characteristics <a id="characteristics"></a>
 
 * All-in-one design with integrated Flight Management Unit \(FMU\), I/O module and sufficient data ports 
-* Better industrial manufacturing capability, stronger processing performance and processing speed 
-* Separate power supplies for FMU and I/O  \(see power architecture section\)
-* Provides on-board backup batteries for the FMU and I/O SRAM \(static memory\)/RTC \(clock chip\) 
-* Can be integrated with standard power module
+* Improved manufacturability. Better performance and faster processing speed.
+* Separate power supplies for FMU and I/O \(see power architecture section\)
+* On-board backup battery for FMU and I/O SRAM / RTC
+* Integrable with the standard power brick
 
-## Features
+## Features <a id="features"></a>
 
-### Processor
+### Processor <a id="processor"></a>
 
-* 32 bit ARM ® STM32H753VIT6 Cortex ® - M7 \(double-precision floating-point unit\) 
-* 400 MHz/856 DMIPS/2.14 DMIPS/MHz \(Dhrystone 2.1\) 
-* 1 MB RAM:192 KB TCM RAM，64 KB ITCM RAM+128 KB DTCM RAM，864 KB + 4 KB SRAM 
-* 2 MB Flash 32 bit STM32F103 fault protection processor 
-* The microcontroller has a built-in JPEG hardware accelerator for fast JPEG encoding and decoding
+* 32bit ARM® STM32H753VIT6 Cortex®-M7（with DP-FPU）
+* 400 MHz/856 DMIPS/2.14 DMIPS/MHz \(Dhrystone 2.1\)
+* 1 Mbyte of RAM: 192 Kbytes of TCM RAM \(inc. 64 Kbytes of ITCM RAM + 128 Kbytes of DTCM RAM for time critical routines\), 864 Kbytes of user SRAM, and 4 Kbytes of SRAM in Backup domain
+* 2 MB Flash
+* 32 bit STM32F103 failsafe co-processor
+* Built-in Hardware JPEG Codec for fast and simple hardware compressor and decompressor of JPEG images
 
-## I/O Ports
+### Interfaces <a id="interfaces"></a>
 
-* 5 UART \(serial ports\): 1 with high-power capability; 2 with hardware flow control 
-* 2 CAN bus \(1 with internal 3.3 V transceiver; 1 on expansion connector\) Compatible with Spektrum DSM / DSM2 / DSM-X® Satellite input
-* Compatible with Futaba S.BUS® input and output
-* Compatible with PPM sum signal input 
-* 2 I2C bus
-* 1 SPI port
-* 3.3 V ADC inputs
+* 5 UART \(serial ports\): 1 with high-power capability; 2 with hardware flow control
+* 2 CAN bus \(1 with internal 3.3 V transceiver; 1 on expansion connector\)
+* Compatible with Spektrum DSM® signal input
+* Compatible with Futaba S.Bus® signal input and output
+* Compatible with PPM signal input
+* 2 I2C buses
+* Dual mode Quad-SPI running up to 133 MHz
+* 3.3 V ADC input
 * Internal micro USB port and external micro USB port extension
 
-## Power System and Protection
+### Power System <a id="power-system"></a>
 
-* deal diode controller with automatic failover 
-* High-power \(max. 10 V\) and high-current \(10 A+\) capability on servo rail 
-* Over-current protection on all peripheral outputs ，ESD protection on all inputs 
+* Ideal diode controller with automatic failover
+* High-power \(max. 10 V\) and high-current \(10 A+\) capability on servo rail
+* Overcurrent protection on all peripheral outputs
+* ESD protection on all inputs
 * Triple power supply redundancy by power module, servo rail, and USB port
 
-## Detail Specification
+## Detail Specification <a id="detail-specification"></a>
 
-### Processors
+### Processors <a id="processors"></a>
 
 | Processor | Model |
 | :--- | :--- |
 | Main Processor | STM32H753VIT6 \(32 Bit ARM® Cortex®-M7, 400 MHz, 2 MB flash, 864 KB SRAM\) |
-| Companion Processor | STM32F100 \(32 Bit ARM® Cortex®-M3, 24 MHz, 8 KB SRAM\) |
+| Coprocessor | STM32F100 \(32 Bit ARM® Cortex®-M3, 24 MHz, 8 KB SRAM\) |
 
-## Sensors
+### Sensors <a id="sensors"></a>
 
 | Type of Sensors | Model |
 | :--- | :--- |
 | Accelerometer | ICM20948 / ICM20649 / ICM20602 |
 | Gyroscope | ICM20948 / ICM20649 / ICM20602 |
-| Barometric Pressure Sensor | MS5611x2 |
-| Magnetometer | ICM20948 |
+| Compass | ICM20948 |
+| Barometric Pressure Sensor | MS5611×2 |
 
-## Ports Definition
+### Ports and Protocols <a id="ports-and-protocols"></a>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">Marking</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">SERIAL 1 / UART 1</td>
-      <td style="text-align:left">UART 1 with hardware flow control. 3.3V-5V CMOS TTL level, with ESD protection</td>
-      <td
-      style="text-align:left">TELEM1</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">SERIAL 2 / UART 2</td>
-      <td style="text-align:left">UART 2 with hardware flow control. 3.3V-5V CMOS TTL level, with ESD protection</td>
-      <td
-      style="text-align:left">TELEM2</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">SERIAL 3 / UART 3 /I2C 1</td>
-      <td style="text-align:left">3.3V-5V CMOS TTL level, with ESD protection</td>
-      <td style="text-align:left">GPS1</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">SERIAL 4 / UART 4 / I2C 2</td>
-      <td style="text-align:left">UART 4 / I2C 2, 3.3V-5V CMOS TTL level, with ESD protection</td>
-      <td style="text-align:left">GPS2</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">SERIAL 5 / UART 5 (Debug Console)</td>
-      <td style="text-align:left">UART 5. Debug Console</td>
-      <td style="text-align:left">CONS</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">I2C 2</td>
-      <td style="text-align:left">Independent I2C 2 port. Drivers are on-board on FMU. UN- buffered, and
-        pulled up to 3.3V COMS TTL level</td>
-      <td style="text-align:left">I2C2</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">CAN Bus</td>
-      <td style="text-align:left">Standard CAN Bus. Drivers are on-board on FMU.</td>
-      <td style="text-align:left">
-        <p>CAN1</p>
-        <p>CAN2</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">R/C IN</td>
-      <td style="text-align:left">Support CPPM / Futaba S.Bus signal input</td>
-      <td style="text-align:left">RCIN</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">DSM / USART</td>
-      <td style="text-align:left">Support Spektrum DSM&#xAE; Technology, DSM2 / DSMX Satellite compatible
-        input; I/O USART 1 RX</td>
-      <td style="text-align:left">SKPT</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">S.Bus OUT / RSSI IN</td>
-      <td style="text-align:left">S.Bus Servo I/O. PPM Output. Can be used as RSSI input</td>
-      <td style="text-align:left">SBUSo</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">POWER</td>
-      <td style="text-align:left">Main Power source and Backup Power source Input</td>
-      <td style="text-align:left">
-        <p>POWER1</p>
-        <p>POWER2</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">MAIN OUT</td>
-      <td style="text-align:left">Standard PWM Servo Signal I/O Port x 8</td>
-      <td style="text-align:left">MAINOUT</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">AUX OUT</td>
-      <td style="text-align:left">Programmable FMU GPIO x 6. Support PWM Signal Output</td>
-      <td style="text-align:left">AUX OUT</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">USB</td>
-      <td style="text-align:left">Human Machine Interface (HMI): LED, Speaker and USB extension</td>
-      <td
-      style="text-align:left">USB</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ADC</td>
-      <td style="text-align:left">3.3 V and 6.6 V ADC Input</td>
-      <td style="text-align:left">ADC</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">USB</td>
-      <td style="text-align:left">USB 2.0 (Micro - B 5 Pin)</td>
-      <td style="text-align:left">The Cube</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">SD Card / SDIO</td>
-      <td style="text-align:left">MicroSD Card for Log Storage; Support SDIO</td>
-      <td style="text-align:left">The Cube</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">SPI</td>
-      <td style="text-align:left">Built-in SPI port, with NO buffer, can only use short cable for connection.
-        Not recommended.</td>
-      <td style="text-align:left">Built-in contact</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Debug</td>
-      <td style="text-align:left">I/O and FMU Testing Port</td>
-      <td style="text-align:left">Built-in port</td>
-    </tr>
-  </tbody>
-</table>## Operating Conditions and Performance
+| Name | Function | Marking |
+| :--- | :--- | :--- |
+| SERIAL 1 / UART 1 | UART 1 with hardware flow control. 3.3V-5V CMOS TTL level, with ESD protection | `TELEM1` |
+| SERIAL 2 / UART 2 | UART 2 with hardware flow control. 3.3V-5V CMOS TTL level, with ESD protection | `TELEM2` |
+| SERIAL 3 / UART 3 / I2C 1 | 3.3V-5V CMOS TTL level, with ESD protection | `GPS1` |
+| SERIAL 4 / UART 4 / I2C 2 | UART 4 / I2C 2, 3.3V-5V CMOS TTL level, with ESD protection | `GPS2` |
+| SERIAL 5 / UART 5 \(Debug Console\) | UART 5, Debug Console | `CONS` |
+| I2C 2 | Independent I2C 2 port. Drivers are on-board on FMU. UN-buffered, and pulled up to 3.3V COMS TTL level | `I2C2` |
+| CAN Bus | Standard CAN Bus. Drivers are on-board on FMU. | `CAN1` `CAN2` |
+| R/C IN | Support CPPM / Futaba S.Bus signal input | `RCIN` |
+| DSM / USART | Support Spektrum DSM® Technology, Spektrum DSM2™ / DSMX™ compatible input; I/O USART 1 RX | `SKPT` |
+| S.Bus OUT / RSSI IN | S.Bus Servo I/O. PPM Output. Can be used as RSSI input | `SBUSo` |
+| POWER | Main Power source and Backup Power source Input | `POWER1` `POWER2` |
+| MAIN OUT | Standard PWM Servo Signal I/O Port x 8 | `MAIN OUT` |
+| AUX OUT | Programmable FMU GPIO x 6. Support PWM Signal Output | `AUX OUT` |
+| USB | Human Machine Interface \(HMI\): LED, Speaker and USB extension | `USB` |
+| ADC | 3.3 V ADC Input | `ADC` |
+| USB | USB 2.0 \(Micro - B 5 Pin\) | `Cube Orange` |
+| SD Card / SDIO | MicroSD Card for Log Storage; Support SDIO | `Cube Orange` |
+| SPI | Built-in SPI port, with NO buffer, can only use short cable for connection. Not recommended. | `Built-in contact point` |
+| Debug | I/O and FMU Testing Port | `Built-in port` |
+
+### Operating Conditions and Performance <a id="operating-conditions-and-performance"></a>
 
 | About | Description |
 | :--- | :--- |
-| POWER input voltage / rated input current | 4-5.7 V / 2.5 A; 0-20 V is safe for the system but it will not work |
+| POWER input voltage / rated input current | 4.1 - 5.7 V / 2.5 A; 0 - 20 V is safe for the system but it will not work |
 | POWER rated output / input power | 14 W |
-| USB port input voltage / rated input current | 4-5.7 V / 250 mA |
-| Servo rail input voltage | 4-10.5V |
+| USB port input voltage / rated input current | 4 - 5.7 V / 250 mA |
+| Servo rail input voltage | 4 - 10.5 V |
 | Waterproof performance | Not waterproof. External waterproof protection is needed |
-| Operation Temperature | -10°C / 55°C |
+| Operation Temperature | -10° / 55° |
 
-## Ports Standard and Definition
+### Size and Specifications <a id="size-and-specifications"></a>
 
-### Cube Orange Ports Standard
+| Type | Description |
+| :--- | :--- |
+| Cube Orange Size / Housing Material | 38.4x38.4x22 \(mm\) / CNC Aluminum Alloy |
+| Cube Orange Standard Carrier Board Size / Housing Material | 94.5x44.3x17.3 \(mm\) / ABS Molding |
 
-| Name | Type |
+### Ports Standard and Definition <a id="ports-standard-and-definition"></a>
+
+#### Cube Orange Ports Standard <a id="cube-orange-ports-standard"></a>
+
+| Name | Model |
 | :--- | :--- |
 | Cube Orange Connector | DF17 80P |
 | Cube Orange USB | USB 2.0 \(Micro - B 5 Pin\) |
 | Cube Orange SD Card Type | microSD Card |
 
-## Standard Carrier Board Ports Standard
+#### Standard Carrier Board Ports Standard <a id="standard-carrier-board-ports-standard"></a>
 
-| Ports | Connector Type |
+| Connector | Connector Type |
 | :--- | :--- |
-| GPS1 | JST-GH 1.25 mm \(8-pin\) |
-| GPS2 | JST-GH 1.25 mm \(6-pin\) |
-| TELEM1 | JST-GH 1.25 mm \(6-pin\) |
-| TELEM2 | JST-GH 1.25 mm \(6-pin\) |
-| I2C2 | JST-GH 1.25 mm \(4-pin\) |
-| USB | JST-GH 1.25 mm \(6-pin\) |
-| CAN1 | JST-GH 1.25 mm \(4-pin\) |
-| CAN2 | JST-GH 1.25 mm \(4-pin\) |
-| POWER1 | Molex CLIK-Mate 2mm \(6-pin\) |
-| POWER2 | Molex CLIK-Mate 2mm \(6-pin\) |
-| ADC | JST-GH 1.25 mm \(3-pin\) |
+| `GPS1` | JST-GH 1.25 mm \(8-pin\) |
+| `GPS2` | JST-GH 1.25 mm \(6-pin\) |
+| `TELEM1` | JST-GH 1.25 mm \(6-pin\) |
+| `TELEM2` | JST-GH 1.25 mm \(6-pin\) |
+| `I2C2` | JST-GH 1.25 mm \(4-pin\) |
+| `USB` | JST-GH 1.25 mm \(6-pin\) |
+| `CAN1` | JST-GH 1.25 mm \(4-pin\) |
+| `CAN2` | JST-GH 1.25 mm \(4-pin\) |
+| `POWER1` | Molex CLIK-Mate 2mm \(6-pin\) |
+| `POWER2` | Molex CLIK-Mate 2mm \(6-pin\) |
+| `ADC` | JST-GH 1.25 mm \(3-pin\) |
 
-## Cube Orange 80-pin DF17 Connector
+#### Cube Orange 80-Pin DF17 Connector Assignments <a id="cube-orange-80-pin-df17-connector-assignments"></a>
 
-| Pin \# | Name | I/O | Description |
+| Pin\# | Name | I/O | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | FMU\_SWDIO | I/O | FMU serial wire debug I/O |
 | 2 | FMU\_LED\_AMBER | O | Boot error LED \(drive only, controlled by FET\) |
@@ -315,41 +230,41 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | 77 | CAN\_L\_1 | I/O | FMU CAN bus Low Signal Driver |
 | 78 | IO\_CH2\_PROT | O | I/O PWM Output Channel 2 |
 | 79 | CAN\_H\_1 | I/O | FMU CAN bus High Signal Driver |
-| 80  | IO\_CH1\_PROT | O | I/O PWM Output Channel 1 |
+| 80 | IO\_CH1\_PROT | O | I/O PWM Output Channel 1 |
 
-## Serial Ports Data
+### Serial Ports Parameter <a id="serial-ports-parameter"></a>
 
-### Port Interface and Pin Label
+#### Port Interface and Pin Label <a id="port-interface-and-pin-label"></a>
 
-![Port Interface and Pin Label](../.gitbook/assets/port-interface-and-pin-label.jpg)
+![](../.gitbook/assets/ports-sequence.svg)
 
-## SERIAL 1 / UART 1 \| Port: TELEM1
+#### SERIAL 1 / UART 1 \| Port: `TELEM1` <a id="serial-1-uart-1-port-telem1"></a>
 
-| Pin | Name | I/O | Voltage | Wire Colour | Definition |
+| Pin \# | Name | I/O | Voltage | Wire Colour | Definition |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1  | VCC\_5V | OUT | 5V | RED/GRAY | VCC |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC |
 | 2 | SERIAL\_1\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 1 TX \(Transmit Data\) |
 | 3 | SERIAL\_1\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 1 RX \(Receive Data\) |
 | 4 | SERIAL\_1\_CTS \(TX\) | OUT | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 1 CTS \(Clear To Send\) |
 | 5 | SERIAL\_1\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 1 RTS \(Request To Send\) |
 | 6 | GND |  | GND | BLACK | GND |
 
-## SERIAL 2 / UART 2 \| Port: TELEM2
+#### SERIAL 2 / UART 2 \| Port: `TELEM2` <a id="serial-2-uart-2-port-telem2"></a>
 
-| Pin | Name | I/O | Voltage | Cable Colour | Definition |
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VCC\_5V | OUT | 5V | RED/GRAY | VCC |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC |
 | 2 | SERIAL\_2\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 2 TX \(Transmit Data\) |
 | 3 | SERIAL\_2\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 2 RX \(Receive Data\) |
 | 4 | SERIAL\_2\_CTS \(TX\) | OUT | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 2 CTS \(Clear To Send\) |
 | 5 | SERIAL\_2\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 2 RTS \(Request To Send\) |
 | 6 | GND |  | GND | BLACK | GND |
 
-## SERIAL 3 / UART 3 \(GPS\) / I2C 1 \| Port: GPS1
+#### SERIAL 3 / UART 3 \(GPS\) / I2C 1 \| Port: `GPS1` <a id="serial-3-uart-3-gps-i2c-1-port-gps1"></a>
 
-| Pin | Name | I/O | Voltage | Cable Colour | Definition |
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VCC\_5V | IN | 5V | RED | VCC Power Supply To GPS From AP |
+| 1 | VCC\_5V | IN | 5 V | RED | VCC Power Supply To GPS From AP |
 | 2 | SERIAL\_3\_RX | IN | 3.3 V - 5.0 V TTL | BLACK | UART 3 RX \(Receive Data\) |
 | 3 | SERIAL\_3\_TX | OUT | 3.3 V - 5.0 V TTL | BLACK | UART 3 TX \(Transmit Data\) |
 | 4 | I2C\_1\_SCL | IN | 3.3 V | BLACK | I2C 1 Clock Signal |
@@ -358,25 +273,343 @@ With the help of flight software, Cube Orange can completely fly any remotely co
 | 7 | IO\_LED\_SAFET\_PROT |  | GND | BLACK | LED Driver For Safety Button |
 | 8 | GND |  | GND | BLACK | GND |
 
-## SERIAL 4 / UART 4 / I2C 2 \| Port: GPS2
+#### SERIAL 4 / UART 4 / I2C 2 \| Port: `GPS2` <a id="serial-4-uart-4-i2c-2-port-gps2"></a>
 
-| Pin | Name | I/O | Voltage | Cable Colour | Definition |
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VCC\_5V | OUT | 5V | RED/GRAY | VCC Power Supply To GPS From Application Processor \(AP\) |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC Power Supply To GPS From AP |
 | 2 | SERIAL\_4\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 4 TX \(Transmit Data\) |
 | 3 | SERIAL\_4\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 4 RX \(Receive Data\) |
 | 4 | I2C\_2\_SCL | OUT | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 Clock Signal |
 | 5 | I2C\_2\_SDA | IN | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 Serial Data |
 | 6 | GND |  | GND | BLACK | GND |
 
-## SERIAL 5 / UART 5 \(Debug Console\) / S.Bus Output \| Port: CONS SBUSo
+#### SERIAL 5 / UART 5 \(Debug Console\) / S.Bus OUT \| Port: `CONS` `SBUSo` <a id="serial-5-uart-5-debug-console-s.bus-out-port-cons-sbuso"></a>
 
-| Pin | Name | I/O | Voltage | Cable Colour | Definition |
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 SBUSo | S.Bus\_Out | OUT |  |  | S.Bus Signal Output |
-| 2 CONS | SERIAL\_5\_TX | OUT | 3.3 V - 5.0 V TTL |  |  |
-| 3 SBUSo | VDD\_SERVO | OUT | Servo Voltage |  |  |
-| 4 CONS | SERIAL\_5\_RX | IN | 3.3 V - 5.0 V TTL |  | UART 5 RX \(Receive Data\) |
-| 5 SBUSo | GND |  | GND |  | GND |
-| 6 CONS | GND |  | GND |  | GND |
+| 1 `SBUSo` | S.Bus\_Out | OUT |  |  | S.Bus Signal Output |
+| 2 `CONS` | SERIAL\_5\_TX | OUT | 3.3 V - 5.0 V TTL |  | UART 5 TX \(Transmit Data\) |
+| 3 `SBUSo` | VDD\_SERVO | OUT | Servo Voltage |  |  |
+| 4 `CONS` | SERIAL\_5\_RX | IN | 3.3 V - 5.0 V TTL |  | UART 5 RX \(Receive Data\) |
+| 5 `SBUSo` | GND |  | GND |  | GND |
+| 6 `CONS` | GND |  | GND |  | GND |
+
+#### HMI \(Buzzer / USB / LED\) \| Port: `USB` <a id="hmi-buzzer-usb-led-port-usb"></a>
+
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | V BUS | OUT | 5 V | RED/GRAY | USB V BUS |
+| 2 | OTG\_DP1 | IN/OUT | 3.3 V | GREEN/BLACK | USB Data Positive \(D+\) |
+| 3 | OTG\_DM1 | IN/OUT | 3.3 V | RED/BLACK | USB Data Minus \(D-\) |
+| 4 | GND |  | GND | BLACK | GND |
+| 5 | BUZZER\_OUT | OUT | Battery Voltage | GRAY/BLACK | VBAT \(8.4 - 42 V\) |
+| 6 | FMU\_LED\_AMBER | OUT |  | BLACK | Boot / Error LED \(FW updates\) |
+
+#### I2C 2 \| Port: `I2C 2` <a id="i2c-2-port-i2c-2"></a>
+
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC Power Supply |
+| 2 | I2C\_2\_SCL | IN/OUT | 3.3 V \(PULLUPS\) | BLUE/BLACK | I2C 2 Clock Signal, Pull-up on AP |
+| 3 | I2C\_2\_SDA | IN/OUT | 3.3 V \(PULLUPS\) | GREEN/BLACK | I2C 2 Serial Data, Pull-up on AP |
+| 4 | GND |  | GND | BLACK | GND |
+
+#### Main Power POWER 1 \| Port: `POWER1` <a id="main-power-power-1-port-power1"></a>
+
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
+| 2 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
+| 3 | BATT\_CURRENT\_SENS\_PROT |  | 3.3 V | BLACK | Battery Current Connecter |
+| 4 | BATT\_CURRENT\_VOLTAGE\_PROT | IN | 3.3 V | BLACK | Battery Voltage Connecter |
+| 5 | GND |  | GND | BLACK | GND |
+| 6 | GND |  | GND | BLACK | GND |
+
+#### Backup Power POWER 2 \| Port: `POWER2` <a id="backup-power-power-2-port-power2"></a>
+
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
+| 2 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
+| 3 | AUX\_BATT\_CURRENT\_SENS |  | 3.3 V | BLACK | Aux Battery Current Connecter |
+| 4 | AUX\_BATT\_VOLTAGE\_SENS | IN | 3.3 V | BLACK | Aux Battery Voltage Connecter |
+| 5 | GND |  | GND | BLACK | GND Connection |
+| 6 | GND |  | GND | BLACK | GND |
+
+#### CAN 1 \| Port: `CAN1` <a id="can-1-port-can1"></a>
+
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC Power Supply |
+| 2 | CAN\_H\_1 | IN/OUT | 12 V | YELLOW/BLACK | CAN High |
+| 3 | CAN\_L\_1 | IN/OUT | 12 V | GREEN/BLACK | CAN Low |
+| 4 | GND |  | GND | BLACK | GND |
+
+#### CAN 2 \| Port: `CAN2` <a id="can-2-port-can2"></a>
+
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC Power Supply |
+| 2 | CAN\_H\_2 | IN/OUT | 12 V | YELLOW/BLACK | CAN High |
+| 3 | CAN\_L\_2 | IN/OUT | 12 V | GREEN/BLACK | CAN Low |
+| 4 | GND |  | GND | BLACK | GND |
+
+#### ADC \| Port: `ADC` <a id="adc-port-adc"></a>
+
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VDD\_5V\_PRES | OUT | 5 V | RED | Power Supply |
+| 2 | PRESSURE\_SENS\_IN | IN |  | BLACK |  |
+| 3 | GND |  | GND | BLACK | GND |
+
+#### IO USART 1 / DSM \| Port: `SPKT` <a id="io-usart-1-dsm-port-spkt"></a>
+
+| Pin \# | Name | I/O | Voltage | Cable Colour | Definition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | IO\_USART1\_RX\_SPECTRUM\_DSM | IN |  |  | IO USART 1 RX, DSM INPUT |
+| 2 | GND |  | GND |  | GND |
+| 3 | VDD\_3V3\_Spektrum | OUT | 3.3 V |  | Independent Power Supply |
+
+#### CPPM / S.BUS / SERVO SYSTEM \| Port: `RCIN` `MAIN OUT` `AUX OUT` <a id="cppm-s.bus-servo-system-port-rcin-main-out-aux-out"></a>
+
+| Pin \# | Name | I/O | Voltage | Definition |
+| :--- | :--- | :--- | :--- | :--- |
+| S - 1 | FMU\_CH1\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 2 | FMU\_CH2\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 3 | FMU\_CH3\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 4 | FMU\_CH4\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 5 | FMU\_CH5\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 6 | FMU\_CH6\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 7 | IO\_CH1\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 8 | IO\_CH2\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 9 | IO\_CH3\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 10 | IO\_CH4\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 11 | IO\_CH5\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 12 | IO\_CH6\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 13 | IO\_CH7\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 14 | IO\_CH8\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 15 | PPM\_SBUS\_PROT | IN/OUT | 3.3 V / 4.5 V Powered | PPM / S.Bus Signal |
+
+## Cube Orange System Structure <a id="cube-orange-system-structure"></a>
+
+### System Architecture <a id="system-architecture"></a>
+
+Cube Orange inherits the PX4FMU+PX4IO architecture from the previous generation, incorporating the 2 functional blocks in 1 single physical module.
+
+![](../.gitbook/assets/systemh7.png)
+
+systemH7
+
+#### Cube Orange FMU Main-Board <a id="cube-orange-fmu-main-board"></a>
+
+* STM32H753VIT6 \(MCU\); 2 MiB Flash memory; 1 Mbyte of RAM: 192 Kbytes of TCM RAM \(including 64 Kbytes of ITCM RAM + 128 Kbytes of DTCM RAM for time critical routines\), 864 Kbytes of user SRAM, and 4 Kbytes of SRAM in Backup domain
+* On-board 16 KiB SPI FRAM
+* ICM20649 integrated accelerometer and gyroscope
+* MS5611 Barometer
+* All sensors are connected via SPI
+* SDIO compatible Micro SD interfaces
+
+#### Vibration Damped Cube Orange IMU board <a id="vibration-damped-cube-orange-imu-board"></a>
+
+* ICM20948 integrated accelerometer, gyroscope, and magnetometer
+* ICM20602 integrated accelerometer and gyroscope
+* MS5611 Barometer
+* All sensors are connected via SPI
+
+#### I/O ports <a id="io-ports"></a>
+
+* 14 PWM servo outputs \(I/O x8，FMU x6\)
+* Spektrum DSM® signal input，Futaba S.Bus® signal input，PPM signal input
+* Analogue / PWM RSSI input
+* S.Bus servo output
+* 5 general purpose serial ports, 2 with full flow control
+* 2 I2C ports
+* 1 SPI port \(un-buffered. For short cables only. Not recommended for use\)
+* 2 CAN Bus interface
+* 3 Analogue inputs
+* High-powered piezo buzzer driver \(On Carrier board\)
+* High-powered RGB LED \(I2C driver compatible. Connected externally only\)
+* Safety switch / LED
+
+#### PWM Output <a id="pwm-output"></a>
+
+All PWM outputs are ESD-protected and designed to survive accidental mis-connection to avoid damaged. The servo drivers can drive a 50 pF servo input load through a 26 AWG servo cable over 2 m.
+
+PWM output can also be set as an independent GPIO. Note that these are not high-power outputs! The PWM drivers are designed for driving servos and similar logic input devices only, not relays or LEDs.
+
+**I/O PWM Output MAIN OUT**
+
+* Cube Orange has 8 PWM outputs that are connected to IO. They can be controlled directly by IO via RC input even if FMU is not activated \(eg: failsafe / manual mode\).
+* Multiple update rates can be supported on these outputs in 3 groups: 1 group of 4 and 2 groups of 2. PWM signal rates can be supported up to 400Hz.
+
+**FMU PWM Output AUX OUT**
+
+* 6 PWM outputs are connected to FMU as to reduce update latency. These outputs cannot be controlled by IO in failsafe conditions.
+* Multiple update rates can be supported on these outputs in 2 groups; 1 group of 4 and 2 group of 2. PWM signal rates can be supported up to 400Hz.
+
+#### Peripheral Ports <a id="peripheral-ports"></a>
+
+Cube Orange is connected with Standard Carrier Board through a single 80 pin DF17 connector. Peripherals are connected via the carrier board.
+
+#### Cube Orange Standard Carrier Board <a id="cube-orange-standard-carrier-board"></a>
+
+The Standard Carrier Board features separate connectors for each external ports \(with a few shares the same port\).
+
+| Connectors | Ports | Bus |
+| :--- | :--- | :--- |
+| `TELEM 1` | Serial 1 | UART 1 |
+| `TELEM 2` | Serial 2 | UART 2 |
+| `GPS 1` | Serial 3 | UART 3 / I2C 2 |
+| `GPS 2` | Serial 4 | UART 4 / I2C 1 |
+| `CONS` | Serial 5 | UART 5 |
+| `I2C 2` | I2C 2 | I2C 2 |
+
+* 5 serial ports are provided. **Serial 1** **\(`TELEM 1`\)** and **Serial 2 \(`TELEM 2`\)** feature full hardware flow control. **Serial 3 \(`GPS 1`\)** is recommended as for the GPS port because it provides the safety button \(with safety LED\) as well as I2C\(`I2C 1`\) for the compass and RGB LED. **Serial 4** **\(`GPS 2`\)** has I2C port also, but on the second bus \(I2C 2\). This allows connecting 2 compass modules at the same time. \(I2C 2 bus in Serial 4 Port is the same with I2C 2 bus in Port `I2C 2`\) **Serial 5 \(`CONS`\)** supports 3.3 V - 5 V CMOS logic level. It is buffered and ESD-protected.
+* **I2C** **port** drive directly with no buffer. Its diver is built-in on the FMU. It supports up to 3.3 V. Serial 3 \(GPS1\) contain I2C 1 bus; I2C 2 and Serial4 \(GPS 2\) Port contain the same I2C 2 bus.
+* **SPI port** has no buffer. It should only be used with short cable connection. Signals are 3.3 V - 5 V CMOS logic level. SPI is only available for test points on the Standard Carrier Board, along with a CS and INT pin.
+* Analogue 1-3\*\* **ports** are protected against inputs up to 12 V, but scaled for 0 - 3.3 V inputs.
+* **RSSI input** supports either PWM or analogue RSSI. This input shares a pin with S.Bus output, and only one may be connected at a time.
+* CPPM and S.Bus input can be connected to **`RCIN`** port. Spektrum DSM Signal Input port is **`SKPT`**.
+* **CAN ports** `CAN 1` and `CAN 2` are standard CAN bus. One end of the bus is connected to FMU main board. Drivers are FMU on-board.
+* **Piezo port** **\(`ADC`\)** will drive most of the piezo elements in range of 5 - 300 nF. The maximum voltage of the port is 3.3 V.
+
+#### Sensors <a id="sensors-1"></a>
+
+All flight sensors in Cube Orange are connected via SPI. On-board we have a ICM20649 \(Accelerometer + Gyroscope\) and a MS5611 \(Barometer\).
+
+On the vibration isolated board we have the ICM20948 \(Accelerometer + Gyroscope + Magnetometer\), another ICM20602 \(Accelerometer + Gyroscope\), and MS5611 \(Barometer\) are also used in SPI mode.
+
+Sensors on FMU Main Board and Vibration Isolated Board run on a separated bus respectively. Data-ready signals from all sensors are NOT ROUTED.
+
+### Power Architecture <a id="power-architecture"></a>
+
+Cube Orange separates the power management module from FMU. The servo rail is not considered as the primary backup power source of for the FMU. Instead, power from servo rail is reserved for the IO as a final failsafe. 3.3 V power will be distributed to FMU and I/O.
+
+* Split digital and analogue power domains for FMU and sensors.
+* Backup power for IO in case of FMU failure.
+
+![](../.gitbook/assets/system-power-distribution%20%281%29.svg)
+
+#### Power Management Module \(separated from the FMU\) <a id="power-management-module-separated-from-the-fmu"></a>
+
+Key features of power architecture of Cube Orange:
+
+* Single, independent 5 V supply for the flight controller and peripherals.
+* Allow power supply from Integration of 2 power bricks or compatible alternative, while current and voltage sensing is possible.
+* Low power consumption and heat dissipation.
+* Power distribution and monitoring for peripheral devices.
+* Protection against common wiring faults, under/over-voltage protection, over-current protection, and thermal protection.
+* Brownout detection and resilience.
+
+#### FMU and I/O Power Distribution <a id="fmu-and-io-power-distribution"></a>
+
+Both FMU and IO operate at 3.3 V, and each has its own private dual-channel voltage regulator. Each regulator features a power-on reset output tied to the regulator’s internal power-up and drop-out sequencing.
+
+In most cases, FMU should be powered via the power brick or a compatible off board regulator via the power port or auxiliary power rail \(USB power input\). In desktop testing scenarios, taking power from USB avoids the need for a BEC or similar servo power source \(though servos themselves will still need external power\).
+
+Other than power module, I/O will also accept power from the servo rail up to 10.5 V. Cube Orange supports both standard \(5 V\) and high-voltage \(up to 10 V\) servo power with some restrictions. This allows I/O to failover and switch to servo power in all cases if the main power supply is lost or interrupted.
+
+#### Power Sources <a id="power-sources"></a>
+
+Power can be supplied to Cube Orange via USB, power 1 port, or power 2 port. Each power connector is protected against reverse-polarity connections and back-powering from other sources. The FMU + I/O power is expected to be 250 mA, including all LEDs and the Piezo buzzer. Peripheral power is limited to 2.5 A in total.
+
+#### POWER 1 Power Module Input Port <a id="power-1-power-module-input-port"></a>
+
+The power port is the preferred power source for Cube Orange. It will always be selected if it is available.
+
+#### POWER 2 Aux Power Module Input Port <a id="power-2-aux-power-module-input-port"></a>
+
+Cube Orange introduces a backup power port. The connector is same as the primary power input. When Aux power module is connected to the system, Cube Orange and peripherals combined may draw up to 2.75 A in total as long as the power module can support the required current for the load. If the input voltage exceed 5.7 V, power from that input will be ignored.
+
+> Noted: Cube Orange will not power the servos.
+
+#### Servo Power <a id="servo-power"></a>
+
+Other than power module, the I/O chip can take power up to 10.5 V from the servo rail. This is used to provide power for manual mode when both of the the other two main power sources failed. Controller will get the control when the auto-pilot system failed. This is only useful for plane, and only if the I/O chip has been mapped correctly.
+
+> Noted: FMU and peripherals will NOT accept power from the servo rail.
+
+#### USB Power Input <a id="usb-power-input"></a>
+
+Power from USB is supported for software update, testing and development purposes. USB power is supplied to the peripheral ports for testing purposes. However total current consumption is typically limited to 500 mA, including peripherals in order to avoid overloading the host USB port.
+
+#### Multiple Power Sources <a id="multiple-power-sources"></a>
+
+When more than 1 power source is connected, power will be drawn from the highest-priority source with a valid input voltage. \(Priority as shown in the table below\)
+
+For example: When high priority is malfunctioned, system will use lower priority power source to maintain work. When higher priority is functional again, system will immediately switch back to higher priority power source. When the power input is out of the limit but within the protection range, this power source will not input any power \(cannot support for system operation\). Hence, system will not be damaged.
+
+| Power Sources | Priority | Regular range | Limit | Protection Range |
+| :--- | :--- | :--- | :--- | :--- |
+| POWER 1 | High \(Main\) | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 20 V |
+| POWER 2 | High \(Auxiliary\) | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 20 V |
+| SERVO | Medium \(Emergency\) | 4.8 V - 5.4 V | 4.1 V - 10.5 V | 0 V - 20 V |
+| USB | Low \(Optional\) | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 6 V |
+
+> I/O will accept power from the servo connector up to 10 V FOR MANUAL OVERRIDE. This allows I/O to failover to servo power in all cases if the main power supply is lost or interrupted. System will be UNPOWERED WHEN SERVO INPUT IS ABOVE 5.7 V AND POWER MODULE INPUT IS ABSENT. FMU and peripherals will NOT accept power from the servo rail.
+
+For each of the components listed, the ranges of input voltage over which the device can be powered from each input is shown below.
+
+| Power Sources | FMU | I/O | Peripherals |
+| :--- | :--- | :--- | :--- |
+| POWER 1 | 4 - 5.7 V | 4 - 5.7 V | 4 - 5.7 V，2.5 A \(MAX\) |
+| POWER 2 | 4 - 5.7 V | 4 - 5.7 V | 4 - 5.7 V，2.5 A \(MAX\) |
+| SERVO | NIL | 4 - 10.5 V | NIL |
+| USB | 4 - 5.7 V | 4 - 5.7 V | 4 - 5.7 V，250 mA \(MAX\) |
+
+#### Peripherals <a id="peripherals"></a>
+
+**Peripheral Power**
+
+Cube Orange provides power routing, over/under voltage detection and protection, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, and the power supply protection scheme ensures that no more than 5.5 V is presented to peripheral devices. Power supply will be disconnected from the peripherals when the available supply voltage falls below 2.7 V or rises above 5.7 V.
+
+Peripheral power is split into two groups, each of them are software controlled:
+
+1. **Serial 1\(`TELEM 1`\)** has a independent 1.5 A current limit with peak not more than 2A. The limitation should be sufficient for a 30 dBm transmitter of reasonable efficiency. This output is EMI filtered and its power is drawn directly from the USB / power module input.
+2. All other peripherals share a 1 A current limit and a single power switch. Peak current being drawn from this port should not exceed 1.5 A
+
+The Spektrum / DSM R/C interface \(**`SKTM`** port\) draws power from its own power regulator, enabled by the software. Spektrum receivers generally draw ~25 mA from `SKTM` port. S.Bus and CPPM receivers can be powered directly from the servo rail, and support supply voltage from servo.
+
+**Backup Battery**
+
+Both the FMU and IO micro-controllers feature battery-backed real-time clocks and SRAM. The on-board backup battery has sufficient capacity for the clock and SRAM, which is used to avoid data loss due to temporal power lost and ensure that system can be recovered after regaining power \(corresponding software may be needed for the recovery function\). The backup battery is recharged from the FMU 3.3 V rail on the Carrier board.
+
+**Voltage, Current and Fault Sensing**
+
+The battery voltage and current reported by both power module can be measured by the FMU. In addition, the 5V unregulated supply rail can also be measured \(to detect brownout conditions\). IO can measure the servo power rail voltage. Over-current conditions on the peripheral power ports can be detected by the FMU. Hardware lock-out prevents damage due to persistent short-circuits on these ports. The lockout can be reset by FMU software. The under/over voltage monitor on FMU provides an output that is used to hold FMU in reset during brown-out events.
+
+**EMI Filtering and Transient Protection \(On Carrier Board\)**
+
+EMI filtering is deployed at key points in the system by high-insertion-loss pass through filters. These filters are paired with TVS diodes at the peripheral connectors to suppress power transients.
+
+Reverse polarity protection is provided at every power inputs.
+
+USB signals are filtered and interrupted with a combined termination/TVS array.
+
+Most digital peripheral signals \(all PWM outputs, serial ports, I2C port\) are driven by ESD-enhanced buffers and specialized serial blocking resistors to reduce the risk of damage from transients or accidental short-circuits.
+
+## Package <a id="package"></a>
+
+### Cube Orange Standard Edition <a id="cube-orange-standard-edition"></a>
+
+Item \| Amount \|  
+----------------------------------------- \| ---- \|  
+Cube Orange Flight Controller \| x1 \|  
+Cube Orange Standard Carrier Board \| x1 \|  
+Mini Power Module \| x1 \|  
+Micro-SD Card \(Installed into Cube Orange\) \| x1 \|  
+Data Transfer Cable \| x2 \|  
+Power Supply Cable \| x1 \|  
+I2C Cable \| x1 \|  
+Buzzer \| x1 \|  
+Micro USB Cable \| x1 \|  
+GPS1 Cable \(with safe switch\) \| x1 \|  
+GPS2 Cable \| x1 \|  
+Mini Power Module Cable \| x1 \|  
+I2C Extension board \| x1 \|  
+Screw \(M2.5\*8\) \| x4 \|  
+3M double layer adhesive tape \| x9 \|
+
+Last update: 5th July 2019
 
