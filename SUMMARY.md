@@ -14,6 +14,3 @@
 
 ## Autopilot
 
-* [Cube Orange](autopilot/cube-orange.md)
-* [Cube Yellow](autopilot/cube-yellow.md)
-
