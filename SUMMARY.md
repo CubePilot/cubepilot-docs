@@ -14,3 +14,5 @@
 
 ## Autopilot
 
+* [The Cube Module Overview](autopilot/the-cube-module-overview.md)
+
