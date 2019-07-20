@@ -276,7 +276,7 @@ The Spektrum / DSM R/C interface draws power **\*from its own regulator\***, rat
 
 ~25mA.
 
-S.Bus and CPPM receivers powered directly from the servo rail, and must support the servo supply voltage.
+s.Bus and CPPM receivers are powered by a dedicated power supply. Please do not connect any servos to this power, only an RX by itself.
 
 **Capacitor Backup**
 
@@ -908,7 +908,7 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 
 ## Differences between Cube colours
 
-![](../.gitbook/assets/picture1.png)
+![](../.gitbook/assets/cube-series-spec-updated.png)
 
 ### List of features The Cube
 
