@@ -2,23 +2,6 @@
 
 ![](../.gitbook/assets/cube-overview.jpg)
 
-### Goals for this iteration of the platform are:
-
-* An integrated, single board / box flight controller.
-* Sufficient I/O for most applications without expansion.
-* Improved ease-of-use.
-* Improved sensor performance.
-* Improved microcontroller resources.
-* Increased reliability and reduced integration complexity.
-* Reduced BoM and manufacturing costs.
-
-### Key design points
-
-* Improved manufacturability designed for simpler mounting and case design.
-* Separate power supplies for FMU and IO \(see power architecture section\).
-* On-board battery backup for FMU and IO SRAM / RTC.
-* Integration with the standard power brick.
-
 ### The Cube Fixed Board
 
 * Black, Green, Blue, Purple STM32F427; flash 2MB, RAM 256KB.
