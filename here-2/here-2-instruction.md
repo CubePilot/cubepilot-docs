@@ -62,7 +62,7 @@ Click **Initial Setup**, then **Optional Hardware**, then UAVCAN, then **SLCan M
 
 ![](../.gitbook/assets/step10.jpg)
 
-The bootloader updater performs the procedure listed to the left, which will start immediately after the firmware update completes.
+The bootloader updater performs the procedure listed above, which will start immediately after the firmware update completes.
 
 On the Here 2 entry in the list, select **Update**, navigate to the **bootloader\_updater** file and open it. After this point, **DO NOT DISCONNECT POWER UNTIL THE LEDS ARE EITHER GREEN OR YELLOW, OR 3 MINUTES HAVE ELAPSED.**
 
@@ -70,7 +70,7 @@ On the Here 2 entry in the list, select **Update**, navigate to the **bootloader
 
 ## Step 11: Flash the application
 
-Follow the same procedure as in Step 10, but select the Here2\_com.hex.here\_2.1-crc.bin file instead.
+Select **Update** again, navigate to the **Here2\_com.hex.here\_2.1-crc.bin** file and open it to flash the latest firmware.
 
 {% file src="../.gitbook/assets/here2\_com.hex.here\_2.1-crc.bin" %}
 
