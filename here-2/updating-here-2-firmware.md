@@ -4,7 +4,7 @@ description: >-
   in Mission Planner to Update the Here 2 Bootloader
 ---
 
-# Here 2 Instruction
+# Updating Here 2 Firmware
 
 ## **Step 1: Switching the Here 2 to CAN mode**
 

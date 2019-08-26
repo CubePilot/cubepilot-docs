@@ -10,7 +10,7 @@
 
 ## HERE 2
 
-* [Here 2 Instruction](here-2/here-2-instruction.md)
+* [Updating Here 2 Firmware](here-2/updating-here-2-firmware.md)
 
 ## Autopilot
 
