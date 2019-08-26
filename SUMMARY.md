@@ -11,6 +11,7 @@
 ## HERE 2
 
 * [Updating Here 2 Firmware](here-2/updating-here-2-firmware.md)
+* [Here 2 CAN Mode Instruction](here-2/here-2-can-mode-instruction.md)
 
 ## Autopilot
 
