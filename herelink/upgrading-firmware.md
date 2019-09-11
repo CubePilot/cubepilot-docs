@@ -6,17 +6,17 @@ description: >-
 
 # Upgrading Firmware
 
-### Install Android Tools
+## Install Android Tools
 
 Download and Install latest Android SDK Platform tools from [here](https://developer.android.com/studio/releases/platform-tools) per the system you are using.
 
-### Download Firmware
+## Download Firmware
 
 Download the latest image from [Firmware Releases](firmware-releases.md) section.
 
-### Flashing Firmware
+## Flashing Firmware
 
-#### Windows
+### Windows
 
 1. Download both the Platform tools and the latest Firmware file
 2. Extract the downloaded archives using an Archive Tools like 7-zip.
@@ -28,9 +28,7 @@ Download the latest image from [Firmware Releases](firmware-releases.md) section
 8. After Remote Unit upgrade is complete, you can connect Air Unit and repeat the process from 3-5.
 9. The Units will automatically restart and will retain user settings from previous update
 
-{% embed url="https://www.youtube.com/watch?v=tKAkAtZOPvc" %}
-
-#### Mac/Linux
+### Mac/Linux
 
 Open Terminal and Execute following commands \(Replace RemoteUnit\_x\_x\_x with AirUnit\_x\_x\_x when trying to upgrade Air Unit\). Following commands will work if the files are present in the Downloads Directory, please modify the path in case you are using different directories.
 
@@ -52,6 +50,10 @@ Please Note that using **`flash_all_except_data_storage`** script will retain pr
 {% hint style="info" %}
 If you don't see any activity immediately after running the script, please disconnect and reconnect the Unit, and rerun the script. Also make sure that Air Unit is powered up separately when updating.
 {% endhint %}
+
+### VIDEO TUTORIAL \(Step by step\)
+
+{% embed url="https://www.youtube.com/watch?v=tKAkAtZOPvc" %}
 
 
 
