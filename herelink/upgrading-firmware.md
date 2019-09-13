@@ -53,7 +53,5 @@ If you don't see any activity immediately after running the script, please disco
 
 ### VIDEO TUTORIAL \(Step by step\)
 
-{% embed url="https://www.youtube.com/watch?v=tKAkAtZOPvc" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=tKAkAtZOPvc" caption="" %}
 

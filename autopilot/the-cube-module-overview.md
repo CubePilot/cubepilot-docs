@@ -91,43 +91,17 @@ All flight sensors in The Cube are connected via SPI.
 
 | CUBE TYPE | IMU1 | IMU2 | IMU3 | Baro1 | Baro2 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| Cube Black Blue, Green | MPU9250 | LSM303D/L3GD20 | MPU9250 | MS5611 | MS6511 |
+| Cube Purple | MPU9250 | NA | NA | MS5611 | NA |
+| Cube Orange/Yellow | ICM20948 | ICM20602 | ICM20649 | MS5611 | MS5611 |
+
+IMU1, Non-Isolated  
+IMU2 & 3, Isolated  
+Data-ready signals from all sensors are **NOT ROUTED on the Isolated IMU**
 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Cube Black Blue, Green</th>
-      <th style="text-align:left">MPU9250</th>
-      <th style="text-align:left">
-        <p>LSM303D</p>
-        <p>/L3GD20</p>
-      </th>
-      <th style="text-align:left">MPU9250</th>
-      <th style="text-align:left">MS5611</th>
-      <th style="text-align:left">MS6511</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| Cube Purple | MPU9250 | NA | NA | MS5611 | NA |
-| :--- | :--- | :--- | :--- | :--- | :--- |
 
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p>Cube Orange</p>
-        <p>/Yellow</p>
-      </th>
-      <th style="text-align:left">ICM20948</th>
-      <th style="text-align:left">ICM20602</th>
-      <th style="text-align:left">ICM20649</th>
-      <th style="text-align:left">MS5611</th>
-      <th style="text-align:left">MS5611</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>## Power Architecture
+## Power Architecture
 
 The Cube removes the power management from the FMU, the Servo rail is no longer the primary source of backup power for the FMU, and it leaves it there for the IO last chance failsafe.
 
@@ -169,7 +143,7 @@ The Cube supports both standard \(5V\) and high-voltage \(up to 10V\) servo powe
 
 IO will accept power from the servo connector up to 10V. This allows IO to failover to servo power in all cases if the main power supply is lost or interrupted.
 
-**\*FMU and peripherals will NOT accept power from the servo connector.\***
+**FMU and peripherals will NOT accept power from the servo connector.**
 
 ### Aux Power
 
@@ -201,39 +175,58 @@ In desktop testing scenarios, taking power from USB avoids the need for a BEC or
 
 For each of the components listed, the input voltage ranges over which the device can be powered from each input is shown.
 
-|  | **Brick port** | **Aux port** | **USB port** | **Servo rail** |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| FMU | 4 - 5.7V | 4 - 5.7V | 4 - 5.7V | NIL |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| IO | 4 - 5.7V | 4 – 5.7V | 4 - 5.7V | 4-10.5V |
-| :--- | :--- | :--- | :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Peripherals</th>
-      <th style="text-align:left">
-        <p>4 - 5.7V,</p>
-        <p>2.5A max</p>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"><b>Brick port</b>
       </th>
-      <th style="text-align:left">
-        <p>4 - 5.7V</p>
-        <p>2.5A max</p>
+      <th style="text-align:left"><b>Aux port</b>
       </th>
-      <th style="text-align:left">
-        <p>4 - 5.7V</p>
-        <p>250mA max</p>
+      <th style="text-align:left"><b>USB port</b>
       </th>
-      <th style="text-align:left">NIL</th>
+      <th style="text-align:left"><b>Servo rail</b>
+      </th>
     </tr>
   </thead>
-  <tbody></tbody>
-</table>**Peripheral Power \(on power module\)**
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>FMU</b>
+      </td>
+      <td style="text-align:left">4 - 5.7V</td>
+      <td style="text-align:left">4 - 5.7V</td>
+      <td style="text-align:left">4 - 5.7V</td>
+      <td style="text-align:left">NIL</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>IO</b>
+      </td>
+      <td style="text-align:left">4 - 5.7V</td>
+      <td style="text-align:left">4 - 5.7V</td>
+      <td style="text-align:left">4 - 5.7V</td>
+      <td style="text-align:left">4 - 10.5V</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Peripherals</b>
+      </td>
+      <td style="text-align:left">
+        <p>4 - 5.7V</p>
+        <p>2.5A max</p>
+      </td>
+      <td style="text-align:left">
+        <p>4 - 5.7V</p>
+        <p>2.5A max</p>
+      </td>
+      <td style="text-align:left">
+        <p>4 - 5.7V</p>
+        <p>2.5A max</p>
+      </td>
+      <td style="text-align:left">NIL</td>
+    </tr>
+  </tbody>
+</table>### Peripherals
+
+**Peripheral Power \(on power module\)**
 
 The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, and the power supply protection scheme ensures that no more than 5.5V is presented to peripheral devices. Power is disconnected from the peripherals when the available supply voltage falls below 2.7V, or rises above approximately 5.7V.
 
@@ -251,7 +244,7 @@ The Spektrum / DSM R/C interface draws power **\*from its own regulator\***, rat
 
 ~25mA.
 
-s.Bus and CPPM receivers are powered by a dedicated power supply. Please do not connect any servos to this power, only an RX by itself.
+S.Bus and CPPM receivers are powered by a dedicated power supply. Please do not connect any servos to this power, only an RX by itself.
 
 **Capacitor Backup**
 
@@ -315,33 +308,13 @@ Total connectivity
 
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
-
-
-| 1 | VDD 5V Brick | in | red / gray | Supply from Brick to AP |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 2 | VDD 5V Brick | in | red / gray | Supply from Brick to AP |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">3</th>
-      <th style="text-align:left">
-        <p>BATT_VOLTAGE</p>
-        <p>_SENS_PROT</p>
-      </th>
-      <th style="text-align:left">in</th>
-      <th style="text-align:left">black</th>
-      <th style="text-align:left">Battery voltage connector</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| 4 | BATT\_CURRENT\_SENS\_PROT | in | black | Battery current connector |
-| :--- | :--- | :--- | :--- | :--- |
-
+| 1 | VDD 5V Brick | in | red/gray | Supply from Brick to AP |
+| 2 | VDD 5V Brick | in  | red/gray | Supply from Brick to AP |
+| 3 | BATT\_VOLTAGE\_SENS\_PROT | in | black | Battery voltage connector |
+| 4 | BATT\_CURRENT | in | black | Battery voltage connector |
+|  | _\_SENS\_PROT_ |  |  |  |
+| 5 | GND | - | black | GND connection |
+| 6 | GND | - | black | GND connection |
 
 **Backup Power 6 pos**
 
@@ -412,9 +385,6 @@ _1 connector: GPS_
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | out | red / gray | Supply to GPS from AP |
 | 2 | MCU\_TX | out | yellow / black | 3.3V-5.0V TTL level, TX of AP |
-
-|  |  |  |  |  |
-| :--- | :--- | :--- | :--- | :--- |
 | 3 | MCU\_RX | in | green / black | 3.3V-5.0V TTL level, RX of AP |
 | 4 | SCL | out | gray / black | 3.3V-5.0V I2C2 |
 | 5 | SDA | in | gray / black | 3.3V-5.0V I2C2 |
@@ -450,101 +420,133 @@ New ADSB Carrier board
 
 IO DEBUG
 
-| **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 1 | VDD 5V PEIPH | OUT |  | 5V |
-| :--- | :--- | :--- | :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">2</th>
-      <th style="text-align:left">IO_TX</th>
-      <th style="text-align:left">out</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">
+      <th style="text-align:center"><b>Pin #</b>
+      </th>
+      <th style="text-align:center"><b>Name</b>
+      </th>
+      <th style="text-align:center"><b>Dir</b>
+      </th>
+      <th style="text-align:center"><b>Wire Color</b>
+      </th>
+      <th style="text-align:center"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">1</td>
+      <td style="text-align:center">VDD 5V PEIPH</td>
+      <td style="text-align:center">OUT</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">5V</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2</td>
+      <td style="text-align:center">IO_TX</td>
+      <td style="text-align:center">out</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">
         <p>3.3V-5.0V TTL level, TX of AP</p>
         <p>IO_uart1 TX</p>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
     <tr>
-      <th style="text-align:left">3</th>
-      <th style="text-align:left">IO_RX</th>
-      <th style="text-align:left">in</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">
-        <p>3.3V-5.0V TTL level, RX of AP</p>
-        <p>IO_uart1 RX</p>
-      </th>
+      <td style="text-align:center">3</td>
+      <td style="text-align:center">IO_RX</td>
+      <td style="text-align:center">in</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">3.3V - 5.0V TTL level, RX of AP IO_uart1 RX</td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table>| 4 | IO-SWDIO | I/O |  | Serial wire debug I/O |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 5 | IO-SWCLK | I/O |  | Serial wire Clock |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 6 | GND | out |  | GND |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 1 | VDD 5V PEIPH | OUT |  | 5V |
-| :--- | :--- | :--- | :--- | :--- |
-
+    <tr>
+      <td style="text-align:center">4</td>
+      <td style="text-align:center">IO-SWDIO</td>
+      <td style="text-align:center">I/O</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Serial wire debug I/O</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">5</td>
+      <td style="text-align:center">IO-SWCLK</td>
+      <td style="text-align:center">I/O</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Serial wire Clock</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">6</td>
+      <td style="text-align:center">GND</td>
+      <td style="text-align:center">out</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">GND</td>
+    </tr>
+  </tbody>
+</table>#### FMU DEBUG
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">2</th>
-      <th style="text-align:left">FMU_TX (SERIAL 5)</th>
-      <th style="text-align:left">out</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">
-        <p>3.3V-5.0V TTL level, TX of AP</p>
-        <p>FMU_uart5 TX</p>
+      <th style="text-align:center"><b>Pin #</b>
+      </th>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left"><b>Dir</b>
+      </th>
+      <th style="text-align:left"><b>Wire Color</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
       </th>
     </tr>
   </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
+  <tbody>
     <tr>
-      <th style="text-align:left">3</th>
-      <th style="text-align:left">FMU_RX (SERIAL 5)</th>
-      <th style="text-align:left">in</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">
+      <td style="text-align:center">1</td>
+      <td style="text-align:left">VDD 5V PEIPH</td>
+      <td style="text-align:left">OUT</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">5V</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2</td>
+      <td style="text-align:left">FMU_TX (SERIAL 5)</td>
+      <td style="text-align:left">out</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">3.3V-5.0V TTL level, TX of AP FMU_uart5 TX</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">3</td>
+      <td style="text-align:left">FMU_RX (SERIAL 5)</td>
+      <td style="text-align:left">in</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
         <p>3.3V-5.0V TTL level, RX of AP</p>
         <p>FMU_uart5 RX</p>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table>| 4 | FMU-SWDIO | I/O |  | Serial wire debug I/O |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 5 | FMU-SWCLK | I/O |  | Serial wire Clock |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 6 | GND | out |  | GND |
-| :--- | :--- | :--- | :--- | :--- |
-
+    <tr>
+      <td style="text-align:center">4</td>
+      <td style="text-align:left">FMU-SWDIO</td>
+      <td style="text-align:left">I/O</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Serial wire debug I/O</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">5</td>
+      <td style="text-align:left">FMU-SWCLK</td>
+      <td style="text-align:left">I/O</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Serial wire Clock</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">6</td>
+      <td style="text-align:left">GND</td>
+      <td style="text-align:left">out</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">GND</td>
+    </tr>
+  </tbody>
+</table>#### Analogue
 
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
@@ -585,9 +587,6 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 | 10 | MAIN\_OUT\_4 | out | black | 3.3V servo signal, servo rail power |
 | 9 | MAIN\_OUT\_3 | out | black | 3.3V servo signal, servo rail power |
 | 8 | MAIN\_OUT\_2 | out | black | 3.3V servo signal, servo rail power |
-
-|  |  |  |  |  |
-| :--- | :--- | :--- | :--- | :--- |
 | 7 | MAIN\_OUT\_1 | out | black | 3.3V servo signal, servo rail power |
 | 6 | AUX\_OUT\_6 | out | black | 3.3V servo signal, servo rail power |
 | 5 | AUX\_OUT\_5 | out | black | 3.3V servo signal, servo rail power |
@@ -598,141 +597,342 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 
 **80 pin header \(LONG TERM STANDARD!\)**
 
-| **Pin \#** | **Name** | **Dir** | **Description** |
-| :--- | :--- | :--- | :--- |
-| 1 | FMU-SWDIO | i/o | Single wire debug io |
-| 2 | !FMU- LED\_AMBER | o | Boot error LED \( drive only, use Fet to control led\) |
-| 3 | FMU-SWCLK | o | single wire debug clock |
-| 4 | I2C\_2\_SDA | i/o | I2C data io |
-| 5 | !EXTERN\_CS | o | chip select for external SPI \(NC, just for debugging\) |
-| 6 | I2C\_2\_SCL | o | i2c clock |
-| 7 | FMU-!RESET | i | reset pin for the FMU |
-| 8 |  |  | Future compatibility |
-| 9 | VDD\_SERVO\_IN | i | power for last resort i/o failsafe |
-| 10 |  |  | Future compatibility |
-| 11 | EXTERN\_DRDY | i | interrupt pin for external SPI \(NC, just for debugging\) |
-| 12 | SERIAL\_5\_RX | i |  |
-| 13 | GND |  | System GND |
-| 14 | SERIAL\_5\_TX | o |  |
-| 15 | GND |  | System GND |
-| 16 | SERIAL\_4\_RX | i |  |
-| 17 | SAFETY |  | Safety button input |
-| 18 | SERIAL\_4\_TX | o |  |
-| 19 | vdd\_3V3\_SPECT RUM\_EN | o | enable for the spectrum voltage regulator |
-| 20 | SERIAL\_3\_RX | i |  |
-| 21 | PREASSURE\_SE NS\_IN | a i | Analogue port, for pressure sensor, or Laser range finder, or Sonar |
-| 22 | SERIAL\_3\_TX | o |  |
-| 23 | AUX\_BATT\_VOL TAGE\_SENS | a i | Voltage sense for Aux battery input |
-| 24 | ALARM | o | Buzzer PWM signal |
-| 25 | AUX\_BATT\_CUR | a i | Current sense for Aux battery input |
-
-|  | RENT\_SENS |  |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 26 | IO-VDD\_3V3 | i | IO chip power, pinned through for debug |
-| :--- | :--- | :--- | :--- |
-
-
-| 27 | !VDD\_5V\_PERIP H\_EN | o | enable signal for Peripherals |
-| :--- | :--- | :--- | :--- |
-
-
-| 28 | !IO- LED\_SAFETY\_P ROT | o | IO-LED\_SAFETY pinned out for IRIS |
-| :--- | :--- | :--- | :--- |
-
-
-| 29 | VBUS | i | vbus, voltage from USB plug |
-| :--- | :--- | :--- | :--- |
-
-
-| 30 | SERIAL2\_RTS |  |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 31 | OTG\_DP1 | i/o | DATA P from USB |
-| :--- | :--- | :--- | :--- |
-
-
-| 32 | SERIAL2\_CTS |  |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 33 | OTG\_DM1 | i/o | DATA M from USB |
-| :--- | :--- | :--- | :--- |
-
-
-| 34 | SERIAL2\_RX | i |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 35 | I2C\_1\_SDA | i/o | I2C data i/o |
-| :--- | :--- | :--- | :--- |
-
-
-| 36 | SERIAL2\_TX | o |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 37 | I2C\_1\_SCL | o | I2C clock |
-| :--- | :--- | :--- | :--- |
-
-
-| 38 | SERIAL1\_RX | i |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 39 | CAN\_L\_2 | i/o | Canbus Low signal driver on FMU |
-| :--- | :--- | :--- | :--- |
-
-
-| 40 | SERIAL1\_TX | o |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 41 | CAN\_H\_2 | i/o | Canbus High signal driver on FMU |
-| :--- | :--- | :--- | :--- |
-
-
-| 42 | SERIAL1\_RTS |  |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 43 | !VDD\_5V\_PERIP H\_OC | i | error state message from Periph power supply |
-| :--- | :--- | :--- | :--- |
-
-
-| 44 | SERIAL1\_CTS |  |  |
-| :--- | :--- | :--- | :--- |
-
-
-| 45 | !VDD\_5V\_HIPOW ER\_OC | i | error state message from High power Periph power supply |
-| :--- | :--- | :--- | :--- |
-
-
-| 46 | IO-USART1\_TX | o |  |
-| :--- | :--- | :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">47</th>
-      <th style="text-align:left">
-        <p>BATT_VOLTAGE</p>
-        <p>_SENS_PROT</p>
+      <th style="text-align:left"><b>Pin #</b>
       </th>
-      <th style="text-align:left">a i</th>
-      <th style="text-align:left">Voltage sense from main battery</th>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left"><b>Dir</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
     </tr>
   </thead>
-  <tbody></tbody>
-</table>| 48 | IO- USART1\_RX\_SP ECTRUM\_DSM | o | signal from Spectrum receiver |
-| :--- | :--- | :--- | :--- |
+  <tbody>
+    <tr>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">FMU-SWDIO</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">Single wire debug io</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left">!FMU- LED_AMBER</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">Boot error LED ( drive only, use Fet to control led)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">FMU-SWCLK</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">single wire debug clock</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4</td>
+      <td style="text-align:left">I2C_2_SDA</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">I2C data io</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">5</td>
+      <td style="text-align:left">!EXTERN_CS</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">chip select for external SPI (NC, just for debugging)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">6</td>
+      <td style="text-align:left">I2C_2_SCL</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">i2c clock</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left">FMU-!RESET</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">reset pin for the FMU</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Future compatibility</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9</td>
+      <td style="text-align:left">VDD_SERVO_IN</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">power for last resort i/o failsafe</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Future compatibility</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">11</td>
+      <td style="text-align:left">EXTERN_DRDY</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">interrupt pin for external SPI (NC, just for debugging)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">12</td>
+      <td style="text-align:left">SERIAL_5_RX</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">13</td>
+      <td style="text-align:left">GND</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">System GND</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">14</td>
+      <td style="text-align:left">SERIAL_5_TX</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">15</td>
+      <td style="text-align:left">GND</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">System GND</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">16</td>
+      <td style="text-align:left">SERIAL_4_RX</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">17</td>
+      <td style="text-align:left">SAFETY</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Safety button input</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">18</td>
+      <td style="text-align:left">SERIAL_4_TX</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">19</td>
+      <td style="text-align:left">vdd_3V3_SPECT RUM_EN</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">enable for the spectrum voltage regulator</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">20</td>
+      <td style="text-align:left">SERIAL_3_RX</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">21</td>
+      <td style="text-align:left">PREASSURE_SE NS_IN</td>
+      <td style="text-align:left">a i</td>
+      <td style="text-align:left">Analogue port, for pressure sensor, or Laser range finder, or Sonar</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">22</td>
+      <td style="text-align:left">SERIAL_3_TX</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">23</td>
+      <td style="text-align:left">AUX_BATT_VOL TAGE_SENS</td>
+      <td style="text-align:left">a i</td>
+      <td style="text-align:left">Voltage sense for Aux battery input</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">24</td>
+      <td style="text-align:left">ALARM</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">Buzzer PWM signal</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">25</td>
+      <td style="text-align:left">AUX_BATT_CUR</td>
+      <td style="text-align:left">a i</td>
+      <td style="text-align:left">Current sense for Aux battery input</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">RENT_SENS</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">26</td>
+      <td style="text-align:left">IO-VDD_3V3</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">IO chip power, pinned through for debug</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">27</td>
+      <td style="text-align:left">!VDD_5V_PERIP H_EN</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">enable signal for Peripherals</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">28</td>
+      <td style="text-align:left">!IO- LED_SAFETY_P ROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">IO-LED_SAFETY pinned out for IRIS</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">29</td>
+      <td style="text-align:left">VBUS</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">vbus, voltage from USB plug</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">30</td>
+      <td style="text-align:left">SERIAL2_RTS</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">31</td>
+      <td style="text-align:left">OTG_DP1</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">DATA P from USB</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">32</td>
+      <td style="text-align:left">SERIAL2_CTS</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">33</td>
+      <td style="text-align:left">OTG_DM1</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">DATA M from USB</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">34</td>
+      <td style="text-align:left">SERIAL2_RX</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">35</td>
+      <td style="text-align:left">I2C_1_SDA</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">I2C data i/o</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">36</td>
+      <td style="text-align:left">SERIAL2_TX</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">37</td>
+      <td style="text-align:left">I2C_1_SCL</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">I2C clock</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">38</td>
+      <td style="text-align:left">SERIAL1_RX</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">39</td>
+      <td style="text-align:left">CAN_L_2</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">Canbus Low signal driver on FMU</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">40</td>
+      <td style="text-align:left">SERIAL1_TX</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">41</td>
+      <td style="text-align:left">CAN_H_2</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">Canbus High signal driver on FMU</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">42</td>
+      <td style="text-align:left">SERIAL1_RTS</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">43</td>
+      <td style="text-align:left">!VDD_5V_PERIP H_OC</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">error state message from Periph power supply</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">44</td>
+      <td style="text-align:left">SERIAL1_CTS</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">45</td>
+      <td style="text-align:left">!VDD_5V_HIPOW ER_OC</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">error state message from High power Periph power supply</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">46</td>
+      <td style="text-align:left">IO-USART1_TX</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">47</td>
+      <td style="text-align:left">
+        <p>BATT_VOLTAGE</p>
+        <p>_SENS_PROT</p>
+      </td>
+      <td style="text-align:left">a i</td>
+      <td style="text-align:left">Voltage sense from main battery</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">48</td>
+      <td style="text-align:left">IO- USART1_RX_SP ECTRUM_DSM</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">signal from Spectrum receiver</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">49</td>
+      <td style="text-align:left">BATT_CURRENT</td>
+      <td style="text-align:left">a i</td>
+      <td style="text-align:left">Current sense from main battery</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">_SENS_PROT</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">50</td>
+      <td style="text-align:left">FMU-CH1-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>|  |
+| :--- |
 
 
-| 49 | BATT\_CURRENT | a i | Current sense from main battery |
-| :--- | :--- | :--- | :--- |
+|  |
+| :--- |
 
 
 | 76 | IO-CH3-PROT | o |  |
