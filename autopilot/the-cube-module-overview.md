@@ -926,6 +926,186 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
       <td style="text-align:left">o</td>
       <td style="text-align:left"></td>
     </tr>
+    <tr>
+      <td style="text-align:left">51</td>
+      <td style="text-align:left">SPI_EXT_MOSI</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">External SPI, for debug only</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">52</td>
+      <td style="text-align:left">FMU-CH2-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">53</td>
+      <td style="text-align:left">VDD_SERVO</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">VDD_Servo, for monitoring servo bus</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">54</td>
+      <td style="text-align:left">FMU-CH3-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">55</td>
+      <td style="text-align:left">!VDD_BRICK_VALID</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">main power valid signal</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">56</td>
+      <td style="text-align:left">FMU-CH4-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">57</td>
+      <td style="text-align:left">!VDD_BACKUP_VALID</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">backup power valid signal</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">58</td>
+      <td style="text-align:left">FMU-CH5-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">59</td>
+      <td style="text-align:left">!VBUS_VALID</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">USB bus valid signal</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">60</td>
+      <td style="text-align:left">FMU-CH6-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">61</td>
+      <td style="text-align:left">VDD_5V_IN</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">main power into FMU from power selection</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">62</td>
+      <td style="text-align:left">PPM-SBUS-PROT</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">63</td>
+      <td style="text-align:left">VDD_5V_IN</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">main power into FMU from power selection</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">64</td>
+      <td style="text-align:left">S.BUS_OUT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">65</td>
+      <td style="text-align:left">IO-VDD_5V5</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">power to RX</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">66</td>
+      <td style="text-align:left">IO-CH8-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">67</td>
+      <td style="text-align:left">SPI_EXT_MISO</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">External SPI, for debug only</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">68</td>
+      <td style="text-align:left">IO-CH7-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">69</td>
+      <td style="text-align:left">IO-SWDIO</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">IO single wire debug i/o</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">70</td>
+      <td style="text-align:left">IO-CH6-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">71</td>
+      <td style="text-align:left">IO-SWCLK</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">IO single wire debug clock</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">72</td>
+      <td style="text-align:left">IO-CH5-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">73</td>
+      <td style="text-align:left">SPI_EXT_SCK</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left">External SPI, for debug only</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">74</td>
+      <td style="text-align:left">IO-CH4-PROT</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">75</td>
+      <td style="text-align:left">IO-!RESET</td>
+      <td style="text-align:left">i</td>
+      <td style="text-align:left">IO reset pin</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">76</td>
+      <td style="text-align:left">IO-CH3-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">77</td>
+      <td style="text-align:left">CAN_L_1</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">Canbus Low signal driver on FMU</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">78</td>
+      <td style="text-align:left">IO-CH2-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">79</td>
+      <td style="text-align:left">CAN_H_1</td>
+      <td style="text-align:left">i/o</td>
+      <td style="text-align:left">Canbus High signal driver on FMU</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">80</td>
+      <td style="text-align:left">IO-CH1-PROT</td>
+      <td style="text-align:left">o</td>
+      <td style="text-align:left"></td>
+    </tr>
   </tbody>
 </table>|  |
 | :--- |
@@ -934,13 +1114,6 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 |  |
 | :--- |
 
-
-| 76 | IO-CH3-PROT | o |  |
-| :--- | :--- | :--- | :--- |
-| 77 | CAN\_L\_1 | i/o | Canbus Low signal driver on FMU |
-| 78 | IO-CH2-PROT | o |  |
-| 79 | CAN\_H\_1 | i/o | Canbus High signal driver on FMU |
-| 80 | IO-CH1-PROT | o |  |
 
 ## Differences between Cube colours
 
