@@ -14,6 +14,11 @@
 * [Updating Here 2 Firmware](here-2/updating-here-2-firmware.md)
 * [Here 2 CAN Mode Instruction](here-2/here-2-can-mode-instruction.md)
 
+## Here+
+
+* [Here+V2 User Manual](here+/here+v2-user-manual.md)
+* [Untitled](here+/untitled-1.md)
+
 ## Autopilot
 
 * [The Cube Module Overview](autopilot/the-cube-module-overview.md)
