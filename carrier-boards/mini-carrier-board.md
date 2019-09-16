@@ -52,7 +52,7 @@ Red dot on plug side denotes pin 1
 
 ### Mini Cube 80-pin DF17 Connector Assignments \(same as the Cube Black\)
 
-| Pin\# | Name | Direction | Description |
+| Pin \# | Name | Direction | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | FMU\_SWDIO | I/O | FMU serial wire debug I/O |
 | 2 | FMU\_LED\_AMBER | O | Boot error LED \(drive only, controlled by FET\) |
@@ -139,7 +139,7 @@ Red dot on plug side denotes pin 1
 
 SERIAL 1 / UART 1 \| Connector： TELEM1
 
-| Pin\# | Name | Direction | Voltage | Wire Color | Caption |
+| Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC |
 | 2 | SERIAL\_1\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 1 TX \(Transmit Data\) |
@@ -150,7 +150,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 
 ### SERIAL 2 / UART 2 \| Connector： TELEM2
 
-| Pin\# | Name | Direction | Voltage | Wire Color | Caption |
+| Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC |
 | 2 | SERIAL\_2\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 2 TX \(Transmit Data\) |
@@ -161,7 +161,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 
 ### SERIAL 3 / UART 3 \(GPS\) / I2C 1 \| Connector： GPS1
 
-| Pin\# | Name | Direction | Voltage | Wire Color | Caption |
+| Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | IN | 5 V | RED | VCC Power Supply To GPS From AP |
 | 3 | SERIAL\_3\_TX | OUT | 3.3 V - 5.0 V TTL | BLACK | UART 3 TX \(Transmit Data\) |
@@ -171,6 +171,55 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 6 | BUTTON |  | GND | BLACK | Signal shorted to GND on press |
 | 7 | IO\_LED\_SAFET\_PROT |  | GND | BLACK | LED Driver For Safety Button |
 | 8 | GND |  | GND | BLACK | GND Connection |
+
+### SERIAL 4 / UART 4 / I2C 2 \| Connector： GPS2
+
+| Pin | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC Power Supply To GPS From AP |
+| 2 | SERIAL\_4\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 4 TX \(Transmit Data\) |
+| 3 | SERIAL\_4\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 4 RX \(Receive Data\) |
+| 4 | I2C\_2\_SCL | OUT | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 Clock Signal |
+| 5 | I2C\_2\_SDA | IN | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 Serial Data |
+| 6 | GND |  | GND | BLACK | GND |
+
+### SERIAL 5 / UART 5 \(Debug Console\) / S.Bus OUT \| Connector： CONS SBUSo
+
+| Pin \# | Name | Direction | Voltage | Caption |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 SBUSo | S.Bus\_Out | OUT |  | S.Bus Signal Output |
+| 2 CONS | SERIAL\_5\_TX | OUT | 3.3 V - 5.0 V TTL | UART 5 TX \(Transmit Data\) |
+| 3 SBUSo | VDD\_SERVO | OUT | SERVO |  |
+| 4 CONS | SERIAL\_5\_RX |  | 3.3 V - 5.0 V TTL | UART 5 RX \(Receive Data\) |
+| 5 SBUSo | GND |  | GND | GND |
+| 6 CONS | GND |  | GND | GND |
+
+### Buzzer \| Connector： BUZZER
+
+| Pin \# | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | BUZZER | OUT | Battery voltage | GRAY/BLACK | VBAT \(8.4 - 42 V\) |
+| 2 | GND |  | GND | BLACK | GND Connection |
+
+### I2C 2 \| Connector： I2C 2
+
+| Pin  | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | +5 V | RED/GRAY | Power supply |
+| 2 | SCL | IN/OUT | +3.3 V \(PULLUPS\) | BLUE/BLACK | SCL, 5 V level, pull-up on AP |
+| 3 | SDA | IN/OUT | +3.3 V \(PULLUPS\) | GREEN/BLACK | SDA, 5 V level, pull-up on AP |
+| 4 | GND |  | GND | BLACK | GND Connection |
+
+### Main Power POWER 1 \| Connector： POWER1
+
+| Pin \# | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
+| 2 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
+| 3 | BATT\_CURRENT\_SENS\_PROT | IN | 3.3 V | BLACK | Battery Current Connecter |
+| 4 | BATT\_VOLTAGE\_SENS\_PROT | IN | 3.3 V | BLACK | Battery Voltage Connecter |
+| 5 | GND |  | GND | BLACK | GND |
+| 6 | GND |  | GND | BLACK | GND |
 
 ### !! KEEP UPDATING !!
 
