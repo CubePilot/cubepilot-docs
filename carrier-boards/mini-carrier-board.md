@@ -221,5 +221,37 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 5 | GND |  | GND | BLACK | GND |
 | 6 | GND |  | GND | BLACK | GND |
 
+### Backup Power POWER 2 \| Connector： POWER2
+
+| Pin \# | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
+| 2 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
+| 3 | AUX\_BATT\_CURRENT\_SENS | IN | 3.3 V | BLACK | Aux Battery Current Connecter |
+| 4 | AUX\_BATT\_VOLTAGE\_SENS | IN | 3.3 V | BLACK | Aux Battery Voltage Connecter |
+| 5 | GND |  | GND | BLACK | GND Connection |
+| 6 | GND |  | GND | BLACK | GND |
+
+### CAN \| Connector： CAN2
+
+| Pin \# | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC Power Supply |
+| 2 | CAN\_H\_2 | IN/OUT | 12 V | YELLOW/BLACK | CAN High |
+| 3 | CAN\_L\_2 | IN/OUT | 12 V | GREEN/BLACK | CAN Low |
+| 4 | GND |  | GND | BLACK | GND |
+
+### IO USART 1 / DSM \| Connector： SPKT
+
+| Pin \# | Name | Direction | Voltage | Caption |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | IO\_USART1\_RX\_SPECTRUM\_DSM | IN |  | IO USART 1 RX, DSM INPUT |
+| 2 | GND |  | GND | GND |
+| 3 | VDD\_3V3\_Spektrum | OUT | 3.3 V | Independent Power Supply |
+
+### CPPM / S.BUS / SERVO SYSTEM \| Connector： RCIN MAIN OUT
+
+
+
 ### !! KEEP UPDATING !!
 
