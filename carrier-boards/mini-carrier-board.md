@@ -251,7 +251,27 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 
 ### CPPM / S.BUS / SERVO SYSTEM \| Connector： RCIN MAIN OUT
 
+| Pin \# | Name | Direction | Voltage | Caption |
+| :--- | :--- | :--- | :--- | :--- |
+| S - 1 | IO\_CH1\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 2 | IO\_CH2\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 3 | IO\_CH3\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 4 | IO\_CH4\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 5 | IO\_CH5\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 6 | IO\_CH6\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 7 | IO\_CH7\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 8 | IO\_CH8\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
+| S - 9 | PPM\_SBUS\_PROT | IN/OUT | 3.3 V / 4.5 V Powered | PPM / S.Bus Signal |
 
+### PPM S.bus signal and SPKT signal switching
 
-### !! KEEP UPDATING !!
+By default, Mini Carrier Board uses PPM and S.bus in RC IN. If you want to switch it to SPKT signals, you need to solder the carrier board as shown below:
+
+![](../.gitbook/assets/purple-cube-and-mini-carrier-board-7.jpg)
+
+The middle solder pad of the left hand side is shorted with 5v pin. Therefore, you need to break their connection on PCB. The middle solder pad of the right hand side is shorted with PPM/S.B, so break their connection on PCB as well.
+
+Solder the 3v3 solder pad with the middle solder pad at left hand side; and solder the SPKT solder pad with the middle solder pad at right hand side. So that RC IN port is compatible with SPKT signal.
+
+Last update: 10th Jan 2019
 
