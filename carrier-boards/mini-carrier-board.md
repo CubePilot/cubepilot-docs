@@ -79,6 +79,31 @@ Red dot on plug side denotes pin 1
 | 23 | AUX\_BATT\_VOLTAGE\_SENS | AI | Voltage sense for Aux battery input |
 | 24 | ALARM | O | Buzzer PWM signal |
 | 25 | AUX\_BATT\_CURRENT\_SENS | AI | Current sense for Aux battery input |
+| 26 | IO\_VDD\_3V3 | I | IO chip power, pinned through for debugging |
+| 27 | VDD\_5V\_PERIPH\_EN | O | Enable voltage supply for Peripherals |
+| 28 | IO\_LED\_SAFET\_PROT | O | IO-LED\_SAFETY\(safety LED\) pinned out for IRIS |
+| 29 | VBUS | I | USB VBus \(VDD\) |
+| 30 | SERIAL\_2\_RTS |  | UART 2 RTS \(Request To Send\) |
+| 31 | OTG\_DP1 | I/O | USB Data+ |
+| 32 | SERIAL\_2\_CTS |  | UART 2 CTS \(Clear To Send\) |
+| 33 | OTG\_DM1 | I/O | USB Data- |
+| 34 | SERIAL\_2\_RX | I | UART 2 RX \(Receive Data\) |
+| 35 | I2C\_1\_SDA | I/O | I2C data I/O |
+| 36 | SERIAL\_2\_TX | O | UART 2 TX \(Transmit Data\) |
+| 37 | I2C\_1\_SCL | O | I2C clock |
+| 38 | SERIAL\_1\_RX | I | UART 1 RX \(Receive Data\) |
+| 39 | CAN\_L\_2 | I/O | FMU CAN bus Low signal driver |
+| 40 | SERIAL\_1\_TX | O | UART 1 TX \(Transmit Data\) |
+| 41 | CAN\_H\_2 | I/O | FMU CAN bus High signal driver |
+| 42 | SERIAL\_1\_RTS |  | UART 1 RTS \(Request To Send\) |
+| 43 | VDD\_5V\_PERIPH\_OC | I | Error state message from peripheral power supply |
+| 44 | SERIAL\_1\_CTS |  | UART 1 CTS \(Clear To Send\) |
+| 45 | VDD\_5V\_HIPOWER\_OC | I | Error state message from High power peripheral power supply |
+| 46 | IO\_USART\_1\_TX | O | I/O USART 1 TX |
+| 47 | BATT\_VOLTAGE\_SENS\_PROT | AI | Voltage sense from main battery |
+| 48 | IO\_USART1\_RX\_SPECTRUM\_DSM | O | Signal from Spectrum receiver |
+| 49 | BATT\_CURRENT\_SENS\_PROT | AI | Current sense from main battery |
+| 50 | FMU\_CH1\_PROT | O | FMU PWM output channel 1 |
 
 ### !! KEEP UPDATING !!
 
