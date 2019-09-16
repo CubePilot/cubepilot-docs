@@ -104,6 +104,73 @@ Red dot on plug side denotes pin 1
 | 48 | IO\_USART1\_RX\_SPECTRUM\_DSM | O | Signal from Spectrum receiver |
 | 49 | BATT\_CURRENT\_SENS\_PROT | AI | Current sense from main battery |
 | 50 | FMU\_CH1\_PROT | O | FMU PWM output channel 1 |
+| 51 | SPI\_EXT\_MOSI | O | External SPI, for debug only |
+| 52 | FMU\_CH2\_PROT | O | FMU PWM output channel 2 |
+| 53 | VDD\_SERVO | I | VDD\_Servo, for monitoring servo bus |
+| 54 | FMU\_CH3\_PROT | O | FMU PWM output channel 3 |
+| 55 | VDD\_BRICK\_VALID | I | Main power valid signal |
+| 56 | FMU\_CH4\_PROT | O | FMU PWM output channel 4 |
+| 57 | VDD\_BACKUP\_VALID | I | Backup power valid signal |
+| 58 | FMU\_CH5\_PROT | O | FMU PWM output channel 5 |
+| 59 | VBUS\_VALID | I | USB bus valid signal |
+| 60 | FMU\_CH6\_PROT | O | FMU PWM output channel 6 |
+| 61 | VDD\_5V\_IN\_PROT | I | Main power \(5V\) into FMU from power selection |
+| 62 | PPM\_SBUS\_PROT | I | PPM / S.Bus signal input |
+| 63 | VDD\_5V\_IN\_PROT | I | Main power \(5V\) into FMU from power selection |
+| 64 | S.BUS\_OUT | O | S.Bus signal output |
+| 65 | IO\_VDD\_5V5 | O | IO VDD 5.5 V |
+| 66 | IO\_CH8\_PROT | O | I/O PWM output channel 8 |
+| 67 | SPI\_EXT\_MISO | I | External SPI, for debug only |
+| 68 | IO\_CH7\_PROT | O | I/O PWM output channel 7 |
+| 69 | IO\_SWDIO | I/O | I/O serial wire debug |
+| 70 | IO\_CH6\_PROT | O | I/O PWM output channel 6 |
+| 71 | IO\_SWCLK | O | I/O serial wire debug clock |
+| 72 | IO\_CH5\_PROT | O | I/O PWM output channel 5 |
+| 73 | SPI\_EXT\_SCK | O | External SPI, for debug only |
+| 74 | IO\_CH4\_PROT | O | I/O PWM output channel 4 |
+| 75 | IO\_!RESET | I | I/O reset pin |
+| 76 | IO\_CH3\_PROT | O | I/O PWM output channel 3 |
+| 77 | CAN\_L\_1 | I/O | FMU CAN bus Low signal driver |
+| 78 | IO\_CH2\_PROT | O | I/O PWM output channel 2 |
+| 79 | CAN\_H\_1 | I/O | FMU CAN bus High signal driver |
+| 80 | IO\_CH1\_PROT | O | I/O PWM output channel 1 |
+
+### Serial Ports Parameter and power distribution
+
+SERIAL 1 / UART 1 \| Connector： TELEM1
+
+| Pin\# | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC |
+| 2 | SERIAL\_1\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 1 TX \(Transmit Data\) |
+| 3 | SERIAL\_1\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 1 RX \(Receive Data\) |
+| 4 | SERIAL\_1\_CTS \(TX\) | OUT | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 1 CTS \(Clear To Send\) |
+| 5 | SERIAL\_1\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 1 RTS \(Request To Send\) |
+| 6 | GND |  | GND | BLACK | GND |
+
+### SERIAL 2 / UART 2 \| Connector： TELEM2
+
+| Pin\# | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | VCC |
+| 2 | SERIAL\_2\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | UART 2 TX \(Transmit Data\) |
+| 3 | SERIAL\_2\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | UART 2 RX \(Receive Data\) |
+| 4 | SERIAL\_2\_CTS \(TX\) | OUT | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 2 CTS \(Clear To Send\) |
+| 5 | SERIAL\_2\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 2 RTS \(Request To Send\) |
+| 6 | GND |  | GND | BLACK | GND |
+
+### SERIAL 3 / UART 3 \(GPS\) / I2C 1 \| Connector： GPS1
+
+| Pin\# | Name | Direction | Voltage | Wire Color | Caption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | VCC\_5V | IN | 5 V | RED | VCC Power Supply To GPS From AP |
+| 3 | SERIAL\_3\_TX | OUT | 3.3 V - 5.0 V TTL | BLACK | UART 3 TX \(Transmit Data\) |
+| 2 | SERIAL\_3\_RX | IN | 3.3 V - 5.0 V TTL | BLACK | UART 3 RX \(Receive Data\) |
+| 4 | I2C\_1\_SCL | IN | 3.3 V | BLACK | I2C 1 Clock Signal |
+| 5 | I2C\_1\_SDA | IN/OUT | 3.3 V | BLACK | I2C 1 Serial Data |
+| 6 | BUTTON |  | GND | BLACK | Signal shorted to GND on press |
+| 7 | IO\_LED\_SAFET\_PROT |  | GND | BLACK | LED Driver For Safety Button |
+| 8 | GND |  | GND | BLACK | GND Connection |
 
 ### !! KEEP UPDATING !!
 
