@@ -207,5 +207,41 @@ In Firmware image, unzip and select the downloaded 1.30 Firmware.
 
 In Flash Information Structure\(FIS\) File, select Flash.xml，which is located in the installation address of Ucentre software \(U-center\_v8.25→flash.xml\).
 
+![](../.gitbook/assets/here+v2-8.jpg)
+
+Click "OK" and wait for the firmware uploading to complete. For Here+ V1, uploading usually takes only a minute or less. Here+ V2 will take longer time. If the uploading is successful, the upgrade interface is displayed in green; if the upgrade is aborted, the interface is displayed in red. If the process is interrupted, or if it is not responding for a long time, the modules will need to be power cycled and uploading needs to be done again.
+
+#### Check Current Rover/Base Firmware Version
+
+When base/rover is already connected to U-center, click View, go to "View→Message View→ UBX → MON → VER". You will see the interface below:
+
+![](../.gitbook/assets/here+v2-9.jpg)
+
+As shown in the figure, the current firmware version is FWVER = HPG 1.30 REF, indicating that the current firmware version is 1.30 for base module.
+
+#### Here+ V2 Firmware Update
+
+**Preparation**
+
+| Tools |  |
+| :--- | :--- |
+| UART-USB converter |  |
+| Cables |  |
+| Hexagonal screw driver |  |
+
+![](../.gitbook/assets/here+v2-10.jpg)
+
+Connect the cable with UART-USB converter. Connect the red wire to 5V pin and black wire to GND pin.
+
+![](../.gitbook/assets/here+v2-11.jpg)
+
+Remove the cover of Here+ v2 with hexagonal screw driver \(You have to press and hold to remove the buckle\). Then replace the cable.
+
+![](../.gitbook/assets/here+v2-12.jpg)
+
+Plug the connector to the computer USB port. Check if all drivers are ready in device manager. If not, drivers can be downloaded here: [link to download connector driver ](http://winchiphead.com/download/CH341/CH341SER.ZIP)
+
+The correct driver should be "USB-SERIAL CH340\(COM\#\)" "\#" is the corresponding port number.
+
 **!!Updating in progress!!**
 
