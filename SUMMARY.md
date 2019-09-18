@@ -17,7 +17,6 @@
 ## Here+
 
 * [Here+V2 User Manual](here+/here+v2-user-manual.md)
-* [Untitled](here+/untitled-1.md)
 
 ## Autopilot
 
