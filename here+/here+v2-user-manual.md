@@ -241,7 +241,83 @@ Remove the cover of Here+ v2 with hexagonal screw driver \(You have to press and
 
 Plug the connector to the computer USB port. Check if all drivers are ready in device manager. If not, drivers can be downloaded here: [link to download connector driver ](http://winchiphead.com/download/CH341/CH341SER.ZIP)
 
-The correct driver should be "USB-SERIAL CH340\(COM\#\)" "\#" is the corresponding port number.
+The correct driver should be "USB-SERIAL CH340\(COM\#\)"   
+"\#" is the corresponding port number.
+
+![](../.gitbook/assets/here+v2-13.jpg)
+
+Open u-center and select the COM port for connector. Set the baud rate to 9600 then connect.
+
+![](../.gitbook/assets/here+v2-14.jpg)
+
+After connection, select "Tools&gt;legacy firmware update" to enter firmware update UI. Check the option "USB alternative update method" and select the firmware to be updated. \(firmware for here+ and here2+ are the same, please look for detailed procedures from the here+ update procedure\). Click OK to begin update.
+
+![](../.gitbook/assets/here+v2-15.jpg)
+
+Wait for the progress bar to finish. If the window turns green, update is successful.
+
+![](../.gitbook/assets/here+v2-16.jpg)
+
+If connection failed after the update window shows up, please change the baud rate to 115200 then update it twice \(it maybe still failed at the first retry so please retry it twice\).
+
+### Basic Operating Manual
+
+These instructions focus on the setup using Mission Planner on Windows, but HERE+ is also supported by QGroundControl.
+
+#### Base/Rover Survey by Mission Planner
+
+This part of the tutorial uses Mission Planner ground control software and Arducopter-3.5 flight control firmware for operating instructions. If you are using QGroundControl and PX4 firmware, please read:https:// docs.px4.io/en/advanced\_features/rtk-gps.html
+
+#### Preparation before operation
+
+To use HERE+ on a UAV, you need the following hardware： Computer, telemetry modules, here+ rover module, here+ Base Antenna, here+ Base, Tripod\(Stand\)
+
+![](../.gitbook/assets/here+v2-17.jpg)
+
+Before using, make sure the hardware are connected correctly：   
+**Ground side:** The base station module is connected to the computer port through USB port; a telemetry module is connected to another USB port of the same computer.   
+**UAV side:** HERE + rover module is connected to the flight controller GPS connector; telemetry module is connected to the TELEM interface.
+
+![](../.gitbook/assets/here+v2-18.jpg)
+
+Please place the base station in an outdoor environment with sufficient sky coverage to obtain a good satellite signal. Place the base station on a stable and elevated platform, such as a tripod.
+
+![](../.gitbook/assets/here+v2-19.jpg)
+
+**Base Module Setting using Mission Planner**
+
+Start with base module setup first. During the base station setup, the rover and the UAV do not need to be turned on. 
+
+Open the Mission Planner ground station software on your computer and go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
+
+![](../.gitbook/assets/here+v2-20.jpg)
+
+Select the correct base module com port in the top left corner and click connect. In the SurveyIn Acc section, enter the absolute geographic accuracy that you expect your HERE + base station to achieve. In the Time column, enter the minimum survey time you expect. Click on Restart, the ground station will transfer the data you have entered to the HERE + base module, the base module will start a new round of surveying. You will see the following page:
+
+![](../.gitbook/assets/here+v2-21.jpg)
+
+During the survey process, the right box will show the current survey status: **Position is invalid:** base station has not yet reached a valid location;   
+**In Progress:** survey is still in progress；   
+**Duration:** The number of seconds that the current surveying task has been executed;   
+**Observation:** the number of observations acquired;   
+**Current Acc:** Absolute geographic accuracy that the current base station can achieve;   
+**Green bar** at the lower part of the Mission Planner page shows the satellites being detected and the signal strength related to each satellite.
+
+The base station needs a certain amount of time to meet the accuracy requirements of your input. Testing shows that, in an open area without shelter, to achieve the absolute accuracy of 2m takes a few minutes; to reach the absolute accuracy of less than 30cm takes around an hour; to reach the accuracy of 10cm takes a few hours.
+
+It should be noted that the absolute geographic accuracy of the base station here will affect the absolute geographic accuracy of the rover module without affecting the relative accuracy between the base station and rover. If your application does not require UAV with high absolute geographic accuracy, you do not need to set the base station’s precision too high, resulting in long survey time.
+
+Even if the accuracy of the base station is 1.5 to 2 m, the position accuracy of the rover module relative to the base station can still reach centimeter level.
+
+After the survey is complete, Mission Planner will display the following page:
+
+![](../.gitbook/assets/here+v2-22.jpg)
+
+In the RTCM box it shows that the base status indicator is green and both the GPS and Glonass satellite systems are green \(if you want to change the satellite system, refer to the following section\). The box on the right says "Position is valid".
+
+To store the current location in the Mission Planner: Click "Save Current Pos", enter a name in the dialog box, and click "OK". As shown below, you can see your saved location in the list. Click the "Use" button for the location you saved. The base station will enter the fixed mode and the status will show "Using FixedLLA". In the future, if you set the base station in the same location, you do not need to conduct survey again, just click the "Use" button that corresponds to the location you have saved.
+
+
 
 **!!Updating in progress!!**
 
