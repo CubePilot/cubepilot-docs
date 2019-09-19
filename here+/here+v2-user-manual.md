@@ -248,7 +248,7 @@ The correct driver should be "USB-SERIAL CH340\(COM\#\)"
 
 Open u-center and select the COM port for connector. Set the baud rate to 9600 then connect.
 
-![](../.gitbook/assets/here+v2-14.jpg)
+![](../.gitbook/assets/here+v2-13.5.jpg)
 
 After connection, select "Tools&gt;legacy firmware update" to enter firmware update UI. Check the option "USB alternative update method" and select the firmware to be updated. \(firmware for here+ and here2+ are the same, please look for detailed procedures from the here+ update procedure\). Click OK to begin update.
 
