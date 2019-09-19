@@ -411,5 +411,39 @@ u-blox M8P chip supports a variety of input and output protocols, including USB,
 
 If you want to use more output protocols \(such as UART\), you can also select the output protocol and a specific message combination on this page. If you want to set a string of specific messages to output under a variety of protocols, you can go to "View→Messages view → UBX → CGF → MSG" .Then select a specific message, and then check the type of protocol you want to output.
 
+![](../.gitbook/assets/here+v2-36.jpg)
+
+To save the current settings, go to "View→Messages view→UBX→CFG \(Configuration\)" and click the "Save" current configuration option, then click Send.
+
+#### Change Rover Module Output Rate
+
+By default, the output frequency of the position information by the rover module is 1HZ. If you need to speed up the position output frequency, you can enter "View→Messages view→UBX →CGF→RATE" and modify "Measurement Period". For example, adjust "Measurement Period" to 200ms then the "Measurement Frequency" will be increased to 5Hz.
+
+![](../.gitbook/assets/here+v2-37.jpg)
+
+To save the current settings, go to "View→Messages view→UBX→CFG \(Configuration" and click the Save current configuration option, then click Send.
+
+#### Change Base Antenna and Testing
+
+HERE + base module antenna is a Taoglas antenna. Users can select different antennas according to their needs and connect them to base module. We have conducted a test of three different antennas in an outdoor environment, where three antennas at the same time, same location were connected to the HERE + base station, data were logged using Ucentre recording function.
+
+**It should be noted that** the following data are not sufficient to give a comprehensive conclusion about which antenna is better, but the user can use the following methods to test, compare different antennas to find he one more suitable for their application.
+
+![Test Antenna A](../.gitbook/assets/here+v2-38.jpg)
+
+![Test Antenna B](../.gitbook/assets/here+v2-39.jpg)
+
+![Original Antenna](../.gitbook/assets/here+v2-40.jpg)
+
+![Base status with Antenna A \(Survey Antenna\) at TIME Mode](../.gitbook/assets/here+v2-41.jpg)
+
+![Base status with Antenna B \(GNSS Antenna\) at TIME Mode](../.gitbook/assets/here+v2-42.jpg)
+
+![Base status with original Antenna data at TIME Mode](../.gitbook/assets/here+v2-43.jpg)
+
+![Satellite signal comparison for each satellite](../.gitbook/assets/here+v2-44.jpg)
+
+
+
 **!!Updating in progress!!**
 
