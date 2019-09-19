@@ -317,7 +317,99 @@ In the RTCM box it shows that the base status indicator is green and both the GP
 
 To store the current location in the Mission Planner: Click "Save Current Pos", enter a name in the dialog box, and click "OK". As shown below, you can see your saved location in the list. Click the "Use" button for the location you saved. The base station will enter the fixed mode and the status will show "Using FixedLLA". In the future, if you set the base station in the same location, you do not need to conduct survey again, just click the "Use" button that corresponds to the location you have saved.
 
+![](../.gitbook/assets/here+v2-23.jpg)
 
+#### Rover Module and Flight Controller Setup
+
+After the base station is set up, you can turn on the UAV. Using the same Mission Planner to connect the telemetry module, the base station data will be transmitted through telemetry module to the HERE + rover module on the UAV. In the Mission Planner main page, you can see the current GPS status displayed as RTK Float / RTK Fixed / 3D RTK, indicating that the positioning of the UAV has entered the RTK mode. RTK Float is a floating-point solution; RTK Fixed is a fixed solution. RTK Fixed mode has a higher accuracy and requires better signal strength. 3D RTK is unified saying of RTK Float / RTK in the Mission Planner Chinese version.
+
+![](../.gitbook/assets/here+v2-24.jpg)
+
+#### Single Base to Multiple Rovers
+
+There are 2 methods to do this:   
+1\) Use 1 telemetry to multiple telemetry broadcasting ;or   
+2\) Use multiple 1 to 1 telemetry modules with USB hub 
+
+Ground station configuration: connect all telemetry modules to the computer via USB hub. Open Mission Planner to locate the base then connect it with flight controllers. Select AUTO connecting as shown below. All recognized flight controllers on the ports will be connected. You may select the UAV form the dropdown list below:
+
+![](../.gitbook/assets/here+v2-25.jpg)
+
+If you connected the UAVs with 1 telemetry module, they should share the same COM port:
+
+#### Use U-centre for Live Data Recording/Replaying
+
+One function of the U-center is to record the base / rover module data for later analysis. Firstly, when the base or rover module is already connected to U-center \(in the same way it is connected when updating firmware\), click the following bug icon to turn on the "debug message":
+
+![](../.gitbook/assets/here+v2-26.jpg)
+
+Then, click into "View → message view → UBX → RXM → RTCM\(RTCM input status\)", right click to "enable message".
+
+![](../.gitbook/assets/here+v2-27.jpg)
+
+Finally, click on the red recording icon on the upper left corner of the interface \(shown below\), select an address to save the recording, click OK, the recording will begin. When recording is stopped, the recording will appear in the previously saved address.
+
+![](../.gitbook/assets/here+v2-28.jpg)
+
+To play the recorded data, click the green play icon, select a playback speed, select the specified address of your stored data file, then the data will be played.
+
+![](../.gitbook/assets/here+v2-29.jpg)
+
+#### Use U-Centre for Debugging/Advanced Configuration
+
+#### Check Status of Base Station
+
+Connect the base module to U-center software, check the display box in the upper right corner of the interface, Fix Mode section is displayed as TIME. If Fix Mode does not enter TIME, the current state of the base station is not sufficient to allow the rover module to enter RTK mode. As shown in the figure below, Fix Mode is displayed in 3D mode, hence the RTK standard has not yet been reached.
+
+![](../.gitbook/assets/here+v2-30.jpg)
+
+Possible reason for base station not entering TIME Mode:
+
+1\) Signals received by base station is not strong enough. To check the satellite strength received by base station, see the bottom right corner of the software interface. The vertical bars in the box indicate satellites strength received by the current base station. A vertical bar represents a satellite \(GPS or Beidou / GLONASS, depending on the choice of satellite systems\).
+
+TIME Mode of base station requires a\) 5 GPS satellites + 2 GLONASS satellites, with strength &gt; 40; b\) 5 GPS satellites + 3 Beidou satellites, with strength &gt; 40;
+
+As shown in the figure below, only one satellite strength is higher than 40. Therefore, the signal condition does not meet the RTK standard.
+
+![](../.gitbook/assets/here+v2-31.jpg)
+
+2\) The user input of survey-in accuracy requirement is too strict to achieve, or the base station has not yet completed the surveying process. Using U-centre for survey-in setup, please refer to later section in this chapter.
+
+#### Check whether Rover receives base correction data \(Timeout\)
+
+After the base station enters the TIME Mode, it is necessary to transmit the RTCM data to the rover, for rover to enter RTK modes. Therefore, a real-time and efficient communication between rover and base station is necessary for good RTK positioning performance.
+
+Check whether there is a delay in the data transmission between the mobile station and the base station, connect the rover module to U-center \(or replay the data log to inspect a previous operation\). Go to "View→Messages view→NMEA→GxGGA" directory to see Age of DGNSS Corr parameters. This parameter represents the time at which the rover did not receive the base station data. In the case of the default base station message frequency 1HZ, if this parameter exceeds 1s, there is a certain delay in the data transmission.
+
+#### Set Survey-in/Fixed Mode for Base Station
+
+Similar to Mission Planner RTK Inject page, U-center can also be used to set the base station survey-in time and accuracy. Enter "View→Messages view →UBX→CGF→TMODE3". Select 1.Survey-in under the Mode drop-down option, and set the survey time \(and the minimum time required for the base station to survey\). The survey-in current status can be viewed in the "View→Message View→NAV→SVIN" page.
+
+![](../.gitbook/assets/here+v2-32.jpg)
+
+The base station can also be set to Fixed Mode. When the base station’s current precise geographic coordinates are known, the coordinates can be entered directly into the base station, which saves the time required for surveying. In the TMODE3 page, select Fixed mode in the drop-down list, and then enter the precise known base station coordinates.
+
+After setting the survey or fixed mode, click the Send button at the bottom left of the page to transfer the modified data to the base station.
+
+#### Use Beidou/GLonass
+
+The uBlox 1.30 firmware uses the GPS + GLONASS navigation system for location services by default. If you want to change to GPS + Beidou navigation system, you need to enter "View→Messages view→UBX→CGF→GNSS directory, cancel the tick on GLONASS Enable option, and then check the Beidou Enable option. After the selection, click "Send" to complete the change.
+
+![](../.gitbook/assets/here+v2-33.jpg)
+
+To save the current settings, go to "View→Messages view→UBX→CFG \(Configuration\)" page and click the Save current configuration option, then click Send \(as shown below\).
+
+![](../.gitbook/assets/here+v2-34.jpg)
+
+**Note:** Base station and rover should use the same navigation system configuration, or rover will not be able to enter RTK modes.
+
+#### Base Module I/O Port and Protocol Setup
+
+u-blox M8P chip supports a variety of input and output protocols, including USB, UART, I2C and so on. The HERE + base station module uses the USB port for data communication and RTK outputs. If you need to confirm the current settings, go to "View→Messages view → UBX → CGF → PRT" and select 3-USB in the Target field. The correct input and output protocols are shown below:
+
+![](../.gitbook/assets/here+v2-35.jpg)
+
+If you want to use more output protocols \(such as UART\), you can also select the output protocol and a specific message combination on this page. If you want to set a string of specific messages to output under a variety of protocols, you can go to "View→Messages view → UBX → CGF → MSG" .Then select a specific message, and then check the type of protocol you want to output.
 
 **!!Updating in progress!!**
 
