@@ -443,7 +443,7 @@ HERE + base module antenna is a Taoglas antenna. Users can select different ante
 
 ![Satellite signal comparison for each satellite](../.gitbook/assets/here+v2-44.jpg)
 
+Last update: 9th Jan 2019
 
-
-**!!Updating in progress!!**
+\*\*\*\*
 
