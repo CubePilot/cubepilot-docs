@@ -8,6 +8,7 @@
 * [Upgrading Firmware](herelink/upgrading-firmware.md)
 * [One Time Setup](herelink/one-time-setup.md)
 * [Share video Stream](herelink/share-video-stream.md)
+* [Herelink Installation](herelink/herelink-installation.md)
 
 ## HERE 2
 
