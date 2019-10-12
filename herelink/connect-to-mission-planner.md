@@ -1,4 +1,4 @@
-# Share video Stream
+# Connect to Mission Planner
 
 ### 1. Enable the video stream on HereLink
 
@@ -25,18 +25,15 @@ If the 'video sharing'  fields are empty, please upgrade your Air unit + Ground 
 Network Name and password can be customized by user
 {% endhint %}
 
+### Connect to Mission Planner
 
+You are now connected to the Herelink wifi.   
+1. Open Mission planner  
+2. Set the port to 'UDP'  \(top right\)  
+3. Click 'Connect'  
+4. A popup window will open. Leave it on default port '14550' and click OK
 
-### 3. Display the video stream
+![](../.gitbook/assets/screen-udp-copie-min.jpg)
 
-In this exemple we use VLC media player
-
-1. Open VLC and go to File &gt;&gt; Open network
-2. Type the url address provided on the HereLink stream menu and click "Open" 
-
-![](../.gitbook/assets/vlc-stream.png)
-
-3. The video stream window will automaticaly opens, if not, you can force it by clicking right on the video stream link &gt;&gt; Play
-
-![](../.gitbook/assets/vlc_2.png)
+![](../.gitbook/assets/mission-planner-2.png)
 

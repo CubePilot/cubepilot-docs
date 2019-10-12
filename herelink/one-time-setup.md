@@ -24,14 +24,14 @@ After uploading the firmware using `flash_all` script you will be displayed mess
 
 In case there is a need to pair with a different AirUnit module, follow the following process:
 
-1. Tap![](../.gitbook/assets/windowsqgc-2.ico)and select `D2D Info` from the tabs.
+1. Tap![](../.gitbook/assets/windowsqgc%20%282%29.ico)and select `D2D Info` from the tabs.
 2. Click the Pair Button, a Dialog box will show up to push the Pair/Reset Button on the AirUnit until the LED starts blinking green.
 3. Release the Pair/Reset button.
 4. The Pair Successful dialog box will show up. Click OK and the Units should be paired now. The LED on the AirUnit will turn solid Green.
 
 ## **Selecting FCC/CE settings**
 
-1. Select![](../.gitbook/assets/windowsqgc-1.ico)and scroll down in General Tab
+1. Select![](../.gitbook/assets/windowsqgc%20%281%29.ico)and scroll down in General Tab
 2. Select RF Authentication option and choose the relevant setting for your region.
 
 \*\*\*\*
