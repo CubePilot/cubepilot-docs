@@ -99,7 +99,7 @@ Firmware update instructions: [https://discuss.cubepilot.org/t/can-flow-setup-in
 
 For more optical flow settings, you may check in CubePilot:
 
-{% embed url="https://discuss.cubepilot.org/c/flow-sensor" %}
+{% embed url="https://discuss.cubepilot.org/c/flow-sensor" caption="" %}
 
 ```text
 Last modify: 9th April 2019

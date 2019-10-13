@@ -10,7 +10,7 @@ description: Kore v1.3.1 and Newer
 
 The primary purpose of the Kore Multi-Rotor Carrier Board for The CUBE is to reduce the rat’s nest of wires and modules typically associated with a multi-rotor assembly. It provides built-in power distribution, redundant power supplies for the autopilot, built-in fail-over power selection, a separate payload power regulator, and many other features.
 
-While this carrier board is geometrically optimized for quadcopters, X8 configurations, and octocopters, it provides connections for every function of The CUBE autopilot. Therefore, this board can be integrated into any vehicle type that is supported by The CUBE, including all other multi-rotor frame types, plane, rover, sub, and antenna tracker. 
+While this carrier board is geometrically optimized for quadcopters, X8 configurations, and octocopters, it provides connections for every function of The CUBE autopilot. Therefore, this board can be integrated into any vehicle type that is supported by The CUBE, including all other multi-rotor frame types, plane, rover, sub, and antenna tracker.
 
 ## Features At-A-Glance
 
@@ -335,7 +335,7 @@ Where Vmax is the maximum voltage expected on this pin. R will be the resistance
 
 In order for The CUBE to accurately read the secondary voltage, the BATT2\_VOLT\_MULT parameter must be set. It can be calculated using the following equation:
 
-[![](https://latex.codecogs.com/gif.latex?BATT2\_VOLT\_MULT=\frac{V_{max}}{3.3})](https://www.codecogs.com/eqnedit.php?latex=BATT2\_VOLT\_MULT=\frac{V_{max}}{3.3})
+[![](https://latex.codecogs.com/gif.latex?BATT2_VOLT_MULT=\frac{V_{max}}{3.3})](https://www.codecogs.com/eqnedit.php?latex=BATT2_VOLT_MULT=\frac{V_{max}}{3.3})
 
 ### Debug
 
