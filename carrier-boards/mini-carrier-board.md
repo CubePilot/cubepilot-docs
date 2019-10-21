@@ -1,6 +1,6 @@
 # Mini Carrier Board
 
-### Working Conditions and Performance
+## Working Conditions and Performance
 
 | About | Description |
 | :--- | :--- |
@@ -11,14 +11,14 @@
 | Waterproof | Not waterproof. External waterproof protection is needed |
 | Working temperature | -10°C / 55°C |
 
-### Size and Specifications
+## Size and Specifications
 
 | Type | Description |
 | :--- | :--- |
 | Mini Carrier Board Size / Chassis Material | 47.5x38.5x17.8 \(mm\) / ABS Molding |
 |  |  |
 
-### Interfaces and Definitions
+## Interfaces and Definitions
 
 Pinout
 
@@ -36,7 +36,7 @@ Red dot on plug side denotes pin 1
 
 ![](../.gitbook/assets/purple-cube-and-mini-carrier-board-6.jpg)
 
-### Mini Carrier Board Interface Model
+## Mini Carrier Board Interface Model
 
 | Ports | Corresponding Connecter Model |
 | :--- | :--- |
@@ -50,7 +50,7 @@ Red dot on plug side denotes pin 1
 | POWER2 | Molex CLIK-Mate 2 mm \(6-pin\) |
 | BUZZER | DF13 1.25 mm \(2-pin\) |
 
-### Mini Cube 80-pin DF17 Connector Assignments \(same as the Cube Black\)
+## Mini Cube 80-pin DF17 Connector Assignments \(same as the Cube Black\)
 
 | Pin \# | Name | Direction | Description |
 | :--- | :--- | :--- | :--- |
@@ -135,7 +135,7 @@ Red dot on plug side denotes pin 1
 | 79 | CAN\_H\_1 | I/O | FMU CAN bus High signal driver |
 | 80 | IO\_CH1\_PROT | O | I/O PWM output channel 1 |
 
-### Serial Ports Parameter and power distribution
+## Serial Ports Parameter and power distribution
 
 SERIAL 1 / UART 1 \| Connector： TELEM1
 
@@ -148,7 +148,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 5 | SERIAL\_1\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 1 RTS \(Request To Send\) |
 | 6 | GND |  | GND | BLACK | GND |
 
-### SERIAL 2 / UART 2 \| Connector： TELEM2
+## SERIAL 2 / UART 2 \| Connector： TELEM2
 
 | Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -159,7 +159,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 5 | SERIAL\_2\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | UART 2 RTS \(Request To Send\) |
 | 6 | GND |  | GND | BLACK | GND |
 
-### SERIAL 3 / UART 3 \(GPS\) / I2C 1 \| Connector： GPS1
+## SERIAL 3 / UART 3 \(GPS\) / I2C 1 \| Connector： GPS1
 
 | Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -172,7 +172,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 7 | IO\_LED\_SAFET\_PROT |  | GND | BLACK | LED Driver For Safety Button |
 | 8 | GND |  | GND | BLACK | GND Connection |
 
-### SERIAL 4 / UART 4 / I2C 2 \| Connector： GPS2
+## SERIAL 4 / UART 4 / I2C 2 \| Connector： GPS2
 
 | Pin | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -183,7 +183,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 5 | I2C\_2\_SDA | IN | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 Serial Data |
 | 6 | GND |  | GND | BLACK | GND |
 
-### SERIAL 5 / UART 5 \(Debug Console\) / S.Bus OUT \| Connector： CONS SBUSo
+## SERIAL 5 / UART 5 \(Debug Console\) / S.Bus OUT \| Connector： CONS SBUSo
 
 | Pin \# | Name | Direction | Voltage | Caption |
 | :--- | :--- | :--- | :--- | :--- |
@@ -194,23 +194,23 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 5 SBUSo | GND |  | GND | GND |
 | 6 CONS | GND |  | GND | GND |
 
-### Buzzer \| Connector： BUZZER
+## Buzzer \| Connector： BUZZER
 
 | Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | BUZZER | OUT | Battery voltage | GRAY/BLACK | VBAT \(8.4 - 42 V\) |
 | 2 | GND |  | GND | BLACK | GND Connection |
 
-### I2C 2 \| Connector： I2C 2
+## I2C 2 \| Connector： I2C 2
 
-| Pin  | Name | Direction | Voltage | Wire Color | Caption |
+| Pin | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | OUT | +5 V | RED/GRAY | Power supply |
 | 2 | SCL | IN/OUT | +3.3 V \(PULLUPS\) | BLUE/BLACK | SCL, 5 V level, pull-up on AP |
 | 3 | SDA | IN/OUT | +3.3 V \(PULLUPS\) | GREEN/BLACK | SDA, 5 V level, pull-up on AP |
 | 4 | GND |  | GND | BLACK | GND Connection |
 
-### Main Power POWER 1 \| Connector： POWER1
+## Main Power POWER 1 \| Connector： POWER1
 
 | Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -221,7 +221,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 5 | GND |  | GND | BLACK | GND |
 | 6 | GND |  | GND | BLACK | GND |
 
-### Backup Power POWER 2 \| Connector： POWER2
+## Backup Power POWER 2 \| Connector： POWER2
 
 | Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -232,7 +232,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 5 | GND |  | GND | BLACK | GND Connection |
 | 6 | GND |  | GND | BLACK | GND |
 
-### CAN \| Connector： CAN2
+## CAN \| Connector： CAN2
 
 | Pin \# | Name | Direction | Voltage | Wire Color | Caption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -241,7 +241,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 3 | CAN\_L\_2 | IN/OUT | 12 V | GREEN/BLACK | CAN Low |
 | 4 | GND |  | GND | BLACK | GND |
 
-### IO USART 1 / DSM \| Connector： SPKT
+## IO USART 1 / DSM \| Connector： SPKT
 
 | Pin \# | Name | Direction | Voltage | Caption |
 | :--- | :--- | :--- | :--- | :--- |
@@ -249,7 +249,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 2 | GND |  | GND | GND |
 | 3 | VDD\_3V3\_Spektrum | OUT | 3.3 V | Independent Power Supply |
 
-### CPPM / S.BUS / SERVO SYSTEM \| Connector： RCIN MAIN OUT
+## CPPM / S.BUS / SERVO SYSTEM \| Connector： RCIN MAIN OUT
 
 | Pin \# | Name | Direction | Voltage | Caption |
 | :--- | :--- | :--- | :--- | :--- |
@@ -263,7 +263,7 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | S - 8 | IO\_CH8\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power | PWM Signal |
 | S - 9 | PPM\_SBUS\_PROT | IN/OUT | 3.3 V / 4.5 V Powered | PPM / S.Bus Signal |
 
-### PPM S.bus signal and SPKT signal switching
+## PPM S.bus signal and SPKT signal switching
 
 By default, Mini Carrier Board uses PPM and S.bus in RC IN. If you want to switch it to SPKT signals, you need to solder the carrier board as shown below:
 

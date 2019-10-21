@@ -9,6 +9,7 @@
 * [One Time Setup](herelink/one-time-setup.md)
 * [Share video Stream](herelink/share-video-stream.md)
 * [Herelink Installation](herelink/herelink-installation.md)
+* [Connect to Mission Planner](herelink/connect-to-mission-planner.md)
 
 ## HERE 2
 
