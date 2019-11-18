@@ -290,9 +290,8 @@ Total connectivity
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | VDD 5V Brick | in | red/gray | Supply from Brick to AP |
 | 2 | VDD 5V Brick | in | red/gray | Supply from Brick to AP |
-| 3 | BATT\_VOLTAGE\_SENS\_PROT | in | black | Battery voltage connector |
-| 4 | BATT\_CURRENT | in | black | Battery voltage connector |
-|  | _\_SENS\_PROT_ |  |  |  |
+| 3 | BATT\_CURRENT\_SENS\_PROT | in | black | Battery current connector |
+| 4 | BATT\_VOLTAGE\_SENS\_PROT | in | black | Battery voltage connector |
 | 5 | GND | - | black | GND connection |
 | 6 | GND | - | black | GND connection |
 
@@ -302,8 +301,8 @@ Total connectivity
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | VDD 5V Brick | in | red / gray | Supply from Brick to AP |
 | 2 | VDD 5V Brick | in | red / gray | Supply from Brick to AP |
-| 3 | AUX\_BATT\_VOL TAGE\_SENS |  |  | Aux Battery voltage connector |
-| 4 | AUX\_BATT\_CUR RENT\_SENS | in | black | Aux Battery current connector |
+| 3 | AUX\_BATT\_CURRENT\_SENS | in | black | Aux Battery current connector |
+| 4 | AUX\_BATT\_VOLTAGE\_SENS | in | black | Aux Battery voltage connector |
 | 5 | GND | - | black | GND connection |
 | 6 | GND | - | black | GND connection |
 
