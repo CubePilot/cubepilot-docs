@@ -6,7 +6,7 @@ description: >-
 
 # ADS-B IN Carrier Board
 
-The Cube Orange standard kit + ADS-B consists of the new Cube Orange Autopilot and the new ADS-B IN equipped carrier board. 
+The Cube Orange Standard Kit + ADS-B consists of the new Cube Orange Autopilot and the new ADS-B IN equipped carrier board. 
 
 ![](../.gitbook/assets/700x467xorange-cube-standard-adsb-03.jpg.pagespeed.ic.b76kbv8lhc.jpg)
 
