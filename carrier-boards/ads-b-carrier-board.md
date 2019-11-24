@@ -18,7 +18,7 @@ This is an updated version of the original carrier board, its overall footprint 
 * New Product Livery 
 * Correct labelling Of CAN Ports 
 
-All external connections and ports remain identical to the original board apart from the following 
+All other specification and external connections remain identical to the original board apart from the following 
 
 
 
