@@ -1,9 +1,3 @@
----
-description: >-
-  Overview of the ADS-B IN carrier board thats shipped with the Cube Orange
-  Standard Kit
----
-
 # ADS-B IN Carrier Board
 
 The Cube Orange Standard Kit + ADS-B consists of the new Cube Orange Autopilot and the new ADS-B IN equipped carrier board. 
