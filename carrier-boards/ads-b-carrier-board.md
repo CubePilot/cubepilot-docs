@@ -43,7 +43,7 @@ To enable ADSB in Ardupilot to detect aircraft on ground satation you need to be
 
 Note:  You may need to set  SR1\_ADSB = 2 to enable receiving on ground statiion on telem 1 or SR2 for Telem 2.  
 
- For Advanced users you can set the ADS-B Alarm and Sens and Avoid with the following paramiters 
+ For Advanced users you can set the ADS-B Alarm and Sens and Avoid with the following parameters 
 
 
 
