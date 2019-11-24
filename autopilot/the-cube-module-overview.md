@@ -894,4 +894,3 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 * Power monitoring pins are now routed to the I/O chip, these will allow for the logging of power events during an inflight reboot.
   * Brick OK, Backup OK, and FMU 3.3V are all connected to a digital pin on the I/O via a 220Ohm resister.
 
-
