@@ -27,6 +27,7 @@
 ## Carrier Boards
 
 * [Kore Carrier Board](carrier-boards/kore-carrier-board.md)
+* [ADS-B IN Carrier Board](carrier-boards/ads-b-carrier-board.md)
 * [Mini Carrier Board](carrier-boards/mini-carrier-board.md)
 
 ## FLOW SENSOR <a id="flow-senor"></a>
