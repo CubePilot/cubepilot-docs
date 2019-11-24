@@ -1,6 +1,6 @@
 # Connect to Mission Planner
 
-## 1. Enable the video stream on HereLink <a id="1-enable-the-video-stream-on-herelink"></a>
+### 1. Enable the video stream on HereLink <a id="1-enable-the-video-stream-on-herelink"></a>
 
 ‌
 
@@ -15,7 +15,7 @@ If the 'video sharing' fields are empty, please upgrade your Air unit + Ground u
 
 ​‌
 
-## 2. Connect to the HereLink network <a id="2-connect-to-the-herelink-network"></a>
+### 2. Connect to the HereLink network <a id="2-connect-to-the-herelink-network"></a>
 
 ‌
 
@@ -29,7 +29,7 @@ If the 'video sharing' fields are empty, please upgrade your Air unit + Ground u
 Network Name and password can be customized by user‌
 {% endhint %}
 
-## 3. Connect to Mission Planner <a id="connect-to-mission-planner"></a>
+### 3. Connect to Mission Planner <a id="connect-to-mission-planner"></a>
 
 ‌
 
