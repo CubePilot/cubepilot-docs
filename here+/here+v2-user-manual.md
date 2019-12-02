@@ -77,7 +77,11 @@ Do not place the antenna near electronic devices, as high power electronic devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>### HERE+ Base Hardware Parameters
+</table>| IMU | Compass | Barometer |
+| :--- | :--- | :--- |
+| MPU9250/ICM20948 | HMC5983/ICM20948 | MS5611 |
+
+### HERE+ Base Hardware Parameters
 
 | GNSS module | Ceramic antenna | Connector |
 | :--- | :--- | :--- |
