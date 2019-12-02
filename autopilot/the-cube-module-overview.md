@@ -893,3 +893,4 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
   * This allows for connection of items to either I2C port, potentially allowing two GPS / Mag units to be plugged in without the Mags conflicting.
 * Power monitoring pins are now routed to the I/O chip, these will allow for the logging of power events during an inflight reboot.
   * Brick OK, Backup OK, and FMU 3.3V are all connected to a digital pin on the I/O via a 220Ohm resister.
+
