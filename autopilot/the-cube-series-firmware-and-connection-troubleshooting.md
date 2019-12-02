@@ -110,7 +110,5 @@ There are some known issues installing the Cube Orange and Cube Yellow with Wind
 3. Reconnect the Cube Orange/Yellow and two devices will show up in “Other Devices” called CubeOrange-BL. 
 4. The top entry will change to CubeOrange and you should see the message from windows notifying you that it is installing device drivers.
 5. CubeOrange-BL will move to the Ports section and be named Cube Orange Mavlink \(COMx\)
-6. If the “CubeOrange-BL” in Other Devices" does not move to Ports after a few moments, right click, go into properties, click on the driver button and wait, it should then move to Ports and is named Cube Orange SLCAN \(COMx\)
-
-.
+6. If the “CubeOrange-BL” in Other Devices" does not move to Ports after a few moments, right click, go into properties, click on the driver button and wait, it should then move to Ports and is named Cube Orange SLCAN \(COMx\). 
 
