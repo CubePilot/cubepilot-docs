@@ -22,7 +22,8 @@
 
 ## Autopilot
 
-* [The Cube Module Overview](autopilot/the-cube-module-overview.md)
+* [The Cube Module Overview](autopilot/the-cube-module-overview/README.md)
+  * [The Cube Series -  Firmware & Connection  Troubleshooting](autopilot/the-cube-module-overview/the-cube-series-firmware-and-connection-troubleshooting.md)
 
 ## Carrier Boards
 
