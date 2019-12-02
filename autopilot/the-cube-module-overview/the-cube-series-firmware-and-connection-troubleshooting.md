@@ -1,4 +1,4 @@
-# The Cube Series -  Firmware & Connection  Troubleshooting
+# The Cube  -  Firmware & USB Connection  Troubleshooting
 
 ## The Cube Autopilot All Models
 
@@ -12,7 +12,7 @@ The Cube Orange and Yellow are supported in Arducopter,Rover and Plane version 4
 
 Cube Black, Blue and Purple are supported in older versions however its strogly advised to be using Arducopter 3.6.11 and Arduplane 3.9.11 onward for Black and Blue at minimum due to critical bug fixes. 
 
-In Ardupilot its strongly advised to be using ChibiOS versions with all Cube models.
+**In Ardupilot its strongly advised to be using ChibiOS versions with all Cube models unless you have a specific reason otherwise.**
 
 ## USB Connection Problems
 
@@ -38,29 +38,43 @@ If you already have an older version of Mission Planner installed and you want t
 
 To update mission planner click the Help Icon along the top bar and then at the bottom of the screen click 'Check for Updates'. 
 
-Once Mission Planner is updated you must also update to the latest drivers. To do this you must first uninstall the old drivers as follows
+Once Mission Planner is updated you must also update the drivers, to do this you should first uninstall the old drivers as follows
 
 1. Open Mission Planner
-2. Press Control and F
+2. Press Control + F keys
 3. In the 'Temp' window select 'driver clean'
 
-![](../../.gitbook/assets/mission-planner-driver-clean.jpg)
+![Mission Planner Driver Clean](../../.gitbook/assets/mission-planner-driver-clean.jpg)
 
 4. Download the latest drivers from [http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi](http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi), Install then reboot and connect Cube again. 
 
-### Com Ports 
+When correctly installed Mission Planner should show the Cube port of the device unter the top connection box, the actual com pport number my vairy but it should show as follows 
 
-If you are still having connection issues you can check if the com ports are correctly installed by going to device maanger. 
+**Cube Black**
+
+![Cube Black Mission Planner Com Port](../../.gitbook/assets/cube-black-mp-com-port.jpg)
+
+**Cube Orange & Cube Yellow** 
+
+![](../../.gitbook/assets/cube-orange-mp-com-ports.jpg)
+
+
+
+### Com Ports In Device Manager
+
+If you are still having connection issues you can check if the com ports are correctly installed by going to device manager. 
 
 Cube Black, Purple and Blue should show a single com port as follows
 
-Cube Orange and Yellow should show two com ports connected such as 'Cube Orange Mavlink \(COMx\) and Cube Orange SLCAN \(COMx\)'
+![Cube Black Com Ports in Device Manager ](../../.gitbook/assets/cube-black-device-manager-port.jpg)
 
+Cube Orange and Yellow should show two com ports connected  'Cube Orange Mavlink \(COMx\) and Cube Orange SLCAN \(COMx\)'
 
+![Cube Orange Com Ports in Device Manager ](../../.gitbook/assets/cube-orange-device-manager-ports.jpg)
 
-If you see ProfiCNC CUBE H7 \(COMx\) or ProfiCNC CUBE F7 \(COMx\) then the drivers are not installed correctly and follow the above process again. 
+If you see 'ProfiCNC CUBE H7 \(COMx\)'  or ' ProfiCNC CUBE F7 \(COMx\)'  then the drivers are not installed correctly and follow the above process again. 
 
-### Cube Orange & Yellow Windows 7 
+### Cube Orange & Yellow - Windows 7 
 
 There are some known issues installing the Cube Orange and Cube Yellow with Windows 7. Its advised you use Windowns 10 however Windows 7 can be made to work by manually deleting the driver files and installing the latest driver file and forcing Windows to install the correct driver manually.
 
