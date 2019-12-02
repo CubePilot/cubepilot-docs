@@ -6,7 +6,7 @@ All Cube Autopilot models now come with no software installed from the factory a
 
 ### Supported Ardupilot Versions
 
-Cube Black, Purple and Blue models are compatible with older versions of Ardupilot and PX4 software however the Cube Orange and Cube Yellow modes are using the STM32F7 and the STM32H7 microcontrollers that require you are using the latest drivers and software. 
+The Cube Black, Purple and Blue models are compatible with older versions of Ardupilot and PX4 software however the Cube Orange and Cube Yellow modes are using the STM32F7 and the STM32H7 microcontrollers that require you are using the latest drivers and software. 
 
 #### The Cube Orange and Cube Yellow 
 
