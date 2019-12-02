@@ -1,6 +1,6 @@
 # The Cube Module Overview
 
-![](../../.gitbook/assets/cube-overview.jpg)
+![](../.gitbook/assets/cube-overview.jpg)
 
 ### The Cube Fixed Board
 
@@ -47,7 +47,7 @@
 
 The Cube continues with the FMU + IO architecture from the previous generation, incorporating the two functional blocks in a single physical module.
 
-![](../../.gitbook/assets/cube-system-architecture.png)
+![](../.gitbook/assets/cube-system-architecture.png)
 
 ### PWM Outputs
 
@@ -857,7 +857,7 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 
 ## Differences between Cube colours
 
-![](../../.gitbook/assets/cube-series-spec-updated.png)
+![](../.gitbook/assets/cube-series-spec-updated.png)
 
 ### List of features The Cube
 

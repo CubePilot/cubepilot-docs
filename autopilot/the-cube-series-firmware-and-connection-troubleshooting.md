@@ -36,7 +36,7 @@ If you already have an older version of Mission Planner installed you should che
 
 To update mission planner click the 'Help' Icon along the top bar and then at the bottom of the screen click 'Check for Updates'. 
 
-![Mission Planner Updates Screen](../../.gitbook/assets/mission-planner-updates.JPG)
+![Mission Planner Updates Screen](../.gitbook/assets/mission-planner-updates.JPG)
 
 Once Mission Planner is updated you must also update the drivers, to do this you should first uninstall the old drivers as follows
 
@@ -45,7 +45,7 @@ Once Mission Planner is updated you must also update the drivers, to do this you
 3. Press Control + F keys
 4. In the 'Temp' window click 'driver clean'
 
-![Mission Planner Driver Clean](../../.gitbook/assets/mission-planner-driver-clean.jpg)
+![Mission Planner Driver Clean](../.gitbook/assets/mission-planner-driver-clean.jpg)
 
 5. Next download the latest drivers from [http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi](http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi), Install then reboot the system then connect Cube to a USB port and allow the drivers to install. 
 
@@ -53,7 +53,7 @@ Once Mission Planner is updated you must also update the drivers, to do this you
 
 You can now install your chosen version of Ardupilot, to do this open Mission Planner and go to the 'Initial Setup' screen and choose 'Install Firmware', next choose the version of Ardupilot for your application by clicking and then follow the onscreen instructions. 
 
-![Mission Planner Firmware Screen](../../.gitbook/assets/mission-planner-firmware.JPG)
+![Mission Planner Firmware Screen](../.gitbook/assets/mission-planner-firmware.JPG)
 
 **Note:** The correct firmware versions for your hardware should be selected automatically by Mission Planner however if prompted to select board type do not select Linux.  Select 'Pixhawk' and then select 'Cube Black'. 
 
@@ -77,13 +77,13 @@ When correctly installed with Ardupilot loaded Mission Planner should show the C
 
 **Cube Black**
 
-![Cube Black Mission Planner Com Port](../../.gitbook/assets/cube-black-mp-com-port.jpg)
+![Cube Black Mission Planner Com Port](../.gitbook/assets/cube-black-mp-com-port.jpg)
 
 7. To connect Cube Black select the port and set the baud rate 57600 and click connect. 
 
 **Cube Orange & Cube Yellow** 
 
-![Cube Orange Com Ports In Mission Planner](../../.gitbook/assets/cube-orange-mp-com-ports.jpg)
+![Cube Orange Com Ports In Mission Planner](../.gitbook/assets/cube-orange-mp-com-ports.jpg)
 
 8. To connect Cube Orange or Yellow select the Mavlink com port and set the baud rate 57600 and click connect. 
 
@@ -93,11 +93,11 @@ If you are still having connection issues you can check if the com ports are cor
 
 Cube Black, Purple and Blue should show a single com port as follows
 
-![Cube Black Com Ports in Device Manager ](../../.gitbook/assets/cube-black-device-manager-port.jpg)
+![Cube Black Com Ports in Device Manager ](../.gitbook/assets/cube-black-device-manager-port.jpg)
 
 Cube Orange and Yellow should show two com ports connected  'Cube Orange Mavlink \(COMx\) and Cube Orange SLCAN \(COMx\)'
 
-![Cube Orange Com Ports in Device Manager ](../../.gitbook/assets/cube-orange-device-manager-ports.jpg)
+![Cube Orange Com Ports in Device Manager ](../.gitbook/assets/cube-orange-device-manager-ports.jpg)
 
 For Cube Orange and Yellow if you see 'ProfiCNC CUBE H7 \(COMx\)'  or ' ProfiCNC CUBE F7 \(COMx\)'  then the drivers are not installed correctly and follow the above process again. 
 
