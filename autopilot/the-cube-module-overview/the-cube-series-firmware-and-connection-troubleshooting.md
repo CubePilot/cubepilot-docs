@@ -48,7 +48,7 @@ Once Mission Planner is updated you must also update the drivers, to do this you
 
 4. Download the latest drivers from [http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi](http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi), Install then reboot and connect Cube again. 
 
-When correctly installed Mission Planner should show the Cube port of the device unter the top connection box, the actual com pport number my vairy but it should show as follows 
+When correctly installed Mission Planner should show the Cube port of the device unter the top connection box, the actual com port number my vary but it should show as follows 
 
 **Cube Black**
 
@@ -56,13 +56,13 @@ When correctly installed Mission Planner should show the Cube port of the device
 
 **Cube Orange & Cube Yellow** 
 
-![](../../.gitbook/assets/cube-orange-mp-com-ports.jpg)
+![Cube Orange Com Ports In Mission Planner](../../.gitbook/assets/cube-orange-mp-com-ports.jpg)
 
 
 
 ### Com Ports In Device Manager
 
-If you are still having connection issues you can check if the com ports are correctly installed by going to device manager. 
+If you are still having connection issues you can check if the com ports are correctly installed by going to device manager in Windows. 
 
 Cube Black, Purple and Blue should show a single com port as follows
 
@@ -76,7 +76,7 @@ If you see 'ProfiCNC CUBE H7 \(COMx\)'  or ' ProfiCNC CUBE F7 \(COMx\)'  then th
 
 ### Cube Orange & Yellow - Windows 7 
 
-There are some known issues installing the Cube Orange and Cube Yellow with Windows 7. Its advised you use Windowns 10 however Windows 7 can be made to work by manually deleting the driver files and installing the latest driver file and forcing Windows to install the correct driver manually.
+There are some known issues installing the Cube Orange and Cube Yellow with Windows 7. Its advised you use Windowns 10 or later however Windows 7 can be made to work in some circumstances by manually deleting the driver files and installing the latest driver file and forcing Windows to install the correct driver manually.
 
 1. Delete ProfiCNC CUBE H7/F7 from device manager while the Cube is still connected, then disconnect the Cube from USB.
 2. Uninstall and reinstall the latest Cube drivers as linked above.
