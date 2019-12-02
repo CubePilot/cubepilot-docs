@@ -60,8 +60,6 @@ Cube Orange and Yellow should show two com ports connected such as 'Cube Orange 
 
 If you see ProfiCNC CUBE H7 \(COMx\) or ProfiCNC CUBE F7 \(COMx\) then the drivers are not installed correctly and follow the above process again. 
 
-
-
 ### Cube Orange & Yellow Windows 7 
 
 There are some known issues installing the Cube Orange and Cube Yellow with Windows 7. Its advised you use Windowns 10 however Windows 7 can be made to work by manually deleting the driver files and installing the latest driver file and forcing Windows to install the correct driver manually.
