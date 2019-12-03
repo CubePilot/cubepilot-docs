@@ -16,7 +16,7 @@ These models are supported in Arducopter, Rover and Plane version 4.0 and later 
 
 These are supported in older versions however its strogly advised to be using Arducopter 3.6.11 and Arduplane 3.9.11 onwards for Black and Blue due to critical bug fixes in those releases. 
 
-**Note:** In Ardupilot its strongly advised to be using ChibiOS versions with all Cube models unless you have a specific reasons otherwise**.**
+**Note:** Its strongly advised to be using ChibiOS versions of Ardupilot with all Cube models unless you have a specific reasons otherwise**.**
 
 ## **Installing Mission Planner**  
 
@@ -28,7 +28,7 @@ Latest Mission Planner [http://firmware.ardupilot.org/Tools/MissionPlanner/Missi
 
 Latest Drivers  [http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi](http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi)
 
-Once completed you can now go you installing Ardupilot Firmware. 
+Once completed you can now proceed to 'Installing Ardupilot'. 
 
 ### Existing Installation - Updating Mission Planner & Drivers
 
@@ -103,7 +103,7 @@ For Cube Orange and Yellow if you see 'ProfiCNC CUBE H7 \(COMx\)'  or ' ProfiCNC
 
 ### Cube Orange & Yellow - Windows 7 
 
-There are some known issues installing the Cube Orange and Cube Yellow with Windows 7. Its advised you use Windowns 10 or later however Windows 7 can be made to work in some circumstances by manually deleting the driver files and installing the latest driver file and forcing Windows to install the correct driver manually.
+There are known issues installing the Cube Orange and Cube Yellow with Windows 7. Its advised you use Windowns 10 or later however Windows 7 can be made to work in some circumstances by manually deleting the driver files and installing the latest driver file and forcing Windows to install the correct driver manually.
 
 1. Delete ProfiCNC CUBE H7/F7 from device manager while the Cube is still connected, then disconnect the Cube from USB.
 2. Uninstall and reinstall the latest Cube drivers as linked above.
