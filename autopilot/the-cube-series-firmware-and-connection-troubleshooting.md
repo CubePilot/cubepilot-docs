@@ -10,7 +10,7 @@ The Cube Black, Purple and Blue models are compatible with older versions of Ard
 
 #### The Cube Orange and Cube Yellow 
 
-These models are supported in Arducopter, Rover and Plane version 4.0 and newer only. 
+These models are supported in Arducopter, Rover and Plane version 4.0 and later only. 
 
 #### Cube Black, Blue and Purple
 
