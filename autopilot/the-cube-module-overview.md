@@ -206,7 +206,9 @@ For each of the components listed, the input voltage ranges over which the devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, and the power supply protection scheme ensures that no more than 5.5V is presented to peripheral devices. Power is disconnected from the peripherals when the available supply voltage falls below 2.7V, or rises above approximately 5.7V.
+</table>**Peripheral Power \(on power module\)**
+
+The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, and the power supply protection scheme ensures that no more than 5.5V is presented to peripheral devices. Power is disconnected from the peripherals when the available supply voltage falls below 2.7V, or rises above approximately 5.7V.
 
 Peripheral power is split into two groups:
 
@@ -419,7 +421,11 @@ IO DEBUG
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 4 | IO-SWDIO | I/O |  | Serial wire debug I/O |
+</table>| 3 | IO\_RX | in |  | 3.3V - 5.0V TTL level, RX of AP IO\_uart1 RX |
+| :--- | :--- | :--- | :--- | :--- |
+
+
+| 4 | IO-SWDIO | I/O |  | Serial wire debug I/O |
 | :--- | :--- | :--- | :--- | :--- |
 
 
@@ -457,7 +463,11 @@ IO DEBUG
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 5 | FMU-SWCLK | I/O |  | Serial wire Clock |
+</table>| 4 | FMU-SWDIO | I/O |  | Serial wire debug I/O |
+| :--- | :--- | :--- | :--- | :--- |
+
+
+| 5 | FMU-SWCLK | I/O |  | Serial wire Clock |
 | :--- | :--- | :--- | :--- | :--- |
 
 
@@ -719,7 +729,11 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 49 | BATT\_CURRENT | a i | Current sense from main battery |
+</table>| 48 | IO- USART1\_RX\_SP ECTRUM\_DSM | o | signal from Spectrum receiver |
+| :--- | :--- | :--- | :--- |
+
+
+| 49 | BATT\_CURRENT | a i | Current sense from main battery |
 | :--- | :--- | :--- | :--- |
 
 
