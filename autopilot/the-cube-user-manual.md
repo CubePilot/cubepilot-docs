@@ -728,7 +728,7 @@ The autopilot includes a suite of Pre-arm Safety Checks which will prevent the v
 
 - If it is blinking yellow, please try to disarm. The failure messages will be shown in the HUD window. Solve the error according to the failure message shown.
 
-  Detailed failure messages and solutions can be found on the Ardupilot official website: http://ardupilot.org/copter/docs/prearm_safety_check.html
+  Detailed failure messages and solutions can be found on the Ardupilot official website: http://ardupilot.org/copter/docs/common-prearm-safety-checks.html#failsafes
 
 - If it is blinking blue or green, you may disarm. A low pitch tone will be emited from the buzzer. You will see the motors start to rotate and ready to take off.
 
