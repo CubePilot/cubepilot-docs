@@ -24,6 +24,7 @@
 
 * [The Cube Module Overview](autopilot/the-cube-module-overview.md)
 * [The Cube  -  Firmware Installation & Connection  Troubleshooting](autopilot/the-cube-series-firmware-and-connection-troubleshooting.md)
+* [The Cube User Manual V1.0](autopilot/the-cube-user-manual.md)
 
 ## Carrier Boards
 
