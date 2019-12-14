@@ -400,65 +400,133 @@ New ADSB Carrier board
 
 IO DEBUG
 
-| **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 1 | VDD 5V PEIPH | OUT |  | 5V |
-| :--- | :--- | :--- | :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">2</th>
-      <th style="text-align:left">IO_TX</th>
-      <th style="text-align:left">out</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">
+      <th style="text-align:center"><b>Pin #</b>
+      </th>
+      <th style="text-align:center"><b>Name</b>
+      </th>
+      <th style="text-align:center"><b>Dir</b>
+      </th>
+      <th style="text-align:center"><b>Wire Color</b>
+      </th>
+      <th style="text-align:center"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">1</td>
+      <td style="text-align:center">VDD 5V PEIPH</td>
+      <td style="text-align:center">OUT</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">5V</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2</td>
+      <td style="text-align:center">IO_TX</td>
+      <td style="text-align:center">out</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">
         <p>3.3V-5.0V TTL level, TX of AP</p>
         <p>IO_uart1 TX</p>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table>| 5 | IO-SWCLK | I/O |  | Serial wire Clock |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 6 | GND | out |  | GND |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 1 | VDD 5V PEIPH | OUT |  | 5V |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 2 | FMU\_TX \(SERIAL 5\) | out |  | 3.3V-5.0V TTL level, TX of AP FMU\_uart5 TX |
-| :--- | :--- | :--- | :--- | :--- |
-
+    <tr>
+      <td style="text-align:center">3</td>
+      <td style="text-align:center">IO_RX</td>
+      <td style="text-align:center">in</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">3.3V - 5.0V TTL level, RX of AP IO_uart1 RX</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">4</td>
+      <td style="text-align:center">IO-SWDIO</td>
+      <td style="text-align:center">I/O</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Serial wire debug I/O</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">5</td>
+      <td style="text-align:center">IO-SWCLK</td>
+      <td style="text-align:center">I/O</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Serial wire Clock</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">6</td>
+      <td style="text-align:center">GND</td>
+      <td style="text-align:center">out</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">GND</td>
+    </tr>
+  </tbody>
+</table>#### FMU DEBUG
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">3</th>
-      <th style="text-align:left">FMU_RX (SERIAL 5)</th>
-      <th style="text-align:left">in</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left">
-        <p>3.3V-5.0V TTL level, RX of AP</p>
-        <p>FMU_uart5 RX</p>
+      <th style="text-align:center"><b>Pin #</b>
+      </th>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left"><b>Dir</b>
+      </th>
+      <th style="text-align:left"><b>Wire Color</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
       </th>
     </tr>
   </thead>
-  <tbody></tbody>
-</table>| 6 | GND | out |  | GND |
-| :--- | :--- | :--- | :--- | :--- |
-
+  <tbody>
+    <tr>
+      <td style="text-align:center">1</td>
+      <td style="text-align:left">VDD 5V PEIPH</td>
+      <td style="text-align:left">OUT</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">5V</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2</td>
+      <td style="text-align:left">FMU_TX (SERIAL 5)</td>
+      <td style="text-align:left">out</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">3.3V-5.0V TTL level, TX of AP FMU_uart5 TX</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">3</td>
+      <td style="text-align:left">FMU_RX (SERIAL 5)</td>
+      <td style="text-align:left">in</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>3.3V-5.0V TTL level, RX of AP</p>
+        <p>FMU_uart5 RX</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">4</td>
+      <td style="text-align:left">FMU-SWDIO</td>
+      <td style="text-align:left">I/O</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Serial wire debug I/O</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">5</td>
+      <td style="text-align:left">FMU-SWCLK</td>
+      <td style="text-align:left">I/O</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Serial wire Clock</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">6</td>
+      <td style="text-align:left">GND</td>
+      <td style="text-align:left">out</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">GND</td>
+    </tr>
+  </tbody>
+</table>#### Analogue
 
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
