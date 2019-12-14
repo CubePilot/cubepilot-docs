@@ -26,7 +26,7 @@ According to the type, size, dynamic structure, and load, installation of hardwa
 
 ### Install SD Card
 
-Dataflash logs are stored on microSD Card, which is plugged in the left of The Cube. MicroSD Card with _\*\*_Class 4 or higher is recommended。
+Dataflash logs are stored on microSD Card, which is plugged in the left of The Cube. MicroSD Card with Class 4 or higher is recommended。
 
 **Remark: The Cube cannot arm the vehicle without SD card. A tone alarm with 1 high tune and 2 low tune will be played when trying to arm.**
 
@@ -441,7 +441,7 @@ Enter the new Voltage Divider according to your calculation and reboot the fligh
 #### Battery Monitor 2 Calibration
 
 Battery Monitor 2 corresponds to POWER2 port.  
-In the "Configuration &gt; Full Parameter Tree" screen, change the following parameters to enable battery _\*\*_monitor 2:
+In the "Configuration &gt; Full Parameter Tree" screen, change the following parameters to enable battery ***monitor 2:
 
 ![](../.gitbook/assets/photo-36.jpg)
 
@@ -483,7 +483,7 @@ Flashing blue:Disarmed, no GPS lock. Auto-mission, loiter and return-to-launch f
 
 Solid blue:Armed with no GPS lock
 
-Flashing green:Disarmed \(ready to arm\), GPS lock acquired. Quick double tone when disarming from \_\_the armed state.
+Flashing green:Disarmed \(ready to arm\), GPS lock acquired. Quick double tone when disarming from the armed state.
 
 Fast Flashing green: Same as above but GPS is using SBAS \(so should have better position estimate\)
 
@@ -552,7 +552,7 @@ Change the following parameters in ArduPilot firmware to enable GPS blending mod
 
 * SERIAL4\_PROTOCOL = 5 /“GPS”。Alternatively TELEM1 or TELEM2 can be used by setting SERIAL1\_PROTOCOL or SERIAL2\_PROTOCOL to 5.
 * GPS\_TYPE2 = 1 /“AUTO” or the specific number corresponding to the type of GPS
-* GPS\_AUTO\_SWITCH = 2 / “Blend”. Alternatively set to 1 / “UseBest” to only use the better GPS. The better \_\_GPS is decided based on the GPS’s self reported accuracy.
+* GPS\_AUTO\_SWITCH = 2 / “Blend”. Alternatively set to 1 / “UseBest” to only use the better GPS. The better GPS is decided based on the GPS’s self reported accuracy.
 
 ## ADS-B Receiver
 

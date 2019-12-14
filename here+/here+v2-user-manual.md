@@ -64,20 +64,12 @@ Do not place the antenna near electronic devices, as high power electronic devic
 
 | GNSS module | Connector |
 | :--- | :--- |
+| u-blox NEO-M8P-0 | HERE+ V1: USB, UART (JST-GH connector, HERE+ V2: UART (JST-GH connector)|
 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">u-blox NEO-M8P-0</th>
-      <th style="text-align:left">
-        <p>HERE+ V1: USB, UART (JST-GH connector)</p>
-        <p>HERE+ V2: UART (JST-GH connector)</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| GNSS module | Ceramic antenna | Connector |
+### HERE+ Base Hardware Parameters
+
+| GNSS module | Ceramic antenna | Connector |
 | :--- | :--- | :--- |
 | u-blox NEO-M8P-2 | CGGBP.25.4.A.02 | USB, UART, SMA |
 
