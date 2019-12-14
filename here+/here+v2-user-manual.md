@@ -64,18 +64,8 @@ Do not place the antenna near electronic devices, as high power electronic devic
 
 | GNSS module | Connector |
 | :--- | :--- |
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">u-blox NEO-M8P-0</th>
-      <th style="text-align:left">
-        <p>HERE+ V1: USB, UART (JST-GH connector)</p>
-        <p>HERE+ V2: UART (JST-GH connector)</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+| u-blox NEO-M8P-0 | HERE+ V1: USB, UART (JST-GH connector, HERE+ V2: UART (JST-GH connector)|
+
 
 ### HERE+ Base Hardware Parameters
 
