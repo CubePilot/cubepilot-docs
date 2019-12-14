@@ -206,11 +206,15 @@ For each of the components listed, the input voltage ranges over which the devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>Peripheral power is split into two groups:
+  
+</table>The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, and the power supply protection scheme ensures that no more than 5.5V is presented to peripheral devices. Power is disconnected from the peripherals when the available supply voltage falls below 2.7V, or rises above approximately 5.7V. 
+Peripheral power is split into two groups:
 
 * Serial 1 has a private 1.5A current limit, intended for powering a low power
 
-telemetry radio. This output is separately EMI filtered and draws directly from the USB / Brick inputs. Peak power draw on this port should not exceed 2A, which should be sufficient for a 30dBm transmitter of reasonable efficiency.
+**Telemetry radio.** 
+
+This output is separately EMI filtered and draws directly from the USB / Brick inputs. Peak power draw on this port should not exceed 2A, which should be sufficient for a 30dBm transmitter of reasonable efficiency.
 
 * All other peripherals share a 1A current limit and a single power switch. Peak power draw on this port should not exceed 1.5A.
 
