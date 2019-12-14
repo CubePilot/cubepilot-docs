@@ -77,7 +77,9 @@ Do not place the antenna near electronic devices, as high power electronic devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>| GNSS module | Ceramic antenna | Connector |
+</table>### HERE+ Base Hardware Parameters
+
+| GNSS module | Ceramic antenna | Connector |
 | :--- | :--- | :--- |
 | u-blox NEO-M8P-2 | CGGBP.25.4.A.02 | USB, UART, SMA |
 
