@@ -462,7 +462,9 @@ IO DEBUG
       <td style="text-align:center">GND</td>
     </tr>
   </tbody>
-</table>#### FMU DEBUG
+</table>
+
+**FMU DEBUG**
 
 <table>
   <thead>
@@ -526,7 +528,9 @@ IO DEBUG
       <td style="text-align:left">GND</td>
     </tr>
   </tbody>
-</table>#### Analogue
+</table>
+
+**Analogue**
 
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
