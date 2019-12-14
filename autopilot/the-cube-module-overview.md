@@ -398,7 +398,7 @@ New ADSB Carrier board
 
 **Debug \( New Standard Debug\) \(Digikey PN for housing SM06B-SURS-TF\(LF\)\(SN\)-ND\)**
 
-IO DEBUG
+***IO DEBUG***
 
 <table>
   <thead>
