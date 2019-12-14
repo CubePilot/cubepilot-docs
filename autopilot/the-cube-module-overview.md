@@ -206,9 +206,7 @@ For each of the components listed, the input voltage ranges over which the devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, and the power supply protection scheme ensures that no more than 5.5V is presented to peripheral devices. Power is disconnected from the peripherals when the available supply voltage falls below 2.7V, or rises above approximately 5.7V.
-
-Peripheral power is split into two groups:
+</table>Peripheral power is split into two groups:
 
 * Serial 1 has a private 1.5A current limit, intended for powering a low power
 
@@ -419,11 +417,7 @@ IO DEBUG
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 4 | IO-SWDIO | I/O |  | Serial wire debug I/O |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 5 | IO-SWCLK | I/O |  | Serial wire Clock |
+</table>| 5 | IO-SWCLK | I/O |  | Serial wire Clock |
 | :--- | :--- | :--- | :--- | :--- |
 
 
@@ -457,11 +451,7 @@ IO DEBUG
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 5 | FMU-SWCLK | I/O |  | Serial wire Clock |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 6 | GND | out |  | GND |
+</table>| 6 | GND | out |  | GND |
 | :--- | :--- | :--- | :--- | :--- |
 
 
@@ -719,11 +709,7 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 49 | BATT\_CURRENT | a i | Current sense from main battery |
-| :--- | :--- | :--- | :--- |
-
-
-|  | \_SENS\_PROT |  |  |
+</table>|  | \_SENS\_PROT |  |  |
 | :--- | :--- | :--- | :--- |
 
 

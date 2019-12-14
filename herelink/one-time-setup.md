@@ -31,7 +31,7 @@ In case there is a need to pair with a different AirUnit module, follow the foll
 
 ## **Selecting FCC/CE settings**
 
-1. Select![](../.gitbook/assets/windowsqgc-1%20%281%29.ico)and scroll down in General Tab
+1. Select![](../.gitbook/assets/windowsqgc-1-1.ico)and scroll down in General Tab
 2. Select RF Authentication option and choose the relevant setting for your region.
 
 \*\*\*\*
