@@ -26,8 +26,8 @@ According to the type, size, dynamic structure, and load, installation of hardwa
 
 ### Install SD Card
 
-Dataflash logs are stored on microSD Card, which is plugged in the left of The Cube. MicroSD Card with ****Class 4 or higher is recommended。  
-  
+Dataflash logs are stored on microSD Card, which is plugged in the left of The Cube. MicroSD Card with _\*\*_Class 4 or higher is recommended。
+
 **Remark: The Cube cannot arm the vehicle without SD card. A tone alarm with 1 high tune and 2 low tune will be played when trying to arm.**
 
 ![](../.gitbook/assets/photo-02.jpg)
@@ -82,11 +82,11 @@ Control channels for servos can be set in "Initial Setup &gt; Mandatory Hardware
 
 GPS module should be operated under good condition:
 
-_-Place the module on the outside of your vehicle \(in an elevated position if appropriate\) with a clear view of the sky, as far as possible from the motors and ESCs, with the arrow facing forward._ 
+_-Place the module on the outside of your vehicle \(in an elevated position if appropriate\) with a clear view of the sky, as far as possible from the motors and ESCs, with the arrow facing forward._
 
 _-Distance the module from DC power wiring and the batteries by at least 10cm. Use of a GPS mast is highly recommended._
 
-_-Place the module clear of nearby iron containing metallic objects._ 
+_-Place the module clear of nearby iron containing metallic objects._
 
 _-Twist power and ground wires where possible._
 
@@ -173,7 +173,7 @@ To establish a connection you must first choose the communication method/channel
 
 ### Loading Firmware to The Cube
 
-elect the COM port drop-down on the upper-right corner of the screen \(near the **Connect** button\). Select **AUTO** or the specific port for your board. Set the Baud rate to 115200 as shown. Don’t hit **Connect** just yet. 
+elect the COM port drop-down on the upper-right corner of the screen \(near the **Connect** button\). Select **AUTO** or the specific port for your board. Set the Baud rate to 115200 as shown. Don’t hit **Connect** just yet.
 
 On the Mission Planner’s "Initial Setup &gt; Install Firmware"" screen select the appropriate icon that matches your frame \(i.e. Quad, Hexa\). Follow the instruction and messages to install firmware.
 
@@ -286,7 +286,7 @@ Before calibrating ESCs, please ensure that your copter has NO PROPS on it and t
 
 ![](../.gitbook/assets/photo-27.jpg)
 
-All at once calibration: 
+All at once calibration:
 
 1.Turn on your transmitter and put the throttle stick at maximum
 
@@ -309,8 +309,6 @@ All at once calibration:
 7.Pull the transmitter’s throttle stick down to its minimum position.
 
 ![](../.gitbook/assets/photo-31.jpg)
-
-
 
 8.The ESCs should then emit a long tone indicating that the minimum throttle has been captured and the calibration is complete.
 
@@ -428,9 +426,9 @@ Enter the properties your module can measure, the type of module, the type of fl
 
 ![](../.gitbook/assets/photo-35.jpg)
 
-Monitor Analog Voltage and Current ; Current monitor is currently not supported 
+Monitor Analog Voltage and Current ; Current monitor is currently not supported
 
-Sensor 0.Other ; 
+Sensor 0.Other ;
 
 APM Ver 4.The Cube or Pixhawk .
 
@@ -443,7 +441,7 @@ Enter the new Voltage Divider according to your calculation and reboot the fligh
 #### Battery Monitor 2 Calibration
 
 Battery Monitor 2 corresponds to POWER2 port.  
- In the "Configuration &gt; Full Parameter Tree" screen, change the following parameters to enable battery ****monitor 2:
+In the "Configuration &gt; Full Parameter Tree" screen, change the following parameters to enable battery _\*\*_monitor 2:
 
 ![](../.gitbook/assets/photo-36.jpg)
 
@@ -451,9 +449,9 @@ Enter the properties your module can measure, the type of module, the type of fl
 
 ![](../.gitbook/assets/photo-37.jpg)
 
-Monitor Analog Voltage Only ; 
+Monitor Analog Voltage Only ;
 
-Volt Pin Pixhawk/Pixracer/Navio2 ; 
+Volt Pin Pixhawk/Pixracer/Navio2 ;
 
 Current Pin Pixhawk/Pixracer/Navio2 。
 
@@ -485,7 +483,7 @@ Flashing blue:Disarmed, no GPS lock. Auto-mission, loiter and return-to-launch f
 
 Solid blue:Armed with no GPS lock
 
-Flashing green:Disarmed \(ready to arm\), GPS lock acquired. Quick double tone when disarming from __the armed state.
+Flashing green:Disarmed \(ready to arm\), GPS lock acquired. Quick double tone when disarming from \_\_the armed state.
 
 Fast Flashing green: Same as above but GPS is using SBAS \(so should have better position estimate\)
 
@@ -554,7 +552,7 @@ Change the following parameters in ArduPilot firmware to enable GPS blending mod
 
 * SERIAL4\_PROTOCOL = 5 /“GPS”。Alternatively TELEM1 or TELEM2 can be used by setting SERIAL1\_PROTOCOL or SERIAL2\_PROTOCOL to 5.
 * GPS\_TYPE2 = 1 /“AUTO” or the specific number corresponding to the type of GPS
-* GPS\_AUTO\_SWITCH = 2 / “Blend”. Alternatively set to 1 / “UseBest” to only use the better GPS. The better __GPS is decided based on the GPS’s self reported accuracy.
+* GPS\_AUTO\_SWITCH = 2 / “Blend”. Alternatively set to 1 / “UseBest” to only use the better GPS. The better \_\_GPS is decided based on the GPS’s self reported accuracy.
 
 ## ADS-B Receiver
 
@@ -586,20 +584,9 @@ Once operational aircraft within about 50km should appear on the Mission Planner
 
 ## OSD \(On-Screen Display\)
 
-###  Optional OSD Module
+### Optional OSD Module
 
 An optional OSD \(On Screen Display\) module receives real-time data from vehicle and overlay those information on the camera. The video is then streaming through video transmitter and can be viewed in the GCS. To enable video display, Connect the 6 pin DF13 cable from the module to TELEM2 on The Cube.
 
 Last Update: 11th June 2019
-
-
-
-
-
-  
-
-
-
-
-
 
