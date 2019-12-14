@@ -77,7 +77,8 @@ Do not place the antenna near electronic devices, as high power electronic devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>### HERE+ Base Hardware Parameters
+</table>
+### HERE+ Base Hardware Parameters
 
 | GNSS module | Ceramic antenna | Connector |
 | :--- | :--- | :--- |
