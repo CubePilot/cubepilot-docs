@@ -64,8 +64,6 @@ Do not place the antenna near electronic devices, as high power electronic devic
 
 | GNSS module | Connector |
 | :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
@@ -78,6 +76,7 @@ Do not place the antenna near electronic devices, as high power electronic devic
   </thead>
   <tbody></tbody>
 </table>
+
 ### HERE+ Base Hardware Parameters
 
 | GNSS module | Ceramic antenna | Connector |
