@@ -1,4 +1,4 @@
-# Standard Carrier Board Footprint & Dimensions
+# Standard Carrier Board Footprint & Dimentions
 
 Footprint and dimentions of the Cube carrier board versions 
 
