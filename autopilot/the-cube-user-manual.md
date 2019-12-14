@@ -26,7 +26,7 @@ According to the type, size, dynamic structure, and load, installation of hardwa
 
 ### Install SD Card
 
-Dataflash logs are stored on microSD Card, which is plugged in the left of The Cube. MicroSD Card with _\*\*_Class 4 or higher is recommended。
+Dataflash logs are stored on microSD Card, which is plugged in the left of The Cube. MicroSD Card with Class 4 or higher is recommended。
 
 **Remark: The Cube cannot arm the vehicle without SD card. A tone alarm with 1 high tune and 2 low tune will be played when trying to arm.**
 
