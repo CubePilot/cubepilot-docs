@@ -37,3 +37,7 @@
 
 * [Here Flow](flow-senor/here-flow.md)
 
+## SOLO
+
+* [Open Solo](solo/open-solo.md)
+
