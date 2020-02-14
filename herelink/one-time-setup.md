@@ -4,35 +4,60 @@
 
 In case you did an update using `flash_all` script, or are observing issues with Joystick Control even after calibrating using Joystick Calibration Menu and RC Calibration from Ground Station App, please follow the following Tutorial.
 
-1. Tap![](../.gitbook/assets/windowsqgc.ico)and scroll down in `General` Tab.
-2. Tap `Dial Pad` button.
-3. Enter `*#*#6484#*#*` , The last star will automatically start Hardware Test screen app.
-4. Scroll and enter Joystick Test, run through the process of Calibration and select Pass.
-5. Do the same for Roll Wheel Test.
+* From App Launcher start app list.
 
-{% embed url="https://youtu.be/2-veBvv8qko" caption="" %}
+![](../.gitbook/assets/device-2020-02-14-150633.png)
 
-## Joystick and Button Setup
+* Select `Phone` app.
 
-Follow the steps as shown in the following video:
+![](../.gitbook/assets/image%20%283%29.png)
 
-{% embed url="https://www.youtube.com/watch?v=BLTa7o3zjWk&t=7s" caption="" %}
+* Enter `*#*#6484#*#*` , The last star will automatically start Hardware Test screen app.
+* Scroll and enter Joystick Test, run through the process of Calibration and select Pass.
+
+![](../.gitbook/assets/device-2020-02-14-151119.png)
+
+![](../.gitbook/assets/image%20%2811%29.png)
+
+* Do the same for Roll Wheel Test.
+
+## Joystick Endpoints Calibration
+
+* Open Herelink Settings by pulling notification drawer and tapping Herelink Settings:
+
+![](../.gitbook/assets/image%20%2813%29.png)
+
+* Slide left for Joystick screen.
+
+![](../.gitbook/assets/device-2020-02-14-151909.png)
+
+* Select Calibrate button
+
+![](../.gitbook/assets/image%20%289%29.png)
+
+* Follow the calibration steps
+
+![](../.gitbook/assets/image%20%2812%29.png)
+
+![](../.gitbook/assets/image%20%281%29.png)
 
 ## Pairing with Air Unit
 
-After uploading the firmware using `flash_all` script you will be displayed message to start the process of pairing.
+* Open Herelink Settings by pulling notification drawer and tapping Herelink Settings:
 
-In case there is a need to pair with a different AirUnit module, follow the following process:
+![](../.gitbook/assets/image%20%2813%29.png)
 
-1. Tap![](../.gitbook/assets/windowsqgc-2.ico)and select `D2D Info` from the tabs.
-2. Click the Pair Button, a Dialog box will show up to push the Pair/Reset Button on the AirUnit until the LED starts blinking green.
-3. Release the Pair/Reset button.
-4. The Pair Successful dialog box will show up. Click OK and the Units should be paired now. The LED on the AirUnit will turn solid Green.
+* Tap Pair button and then hold the `Pair/Reset` button on Air Unit until `LED2` blinks.
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+![](../.gitbook/assets/image%20%2810%29.png)
+
+![](../.gitbook/assets/image%20%282%29.png)
 
 ## **Selecting FCC/CE settings**
 
-1. Select![](../.gitbook/assets/windowsqgc-1-1.ico)and scroll down in General Tab
-2. Select RF Authentication option and choose the relevant setting for your region.
+* Select the region you are residing in or matches closest to your locations policy from Country Under Herelink Settings
 
-\*\*\*\*
+![](../.gitbook/assets/image%20%286%29.png)
 
