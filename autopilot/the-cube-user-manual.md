@@ -441,7 +441,7 @@ Enter the new Voltage Divider according to your calculation and reboot the fligh
 #### Battery Monitor 2 Calibration
 
 Battery Monitor 2 corresponds to POWER2 port.  
-In the "Configuration &gt; Full Parameter Tree" screen, change the following parameters to enable battery ***monitor 2:
+In the "Configuration &gt; Full Parameter Tree" screen, change the following parameters to enable battery _\*_monitor 2:
 
 ![](../.gitbook/assets/photo-36.jpg)
 

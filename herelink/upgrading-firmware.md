@@ -4,7 +4,7 @@ description: >-
   Units
 ---
 
-# Upgrading Firmware
+# Factory Reset
 
 ## Install Android Tools
 

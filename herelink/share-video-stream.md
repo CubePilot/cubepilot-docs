@@ -2,37 +2,71 @@
 
 ## 1. Enable the video stream on HereLink
 
-1. Tap![](../.gitbook/assets/windowsqgc.ico)and scroll down in `General` Tab.
-2. Scroll down to 'Video sharing' and enable it by taping in the corresponding button
+* Slide down the Notification Drawer and tap the HereLink Settings tab
 
-![](../.gitbook/assets/video-stream_1.jpg)
+![](../.gitbook/assets/image%20%284%29.png)
 
-{% hint style="info" %}
-If the 'video sharing' fields are empty, please upgrade your Air unit + Ground unit with the lastest firmware version
-{% endhint %}
+* Scroll down in Radio Settings and Enable the Video Sharing
 
-## 2. Connect to the HereLink network
-
-1. On Herelink side, tap on 'Show password' to display it
-2. On your computer, go to the wifi networks and search for 'AndroidAP'
-3. Connect to 'AndroidAP' wifi with the password provided on the HereLink
-
-![](../.gitbook/assets/video-stream_2.jpg)
+![](../.gitbook/assets/image%20%282%29.png)
 
 {% hint style="info" %}
-Network Name and password can be customized by user
+Please note that video stream isn't available until a GCS app enables it, so ensure atleast one GCS app is running in the background with correct stream selected.
 {% endhint %}
+
+## 2. Connect over Wifi Tethering
+
+* Pull down the Notification Drawer and enable Hotspot.
+
+![](../.gitbook/assets/device-2020-02-14-143024.png)
+
+* To configure press and hold hotspot logo, and you should see following screen.
+
+![](../.gitbook/assets/device-2020-02-14-143404.png)
+
+* Then under Set up Wifi hotspot configure name and password for the hotspot.
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+* The video stream will be available at `rtsp://192.168.43.1:8554/fpv_stream`to connected devices.
+
+## 3. Connect over USB tethering
+
+* Press and hold the Hotspot button under notification logo.
+
+![](../.gitbook/assets/device-2020-02-14-143024.png)
+
+* Under `Tethering & portable hotspot` find `USB tethering`, turn it on.
+
+![](../.gitbook/assets/image%20%283%29.png)
+
+* The video stream will be available to connected devices over USB via `rtsp://192.168.42.129:8554/fpv_stream`
+
+## 4. Connect via Wifi Connection
+
+* If Herelink is connected over wifi, you can get video stream using IP of Herelink on the network.
+* Press and hold Wifi option in Notification drawer and select settings.
+
+![](../.gitbook/assets/device-2020-02-14-144314.png)
+
+* Scroll down to find the IP Address
+
+![](../.gitbook/assets/device-2020-02-14-144436.png)
+
+* The video stream will be available to connected devices over USB via `rtsp://<ipaddress>:8554/fpv_stream`
+
+ 
 
 ## 3. Display the video stream
 
-In this exemple we use VLC media player
+In this example we use VLC media player
 
-1. Open VLC and go to File &gt;&gt; Open network
-2. Type the url address provided on the HereLink stream menu and click "Open" 
+* Open VLC and go to File &gt;&gt; Open network
+* Type the url address provided on the HereLink stream menu and click "Open" 
 
 ![](../.gitbook/assets/vlc-stream.png)
 
-1. The video stream window will automaticaly opens, if not, you can force it by clicking right on the video stream link &gt;&gt; Play
+* The video stream window will automatically opens, if not, you can force it by clicking right on the video stream link &gt;&gt; Play
 
 ![](../.gitbook/assets/vlc_2.png)
 
