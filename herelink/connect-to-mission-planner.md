@@ -1,4 +1,4 @@
-# Connect to Mission Planner
+# Connecting to Mission Planner
 
 {% hint style="info" %}
 For enabling video stream please refer [Share video Stream](share-video-stream.md)
