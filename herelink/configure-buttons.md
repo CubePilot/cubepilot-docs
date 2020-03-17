@@ -23,7 +23,7 @@ description: >-
 
 ![](../.gitbook/assets/button-mapping-2.jpg)
 
-* Select either 'Click' or 'Long Click' \(Note this allows you to set two functions to each button\) 
+* Select either 'Click' or 'Long Click' \(**Note** this allows you to set two functions to each button\) 
 
 ![](../.gitbook/assets/button-mapping-2.5.jpg)
 

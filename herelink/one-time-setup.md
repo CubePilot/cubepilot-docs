@@ -4,9 +4,11 @@
 
 In case you did an update using `flash_all` script, or are observing issues with Joystick Control even after calibrating using Joystick Calibration Menu and RC Calibration from Ground Station App, please follow the following tutorial.
 
-* From App Launcher pull down from the top and select Herelink Setting
+* From App Launcher slide down the notification drawer from the top and select Herelink Setting
 
 ![](../.gitbook/assets/home-screen.png)
+
+![](../.gitbook/assets/settings-app.jpg)
 
 * Slide left for Joystick screen.
 
@@ -45,7 +47,7 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 * Open Herelink Settings by pulling notification drawer and tapping Herelink Settings:
 
-![](https://github.com/MadRC/cubepilot-docs/tree/93b1326c857ac9c6e013e676b182ef640e97d642/.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/settings-app.jpg)
 
 * Tap Pair button and then hold the `Pair/Reset` button on Air Unit until `LED2` blinks.
 
