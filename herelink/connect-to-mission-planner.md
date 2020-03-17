@@ -15,7 +15,7 @@ For enabling video stream in herelink settings please refer [Share video Stream]
 
 ![](../.gitbook/assets/mission-planner-2.png)
 
-To view live Herelink video in Mission Planner 
+### To view live Herelink video in Mission Planner 
 
 * Right click on the HUD
 *  Select 'Video' 
