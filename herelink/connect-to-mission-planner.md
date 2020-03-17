@@ -1,15 +1,18 @@
 # Connecting to Mission Planner
 
 {% hint style="info" %}
-For enabling video stream in herelink settings please refer [Share video Stream](share-video-stream.md)
+For enabling video stream in Herelink settings please refer [Share video Stream](share-video-stream.md)
 {% endhint %}
 
-‌You are now connected to the Herelink Wifi.
+‌**You are now connected to the Herelink Wifi.**
 
-* Open Mission planner 
-* Set the port to 'UDP' \(top right\) 
-* Click 'Connect' 
-* A popup window will open. Leave it on default port '14550' and click OK
+### **Mavlink**
+
+* Open Mission Planner
+* Set the port to 'UDP' \(top right\)
+* Click 'Connect'
+* Enter the IP of the Herelink controller  [Find your IP](https://ccm.net/faq/33725-how-to-check-your-android-ip-address) 
+* Enter port '14552'
 
 ![](../.gitbook/assets/screen-udp-copie-min.jpg)
 
@@ -17,10 +20,13 @@ For enabling video stream in herelink settings please refer [Share video Stream]
 
 ### To view live Herelink video in Mission Planner 
 
+**Note: Video requires Mission Planner 1.3.70 beta or above**
+
 * Right click on the HUD
 *  Select 'Video' 
 * Select 'Herelink Video'
-* A popup window will open. Leave it on IP address '192.168.43.1' and click OK
+* The first time you do this Mission Planner may need to download the files required to play the video. Your device will require and internet connection to be able to do this, you may need to disconnect from the Herelink hotspot to perform this step
+* A popup window will open, enter the same IP as you did in the mavlink step and click OK
 
 ![](../.gitbook/assets/herelink-video.jpg)
 
