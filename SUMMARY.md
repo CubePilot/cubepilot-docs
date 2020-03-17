@@ -5,8 +5,9 @@
 ## Herelink
 
 * [Firmware Releases](herelink/firmware-releases.md)
-* [Factory Reset](herelink/upgrading-firmware.md)
+* [How To Update Firmware](herelink/upgrading-firmware.md)
 * [One Time Setup](herelink/one-time-setup.md)
+* [Configure Buttons](herelink/configure-buttons.md)
 * [Share video Stream](herelink/share-video-stream.md)
 * [Connecting to Mission Planner](herelink/connect-to-mission-planner.md)
 * [Installing a custom app](herelink/installing-a-custom-app.md)

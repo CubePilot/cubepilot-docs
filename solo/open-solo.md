@@ -40,8 +40,7 @@ _**Assets**_
 [arducopter.apj](https://github.com/OpenSolo/OpenSolo/releases/download/OpenSolo-4.0.0/arducopter.apj)  
 [artoo\_2019-12-31\_01-33.bin](https://github.com/OpenSolo/OpenSolo/releases/download/OpenSolo-4.0.0/artoo_2019-12-31_01-33.bin)  
 [Source code\(zip\)](https://github.com/OpenSolo/OpenSolo/archive/OpenSolo-4.0.0.zip)  
-[Source code\(tar.gz\)](https://github.com/OpenSolo/OpenSolo/archive/OpenSolo-4.0.0.tar.gz)  
-
+[Source code\(tar.gz\)](https://github.com/OpenSolo/OpenSolo/archive/OpenSolo-4.0.0.tar.gz)
 
 ## Open Solo 4-dev 2019-09-28
 
@@ -213,6 +212,5 @@ The process for installing Open Solo is quite straightforward. The general steps
 [solo\_2.4.2.tar.gz](https://github.com/OpenSolo/OpenSolo/releases/download/3DR-2.4.2/solo_2.4.2.tar.gz)  
 [solo\_2.4.2.tar.gz.md5](https://github.com/OpenSolo/OpenSolo/releases/download/3DR-2.4.2/solo_2.4.2.tar.gz.md5)  
 [Source code\(zip\)](https://github.com/OpenSolo/OpenSolo/archive/3DR-2.4.2.zip)  
-[Source code\(tar.gz\)](https://github.com/OpenSolo/OpenSolo/archive/3DR-2.4.2.tar.gz)  
-
+[Source code\(tar.gz\)](https://github.com/OpenSolo/OpenSolo/archive/3DR-2.4.2.tar.gz)
 

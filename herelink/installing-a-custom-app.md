@@ -6,10 +6,10 @@ Ensure you have latest [platform-tools](https://developer.android.com/studio/rel
 * Enable `Settings`-&gt;`Developer options`-&gt;`USB debugging`
 * Check if the unit is connected
 
-```
+```text
 $ adb devices
 List of devices attached
-66c4bfea	device
+66c4bfea    device
 ```
 
 * Install app using `adb install <app_name>.apk`
