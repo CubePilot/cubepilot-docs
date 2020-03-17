@@ -1,14 +1,14 @@
 # Share video Stream
 
-## 1. Enable the video stream on HereLink
+## 1. Enable the video stream on Herelink
 
-* Slide down the Notification Drawer and tap the HereLink Settings tab
+* Slide down the Notification Drawer and tap the Herelink Settings tab
 
-![](https://github.com/MadRC/cubepilot-docs/tree/93b1326c857ac9c6e013e676b182ef640e97d642/.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/settings-app.jpg)
 
 * Scroll down in Radio Settings and Enable the Video Sharing
 
-![](https://github.com/MadRC/cubepilot-docs/tree/93b1326c857ac9c6e013e676b182ef640e97d642/.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/video-sharing.jpg)
 
 {% hint style="info" %}
 Please note that video stream isn't available until a GCS app enables it, so ensure atleast one GCS app is running in the background with correct stream selected.
