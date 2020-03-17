@@ -25,7 +25,7 @@ Download the latest image from [Firmware Releases](firmware-releases.md) section
 ### Windows
 
 1. Connect the Herelink or Air end to you PC via USB
-2. Download the firmware file and run the executable file, windows may try to block the file from running, click 'More Info' and then select 'Run Anyway' to allow the update to start. 
+2. Download the firmware file and run the executable file, windows may try to block the file from running!  click 'More Info' and then select 'Run Anyway' to allow the update to start. 
 3. The batch script will start executing, wait for script to complete.
 4. After Remote Unit upgrade is complete, you can connect Air Unit and repeat the process from 1-3.
 5. The Units will automatically restart and will retain user settings from previous update

@@ -32,7 +32,7 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 ![](../.gitbook/assets/joystick-test.jpg)
 
-* To calibrate the joystick SBUS  click 'SBUS OUT CAL' and follow the steps as shown on the highlight section.
+* To calibrate the joystick SBUS click 'SBUS OUT CAL' and follow the steps as shown on the highlight section.
 
 ![](../.gitbook/assets/joystick-sbus.jpg)
 
