@@ -51,11 +51,11 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 * Tap Pair button and then hold the `Pair/Reset` button on Air Unit until `LED2` blinks.
 
-![](../.gitbook/assets/image-5.png)
+![](../.gitbook/assets/settings101.png)
 
-![](../.gitbook/assets/image-10.png)
+![](../.gitbook/assets/airpair1.png)
 
-![](../.gitbook/assets/image-2.png)
+![](../.gitbook/assets/airpair2.png)
 
 ## **Selecting FCC/CE settings**
 
