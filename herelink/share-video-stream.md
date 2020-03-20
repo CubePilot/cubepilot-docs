@@ -38,7 +38,7 @@ Please note that video stream isn't available until a GCS app enables it, so ens
 
 * Under `Tethering & portable hotspot` find `USB tethering`, turn it on.
 
-![](https://github.com/MadRC/cubepilot-docs/tree/93b1326c857ac9c6e013e676b182ef640e97d642/.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/device-2020-02-14-143404.png)
 
 * The video stream will be available to connected devices over USB via `rtsp://192.168.42.129:8554/fpv_stream`
 
