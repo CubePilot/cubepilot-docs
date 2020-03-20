@@ -39,7 +39,7 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 ![](../.gitbook/assets/joystick-sbus.jpg)
 
-![](../.gitbook/assets/calibrate12.png)
+![](../.gitbook/assets/calibrate2.png)
 
 ![](../.gitbook/assets/calibrate1.png)
 
