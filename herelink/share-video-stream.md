@@ -26,7 +26,7 @@ Please note that video stream isn't available until a GCS app enables it, so ens
 
 * Then under Set up Wifi hotspot configure name and password for the hotspot.
 
-![](../.gitbook/assets/wifipassword.png)
+![](../.gitbook/assets/password.png)
 
 * The video stream will be available at `rtsp://192.168.43.1:8554/fpv_stream`to connected devices.
 
