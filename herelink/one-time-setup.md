@@ -75,7 +75,7 @@ You can access the hardware tests in Herelink as follows
 
 ![](../.gitbook/assets/device-2020-02-14-150633.png)
 
-![](../.gitbook/assets/image-3.png)
+![](../.gitbook/assets/apps.png)
 
 ![](../.gitbook/assets/device-2020-02-14-151119.png)
 
