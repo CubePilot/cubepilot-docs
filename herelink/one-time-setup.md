@@ -61,7 +61,7 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 * Select the region you are residing in or matches closest to your locations policy from Country Under Herelink Settings
 
-
+![](../.gitbook/assets/fccsettings.png)
 
 
 
