@@ -27,7 +27,7 @@ Mavlink
 * Enter the IP of the herelink controler [Find your IP](https://ccm.net/faq/33725-how-to-check-your-android-ip-address)
 * Enter port '14552'
 
-you will now have mavlink working into Mission Planner
+You will now have mavlink working into Mission Planner
 
 ### To view live Herelink video in Mission Planner 
 
