@@ -39,9 +39,9 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 ![](../.gitbook/assets/joystick-sbus.jpg)
 
-![](../.gitbook/assets/image-12.png)
+![](../.gitbook/assets/calibrate12.png)
 
-![](../.gitbook/assets/image-1.png)
+![](../.gitbook/assets/calibrate1.png)
 
 ## Pairing with Air Unit
 
