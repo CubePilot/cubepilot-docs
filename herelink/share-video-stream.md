@@ -18,7 +18,7 @@ Please note that video stream isn't available until a GCS app enables it, so ens
 
 * Pull down the Notification Drawer and enable Hotspot.
 
-![](../.gitbook/assets/settings-app.jpg)
+![](../.gitbook/assets/device-2020-02-14-143024.png)
 
 * To configure press and hold hotspot logo, and you should see following screen.
 
