@@ -1,10 +1,12 @@
 # Connecting to Mission Planner
 
+## Connecting to Mission Planner
+
 {% hint style="info" %}
 For enabling video stream in Herelink settings please refer [Share video Stream](share-video-stream.md)
 {% endhint %}
 
-# You are now connected to the Herelink HotSpot Wifi. 
+## You are now connected to the Herelink HotSpot Wifi.
 
 ### **Mavlink**
 
@@ -18,9 +20,10 @@ For enabling video stream in Herelink settings please refer [Share video Stream]
 
 ![](../.gitbook/assets/mission-planner-2.png)
 
-# You are now connected to the same wifi network as the Herelink is.
+## You are now connected to the same wifi network as the Herelink is.
 
 Mavlink
+
 * Open Mission Planner
 * Set the port to 'UDPCL' \(top right\)
 * Click 'Connect'
@@ -29,11 +32,11 @@ Mavlink
 
 You will now have mavlink working into Mission Planner
 
-### To view live Herelink video in Mission Planner 
+### To view live Herelink video in Mission Planner
 
 **Note: Video requires Mission Planner 1.3.70 beta or above**
 
-* Start Solex or QGC to ensure your video is working (this is required to start the streaming process)
+* Start Solex or QGC to ensure your video is working \(this is required to start the streaming process\)
 * Right click the HUD
 * Select 'Video' 
 * Select 'Herelink Video'
@@ -43,3 +46,4 @@ You will now have mavlink working into Mission Planner
 ![](../.gitbook/assets/herelink-video.jpg)
 
 ![](../.gitbook/assets/herelink-video-ip.jpg)
+

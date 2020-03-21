@@ -63,11 +63,9 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 ![](../.gitbook/assets/fccsettings.png)
 
+## Herelink Hardware Tests
 
-
-## Herelink Hardware Tests 
-
-You can access the hardware tests in Herelink as follows 
+You can access the hardware tests in Herelink as follows
 
 * Select `Phone` app.
 * Enter `*#*#6484#*#*` , The last star will automatically start Hardware Test screen app.
