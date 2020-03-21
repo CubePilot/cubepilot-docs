@@ -1,4 +1,4 @@
-# Here 2 CAN Mode Instruction
+# Here 2 Firmware Update Troubleshooting 
 
 Here2 Default factory setting is CAN mode with UAVCAN Protocol. Default Here2 CAN mode has three devices on CAN bus: GPS, magnetic compass, and barometer. The safety switch is not workable under CAN mode and the barometer is disabled in CAN mode by default. The barometer can be enabled by UAVCAN parameters setting.
 
