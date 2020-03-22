@@ -42,3 +42,6 @@
 * [Open Solo Installation](solo/open-solo-installation.md)
 * [Open Solo](solo/open-solo.md)
 
+## ProfiLED <a id="profiled"></a>
+
+* [ProfiLED](profiled/profiled.md)
