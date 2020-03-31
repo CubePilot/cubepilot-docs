@@ -6,6 +6,8 @@
 
 ProfiLEDs are individually addressable RGB LED's that can be controlled directly by a Cube running ArduPilot. They can be set to match the notification colours of the HERE GPS units, allowing the state of the autopilot to be more visible. It is also possible to control ProfiLEDs directly from ArduPilot's onboard Lua scripting. This allows ProfiLED's to be used as navigation lights, custom notification lights or even displays. ArduPilot running on an Orange Cube is capable of driving more than 300 ProfiLED's at 50Hz. 
 
+{% embed url="https://youtu.be/ytW538e_cQw" caption="" %}
+
 {% hint style="info" %}
 ProfiLED support is only in the latest/master ArduPilot branch, it is not yet in the stable release.
 {% endhint %}
