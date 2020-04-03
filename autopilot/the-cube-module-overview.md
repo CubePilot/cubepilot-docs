@@ -214,13 +214,15 @@ _**Connector Series**_
   * Power Module: [Molex Clik-Mate](http://www.molex.com/molex/products/family?channel=products&chanName=family&key=clikmate_wiretoboard_connectors) 2 mm for both main and backup power \(on bottom of board?\)
   
 **The Cube**
-  Mechanical: 30x30 mm M3 mounting hole pattern, 35x35 mm footprint 80 position DF17 connector. Carries _all_ autopilot interface connections.
+
+Mechanical: 30x30 mm M3 mounting hole pattern, 35x35 mm footprint 80 position DF17 connector. Carries _all_ autopilot interface connections.
   * Minimal \(read: really minimal\) electrical protection
   * No power management
   * 3.8 to 5.7V operation \(absolute maximum ratings\) 
   * 4.0 to 5.5V operation \(compliant rating\)
   
 **The Cube IO**
+
 Total connectivity
   * I2C2
   * 2x CAN: CAN1 and CAN2
@@ -229,6 +231,7 @@ Total connectivity
   * 1x HMI: USB extender
 
 **Power 6 pos \(ClikMate 6 pos 2.0mm\)**
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- | 
 | 1 | VDD 5V Brick | in | red/gray | Supply from Brick to AP |
