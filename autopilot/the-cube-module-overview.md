@@ -182,15 +182,19 @@ For each of the components listed, the input voltage ranges over which the devic
 The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, and the power supply protection scheme ensures that no more than 5.5V is presented to peripheral devices. Power is disconnected from the peripherals when the available supply voltage falls below 2.7V, or rises above approximately 5.7V. Peripheral power is split into two groups: \* Serial 1 has a private 1.5A current limit, intended for powering a low power 
 
 **Telemetry radio.**
+
 This output is separately EMI filtered and draws directly from the USB / Brick inputs. Peak power draw on this port should not exceed 2A, which should be sufficient for a 30dBm transmitter of reasonable efficiency. \* All other peripherals share a 1A current limit and a single power switch. Peak power draw on this port should not exceed 1.5A. Each group is individually switched under software control. The Spektrum / DSM R/C interface draws power ***from its own regulator***, rather than from either of the groups above. This port is switched under software control so that Spektrum / DSM binding can be implemented. Spektrum receivers generally draw ~25mA. S.Bus and CPPM receivers are powered by a dedicated power supply. Please do not connect any servos to this power, only an RX by itself.
 
 **Capacitor Backup**
+
 Both the FMU and IO microcontrollers feature Capacitor-backed real-time clocks and SRAM. The on-board backup Capacitor has capacity sufficient for the intended use of the clock and SRAM, which is to provide storage to permit orderly recovery from unintended power loss or other causes of in-air restarts. The capacitors are recharged from the FMU 3.3V rail. this will only function in the event of software existing to support this feature.
 
 **Voltage, Current and Fault Sensing**
+
 The battery voltage and current reported ***by both bricks*** can be measured by the FMU. In addition, the 5V unregulated supply rail can be measured \(to detect brown- out conditions\). IO can measure the servo power rail voltage. Over-current conditions on the peripheral power ports can be detected by the FMU. Hardware lock-out prevents damage due to persistent short-circuits on these ports. The lock- out can be reset by FMU software. The under/over voltage supervisor for FMU provides an output that is used to hold FMU in reset during brown-out events.
 
 ### EMI Filtering and Transient Protection \(on the normal Base Board, must be specified for externally supplied base boards.\)
+
 EMI filtering is provided at key points in the system using high-insertion-loss pass- through filters. These filters are paired with TVS diodes at the peripheral connectors to suppress power transients. Reverse polarity protection is provided at each of the power inputs. USB signals are filtered and terminated with a combined termination/TVS array. Most digital peripheral signals \(all PWM outputs, serial ports, I2C port\) are driven using ESD-enhanced buffers and feature series blocking resistors to reduce the risk of damage due to transients or accidental misconnections.
 
 ## The Cube Series Interface Spec
@@ -235,6 +239,7 @@ Total connectivity
 | 6 | GND | - | black | GND connection |
 
 **Backup Power 6 pos** 
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** | 
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | VDD 5V Brick | in | red / gray | Supply from Brick to AP |
@@ -247,6 +252,7 @@ Total connectivity
 **I2C - 4 pos \(1 fitted as a stand alone, I2C_2, \(old internal\)**
 
 1. _connector: I2C2 bus_
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** | 
 | :--- | :--- | :--- | :--- | :--- | 
 | 1 | VCC\_5V | out | red / gray | Supply to peripheral from AP |
@@ -257,6 +263,7 @@ Total connectivity
 **CAN \(2 fitted\)**
 
 1. _connectors: CAN1 and CAN2 buses_ 
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | out | red / gray | Supply to peripheral from AP |
@@ -267,6 +274,7 @@ Total connectivity
 **UART GENERIC \(autopilot side\)**
 
 _2 connectors: TELEM1, TELEM2_
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | out | red / gray | Supply to GPS from AP |
@@ -279,6 +287,7 @@ _2 connectors: TELEM1, TELEM2_
 **UART GPS \(autopilot side, I2C is the original “External” bus\)**
 
 _1 connector: GPS_
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | in | red | Supply to GPS from AP |
@@ -293,6 +302,7 @@ _1 connector: GPS_
 **UART 4 \(I2C 2, the original “Internal” bus\)**
 
 _1 connector: GPS_
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | VCC\_5V | out | red / gray | Supply to GPS from AP |
@@ -305,6 +315,7 @@ _1 connector: GPS_
 **UART 5 \(Debug and S.Bus out\)**
 
 _Original Carrier board_
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | S.Bus Out | out | | 3.3V-5.0V TTL level, TX of AP |
@@ -315,7 +326,9 @@ _Original Carrier board_
 | 6 | GND | out | | GND |
 
 **S.Bus out**
+
 New ADSB Carrier board
+
 | **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | S.Bus Out | out | | 3.3V-5.0V TTL level, TX of AP |
