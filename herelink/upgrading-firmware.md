@@ -63,6 +63,7 @@ If you don't see any activity immediately after running the script, please disco
 {% endhint %}
 
 
+
 ## SOFTWARE ACTIVATION
 
 After upgrading the Herelink firmware you may be required to activate your device, you will be presented with the 'Update Device' Screen
@@ -110,6 +111,7 @@ If your Herelink has Solex TX installed you can now update your ground station v
 
 ![](../.gitbook/assets/updating.png)
 
+* After updating you may be promoted to activate your device again see the above steps to complete this. 
 
 
  
