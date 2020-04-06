@@ -30,7 +30,16 @@ Download the latest image from [Firmware Releases](firmware-releases.md) section
 4. After Remote Unit upgrade is complete, you can connect Air Unit and repeat the process from 1-3.
 5. The Units will automatically restart and will retain user settings from previous update
 
-### Mac/Linux
+### Mac
+
+1. Connect the Herelink or Air unit to you Mac via USB
+2. Download the Mac firmware file and run the executable file, OSX may try to block the file from running! You may need to click allow  from your security and privicy settings. 
+3. The batch script will start executing, wait for script to complete.
+4. After Remote Unit upgrade is complete, you can connect Air Unit and repeat the process from 1-3.
+5. The Units will automatically restart and will retain user settings from previous update
+
+
+### Linux
 
 Open Terminal and Execute following commands \(Replace RemoteUnit\_x\_x\_x with AirUnit\_x\_x\_x when trying to upgrade Air Unit\). Following commands will work if the files are present in the Downloads Directory, please modify the path in case you are using different directories.
 
@@ -53,18 +62,18 @@ Please Note that using **`flash_all_except_data_storage`** script will retain pr
 If you don't see any activity immediately after running the script, please disconnect and reconnect the Unit, and rerun the script. Also make sure that Air Unit is powered up separately when updating.
 {% endhint %}
 
+
 ### SOFTWARE ACTIVATION
 
-After upgrading the Herelink formware you may be required to activate your device, you will be presented with the 'Update Device' Screen
+After upgrading the Herelink firmware you may be required to activate your device, you will be presented with the 'Update Device' Screen
 
-* You must first connect your Herelink to a internet connection via WiFi ( Follow the Wifi connection process below for this)
+* You must first connect your Herelink to a internet connection via WiFi
 
 * Once connected click 'Proceed'
 
 * You will be prompted to select your country and then register your device. To do this you must input your 16 digit software key, on later versions this will be located on you box, for earlyier Herelink models you should contact your reseller to obtain a key. 
 
-* Click Proceed and you device will then download the latest software and update 
-
+* Click 'Register' and you device will then download the latest software and update and be ready to use. 
 
 
 
