@@ -30,13 +30,18 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 ## Technical specifications
 
-### Air Unit:
+### Remote & Air Unit:
 
 | Feature | Specifacation |
 | :--- | :--- |
 |Processor: SoC – | Cortex A53, 2.2GHz + Cortex A53, 1.4GHz GPU: 4 core, Mali-T860 SDR: A7 + DSP Storage: Sky: LPDDR3: 1GB Ground: LPDDR3: 2GB Sky / Ground: EMMC: 4GB |
 | Transmission Distance: |  FCC 20km CE / SRRC 12km Image transmission delay: ≤ 110ms Image transmission: 720p@30fps 1080p@30 / 60fps transmission,signal bandwidth: 20MHz / 10MHz |
 | Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
+
+### Air Unit:
+
+| Feature | Specifacation |
+| :--- | :--- |
 | Size: | 78.5x30x13mm |
 | Video Input: | Micro HDMI x 2: Input for external camera video signals |
 | Power Input:  | 2 Pin interface x 1:5V-12V power input interface,average power consumption of the single-sided module is less than 4W |
