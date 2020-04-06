@@ -4,7 +4,7 @@
 
 ## Herelink
 
-* [Herelink Overview](herelink/Herelink Overview.md)
+* [Herelink Overview](herelink/Herelink-Overview.md)
 * [How To Update Firmware](herelink/upgrading-firmware.md)
 * [One Time Setup](herelink/one-time-setup.md)
 * [Configure Buttons & Wheel](herelink/configure-buttons.md)
