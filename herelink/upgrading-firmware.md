@@ -72,9 +72,15 @@ After upgrading the Herelink firmware you may be required to activate your devic
 
 * You must first connect your Herelink to a internet connection via WiFi
 
-* Once connected click 'Proceed'
+* Once connected to WiFi select you region then click 'Proceed'
 
-* You will be prompted to select your country and then register your device. To do this you must input your 16 digit software key, on later versions this will be located on you box, for earlyier Herelink models you should contact your reseller to obtain a key. 
+![](../.gitbook/assets/activation3.jpg)
+
+* You will then be prompted to input your 16 digit software key. On later Herelink versions this will be located on you box, for earlyier Herelink versions you should contact your reseller to obtain a key.
+
+![](../.gitbook/assets/activation2.jpg)
+
+![](../.gitbook/assets/activation4.jpg)
 
 * Click 'Register' and you device will then download the latest software and update and be ready to use. 
 
