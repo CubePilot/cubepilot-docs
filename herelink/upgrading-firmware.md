@@ -4,11 +4,11 @@ description: The following article shows how to  update the firmware of Herelink
 
 # How To Update Firmware
 
-Herelink can be updated on PC,Mac and Linux as per the below process. Newer firmware versions allow you to update the Herelink remote via wifi from with-in the settings app, this is only available if you have the Solex TX app installed. 
+Herelink can be updated on PC, Mac and Linux as per the below process. Newer firmware versions allow you to update the Herelink remote via wifi from with-in the settings app, this is only available if you have the Solex TX app installed. 
 
-The Air end is updated via the same process as the remote via PC,Mac and Linux only.  
+The Air end is updated via the same process as the remote via PC, Mac and Linux only.  
 
-## PC,Mac and Linux Update 
+## PC, Mac and Linux Update 
 
 ### Android Tools
 
@@ -24,7 +24,7 @@ Download the latest image from [Firmware Releases](firmware-releases.md) section
 
 ### Windows
 
-1. Connect the Herelink or Air unit to you PC via USB
+1. Connect the Herelink or Air unit to your PC via USB
 2. Download the firmware file and run the executable file, windows may try to block the file from running!  click 'More Info' and then select 'Run Anyway' to allow the update to start. 
 3. The batch script will start executing, wait for script to complete.
 4. After Remote Unit upgrade is complete, you can connect Air Unit and repeat the process from 1-3.
@@ -32,7 +32,7 @@ Download the latest image from [Firmware Releases](firmware-releases.md) section
 
 ### Mac
 
-1. Connect the Herelink or Air unit to you Mac via USB
+1. Connect the Herelink or Air unit to your Mac via USB
 2. Download the Mac firmware file and run the executable file, OSX may try to block the file from running! You may need to click allow  from your security and privicy settings. 
 3. The batch script will start executing, wait for script to complete.
 4. After Remote Unit upgrade is complete, you can connect Air Unit and repeat the process from 1-3.
@@ -70,20 +70,20 @@ After upgrading the Herelink firmware you may be required to activate your devic
 
 **Note: Herelink must be connected to an internet connection via WiFi to activate.** 
 
-* Connect Herelink to you WiFi connection from the settings menue
+* Connect Herelink to your WiFi connection from the settings menu
 
 
 ![](../.gitbook/assets/activation1.jpg)
 
 
-* Select you region then click 'Proceed'
+* Select your region then click 'Proceed'
 
 
 ![](../.gitbook/assets/activation3.jpg)
 
 * You will then be prompted to input your 16 digit software activation key. 
 
-**Note:On later Herelink versions your key will be located on the box, for earlyier Herelink versions you should contact your original reseller to obtain a valid licence key.**
+**Note:On later Herelink versions your key will be located on the box, for earlier Herelink versions you should contact your original reseller to obtain a valid licence key.**
 
 
 ![](../.gitbook/assets/activation2.jpg)
@@ -91,7 +91,7 @@ After upgrading the Herelink firmware you may be required to activate your devic
 ![](../.gitbook/assets/activation4.jpg)
 
 
-* Click 'Register' and you device will then download the latest software and update and be ready to use. 
+* Click 'Register' and your device will then download the latest software and update and be ready to use. 
 
 
 
@@ -128,7 +128,7 @@ If your Herelink has Solex TX installed you can now update your ground station v
 
 ![](../.gitbook/assets/updating.png)
 
-* After updating you may be promoted to activate your device again see the above steps to complete this. 
+* After updating you may be promoted to activate your device again, see the above steps to complete this. 
 
 
  
