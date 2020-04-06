@@ -1,4 +1,0 @@
-# Firmware Releases
-
-## Firmware Releases
-

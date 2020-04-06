@@ -4,7 +4,6 @@
 
 ## Herelink
 
-* [Firmware Releases](herelink/firmware-releases.md)
 * [How To Update Firmware](herelink/upgrading-firmware.md)
 * [One Time Setup](herelink/one-time-setup.md)
 * [Configure Buttons & Wheel](herelink/configure-buttons.md)
