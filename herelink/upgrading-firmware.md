@@ -68,11 +68,13 @@ If you don't see any activity immediately after running the script, please disco
 
 After upgrading the Herelink firmware you may be required to activate your device, you will be presented with the 'Update Device' Screen
 
+**Note: Herelink must be connected to an internet connection via WiFi to activate.** 
+
+* Connect Herelink to you WiFi connection from the settings menue
+
 ![](../.gitbook/assets/activation1.jpg)
 
-* You must first connect your Herelink to a internet connection via WiFi
-
-* Once connected to WiFi select you region then click 'Proceed'
+* Select you region then click 'Proceed'
 
 ![](../.gitbook/assets/activation3.jpg)
 
