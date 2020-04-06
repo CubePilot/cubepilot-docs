@@ -6,9 +6,9 @@ description: >-
 
 # Configure Buttons & Wheel
 
-## Button Configuration 
+## Button Configuration
 
-### **To Configure in Solex TX** 
+### **To Configure in Solex TX**
 
 * Open Solex TX App 
 * Click 3 line in top left corner
@@ -43,9 +43,7 @@ description: >-
 
 ![](../.gitbook/assets/button-mapping-7.jpg)
 
-
-
-### **To Configure in QGC** 
+### **To Configure in QGC**
 
 * Open QGC
 * Click the 3 cogs in top left corner
@@ -59,13 +57,11 @@ description: >-
 
 ![](../.gitbook/assets/screenshot-2020-03-16-at-22.35.57.png)
 
+## Hardware Wheel
 
+The hardware wheel is permanently mapped to SBUS channel 5. It can also be configured in Solex TX to Servo output channels 1-16 on the Cube Autopilot, you also have the ability to switch the servo output via a button in Solex TX.
 
-## Hardware Wheel 
-
-The hardware wheel is permanently mapped to SBUS channel 5.  It can also be configured in Solex TX to Servo output channels 1-16 on the Cube Autopilot, you also have the ability to switch the servo output via a button in Solex TX.
-
-### **To Configure Wheel in Solex TX** 
+### **To Configure Wheel in Solex TX**
 
 * Open Solex TX App 
 * Click 3 line in top left corner

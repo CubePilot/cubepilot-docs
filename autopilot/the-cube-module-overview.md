@@ -206,11 +206,7 @@ For each of the components listed, the input voltage ranges over which the devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>| **Pin \#** | **Name** | **Dir** | **Wire Color** | **Description** |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 1 | VDD 5V PEIPH | OUT |  | 5V |
+</table>| 1 | VDD 5V PEIPH | OUT |  | 5V |
 | :--- | :--- | :--- | :--- | :--- |
 
 
@@ -228,11 +224,7 @@ For each of the components listed, the input voltage ranges over which the devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 3 | IO\_RX | in |  | 3.3V - 5.0V TTL level, RX of AP IO\_uart1 RX |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 4 | IO-SWDIO | I/O |  | Serial wire debug I/O |
+</table>| 4 | IO-SWDIO | I/O |  | Serial wire debug I/O |
 | :--- | :--- | :--- | :--- | :--- |
 
 
@@ -270,11 +262,7 @@ For each of the components listed, the input voltage ranges over which the devic
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 4 | FMU-SWDIO | I/O |  | Serial wire debug I/O |
-| :--- | :--- | :--- | :--- | :--- |
-
-
-| 5 | FMU-SWCLK | I/O |  | Serial wire Clock |
+</table>| 5 | FMU-SWCLK | I/O |  | Serial wire Clock |
 | :--- | :--- | :--- | :--- | :--- |
 
 
@@ -536,11 +524,7 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
     </tr>
   </thead>
   <tbody></tbody>
-</table>| 51 | SPI\_EXT\_MOSI | o | External SPI, for debug only |
-| :--- | :--- | :--- | :--- |
-
-
-| 52 | FMU-CH2-PROT | o |  |
+</table>| 52 | FMU-CH2-PROT | o |  |
 | :--- | :--- | :--- | :--- |
 
 
