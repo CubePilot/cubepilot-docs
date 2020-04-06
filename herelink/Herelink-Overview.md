@@ -32,8 +32,14 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 ### Air Unit:
 
-* Processor: SoC – 4 x large core, Cortex A53, 2.2GHz 4 x small core, Cortex A53, 1.4GHz GPU: 4 core, Mali-
-T860 SDR: A7 + DSP Storage: Sky: LPDDR3: 1GB Ground: LPDDR3: 2GB Sky / Ground: EMMC: 4GB
+| CUBE TYPE | IMU1 | IMU2 | IMU3 | Baro1 | Baro2 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+|Processor: SoC – | 4 x large core, Cortex A53, 2.2GHz 4 x small core, Cortex A53, 1.4GHz GPU: 4 core, Mali-
+T860 SDR: A7 + DSP Storage: Sky: LPDDR3: 1GB Ground: LPDDR3: 2GB Sky / Ground: EMMC: 4GB |
+| Cube Purple | MPU9250 | NA | NA | MS5611 | NA |
+| Cube Orange/Yellow | ICM20948 | ICM20602 | ICM20649 | MS5611 | MS5611 |
+
+*  
 
 * Transmission Distance: FCC 20km CE / SRRC 12km Image transmission delay: ≤ 110ms Image transmission: 720p@30fps 1080p@30 / 60fps transmission
 
