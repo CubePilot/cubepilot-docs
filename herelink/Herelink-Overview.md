@@ -34,8 +34,7 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 | CUBE TYPE | IMU1 |
 | :--- | :--- |
-|Processor: SoC – | 4 x large core, Cortex A53, 2.2GHz 4 x small core, Cortex A53, 1.4GHz GPU: 4 core, Mali-
-T860 SDR: A7 + DSP Storage: Sky: LPDDR3: 1GB Ground: LPDDR3: 2GB Sky / Ground: EMMC: 4GB |
+|Processor: SoC – | Cortex A53, 2.2GHz + Cortex A53, 1.4GHz GPU: 4 core, Mali-T860 SDR: A7 + DSP Storage: Sky: LPDDR3: 1GB Ground: LPDDR3: 2GB Sky / Ground: EMMC: 4GB |
 | Cube Purple | MPU9250 |
 | Cube Orange/Yellow | MPU9250 |
 
