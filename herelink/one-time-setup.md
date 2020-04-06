@@ -63,17 +63,5 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 ![](../.gitbook/assets/fccsettings.png)
 
-## Herelink Hardware Tests
 
-You can access the hardware tests in Herelink as follows
-
-* Select `Phone` app.
-* Enter `*#*#6484#*#*` , The last star will automatically start Hardware Test screen app.
-* Scroll and enter Joystick Test, run through the process of Calibration and select Pass.
-
-![](../.gitbook/assets/device-2020-02-14-150633.png)
-
-![](../.gitbook/assets/apps.png)
-
-![](../.gitbook/assets/device-2020-02-14-151119.png)
 
