@@ -38,29 +38,15 @@ In case you did an update using `flash_all` script, or are observing issues with
 | Transmission Distance: |  FCC 20km CE / SRRC 12km Image transmission delay: ≤ 110ms Image transmission: 720p@30fps 1080p@30 / 60fps transmission |
 | Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
 | Size: | 78.5x30x13mm |
-| Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
-| Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
-| Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
-| Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
+| Video Input: | Micro HDMI x 2: Input for external camera video signals |
+| Power Input:  | 2 Pin interface x 1:5V-12V power input interface,average power consumption of the single-sided module is less than 4W
+ |
+| Telemetary: | 3 Pin interface x 1:3.3V / 5V level UART interface Mavlink Compatible |
+| Control Output: |4 Pin interface x 1 : Two 3.3V level RC output connectors (S.bus in phase, S.bus inverting or PPM signal output, ground terminal control) |
+| USB: | Micro USB x 1: for debugging upgrades, support OTG mode |
+| Antenna: |  MMCX antenna jack x 2: used for signal transmission and ground communication,Signal bandwidth: 20MHz / 10MHz |
 
-Air Unit:
 
-*  
-
-* Micro HDMI x 2: Input for external camera video signals
-
-* 2 Pin interface x 1:5V-12V power input interface
-
-* 3 Pin interface x 1:3.3V / 5V level UART interface
-
-* 4 Pin interface x 1 : Two 3.3V level RC output connectors (S.bus in phase, S.bus inverting or PPM signal output, ground terminal control)
-
-* Micro USB x 1: for debugging upgrades, support OTG mode
-* Keyhole x 1: for frequency and status reset
-* Indicator x 2: used to indicate the frequency and picture status
-* MMCX antenna jack x 2: used for signal transmission and ground communication
-* Signal bandwidth: 20MHz / 10MHz
-* Power consumption: the average power consumption of the single-sided module is less than 4W
 
 ### Controller:
 
