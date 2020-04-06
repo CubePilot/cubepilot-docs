@@ -53,6 +53,8 @@ Please Note that using **`flash_all_except_data_storage`** script will retain pr
 If you don't see any activity immediately after running the script, please disconnect and reconnect the Unit, and rerun the script. Also make sure that Air Unit is powered up separately when updating.
 {% endhint %}
 
+### SOFTWARE ACTIVATION
+
 ### VIDEO TUTORIAL \(Step by step\)
 
 {% embed url="https://www.youtube.com/watch?v=tKAkAtZOPvc" caption="" %}
