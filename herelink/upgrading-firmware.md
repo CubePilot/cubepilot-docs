@@ -64,7 +64,7 @@ If you don't see any activity immediately after running the script, please disco
 
 
 
-## SOFTWARE ACTIVATION
+## Herelink Activation
 
 After upgrading the Herelink firmware you may be required to activate your device, you will be presented with the 'Update Device' Screen
 
