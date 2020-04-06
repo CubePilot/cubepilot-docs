@@ -39,8 +39,7 @@ In case you did an update using `flash_all` script, or are observing issues with
 | Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
 | Size: | 78.5x30x13mm |
 | Video Input: | Micro HDMI x 2: Input for external camera video signals |
-| Power Input:  | 2 Pin interface x 1:5V-12V power input interface,average power consumption of the single-sided module is less than 4W
- |
+| Power Input:  | 2 Pin interface x 1:5V-12V power input interface,average power consumption of the single-sided module is less than 4W |
 | Telemetary: | 3 Pin interface x 1:3.3V / 5V level UART interface Mavlink Compatible |
 | Control Output: |4 Pin interface x 1 : Two 3.3V level RC output connectors (S.bus in phase, S.bus inverting or PPM signal output, ground terminal control) |
 | USB: | Micro USB x 1: for debugging upgrades, support OTG mode |
