@@ -55,6 +55,19 @@ If you don't see any activity immediately after running the script, please disco
 
 ### SOFTWARE ACTIVATION
 
+After upgrading the Herelink formware you may be required to activate your device, you will be presented with the 'Update Device' Screen
+
+* You must first connect your Herelink to a internet connection via WiFi ( Follow the Wifi connection process below for this)
+
+* Once connected click 'Proceed'
+
+* You will be prompted to select your country and then register your device. To do this you must input your 16 digit software key, on later versions this will be located on you box, for earlyier Herelink models you should contact your reseller to obtain a key. 
+
+* Click Proceed and you device will then download the latest software and update 
+
+
+
+
 ### VIDEO TUTORIAL \(Step by step\)
 
 {% embed url="https://www.youtube.com/watch?v=tKAkAtZOPvc" caption="" %}
