@@ -48,8 +48,8 @@ Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitte
 | Audio: | Built-in speaker × 1, built-in microphone × 2 |
 | Remote control: | Hall affect gimbals with removable sticks x 2, scroll wheel × 1, bottom button × 6 with backlight, top button × 1 (right) |
 | Wireless: |  Blutooth / WIFI / GPS / 2.4G map transmission ground |
-| Inputs: | MicroUSB × 1, Micro SD × 1 (supports maximum 64G expansion) |
-| Antenna: | Curcular (5dBi) × 1 detachable, omnidirectional (2dBi) × 1 detachable,built-in wifi antenna, built-in GPS antenna, external GPS antenna interface x 1 |
+| Inputs: | MicroUSB × 1, Micro SD × 1 (supports maximum 64GB) |
+| Antenna: | Curcular (5dBi) × 1, detachable, omnidirectional (2dBi) × 1, detachable,built-in wifi antenna, built-in GPS antenna, external GPS antenna interface x 1 |
 | Power : | Built-in 4950 mAh Lipo Battery |
 | Charging : | Support micro USB port 5v 2A current charging |
 | Power consumption: | The average power consumption does not exceed 4W (only picture transmission work, medium screen brightness, WiFi off, GPS off) |
