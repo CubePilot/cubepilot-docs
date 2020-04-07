@@ -25,7 +25,7 @@ Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitte
 ## Technical specifications
 
 
-### Remote & Air Unit:
+### Ground & Air Unit:
 
 | Feature | Specifacation |
 | :--- | :--- |
