@@ -76,3 +76,5 @@ Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitte
 
 ## Technical Confomity
 
+
+![](../.gitbook/assets/Herelinkstandardscert.jpg)
