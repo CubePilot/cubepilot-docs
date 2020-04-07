@@ -6,11 +6,11 @@
 
 Herelink is a intigrated remote controler and wireless digital transmission system designed to be used with the Cube Autopilot, Ardupilot or PX4.  
 
-It allows RC contorl, 1080P HD video transmision and mavlink telemetary data upto 20km range.
-
+Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitted upto 20km range. Both air unit and ground station included intigrated 8 core SOC for custom application developmeent.
 
 ## Features
 * Android based smart device with 5.46 inch 1080P capacitive touch screen.
+* ARM Cortex A53 4 core 2.2GHz + Cortex A53 4 core 1.4GHz SOC in both air and ground units. 
 * Dual hall affect self centering gimbals with removalbe sticks. 
 * Dual micro HDMI 1080P 60fps video inputs. 
 * Dual S.bus signal output for simultaneous control of autopilot and pan/tilt cameras.
@@ -27,8 +27,11 @@ It allows RC contorl, 1080P HD video transmision and mavlink telemetary data upt
 
 | Feature | Specifacation |
 | :--- | :--- |
-|Processor: SoC – | Cortex A53, 2.2GHz + Cortex A53, 1.4GHz GPU: 4 core, Mali-T860 SDR: A7 + DSP Storage: Sky: LPDDR3: 1GB Ground: LPDDR3: 2GB Sky / Ground: EMMC: 4GB |
-| Transmission Distance: |  FCC 20km CE / SRRC 12km Image transmission delay: ≤ 110ms Image transmission: 720p@30fps 1080p@30 / 60fps transmission,signal bandwidth: 20MHz / 10MHz |
+| SOC: | ARM Cortex A53 4 core 2.2GHz + Cortex A53 4 core 1.4GHz |
+| Image Processing: | Mali-T860 GPU |
+| SDR:| A7 + DSP |
+| Memory: | Air Unit: LPDDR3: 1GB, Ground Station: LPDDR3: 2GB, EMMC: Air / Ground 4GB |
+| Transmission Distance: |  FCC 20km CE / SRRC 12km Image transmission delay: ≤ 110ms Image transmission: 720p@30fps 1080p@30 / 60fps transmission,signal bandwidth 20MHz / 10MHz |
 | Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
 
 ### Air Unit:
@@ -67,5 +70,5 @@ It allows RC contorl, 1080P HD video transmision and mavlink telemetary data upt
 | Power consumption: | The average power consumption does not exceed 4W (only picture transmission work, medium screen brightness, WiFi off, GPS off) |
 
 
-
+## Technical Confomity
 
