@@ -45,8 +45,6 @@ Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitte
 | Feature | Specifacation |
 | :--- | :--- |
 | Screen: |  5.46 inch 1080P, 16 million colors, capacitive touch screen |
-| Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
-| Size: | 78.5x30x13mm |
 | Audio: | Built-in speaker × 1, built-in microphone × 2 |
 | Remote control: | Hall affect gimbals with removable sticks x 2, scroll wheel × 1, bottom button × 6 with backlight, top button × 1 (right) |
 | Wireless: |  Blutooth / WIFI / GPS / 2.4G map transmission ground |
