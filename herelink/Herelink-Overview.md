@@ -6,7 +6,8 @@
 
 Herelink is an integrated remote controller,ground station and wireless digital transmission system designed to be used with the Cube Autopilot, Ardupilot or PX4.  
 
-Herelink allows RC control, HD video and mavlink telemetry data to be transmitted upto 20km range. Both air unit and ground station features an integrated 8 core SOC for custom application development.
+Herelink allows RC control, HD video and telemetry data to be transmitted upto 20km between the ground station and air unit, the herelink remote controller features custom Solex TX and QGC applications and both air unit and ground station features an integrated 8 core SOC for custom application development.
+
 
 
 ## Features
