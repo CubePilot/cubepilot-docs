@@ -1,18 +1,3 @@
-# One Time Setup
-
-## Joystick Hardware Calibration
-
-In case you did an update using `flash_all` script, or are observing issues with Joystick Control even after calibrating using Joystick Calibration Menu and RC Calibration from Ground Station App, please follow the following tutorial.
-
-* From App Launcher slide down the notification drawer from the top and select Herelink Setting
-
-
-![](../.gitbook/assets/hw-wheel-2.jpg)
-
-* Click 'Start rollwheel'  and follow the calibration steps
-* **Note** once complete you can check its correct functioning by looking at the values change, click Pass to return to joystick screen
-
-
 # Herelink HD Video Transmission System
 
 
