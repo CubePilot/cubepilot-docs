@@ -43,7 +43,6 @@
 | :--- | :--- |
 | Size: | 217 × 106.5 × 31mm not including external antenna and rocker |
 | Screen: |  5.46 inch 1080P, 16 million colors, capacitive touch screen |
-
 | Frequency Band: | 2.4GHz ISM Receive sensitivity: -99dBm@20MHz BW Interference recovery: < 1s |
 | Size: | 78.5x30x13mm |
 | Audio: | Built-in speaker × 1, built-in microphone × 2 |
