@@ -4,18 +4,20 @@
 
 ## Overview
 
-Herelink is a intigrated remote controler and wireless digital transmission system. Designed to be used with the Cube Autopilot with Ardupilot or PX4.  it allows contorl, HD video and telemetary upto 20km range.
+Herelink is a intigrated remote controler and wireless digital transmission system designed to be used with the Cube Autopilot, Ardupilot or PX4.  
+
+It allows RC contorl, 1080P HD video transmision and mavlink telemetary data upto 20km range.
 
 
 ## Features
-* Android based device with 5.46 inch, 1080P capacitive touch screen.
-* Dual Hall Affect self centering gimbals. 
-* Dual Micro HDMI 1080P 60fps video input. 
+* Android based smart device with 5.46 inch 1080P capacitive touch screen.
+* Dual hall affect self centering gimbals with removalbe sticks. 
+* Dual micro HDMI 1080P 60fps video inputs. 
 * Dual S.bus signal output for simultaneous control of autopilot and pan/tilt cameras.
 * Integrated digital transmission system simultaneously transmiting video,flight data and control. 
 * Built-in Solex TX App and QGC ground station with mavlink support for Ardupilot and PX4 firmware.
-* 6 customisable Mavlink buttons and hardware wheel. 
-* RC gimbal control on indipendant service seperate from APP. 
+* 6 customisable Mavlink buttons and Mavlink/Sbus hardware wheel. 
+* RC gimbal control on dedicated service indipendant from APP. 
 
 
 
