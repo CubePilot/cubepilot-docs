@@ -6,11 +6,11 @@
 * Dual Hall Affect self centering gimbals. 
 * Dual Micro HDMI 1080P 60fps video input. 
 * Dual S.bus signal output for simultaneous control of autopilot and pan/tilt cameras.
-* The integrated digital transmission system can simultaneously transmit video,flight data and control. 
+* Integrated digital transmission system simultaneously transmiting video,flight data and control. 
 * Built-in Solex TX App and QGC ground station with mavlink support for Ardupilot and PX4 firmware.
-* 6 customisable Mavlink buttons and Hardware scroll wheel. 
+* 6 customisable Mavlink buttons and hardware wheel. 
 * RC gimbal control on indipendant service seperate from APP. 
-* Custom channel button and PWM value assignment.
+
 
 
 ## Technical specifications
