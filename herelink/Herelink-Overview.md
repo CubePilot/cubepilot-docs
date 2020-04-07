@@ -1,6 +1,6 @@
 # Herelink HD Video Transmission System
 
-.gitbook/assets/Herelink1.jpg
+![](../.gitbook/assets/Herelink1.jpg)
 
 
 ## Features
