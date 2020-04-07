@@ -18,6 +18,7 @@ Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitte
 * Built-in Solex TX App and QGC ground station with mavlink support for Ardupilot and PX4 firmware.
 * 6 customisable Mavlink buttons and Mavlink/Sbus hardware wheel. 
 * RC gimbal control on dedicated service indipendant from APP. 
+* Ability to teather and share video and telemetary to ground station such as Mission Planner. 
 
 
 
@@ -37,7 +38,7 @@ Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitte
 
 
 
-### Controller:
+### Ground Station:
 
 
 ![](../.gitbook/assets/Herelink2.jpg)
