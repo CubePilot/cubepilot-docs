@@ -4,21 +4,23 @@
 
 ## Overview
 
-Herelink is a intigrated remote controler and wireless digital transmission system designed to be used with the Cube Autopilot, Ardupilot or PX4.  
+Herelink is an integrated remote controller,ground station and wireless digital transmission system designed to be used with the Cube Autopilot, Ardupilot or PX4.  
 
-Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitted upto 20km range. Both air unit and ground station included intigrated 8 core SOC for custom application developmeent.
+Herelink allows RC control, HD video and mavlink telemetry data to be transmitted upto 20km range. Both air unit and ground station features an integrated 8 core SOC for custom application development.
+
 
 ## Features
 * Android based smart device with 5.46 inch 1080P capacitive touch screen.
-* ARM Cortex A53 4 core 2.2GHz + Cortex A53 4 core 1.4GHz SOC in both air and ground units. 
-* Dual hall affect self centering gimbals with removalbe sticks. 
-* Dual micro HDMI 1080P 60fps video inputs. 
+* Integrated digital transmission system simultaneously transmitting video, telemetry and control. 
+* Custom Solex TX and QGC ground station with mavlink support for Ardupilot and PX4.
+* Dual hall effect self centering gimbals with removable sticks. 
+* 1080P HD video with dual digital video inputs. 
 * Dual S.bus signal output for simultaneous control of autopilot and pan/tilt cameras.
-* Integrated digital transmission system simultaneously transmiting video,flight data and control. 
-* Built-in Solex TX App and QGC ground station with mavlink support for Ardupilot and PX4 firmware.
 * 6 customisable Mavlink buttons and Mavlink/Sbus hardware wheel. 
-* RC gimbal control on dedicated service indipendant from APP. 
-* Ability to teather and share video and telemetary to ground station such as Mission Planner. 
+* RC gimbal control on dedicated service independent from APP. 
+* Ability to tether and share video and telemetry to ground station such as Mission Planner. 
+* ARM Cortex A53 4 core 2.2GHz + Cortex A53 4 core 1.4GHz SOC in both air and ground units. 
+
 
 
 
