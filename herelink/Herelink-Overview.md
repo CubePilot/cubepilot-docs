@@ -43,7 +43,7 @@
 
 ### Controller:
 
-![](../.gitbook/assets/Herelink3.jpg)
+![](../.gitbook/assets/Herelink2.jpg)
 
 | Feature | Specifacation |
 | :--- | :--- |
