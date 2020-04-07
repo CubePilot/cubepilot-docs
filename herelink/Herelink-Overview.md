@@ -64,7 +64,7 @@ Herelink allows RC contorl, HD video and mavlink telemetary data to be tranmitte
 
 | Feature | Specifacation |
 | :--- | :--- |
-| Video Input: | Micro HDMI x 2: Input for external camera video signals |
+| Video Input: | Micro HDMI x 2: Input for external camera video,supports 720P 30fps & 1080P 30/60fps |
 | Power Input:  | 2 Pin interface x 1:5V-12V power input interface,average power consumption of the single-sided module is less than 4W |
 | Telemetary: | 3 Pin interface x 1:3.3V / 5V level UART interface Mavlink Compatible |
 | Control Output: |4 Pin interface x 1 : Two 3.3V level RC output connectors (S.bus in phase, S.bus inverting or PPM signal output, ground terminal control) |
