@@ -2,6 +2,10 @@
 
 ![](../.gitbook/assets/Herelink1.jpg)
 
+## Overview
+
+Herelink is a intigrated remote controler and wireless digital transmission system. Designed to be used with the Cube Autopilot with Ardupilot or PX4.  it allows contorl, HD video and telemetary upto 20km range.
+
 
 ## Features
 * Android based device with 5.46 inch, 1080P capacitive touch screen.
