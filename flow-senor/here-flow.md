@@ -65,8 +65,6 @@ Connect the CAN port on module and flight controller with the 4 Pin CAN cable. P
 
 ## Settings
 
-Remark: Here Flow has not been ready on the APM firmware stable version. Master firmware is needed before the release of copter3.7
-
 Firmware update instructions: [https://discuss.cubepilot.org/t/can-flow-setup-instructions-alpha-batch/341](https://discuss.cubepilot.org/t/can-flow-setup-instructions-alpha-batch/341)
 
 1.Connect the flight controller to computer via USB cable. Open Mission Planner. Install the master firmware by "Load custom firmware". Go to "Full Parameter List" and find "CAN\_P1\_DRIVER". Change it to "1" to enable CAN.
@@ -94,8 +92,6 @@ Firmware update instructions: [https://discuss.cubepilot.org/t/can-flow-setup-in
 5.After rebooting the flight controller, reconnect to Mission Planner and go to "status" tag. Change the altitude of the aircraft to see whether "sonarrange" is changing correspondingly. If the value does not change, please check if the parameters are properly set or reboot the flight controller. Change the position of the aircraft and see whether the data of "opt\_m\_x", "opt\_m\_y", "opt\_x", "opt\_y" are changing. If the value do not change, please check if the parameters are properly set or reboot the flight controller.
 
 ![](../.gitbook/assets/5.jpg)
-
-6.After confirming the data are normal, go to "Full parameter list" and change "EKF2\_GPS\_TYPE" to "3" to disable GPS. This is for testing if the optical flow is working normally. Change ARMING\_CHECK" to 15838 to cancel the pre-arm check of optical flow \(Otherwise, you will need to rise the aircraft to at lease 50 cm and then put it back to the ground to disarm. After take off, the aircraft can loiter normally in LOITER mode.
 
 For more optical flow settings, you may check in CubePilot:
 
