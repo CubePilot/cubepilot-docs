@@ -18,7 +18,7 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 
 ## Flashing Firmware Air End
 
-**Important: Before proceeding the air unit must be connected to a suitable power supply and antennas must be connected at all times. 
+**Note: Before proceeding the air unit must be connected to a suitable power supply and antennas must be connected at all times. 
 
 The air end update process is the same as the ground station above apart from there is not requirement to place the unit in Fastboot as per step 2 before starting. 
 
