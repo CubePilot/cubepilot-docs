@@ -8,15 +8,21 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 
 The Air end is updated via the same process as the remote via PC, Mac and Linux only.
 
-## Flashing Firmware
+## Flashing Firmware Ground Station
 
 1. Connect the Herelink Remote unit to your PC via USB.
 2. Put the Herelink Remote Unit into Fastboot by pressing **Power** and **D** button simultaneously while turning on.
 3. Download [flasher\_win.zip](https://herelinkfw.cubepilot.org/flasher_win.zip) [flasher\_mac.zip](https://herelinkfw.cubepilot.org/flasher_mac.zip) or [flasher\_linux.zip](https://herelinkfw.cubepilot.org/flasher_linux.zip).
 4. Extract and Run the application packaged inside the zip file.
-5. After Remote Unit upgrade is complete, you can connect Air Unit and run the application again.
-6. The Units will automatically restart once finished.
-7. Herelink Remote Unit will boot up with Activation window, follow the steps bellow to continue.
+5. After Remote Unit upgrade is complete the Unit will automatically restart once finished.
+6. Herelink Remote Unit will boot up with Activation window, follow the steps below to continue.
+
+## Flashing Firmware Air End
+
+**Important: Before proceeding the air unit must be connected to a suitable power supply and antennas must be connected at all times.**
+
+The air end update process is the same as the ground station above apart from there is not requirement to place the unit in Fastboot as per step 2 before starting. 
+
 
 ## Herelink Activation
 
