@@ -23,6 +23,11 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 The air end update process is the same as the ground station above apart from there is not requirement to place the unit in Fastboot as per step 2 before starting. 
 
 
+### VIDEO TUTORIAL \(Step by step\)
+
+{% embed url="https://youtu.be/2lGEtJCBovY" caption="" %}
+
+
 ## Herelink Activation
 
 After upgrading the Herelink firmware you may be required to activate your device, you will be presented with the 'Update Device' Screen
