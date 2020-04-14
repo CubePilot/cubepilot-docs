@@ -8,6 +8,32 @@ description: >-
 
 The OEM changes are constant changes made by OEMs of Herelink that will be untouched by Over the Air updates provided to herelink systems. The changes include Boot Animation changes, System configurations, Android Applications, Android properties.
 
+### Linux
+
+#### Prerequisites
+
+* [android-tools](https://developer.android.com/studio/releases/platform-tools)
+
+#### Steps
+
+* Download and unzip following files:
+  * [simg2img](https://herelinkfw.cubepilot.org/tools/simg2img_linux.zip)
+  * [img2simg](https://herelinkfw.cubepilot.org/tools/img2simg_linux.zip)
+  * Remote Unit: [oem\_ru\_base.img](https://herelinkfw.cubepilot.org/tools/oem_ru_base.img)
+  * Air Unit: [oem\_au\_base.img](https://herelinkfw.cubepilot.org/tools/oem_au_base.img)
+* Ensure that you select the base image depending upon which unit you are modifying.
+* Download and extract zips into same directory.
+* Now to generate ext4fs image from the sparse image \(.img\) downloaded above do `./simg2img_mac oem_au_base.img raw_oem_au_base.img`
+* Create a mount point directory using `mkdir oem`
+* Mount the image using `mount raw_oem_au_base.img oem`
+* Now you should be able to modify files inside the mount directory.
+* You need to use `sudo` to be able to do any writes the files inside the mount point.
+* Once you have made your changes, you need to unmount your drive using command `sudo umount oem`
+* Afterwards convert the ext4fs image back to android sparse image using command `./img2simg raw_oem_au_base.img oem_au.img`
+* Now you may flash this image into Herelink Air Unit, by putting it under bootloader using command `adb reboot bootloader`
+* And finally to flash to image run command `fastboot flash oem oem_au.img`
+* Check example below for a sample modification.
+
 ### MacOS
 
 #### Prerequisites
