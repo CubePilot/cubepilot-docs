@@ -4,17 +4,19 @@
 
 ## Herelink
 
-* [Firmware Releases](herelink/firmware-releases.md)
-* [Upgrading Firmware](herelink/upgrading-firmware.md)
+* [Herelink Overview](herelink/Herelink-Overview.md)
+* [How To Update Firmware](herelink/upgrading-firmware.md)
 * [One Time Setup](herelink/one-time-setup.md)
+* [Configure Buttons & Wheel](herelink/configure-buttons.md)
 * [Share video Stream](herelink/share-video-stream.md)
-* [Herelink Installation](herelink/herelink-installation.md)
-* [Connect to Mission Planner](herelink/connect-to-mission-planner.md)
+* [Connecting to Mission Planner](herelink/connect-to-mission-planner.md)
+* [Installing a custom app](herelink/installing-a-custom-app.md)
 
 ## HERE 2
 
 * [Updating Here 2 Firmware](here-2/updating-here-2-firmware.md)
 * [Here 2 CAN Mode Instruction](here-2/here-2-can-mode-instruction.md)
+* [Here 2 Firmware Update Troubleshooting](here-2/here-2-firmware-update-troubleshooting.md)
 
 ## Here+
 

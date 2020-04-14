@@ -2,37 +2,66 @@
 
 ## Joystick Hardware Calibration
 
-In case you did an update using `flash_all` script, or are observing issues with Joystick Control even after calibrating using Joystick Calibration Menu and RC Calibration from Ground Station App, please follow the following Tutorial.
+In case you did an update using `flash_all` script, or are observing issues with Joystick Control even after calibrating using Joystick Calibration Menu and RC Calibration from Ground Station App, please follow the following tutorial.
 
-1. Tap![](../.gitbook/assets/windowsqgc.ico)and scroll down in `General` Tab.
-2. Tap `Dial Pad` button.
-3. Enter `*#*#6484#*#*` , The last star will automatically start Hardware Test screen app.
-4. Scroll and enter Joystick Test, run through the process of Calibration and select Pass.
-5. Do the same for Roll Wheel Test.
+* From App Launcher slide down the notification drawer from the top and select Herelink Setting
 
-{% embed url="https://youtu.be/2-veBvv8qko" caption="" %}
+![](../.gitbook/assets/home-screen.png)
 
-## Joystick and Button Setup
+![](../.gitbook/assets/settings-app.jpg)
 
-Follow the steps as shown in the following video:
+* Slide left for Joystick screen.
 
-{% embed url="https://www.youtube.com/watch?v=BLTa7o3zjWk&t=7s" caption="" %}
+![](../.gitbook/assets/device-2020-02-14-151909.png)
+
+* To calibrate the hardware wheel select 'HW WHEEL CAL'.
+
+![](../.gitbook/assets/hw-wheel-2.jpg)
+
+* Click 'Start rollwheel'  and follow the calibration steps
+* **Note** once complete you can check its correct functioning by looking at the values change, click Pass to return to joystick screen
+
+![](../.gitbook/assets/hw-wheel.png)
+
+* To calibrate the joysticks click 'HW JS CAL'
+
+![](../.gitbook/assets/joystick.jpg)
+
+* Click 'Start Calibration' to begin the process and follow the instructions in the top right hand side and the arrows located on the sticks on the remote as highlighted below.
+
+![](../.gitbook/assets/joystick-cal.jpg)
+
+* Once complete follow the instructions to test the sticks are functioning correctly by aligning the black and red circles on the highlighted boxes, once you complete all the steps click pass to return to the joystick screen. 
+
+![](../.gitbook/assets/joystick-test.jpg)
+
+* To calibrate the joystick SBUS click 'SBUS OUT CAL' and follow the steps as shown on the highlight section.
+
+![](../.gitbook/assets/joystick-sbus.jpg)
+
+![](../.gitbook/assets/calibrate2.png)
+
+![](../.gitbook/assets/calibrate1.png)
 
 ## Pairing with Air Unit
 
-After uploading the firmware using `flash_all` script you will be displayed message to start the process of pairing.
+* Open Herelink Settings by pulling notification drawer and tapping Herelink Settings:
 
-In case there is a need to pair with a different AirUnit module, follow the following process:
+![](../.gitbook/assets/settings-app.jpg)
 
-1. Tap![](../.gitbook/assets/windowsqgc-2.ico)and select `D2D Info` from the tabs.
-2. Click the Pair Button, a Dialog box will show up to push the Pair/Reset Button on the AirUnit until the LED starts blinking green.
-3. Release the Pair/Reset button.
-4. The Pair Successful dialog box will show up. Click OK and the Units should be paired now. The LED on the AirUnit will turn solid Green.
+* Tap Pair button and then hold the `Pair/Reset` button on Air Unit until `LED2` blinks.
+
+![](../.gitbook/assets/settings101.png)
+
+![](../.gitbook/assets/airpair1.png)
+
+![](../.gitbook/assets/airpair2.png)
 
 ## **Selecting FCC/CE settings**
 
-1. Select![](../.gitbook/assets/windowsqgc-1-1.ico)and scroll down in General Tab
-2. Select RF Authentication option and choose the relevant setting for your region.
+* Select the region you are residing in or matches closest to your locations policy from Country Under Herelink Settings
 
-\*\*\*\*
+![](../.gitbook/assets/fccsettings.png)
+
+
 

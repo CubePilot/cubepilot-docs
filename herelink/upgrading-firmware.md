@@ -1,57 +1,71 @@
 ---
-description: >-
-  The following article shows how to manually update the firmware of Herelink
-  Units
+description: The following article shows how to  update the firmware of Herelink Units
 ---
 
-# Upgrading Firmware
+# How To Update Firmware
 
-## Install Android Tools
+Herelink can be updated on PC, Mac and Linux as per the below process. Newer firmware versions allow you to update the Herelink remote via wifi from with-in the settings app, this is only available if you have the Solex TX app installed.
 
-Download and Install latest Android SDK Platform tools from [here](https://developer.android.com/studio/releases/platform-tools) per the system you are using.
-
-## Download Firmware
-
-Download the latest image from [Firmware Releases](firmware-releases.md) section.
+The Air end is updated via the same process as the remote via PC, Mac and Linux only.
 
 ## Flashing Firmware
 
-### Windows
+1. Connect the Herelink Remote unit to your PC via USB.
+2. Put the Herelink Remote Unit into Fastboot by pressing **Power** and **D** button simultaneously while turning on.
+3. Download [flasher\_win.zip](https://herelinkfw.cubepilot.org/flasher_win.zip) [flasher\_mac.zip](https://herelinkfw.cubepilot.org/flasher_mac.zip) or [flasher\_linux.zip](https://herelinkfw.cubepilot.org/flasher_linux.zip).
+4. Extract and Run the application packaged inside the zip file.
+5. After Remote Unit upgrade is complete, you can connect Air Unit and run the application again.
+6. The Units will automatically restart once finished.
+7. Herelink Remote Unit will boot up with Activation window, follow the steps bellow to continue.
 
-1. Download both the Platform tools and the latest Firmware file
-2. Extract the downloaded archives using an Archive Tools like 7-zip.
-3. Place the platform tools files inside the firmware folder. So that `adb.exe` is along side `flash_all_except_data_storage.bat`  
-4. Connect Remote Unit/Air Unit \(only connect one at any one time\) via USB Micro Cable.
-5. Open the Command Prompt and run `[your extracted SDK folder]\adb reboot bootloader` from the prompt.
-6. Navigate to the extracted folder relating to the specific unit and double click `flash_all_except_data_storage.bat` 
-7. The batch script will start executing, wait for script to complete.
-8. After Remote Unit upgrade is complete, you can connect Air Unit and repeat the process from 3-5.
-9. The Units will automatically restart and will retain user settings from previous update
+## Herelink Activation
 
-### Mac/Linux
+After upgrading the Herelink firmware you may be required to activate your device, you will be presented with the 'Update Device' Screen
 
-Open Terminal and Execute following commands \(Replace RemoteUnit\_x\_x\_x with AirUnit\_x\_x\_x when trying to upgrade Air Unit\). Following commands will work if the files are present in the Downloads Directory, please modify the path in case you are using different directories.
+**Note: Herelink must be connected to an internet connection via WiFi to activate.**
 
-```bash
-cd ~/Downloads                        #navigate to the platform tool archive
-unzip platform-tools_rx.x.x.zip       #decompress platform archive
-export PATH=$HOME/Downloads/platform-tools:$PATH
-tar -xvjf RemoteUnit_x_x_x.tar.gz     #extract the archive
-cd ~/Downloads/RemoteUnit_x_x_x       #navigate to decompressed folder
-adb reboot bootloader                 #reboot into bootloader
-chmod +x flash_all_except_data.sh     #make script to be executable
-./flash_all_except_data.sh            #run the script
-```
+* Connect Herelink to your WiFi connection from the settings menu
 
-{% hint style="info" %}
-Please Note that using **`flash_all_except_data_storage`** script will retain previous user settings. In case the unit hasn't been upgraded for a long time and/or you are updating Beta1 hardware for the first time. It is advisable to use **`flash_all`** script to update your hardware and follow the [One Time Setup](one-time-setup.md).
-{% endhint %}
+![](../.gitbook/assets/activation1.jpg)
 
-{% hint style="info" %}
-If you don't see any activity immediately after running the script, please disconnect and reconnect the Unit, and rerun the script. Also make sure that Air Unit is powered up separately when updating.
-{% endhint %}
+* Select your region then click 'Proceed'
 
-### VIDEO TUTORIAL \(Step by step\)
+![](../.gitbook/assets/activation3.jpg)
 
-{% embed url="https://www.youtube.com/watch?v=tKAkAtZOPvc" caption="" %}
+* You will then be prompted to input your 16 digit software activation key. 
+
+**Note:On later Herelink versions your key will be located on the box, for earlier Herelink versions you should contact your original reseller to obtain a valid licence key.**
+
+![](../.gitbook/assets/activation2.jpg)
+
+![](../.gitbook/assets/activation4.jpg)
+
+* Once input click 'done' the 'Register' and your device will then download the latest software and update itself. 
+
+## Herelink Remote Update Via Wifi
+
+If your Herelink has Solex TX installed you can now update your ground station via the built in update feature.
+
+**Note: The air end will still need to be updated via the above process.**
+
+* Make sure you Herelink is connected to wifi and has an internet connection available
+* Pull down from the top and select the settings cog in the top corner 
+
+![](../.gitbook/assets/settings-1.jpg)
+
+* Scroll to the bottom and click the 'About phone' option
+
+![](../.gitbook/assets/settings.jpg)
+
+* Select 'System Update' 
+
+![](../.gitbook/assets/system-update.jpg)
+
+* Select 'CHECK FOR UPDATE' in the bottom corner 
+
+![](../.gitbook/assets/update.jpg)
+
+* The system will now check for an update and install it automatically
+
+![](../.gitbook/assets/updating.png)
 
