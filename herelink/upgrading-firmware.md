@@ -6,7 +6,6 @@ description: The following article shows how to  update the firmware of Herelink
 
 Herelink can be updated on PC, Mac and Linux as per the below process. Newer firmware versions allow you to update the Herelink remote via wifi from with-in the settings app, this is only available if you have the Solex TX app installed.
 
-
 ## Flashing Firmware Ground Station
 
 1. Connect the Herelink Remote unit to your PC via USB.
@@ -20,13 +19,11 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 
 **Important: Before proceeding the air unit must be connected to a suitable power supply and antennas must be connected at all times.**
 
-The air end update process is the same as the ground station above apart from there is not requirement to place the unit in Fastboot as per step 2 before starting. 
-
+The air end update process is the same as the ground station above apart from there is not requirement to place the unit in Fastboot as per step 2 before starting.
 
 ### VIDEO TUTORIAL \(Step by step\)
 
 {% embed url="https://youtu.be/2lGEtJCBovY" caption="" %}
-
 
 ## Herelink Activation
 

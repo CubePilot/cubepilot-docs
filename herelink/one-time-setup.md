@@ -63,5 +63,3 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 ![](../.gitbook/assets/fccsettings.png)
 
-
-

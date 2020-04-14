@@ -4,13 +4,14 @@
 
 ## Herelink
 
-* [Herelink Overview](herelink/Herelink-Overview.md)
+* [Herelink Overview](herelink/herelink-overview.md)
 * [How To Update Firmware](herelink/upgrading-firmware.md)
 * [One Time Setup](herelink/one-time-setup.md)
 * [Configure Buttons & Wheel](herelink/configure-buttons.md)
 * [Share video Stream](herelink/share-video-stream.md)
 * [Connecting to Mission Planner](herelink/connect-to-mission-planner.md)
 * [Installing a custom app](herelink/installing-a-custom-app.md)
+* [OEM Image Setup](herelink/oem-image-setup.md)
 
 ## HERE 2
 
@@ -44,6 +45,7 @@
 * [Open Solo Installation](solo/open-solo-installation.md)
 * [Open Solo](solo/open-solo.md)
 
-## ProfiLED <a id="profiled"></a>
+## ProfiLED
 
 * [ProfiLED](profiled/profiled.md)
+
