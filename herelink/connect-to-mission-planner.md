@@ -13,8 +13,7 @@ For enabling video stream in Herelink settings please refer [Share video Stream]
 * Open Mission Planner
 * Set the port to 'UDP' \(top right\)
 * Click 'Connect'
-* Enter the IP of the Herelink controller  [Find your IP](https://ccm.net/faq/33725-how-to-check-your-android-ip-address) 
-* Enter port '14552'
+* Enter port '14550'
 
 ![](../.gitbook/assets/screen-udp-copie-min.jpg)
 
