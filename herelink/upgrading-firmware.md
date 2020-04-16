@@ -76,3 +76,10 @@ If your Herelink has Solex TX installed you can now update your ground station v
 
 ![](../.gitbook/assets/updating.png)
 
+## Herelink Remote Update Update Error
+
+There are 3 things the need to be checked if you receive an error
+
+1. You are connected to stable wifi 
+2. The device time is correct
+3. You entered the correct Key
