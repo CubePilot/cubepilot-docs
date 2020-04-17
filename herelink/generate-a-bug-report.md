@@ -32,5 +32,5 @@ The device is now ready to generate the bug report
 1. Connect the Herelink remote to your computer with an USB cable
 2. Open the terminal of you computer then enter the command : `adb bugreport` &gt; press enter The above command will generate the bureport and save zip file on the device, the path will be mentioned in the output of command \(copy the path to use it in step 3\)
 3. Send the zip file to you computer by using the command :  `adb pull <filepath_of_zip_file_on_the_device> <filepath_of_your_computer_desktop>`
-4. Contact your reseller or Hex / Proficnc to send the bug report zip file. The bug report must be accompanied by detailed information on what happened: which application is causing the problem, the description of the issue, under which conditions,  specific settings you made, ...., and all informations that could help staff to reproduce or understand the issue.
+4. Contact your reseller or Hex / Proficnc to send the bug report zip file. The bug report must be accompanied by detailed information on what happened: which application is causing the problem, the description of the issue, under which conditions,  specific settings you made, video, photos, etc...., and all informations that could help staff to reproduce or understand the issue.
 
