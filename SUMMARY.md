@@ -12,6 +12,7 @@
 * [Connecting to Mission Planner](herelink/connect-to-mission-planner.md)
 * [Installing a custom app](herelink/installing-a-custom-app.md)
 * [OEM Image Setup](herelink/oem-image-setup.md)
+* [Generate a bug report](herelink/generate-a-bug-report.md)
 
 ## HERE 2
 
