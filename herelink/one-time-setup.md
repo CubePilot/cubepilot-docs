@@ -44,7 +44,7 @@ This tutorial will take you thought the steps of paring the air unit, calibratin
 ![](../.gitbook/assets/hw-wheel.png)
 
 
-### Step 2:To calibrate the joysticks
+### Step 2:Calibrate the joysticks
 
 
 * Click 'HW JS CAL'
@@ -55,7 +55,7 @@ This tutorial will take you thought the steps of paring the air unit, calibratin
 
 **Note:** The joystick testing area in the bottom right will not move or show any input while you are calibrating the sticks. This is normal, this area will only diplay input after the joysticks have been calibrated.
 
-![](../.gitbook/assets/joystick-cal1.jpg)
+![](../.gitbook/assets/joystick-cal.jpg)
 ![](../.gitbook/assets/joystick-testnote.jpg)
 
 * Once the joystick calibration step is complete the input test area in the red box will activate, follow the instructions above it to test the sticks input are functioning correctly by aligning the black and red circles in each step shown.  This will test the joysticks are moving correctly in all axises.  
@@ -66,7 +66,7 @@ This tutorial will take you thought the steps of paring the air unit, calibratin
 ![](../.gitbook/assets/joystick-test.jpg)
 
 
-### Step:3 SNUS Output
+### Step:3 Calibrate SBUS Output
 
 * To calibrate the joystick SBUS click 'SBUS OUT CAL' and follow the steps as shown on the highlight section.
 
