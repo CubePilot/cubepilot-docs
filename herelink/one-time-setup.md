@@ -29,9 +29,10 @@ In case you did an update using `flash_all` script, or are observing issues with
 
 * This screen is split into 2 sections, joystick calibration on the left, joystick testing on the bottom right, instructions for the user to follow will be shown in the green box.  Click 'Start Calibration' to begin the process and follow the instructions in the green box  and the sick movement arrows located around the sticks on the remote as highlighted in red below.
 
-**Note: The joystick testing area in the bottom right will not move or show any input while you are calibrating the sticks, this is normal, this area will activate after the joysticks have been calibrated only**
+**Note:** The joystick testing area in the bottom right will not move or show any input while you are calibrating the sticks. This is normal, this area will only diplay input after the joysticks have been calibrated.
 
-![](../.gitbook/assets/joystick-cal.jpg)
+![](../.gitbook/assets/joystick-cal1.jpg)
+![](../.gitbook/assets/joystick-testnote.jpg)
 
 * Once complete follow the instructions to test the sticks are functioning correctly by aligning the black and red circles on the highlighted boxes, once you complete all the steps click pass to return to the joystick screen. 
 
