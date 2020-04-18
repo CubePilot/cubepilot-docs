@@ -1,6 +1,6 @@
 # One Time Setup
 
-This tutorial will take you thought the steps of paring the air unit, calibrating joysticks & hardware wheel.  Calibrating the SBUS outputs and setting the FCC/CE mode for the radio system on Herelink. 
+This tutorial will take you though the steps of paring the air unit, calibrating joysticks & hardware wheel.  Calibrating the SBUS outputs and setting the FCC/CE mode for the radio system on Herelink. 
 
 ## Herelinnk Settings App 
 
