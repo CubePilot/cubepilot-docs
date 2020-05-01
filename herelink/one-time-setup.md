@@ -1,8 +1,8 @@
 # One Time Setup
 
-This tutorial will take you though the steps of paring the air unit, calibrating joysticks & hardware wheel.  Calibrating the SBUS outputs and setting the FCC/CE mode for the radio system on Herelink. 
+This tutorial will take you though the steps of paring the air unit, calibrating joysticks & hardware wheel. Calibrating the SBUS outputs and setting the FCC/CE mode for the radio system on Herelink.
 
-## Herelinnk Settings App 
+## Herelinnk Settings App
 
 * From App Launcher slide down the notification drawer from the top and select Herelink Setting
 
@@ -28,11 +28,9 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 ![](../.gitbook/assets/airpair2.png)
 
-
 ## Joystick and Wheel Hardware Calibration
 
-
-### Step 1:Calibrate the hardware wheel 
+### Step 1:Calibrate the hardware wheel
 
 * Select 'HW WHEEL CAL'.
 
@@ -43,9 +41,7 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 ![](../.gitbook/assets/hw-wheel.png)
 
-
 ### Step 2:Calibrate the joysticks
-
 
 * Click 'HW JS CAL'
 
@@ -55,16 +51,12 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 **Note:** The joystick testing area in the bottom right will not move or show any input while you are calibrating the sticks. This is normal, this area will only diplay input after the joysticks have been calibrated.
 
-![](../.gitbook/assets/joystick-cal1.jpg)
-![](../.gitbook/assets/joystick-testnote.jpg)
+![](../.gitbook/assets/joystick-cal1.jpg) ![](../.gitbook/assets/joystick-testnote.jpg)
 
-* Once the joystick calibration step is complete the input test area in the red box will activate, follow the instructions above it to test the sticks input are functioning correctly by aligning the black and red circles in each step shown.  This will test the joysticks are moving correctly in all axises.  
-
-* At the end of this process if you are happy with the input behaviour you can click ‘Pass’ and the calibration will be stored, if you're experiencing any issues click ‘Fail’ and start the calibration process again using a little more pressure in the corners. 
-
+* Once the joystick calibration step is complete the input test area in the red box will activate, follow the instructions above it to test the sticks input are functioning correctly by aligning the black and red circles in each step shown. This will test the joysticks are moving correctly in all axises.
+* At the end of this process if you are happy with the input behaviour you can click ‘Pass’ and the calibration will be stored, if you're experiencing any issues click ‘Fail’ and start the calibration process again using a little more pressure in the corners.
 
 ![](../.gitbook/assets/joystick-test.jpg)
-
 
 ### Step:3 Calibrate SBUS Output
 
@@ -76,9 +68,9 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 ![](../.gitbook/assets/calibrate1.png)
 
-
 ## **Selecting FCC/CE settings**
 
 * Select the region you are residing in or matches closest to your locations policy from Country Under Herelink Settings
 
 ![](../.gitbook/assets/fccsettings.png)
+

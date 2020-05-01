@@ -13,6 +13,7 @@
 * [Installing a custom app](herelink/installing-a-custom-app.md)
 * [OEM Image Setup](herelink/oem-image-setup.md)
 * [Generate a bug report](herelink/generate-a-bug-report.md)
+* [Herelink Accessories](herelink/herelink-accessories.md)
 
 ## HERE 2
 
