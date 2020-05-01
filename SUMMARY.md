@@ -14,7 +14,6 @@
 * [OEM Image Setup](herelink/oem-image-setup.md)
 * [Generate a bug report](herelink/generate-a-bug-report.md)
 * [Herelink Accessories](herelink/herelink-accessories.md)
-* [Herelink Accessories](herelink/herelink-accessories-1.md)
 
 ## HERE 2
 
