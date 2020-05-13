@@ -1,6 +1,5 @@
 ---
-description: >- 
-Herelink is fitted with six programmable buttons and one hardware wheel,these can be configured in Solex TX or QGC to preset mavlink commands such as mode selection,servo outputs and app control. 
+description: >- Herelink is fitted with six programmable buttons and one hardware wheel,these can be configured in Solex TX or QGC to preset mavlink commands such as mode selection,servo outputs and app control. 
 ---
 
 # Mode & Mavlink Buttons Configuration
