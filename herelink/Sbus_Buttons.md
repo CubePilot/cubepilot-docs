@@ -1,6 +1,6 @@
 ---
 description: >-
-  Herelink is fitted with six programmable buttons and one hardware wheel.  These can be configured to control SBUS channel outputs  from the air end’s dual sbus connector and to send Mavlink commands to the autopilot via Solex TX or QGC.
+  Herelink is fitted with six programmable buttons and one hardware wheel.  These can be configured to control sbus channel outputs from the air end’s dual sbus connector and to send Mavlink commands to the autopilot via Solex TX or QGC.
 ---
 
 # Sbus Button Configuration
@@ -8,24 +8,27 @@ description: >-
 ## Autopilot Mode Selection Important
 
 {% hint style="info" %}
-Autopilot mode selection must not be programmed to SBUS channels. Mode selection should be configured Mavlink commands within Solet TX or QGC, More info . [Mode Selection & Mavlink Buttons](configure-mavlinkbuttons.md)
+Autopilot mode selection must not be programmed to sbus channels. Mode selection should be configured Mavlink commands within Solet TX or QGC, More info . [Mode Selection & Mavlink Buttons](configure-mavlinkbuttons.md)
 {% endhint %}
 
 ## Sbus Outputs
 
-The Herelink settings app allows you to program buttons A,B,C,D,Cam & HW Wheel to control  sbus outputs on the air unit. 
+The Herelink settings app allows you to program buttons A,B,C,D,Cam & HW Wheel to control  sbus outputs on the air unit, Herelink has dual independent sbus  outputs on bus 1 and bus 2. 
+Buttons can be configured on channels 5 - 16 on bus 1 and channels 1-16 on bus 2.  
 
-Herelink has dual sbus channels and buttons can be configured to channels 5 - 16 on bus 1 and 1-16 on bus 2. 
+Channels 1-4 on Bus 1 are reserved for RC control.
 
-Each button can be programmed in 3 modes with long press and short press actions depending on mode.  
+Each button can be programmed in one of 3 modes with long press and short press actions in Toggle and Multi modes. 
 
-**Modes:**
 
-* Toggle  = Output latchet between two pwm values with a short or long press option. 
-* Momenty = Output changes to value when pressed and held, returns when released. 
-* Multi = Send command for channel to go to set pwm value. Multi buttons can be stacked on both short and long press as well as multiple * buttons to allow channel output to range in values.  
+## Button Action Modes Available: 
 
-To select the mode either press T for Toggle, M for Momantry, when none is selected the button is in Multi mode. 
+* Toggle  = Output latches between two pwm values with a short or long press option. 
+* Momenty = Output changes to active value when pressed and held, returns to default when released. 
+* Multi = Sends command for channel to go to preset pwm value. Multi buttons can be stacked on both short and long press as well as multiple buttons configurations to allow channel outputs to range in values.  
+
+To select the mode either press T for Toggle, M for Momantry, when neither T or M  is selected the button is in Multi mode. 
+
 
 ## Profiles 
 
