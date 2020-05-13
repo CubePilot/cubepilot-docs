@@ -71,7 +71,9 @@ Autopilot mode selection must only be programmed to Mavlink commands within Sole
 
 ## Hardware Wheel
 
-The hardware wheel is permanently mapped to SBUS channel 5. It can also be configured in Solex TX to Servo output channels 1-16 on the Cube Autopilot, you also have the ability to switch the servo output via a button in Solex TX.
+
+The hardware wheel is mapped to SBUS channel 5 by default but can also be configured in Solex TX to Servo output channels 1-16 on the Cube Autopilot, you also have the ability to switch the servo output via a button in Solex TX.
+
 
 ### **To Configure Wheel in Solex TX**
 
