@@ -13,7 +13,7 @@ Autopilot mode selection must not be programmed to sbus channels. Mode selection
 
 ## Sbus Outputs
 
-The Herelink settings app allows you to program buttons A,B,C,D,Cam & HW Wheel to control  sbus outputs on the air unit, Herelink has dual independent sbus  outputs on bus 1 and bus 2. 
+The Herelink settings app allows you to program buttons A,B,C,D,Cam & HW Wheel to control  sbus outputs on the air unit, Herelink has dual independent sbus outputs on bus 1 and bus 2. 
 Buttons can be configured on channels 5 - 16 on bus 1 and channels 1-16 on bus 2.  
 
 Channels 1-4 on Bus 1 are reserved for RC control.
@@ -21,7 +21,7 @@ Channels 1-4 on Bus 1 are reserved for RC control.
 Each button can be programmed in one of 3 modes with long press and short press actions in Toggle and Multi modes. 
 
 
-## Button Action Modes Available: 
+### Button Action Modes Available: 
 
 * Toggle  = Output latches between two pwm values with a short or long press option. 
 * Momenty = Output changes to active value when pressed and held, returns to default when released. 
