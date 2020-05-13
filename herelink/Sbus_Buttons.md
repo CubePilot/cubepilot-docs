@@ -26,27 +26,13 @@ Each button can be programmed in 3 modes with long press and short press actions
 
 To select the mode either press T for Toggle, M for Momantry, when none is selected the button is in Multi mode. 
 
-Profiles 
+## Profiles 
 
 Herelink Sbus Buttons allows you to save multiple button profiles. This means you can set up Herelink to have multiple configurations for different applications.   
 
-Home Button 
+## Home Button 
 
 The home button can only be configured with mavlink commands in Solex TX or QGC.  It is advised to set Homebutton Long Press to ‘RTL’ command as user safety backup. 
 
-
-Buttons A,B,C,D,Cam, Home & HW Wheel can be configured in Solex TX and QGC to Mavlink commands, these include
-
-* Mode Selection 
-* Arm/Disarm 
-* Servo Output Control 
-* Relay Control 
-* HW Wheel Channel Mapping
-* App Specific Commands
-
-
-## Autopilot Mode Selection
-
-Autopilot mode selection must only be programmed to Mavlink button commands within Solet TX or QGC.
 
 ## Button Configuration
