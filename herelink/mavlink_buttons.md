@@ -1,8 +1,6 @@
 ---
 description: >-
-  Herelink is fitted with six programmable buttons and one hardware wheel.  These can be configured to control SBUS channel outputs  from the air end’s dual sbus connector and to send Mavlink commands to the autopilot via Solex TX or QGC.
-
-Autopilot mode selection must only be programmed to Mavlink button commands within Solet TX or QGC.
+  Herelink is fitted with six programmable buttons and one hardware wheel.  These can be configured to control SBUS channel outputs  from the air end’s dual sbus connector and to send Mavlink commands to the autopilot via Solex TX or QGC. Autopilot mode selection must only be programmed to Mavlink button commands within Solet TX or QGC.
 ---
 
 # Mode & Mavlink Buttons Configuration
@@ -24,6 +22,10 @@ Solet TX and QGC have on screen controls for selecting mode in Ardupilot and PX4
 Mavlink provides a safe command link for mode change and is not affected by system reboots and loss of signal. 
 
 After configuring mode selection users should confirm their failsafe settings are correct and work as expected by testing before using the system. 
+
+## Home Button 
+
+The home button can only be configured with mavlink commands in Solex TX or QGC.  It is advised to set Homebutton Long Press to ‘RTL’ command. 
 
 
 ## Button Configuration
