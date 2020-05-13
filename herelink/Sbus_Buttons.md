@@ -7,9 +7,9 @@ description: >-
 
 ## Autopilot Mode Selection
 
-Autopilot mode selection must only be programmed to Mavlink commands within Solet TX or QGC.
-
-Mode selection must not be programmed on sbus outputs on Herelink. 
+{% hint style="info" %}
+Autopilot mode selection must not be programmed to SBUS channels. Mode selection should be configured Mavlink commands within Solet TX or QGC, More info . [Mode Selection & Mavlink Buttons](share-video-stream.md)
+{% endhint %}
 
 ## Sbus Outputs
 
