@@ -3,7 +3,7 @@ description: >-
   Herelink is fitted with six programmable buttons and one hardware wheel.  These can be configured to control SBUS channel outputs  from the air end’s dual sbus connector and to send Mavlink commands to the autopilot via Solex TX or QGC.
 ---
 
-# Configure Modes & Mavlink Buttons
+# Modes & Mavlink Buttons Configuration
 
 Buttons A,B,C,D,Cam, Home & HW Wheel can be configured in Solex TX and QGC to Mavlink commands, these include
 
