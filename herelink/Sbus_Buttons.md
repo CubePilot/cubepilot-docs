@@ -34,9 +34,6 @@ To select the mode either press T for Toggle, M for Momantry, when neither T or 
 
 Herelink Sbus Buttons allows you to save multiple button profiles. This means you can set up Herelink to have multiple configurations for different applications.   
 
-## Home Button 
-
-The home button can only be configured with mavlink commands in Solex TX or QGC.  It is advised to set Homebutton Long Press to ‘RTL’ command as user safety backup. 
 
 
 ## Sbus Button Configuration
