@@ -57,16 +57,19 @@ The home button can only be configured with mavlink commands in Solex TX or QGC.
 
 From App Launcher slide down the notification drawer from the top and select Herelink Setting. Slide left for Buttons screen. Here you will find the button configuration options for sbus. 
 
-
+![](../.gitbook/assets/Sbusbuttons_1.jpg)
 
 Click ‘NEW’ and type name for your new profile and press OK.
 
-
+![](../.gitbook/assets/Sbusbuttons_Profile.jpg)
 
 Select the first button you want to configure from the drop down menu then click ‘ADD’
 
+![](../.gitbook/assets/Sbusbuttons_2.jpg)
 
 Select Desired mode ie Toggle, Momenty or leave blank for Multi 
+
+![](../.gitbook/assets/Sbusbuttons_3.jpg)
 
 
 Note:  when setting up Multi mode buttons at least one must be selected as default, this sets the default output pwm on system boot. 
@@ -74,14 +77,18 @@ Note:  when setting up Multi mode buttons at least one must be selected as defau
 
 For Toggle & Momentary set default pwm and active pwm values, these values are selected by scrolling left and right on the number to select the desired value. 
 
-
+![](../.gitbook/assets/Sbusbuttons_4.jpg)
 
 Tip: To move to the top end of the range you can scroll backwards, also ‘Flicking’ the numbers will scroll faster though the range.  
 
 
 If setting a Multi mode button  set desired active pwm output. 
 
-Set sbus channel output and Bus output number. . 
+![](../.gitbook/assets/Sbusbuttons_6.jpg)
+
+Set sbus channel output and Bus output number. 
+
+![](../.gitbook/assets/Sbusbuttons_5.jpg)
 
 Once configured you must click SAVE to store settings. 
 
@@ -89,4 +96,6 @@ Once configured you must click SAVE to store settings.
 Next contine to add more buttons via the above process. 
 
 Multi button config allows you to set short and long press options as well as other buttons to set stages outputs on a sbus channel,  below is an example of two buttons changing a channel to 4 different pwm values.  
+
+![](../.gitbook/assets/Sbusbuttons_Setupmulti.jpg)
 
