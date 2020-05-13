@@ -1,10 +1,22 @@
 ---
 description: >-
-  Herelink's button's and gimbal control now controls functions within the
-  supported application such as Solex via the telemetry connection via Mavlink.
+  Herelink is fitted with six programmable buttons and one hardware wheel.  These can be configured to control SBUS channel outputs  from the air end’s dual sbus connector and to send Mavlink commands to the autopilot via Solex TX or QGC.
 ---
 
 # Configure Modes & Mavlink Buttons
+
+Buttons A,B,C,D,Cam, Home & HW Wheel can be configured in Solex TX and QGC to Mavlink commands, these include
+
+Mode Selection 
+Servo Output Control 
+Relay Control 
+HW Wheel Channel Mapping
+App Specific Commands
+
+
+## Autopilot Mode Selection
+
+Autopilot mode selection must only be programmed to Mavlink commands within Solet TX or QGC.
 
 ## Button Configuration
 
