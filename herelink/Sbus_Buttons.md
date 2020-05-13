@@ -40,6 +40,8 @@ The home button can only be configured with mavlink commands in Solex TX or QGC.
 
 ### Buttons Screen Overview
 
+![](../.gitbook/assets/Buttons_screenoverview.jpg)
+
 
 ### To Configure 
 
