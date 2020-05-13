@@ -57,13 +57,18 @@ The home button can only be configured with mavlink commands in Solex TX or QGC.
 
 From App Launcher slide down the notification drawer from the top and select Herelink Setting. Slide left for Buttons screen. Here you will find the button configuration options for sbus. 
 
+
 ![](../.gitbook/assets/Sbusbuttons_1.jpg)
+
 
 Click ‘NEW’ and type name for your new profile and press OK.
 
+
 ![](../.gitbook/assets/Sbusbuttons_Profile.jpg)
 
+
 Select the first button you want to configure from the drop down menu then click ‘ADD’
+
 
 ![](../.gitbook/assets/Sbusbuttons_2.jpg)
 
