@@ -55,35 +55,38 @@ The home button can only be configured with mavlink commands in Solex TX or QGC.
 
 ### To Configure 
 
-From App Launcher slide down the notification drawer from the top and select Herelink Setting
+From App Launcher slide down the notification drawer from the top and select Herelink Setting. Slide left for Buttons screen. Here you will find the button configuration options for sbus. 
 
 
-Slide left for Buttons screen.
 
-Here you will find the button configuration options for sbus. 
+Click ‘NEW’ and type name for your new profile and press OK.
 
 
-Click NEW and type name for your controles profile and press OK.
 
-Select the first button you want to configure from the drop down menu then click ADD
+Select the first button you want to configure from the drop down menu then click ‘ADD’
+
 
 Select Desired mode ie Toggle, Momenty or leave blank for Multi 
 
-Note when setting up Multi mode buttons at least one must be selected as default, this sets the default output position on system boot. 
+
+Note:  when setting up Multi mode buttons at least one must be selected as default, this sets the default output pwm on system boot. 
+
+
+For Toggle & Momentary set default pwm and active pwm values, these values are selected by scrolling left and right on the number to select the desired value. 
 
 
 
-For Toggle & Momentary set default pwm and active pwm values. 
+Tip: To move to the top end of the range you can scroll backwards, also ‘Flicking’ the numbers will scroll faster though the range.  
 
 
-For Multi set desired pwm output on press 
+If setting a Multi mode button  set desired active pwm output. 
 
-Set sbus channel output and Bus output. 
+Set sbus channel output and Bus output number. . 
 
 Once configured you must click SAVE to store settings. 
 
 
 Next contine to add more buttons via the above process. 
 
-Multi buttons allows you to set Short and Long press as well as other buttons to set stages outputs on a sbus channel below is an example of two buttons changing a channel to 4 different pwm values.  
+Multi button config allows you to set short and long press options as well as other buttons to set stages outputs on a sbus channel,  below is an example of two buttons changing a channel to 4 different pwm values.  
 
