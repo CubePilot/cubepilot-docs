@@ -36,13 +36,12 @@ Herelink Sbus Buttons allows you to save multiple button profiles. This means yo
 The home button can only be configured with mavlink commands in Solex TX or QGC.  It is advised to set Homebutton Long Press to ‘RTL’ command as user safety backup. 
 
 
-## Button Configuration
+## Sbus Button Configuration
 
-Programming Sbus Buttons 
+### Buttons Screen Overview
 
-Buttons Screen Overview
 
-To Configure 
+### To Configure 
 
 From App Launcher slide down the notification drawer from the top and select Herelink Setting
 
