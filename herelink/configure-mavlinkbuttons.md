@@ -17,7 +17,7 @@ Buttons A,B,C,D,Cam, Home & HW Wheel can be configured in Solex TX and QGC to Ma
 
 ## Autopilot Mode Selection
 
-Autopilot mode selection must only be programmed to Mavlink commands within Solet TX or QGC.
+Autopilot mode selection must only be programmed to Mavlink button commands within Solet TX or QGC.
 
 ## Button Configuration
 
