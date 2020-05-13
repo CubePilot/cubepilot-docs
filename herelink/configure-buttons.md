@@ -4,7 +4,7 @@ description: >-
   supported application such as Solex via the telemetry connection via Mavlink.
 ---
 
-# Configure Buttons & Wheel
+# Configure Modes & Mavlink Buttons
 
 ## Button Configuration
 
