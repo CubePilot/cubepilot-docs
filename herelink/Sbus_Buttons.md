@@ -18,7 +18,7 @@ Herelink has dual sbus channels and buttons can be configured to channels 5 - 16
 
 Each button can be programmed in 3 modes with long press and short press actions depending on mode.  
 
-Modes: 
+**Modes: 
 
 * Toggle  = Output latchet between two pwm values with a short or long press option. 
 * Momenty = Output changes to value when pressed and held, returns when released. 
