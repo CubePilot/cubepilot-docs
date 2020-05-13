@@ -58,19 +58,19 @@ The home button can only be configured with mavlink commands in Solex TX or QGC.
 From App Launcher slide down the notification drawer from the top and select Herelink Setting. Slide left for Buttons screen. Here you will find the button configuration options for sbus. 
 
 
-![](../.gitbook/assets/Sbusbuttons_1.jpg)
+![](../.gitbook/assets/Sbusbuttons_1.png)
 
 
 Click ‘NEW’ and type name for your new profile and press OK.
 
 
-![](../.gitbook/assets/Sbusbuttons_Profile.jpg)
+![](../.gitbook/assets/Sbusbuttons_Profile.png)
 
 
 Select the first button you want to configure from the drop down menu then click ‘ADD’
 
 
-![](../.gitbook/assets/Sbusbuttons_2.jpg)
+![](../.gitbook/assets/Sbusbuttons_2.png)
 
 Select Desired mode ie Toggle, Momenty or leave blank for Multi 
 
@@ -102,5 +102,5 @@ Next contine to add more buttons via the above process.
 
 Multi button config allows you to set short and long press options as well as other buttons to set stages outputs on a sbus channel,  below is an example of two buttons changing a channel to 4 different pwm values.  
 
-![](../.gitbook/assets/Sbusbuttons_Setupmulti.jpg)
+![](../.gitbook/assets/Sbusbuttons_Setupmulti.png)
 
