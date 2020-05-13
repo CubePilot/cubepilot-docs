@@ -7,11 +7,11 @@ description: >-
 
 Buttons A,B,C,D,Cam, Home & HW Wheel can be configured in Solex TX and QGC to Mavlink commands, these include
 
-*Mode Selection 
-*Servo Output Control 
-*Relay Control 
-*HW Wheel Channel Mapping
-*App Specific Commands
+* Mode Selection 
+* Servo Output Control 
+* Relay Control 
+* HW Wheel Channel Mapping
+* App Specific Commands
 
 
 ## Autopilot Mode Selection
