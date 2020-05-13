@@ -5,8 +5,10 @@ Herelink is fitted with six programmable buttons and one hardware wheel.  These 
 
 ## Autopilot Mode Selection Important
 
+Autopilot mode selection must not be programmed to sbus channels. Mode selection should be configured to Mavlink commands within Solet TX or QGC to ensure predictable behavior in the event of signal loss or system reboot. 
+
 {% hint style="info" %}
-Autopilot mode selection must not be programmed to sbus channels. Mode selection should be configured Mavlink commands within Solet TX or QGC, More info . [Mode Selection & Mavlink Buttons](mavlink_buttons.md)
+More info see . [Mode Selection & Mavlink Buttons](mavlink_buttons.md)
 {% endhint %}
 
 ## Sbus Outputs
