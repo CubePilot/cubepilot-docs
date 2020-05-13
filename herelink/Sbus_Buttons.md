@@ -43,6 +43,13 @@ The home button can only be configured with mavlink commands in Solex TX or QGC.
 ![](../.gitbook/assets/Buttons_screenoverview.jpg)
 
 
+* Red = Button Selection Menu 
+* Purple = Add Button 
+* Yellow = New Profile 
+* Black = Load Profile 
+* Blue = Save Settings
+
+
 ### To Configure 
 
 From App Launcher slide down the notification drawer from the top and select Herelink Setting
