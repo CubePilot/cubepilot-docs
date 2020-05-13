@@ -8,7 +8,7 @@ description: >-
 ## Autopilot Mode Selection Important
 
 {% hint style="info" %}
-Autopilot mode selection must not be programmed to sbus channels. Mode selection should be configured Mavlink commands within Solet TX or QGC, More info . [Mode Selection & Mavlink Buttons](configure-mavlinkbuttons.md)
+Autopilot mode selection must not be programmed to sbus channels. Mode selection should be configured Mavlink commands within Solet TX or QGC, More info . [Mode Selection & Mavlink Buttons](mavlink_buttons.md)
 {% endhint %}
 
 ## Sbus Outputs
