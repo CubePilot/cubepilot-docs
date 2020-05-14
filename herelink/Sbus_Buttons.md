@@ -21,7 +21,7 @@ Channels 1-4 on Bus 1 are reserved for RC control.
 Each button can be programmed in one of 3 modes with long press and short press actions in Toggle and Multi modes. 
 
 
-### Button Action Modes Available: 
+### Button Modes Available: 
 
 * Toggle  = Output latches between two pwm values with a short or long press option. 
 * Momenty = Output changes to active value when pressed and held, returns to default when released. 
