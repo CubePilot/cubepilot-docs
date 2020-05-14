@@ -40,14 +40,11 @@ Herelink Sbus Buttons allows you to save multiple button profiles. This means yo
 
 ### Buttons Screen Overview
 
-![](../.gitbook/assets/Buttons_screenoverview.jpg)
+![](../.gitbook/assets/Button_overview1.jpg)
+![](../.gitbook/assets/Button_overview2.jpg)
 
 
-* Red = Button Selection Menu 
-* Purple = Add Button 
-* Yellow = New Profile 
-* Black = Load Profile 
-* Blue = Save Settings
+
 
 
 ### To Configure 
