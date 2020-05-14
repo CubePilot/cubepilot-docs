@@ -82,11 +82,18 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 ![](../.gitbook/assets/joystick-test.jpg)
 
 
-## Step 3 RC Mode Selection & Throttle Behavior
+## Step 3 RC Mode Selection , Throttle Behavior & Channel Reversing
 
-* Herelink supports rc modes 1 - 4 as well as the option to set the throttle centre as zero PWM output. 
+Herelink supports rc modes 1 - 4 as well as the option to set the throttle centre as zero PWM output and reverse each channeel. 
+
+* Set throttle center and RC mode via the below settings. 
 
 ![](../.gitbook/assets/Rc_mode.jpg)
+
+
+* The stick sbus output can be reversed by clicking on ‘REV’ next to the channel you want to change.
+
+![](../.gitbook/assets/Channel_rev.jpg)
 
 * After making any changes click ‘SAVE” to store settings. 
 
