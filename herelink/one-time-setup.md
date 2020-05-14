@@ -58,6 +58,7 @@ From this screen you can
 ![](../.gitbook/assets/hw-wheel.png)
 
 * Once calibration is complete you can set the Sbus channel output and Bus output for the wheel on the highlighted settings
+Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 16, on bus 2 the wheel can be set to channels 1 -16. 
 
 ![](../.gitbook/assets/Wheel_ch.jpg)
 
