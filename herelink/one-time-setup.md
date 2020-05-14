@@ -91,13 +91,15 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 
 ## Step 4 Calibrate SBUS Output
 
-* To calibrate the joystick SBUS click 'SBUS OUT CAL' and follow the steps as shown on the highlight section.
+* To calibrate the joystick SBUS outpiuts click 'SBUS OUT CAL'. 
 
-![](../.gitbook/assets/joystick-sbus.jpg)
+![](../.gitbook/assets/Sbus_cal.jpg)
 
-![](../.gitbook/assets/calibrate2.png)
+* Follow the RC stock movement steps as shown in the highlight section moving the stick through each position.
 
-![](../.gitbook/assets/calibrate1.png)
+![](../.gitbook/assets/Sbus_cal2.png)
+
+![](../.gitbook/assets/Sbus_cal3.jpg)
 
 ## **Selecting FCC/CE settings**
 
