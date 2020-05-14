@@ -31,7 +31,7 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 * Swipe left to access the joystick screen.
 
-![](../.gitbook/assets/stick_screen.png)
+![](../.gitbook/assets/stick_screen.jpg)
 
 ### Step 1:Calibrate the hardware wheel
 
