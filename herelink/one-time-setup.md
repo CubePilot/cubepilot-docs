@@ -16,7 +16,7 @@ The following tutorial will guide you through the steps to setup and calibrate t
 
 **Important: Please pay special attention to Mode setup on Mavlink Buttons page before configuring any buttons on your system,see**
 
-* [Configure Modes & Mavlink Buttons](/mavlink_buttons.md)
+* [Configure Modes & Mavlink Buttons](/herelink/mavlink_buttons.md)
 
 
 ## Herelink Settings App
