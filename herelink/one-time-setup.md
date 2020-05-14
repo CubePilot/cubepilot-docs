@@ -42,7 +42,7 @@ The following tutorial will guide you through the steps to setup and calibrate t
 
 ![](../.gitbook/assets/airpair2.png)
 
-## Joystick and Wheel Hardware Calibration
+## Joystick and HW Wheel Calibration
 
 * Swipe left to access the joystick screen.
 
