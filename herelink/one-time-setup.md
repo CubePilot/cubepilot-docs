@@ -5,6 +5,7 @@ Herelink has a dedicated system settings app for the setup and configuration of 
 The Herelink Settings app allows you to
 
 * Pair The Air Unit 
+* See Radio & System Status
 * Calibrate the RC
 * Set RC Mode & Throttle Settings 
 * Calibrate HW Wheel and Set Channel
@@ -13,9 +14,7 @@ The Herelink Settings app allows you to
 
 The following tutorial will guide you through the steps to setup and calibrate the Herelink system.  For button setup there are dedicated pages in this wiki for Mavlink and Sbus button options, these should only be completed after performing the steps on this page. 
 
-**Important: Please pay special attention to Mode setup on Mavlink Buttons page before configuring any buttons on your system.** 
-
-You can find that here [Configure Modes & Mavlink Buttons](herelink/mavlink_buttons.md)
+**Important: Please pay special attention to Mode setup on Mavlink Buttons page before configuring any buttons on your system,See [Configure Modes & Mavlink Buttons](herelink/mavlink_buttons.md)**
 
 
 ## Herelink Settings App
