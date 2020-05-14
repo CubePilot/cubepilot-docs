@@ -29,6 +29,10 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 ## Joystick and Wheel Hardware Calibration
 
+* Swipe left to access the joystick screen 
+
+![](../.gitbook/assets/Joystick_Screen.png)
+
 ### Step 1:Calibrate the hardware wheel
 
 * Select 'HW WHEEL CAL'.
