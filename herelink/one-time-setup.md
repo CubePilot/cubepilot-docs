@@ -46,7 +46,7 @@ From this screen you can
 * Set Throttle Centre Behavior
 
 
-### Step 1: Calibrate the hardware wheel
+## Step 1: Calibrate the hardware wheel
 
 * Select 'HW WHEEL CAL'.
 
@@ -64,7 +64,7 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 
 * Once complete click 'SAVE' to store settings. 
 
-### Step 2: Calibrate the joysticks
+## Step 2: Calibrate the joysticks
 
 * Click 'HW JS CAL'
 
@@ -82,14 +82,14 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 ![](../.gitbook/assets/joystick-test.jpg)
 
 
-### RC Mode Selection & Throttle Behavior
+## Step 3 RC Mode Selection & Throttle Behavior
 
 * Herelink supports rc modes 1 - 4 as well as the option to set the throttle centre as zero PWM output. 
 
 ![](../.gitbook/assets/Rc_mode.jpg)
 
 
-### Step:3 Calibrate SBUS Output
+## Step 4 Calibrate SBUS Output
 
 * To calibrate the joystick SBUS click 'SBUS OUT CAL' and follow the steps as shown on the highlight section.
 
