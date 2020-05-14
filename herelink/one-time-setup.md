@@ -50,7 +50,7 @@ From this screen you can
 
 * Select 'HW WHEEL CAL'.
 
-![](../.gitbook/assets/hw-wheel-2.jpg)
+![](../.gitbook/assets/wheel_cal.jpg)
 
 * Click 'Start rollwheel'  and follow the calibration steps
 * **Note** once complete you can check its correct functioning by looking at the values change, click Pass to return to joystick screen
