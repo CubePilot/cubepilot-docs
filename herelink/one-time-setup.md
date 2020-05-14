@@ -33,6 +33,19 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 ![](../.gitbook/assets/Stick_screen.jpg)
 
+Here you will find the sticks and hardware wheel options and calibration settings. 
+
+From this screen you can 
+
+* See RC Calibration Status 
+* Calibrate Hardware Wheel
+* Calibrate Sticks
+* Set RC Stick Mode
+* Set Hardware Wheel Sbus Channel & Bus
+* Reverse RC Channel
+* Set Throttle Centre Behavior
+
+
 ### Step 1:Calibrate the hardware wheel
 
 * Select 'HW WHEEL CAL'.
