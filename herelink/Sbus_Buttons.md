@@ -40,8 +40,8 @@ Herelink Sbus Buttons allows you to save multiple button profiles. This means yo
 
 ### Buttons Screen Overview
 
-![](../.gitbook/assets/Button_overview1.jpg)
 ![](../.gitbook/assets/Button_overview2.jpg)
+![](../.gitbook/assets/Button_overview1.jpg)
 
 
 
