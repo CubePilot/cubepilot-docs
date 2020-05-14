@@ -88,6 +88,8 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 
 ![](../.gitbook/assets/Rc_mode.jpg)
 
+* After making any changes click ‘SAVE” to store settings. 
+
 
 ## Step 4 Calibrate SBUS Output
 
@@ -101,9 +103,12 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 
 ![](../.gitbook/assets/Sbus_cal1.jpg)
 
+* Once complete click ‘SAVE” to store settings. 
+
+
 ## **Selecting FCC/CE settings**
 
-* Select the region you are residing in or matches closest to your locations policy from Country Under Herelink Settings
+* Select the region you are residing in or matches closest to your locations policy from Country Under Herelink Settings main screen.
 
 ![](../.gitbook/assets/fccsettings.png)
 
