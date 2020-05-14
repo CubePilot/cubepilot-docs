@@ -15,10 +15,6 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 ## Pairing with Air Unit
 
-* Open Herelink Settings by pulling notification drawer and tapping Herelink Settings:
-
-![](../.gitbook/assets/settings-app.jpg)
-
 * Tap Pair button and then hold the `Pair/Reset` button on Air Unit until `LED2` blinks.
 
 ![](../.gitbook/assets/settings101.png)
