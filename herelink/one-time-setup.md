@@ -2,7 +2,7 @@
 
 This tutorial will take you though the steps of paring the air unit, calibrating joysticks & hardware wheel. Calibrating the SBUS outputs and setting the FCC/CE mode for the radio system on Herelink.
 
-## Herelinnk Settings App
+## Herelink Settings App
 
 * From App Launcher slide down the notification drawer from the top
 
@@ -46,7 +46,7 @@ From this screen you can
 * Set Throttle Centre Behavior
 
 
-### Step 1:Calibrate the hardware wheel
+### Step 1: Calibrate the hardware wheel
 
 * Select 'HW WHEEL CAL'.
 
@@ -62,7 +62,7 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 
 ![](../.gitbook/assets/Wheel_ch.jpg)
 
-### Step 2:Calibrate the joysticks
+### Step 2: Calibrate the joysticks
 
 * Click 'HW JS CAL'
 
