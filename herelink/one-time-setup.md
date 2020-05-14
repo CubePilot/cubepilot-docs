@@ -99,7 +99,7 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 
 ![](../.gitbook/assets/Sbus_cal2.png)
 
-![](../.gitbook/assets/Sbus_cal3.jpg)
+![](../.gitbook/assets/Sbus_cal1.jpg)
 
 ## **Selecting FCC/CE settings**
 
