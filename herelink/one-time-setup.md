@@ -14,7 +14,7 @@ The Herelink Settings app allows you to
 
 The following tutorial will guide you through the steps to setup and calibrate the Herelink system.  For button setup there are dedicated pages in this wiki for Mavlink and Sbus button options, these should only be completed after performing the steps on this page. 
 
-**Important: Please pay special attention to Mode setup on Mavlink Buttons page before configuring any buttons on your system,see**
+**Important: Please pay special attention to Autopilot Mode setup on the Mavlink Buttons page before configuring any buttons on your system,see**
 
 * [Configure Modes & Mavlink Buttons](/herelink/mavlink_buttons.md)
 
