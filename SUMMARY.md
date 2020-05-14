@@ -6,7 +6,7 @@
 
 * [Herelink Overview](herelink/herelink-overview.md)
 * [How To Update Firmware](herelink/upgrading-firmware.md)
-* [RC Calibration & Setup](herelink/one-time-setup.md)
+* [Pairing, RC Calibration & Setup](herelink/one-time-setup.md)
 * [Configure Modes & Mavlink Buttons](herelink/mavlink_buttons.md)
 * [Configure Sbus Buttons & Wheel](herelink/Sbus_Buttons.md)
 * [Share video Stream](herelink/share-video-stream.md)
