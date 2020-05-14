@@ -10,8 +10,6 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 ![](../.gitbook/assets/settings-app.jpg)
 
-* Slide left for Joystick screen.
-
 ![](../.gitbook/assets/settings101.png)
 
 
