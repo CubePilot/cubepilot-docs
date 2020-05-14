@@ -12,7 +12,8 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 * Slide left for Joystick screen.
 
-![](../.gitbook/assets/device-2020-02-14-151909.png)
+![](../.gitbook/assets/settings101.png)
+
 
 ## Pairing with Air Unit
 
