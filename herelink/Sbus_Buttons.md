@@ -47,26 +47,26 @@ Herelink Sbus Buttons allows you to save multiple button profiles. This means yo
 
 
 
-### To Configure 
+## To Configure 
 
-From App Launcher slide down the notification drawer from the top and select Herelink Setting. Slide left for buttons screen. Here you will find the button configuration options for sbus. 
+* From App Launcher slide down the notification drawer from the top and select Herelink Setting. Slide left for buttons screen. Here you will find the button configuration options for sbus. 
 
 
 ![](../.gitbook/assets/Sbusbuttons_1.png)
 
 
-Click ‘NEW’ and type name for your new profile and press OK.
+* Click ‘NEW’ and type name for your new profile and press OK.
 
 
 ![](../.gitbook/assets/Sbusbuttons_Profile.png)
 
 
-Select the first button you want to configure from the drop down menu then click ‘ADD’
+* Select the first button you want to configure from the drop down menu then click ‘ADD’
 
 
 ![](../.gitbook/assets/Sbusbuttons_2.png)
 
-Select desired button mode by tapping the letter, ie: Toggle, Momenty or leave blank for Multi 
+* Select desired button mode by tapping the letter, ie: Toggle, Momenty or leave blank for Multi 
 
 ![](../.gitbook/assets/Sbusbuttons_3.jpg)
 
@@ -74,29 +74,29 @@ Select desired button mode by tapping the letter, ie: Toggle, Momenty or leave b
 **Note: When setting up Multi mode buttons at least one must be selected as default, this sets the default output pwm on system boot.**
 
 
-For Toggle & Momentary set the default pwm and active pwm values, these values are selected by scrolling left and right on the number to select the desired output. 
+* For Toggle & Momentary set the default pwm and active pwm values, these values are selected by scrolling left and right on the number to select the desired output. 
 
 ![](../.gitbook/assets/Sbusbuttons_4.jpg)
 
 **Tip: To move to the top end of the range you can scroll backwards, also ‘Flicking’ the numbers will scroll faster though the range.**  
 
 
-If setting a Multi mode button set desired active pwm output. 
+* If setting a Multi mode button set desired active pwm output. 
 
 ![](../.gitbook/assets/Sbusbuttons_6.jpg)
 
-Set sbus channel output and bus. 
+* Set sbus channel output and bus. 
 
 ![](../.gitbook/assets/Sbusbuttons_5.jpg)
 
-Once configured you must click SAVE to store settings. 
+* Once configured you must click SAVE to store settings. 
 
-Next contine to add more buttons via the above process. 
+* Next contine to add more buttons via the above process. 
 
 
 ![](../.gitbook/assets/Sbusbuttons_7.png)
 
-To remove a button config simply click the bin icon next to the name. 
+* To remove a button config simply click the bin icon next to the name. 
 
 ### Multi Buttons 
 
