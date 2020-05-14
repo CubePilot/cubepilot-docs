@@ -57,6 +57,10 @@ From this screen you can
 
 ![](../.gitbook/assets/hw-wheel.png)
 
+* Once calibration is complete you can set the Sbus channel output and Bus output for the wheel on the highlighted settings
+
+![](../.gitbook/assets/Wheel_ch.jpg)
+
 ### Step 2:Calibrate the joysticks
 
 * Click 'HW JS CAL'
