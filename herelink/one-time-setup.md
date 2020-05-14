@@ -1,6 +1,22 @@
-# One Time Setup
+# Herelink Pairing, RC Calibration & Setup
 
-This tutorial will take you though the steps of paring the air unit, calibrating joysticks & hardware wheel. Calibrating the SBUS outputs and setting the FCC/CE mode for the radio system on Herelink.
+Herelink has a dedicated system settings app for the setup and configuration of the Herelink RC control and radio system.
+
+The Herelink Settings app allows you to
+
+* Pair The Air Unit 
+* Calibrate the RC
+* Set RC Mode & Throttle Settings 
+* Calibrate HW Wheel and Set Channel
+* Set Radio Regional Settings
+* Configure Sbus Buttons
+
+The following tutorial will guide you through the steps to setup and calibrate the Herelink system.  For button setup there are dedicated pages in this wiki for Mavlink and Sbus button options, these should only be completed after performing the steps on this page. 
+
+**Important: Please pay special attention to Mode setup on Mavlink Buttons page before configuring any buttons on your system. 
+
+You can find that here * [Configure Modes & Mavlink Buttons](herelink/mavlink_buttons.md)
+
 
 ## Herelink Settings App
 
