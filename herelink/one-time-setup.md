@@ -4,11 +4,15 @@ This tutorial will take you though the steps of paring the air unit, calibrating
 
 ## Herelinnk Settings App
 
-* From App Launcher slide down the notification drawer from the top and select Herelink Setting
+* From App Launcher slide down the notification drawer from the top
 
 ![](../.gitbook/assets/home-screen.png)
 
+*  Select Herelink Setting 
+
 ![](../.gitbook/assets/settings-app.jpg)
+
+* The settings app will open 
 
 ![](../.gitbook/assets/settings101.png)
 
