@@ -62,11 +62,13 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 
 ![](../.gitbook/assets/Wheel_ch.jpg)
 
+* Once complete click 'SAVE' to store settings. 
+
 ### Step 2: Calibrate the joysticks
 
 * Click 'HW JS CAL'
 
-![](../.gitbook/assets/joystick.jpg)
+![](../.gitbook/assets/Stick_cal.jpg)
 
 * This screen is split into 2 sections, joystick calibration on the left, joystick testing on the bottom right, instructions for the user to follow will be shown in the green box.  Click 'Start Calibration' to begin the process and follow the instructions in the green box  and the sick movement arrows located around the sticks on the remote as highlighted in red below.
 
