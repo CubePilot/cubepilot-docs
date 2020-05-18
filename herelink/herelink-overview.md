@@ -57,8 +57,8 @@ Herelink allows RC control, HD video and telemetry data to be transmitted upto 2
 
 | Feature | Specification |
 | :--- | :--- |
-| Video Input: | Micro HDMI x 2: Input for external camera video,supports 720P 30fps & 1080P 30/60fps |
-| Power Input: | 2 Pin interface x 1:Recommended supply voltage ~7V: minimum 6V: maximum 12V avoid sharing BEC with servos,average power consumption of the single-sided module is less than 4W |
+| Video Input: | Micro HDMI x 2: Input for external camera video, supports 720P 30fps & 1080P 30/60fps |
+| Power Input: | 2 Pin interface x 1:Recommended supply voltage ~7V: minimum 6V: maximum 12V avoid sharing BEC with servos, average power consumption of the single-sided module is less than 4W |
 | Telemetry: | 3 Pin interface x 1:3.3V / 5V level UART interface Mavlink Compatible |
 | Control Output: | 4 Pin interface x 1 : Two 3.3V level RC output connectors \(S.bus in phase, S.bus inverting or PPM signal output, ground terminal control\) |
 | USB: | Micro USB x 1: for debugging upgrades, support OTG mode |
