@@ -5,7 +5,7 @@ Herelink is fitted with six programmable buttons and one hardware wheel.  These 
 
 
 {% hint style="info" %}
-More info see . [Herelink Pairing, RC Calibration & Setup](one-time-setup.md)
+More info see [Herelink Pairing, RC Calibration & Setup](one-time-setup.md)
 {% endhint %}
 
 ## Autopilot Mode Selection - Important
