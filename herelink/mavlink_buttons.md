@@ -11,7 +11,7 @@ Buttons A,B,C,D,Cam, Home & HW Wheel can be configured in Solex TX and QGC to Ma
 * HW Wheel Channel Mapping
 * App Specific Commands
 
-There is a video overview of setting this up on the * [Herelink Pairing, RC Calibration & Setup](/herelink/one-time-setup.md)
+There is a video overview of setting this up on the  [Herelink Pairing, RC Calibration & Setup](/herelink/one-time-setup.md) Page
 
 
 ## Autopilot Mode Selection
