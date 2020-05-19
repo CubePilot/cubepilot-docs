@@ -13,7 +13,7 @@ More info see . [Herelink Pairing, RC Calibration & Setup](one-time-setup.md)
 Autopilot mode selection must not be programmed to sbus channels. Mode selection should be configured to Mavlink commands within Solet TX or QGC to ensure predictable behavior in the event of signal loss or system reboot. 
 
 {% hint style="info" %}
-More info see . [Mode Selection & Mavlink Buttons](mavlink_buttons.md)
+More info see [Mode Selection & Mavlink Buttons](mavlink_buttons.md)
 {% endhint %}
 
 **Important Note:**
