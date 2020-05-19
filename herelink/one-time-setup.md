@@ -19,6 +19,13 @@ The following tutorial will guide you through the steps to setup and calibrate t
 * [Configure Modes & Mavlink Buttons](/herelink/mavlink_buttons.md)
 
 
+## Video Overview Of Herelink Setup 
+
+Here is a video overview of the Herelink setup process and configuring mavlink and Sbus buuttons.
+
+{% embed url="https://youtu.be/2lGEtJCBovY" caption="" %}
+
+
 ## Herelink Settings App
 
 * From App Launcher slide down the notification drawer from the top
