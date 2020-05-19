@@ -20,7 +20,8 @@ Mavlink provides a safe command link for mode change and is not affected by syst
 
 After configuring mode selection users should confirm their failsafe settings are correct and work as expected by testing before using the system. 
 
-***Note: Ardupilot sets Sbus Ch5 to mode selection as default, this should be disabled with herelink by setting the pram to zero  -  FLTMODE_CH:0***
+**Important Note:**
+Ardupilot sets Sbus Ch5 to mode selection as default, this should be disabled with herelink by setting the pram FLTMODE_CH: to 0.
 
 ## Home Button 
 
