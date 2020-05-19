@@ -2,6 +2,9 @@
 
 Herelink is fitted with six programmable buttons and one hardware wheel.  These can be configured to control sbus channel outputs from the air end’s dual sbus connector and to send Mavlink commands to the autopilot via Solex TX or QGC.
 
+There is a video overview of setting up Herelink and configuring buttons on the  [Herelink Pairing, RC Calibration & Setup](/herelink/one-time-setup.md) Page.
+
+
 
 ## Autopilot Mode Selection - Important
 
@@ -10,6 +13,9 @@ Autopilot mode selection must not be programmed to sbus channels. Mode selection
 {% hint style="info" %}
 More info see . [Mode Selection & Mavlink Buttons](mavlink_buttons.md)
 {% endhint %}
+
+**Important Note:**
+Ardupilot sets Sbus channel 5 to mode selection as default, this should be disabled with herelink by setting the pram FLTMODE_CH: to 0.
 
 ## Sbus Outputs
 
