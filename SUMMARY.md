@@ -52,3 +52,7 @@
 
 * [ProfiLED](profiled/profiled.md)
 
+## CubePilot Ecosystem
+
+* [CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
+
