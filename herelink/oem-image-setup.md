@@ -62,7 +62,7 @@ The OEM changes are constant changes made by OEMs of Herelink that will be untou
 * Now you may flash this image into Herelink Air Unit, by putting it under bootloader using command `adb reboot bootloader`
 * And finally to flash to image run command `fastboot flash oem oem_au.img`
 
-#### Example
+#### Example Config Change
 
 * In the following example we change the system\_id used by herelink air unit for board specific messages.
 * Most config files are located in you unit at `/system/etc`in the following example we will pull config using command `adb pull /system/etc/system-control.telepathy-air.conf`
@@ -90,4 +90,19 @@ support_camera_capture = false
 * Create a folder inside oem image called `etc` using command `sudo mkdir oem/etc`
 * Copy file using command `sudo cp system-control.telepathy-air.conf oem/etc/`
 * Continue to unmount the image and flashing into the unit as described in above steps.
+
+#### Example App Change
+
+* In the following example we override the installed QGroundcontrol App.
+* A new OEM app can be installed under /oem/app/&lt;AppName&gt;/&lt;AppName&gt;.apk
+* For installing your custom version of QGroundcontrol, ensure that you started with [https://github.com/cubepilot/qgroundcontrol-herelink](https://github.com/cubepilot/qgroundcontrol-herelink) as your base.
+* After building the project, create a folder `QgroundControl`
+* Copy .apk file `cp -r build-qgroundcontrol-Android_for_armeabi_v7a_Clang_Qt_5_11_0_for_Android_armv72_fd6ff4-Debug/android-build/build/outputs/apk/android-build-debug.apk QGroundControl/QGroundControl.apk`
+* Also create a lib directory `QGroundControl/lib`
+* Copy libraries `cp -r build-qgroundcontrol-Android_for_armeabi_v7a_Clang_Qt_5_11_0_for_Android_armv72_fd6ff4-Debug/android-build/libs/armeabi-v7a/ QGroundControl/lib/arm/`
+* Finally move QgroundControl directory to oem image `sudo cp -r QGroundControl oem/app/QGroundControl`
+* Do ensure you have already created app directory inside oem image if not already done `sudo mkdir oem/app`
+* Continue to unmount the image and flashing into the unit as described in above steps.
+
+
 
