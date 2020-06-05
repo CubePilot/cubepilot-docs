@@ -23,9 +23,9 @@ The OEM changes are constant changes made by OEMs of Herelink that will be untou
   * Air Unit: [oem\_au\_base.img](https://herelinkfw.cubepilot.org/tools/oem_au_base.img)
 * Ensure that you select the base image depending upon which unit you are modifying.
 * Download and extract zips into same directory.
-* Now to generate ext4fs image from the sparse image \(.img\) downloaded above do `./simg2img_mac oem_au_base.img raw_oem_au_base.img`
+* Now to generate ext4fs image from the sparse image \(.img\) downloaded above do `./simg2img oem_au_base.img raw_oem_au_base.img`
 * Create a mount point directory using `mkdir oem`
-* Mount the image using `mount raw_oem_au_base.img oem`
+* Mount the image using `sudo mount raw_oem_au_base.img oem`
 * Now you should be able to modify files inside the mount directory.
 * You need to use `sudo` to be able to do any writes the files inside the mount point.
 * Once you have made your changes, you need to unmount your drive using command `sudo umount oem`
