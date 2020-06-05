@@ -8,7 +8,7 @@
 * [How To Update Firmware](herelink/upgrading-firmware.md)
 * [Pairing, RC Calibration & Setup](herelink/one-time-setup.md)
 * [Configure Modes & Mavlink Buttons](herelink/mavlink_buttons.md)
-* [Configure Sbus Buttons & Wheel](herelink/Sbus_Buttons.md)
+* [Configure Sbus Buttons & Wheel](herelink/sbus_buttons.md)
 * [Share video Stream](herelink/share-video-stream.md)
 * [Connecting to Mission Planner](herelink/connect-to-mission-planner.md)
 * [Installing a custom app](herelink/installing-a-custom-app.md)
@@ -55,4 +55,8 @@
 ## CubePilot Ecosystem
 
 * [CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
+
+## Remote ID
+
+* [France](remote-id/france.md)
 

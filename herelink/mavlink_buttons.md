@@ -1,4 +1,4 @@
-# Mode & Mavlink Buttons Configuration
+# Configure Modes & Mavlink Buttons
 
 Herelink is fitted with six programmable buttons and one hardware wheel,these can be configured in Solex TX or QGC to preset mavlink commands such as mode selection,servo outputs and app control.
 
@@ -11,24 +11,21 @@ Buttons A,B,C,D,Cam, Home & HW Wheel can be configured in Solex TX and QGC to Ma
 * HW Wheel Channel Mapping
 * App Specific Commands
 
-There is a video overview of setting up Herelink and configuring buttons on the  [Herelink Pairing, RC Calibration & Setup](/herelink/one-time-setup.md) Page.
-
+There is a video overview of setting up Herelink and configuring buttons on the [Herelink Pairing, RC Calibration & Setup](one-time-setup.md) Page.
 
 ## Autopilot Mode Selection
 
-Solet TX and QGC have on screen controls for selecting mode in Ardupilot and PX4, ie: selecting and changing flight modes such as loiter,stabilised. If you want to configure one or more buttons to change modes they must only be set to Mavlink button commands within Solex TX or QGC. 
+Solet TX and QGC have on screen controls for selecting mode in Ardupilot and PX4, ie: selecting and changing flight modes such as loiter,stabilised. If you want to configure one or more buttons to change modes they must only be set to Mavlink button commands within Solex TX or QGC.
 
-Mavlink provides a safe command link for mode change and is not affected by system reboots and loss of signal. 
+Mavlink provides a safe command link for mode change and is not affected by system reboots and loss of signal.
 
-After configuring mode selection users should confirm their failsafe settings are correct and work as expected by testing before using the system. 
+After configuring mode selection users should confirm their failsafe settings are correct and work as expected by testing before using the system.
 
-**Important Note:**
-Ardupilot sets Sbus channel 5 to mode selection as default, this should be disabled with herelink by setting the pram FLTMODE_CH: to 0.
+**Important Note:** Ardupilot sets Sbus channel 5 to mode selection as default, this should be disabled with herelink by setting the pram FLTMODE\_CH: to 0.
 
-## Home Button 
+## Home Button
 
-The home button can only be configured with mavlink commands in Solex TX or QGC.  It is advised to set Homebutton Long Press to ‘RTL’ command. 
-
+The home button can only be configured with mavlink commands in Solex TX or QGC. It is advised to set Homebutton Long Press to ‘RTL’ command.
 
 ## Button Configuration
 
@@ -83,9 +80,7 @@ The home button can only be configured with mavlink commands in Solex TX or QGC.
 
 ## Hardware Wheel
 
-
 The hardware wheel is mapped to SBUS channel 5 by default but can also be configured in Solex TX to Servo output channels 1-16 on the Cube Autopilot, you also have the ability to switch the servo output via a button in Solex TX.
-
 
 ### **To Configure Wheel in Solex TX**
 

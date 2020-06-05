@@ -1,4 +1,4 @@
-# Herelink Pairing, RC Calibration & Setup
+# Pairing, RC Calibration & Setup
 
 Herelink has a dedicated system settings app for the setup and configuration of the Herelink RC control and radio system.
 
@@ -12,19 +12,17 @@ The Herelink Settings app allows you to
 * Set Radio Regional Settings
 * Configure Sbus Buttons
 
-The following tutorial will guide you through the steps to setup and calibrate the Herelink system.  For button setup there are dedicated pages in this wiki for Mavlink and Sbus button options, these should only be completed after performing the steps on this page. 
+The following tutorial will guide you through the steps to setup and calibrate the Herelink system. For button setup there are dedicated pages in this wiki for Mavlink and Sbus button options, these should only be completed after performing the steps on this page.
 
 **Important: Please pay special attention to Autopilot Mode setup on the Mavlink Buttons page before configuring any buttons on your system,see**
 
-* [Configure Modes & Mavlink Buttons](/herelink/mavlink_buttons.md)
+* [Configure Modes & Mavlink Buttons](mavlink_buttons.md)
 
-
-## Video Overview Of Herelink Setup 
+## Video Overview Of Herelink Setup
 
 Here is a video overview of the Herelink setup process and configuring mavlink and Sbus buuttons.
 
 {% embed url="https://youtu.be/48imNRdagCE" caption="" %}
-
 
 ## Herelink Settings App
 
@@ -32,14 +30,13 @@ Here is a video overview of the Herelink setup process and configuring mavlink a
 
 ![](../.gitbook/assets/home-screen.png)
 
-*  Select Herelink Setting 
+* Select Herelink Setting 
 
 ![](../.gitbook/assets/settings-app.jpg)
 
 * The settings app will open 
 
 ![](../.gitbook/assets/settings101.png)
-
 
 ## Pairing with Air Unit
 
@@ -57,9 +54,9 @@ Here is a video overview of the Herelink setup process and configuring mavlink a
 
 ![](../.gitbook/assets/Stick_screen.jpg)
 
-Here you will find the sticks and hardware wheel options and calibration settings. 
+Here you will find the sticks and hardware wheel options and calibration settings.
 
-From this screen you can 
+From this screen you can
 
 * See RC Calibration Status 
 * Calibrate Hardware Wheel
@@ -68,7 +65,6 @@ From this screen you can
 * Set Hardware Wheel Sbus Channel & Bus
 * Reverse RC Channel
 * Set Throttle Centre Behavior
-
 
 ## Step 1: Calibrate the hardware wheel
 
@@ -82,7 +78,8 @@ From this screen you can
 ![](../.gitbook/assets/hw-wheel.png)
 
 * Once calibration is complete you can set the Sbus channel output and Bus output for the wheel on the highlighted settings
-Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 16, on bus 2 the wheel can be set to channels 1 -16. 
+
+  Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 16, on bus 2 the wheel can be set to channels 1 -16. 
 
 ![](../.gitbook/assets/Wheel_ch.jpg)
 
@@ -105,22 +102,19 @@ Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 
 
 ![](../.gitbook/assets/joystick-test.jpg)
 
-
 ## Step 3 RC Mode Selection , Throttle Behavior & Channel Reversing
 
-Herelink supports rc modes 1 - 4 as well as the option to set the throttle centre as zero PWM output and reverse each channeel. 
+Herelink supports rc modes 1 - 4 as well as the option to set the throttle centre as zero PWM output and reverse each channeel.
 
 * Set throttle center and RC mode via the below settings. 
 
 ![](../.gitbook/assets/Rc_mode.jpg)
-
 
 * The stick sbus output can be reversed by clicking on ‘REV’ next to the channel you want to change.
 
 ![](../.gitbook/assets/Channel_rev.jpg)
 
 * After making any changes click ‘SAVE” to store settings. 
-
 
 ## Step 4 Calibrate SBUS Output
 
@@ -135,7 +129,6 @@ Herelink supports rc modes 1 - 4 as well as the option to set the throttle centr
 ![](../.gitbook/assets/Sbus_cal1.jpg)
 
 * Once complete click ‘SAVE” to store settings. 
-
 
 ## **Selecting FCC/CE settings**
 
