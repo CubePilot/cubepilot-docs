@@ -5,15 +5,16 @@
 ## Herelink
 
 * [Herelink Overview](herelink/herelink-overview.md)
-* [How To Update Firmware](herelink/upgrading-firmware.md)
-* [Pairing, RC Calibration & Setup](herelink/one-time-setup.md)
-* [Configure Modes & Mavlink Buttons](herelink/mavlink_buttons.md)
-* [Configure Sbus Buttons & Wheel](herelink/sbus_buttons.md)
-* [Share video Stream](herelink/share-video-stream.md)
-* [Connecting to Mission Planner](herelink/connect-to-mission-planner.md)
-* [Installing a custom app](herelink/installing-a-custom-app.md)
-* [OEM Image Setup](herelink/oem-image-setup.md)
-* [Generate a bug report](herelink/generate-a-bug-report.md)
+* [Herelink User Guides](herelink/herelink-user-guides/README.md)
+  * [How To Update Firmware](herelink/herelink-user-guides/upgrading-firmware.md)
+  * [Pairing, RC Calibration & Setup](herelink/herelink-user-guides/one-time-setup.md)
+  * [Configure Modes & Mavlink Buttons](herelink/herelink-user-guides/mavlink_buttons.md)
+  * [Configure Sbus Buttons & Wheel](herelink/herelink-user-guides/sbus_buttons.md)
+  * [Share video Stream](herelink/herelink-user-guides/share-video-stream.md)
+  * [Connecting to Mission Planner](herelink/herelink-user-guides/connect-to-mission-planner.md)
+  * [Installing a custom app](herelink/herelink-user-guides/installing-a-custom-app.md)
+  * [OEM Image Setup](herelink/herelink-user-guides/oem-image-setup.md)
+  * [Generate a bug report](herelink/herelink-user-guides/generate-a-bug-report.md)
 * [Herelink Accessories](herelink/herelink-accessories.md)
 
 ## HERE 2

@@ -22,7 +22,7 @@ Success
 
 * Your app should show up in the app launcher's list.
 
-![](../.gitbook/assets/device-2020-02-14-150633.png)
+![](../../.gitbook/assets/device-2020-02-14-150633.png)
 
 * To remove the app do `adb remove org.myorg.appname`
 

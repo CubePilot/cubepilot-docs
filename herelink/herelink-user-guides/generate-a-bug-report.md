@@ -17,7 +17,7 @@
 
 1- From the main screen, tap on the Android app menu to open it \(bottom right of the screen\)
 
-![](../.gitbook/assets/home-screen-android-app-menu.png)
+![](../../.gitbook/assets/home-screen-android-app-menu.png)
 
 2- Go to "Settings"  &gt;  "About Phone"  &gt;&gt;  "Build Number"  
 3- Tap seven times on the "Build Number" case, it will activate the developper mode. A pop-up message will confirm that the device is now in developper mode.  

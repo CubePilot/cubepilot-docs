@@ -33,19 +33,19 @@ After upgrading the Herelink firmware you may be required to activate your devic
 
 * Connect Herelink to your WiFi connection from the settings menu
 
-![](../.gitbook/assets/activation1.jpg)
+![](../../.gitbook/assets/activation1.jpg)
 
 * Select your region then click 'Proceed'
 
-![](../.gitbook/assets/activation3.jpg)
+![](../../.gitbook/assets/activation3.jpg)
 
 * You will then be prompted to input your 16 digit software activation key. 
 
 **Note:On later Herelink versions your key will be located on the box, for earlier Herelink versions you should contact your original reseller to obtain a valid licence key.**
 
-![](../.gitbook/assets/activation2.jpg)
+![](../../.gitbook/assets/activation2.jpg)
 
-![](../.gitbook/assets/activation4.jpg)
+![](../../.gitbook/assets/activation4.jpg)
 
 * Once input click 'done' the 'Register' and your device will then download the latest software and update itself. 
 
@@ -58,23 +58,23 @@ If your Herelink has Solex TX installed you can now update your ground station v
 * Make sure you Herelink is connected to wifi and has an internet connection available
 * Pull down from the top and select the settings cog in the top corner 
 
-![](../.gitbook/assets/settings-1.jpg)
+![](../../.gitbook/assets/settings-1.jpg)
 
 * Scroll to the bottom and click the 'About phone' option
 
-![](../.gitbook/assets/settings.jpg)
+![](../../.gitbook/assets/settings.jpg)
 
 * Select 'System Update' 
 
-![](../.gitbook/assets/system-update.jpg)
+![](../../.gitbook/assets/system-update.jpg)
 
 * Select 'CHECK FOR UPDATE' in the bottom corner 
 
-![](../.gitbook/assets/update.jpg)
+![](../../.gitbook/assets/update.jpg)
 
 * The system will now check for an update and install it automatically
 
-![](../.gitbook/assets/updating.png)
+![](../../.gitbook/assets/updating.png)
 
 ## Herelink Remote Update Update Error
 
