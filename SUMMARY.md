@@ -55,7 +55,7 @@
 
 ## CubePilot Ecosystem
 
-* [CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
+* [CubePilot Ecosystem Autopilot Wiring Diagram \(Multilingual\)](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
 
 ## Remote ID
 
