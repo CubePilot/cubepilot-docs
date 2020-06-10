@@ -105,4 +105,15 @@ support_camera_capture = false
 * Continue to unmount the image and flashing into the unit as described in above steps.
 
 
+#### Extra OEM Files
 
+* On boot several files are setup for use, and you can override these files
+* These files can exist in (searched in this order)
+  * /data/oem/etc - user default - wiped on factory reset
+  * /oem/etc - oem default
+  * /system/etc - system default
+* files that can be overridden (optimus is the internal GCS name, telepathy-air is the air unit (ro.product.device))
+  * lampsignal-telepathy-air.json
+  * rc_service_config_optimus.ini
+  * mavlink-router.optimus.conf
+  * system-control.optimus.conf
