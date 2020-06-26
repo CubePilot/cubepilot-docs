@@ -61,3 +61,7 @@
 
 * [France](remote-id/france.md)
 
+## Product FAQ
+
+* [Herelink FAQ](product-faq/herelink-faq.md)
+
