@@ -67,5 +67,5 @@
 
 ## 3D Printing
 
-* [Printable Camera Quad \(Foldable\)](3d-printing/untitled.md)
+* [Printable Camera Quad \(Foldable\)](3d-printing/printable-camera-quad-foldable.md)
 
