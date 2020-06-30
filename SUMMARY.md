@@ -16,6 +16,7 @@
   * [OEM Image Setup](herelink/herelink-user-guides/oem-image-setup.md)
   * [Generate a bug report](herelink/herelink-user-guides/generate-a-bug-report.md)
 * [Herelink Accessories](herelink/herelink-accessories.md)
+* [Herelink FAQ](herelink/herelink-faq.md)
 
 ## HERE 2
 
@@ -60,10 +61,6 @@
 ## Remote ID
 
 * [France](remote-id/france.md)
-
-## Product FAQ
-
-* [Herelink FAQ](product-faq/herelink-faq.md)
 
 ## 3D Printing
 

@@ -56,7 +56,7 @@ Mini BNC
 
 ## Herelink - Calibration
 
-[**Refer to - Herelink User Guides - Pairing, RC Calibration & Setup**](../herelink/herelink-user-guides/one-time-setup.md)\*\*\*\*
+[**Refer to - Herelink User Guides - Pairing, RC Calibration & Setup**](herelink-user-guides/one-time-setup.md)\*\*\*\*
 
 
 
