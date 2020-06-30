@@ -67,6 +67,5 @@
 
 ## 3D Printing
 
-* [Herelink Sun Shades](3d-printing/herelink-sun-shades.md)
 * [Printable Camera Quad \(Foldable\)](3d-printing/printable-camera-quad-foldable.md)
 
