@@ -8,7 +8,7 @@ description: "Herelink \bFAQ Resources"
 
 #### [Herelink - Compatible camera list](https://discuss.cubepilot.org/t/herelink-compatible-camera-list/1922) 
 
-Below the list of the cameras witch have been tested and reported working or not working with the Herelink  
+Below the list of the cameras, which have been tested and reported working or not working with the Herelink  
 Any help to grow the list is welcome. If there is any specific settings to use, please tell it.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
