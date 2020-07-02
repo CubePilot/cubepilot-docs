@@ -183,17 +183,6 @@ SERIAL 1 / UART 1 \| Connector： TELEM1
 | 5 | I2C\_2\_SDA | IN | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 Serial Data |
 | 6 | GND |  | GND | BLACK | GND |
 
-## SERIAL 5 / UART 5 \(Debug Console\) / S.Bus OUT \| Connector： CONS SBUSo
-
-| Pin \# | Name | Direction | Voltage | Caption |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 SBUSo | S.Bus\_Out | OUT |  | S.Bus Signal Output |
-| 2 CONS | SERIAL\_5\_TX | OUT | 3.3 V - 5.0 V TTL | UART 5 TX \(Transmit Data\) |
-| 3 SBUSo | VDD\_SERVO | OUT | SERVO |  |
-| 4 CONS | SERIAL\_5\_RX |  | 3.3 V - 5.0 V TTL | UART 5 RX \(Receive Data\) |
-| 5 SBUSo | GND |  | GND | GND |
-| 6 CONS | GND |  | GND | GND |
-
 ## Buzzer \| Connector： BUZZER
 
 | Pin \# | Name | Direction | Voltage | Wire Color | Caption |
