@@ -24,13 +24,13 @@
 
 ![Sche&#x301;ma de ca&#x302;blage d&#x2019;un pilote automatique dans l&#x2019;e&#x301;cosyste&#x300;me CubePilot - French](../.gitbook/assets/cubepilot-schema-de-ca-blage-dun-pilote-automatique-dans-le-cosyste-me-cubepilot-french.jpg)
 
-## CubePilot-CubePilot Ecosystem ऑटोपायलट वायरिंग आरेख-Hindi
+## CubePilot Ecosystem ऑटोपायलट वायरिंग आरेख-Hindi
 
-![CubePilot-CubePilot Ecosystem &#x911;&#x91F;&#x94B;&#x92A;&#x93E;&#x92F;&#x932;&#x91F; &#x935;&#x93E;&#x92F;&#x930;&#x93F;&#x902;&#x917; &#x906;&#x930;&#x947;&#x916;-Hindi](../.gitbook/assets/cubepilot-cubepilot-ecosystem-hindi.jpg)
+![CubePilot Ecosystem &#x911;&#x91F;&#x94B;&#x92A;&#x93E;&#x92F;&#x932;&#x91F; &#x935;&#x93E;&#x92F;&#x930;&#x93F;&#x902;&#x917; &#x906;&#x930;&#x947;&#x916;-Hindi](../.gitbook/assets/cubepilot-cubepilot-ecosystem-hindi.jpg)
 
-## CubePilot-Схема подключения автопилота в экосистеме CubePilot-Russian
+## Схема подключения автопилота в экосистеме CubePilot-Russian
 
-![CubePilot-&#x421;&#x445;&#x435;&#x43C;&#x430; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x430;&#x432;&#x442;&#x43E;&#x43F;&#x438;&#x43B;&#x43E;&#x442;&#x430; &#x432; &#x44D;&#x43A;&#x43E;&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x435; CubePilot-Russian](../.gitbook/assets/cubepilot-skhema-podklyucheniya-avtopilota-v-ekosisteme-cubepilot-russian.jpg)
+![&#x421;&#x445;&#x435;&#x43C;&#x430; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x430;&#x432;&#x442;&#x43E;&#x43F;&#x438;&#x43B;&#x43E;&#x442;&#x430; &#x432; &#x44D;&#x43A;&#x43E;&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x435; CubePilot-Russian](../.gitbook/assets/cubepilot-skhema-podklyucheniya-avtopilota-v-ekosisteme-cubepilot-russian.jpg)
 
 
 
