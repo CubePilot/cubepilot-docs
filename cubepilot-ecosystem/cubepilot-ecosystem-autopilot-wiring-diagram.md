@@ -32,5 +32,9 @@
 
 ![&#x421;&#x445;&#x435;&#x43C;&#x430; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x430;&#x432;&#x442;&#x43E;&#x43F;&#x438;&#x43B;&#x43E;&#x442;&#x430; &#x432; &#x44D;&#x43A;&#x43E;&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x435; CubePilot-Russian](../.gitbook/assets/cubepilot-skhema-podklyucheniya-avtopilota-v-ekosisteme-cubepilot-russian.jpg)
 
+## CubePilot生態系無人機飛控系統配線圖-繁體字
+
+![CubePilot&#x751F;&#x614B;&#x7CFB;&#x7121;&#x4EBA;&#x6A5F;&#x98DB;&#x63A7;&#x7CFB;&#x7D71;&#x914D;&#x7DDA;&#x5716;-&#x7E41;&#x9AD4;&#x5B57;](../.gitbook/assets/cubepilotcubepilot-sheng-tai-xi-wu-ren-ji-fei-kong-xi-tong-pei-xian-tu-fan-ti-zi-%20%281%29.jpg)
+
 
 
