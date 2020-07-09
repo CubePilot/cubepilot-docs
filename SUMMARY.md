@@ -40,6 +40,7 @@
 * [ADS-B IN Carrier Board](carrier-boards/ads-b-carrier-board.md)
 * [Mini Carrier Board](carrier-boards/mini-carrier-board.md)
 * [Standard Carrier Board Footprint & Dimensions](carrier-boards/standard-carrier-board-footprint-and-dimensions.md)
+* [Carrier Boards FAQ](carrier-boards/carrier-boards-faq.md)
 
 ## FLOW SENSOR <a id="flow-senor"></a>
 

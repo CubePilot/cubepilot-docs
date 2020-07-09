@@ -4,6 +4,14 @@ description: "Herelink \bFAQ Resources"
 
 # Herelink FAQ
 
+## Herelink - Solex as Autostarting App
+
+[**Solex as autostarting app**](https://discuss.cubepilot.org/t/solex-as-autostarting-app/3893)\*\*\*\*
+
+## Herelink - Screenshot
+
+[**Open-Source Scrcpy To Control Android Via Windows & macOS**](https://discuss.cubepilot.org/t/herelink-screenshot/3881)\*\*\*\*
+
 ## Herelink - Video / Camera 
 
 #### [Herelink - Compatible camera list](https://discuss.cubepilot.org/t/herelink-compatible-camera-list/1922) 
