@@ -1,18 +1,18 @@
 # Herelink Overview
 
-![](https://github.com/CubePilot/cubepilot-docs/tree/ff79dffa4ed4b33376ee5eb788065ace38333e13/.gitbook/assets/Herelink1.jpg)
+![](../.gitbook/assets/herelink1.jpg)
 
 ## Overview
 
 Herelink is an integrated remote controller, ground station and wireless digital transmission system designed to be used with the Cube Autopilot, Ardupilot or PX4.
 
-Herelink allows RC control, HD video and telemetry data to be transmitted upto 20km between the ground station and air unit, the herelink remote controller features custom Solex TX and QGC applications and both air unit and ground station feature an integrated 8 core SOC for custom application development.
+Herelink allows RC control, HD video and telemetry data to be transmitted upto 20km between the ground station and air unit, the Herelink remote controller features custom Solex TX and QGC applications and both air unit and ground station feature an integrated 8 core SOC for custom application development.
 
 ## Features
 
 * Android based smart device with 5.46 inch 1080P capacitive touch screen.
 * Integrated digital transmission system simultaneously transmitting video, telemetry and control. 
-* Custom Solex TX and QGC ground station software with mavlink support for Ardupilot and PX4.
+* Custom Solex TX and QGC ground station software with MAVlink support for Ardupilot and PX4.
 * Dual hall effect self centering gimbals with removable sticks. 
 * 1080P HD video with dual digital video inputs. 
 * Dual S.bus signal output for simultaneous control of autopilot and pan/tilt cameras.
@@ -36,7 +36,7 @@ Herelink allows RC control, HD video and telemetry data to be transmitted upto 2
 
 ### Ground Station:
 
-![](https://github.com/CubePilot/cubepilot-docs/tree/ff79dffa4ed4b33376ee5eb788065ace38333e13/.gitbook/assets/Herelink2.jpg)
+![Herelink - Ground Station](../.gitbook/assets/herelink2.jpg)
 
 | Feature | Specification |
 | :--- | :--- |
@@ -53,14 +53,14 @@ Herelink allows RC control, HD video and telemetry data to be transmitted upto 2
 
 ### Air Unit:
 
-![](https://github.com/CubePilot/cubepilot-docs/tree/ff79dffa4ed4b33376ee5eb788065ace38333e13/.gitbook/assets/Herelink3.jpg)
+![Herelink - Air Unit](../.gitbook/assets/herelink3.jpg)
 
 | Feature | Specification |
 | :--- | :--- |
-| Video Input: | Micro HDMI x 2: Input for external camera video,supports 720P 30fps & 1080P 30/60fps |
-| Power Input: | 2 Pin interface x 1:5V-12V power input interface,average power consumption of the single-sided module is less than 4W |
+| Video-Input: | Micro HDMI x 2: Input for external camera video,supports 720P 30fps & 1080P 30/60fps |
+| Power Input: | 2 Pin interface x 1: Recommended supply voltage ~7V: minimum 6V: maximum 12V and avoid sharing BEC with servos, the average power consumption of the single-sided module is less than 4W |
 | Telemetry: | 3 Pin interface x 1:3.3V / 5V level UART interface Mavlink Compatible |
-| Control Output: | 4 Pin interface x 1 : Two 3.3V level RC output connectors \(S.bus in phase, S.bus inverting or PPM signal output, ground terminal control\) |
+| Control Output: | 4 Pin interface x 1: Two 3.3V level RC output connectors \(S.bus in phase, S.bus inverting or PPM signal output, ground terminal control\) |
 | USB: | Micro USB x 1: for debugging upgrades, support OTG mode |
 | Antenna: | MMCX antenna jack x 2: used for signal transmission and ground communication |
 | Size: | 78.5x30x13mm |
