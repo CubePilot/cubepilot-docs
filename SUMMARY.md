@@ -27,7 +27,7 @@
 
 ## Here 3
 
-* [Here 3 user manual](here-3/here-3-user-manual.md)
+* [Here 3 manual](here-3/here-3-manual.md)
 
 ## Here+
 
