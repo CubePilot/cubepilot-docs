@@ -4,13 +4,13 @@
 
 ## Here3 GPS Manual
 
-#### Overview
+### Overview
 
 The Here3 GPS is a high precision GNSS system that supports RTK mode, built with CAN protocol. It is also designed to be dust-proof and splash-proof up to a certain limit. Equipped with STM32F302 processor, the Here3 provides faster processing speed and better reliability.
 
 The Here3 has built-in sensors including compass, gyroscope, accelerometer, and status LED. It runs on Chibios real-time operation system. Its open-source structure is ideally suited to developers who need specialized requirements on their navigation system.
 
-#### **Feature**
+### **Feature**
 
 1. Cost-efficient high precision and RTK supported GNSS chip \(base station needed for RTK\). Positioning accuracy down to centimetre-level in an ideal environment.
 2. Brand new design with improved visibility on signal LEDs. Better dust and water resistance \(Not guaranteed to be water-proof under any situation due to the complexity of the operating environment\).
@@ -33,7 +33,7 @@ The Here3 has built-in sensors including compass, gyroscope, accelerometer, and 
 | **Dimension**  | **76mmx76mmx16.6mm** |
 | **Weight**  | **48.8g** |
 
-#### Pinout
+### Pinout
 
 ![](../.gitbook/assets/20200325180009.png)
 
@@ -44,9 +44,9 @@ The Here3 has built-in sensors including compass, gyroscope, accelerometer, and 
 | 3 | CAN\_L | Yellow |
 | 4 | GND | Black |
 
-#### Configuration
+### Configuration
 
-**1. Using Ardupilot Firmware：**
+#### **1. Using Ardupilot Firmware：**
 
 **Using one Here3：**
 
@@ -108,7 +108,7 @@ Turn on the flight controller and connect it to Mission Planner. Go to "Config/T
 
 Click "Write Params" when done. CAN functions will be available after rebooting the flight controller.
 
-**Compass Setting（Using the current stable firmware copter4.0.3,plane4.0.5）:**
+#### **Compass Setting（Using the current stable firmware copter4.0.3,plane4.0.5）:**
 
 **When using Cube Black, the CAN GPS external compass is automatically set to compass 3, and when using Cube Orange, the CAN GPS external compass is automatically set to compass 2.**
 
@@ -118,7 +118,7 @@ If you need to use the external CAN compass as the primary compass, Set the prim
 
 ![](../.gitbook/assets/en-luo-pan-she-zhi-.png)
 
-**Compass Setting（Using the latest version of firmware）：**
+#### **Compass Setting（Using the latest version of firmware）：**
 
 > At the time of writing this document, the firmware used for this section is ArduCopter Beta 4.0.4
 
@@ -132,7 +132,7 @@ Select the compasses that need to be used \(or leaving it as default\), and then
 
 ![](../.gitbook/assets/xin-ban-luo-pan-she-zhi-xiao-zhun-en.png)
 
-**2.Using PX4 firmware:**
+#### **2.Using PX4 firmware:**
 
 Current PX4 firmware does not support auto allocating CAN node ID. Manually allocating node ID needs to be done on the latest Ardupilot firmware before using it. Connect the 4pin CAN connector from Here3 to CAN2 port on autopilot. Select "install firmware" from Mission Planner and load the latest copter firmware.
 
@@ -154,7 +154,7 @@ Now load PX4 firmware into the autopilot. Connect the 4pin CAN connector from He
 
 ![](../.gitbook/assets/1595986478979.png)
 
-**3. LED Meanings \(with ardupilot firmware\)：**
+#### **3. LED Meanings \(with ardupilot firmware\)：**
 
 Flashing red and blue: Initializing gyroscopes. Hold the vehicle still and level while it initializes the sensors.
 
@@ -188,7 +188,7 @@ Not lighting up: No firmware detected or firmware corrupted.
 
 ### RTK Use Operation
 
-**Base/Rover Survey by Mission Planner**
+#### **Base/Rover Survey by Mission Planner**
 
 > This part of the tutorial uses Mission Planner ground software and Arducopter-4.0.3 flight firmware for operating instructions.
 >
@@ -204,7 +204,7 @@ Before using, make sure the hardware is connected correctly： **Ground side:** 
 
 ![](../.gitbook/assets/screenshot-2020-08-04-at-4.01.09-pm.jpg)
 
-**Antenna Placing**
+#### **Antenna Placing**
 
 **Placing the RTK Antenna is very important for getting precise RTK positioning**
 
@@ -222,7 +222,7 @@ Please place the base station in an outdoor environment with sufficient sky cove
 
 ![](../.gitbook/assets/screenshot-2020-08-04-at-4.03.00-pm.jpg)
 
-**Base Module Setting using Mission Planner**
+#### **Base Module Setting using Mission Planner**
 
 Start with a base module setup first. During the base station setup, the rover and the UAV do not need to be turned on.
 
@@ -264,13 +264,13 @@ To store the current location in the Mission Planner: Click "Save Current Pos", 
 
 ![](../.gitbook/assets/screenshot-2020-08-04-at-4.13.27-pm.jpg)
 
-**Rover Module and Flight Controller Setup**
+#### **Rover Module and Flight Controller Setup**
 
 After the base station is set up, you can turn on the UAV. Using the same Mission Planner to connect the telemetry module, the base station data will be transmitted through the telemetry module to the Here3 rover module on the UAV. In the Mission Planner main page, you can see the current GPS status displayed as RTK Float / RTK Fixed / 3D RTK, indicating that the positioning of the UAV has entered the RTK mode. RTK Float is a floating-point solution; RTK Fixed is a fixed solution. RTK Fixed mode has higher accuracy and requires better signal strength. 3D RTK is unified saying of RTK Float / RTK in the Mission Planner Chinese version.
 
 ![](../.gitbook/assets/screenshot-2020-08-04-at-4.14.48-pm.jpg)
 
-**Single Base to Multiple Rovers**
+#### **Single Base to Multiple Rovers**
 
 There are 2 methods to do this:  
 1\) Use 1 telemetry to multiple telemetry broadcasting or 2\) Use multiple 1 to 1 telemetry modules with the USB hub
