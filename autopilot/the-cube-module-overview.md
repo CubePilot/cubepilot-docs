@@ -6,7 +6,7 @@
 
 * Black, Green, Blue, Purple STM32F427; flash 2MB, RAM 256KB.
 * Yellow STM32F777; flash 2MB, Ram 512KB.
-* Orange STM32H743; flash 2MB, RAM 1MB.
+* Orange STM32H753; flash 2MB, RAM 1MB.
 * On-board 16KB SPI FRAM
 * MPU9250 or ICM 20649 integrated accelerometer / gyro.
 * MS5611 Barometer
