@@ -36,5 +36,9 @@
 
 ![CubePilot&#x751F;&#x614B;&#x7CFB;&#x7121;&#x4EBA;&#x6A5F;&#x98DB;&#x63A7;&#x7CFB;&#x7D71;&#x914D;&#x7DDA;&#x5716;-&#x7E41;&#x9AD4;&#x5B57;](../.gitbook/assets/cubepilotcubepilot-sheng-tai-xi-wu-ren-ji-fei-kong-xi-tong-pei-xian-tu-fan-ti-zi-%20%281%29.jpg)
 
+## Cubepilot-ekosystem cubepilot-Polski
+
+![Cubepilot-ekosystem cubepilot-Polski](../.gitbook/assets/cubepilot-ekosystem-cubepilot-polski.jpg)
+
 
 
