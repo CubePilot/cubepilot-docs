@@ -66,7 +66,11 @@ Mini BNC
 
 [**Refer to - Herelink User Guides - Pairing, RC Calibration & Setup**](herelink-user-guides/one-time-setup.md)\*\*\*\*
 
+## Herelink - Encryption
 
+#### [Herelink encryption](https://discuss.cubepilot.org/t/support-for-encryption/1370)
+
+Herelink encrypt over the air uses aes-128-ctr 
 
 
 
