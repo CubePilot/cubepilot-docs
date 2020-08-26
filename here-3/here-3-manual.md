@@ -30,7 +30,7 @@ The Here3 has built-in sensors including compass, gyroscope, accelerometer, and 
 | **Navigation Update Rate**  | **Max: 8Hz** |
 | **Communication Protocol** | **CAN** |
 | **Operating Temperature** | **-40℃ to 85℃** |
-| **Dimension**  | **76mmx76mmx16.6mm** |
+| **Dimension**  | **68mm x 68mm x 16mm** |
 | **Weight**  | **48.8g** |
 
 ### Pinout
@@ -198,7 +198,7 @@ Not lighting up: No firmware detected or firmware corrupted.
 
 To use Here3 on a UAV, you need the following hardware： Computer, telemetry modules, _Here3_ , Base Antenna, Base, Tripod\(Stand\)
 
-![](../.gitbook/assets/here3-di-mian-zhan-jie-xian-shi-yi-tu-022.png)
+![](../.gitbook/assets/here3-di-mian-zhan-jie-xian-shi-yi-tu-022r.jpg)
 
 Before using, make sure the hardware is connected correctly： **Ground side:** The base station module is connected to the computer port through USB port; a telemetry module is connected to another USB port of the same computer. **UAV side:** Here3 is connected to the flight controller CAN connector; telemetry module is connected to the TELEM interface.
 
