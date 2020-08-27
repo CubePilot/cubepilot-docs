@@ -72,6 +72,72 @@ Mini BNC
 
 Herelink encrypt over the air uses aes-128-ctr 
 
+## Herelink - Ethernet
+
+[**Herelink Ethernet**](https://discuss.cubepilot.org/t/herelink-ethernet/4369) ****
+
+Here is a new bootimage for the GCS unit to make the R8152/53 detect. [https://drive.google.com/file/d/1MGFAqC1zXrdnO2yEGhaigW-xktIx2cHj/view?usp=sharing 2](https://drive.google.com/file/d/1MGFAqC1zXrdnO2yEGhaigW-xktIx2cHj/view?usp=sharing) \(GCS unit bootimage with R8152\)  
+the stock image includes  
+AX8817X  
+AX88179\_178A  
+NET1080
+
+to update the boot image via usb \(i asume you have adb access already/developer mode\)
+
+> adb reboot bootloader  
+> fastboot flash boot boot.img  
+> fastboot reboot
+
+Next we enable adb via tcpip, but first we need to enable this via usb
+
+> adb shell  
+> setprop persist.adb.tcp.port 5555  
+> reboot
+
+then after the reboot, get the ip of the GCS unit \(eg 10.0.0.99\)
+
+> adb connect 10.0.0.99  
+> adb shell
+
+you should get the shell again  
+do a
+
+> ifconfig
+
+and check if eth0 exists
+
+Now verify we can adb into the air unit  
+once you have adb to the gcs unit, power on the air unit and do a
+
+> adb shell \(gets you into the gcs unit\)  
+> adb connect 192.168.0.10  
+> adb -s 192.168.0.10:5555 shell
+
+this should now get you into the air unit.
+
+Next  
+try running a
+
+> /bin/busybox brctl show
+
+under interfaces you should see vxlan1 and eth0
+
+> optimus:/ $ /bin/busybox brctl show  
+> bridge name bridge id STP enabled interfaces  
+> br-vxlan 8000.00e04c360345 no vxlan1  
+> eth0
+
+also, run
+
+> ping 192.168.144.10  
+> ping 192.168.144.11
+
+these are the bridge endpoint ip’s
+
+during testing, make sure the screen stays on there GCS unit, otherwise, power-saving features limit background data flow \(Most likely setting I have not found yet\)
+
+I've just confirmed that this is working ok. one possible caveat. if your home network is using 192.168.0.x, things may not work.
+
 
 
 #### 
