@@ -73,3 +73,7 @@
 * [Printable Camera Quad \(Foldable\)](3d-printing/printable-camera-quad-foldable.md)
 * [Here 3 Stand](3d-printing/here-3-stand.md)
 
+## Licences
+
+* [Licences](licences/licences.md)
+
