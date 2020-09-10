@@ -1,7 +1,7 @@
 # Table of contents
 
 * [CubePilot](README.md)
-* [Licences](licences-2.md)
+* [Licences](licences.md)
 
 ## Herelink
 
