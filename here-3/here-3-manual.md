@@ -283,7 +283,7 @@ If you connected the UAVs with 1 telemetry module, they should share the same CO
 
 ![](../.gitbook/assets/screenshot-2020-08-04-at-4.16.47-pm.jpg)
 
-## [Here3 Stand 3D STEP file download](https://docs.cubepilot.org/user-guides/3d-printing/here-3-stand)
+## [Here3 Stand 3D STEP download](https://docs.cubepilot.org/user-guides/3d-printing/here-3-stand)
 
 
 
