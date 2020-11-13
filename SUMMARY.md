@@ -71,6 +71,7 @@
 
 ## 3D Printing
 
+* [CubePilot product 3D model](3d-printing/cubepilot-product-3d-model.md)
 * [Printable Camera Quad \(Foldable\)](3d-printing/printable-camera-quad-foldable.md)
 * [Here 3 Stand](3d-printing/here-3-stand.md)
 
