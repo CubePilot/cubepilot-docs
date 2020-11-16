@@ -93,7 +93,7 @@ All flight sensors in The Cube are connected via SPI.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Cube Black Blue, Green | MPU9250 | LSM303D/L3GD20 | MPU9250 | MS5611 | MS6511 |
 | Cube Purple | MPU9250 | NA | NA | MS5611 | NA |
-| Cube Orange/Yellow | ICM20948 | ICM20602 | ICM20649 | MS5611 | MS5611 |
+| Cube Orange/Yellow | ICM20649 | ICM20602 | ICM20948 | MS5611 | MS5611 |
 
 IMU1, Non-Isolated  
 IMU2 & 3, Isolated  
