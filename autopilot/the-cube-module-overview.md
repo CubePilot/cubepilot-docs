@@ -512,7 +512,7 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 * Three IMU's
   * these consist of 2 on the IMU board
   * 1 fixed to the FMU
-* Two onboard compasses Cube Black, reen, Blue
+* Two onboard compasses Cube Black, Green, Blue
   * these consist of 1 on the IMU board
   * 1 Fixed on the FMU
 * One onboard compass Cube Orange, Cube Yellow
