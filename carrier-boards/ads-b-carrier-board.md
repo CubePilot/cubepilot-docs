@@ -6,9 +6,9 @@ The Cube Orange Standard Kit + ADS-B consists of the new Cube Orange Autopilot a
 
 This is an updated version of the original carrier board, its overall footprint is identical to the previous versions and main changes compared to original carrier are as follows:
 
-* Integration of uAvonix ADS-B IN Receiver
+* Integration of uAvionix ADS-B IN Receiver
 * Built-In ADS-B Antenna 
-* Revmoval of Intel Edison Bay and Debug USB Ports
+* Removal of Intel Edison Bay and Debug USB Ports
 * New Product Livery 
 * Correct labelling Of CAN Ports 
 
@@ -29,7 +29,7 @@ To enable ADSB in Ardupilot to detect aircraft on ground station you need to be 
 * SERIAL5\_PROTOCOL = 1 Set protocol
 * SR0\_ADSB = 2 Set ADSB stream rate to ground station
 
-**Note:** You may need to set SR1\_ADSB = 2 to enable receiving on ground statiion on Telem 1 or SR2 for Telem 2.
+**Note:** You may need to set SR1\_ADSB = 2 to enable receiving on ground station on Telem 1 or SR2 for Telem 2.
 
 **For Advanced users you can set the ADS-B Alarm and Sens and Avoid with the following parameters**
 
