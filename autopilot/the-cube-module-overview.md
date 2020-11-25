@@ -4,7 +4,7 @@
 
 ### The Cube Fixed Board
 
-* Black, Green, BlueF4, PurpleF7 STM32F427; flash 2MB, RAM 256KB.
+* Black, Green, BlueF4, PurpleF4 STM32F427; flash 2MB, RAM 256KB.
 * Yellow STM32F777; flash 2MB, Ram 512KB.
 * Orange, BlueH7, PurpleH7 STM32H753; flash 2MB, RAM 1MB.
 * On-board 16KB SPI FRAM
