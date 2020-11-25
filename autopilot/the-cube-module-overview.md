@@ -15,6 +15,7 @@
 * Micro SD interfaces via SDIO.
 
 ### EOL And Substitution
+
 * MPU9250, LSM303D, L3GD20 are all EOL, As such, all new designs should use the H7 based boards CubeBlueH7, CubeOrange, and CubePurpleH7 are 100% plug and play with all carrier boards that are compliant with our reference design dating back to 2014. 
 * at the time of the latest edit here, cube PurpleF4 was still in stock, but when stocks run out, CubePurpleH7 will take its place.
 
@@ -341,7 +342,7 @@ Total connectivity:
 | 5 | SDA | IN | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 SDA |
 | 6 | GND | - | GND | BLACK | GND connection |
 
-**UART 5 \(Debug\), S.Bus out -  FR-SKY TELEM? or Debug \| Port：CONS SBUSo**
+**UART 5 \(Debug\), S.Bus out - FR-SKY TELEM? or Debug \| Port：CONS SBUSo**
 
 | **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -405,7 +406,7 @@ Total connectivity:
 
 **Back Edge \(may rearrange to suit PCB layout\) \| Port：`RCIN` `MAIN OUT` `AUX OUT`**
 
-_**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_ 
+_**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 
 | **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
