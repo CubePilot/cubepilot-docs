@@ -4,16 +4,21 @@
 
 ### The Cube Fixed Board
 
-* Black, Green, Blue, Purple STM32F427; flash 2MB, RAM 256KB.
+* Black, Green, BlueF4, PurpleF7 STM32F427; flash 2MB, RAM 256KB.
 * Yellow STM32F777; flash 2MB, Ram 512KB.
-* Orange STM32H753; flash 2MB, RAM 1MB.
+* Orange, BlueH7, PurpleH7 STM32H753; flash 2MB, RAM 1MB.
 * On-board 16KB SPI FRAM
-* MPU9250 or ICM 20649 integrated accelerometer / gyro.
+* Black, Green, BlueF4, Purple MPU9250 16G integrated accelerometer / gyro.
+* Orange, BlueH7, ICM 20649 30G integrated accelerometer / gyro.
 * MS5611 Barometer
 * All sensors connected via SPI.
 * Micro SD interfaces via SDIO.
 
-### Vibration Damped IMU board version 1 \(Fitted to Cube Black, Cube Blue, Cube Green\)
+### EOL And Substitution
+* MPU9250, LSM303D, L3GD20 are all EOL, As such, all new designs should use the H7 based boards CubeBlueH7, CubeOrange, and CubePurpleH7 are 100% plug and play with all carrier boards that are compliant with our reference design dating back to 2014. 
+* at the time of the latest edit here, cube PurpleF4 was still in stock, but when stocks run out, CubePurpleH7 will take its place.
+
+### Vibration Damped IMU board version 1 \(Fitted to Cube Black, Cube BlueF4, Cube Green\)
 
 * LSM303D integrated accelerometer / magnetometer.
 * L3GD20 gyro.
@@ -21,7 +26,7 @@
 * MS5611 Barometer
 * All sensors connected via SPI.
 
-### Vibration Damped IMU board version 2 \(Fitted to Cube Orange and yellow\)
+### Vibration Damped IMU board version 2 \(Fitted to Cube Orange, Cube BlueH7 and Cube Yellow\)
 
 * ICM20602
 * ICM 20948
@@ -37,7 +42,7 @@
 * 5 general purpose serial ports, 2 with full flow control
 * Two I2C ports
 * One SPI port \(un-buffered, for short cables only not recommended for use\).
-* Two CAN Bus interface. \(CAN FD for Orange post Beta version\)
+* Two CAN Bus interface. \(CAN FD for BlueH7 and Orange with CubePilot Logo\)
 * 3 Analogue inputs
 * High-powered piezo buzzer driver. \(On expansion board\)
 * High-power RGB LED. \(I2C driver compatible Connected externally only\)
@@ -91,9 +96,9 @@ All flight sensors in The Cube are connected via SPI.
 
 | CUBE TYPE | IMU1 | IMU2 | IMU3 | Baro1 | Baro2 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Cube Black Blue, Green | MPU9250 | LSM303D/L3GD20 | MPU9250 | MS5611 | MS6511 |
+| Cube Black BlueF4, Green | MPU9250 | LSM303D/L3GD20 | MPU9250 | MS5611 | MS6511 |
 | Cube Purple | MPU9250 | NA | NA | MS5611 | NA |
-| Cube Orange/Yellow | ICM20649 | ICM20602 | ICM20948 | MS5611 | MS5611 |
+| Cube Orange/Yellow/BlueH7 | ICM20649 | ICM20602 | ICM20948 | MS5611 | MS5611 |
 
 IMU1, Non-Isolated  
 IMU2 & 3, Isolated  
