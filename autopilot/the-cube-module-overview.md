@@ -94,11 +94,13 @@ Serial 5 is used for the on-board ADSB-IN receiver that is featured on newer car
 
 All flight sensors in The Cube are connected via SPI.
 
-| CUBE TYPE | IMU1 | IMU2 | IMU3 | Baro1 | Baro2 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Cube Black BlueF4, Green | MPU9250 | LSM303D/L3GD20 | MPU9250 | MS5611 | MS6511 |
-| Cube Purple | MPU9250 | NA | NA | MS5611 | NA |
-| Cube Orange/Yellow/BlueH7 | ICM20649 | ICM20602 | ICM20948 | MS5611 | MS5611 |
+| CUBE TYPE | Life Cycle | IMU1 | IMU2 | IMU3 | Baro1 | Baro2 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| CubeBlack CubeBlueF4 CubeGreen | EOL | MPU9250 | LSM303D/L3GD20 | MPU9250 | MS5611 | MS6511 |
+| CubeBlack+ | EOL | MPU9250 | ICM20602 | ICM20948 | MS5611 | MS5611 |
+| CubePurpleF4 | EOL | MPU9250 | NA | NA | MS5611 | NA |
+| CubePurpleH7 | ACTIVE | ICM20649 | NA | NA | MS5611 | NA |
+| CubeOrange CubeYellow CubeBlueH7 | ACTIVE | ICM20649 | ICM20602 | ICM20948 | MS5611 | MS5611 |
 
 IMU1, Non-Isolated  
 IMU2 & 3, Isolated  
