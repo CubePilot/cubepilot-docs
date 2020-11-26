@@ -513,7 +513,22 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 
 ## Differences between Cube colours
 
-![](../.gitbook/assets/cube-series-spec-updated.png)
+| The Cube Series | Cube Orange | Cube Blue H7 | Cube Purple H7 | Cube Yellow | Cube Black+ | Cube Black | Cube Green | Cube Blue | Cube Purple F4 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Processor | STM32H753 | STM32H753 | STM32H753 | STM32F777 | STM32F427 V3 | STM32F427 V3 | STM32F427 V3 | STM32F427 V3 | STM32F427 V3 |
+| Remote Signal | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM |
+| I/O PWN Voltage | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V | 3.3V | 5.4v | 3.3V | 3.3V |
+| Redundancy | Triple Redundancy | Triple Redundancy | N/A | Triple Redundancy | Triple Redundancy | Triple Redundancy | Triple Redundancy | Triple Redundancy | N/A |
+| Isolation system | Y | Y | N | Y | Y | Y | Y | Y | N |
+| Temp regulator | Y | Y | N | Y | Y | Y | Y | Y | N |
+| Number of Accelerometer | 3 | 3 | 1 | 3 | 3 | 3 | 3 | 3 | 1 |
+| Number of Gyroscope | 3 | 3 | 1 | 3 | 3 | 3 | 3 | 3 | 1 |
+| Number of Magnetometer | 1 | 1 | N/A | 1 | 2 | 3 | 3 | 3 | 1 |
+| Number of Barometer | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 1 |
+| Original of Manufacturing | Taiwan | U.S.A | Taiwan | Taiwan | Taiwan | Taiwan | Taiwan | U.S.A | Taiwan |
+| Product lifecycle | Available | Available | Available | Available | EOL Please use Cube Orange | EOL Please use Cube Orange | EOL Please use Cube Orange | EOL Please use Cube Blue H7 | EOL Please use Cube Purple H7 |
+
+
 
 ### List of features The Cube
 
