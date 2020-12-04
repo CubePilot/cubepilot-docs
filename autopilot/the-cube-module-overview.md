@@ -135,7 +135,10 @@ Both FMU and IO operate at 3.3V, and each has its own private dual-channel regul
 
 Power may be supplied to The Cube via USB, via the power brick port, or the second brick port. Each power source is protected against reverse-polarity connections and back-powering from other sources.
 
-The FMU + IO power budget is 250mA, including all LEDs and the Piezo buzzer. Peripheral power is limited to 2.5A total.
+The Cube F4 series FMU + IO power budget is 450mA, including all LEDs and the Piezo buzzer. Peripheral power is limited to 2.5A total.
+The Cube H7 series FMU + IO power budget is 550mA, including all LEDs and the Piezo buzzer. Peripheral power is limited to 2.5A total.
+
+The increase in power budget is due to the improved heater on the cube orange
 
 USB IS NOT RECOMMENDED IN FLIGHT ON Nuttx code
 
