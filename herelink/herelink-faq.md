@@ -4,6 +4,17 @@ description: "Herelink \bFAQ Resources"
 
 # Herelink FAQ
 
+## Herelink - Register Failure
+
+**-Wi-Fi**  
+_5.8GHz_   
+**-IP Address**  
+_Not in range 192.168.0.x_  
+**-Region**  
+_Select the correct region and within 5mins difference  
+  
+\*_ Please check and fulfil three requirments, otherwise register failure as a result
+
 ## Herelink - Solex as Autostarting App
 
 [**Solex as autostarting app**](https://discuss.cubepilot.org/t/solex-as-autostarting-app/3893)\*\*\*\*

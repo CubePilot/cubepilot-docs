@@ -32,7 +32,7 @@ Here is a video overview of the Herelink setup process and configuring mavlink a
 
 * Select Herelink Setting 
 
-![](../../.gitbook/assets/settings-app.jpg)
+![](../../.gitbook/assets/settings-app%20%281%29.jpg)
 
 * The settings app will open 
 
@@ -44,9 +44,9 @@ Here is a video overview of the Herelink setup process and configuring mavlink a
 
 ![](../../.gitbook/assets/settings101.png)
 
-![](../../.gitbook/assets/airpair1.png)
+![](../../.gitbook/assets/image%20%2810%29%20%281%29.png)
 
-![](../../.gitbook/assets/airpair2.png)
+![](../../.gitbook/assets/image%20%287%29%20%282%29.png)
 
 ## Joystick and HW Wheel Calibration
 
@@ -134,5 +134,5 @@ Herelink supports rc modes 1 - 4 as well as the option to set the throttle centr
 
 * Select the region you are residing in or matches closest to your locations policy from Country Under Herelink Settings main screen.
 
-![](../../.gitbook/assets/fccsettings.png)
+![](../../.gitbook/assets/image%20%286%29%20%281%29.png)
 

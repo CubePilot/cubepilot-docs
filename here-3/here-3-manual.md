@@ -78,15 +78,15 @@ Connect each Here3 4Pin CAN cable to the CAN1 port of the flight controller\(one
 
 After successful loading, select the autopilot COM port with 115200 baud rate and click "connect" at the right-top corner. Go to "Initial Setup - Optional Hardware - UAVCAN", click "SLCan Mode CAN1".
 
-![](../.gitbook/assets/canen.png)
+![](../.gitbook/assets/canen%20%281%29.png)
 
 When the device settings of Here3 pop-up, click "Parameters" from the right.
 
-![](../.gitbook/assets/can-she-bei-xin-xi-en.png)
+![](../.gitbook/assets/can-she-bei-xin-xi-en%20%281%29.png)
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](../.gitbook/assets/can-can-shu-she-zhi-en%20%281%29.png)
+![](../.gitbook/assets/can-can-shu-she-zhi-en%20%281%29%20%281%29.png)
 
 After manually setting the two Here3 node ids in turn, Connect the two Here3 interfaces to the flight controller CAN 1 and CAN 2, respectively.
 
@@ -140,15 +140,15 @@ Current PX4 firmware does not support auto allocating CAN node ID. Manually allo
 
 After successful loading, select the autopilot COM port with 115200 baud rate and click "connect" at the right-top corner. Go to "Initial Setup - Optional Hardware - UAVCAN", click "SLCan Mode CAN1".
 
-![](../.gitbook/assets/canen%20%281%29.png)
+![](../.gitbook/assets/canen%20%281%29%20%281%29.png)
 
 When the device settings of Here3 pop-up, click "Parameters" from the right.
 
-![](../.gitbook/assets/can-she-bei-xin-xi-en%20%281%29.png)
+![](../.gitbook/assets/can-she-bei-xin-xi-en%20%281%29%20%281%29.png)
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](../.gitbook/assets/can-can-shu-she-zhi-en.png)
+![](../.gitbook/assets/can-can-shu-she-zhi-en%20%281%29.png)
 
 Now load PX4 firmware into the autopilot. Connect the 4pin CAN connector from Here3 to CAN1 or CAN2 port on autopilot. Connect to the autopilot and set the parameter "UAVCAN\_ENABLE" to "Sensor Automatic Config". The Here3 will now work.
 

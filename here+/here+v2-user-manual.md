@@ -226,7 +226,7 @@ Plug the connector to the computer USB port. Check if all drivers are ready in d
 The correct driver should be "USB-SERIAL CH340\(COM\#\)"  
 "\#" is the corresponding port number.
 
-![](../.gitbook/assets/here+v2-13.jpg)
+![](../.gitbook/assets/here+v2-13%20%281%29.jpg)
 
 Open u-center and select the COM port for connector. Set the baud rate to 9600 then connect.
 

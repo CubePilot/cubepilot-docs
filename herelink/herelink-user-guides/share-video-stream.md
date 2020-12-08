@@ -4,7 +4,7 @@
 
 * Slide down the Notification Drawer and tap the Herelink Settings tab
 
-![](../../.gitbook/assets/settings-app.jpg)
+![](../../.gitbook/assets/settings-app%20%281%29.jpg)
 
 * Scroll down in Radio Settings and Enable the Video Sharing
 
@@ -26,7 +26,7 @@ Please note that video stream isn't available until a GCS app enables it, so ens
 
 * Then under Set up Wifi hotspot configure name and password for the hotspot.
 
-![](../../.gitbook/assets/password.png)
+![](../../.gitbook/assets/password%20%281%29.png)
 
 * The video stream will be available at `rtsp://192.168.43.1:8554/fpv_stream`to connected devices.
 
