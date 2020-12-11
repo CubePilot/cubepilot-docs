@@ -13,7 +13,7 @@ _Not in range 192.168.0.x_
 **-Region**  
 _Select the correct region and within 5mins difference  
   
-\*_ Please check and fulfil three requirments, otherwise register failure as a result
+\*_ Please check and fulfil three requirements, otherwise register failure as a result
 
 ## Herelink - Solex as Autostarting App
 
