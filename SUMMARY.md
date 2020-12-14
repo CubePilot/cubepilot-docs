@@ -52,14 +52,18 @@
 
 * [Here Flow](flow-senor/here-flow.md)
 
-## SOLO
+## Frame
 
-* [Open Solo Installation](solo/open-solo-installation.md)
-* [Open Solo](solo/open-solo.md)
+* [EDU-450](frame/edu-450.md)
 
 ## ProfiLED
 
 * [ProfiLED](profiled/profiled.md)
+
+## SOLO
+
+* [Open Solo Installation](solo/open-solo-installation.md)
+* [Open Solo](solo/open-solo.md)
 
 ## CubePilot Ecosystem
 
@@ -78,8 +82,4 @@
 ## Product Media
 
 * [Product Media Cloud Drive](product-media/product-media-cloud-drive.md)
-
-## Frame
-
-* [EDU-450](frame/edu-450.md)
 
