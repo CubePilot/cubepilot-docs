@@ -27,11 +27,14 @@ _Select the correct region and within 5mins difference
 
 #### [Herelink - Compatible camera list](https://discuss.cubepilot.org/t/herelink-compatible-camera-list/1922) 
 
-Below the list of the cameras, which have been tested and reported working or not working with the Herelink  
+\*Latest update please check the URL above, thank you!
+
+Below the list of the cameras which have been tested and reported working or not working with the Herelink  
 Any help to grow the list is welcome. If there is any specific settings to use, please tell it.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
+Canon EOS M3\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 GoPro 3\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 GoPro 4\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 GoPro 5\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
@@ -41,6 +44,7 @@ ZCam E1\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings
 Foxeer Box2\_\_\_\_\_\_\_\_\_\_\_Specific settings \(search for [@UlrichC](https://discuss.cubepilot.org/u/ulrichc) message for full infos\)  
 Flir Duo Pro\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 Sony AS200V\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
+Sony NEX-3N\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 Sony a5100\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 Sony A6000\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 Sony A6300\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
@@ -49,11 +53,19 @@ Sony A7Rii\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings
 Sony RX1Rii\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 Sony RX0 mki\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
 Sony RX100VI\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
+Sony HX50\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
+SONY HDR-CX450\_\_\_\_\_\_\_Stock/out of the box settings  
+SONY HDR-PJ620\_\_\_\_\_\_\_Stock/out of the box settings  
+SONY HDR-CX440\_\_\_\_\_\_\_Stock/out of the box settings  
 Foxeer HS1223\_\_\_\_\_\_\_\_\_\_Set resolution to 1080p 30fps with Foxeer app  
 Foxtech Seeker 30 max\_\_\_Stock/out of the box settings  
 Waltter move 500\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Hawkeye Firefly split 4k\_\_\_Stock/out of the box settings  
-Optris PI-Series\_\_\_\_\_\_\_\_\_Stock/out of the box settings \(via companion computer with MS Windows\)
+Hawkeye Firefly split 4k\_\_\_Stock/out of the box settings \(firmware 20190926 works better than others\)  
+Firefly Q6\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
+Optris PI-Series\_\_\_\_\_\_\_\_\_Stock/out of the box settings \(via companion computer with MS Windows\)  
+EKEN H9R\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
+Black Magic micro cinema\_Stock/out of the box settings  
+NextVision cameras with TRIP2 accessory\_Stock/out of the box settings
 
 \*\*\*\*\*\*\*\*\*\*\*\* Not Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
