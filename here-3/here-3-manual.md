@@ -283,9 +283,133 @@ If you connected the UAVs with 1 telemetry module, they should share the same CO
 
 ![](../.gitbook/assets/screenshot-2020-08-04-at-4.16.47-pm.jpg)
 
+## Update Guide for HERE3 Firmware and u-blox Chip
+
+## 1.HERE3 Firmware Update
+
+Please update Mission Planner to the version indicated below or higher:
+
+![](../.gitbook/assets/screenshot-2021-01-04-at-11.24.14-am.jpg)
+
+Be aware that the following steps should be done when there is only 1 GPS module connected to autopilot. Connect the HERE3 CAN connector to CAN1 port on autopilot. Connect to Mission Planner and go to “UAVCAN” tab. Click “SLCan Mode CAN1” to load CAN GPS status.
+
+Click “Menu&gt;Update” to check available updates. Update the HERE3 firmware to version 1.6.
+
+![](../.gitbook/assets/here3-1.jpg)
+
+After clicking “Update”, 2 prompts will pop up. The first one asks whether to search update from the internet. Click “Yes”.
+
+![](../.gitbook/assets/here3-2.jpg)
+
+The second prompt asks whether to search for a beta firmware or not. Click “Yes”. \(This is because the current latest firmware v1.6 is only available from beta.\)
+
+![](../.gitbook/assets/here3-3.jpg)
+
+When finished, verify the update is successful by checking the software version.
+
+![](../.gitbook/assets/here3-4.jpg)
+
+If “no available updates” appears when searching updates. Please turn off your firewall in the system setting and try again.
+
+![](../.gitbook/assets/here3-5.jpg)
+
+## 2. HERE3 u-blox Chip Firmware Update
+
+The u-blox chip firmware update can be completed only when HERE3 is updated to version 1.6 or later. Please follow the instructions in section “HERE3 Firmware Update” to update your HERE3 firmware to the proper version.
+
+This instruction uses u-center GUI from u-blox, the correct version should be v20.10 or later:
+
+![](../.gitbook/assets/here3-6.jpg)
+
+Download the u-blox chip firmware. \(The latest firmware for u-blox M8P chip is v1.4 when this guide is written\):
+
+u-blox M8P chip firmware:   
+https://www.u-blox.com/en/product/neo-m8p-series\#tab-documentati on-resources
+
+Parameter definition: passThrough = 0 Standard mode
+
+passThrough = 1 Connect to u-center for parameters reviewing passThrough = 2 Connect to u-center for firmware update on u-blox chip
+
+After downloading the firmware, connect to Mission Planner. Go to UAVCAN tab and modify the parameter “passthrough” to “2”. When done, click “Write Params” and “Commit Params” at the righthand side.
+
+![](../.gitbook/assets/here3-7.jpg)
+
+Click “Menu &gt; Restart”. After that, uptime should be reset to “00:00:00”.
+
+![](../.gitbook/assets/here3-8.jpg)
+
+Click “Menu &gt; CANPassThrough”. Set TCP port to “500” then click “OK”.
+
+![](../.gitbook/assets/here3-9.jpg)
+
+Open u-center and connect it \(Connect &gt; Network Connection &gt; new\).
+
+![](../.gitbook/assets/here3-10.jpg)
+
+Open “Firmware Update Utility” \(Tools &gt; Firmware Update Utility\) and set the following:
+
+![](../.gitbook/assets/here3-11.jpg)
+
+Click “GO” at the bottom-left corner to start firmware flashing. Wait until it is finished.
+
+![](../.gitbook/assets/here3-12.jpg)
+
+After update completed, connect to Mission Planner. Go to “UAVCAN” tab. Modify the parameter “passThrough” to “0” then write and commit. HERE3 will now work normally.
+
+![](../.gitbook/assets/here3-13.jpg)
+
+## 3. Connect HERE3 to u-center for GNSS-related Parameter Checking
+
+For checking parameters on u-blox chip, HERE3 firmware must be on v1.6 or later. Steps to update HERE3 firmware are mentioned in “HERE3 Firmware Update” section above.
+
+The u-center must be on v20.10 or later:
+
+![](../.gitbook/assets/here3-6.jpg)
+
+Connect to Mission Planner and go to “UAVCAN” tab. Modify “passThrough” to “1”.
+
+![](../.gitbook/assets/here3-14.jpg)
+
+Click “Menu &gt; CANPassThrough”. Set TCP port to 500 and click “OK”.
+
+![](../.gitbook/assets/here3-15.jpg)
+
+Open u-center and connect it \(Connect &gt; Network Connection &gt; new\).
+
+![](../.gitbook/assets/here3-16.jpg)
+
+When connected, parameters and messages can be viewed in u-center. 
+
+When finished reviewing, go back to Mission Planner and set “passthrough” to “0”.
+
+![](../.gitbook/assets/here3-18.jpg)
+
+## 4. Modify HERE3 GNSS Constellations
+
+Through the following steps, GNSS constellations being used by HERE3 can be selected. It requires HERE3 to be v1.6 or later. Updating instructions are mentioned in “HERE3 Firmware Update” section above.
+
+Be aware that the following steps should be done when there is only 1 GPS module connected to autopilot. Connect the HERE3 CAN connector to CAN1 on autopilot. Connect to Mission Planner and go to “UAVCAN” tab. Click “SLCan Mode CAN1” to load CAN GPS status.
+
+After verifying the firmware has already updated to v1.6 or later, click “Menu – Parameters to enter the setting:
+
+gnssConfig = 8 for BeiDou  
+ gnssConfig = 9 for GPS+BeiDou  
+ gnssConfig = 97 for GPS+GLONASS+QZSS  
+ When done, click “Write Params” and “Commit Params” at the righthand side.
+
+![](../.gitbook/assets/here3-19.jpg)
+
+
+
+
+
+
+
+
+
 ## [Here3 Stand 3D STEP download](https://docs.cubepilot.org/user-guides/3d-printing/here-3-stand)
 
 
 
-2020.8.1
+2020.12.18
 
