@@ -26,10 +26,12 @@ Mavlink
 * Open Mission Planner
 * Set the port to 'UDPCL' \(top right\)
 * Click 'Connect'
-* Enter the IP of the herelink controler [Find your IP](https://ccm.net/faq/33725-how-to-check-your-android-ip-address)
+* Enter the IP of the Herelink controller [Find your IP](https://ccm.net/faq/33725-how-to-check-your-android-ip-address)
 * Enter port '14552'
 
-You will now have mavlink working into Mission Planner
+You will now have Mavlink working into Mission Planner
+
+\*This configuration applies when we connect using USB TETHER or any other interface that is not WIFI. The Mavlink traffic being Broadcast from the WIFI Access Point by default, when connecting with USB or Ethernet, it is necessary to specify IP address of HereLink station so it can access the UDP port 14552.
 
 ### To view live Herelink video in Mission Planner
 
