@@ -1,4 +1,4 @@
-# OEM-carrier-board
+# OEM Carrier Board
 
-![OEM-carrier-board Poster](.gitbook/assets/oem-carrier-board-poster.jpg)
+![OEM Carrier Board Poster](.gitbook/assets/oem-carrier-board-poster-rgb.jpg)
 

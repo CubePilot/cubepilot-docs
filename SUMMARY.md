@@ -86,5 +86,5 @@
 
 ---
 
-* [OEM-carrier-board](oem-carrier-board.md)
+* [OEM Carrier Board](oem-carrier-board.md)
 
