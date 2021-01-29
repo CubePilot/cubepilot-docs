@@ -49,10 +49,6 @@
 * [Standard Carrier Board Footprint & Dimensions](carrier-boards/standard-carrier-board-footprint-and-dimensions.md)
 * [Carrier Boards FAQ](carrier-boards/carrier-boards-faq.md)
 
-## OEM-carrier-board
-
-* [OEM CARRIER BOARD](oem-carrier-board/oem-carrier-board.md)
-
 ## FLOW SENSOR <a id="flow-senor"></a>
 
 * [Here Flow](flow-senor/here-flow.md)
@@ -87,4 +83,8 @@
 ## Product Media
 
 * [Product Media Cloud Drive](product-media/product-media-cloud-drive.md)
+
+---
+
+* [OEM-carrier-board](oem-carrier-board.md)
 
