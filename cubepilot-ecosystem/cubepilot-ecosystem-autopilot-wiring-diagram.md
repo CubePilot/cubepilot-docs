@@ -40,5 +40,9 @@
 
 ![Cubepilot-ekosystem cubepilot-Polski](../.gitbook/assets/cubepilot-ekosystem-cubepilot-polski.jpg)
 
+## CubePilot-CubePilot Ecosystem Autopilot Wiring Diagram-Turkish
+
+![CubePilot-CubePilot Ecosystem Autopilot Wiring Diagram-Turkish](../.gitbook/assets/cubepilot-cubepilot-ecosystem-autopilot-wiring-diagram-turkish.jpg)
+
 
 
