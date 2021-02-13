@@ -86,7 +86,7 @@ When the device settings of Here3 pop-up, click "Parameters" from the right.
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](../.gitbook/assets/can-can-shu-she-zhi-en%20%281%29%20%281%29.png)
+![](../.gitbook/assets/can-can-shu-she-zhi-en%20%281%29%20%281%29%20%281%29.png)
 
 After manually setting the two Here3 node ids in turn, Connect the two Here3 interfaces to the flight controller CAN 1 and CAN 2, respectively.
 
@@ -148,7 +148,7 @@ When the device settings of Here3 pop-up, click "Parameters" from the right.
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](../.gitbook/assets/can-can-shu-she-zhi-en%20%281%29.png)
+![](../.gitbook/assets/can-can-shu-she-zhi-en%20%281%29%20%281%29.png)
 
 Now load PX4 firmware into the autopilot. Connect the 4pin CAN connector from Here3 to CAN1 or CAN2 port on autopilot. Connect to the autopilot and set the parameter "UAVCAN\_ENABLE" to "Sensor Automatic Config". The Here3 will now work.
 

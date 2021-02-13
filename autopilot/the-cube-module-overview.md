@@ -193,7 +193,7 @@ The Cube provides power routing, over/under voltage detection and protection, fi
 
 Peripheral power is split into two groups:
 
-**Serial 1** \(`TELEM 1`\) has a private 1.5A current limit, intended for powering a low power. This output is separately EMI filtered and draws directly from the USB / Brick inputs. Peak power draw on this port should not exceed 1.5A, never power your telemetry from this port under any circumstance. 
+**Serial 1** \(`TELEM 1`\) has a private 1.5A current limit, intended for powering a low power. This output is separately EMI filtered and draws directly from the USB / Brick inputs. Peak power draw on this port should not exceed 1.5A, never power your telemetry from this port under any circumstance.
 
 **All other peripherals** share a 1A current limit and a single power switch. Peak power draw on this port should not exceed 1.5A. Each group is individually switched under software control.
 

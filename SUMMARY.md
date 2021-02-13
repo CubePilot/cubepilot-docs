@@ -79,6 +79,7 @@
 * [CubePilot product 3D model](3d-printing/cubepilot-product-3d-model.md)
 * [Printable Camera Quad \(Foldable\)](3d-printing/printable-camera-quad-foldable.md)
 * [Here 3 Stand](3d-printing/here-3-stand.md)
+* [Kore Multi-Rotor Carrier Board Case](3d-printing/kore-multi-rotor-carrier-board-case.md)
 
 ## Product Media
 
