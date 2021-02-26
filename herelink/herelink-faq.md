@@ -175,6 +175,15 @@ I've just confirmed that this is working ok. one possible caveat. if your home n
 
 
 
+## Herelink - Power output
+
+The power outputs by selecting region are :
+
+* USA : 23dB      = 200mW
+* Europe : 20dB = 100mW
+* China : 20dB    = 100mW
+* Japan : 20dB   = 100mW
+
 #### 
 
 #### 
