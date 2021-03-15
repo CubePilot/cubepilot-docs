@@ -18,7 +18,9 @@ RFdesign: [http://rfdesign.com.au/](http://rfdesign.com.au/)
 
 Spektreworks: [https://www.spektreworks.com/](https://www.spektreworks.com/)
 
-Vamatis: [https://vamatis.com/](https://vamatis.com/)
+Vamatis: [https://vamatis.com/](https://vamatis.com/)  
+  
+Wurzbach Electronics: [https://wurzbachelectronics.com/consulting-services/](https://wurzbachelectronics.com/consulting-services/)
 
 For custom carrier board designs, you have the choices
 
