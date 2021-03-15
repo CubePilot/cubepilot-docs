@@ -23,7 +23,7 @@ Vamatis: [https://vamatis.com/](https://vamatis.com/)
 For custom carrier board designs, you have the choices
 
 1. Design it yourself using the reference design that we provide for free
-2. Hire Spektreworks, Wurzback Electonics, Airbot, or RFDesign to do it for you.
+2. Hire Spektreworks, Wurzbach Electonics, Airbot, or RFDesign to do it for you.
 3. Design it yourself, and Hire CubePilot to assist you in the full development of your product, we can give you tips along the way, allowing your team to build the skills required to excel in this industry.
 
 Thank you!
