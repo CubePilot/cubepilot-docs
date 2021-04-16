@@ -34,6 +34,8 @@
 
 * [Here+V2 User Manual](here+/here+v2-user-manual.md)
 
+## HEREPRO
+
 ## Autopilot
 
 * [The Cube Module Overview](autopilot/the-cube-module-overview.md)
