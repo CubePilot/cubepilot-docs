@@ -36,6 +36,8 @@
 
 ## HEREPRO
 
+* [HerePro Manual](herepro/herepro-manual.md)
+
 ## Autopilot
 
 * [The Cube Module Overview](autopilot/the-cube-module-overview.md)
