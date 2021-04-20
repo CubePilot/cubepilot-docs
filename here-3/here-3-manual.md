@@ -1,4 +1,4 @@
-# Here 3 manual
+# Here 3 Manual
 
 ![](../.gitbook/assets/here3.png)
 
