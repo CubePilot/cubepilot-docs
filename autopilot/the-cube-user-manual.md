@@ -1,6 +1,6 @@
 # The Cube User Manual V1.0
 
-## Preparation for The Cube
+## pPreparation for The Cube
 
 ## Introduction
 
@@ -20,7 +20,7 @@ Using the 3M double layer tape or screw from the package, mount The Cube as clos
 
 ## Peripheral Connection
 
-According to the type, size, dynamic structure, and load, installation of hardware and parameter setting can be diverse. However, the connection of electronic devices are similar. The following contents will guide you to connect your peripheral to Pixhawk2.1 \(The Cube\). Please follow these steps before your first flight.
+According to the type, size, dynamic structure, and load, installation of hardware and parameter setting can be diverse. However, the connection of electronic devices are similar. The following contents will guide you to connect your peripheral to The Cube \(formerly known as Pixhawk\). Please follow these steps before your first flight.
 
 **Remark:Please connect the GPS, sensors, telemetry, etc to The Cube according to the pinout. Please check the wiring order carefully because most of the peripheral malfunctioning are due to incorrect wiring. Since there are limitation on every interface on The Cube, please connect your high-power peripheral to external BEC.**
 

@@ -129,7 +129,7 @@ Key features of The Cube power architecture:
 
 ### FMU and IO Power Supplies
 
-Both FMU and IO operate at 3.3V, and each has its own private dual-channel regulator. As in Pixhawk v1, each regulator features a power-on reset output tied to the regulator’s internal power-up and drop-out sequencing.
+Both FMU and IO operate at 3.3V, and each has its own private dual-channel regulator. As in The Cube \(formerly known as Pixhawk\), each regulator features a power-on reset output tied to the regulator’s internal power-up and drop-out sequencing.
 
 ### Power Sources
 

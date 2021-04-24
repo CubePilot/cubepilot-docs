@@ -76,7 +76,7 @@ _**Assets**_
 * GoPro power on/off works properly \(GoPro firmware v3 only, we can't fix v4 & v5\)
 * Use ArduCopter camera shutter function if no GoPro connected for alternate cameras
 
-**INSTALL:** Reading the install instructions in the wiki is required. The process is different from Open Solo 3, and consequently much more stable and reliable. [https://github.com/OpenSolo/OpenSolo/wiki/Install-Open-Solo](https://github.com/OpenSolo/OpenSolo/wiki/Install-Open-Solo)
+**:** Reading the install instructions in the wiki is required. The process is different from Open Solo 3, and consequently much more stable and reliable. [https://github.com/OpenSolo/OpenSolo/wiki/Install-Open-Solo](https://github.com/OpenSolo/OpenSolo/wiki/Install-Open-Solo)
 
 * This should be hitting Solex and SidePilot for easy installation by Monday evening 9/23/2019.
 * Files attached to this release are from this build if you wish to install manually using SSH/SFTP
@@ -106,14 +106,14 @@ This is the first stable production release \(non-beta\) of Open Solo! Since 3DR
 
 This is fully compatible with both totally stock Solos and green cube solos! You do not need to pick and choose, and we don't need multiple release versions for the different hardware. The code will auto-detect which cube you have, and use that information to auto install the correct version of ArduCopter on it.
 
-#### STOCK SOLO SPECIFIC UPDATES: The following applies only to stock solo Pixhawk cubes and does not apply to Green Cube solos.
+#### STOCK SOLO SPECIFIC UPDATES: The following applies only to stock solo The Cube \(formerly known as Pixhawk\) and does not apply to Green Cube solos.
 
 * **ArduCopter Solo 1.5.4** upgrading you from the 3DR stock 1.3.1 version from about 2yrs ago.
   * **Distance based battery failsafe:** Triggers RTH to be on the ground at approx 10% remaining. If you want to adjust this yourself, you can manually tweak parameter `FS_BATT_CUR_RTL`. A value of 22 gets you on the ground with about 10% remaining. A higher value will RTH sooner leaving a higher % remaining.
   * **Improved landing detection:** This greatly improves the solo's ability to detect it has landed. In the past, it could get confused by a rough, fast, or jerky landing. This results in it refusing to disarm or and sometimes flipping over. The new landing detection algorithm is greatly enhanced. You will notice it now takes and extra second or so to disarm once you're on the ground. And you may see a little twitch in the throttle. It is literally testing the ground. It works quite nicely.
   * **Low battery thrust priority:** If the battery is getting dangerously low, it will allow itself to sacrifice yaw \(rotation\) control to increase thrust to prevent a crash. This could give you the thrust you need to land softly rather than dropping out of the sky.
   * **Smart shot altitude priority:** Will not lose altitude by going too fast in Follow Mode! In Smart Shots, the solo will not allow itself to go "too fast" causing a loss of altitude.
-  * **No more 3DR:** This version was compiled by the Open Solo team in the Open Solo repositories. It cuts the cord from 3DR's firmware server for Pixhawk firmware.
+  * **No more 3DR:** This version was compiled by the Open Solo team in the Open Solo repositories. It cuts the cord from 3DR's firmware server for The Cube \(formerly known as Pixhawk\) firmware.
   * **Corrected parameters:** 3DR's last release was 1.5.3 and only for commercial site scan solos. The Open Solo version 1.5.4 has corrected parameters that account for the consumer solo being much lighter weight.
 
 #### GREEN CUBE SPECIFIC UPDATES: The following applies to Green Cube equipped solos and does not apply to stock Solos.
@@ -151,7 +151,7 @@ This is fully compatible with both totally stock Solos and green cube solos! You
 * Added compatibility with Solex geotagging functions
 * Home button and RTH failsafe now use ArduCopter RTL Mode instead of the old "Return Home" smart shot. This is more reliable and eliminates numerous points of failure. They have the same end result.
 * Newer version of some system files to make troubleshooting and recovery from problems easier.
-* Factory reset will now reset the ArduCopter parameters on the pixhawk to default as well. This was always a troubleshooting problem, and eliminates unnecessary extra steps.
+* Factory reset will now reset the ArduCopter parameters on The Cube \(formerly known as Pixhawk\) to default as well. This was always a troubleshooting problem, and eliminates unnecessary extra steps.
 * _**Lost functionality:**_ Unfortunately, two things had to get sacrificed in this due to compatibility and incomplete development from 3DR. The impact should be rather minimal.
   * **Rewind** has been removed. The 3DR Solo app still has the option to turn it on/off, which also never worked right, and they will not do anything. This was a feature 3DR was in the middle of developing when they closed shop. It is not compatible with ArduCopter RTL mode. It is something that may be revised in the future as something that isn't connected to any failsafe and is executed with a button push. But not right now. -**Hover instead of landing in return to home or return to me** has been removed. This was intertwined with the rewind code and the old return home smart shot. It is not compatible with ArduCopter RTL mode. And it also was incomplete and not really safe to use anyway. This again is something I'd like to revisit in the future, since it has some use cases \(like boating\). But for now, it's only returns home \(or return to me\) and lands when it gets there.
   * **Alternative for now:** If you need the hover option, you can manually increase ArducCopter parameter `RTL_LOIT_TIME`. It is in milliseconds. It is the amount of time the copter will hover prior landing. If simply turn it up to several minutes or whatever suites you needs, you will have the same effect.
@@ -169,7 +169,7 @@ If you're the geeky type that wants to read all the commits to see what has been
   * [Artoo](https://github.com/OpenSolo/artoo/commits/master) is the controller's STM32 firmware for the screen, buttons, and sticks.
   * [Mavlink-Solo](https://github.com/OpenSolo/mavlink-solo/commits/master) is a rather old fork of Mavlink. The flight modes were brought up to current enumerations.
   * [Sololink-python](https://github.com/OpenSolo/sololink-python/commits/master) is some misc helper python files.
-  * [ArduPilot-solo](https://github.com/OpenSolo/ardupilot-solo/commits/master) is 3DR's fork of ArduCopter used on the stock Solo pixhawk 2.0 cube.
+  * [ArduPilot-solo](https://github.com/OpenSolo/ardupilot-solo/commits/master) is 3DR's fork of ArduCopter used on the stock Solo The Cube \(formerly known as Pixhawk\).
 
 ### Installation Instructions
 

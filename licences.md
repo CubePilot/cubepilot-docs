@@ -2,7 +2,7 @@
 
 "The Cube Autopilot Hardware
 
-The Cube BLACK uses some open hardware designs, the FMU board is a derivitive of the Pixhawk 2 design by ProfiCNC, and its schematic is published here. Each component in the cube has a seperate licence. please ensure you respect this licence, or the licence will automatically be revoked.
+The Cube BLACK uses some open hardware designs, the FMU board is a derivitive of the The Cube \(formerly known as Pixhawk\) design by ProfiCNC, and its schematic is published here. Each component in the cube has a seperate licence. please ensure you respect this licence, or the licence will automatically be revoked.
 
 Pull requests for relevant fixes are very welcome. The cube licences...board files are NOT open. FMUv3 board CC-BY-SA 3.0 \(Schematic ONLY, PCB is Copyright Philip Rowse, and must not be copied as is\) IMUv3 board is copyright ProfiCNC CC-BY-NC 3.0 \(NO COMMERCIAL USE WITHOUT CONSULTING Mr Philip Rowse\) PSM board is copyright ProfiCNC CC-BY-NC 3.0 \(No Commercial use without consulting mr Philip Rowse\)
 

@@ -14,7 +14,7 @@ HERE+/HERE+ V2 has a full set of Inertial navigation system \(gyroscope, acceler
 
 Many applications of UAV need better precision than what regular GNSS can provide. For example: UAV surveying and mapping; agriculture measuring; high precision take-off and landing; UAV swarming; etc.
 
-RTK Differential GPS that is compatible with open source flight controllers THE CUBE、pixhawk、APM.
+RTK Differential GPS that is compatible with open source flight controllers The Cube \(formerly known as Pixhawk\)、ixhawkAPM.
 
 -Support 1 Base to Multiple Rovers  
 -Light and Power Efficient RTK Real-time DGPS Solution  

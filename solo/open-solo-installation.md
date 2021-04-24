@@ -70,7 +70,7 @@ All features from Open Solo 3 are still there. Listing some highlights here for 
   * Added compatibility with Solex geotagging functions
   * Home button and RTH failsafe now use ArduCopter RTL Mode instead of the old "Return Home" smart shot. This is more reliable and eliminates numerous points of failure. They have the same end result.
 * Newer version of some system files to make troubleshooting and recovery from problems easier.
-* Factory reset will now reset the ArduCopter parameters on the pixhawk to default as well. This was always a troubleshooting problem, and eliminates unnecessary extra steps.
+* Factory reset will now reset the ArduCopter parameters on The Cube \(formerly known as Pixhawk\) to default as well. This was always a troubleshooting problem, and eliminates unnecessary extra steps.
 * Lost functionality: Unfortunately, two things had to get sacrificed in this due to compatibility and incomplete development from 3DR. The impact should be rather minimal.
   * Rewind has been removed. The 3DR Solo app still has the option to turn it on/off, which also never worked right, and they will not do anything. This was a feature 3DR was in the middle of developing when they closed shop. It is not compatible with ArduCopter RTL mode. It is something that may be revised in the future as something that isn't connected to any failsafe and is executed with a button push. But not right now.
   * Hover instead of landing in return to home or return to me has been removed. This was intertwined with the rewind code and the old return home smart shot. It is not compatible with ArduCopter RTL mode. And it also was incomplete and not really safe to use anyway. This again is something I'd like to revisit in the future, since it has some use cases \(like boating\). But for now, it's only returns home \(or return to me\) and lands when it gets there. Alternative for now: If you need the hover option, you can manually increase ArducCopter parameter RTL\_LOIT\_TIME. It is in milliseconds. It is the amount of time the copter will hover prior landing. If simply turn it up to several minutes or whatever suites you needs, you will have the same effect.
@@ -101,7 +101,7 @@ If you're the geeky type that wants to read all the commits to see what has been
   * **Artoo** is the controller's STM32 firmware for the screen, buttons, and sticks.
   * **Mavlink-solo** is a rather old fork of Mavlink. The flight modes were brought up to current enumerations.
   * **Sololink-python** is some misc helper python files.
-  * **ArduPilot-solo** is 3DR's fork of ArduCopter used on the stock Solo pixhawk 2.0 cube.
+  * **ArduPilot-solo** is 3DR's fork of ArduCopter used on the stock Solo The Cube \(formerly known as Pixhawk\).
 
 ## For Developers
 
