@@ -56,5 +56,9 @@
 
 {% file src="../.gitbook/assets/here+-rtk-base.step.zip" caption="Here+ RTK Base.STEP \(ZIP\)" %}
 
+## Mini Carrier Board
 
+![](../.gitbook/assets/mini-carrier-board.jpg)
+
+{% file src="../.gitbook/assets/mini-carrier-board.step.zip" %}
 
