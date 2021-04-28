@@ -75,6 +75,7 @@
 * [CubePilot Ecosystem Autopilot Wiring Diagram \(Multilingual\)](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
 * [OEM Carrier Board](cubepilot-ecosystem/oem-carrier-board.md)
 * [CubePilot Made in USA](cubepilot-ecosystem/cubepilot-made-in-usa.md)
+* [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners.md)
 
 ## Remote ID
 
