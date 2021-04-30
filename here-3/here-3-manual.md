@@ -291,6 +291,8 @@ Please update Mission Planner to the version indicated below or higher:
 
 ![](../.gitbook/assets/screenshot-2021-01-04-at-11.24.14-am.jpg)
 
+Note: This is a newer beta version and not the v1.3.74 "latest" release. You can install the current beta by going to *Help* and click the *Check for BETA Updatas* button.
+
 Be aware that the following steps should be done when there is only 1 GPS module connected to autopilot. Connect the HERE3 CAN connector to CAN1 port on autopilot. Connect to Mission Planner and go to “UAVCAN” tab. Click “SLCan Mode CAN1” to load CAN GPS status.
 
 Click “Menu&gt;Update” to check available updates. Update the HERE3 firmware to version 1.6.
