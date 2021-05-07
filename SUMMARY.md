@@ -77,6 +77,11 @@
 * [OEM Carrier Board](cubepilot-ecosystem/oem-carrier-board.md)
 * [CubePilot Made in USA](cubepilot-ecosystem/cubepilot-made-in-usa.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners.md)
+* [Speckreworks](cubepilot-ecosystem/speckreworks.md)
+* [RF Design](cubepilot-ecosystem/rf-design.md)
+* [Vamatis](cubepilot-ecosystem/vamatis.md)
+* [Airbot Systems](cubepilot-ecosystem/airbot-systems.md)
+* [Bask Aerospace](cubepilot-ecosystem/bask-aerospace.md)
 
 ## Remote ID
 
