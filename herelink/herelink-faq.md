@@ -184,6 +184,18 @@ The power outputs by selecting region are :
 * China : 20dB    = 100mW
 * Japan : 20dB   = 100mW
 
+## Herelink airunit fan installation
+
+When using Dual Streaming mode, the Herelink can get quite warm, for best results, please install a fan on the top using the provided screws, rubber rings, washers and nuts in the installation pack.
+
+\*Fan is not provided The fan showing in the video obtained from Digi-Key URL: [https://www.digikey.hk/product-detail/en/mechatronics-fan-group/MR3010E12B-RSR/1570-1346-ND/7606131](https://www.digikey.hk/product-detail/en/mechatronics-fan-group/MR3010E12B-RSR/1570-1346-ND/7606131)
+
+\*Please prepare a pair of tweezers and a M1.6 nut driver for installation.
+
+{% embed url="https://www.youtube.com/watch?v=n-0xik3lVfE" %}
+
+
+
 #### 
 
 #### 
