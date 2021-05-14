@@ -43,7 +43,7 @@ Herelink allows RC control, HD video and telemetry data to be transmitted upto 2
 | Screen: | 5.46 inch 1080P, 16 million colors, capacitive touch screen |
 | Audio: | Built-in speaker × 1, built-in microphone × 2 |
 | Remote control: | Hall affect gimbals with removable sticks x 2, scroll wheel × 1, bottom button × 6 with backlight, top button × 1 \(right\) |
-| Wireless: | Bluetooth / WIFI / GPS / 2.4G map transmission ground |
+| Wireless: | Bluetooth \(disabled\) / WIFI / GPS / 2.4G map transmission ground |
 | Inputs: | MicroUSB × 1, Micro SD × 1 \(supports maximum 64GB\) |
 | Antenna: | Circular \(5dBi\) × 1, detachable, omnidirectional \(2dBi\) × 1, detachable,built-in wifi antenna, built-in GPS antenna, external GPS antenna interface x 1 |
 | Power : | Built-in 4950 mAh Lipo Battery |
