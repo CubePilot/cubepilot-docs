@@ -4,6 +4,18 @@
 * [Licences](licences.md)
 * [US Defence](us-defence.md)
 
+## Service Bulletins and Critical Notices
+
+* [Safety/Service Bulletins](service-bulletins-and-critical-notices/safety-service-bulletins/README.md)
+  * [SB\_0000001 Critical service bulletin for Beta Cube 2.1 \(2016\)](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000001-critical-service-bulletin-for-beta-cube-2.1-2016.md)
+  * [SB\_0000002 Critical service bulletin for Cubes Purchased between JAN 2019 to JUL 2019. DO NOT FLY](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000002-critical-service-bulletin-for-cubes-purchased-between-jan-2019-to-jul-2019.-do-not-fly.md)
+  * [SB\_0000003 Flight with arming checks set anything other than 1 prohibited](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000003-flight-with-arming-checks-set-anything-other-than-1-prohibited.md)
+  * [SB\_0000004 Limited power capacity of the RCIN power rail on Pixhawk Autopilots](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000004-limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots.md)
+  * [SB\_0000005 I2C Storm can cause inflight reboots, Chibios ONLY, not Nuttx \(all cube and Pixhawk hardw](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000005-i2c-storm-can-cause-inflight-reboots-chibios-only-not-nuttx-all-cube-and-pixhawk-hardw.md)
+  * [SB\_0000006 time to Go Orange](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000006-time-to-go-orange.md)
+* [Critical Notices](service-bulletins-and-critical-notices/critical-notices/README.md)
+  * [Powering Telemetry radios externally](service-bulletins-and-critical-notices/critical-notices/powering-telemetry-radios-externally.md)
+
 ## Herelink
 
 * [Herelink Overview](herelink/herelink-overview.md)
@@ -76,12 +88,12 @@
 * [CubePilot Ecosystem Autopilot Wiring Diagram \(Multilingual\)](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
 * [OEM Carrier Board](cubepilot-ecosystem/oem-carrier-board.md)
 * [CubePilot Made in USA](cubepilot-ecosystem/cubepilot-made-in-usa.md)
-* [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners.md)
-* [SpektreWorks](cubepilot-ecosystem/spektreworks.md)
-* [RF Design](cubepilot-ecosystem/rf-design.md)
-* [Vamatis](cubepilot-ecosystem/vamatis.md)
-* [Airbot Systems](cubepilot-ecosystem/airbot-systems.md)
-* [Bask Aerospace](cubepilot-ecosystem/bask-aerospace.md)
+* [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
+  * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
+  * [RF Design](cubepilot-ecosystem/cubepilot-partners/rf-design.md)
+  * [Vamatis](cubepilot-ecosystem/cubepilot-partners/vamatis.md)
+  * [Airbot Systems](cubepilot-ecosystem/cubepilot-partners/airbot-systems.md)
+  * [Bask Aerospace](cubepilot-ecosystem/cubepilot-partners/bask-aerospace.md)
 
 ## Remote ID
 
