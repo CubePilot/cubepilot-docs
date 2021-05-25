@@ -70,10 +70,6 @@
 
 * [Here Flow](flow-senor/here-flow.md)
 
-## Frame
-
-* [EDU-450](frame/edu-450.md)
-
 ## ProfiLED
 
 * [ProfiLED](profiled/profiled.md)
@@ -94,6 +90,12 @@
   * [Vamatis](cubepilot-ecosystem/cubepilot-partners/vamatis.md)
   * [Airbot Systems](cubepilot-ecosystem/cubepilot-partners/airbot-systems.md)
   * [Bask Aerospace](cubepilot-ecosystem/cubepilot-partners/bask-aerospace.md)
+  * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
+    * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
+      * [EDU-450](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/edu-450.md)
+      * [TD-650](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-650.md)
+      * [TD-860](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-860.md)
+      * [TD-1100](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-1100.md)
 
 ## Remote ID
 
