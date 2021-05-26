@@ -94,7 +94,7 @@
     * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
       * [EDU-450](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/edu-450.md)
       * [TD-650](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-650.md)
-      * [TD-860](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-860.md)
+      * [TD-900](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-900.md)
       * [TD-1100](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-1100.md)
 
 ## Remote ID
