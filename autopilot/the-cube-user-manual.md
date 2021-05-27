@@ -1,6 +1,6 @@
 # The Cube User Manual V1.0
 
-## pPreparation for The Cube
+## Preparation for The Cube
 
 ## Introduction
 
