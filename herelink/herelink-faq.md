@@ -194,9 +194,23 @@ When using Dual Streaming mode, the Herelink can get quite warm, for best result
 
 {% embed url="https://www.youtube.com/watch?v=n-0xik3lVfE" %}
 
+## Herelink flasher update error
 
+Q: When connecting the Herelink to computer to update it with flasher, the following message pops up:
 
-#### 
+_Looking for DeviceTraceback \(most recent call last\):   
+File "flasher.py", line 260, in    
+File "flasher.py", line 142, in detectuntilfound   
+File "flasher.py", line 238, in detectunit   
+File "site-packages\adb-1.3.0-py3.8.egg\adb\adbcommands.py", line 138, in ConnectDevice   
+File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 221, in FindAndOpen   
+File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 117, in Open   
+File "site-packages\usb1\_init\_.py", line 2168, in open   
+File "site-packages\usb1\_\_init.py", line 133, in mayRaiseUSBError   
+File "site-packages\usb1\_\_init.py", line 125, in raiseUSBError   
+usb1.USBErrorAccess: LIBUSB\_ERROR\_ACCESS \[-3\]   
+\[11936\] Failed to execute script flasher_
 
-#### 
+A: The error message tells that the adb is running already. It can be fixed with the following command:   
+**adb kill-server**
 
