@@ -4,7 +4,7 @@
 
 * Slide down the Notification Drawer and tap the Herelink Settings tab
 
-![](../../.gitbook/assets/settings-app%20%281%29%20%281%29.jpg)
+![](../../.gitbook/assets/settings-app%20%281%29%20%281%29%20%281%29.jpg)
 
 * Scroll down in Radio Settings and Enable the Video Sharing
 

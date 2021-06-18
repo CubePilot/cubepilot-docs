@@ -32,7 +32,7 @@ Here is a video overview of the Herelink setup process and configuring mavlink a
 
 * Select Herelink Setting 
 
-![](../../.gitbook/assets/settings-app%20%281%29%20%281%29.jpg)
+![](../../.gitbook/assets/settings-app%20%281%29%20%281%29%20%281%29.jpg)
 
 * The settings app will open 
 
@@ -44,9 +44,9 @@ Here is a video overview of the Herelink setup process and configuring mavlink a
 
 ![](../../.gitbook/assets/settings101%20%281%29.png)
 
-![](../../.gitbook/assets/image%20%2810%29%20%281%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%2810%29%20%281%29%20%281%29%20%281%29.png)
 
-![](../../.gitbook/assets/image%20%287%29%20%282%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%287%29%20%282%29%20%282%29%20%282%29.png)
 
 ## Joystick and HW Wheel Calibration
 
