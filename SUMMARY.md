@@ -99,6 +99,7 @@
   * [Mauch](cubepilot-ecosystem/cubepilot-partners/mauch.md)
   * [T-MOTOR](cubepilot-ecosystem/cubepilot-partners/t-motor.md)
   * [APD](cubepilot-ecosystem/cubepilot-partners/apd.md)
+  * [JAR Aerospace](cubepilot-ecosystem/cubepilot-partners/jar-aerospace.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
     * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
       * [EDU-450](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/edu-450.md)
