@@ -120,6 +120,7 @@
 
 ## Product Media
 
+* [CubePilot Logos](product-media/cubepilot-logos.md)
 * [Product Media Cloud Drive](product-media/product-media-cloud-drive.md)
 
 ---
