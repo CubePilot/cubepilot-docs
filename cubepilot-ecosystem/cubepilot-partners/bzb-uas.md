@@ -49,13 +49,13 @@ Professional system for people that value safety and work comfort. The system de
 
 | **Technical Detail** |  |
 | :--- | :--- |
-| **FLIGHT TIME** | **Up to 80 minutes** |
-| **MASS \(MTOM\)** | **6.5 kg** |
-| **MAXIMUM PAYLOAD MASS** | **0.7 kg** |
-| **ASSEMBLY TIME** | **8 minutes** |
-| **CRUISING SPEED** | **20 m/s \(72 km/h\)** |
-| **TAKEOFF/LANDING** | **Vertical takeoff and landing** |
-| **Range** | **868 MHZ; 30 km** |
+| FLIGHT TIME | Up to 80 minutes |
+| MASS \(MTOM\) | 6.5 kg |
+| MAXIMUM PAYLOAD MASS | 0.7 kg |
+| ASSEMBLY TIME | 8 minutes |
+| CRUISING SPEED | 20 m/s \(72 km/h\) |
+| TAKEOFF/LANDING | Vertical takeoff and landing |
+| Range | 868 MHZ; 30 km |
 
 ### \*\*\*\*
 
