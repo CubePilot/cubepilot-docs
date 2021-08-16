@@ -14,7 +14,7 @@ T-MOTOR, a world renowned company, providing propulsion system solution for UAV 
 
 **Our purport:** Technological Innovation; Win-Win Cooperation; Integrity &Service
 
-
+## T-MOTOR Team
 
 T-MOTOR is a team of profession, innovation and passion.
 
@@ -29,8 +29,6 @@ T-MOTOR is a team of profession, innovation and passion.
 **Other Departments:** We coordinate with each other from better T-MOTOR.
 
 T-MOTOR also offers OEM/ODM service to meet various demands from customers. We would like to grow up with you--our esteemed customers, and gain mutual benefits. Your valuable comments and ideas would be appreciated.
-
-
 
 ## T-MOTOR Culture
 
@@ -49,8 +47,6 @@ T-MOTOR starting from user experience, innovates satisfactory products for custo
 T-MOTOR founded on integrity is looking forward to cooperating with you for mutual benefits.
 
 SERVICE T-MOTOR provides you with full-scale and professional services.
-
-
 
 ## Product Description
 
