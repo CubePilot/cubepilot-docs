@@ -1,4 +1,4 @@
-# CubePilot Made in USA
+# CubePilot USA
 
 ![](../.gitbook/assets/cubepilot-made-in-usa-r.jpg)
 
