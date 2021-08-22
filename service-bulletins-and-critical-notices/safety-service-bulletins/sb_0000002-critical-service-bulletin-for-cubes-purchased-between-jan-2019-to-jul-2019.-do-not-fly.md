@@ -3,7 +3,7 @@
 **Latest update please refer to:**  
 [SB\_0000002 Critical service bulletin for Cubes Purchased between January 2019 to July 2019. DO NOT FLY](https://discuss.cubepilot.org/t/sb-0000002-critical-service-bulletin-for-cubes-purchased-between-january-2019-to-july-2019-do-not-fly/406)
 
-[Cube Blue \(made in USA\) is not affected by safety Bulletin 2  
+[Cube Blue \(USA\) is not affected by safety Bulletin 2  
 ](https://discuss.cubepilot.org/t/cube-blue-is-not-affected-by-safety-bulletin-2/631)  
 \*\*Edit 3 April 2020  
 This issue is fully resolved by 3.6.12 but many updates have come since. Please keep up to date as this SB only relates to the IMU matter.  
