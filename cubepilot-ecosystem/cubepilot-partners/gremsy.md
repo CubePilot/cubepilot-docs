@@ -32,7 +32,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Specifications for MIO</b>
+      <th style="text-align:left"><b>Specifications for<br />MIO</b>
       </th>
       <th style="text-align:left"></th>
     </tr>
@@ -103,7 +103,7 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Specifications for PIXY U</b>
+      <th style="text-align:left"><b>Specifications for <br />PIXY U</b>
       </th>
       <th style="text-align:left"></th>
     </tr>
@@ -166,7 +166,7 @@ Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PR
 ●  Support Herelink for drone & camera gimbal control  
 ●  Support autonomous flight using Pixhawk
 
-| Specifications for PIXY F |  |
+| Specifications for  PIXY F |  |
 | :--- | :--- |
 | **Dimensions \(D x W x H\)** | 139 x 132 x 153 mm \(gimbal\) |
 | **Weight** | 0.8 lbs \(360 g\) |
@@ -194,7 +194,8 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Specifications for PIXY WS</th>
+      <th style="text-align:left">Specifications for
+        <br />PIXY WS</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -261,7 +262,8 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Specifications for GREMSY T3</th>
+      <th style="text-align:left">Specifications for
+        <br />GREMSY T3</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -331,7 +333,8 @@ Gremsy S1 is a compact 3-axis gimbal for mappers, surveyors and industry experts
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Specifications for GREMSY S1</th>
+      <th style="text-align:left">Specifications for
+        <br />GREMSY S1</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -401,7 +404,7 @@ Gremsy T7 is the next level of heavy lifting gimbal for industrial applications.
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Specifications<b> for GREMSY T7</b>
+      <th style="text-align:left">Specifications<b> for <br />GREMSY T7</b>
       </th>
       <th style="text-align:left"></th>
     </tr>
