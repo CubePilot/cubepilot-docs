@@ -534,6 +534,8 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
 | Original of Manufacturing | Taiwan | U.S.A | Taiwan | Taiwan | Taiwan | Taiwan | Taiwan | U.S.A | Taiwan |
 | Product lifecycle | Available | Available | Available | Available | EOL Please use Cube Orange | EOL Please use Cube Orange | EOL Please use Cube Orange | EOL Please use Cube Blue H7 | EOL Please use Cube Purple H7 |
 
+\*CubeBlue “manufactured in USA with US and allied components”
+
 ### List of features The Cube
 
 * Three IMU's
