@@ -27,7 +27,7 @@
 ● Support Herelink for drone & camera gimbal control  
 ● Support autonomous flight using Pixhawk
 
-{% embed url="https://www.youtube.com/watch?v=kAMOtPT3jnQ&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="MIO VIDEO INTRODUCTION" %}
+{% embed url="https://www.youtube.com/watch?v=kAMOtPT3jnQ&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="" %}
 
 <table>
   <thead>
@@ -41,7 +41,8 @@
     <tr>
       <td style="text-align:left"><b>Dimensions (D x W x H)</b>
       </td>
-      <td style="text-align:left">120 x 99 x 175 mm (gimbal) 43 x 85 x 70 mm (camera cage)</td>
+      <td style="text-align:left">120 x 99 x 175 mm (gimbal)
+        <br />43 x 85 x 70 mm (camera cage)</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Weight</b>
@@ -92,11 +93,12 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
 ●  Multi-camera support  
 ●  Compact & lightweight design  
 ●  Upside down perspective  
-●  Support Herelink for drone & camera gimbal control Support autonomous flight using Pixhawk
+●  Support Herelink for drone & camera gimbal control   
+●  Support autonomous flight using Pixhawk
 
 
 
-{% embed url="https://www.youtube.com/watch?v=3GMF1Nq-Upo&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="PIXY U VIDEO INTRODUCTION" %}
+{% embed url="https://www.youtube.com/watch?v=3GMF1Nq-Upo&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="" %}
 
 <table>
   <thead>
@@ -110,7 +112,8 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
     <tr>
       <td style="text-align:left"><b>Dimensions (D x W x H)</b>
       </td>
-      <td style="text-align:left">145 x 112 x 200 mm (gimbal) 65.5 x 100 x 70 mm (camera cage)</td>
+      <td style="text-align:left">145 x 112 x 200 mm (gimbal)
+        <br />65.5 x 100 x 70 mm (camera cage)</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Weight</b>
@@ -185,7 +188,8 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 ●  Tailored for Wiris Security  
 ●  No balancing nor tuning  
 ●  Upside down perspective  
-●  Support Herelink for drone & camera gimbal control Support autonomous flight using Pixhawk
+●  Support Herelink for drone & camera gimbal control   
+●  Support autonomous flight using Pixhawk
 
 <table>
   <thead>
@@ -252,7 +256,7 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 ●  Support Herelink for drone & camera gimbal control  
 ●  Support autonomous flight using Pixhawk
 
-{% embed url="https://www.youtube.com/watch?v=LQzXEjOjRlM&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="GREMSY T3 VIDEO INTRODUCTION" %}
+{% embed url="https://www.youtube.com/watch?v=LQzXEjOjRlM&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="" %}
 
 <table>
   <thead>
@@ -265,7 +269,8 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
     <tr>
       <td style="text-align:left"><b>Dimensions (D x W x H)</b>
       </td>
-      <td style="text-align:left">184 x 237 x 288 mm (gimbal) 100 x 152 x 120 mm (camera cage)</td>
+      <td style="text-align:left">184 x 237 x 288 mm (gimbal)
+        <br />100 x 152 x 120 mm (camera cage)</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Weight</b>
@@ -318,9 +323,10 @@ Gremsy S1 is a compact 3-axis gimbal for mappers, surveyors and industry experts
 ●  Hot-swap capability  
 ●  Compact design. Multi-Camera Support  
 ●  Flexible in camera mounting  
-●  Support Herelink for drone & camera gimbal control Support autonomous flight using Pixhawk
+●  Support Herelink for drone & camera gimbal control   
+●  Support autonomous flight using Pixhawk
 
-{% embed url="https://www.youtube.com/watch?v=4hdR6KJ9jeA&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="GREMSY S1 VIDEO INTRODUCTION" %}
+{% embed url="https://www.youtube.com/watch?v=4hdR6KJ9jeA&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="" %}
 
 <table>
   <thead>
@@ -333,7 +339,8 @@ Gremsy S1 is a compact 3-axis gimbal for mappers, surveyors and industry experts
     <tr>
       <td style="text-align:left"><b>Dimensions (D x W x H)</b>
       </td>
-      <td style="text-align:left">168 x 150 x 220 mm (gimbal) 65 x 120 x 75 mm (camera cage)</td>
+      <td style="text-align:left">168 x 150 x 220 mm (gimbal)
+        <br />65 x 120 x 75 mm (camera cage)</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Weight</b>
@@ -386,9 +393,10 @@ Gremsy T7 is the next level of heavy lifting gimbal for industrial applications.
 ●  Hot-swap capability  
 ●  Handle heavy-lift cameras  
 ●  Multiple-camera mounting with ease  
-●  Support Herelink for drone & camera gimbal control Support autonomous flight using Pixhawk
+●  Support Herelink for drone & camera gimbal control   
+●  Support autonomous flight using Pixhawk
 
-{% embed url="https://www.youtube.com/watch?v=Nwnilc-HcIE&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="GREMSY T7 VIDEO" %}
+{% embed url="https://www.youtube.com/watch?v=Nwnilc-HcIE&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="" %}
 
 <table>
   <thead>
