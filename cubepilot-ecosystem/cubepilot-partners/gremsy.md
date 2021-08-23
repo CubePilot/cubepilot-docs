@@ -1,6 +1,6 @@
 # Gremsy
 
-## Company Introduction
+## About Gremsy
 
 ![](../../.gitbook/assets/entry-banner.png)
 
@@ -27,12 +27,13 @@
 ● Support Herelink for drone & camera gimbal control  
 ● Support autonomous flight using Pixhawk
 
-[**\*MIO VIDEO INTRODUCTION**](https://www.youtube.com/watch?v=kAMOtPT3jnQ)\*\*\*\*
+{% embed url="https://www.youtube.com/watch?v=kAMOtPT3jnQ&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="MIO VIDEO INTRODUCTION" %}
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
+      <th style="text-align:left"><b>Specifications for MIO</b>
+      </th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -93,12 +94,14 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
 ●  Upside down perspective  
 ●  Support Herelink for drone & camera gimbal control Support autonomous flight using Pixhawk
 
- [**\*PIXY U VIDEO INTRODUCTION**](https://www.youtube.com/watch?v=3GMF1Nq-Upo)
+
+
+{% embed url="https://www.youtube.com/watch?v=3GMF1Nq-Upo&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="PIXY U VIDEO INTRODUCTION" %}
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Specifications</b>
+      <th style="text-align:left"><b>Specifications for PIXY U</b>
       </th>
       <th style="text-align:left"></th>
     </tr>
@@ -152,7 +155,7 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
 
 ![](../../.gitbook/assets/gremsy-pixy-f.png)
 
-Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PRO R. This compact gimbal offers the optimized size and weight for longer flight time.
+Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PRO R. This compact gimbal offers the optimised size and weight for longer flight time.
 
 **KEY FEATURES**  
 ●  Super lightweight gimbal  
@@ -160,7 +163,7 @@ Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PR
 ●  Support Herelink for drone & camera gimbal control  
 ●  Support autonomous flight using Pixhawk
 
-| Specifications |  |
+| Specifications for PIXY F |  |
 | :--- | :--- |
 | **Dimensions \(D x W x H\)** | 139 x 132 x 153 mm \(gimbal\) |
 | **Weight** | 0.8 lbs \(360 g\) |
@@ -173,8 +176,6 @@ Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PR
 
 
 ### PIXY WS
-
-
 
 ![](../../.gitbook/assets/gremsy-pixy-ws.png)
 
@@ -189,7 +190,7 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Specifications</th>
+      <th style="text-align:left">Specifications for PIXY WS</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -251,12 +252,12 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 ●  Support Herelink for drone & camera gimbal control  
 ●  Support autonomous flight using Pixhawk
 
-[**\*GREMSY T3 VIDEO INTRODUCTION**](https://www.youtube.com/watch?v=LQzXEjOjRlM)\*\*\*\*
+{% embed url="https://www.youtube.com/watch?v=LQzXEjOjRlM&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="GREMSY T3 VIDEO INTRODUCTION" %}
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Specifications</th>
+      <th style="text-align:left">Specifications for GREMSY T3</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -319,12 +320,12 @@ Gremsy S1 is a compact 3-axis gimbal for mappers, surveyors and industry experts
 ●  Flexible in camera mounting  
 ●  Support Herelink for drone & camera gimbal control Support autonomous flight using Pixhawk
 
-[**\*GREMSY S1 VIDEO INTRODUCTION**](https://www.youtube.com/watch?v=4hdR6KJ9jeA)\*\*\*\*
+{% embed url="https://www.youtube.com/watch?v=4hdR6KJ9jeA&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="GREMSY S1 VIDEO INTRODUCTION" %}
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Specifications</th>
+      <th style="text-align:left">Specifications for GREMSY S1</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -387,12 +388,13 @@ Gremsy T7 is the next level of heavy lifting gimbal for industrial applications.
 ●  Multiple-camera mounting with ease  
 ●  Support Herelink for drone & camera gimbal control Support autonomous flight using Pixhawk
 
-[**\*GREMSY T7 VIDEO**](https://www.youtube.com/watch?v=Nwnilc-HcIE)
+{% embed url="https://www.youtube.com/watch?v=Nwnilc-HcIE&ab\_channel=Gremsy-3AxisCameraStabilizer" caption="GREMSY T7 VIDEO" %}
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Specifications</th>
+      <th style="text-align:left">Specifications<b> for GREMSY T7</b>
+      </th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -440,11 +442,9 @@ Gremsy T7 is the next level of heavy lifting gimbal for industrial applications.
   </tbody>
 </table>
 
-### 
-
 ## Contact
 
-![](../../.gitbook/assets/gremsy-logo.png)
+![](../../.gitbook/assets/main-logo-v1-small.png)
 
 ●  152-154 Street No.02, Van Phuc Residential City,   
 Hiep Binh Phuoc Ward, Thu Duc City, Ho Chi Minh City, Vietnam  
@@ -452,7 +452,5 @@ Hiep Binh Phuoc Ward, Thu Duc City, Ho Chi Minh City, Vietnam
 ●  contact@gremsy.com  
 ●  www.gremsy.com
 
-## Product Pictures 
-
-Please find Gremsy product pictures [**HERE**](https://drive.google.com/drive/folders/1IKjBv0CjABedb0K2BxtPpHs_SnQX41Rv?usp=sharing)
+## 
 
