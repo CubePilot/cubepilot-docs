@@ -14,6 +14,8 @@
 * All sensors connected via SPI.
 * Micro SD interfaces via SDIO.
 
+\*CubeBlue “manufactured in USA with US and allied components”
+
 ### EOL And Substitution
 
 * MPU9250, LSM303D, L3GD20 are all EOL, As such, all new designs should use the H7 based boards CubeBlueH7, CubeOrange, and CubePurpleH7 are 100% plug and play with all carrier boards that are compliant with our reference design dating back to 2014. 
@@ -106,6 +108,8 @@ All flight sensors in The Cube are connected via SPI.
 IMU1, Non-Isolated  
 IMU2 & 3, Isolated  
 Data-ready signals from all sensors are **NOT ROUTED on the Isolated IMU**
+
+\*CubeBlue “manufactured in USA with US and allied components”
 
 ## Power Architecture
 
