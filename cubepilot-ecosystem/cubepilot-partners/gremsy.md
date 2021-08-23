@@ -450,7 +450,7 @@ Gremsy T7 is the next level of heavy lifting gimbal for industrial applications.
 Hiep Binh Phuoc Ward, Thu Duc City, Ho Chi Minh City, Vietnam  
 ●  \(+84-28\) 37 205 221  
 ●  contact@gremsy.com  
-●  www.gremsy.com
+●  [www.gremsy.com](http://www.gremsy.com)
 
 ## 
 
