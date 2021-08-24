@@ -19,8 +19,6 @@ Airbot Systems is a french company that develops and produces high standard aeri
 
 A Mini PDB that can pass up to 180A now accompanies the mini carrier board. This ultra compact setup allows easy and clean mounting on all types of chassis.
 
-
-
 ####  **FEATURES :**
 
 ●  Dual power inputs   
