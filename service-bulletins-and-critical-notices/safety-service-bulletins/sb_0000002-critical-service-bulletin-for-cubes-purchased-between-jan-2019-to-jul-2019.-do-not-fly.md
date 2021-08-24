@@ -5,6 +5,8 @@
 
 [Cube Blue \(USA\) is not affected by safety Bulletin 2  
 ](https://discuss.cubepilot.org/t/cube-blue-is-not-affected-by-safety-bulletin-2/631)  
+\*Cube Blue manufactured in USA with US and allied components
+
 \*\*Edit 3 April 2020  
 This issue is fully resolved by 3.6.12 but many updates have come since. Please keep up to date as this SB only relates to the IMU matter.  
 Please see Ardupilot release notes for other Ardupilot matters covered in each release
