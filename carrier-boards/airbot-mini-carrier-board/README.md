@@ -1,7 +1,5 @@
 # Airbot Mini Carrier Board
 
-### Airbot Mini Carrier Board
-
 ![](../../.gitbook/assets/airbot-mini-carrier-board.png)
 
 ![](../../.gitbook/assets/airbot-mini-carrier-board-with-cube-orange.png)
