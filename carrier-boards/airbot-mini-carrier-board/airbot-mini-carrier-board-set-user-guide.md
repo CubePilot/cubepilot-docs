@@ -50,7 +50,7 @@ ATTENTION ! : The PDB can not be attached to any conductive materials. Beware to
 
 When using nylon spacers or insulations\(e.g PlastiDIP\), remember to leave enough spacing distance away from conductors.
 
-### Installation diagram
+### INSTALLATION DIAGRAM
 
 ![](../../.gitbook/assets/airbot-mcb-set-with-cube-orange-side.jpg)
 
