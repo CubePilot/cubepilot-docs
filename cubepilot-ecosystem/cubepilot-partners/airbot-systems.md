@@ -22,7 +22,7 @@ A Mini PDB that can pass up to 180A now accompanies the mini carrier board. This
 ####  **FEATURES :**
 
 ●  Dual power inputs   
-    \(redundant power with automatic switch to the second power source when first      one fails\)  
+    \(redundant power with automatic switch to the second power source when first one fails\)  
 ●  Easy to install on drone   
     \(see the mounting pattern above\)  
 ●  Power distribution & voltage protection   
