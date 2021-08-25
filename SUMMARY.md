@@ -64,6 +64,8 @@
 * [ADS-B IN Carrier Board](carrier-boards/ads-b-carrier-board.md)
 * [Mini Carrier Board](carrier-boards/mini-carrier-board.md)
 * [Standard Carrier Board Footprint & Dimensions](carrier-boards/standard-carrier-board-footprint-and-dimensions.md)
+* [Airbot Mini Carrier Board](carrier-boards/airbot-mini-carrier-board/README.md)
+  * [Airbot Mini Carrier Board Set User Guide](carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md)
 * [Carrier Boards FAQ](carrier-boards/carrier-boards-faq.md)
 
 ## FLOW SENSOR <a id="flow-senor"></a>
