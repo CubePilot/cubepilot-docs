@@ -14,7 +14,7 @@ With Grepow’s more than 20 years of experience in battery development and prod
 
 Tattu batteries’ capacity, C-rate, weight, and other specs have been designed according to industry standards and demands of its many pilots.  With its dependable yet powerful Smart and High Voltage series, Tattu batteries carry quite the punch.  For smaller packs, the Funfly and R-Line series have and continue to be a trustworthy choice.
 
-### **FPV Batteries**
+### **Commercial-Drone** **Batteries**
 
 ![](../../.gitbook/assets/tattu-commercial-drone-batteries.jpg)
 
@@ -55,7 +55,7 @@ EU Website: [https://www.gensace.de/](https://www.gensace.de/)
 Facebook: [https://www.facebook.com/Tattulipos](https://www.facebook.com/Tattulipos)  
 
 
-Instagram: [https://www.instagram.com/tattulipos/?fbclid=IwAR1td9VEJNB0Xg04kDg2V4d8rSpKcVqgfP-R6d77xXQVeLAxo94HXAUdDhg](https://www.instagram.com/tattulipos/?fbclid=IwAR1td9VEJNB0Xg04kDg2V4d8rSpKcVqgfP-R6d77xXQVeLAxo94HXAUdDhg)
+Instagram: [https://www.instagram.com/tattulipos/​](https://www.instagram.com/tattulipos/​)
 
 Youtube: [https://www.youtube.com/channel/UCfWP-RIqbjGPx-V\_5jkNy5Q](https://www.youtube.com/channel/UCfWP-RIqbjGPx-V_5jkNy5Q)
 
