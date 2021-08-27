@@ -55,7 +55,7 @@ EU Website: [https://www.gensace.de/](https://www.gensace.de/)
 Facebook: [https://www.facebook.com/Tattulipos](https://www.facebook.com/Tattulipos)  
 
 
-Instagram: [https://www.instagram.com/tattulipos/​](https://www.instagram.com/tattulipos/​)
+Instagram: [https://www.instagram.com/tattulipos/​](https://www.instagram.com/tattulipos/)
 
 Youtube: [https://www.youtube.com/channel/UCfWP-RIqbjGPx-V\_5jkNy5Q](https://www.youtube.com/channel/UCfWP-RIqbjGPx-V_5jkNy5Q)
 
