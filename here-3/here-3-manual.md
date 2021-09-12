@@ -342,11 +342,11 @@ Click “Menu &gt; CANPassThrough”. Set TCP port to “500” then click “OK
 
 ![](../.gitbook/assets/here3-9.jpg)
 
-Open u-center and connect it \(Connect &gt; Network Connection &gt; new\).
+Open u-center and connect it \(Receiver &gt; Connection &gt; Network connection &gt; New...\).
 
 ![](../.gitbook/assets/here3-10.jpg)
 
-Open “Firmware Update Utility” \(Tools &gt; Firmware Update Utility\) and set the following:
+Open “Firmware Update Utility” \(Tools &gt; Firmware Update...\) and set the following:
 
 ![](../.gitbook/assets/here3-11.jpg)
 
