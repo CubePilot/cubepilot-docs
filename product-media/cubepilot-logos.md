@@ -2,7 +2,7 @@
 
 ![Cubepilot logo-1 \(For Black backgound\) transparent background PNG file please download below](../.gitbook/assets/cubepilot-logo-1-for-black-backgound-.jpg)
 
-{% file src="../.gitbook/assets/cubepilot-logo-1-for-black-background-.png" %}
+{% file src="../.gitbook/assets/cubepilot-logo-1-for-black-backgound-.png" %}
 
 ![Cubepilot logo-2 \(For White background\) transparent background PNG file please download below](../.gitbook/assets/cubepilot-logo-2-for-white-background-.jpg)
 

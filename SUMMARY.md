@@ -106,7 +106,7 @@
   * [BZB UAS](cubepilot-ecosystem/cubepilot-partners/bzb-uas.md)
   * [Kraus Hamdani Aerospace](cubepilot-ecosystem/cubepilot-partners/kraus-hamdani-aerospace.md)
   * [Union Robotics](cubepilot-ecosystem/cubepilot-partners/union-robotics.md)
-  * [Silent Arrow](cubepilot-ecosystem/cubepilot-partners/silent-arrow.md)
+  * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
     * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
       * [EDU-450](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/edu-450.md)

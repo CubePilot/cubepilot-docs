@@ -24,14 +24,14 @@ The Here3 has built-in sensors including compass, gyroscope, accelerometer, and 
 | **Receiver Type** | u-blox **M8 high precision GNSS modules** \(M8P\) |
 | :---: | :---: |
 | **Satellite Constellation** | **GPS L1C/A, GLONASS L1OF, BeiDou B1I** |
-| **Positioning accuracy**  | **3D FIX: 2.5 m / RTK: 0.025 m** |
+| **Positioning accuracy** | **3D FIX: 2.5 m / RTK: 0.025 m** |
 | **Processor** | **STM32F302** |
-| **IMU sensor**  | **ICM20948** |
-| **Navigation Update Rate**  | **Max: 8Hz** |
+| **IMU sensor** | **ICM20948** |
+| **Navigation Update Rate** | **Max: 8Hz** |
 | **Communication Protocol** | **CAN** |
 | **Operating Temperature** | **-40℃ to 85℃** |
-| **Dimension**  | **68mm x 68mm x 16mm** |
-| **Weight**  | **48.8g** |
+| **Dimension** | **68mm x 68mm x 16mm** |
+| **Weight** | **48.8g** |
 
 ### Pinout
 
@@ -323,8 +323,8 @@ This instruction uses u-center GUI from u-blox, the correct version should be v2
 
 Download the u-blox chip firmware. \(The latest firmware for u-blox M8P chip is v1.4 when this guide is written\):
 
-u-blox M8P chip firmware:   
-https://www.u-blox.com/en/product/neo-m8p-series\#tab-documentati on-resources
+u-blox M8P chip firmware:  
+[https://www.u-blox.com/en/product/neo-m8p-series\#tab-documentati](https://www.u-blox.com/en/product/neo-m8p-series#tab-documentati) on-resources
 
 Parameter definition: passThrough = 0 Standard mode
 
@@ -378,7 +378,7 @@ Open u-center and connect it \(Connect &gt; Network Connection &gt; new\).
 
 ![](../.gitbook/assets/here3-16.jpg)
 
-When connected, parameters and messages can be viewed in u-center. 
+When connected, parameters and messages can be viewed in u-center.
 
 When finished reviewing, go back to Mission Planner and set “passthrough” to “0”.
 
@@ -393,23 +393,13 @@ Be aware that the following steps should be done when there is only 1 GPS module
 After verifying the firmware has already updated to v1.6 or later, click “Menu – Parameters to enter the setting:
 
 gnssConfig = 8 for BeiDou  
- gnssConfig = 9 for GPS+BeiDou  
- gnssConfig = 97 for GPS+GLONASS+QZSS  
- When done, click “Write Params” and “Commit Params” at the righthand side.
+gnssConfig = 9 for GPS+BeiDou  
+gnssConfig = 97 for GPS+GLONASS+QZSS  
+When done, click “Write Params” and “Commit Params” at the righthand side.
 
 ![](../.gitbook/assets/here3-19.jpg)
 
-
-
-
-
-
-
-
-
 ## [Here3 Stand 3D STEP download](https://docs.cubepilot.org/user-guides/3d-printing/here-3-stand)
-
-
 
 2020.12.18
 
