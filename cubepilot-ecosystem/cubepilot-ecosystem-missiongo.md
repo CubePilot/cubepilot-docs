@@ -1,4 +1,3 @@
 # CubePilot Ecosystem MissionGO
 
-![](../.gitbook/assets/cubepilot-ecosystem-missiongo-ust-cmyk-210x297mm-3mm-20211006-final.jpg)
-
+![](<../.gitbook/assets/CubePilot Ecosystem MissionGO(EN-RGB-4098x5464dpi-20211006)-Final.jpg>)

@@ -6,7 +6,7 @@
 
 ProfiLEDs are individually addressable RGB LED's that can be controlled directly by a Cube running ArduPilot. They can be set to match the notification colours of the HERE GPS units, allowing the state of the autopilot to be more visible. It is also possible to control ProfiLEDs directly from ArduPilot's onboard Lua scripting. This allows ProfiLED's to be used as navigation lights, custom notification lights or even displays. ArduPilot running on an Orange Cube is capable of driving more than 300 ProfiLED's at 50Hz.
 
-{% embed url="https://youtu.be/ytW538e\_cQw" caption="" %}
+{% embed url="https://youtu.be/ytW538e_cQw" %}
 
 {% hint style="info" %}
 ProfiLED support is only in the latest/master ArduPilot branch, it is not yet in the stable release.
@@ -24,21 +24,20 @@ Any Cube servo output wired to the clock of the LED's should be set to function 
 
 **Notification Status Display**
 
-| Connection | Parameter | Value | Meaning |
-| :--- | :--- | :--- | :--- |
-| Servo rail output x - profiLED CI | SERVOx\_FUNCTION | 132 | ProfiLED Clock |
-| Servo rail output y - profiLED DI | SERVOy\_FUNCTION | 129-131 | ProfiLED 1-3 |
+| Connection                        | Parameter       | Value   | Meaning        |
+| --------------------------------- | --------------- | ------- | -------------- |
+| Servo rail output x - profiLED CI | SERVOx_FUNCTION | 132     | ProfiLED Clock |
+| Servo rail output y - profiLED DI | SERVOy_FUNCTION | 129-131 | ProfiLED 1-3   |
 
 **Lua Script Output**
 
-| Connection | Parameter | Value | Meaning |
-| :--- | :--- | :--- | :--- |
-| Servo rail output x - profiLED CI | SERVOx\_FUNCTION | 132 | ProfiLED Clock |
-| Servo rail output y - profiLED DI | SERVOy\_FUNCTION | 94-109 | Script 1-16 |
+| Connection                        | Parameter       | Value  | Meaning        |
+| --------------------------------- | --------------- | ------ | -------------- |
+| Servo rail output x - profiLED CI | SERVOx_FUNCTION | 132    | ProfiLED Clock |
+| Servo rail output y - profiLED DI | SERVOy_FUNCTION | 94-109 | Script 1-16    |
 
-To enable ProfiLED notify output the NTF\_LED\_TYPES bitmask should include ProfiLED, this is bit 9. NTF\_LED\_LEN should be set to the length of the longest string that is connected. There are several other NTF\_ parameters that allow the brightness and colour patterns to be changed. Several Lua scripting LED control examples can be found in the [ArduPilot examples folder](https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Scripting/examples).
+To enable ProfiLED notify output the NTF_LED_TYPES bitmask should include ProfiLED, this is bit 9. NTF_LED_LEN should be set to the length of the longest string that is connected. There are several other NTF\_ parameters that allow the brightness and colour patterns to be changed. Several Lua scripting LED control examples can be found in the [ArduPilot examples folder](https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Scripting/examples).
 
 {% hint style="info" %}
-ProfiLED's are a PWM output type, BRD\_PWM\_COUNT must be set to enable PWM output on the desired pins. You can check is they are assigned correctly by looking for the RCOut message in the messages tab. For example 'RCOut: PWM:1-8 ProfiLED:9-12 PWM:13-14'
+ProfiLED's are a PWM output type, BRD_PWM_COUNT must be set to enable PWM output on the desired pins. You can check is they are assigned correctly by looking for the RCOut message in the messages tab. For example 'RCOut: PWM:1-8 ProfiLED:9-12 PWM:13-14'
 {% endhint %}
-

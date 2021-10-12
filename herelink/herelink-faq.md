@@ -6,22 +6,22 @@ description: "Herelink \bFAQ Resources"
 
 ## Herelink - Register Failure
 
-**-Wi-Fi**  
-_5.8GHz_   
-**-IP Address**  
-_Not in range 192.168.0.x_  
-**-Region**  
-_Select the correct region and within 5mins difference  
-  
-\*_ Please check and fulfil three requirements, otherwise register failure as a result
+**-Wi-Fi**\
+_5.8GHz _\
+**-IP Address**\
+_Not in range 192.168.0.x_\
+**-Region**\
+_Select the correct region and within 5mins difference_\
+__\
+_\* _Please check and fulfil three requirements, otherwise register failure as a result
 
 ## Herelink - Solex as Autostarting App
 
-[**Solex as autostarting app**](https://discuss.cubepilot.org/t/solex-as-autostarting-app/3893)\*\*\*\*
+[**Solex as autostarting app**](https://discuss.cubepilot.org/t/solex-as-autostarting-app/3893)****
 
 ## Herelink - Screenshot
 
-[**Open-Source Scrcpy To Control Android Via Windows & macOS**](https://discuss.cubepilot.org/t/herelink-screenshot/3881)\*\*\*\*
+[**Open-Source Scrcpy To Control Android Via Windows & macOS**](https://discuss.cubepilot.org/t/herelink-screenshot/3881)****
 
 ## Herelink - Video / Camera 
 
@@ -29,48 +29,48 @@ _Select the correct region and within 5mins difference
 
 \*Latest update please check the URL above, thank you!
 
-Below the list of the cameras which have been tested and reported working or not working with the Herelink  
+Below the list of the cameras which have been tested and reported working or not working with the Herelink\
 Any help to grow the list is welcome. If there is any specific settings to use, please tell it.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Canon EOS M3\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-GoPro 3\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-GoPro 4\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-GoPro 5\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-GoPro 7\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-GoPro 8\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings \(with its Media Module\)  
-ZCam E1\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Foxeer Box2\_\_\_\_\_\_\_\_\_\_\_Specific settings \(search for [@UlrichC](https://discuss.cubepilot.org/u/ulrichc) message for full infos\)  
-Flir Duo Pro\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony AS200V\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony NEX-3N\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony a5100\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony A6000\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony A6300\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony A7R\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony A7Rii\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony RX1Rii\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony RX0 mki\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony RX100VI\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Sony HX50\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-SONY HDR-CX450\_\_\_\_\_\_\_Stock/out of the box settings  
-SONY HDR-PJ620\_\_\_\_\_\_\_Stock/out of the box settings  
-SONY HDR-CX440\_\_\_\_\_\_\_Stock/out of the box settings  
-Foxeer HS1223\_\_\_\_\_\_\_\_\_\_Set resolution to 1080p 30fps with Foxeer app  
-Foxtech Seeker 30 max\_\_\_Stock/out of the box settings  
-Waltter move 500\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Hawkeye Firefly split 4k\_\_\_Stock/out of the box settings \(firmware 20190926 works better than others\)  
-Firefly Q6\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Optris PI-Series\_\_\_\_\_\_\_\_\_Stock/out of the box settings \(via companion computer with MS Windows\)  
-EKEN H9R\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings  
-Black Magic micro cinema\_Stock/out of the box settings  
-NextVision cameras with TRIP2 accessory\_Stock/out of the box settings
+Canon EOS M3\__\__\__\__\_Stock/out of the box settings\
+GoPro 3\__\__\__\__\__\__\__\_Stock/out of the box settings\
+GoPro 4\__\__\__\__\__\__\__\_Stock/out of the box settings\
+GoPro 5\__\__\__\__\__\__\__\_Stock/out of the box settings\
+GoPro 7\__\__\__\__\__\__\__\_Stock/out of the box settings\
+GoPro 8\__\__\__\__\__\__\__\_Stock/out of the box settings (with its Media Module)\
+ZCam E1\__\__\__\__\__\__\__Stock/out of the box settings\
+Foxeer Box2\__\__\__\__\__\_Specific settings (search for [@UlrichC](https://discuss.cubepilot.org/u/ulrichc) message for full infos)\
+Flir Duo Pro\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony AS200V\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
+Sony NEX-3N\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
+Sony a5100\__\__\__\__\__\__Stock/out of the box settings\
+Sony A6000\__\__\__\__\__\__Stock/out of the box settings\
+Sony A6300\__\__\__\__\__\__Stock/out of the box settings\
+Sony A7R\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony A7Rii\_\_\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
+Sony RX1Rii\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony RX0 mki\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
+Sony RX100VI\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
+Sony HX50\__\__\__\__\__\__\_Stock/out of the box settings\
+SONY HDR-CX450\__\__\__\_Stock/out of the box settings\
+SONY HDR-PJ620\__\__\__\_Stock/out of the box settings\
+SONY HDR-CX440\__\__\__\_Stock/out of the box settings\
+Foxeer HS1223\__\__\__\__\__Set resolution to 1080p 30fps with Foxeer app\
+Foxtech Seeker 30 max\_\__Stock/out of the box settings\
+Waltter move 500\__\__\__\__Stock/out of the box settings\
+Hawkeye Firefly split 4k\_\__Stock/out of the box settings (firmware 20190926 works better than others)\
+Firefly Q6\__\__\__\__\__\__\__Stock/out of the box settings\
+Optris PI-Series\_\_\_\_\_\_\_\__Stock/out of the box settings (via companion computer with MS Windows)\
+EKEN H9R\_\_\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
+Black Magic micro cinema_Stock/out of the box settings\
+NextVision cameras with TRIP2 accessory_Stock/out of the box settings
 
 \*\*\*\*\*\*\*\*\*\*\*\* Not Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Workswell Wiris Mini  
-Workswell Wiris and Wiris 2nd Generation  
+Workswell Wiris Mini\
+Workswell Wiris and Wiris 2nd Generation\
 Xiaomi Yi
 
 ## Herelink - Connection
@@ -87,7 +87,7 @@ Mini BNC
 
 ## Herelink - Calibration
 
-[**Refer to - Herelink User Guides - Pairing, RC Calibration & Setup**](herelink-user-guides/one-time-setup.md)\*\*\*\*
+[**Refer to - Herelink User Guides - Pairing, RC Calibration & Setup**](herelink-user-guides/one-time-setup.md)****
 
 ## Herelink - Encryption
 
@@ -97,79 +97,79 @@ Herelink encrypt over the air uses aes-128-ctr
 
 ## Herelink - Ethernet
 
-[**Herelink Ethernet**](https://discuss.cubepilot.org/t/herelink-ethernet/4369)   
-  
+[**Herelink Ethernet**](https://discuss.cubepilot.org/t/herelink-ethernet/4369)** **\
+****\
 ****I’m trying to get ethernet passthrough working. I’m running on the Beta Channel, SRU01200616 on the ground unit and the corresponding version on the airside.
 
 I understand an ethernet adapter with a R8152/8153 chip is required, I have an ANKER A7610011 and a Cable Matters 202023-BLK for testing. Both use the correct chip according to the Amazon comments, although it's very hard to get the information directly from the manufactures.
 
-On the ground side, I have a generic OTG adapter and have tested it with a USB stick. On the airside I have an OTG charging passthrough cable, this allows to power the adapter \(and the airside, and cube, I’m not sure if that is a good idea\).
+On the ground side, I have a generic OTG adapter and have tested it with a USB stick. On the airside I have an OTG charging passthrough cable, this allows to power the adapter (and the airside, and cube, I’m not sure if that is a good idea).
 
 I understand with an adapter on both ends it should be a transparent link but I can't seem to get it working.
 
 It does have to be said that I am a complete beginner with regard to networking stuff such as this.
 
-**The next trick is getting ADB access to confirm \(GCS\)**  
-  
-Here is a new bootimage for the GCS unit to make the R8152/53 detect. [https://drive.google.com/file/d/1MGFAqC1zXrdnO2yEGhaigW-xktIx2cHj/view?usp=sharing 2](https://drive.google.com/file/d/1MGFAqC1zXrdnO2yEGhaigW-xktIx2cHj/view?usp=sharing) \(GCS unit bootimage with R8152\)  
-the stock image includes  
-AX8817X  
-AX88179\_178A  
+**The next trick is getting ADB access to confirm (GCS)**\
+\
+Here is a new bootimage for the GCS unit to make the R8152/53 detect. [https://drive.google.com/file/d/1MGFAqC1zXrdnO2yEGhaigW-xktIx2cHj/view?usp=sharing 2](https://drive.google.com/file/d/1MGFAqC1zXrdnO2yEGhaigW-xktIx2cHj/view?usp=sharing) (GCS unit bootimage with R8152)\
+the stock image includes\
+AX8817X\
+AX88179\_178A\
 NET1080
 
-to update the boot image via USB \(i assume you have ADB access already/developer mode\)
+to update the boot image via USB (i assume you have ADB access already/developer mode)
 
-> adb reboot bootloader  
-> fastboot flash boot boot.img  
+> adb reboot bootloader\
+> fastboot flash boot boot.img\
 > fastboot reboot
 
 Next, we enable ADB via TCPIP, but first, we need to enable this via USB
 
-> adb shell  
-> setprop persist.adb.tcp.port 5555  
+> adb shell\
+> setprop persist.adb.tcp.port 5555\
 > reboot
 
-then after the reboot, get the IP of the GCS unit \(eg 10.0.0.99\)
+then after the reboot, get the IP of the GCS unit (eg 10.0.0.99)
 
-> adb connect 10.0.0.99  
+> adb connect 10.0.0.99\
 > adb shell
 
-you should get the shell again  
+you should get the shell again\
 do a
 
 > ifconfig
 
 and check if eth0 exists
 
-Now verify we can ADB into the air unit  
+Now verify we can ADB into the air unit\
 once you have ADB to the GCS unit, power on the air unit and do a
 
-> adb shell \(gets you into the gcs unit\)  
-> adb connect 192.168.0.10  
+> adb shell (gets you into the gcs unit)\
+> adb connect 192.168.0.10\
 > adb -s 192.168.0.10:5555 shell
 
 this should now get you into the air unit.
 
-Next  
+Next\
 try running a
 
 > /bin/busybox brctl show
 
 under interfaces, you should see vxlan1 and eth0
 
-> optimus:/ $ /bin/busybox brctl show  
-> bridge name bridge id STP enabled interfaces  
-> br-vxlan 8000.00e04c360345 no vxlan1  
+> optimus:/ $ /bin/busybox brctl show\
+> bridge name bridge id STP enabled interfaces\
+> br-vxlan 8000.00e04c360345 no vxlan1\
 > eth0
 
 also, run
 
-> ping 192.168.144.10  
+> ping 192.168.144.10\
 > ping 192.168.144.11
 
 these are the bridge endpoint IP’s
 
-during testing, make sure the screen stays on there GCS unit, otherwise, power-saving features limit background data flow \(A most likely setting I have not found yet\)
+during testing, make sure the screen stays on there GCS unit, otherwise, power-saving features limit background data flow (A most likely setting I have not found yet)
 
 I've just confirmed that this is working ok. one possible caveat. if your home network is using 192.168.0.x, things may not work.
 
@@ -198,19 +198,18 @@ When using Dual Streaming mode, the Herelink can get quite warm, for best result
 
 Q: When connecting the Herelink to computer to update it with flasher, the following message pops up:
 
-_Looking for DeviceTraceback \(most recent call last\):   
-File "flasher.py", line 260, in    
-File "flasher.py", line 142, in detectuntilfound   
-File "flasher.py", line 238, in detectunit   
-File "site-packages\adb-1.3.0-py3.8.egg\adb\adbcommands.py", line 138, in ConnectDevice   
-File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 221, in FindAndOpen   
-File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 117, in Open   
-File "site-packages\usb1\_init\_.py", line 2168, in open   
-File "site-packages\usb1\_\_init.py", line 133, in mayRaiseUSBError   
-File "site-packages\usb1\_\_init.py", line 125, in raiseUSBError   
-usb1.USBErrorAccess: LIBUSB\_ERROR\_ACCESS \[-3\]   
-\[11936\] Failed to execute script flasher_
+_Looking for DeviceTraceback (most recent call last): _\
+_File "flasher.py", line 260, in  _\
+_File "flasher.py", line 142, in detectuntilfound _\
+_File "flasher.py", line 238, in detectunit _\
+_File "site-packages\adb-1.3.0-py3.8.egg\adb\adbcommands.py", line 138, in ConnectDevice _\
+_File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 221, in FindAndOpen _\
+_File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 117, in Open _\
+_File "site-packages\usb1\_init\_.py", line 2168, in open _\
+_File "site-packages\usb1\__init.py", line 133, in mayRaiseUSBError _\
+_File "site-packages\usb1\__init.py", line 125, in raiseUSBError _\
+_usb1.USBErrorAccess: LIBUSB_ERROR_ACCESS \[-3] _\
+_\[11936] Failed to execute script flasher_
 
-A: The error message tells that the adb is running already. It can be fixed with the following command:   
+A: The error message tells that the adb is running already. It can be fixed with the following command: \
 **adb kill-server**
-

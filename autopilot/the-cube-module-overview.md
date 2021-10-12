@@ -21,7 +21,7 @@
 * MPU9250, LSM303D, L3GD20 are all EOL, As such, all new designs should use the H7 based boards CubeBlueH7, CubeOrange, and CubePurpleH7 are 100% plug and play with all carrier boards that are compliant with our reference design dating back to 2014. 
 * at the time of the latest edit here, cube PurpleF4 was still in stock, but when stocks run out, CubePurpleH7 will take its place.
 
-### Vibration Damped IMU board version 1 \(Fitted to Cube Black, Cube BlueF4, Cube Green\)
+### Vibration Damped IMU board version 1 (Fitted to Cube Black, Cube BlueF4, Cube Green)
 
 * LSM303D integrated accelerometer / magnetometer.
 * L3GD20 gyro.
@@ -29,7 +29,7 @@
 * MS5611 Barometer
 * All sensors connected via SPI.
 
-### Vibration Damped IMU board version 2 \(Fitted to Cube Orange, Cube BlueH7 and Cube Yellow\)
+### Vibration Damped IMU board version 2 (Fitted to Cube Orange, Cube BlueH7 and Cube Yellow)
 
 * ICM20602
 * ICM 20948
@@ -38,17 +38,17 @@
 
 ### I/O ports
 
-* 14 PWM servo outputs \(8 from IO, 6 from FMU\).
+* 14 PWM servo outputs (8 from IO, 6 from FMU).
 * R/C inputs for CPPM, Spektrum / DSM and S.Bus.
 * Analogue / PWM RSSI input.
 * S.Bus servo output.
 * 5 general purpose serial ports, 2 with full flow control
 * Two I2C ports
-* One SPI port \(un-buffered, for short cables only not recommended for use\).
-* Two CAN Bus interface. \(CAN FD for BlueH7 and Orange with CubePilot Logo\)
+* One SPI port (un-buffered, for short cables only not recommended for use).
+* Two CAN Bus interface. (CAN FD for BlueH7 and Orange with CubePilot Logo)
 * 3 Analogue inputs
-* High-powered piezo buzzer driver. \(On expansion board\)
-* High-power RGB LED. \(I2C driver compatible Connected externally only\)
+* High-powered piezo buzzer driver. (On expansion board)
+* High-power RGB LED. (I2C driver compatible Connected externally only)
 * Safety switch / LED.
 
 ## System architecture
@@ -59,7 +59,7 @@ The Cube continues with the FMU + IO architecture from the previous generation, 
 
 ### PWM Outputs
 
-The Cube has eight PWM outputs that are connected to IO and can be controlled by IO directly via R/C input and on-board mixing even if FMU is not active \(failsafe / manual mode\). Multiple update rates can be supported on these outputs in three groups; one group of four and two groups of two. PWM signal rates up to 400Hz can be supported. These 8 PWM's are output ONLY and are capable of driving up to 50mA each, but only a total of 100mA for the 8.
+The Cube has eight PWM outputs that are connected to IO and can be controlled by IO directly via R/C input and on-board mixing even if FMU is not active (failsafe / manual mode). Multiple update rates can be supported on these outputs in three groups; one group of four and two groups of two. PWM signal rates up to 400Hz can be supported. These 8 PWM's are output ONLY and are capable of driving up to 50mA each, but only a total of 100mA for the 8.
 
 Six PWM outputs are connected to FMU and feature reduced update latency. These outputs cannot be controlled by IO in failsafe conditions. Multiple update rates can be supported on these outputs in two groups; one group of four and one group of two.
 
@@ -75,9 +75,9 @@ All peripherals are connected through a single 80 pin connector, and the periphe
 
 ### Base Board
 
-The initial base board features separate connectors for each of the peripheral ports \(with a few exceptions.
+The initial base board features separate connectors for each of the peripheral ports (with a few exceptions.
 
-Five serial ports are provided. Serial 1 and 2 feature full flow control. Serial 3 is recommended as the GPS port and has the safety button and \(possibly the safety led\) as well as I2C for the compass and RGB LED. Serial 4 also has I2C, but on the second bus, thus allowing two compass modules to be connected at the same time. Serial 5 is available as a header underneath the board. Serial ports are 3.3V CMOS logic level, 5V tolerant, buffered and ESD-protected.
+Five serial ports are provided. Serial 1 and 2 feature full flow control. Serial 3 is recommended as the GPS port and has the safety button and (possibly the safety led) as well as I2C for the compass and RGB LED. Serial 4 also has I2C, but on the second bus, thus allowing two compass modules to be connected at the same time. Serial 5 is available as a header underneath the board. Serial ports are 3.3V CMOS logic level, 5V tolerant, buffered and ESD-protected.
 
 The SPI port is not buffered; it should only be used with short cable runs. Signals are 3.3V CMOS logic level, but 5V tolerant. SPI is only available to test points on the first base board, along with a CS and INT pin.
 
@@ -97,16 +97,16 @@ Serial 5 is used for the on-board ADSB-IN receiver that is featured on newer car
 
 All flight sensors in The Cube are connected via SPI.
 
-| CUBE TYPE | Life Cycle | IMU1 | IMU2 | IMU3 | Baro1 | Baro2 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| CubeBlack CubeBlueF4 CubeGreen | EOL | MPU9250 | LSM303D/L3GD20 | MPU9250 | MS5611 | MS6511 |
-| CubeBlack+ | EOL | MPU9250 | ICM20602 | ICM20948 | MS5611 | MS5611 |
-| CubePurpleF4 | EOL | MPU9250 | NA | NA | MS5611 | NA |
-| CubePurpleH7 | ACTIVE | ICM20649 | NA | NA | MS5611 | NA |
-| CubeOrange CubeYellow CubeBlueH7 | ACTIVE | ICM20649 | ICM20602 | ICM20948 | MS5611 | MS5611 |
+| CUBE TYPE                        | Life Cycle | IMU1     | IMU2           | IMU3     | Baro1  | Baro2  |
+| -------------------------------- | ---------- | -------- | -------------- | -------- | ------ | ------ |
+| CubeBlack CubeBlueF4 CubeGreen   | EOL        | MPU9250  | LSM303D/L3GD20 | MPU9250  | MS5611 | MS6511 |
+| CubeBlack+                       | EOL        | MPU9250  | ICM20602       | ICM20948 | MS5611 | MS5611 |
+| CubePurpleF4                     | EOL        | MPU9250  | NA             | NA       | MS5611 | NA     |
+| CubePurpleH7                     | ACTIVE     | ICM20649 | NA             | NA       | MS5611 | NA     |
+| CubeOrange CubeYellow CubeBlueH7 | ACTIVE     | ICM20649 | ICM20602       | ICM20948 | MS5611 | MS5611 |
 
-IMU1, Non-Isolated  
-IMU2 & 3, Isolated  
+IMU1, Non-Isolated\
+IMU2 & 3, Isolated\
 Data-ready signals from all sensors are **NOT ROUTED on the Isolated IMU**
 
 \*CubeBlue “manufactured in USA with US and allied components”
@@ -120,7 +120,7 @@ The supply of 3.3v
 * Split digital and analogue power domains for FMU and sensors.
 * Backup power for IO in the case of FMU power supply failure.
 
-### Power management module \(separate from the FMU\)
+### Power management module (separate from the FMU)
 
 Key features of The Cube power architecture:
 
@@ -133,7 +133,7 @@ Key features of The Cube power architecture:
 
 ### FMU and IO Power Supplies
 
-Both FMU and IO operate at 3.3V, and each has its own private dual-channel regulator. As in The Cube \(formerly known as Pixhawk\), each regulator features a power-on reset output tied to the regulator’s internal power-up and drop-out sequencing.
+Both FMU and IO operate at 3.3V, and each has its own private dual-channel regulator. As in The Cube (formerly known as Pixhawk), each regulator features a power-on reset output tied to the regulator’s internal power-up and drop-out sequencing.
 
 ### Power Sources
 
@@ -151,7 +151,7 @@ The brick port is the preferred power source for Cube, and brick power will alwa
 
 ### Servo Power
 
-The Cube supports both standard \(5V\) and high-voltage \(up to 10V\) servo power with some restrictions.
+The Cube supports both standard (5V) and high-voltage (up to 10V) servo power with some restrictions.
 
 IO will accept power from the servo connector up to 10V. This allows IO to failover to servo power in all cases if the main power supply is lost or interrupted.
 
@@ -181,27 +181,27 @@ When more than one power source is connected, power will be drawn from the highe
 
 In most cases, FMU should be powered via the power brick or a compatible off board regulator via the brick port or auxiliary power rail.
 
-In desktop testing scenarios, taking power from USB avoids the need for a BEC or similar servo power source \(though servos themselves will still need external power\).
+In desktop testing scenarios, taking power from USB avoids the need for a BEC or similar servo power source (though servos themselves will still need external power).
 
 ### Summary
 
 For each of the components listed, the input voltage ranges over which the device can be powered from each input is shown.
 
-|  | **Brick port** | **Aux port** | **USB port** | **Servo rail** |
-| :--- | :--- | :--- | :--- | :--- |
-| **FMU** | 4 - 5.7V | 4 - 5.7V | 4 - 5.7V | NIL |
-| **IO** | 4 - 5.7V | 4 - 5.7V | 4 - 5.7V | 4 - 10.5V |
-| **Peripherals** | 4 - 5.7 2.5A max | 4 - 5.7 2.5A max | 4 - 5.7 2.5A max | NIL |
+|                 | **Brick port**   | **Aux port**     | **USB port**     | **Servo rail** |
+| --------------- | ---------------- | ---------------- | ---------------- | -------------- |
+| **FMU**         | 4 - 5.7V         | 4 - 5.7V         | 4 - 5.7V         | NIL            |
+| **IO**          | 4 - 5.7V         | 4 - 5.7V         | 4 - 5.7V         | 4 - 10.5V      |
+| **Peripherals** | 4 - 5.7 2.5A max | 4 - 5.7 2.5A max | 4 - 5.7 2.5A max | NIL            |
 
 The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, and the power supply protection scheme ensures that no more than 5.5V is presented to peripheral devices. Power is disconnected from the peripherals when the available supply voltage falls below 2.7V, or rises above approximately 5.7V.
 
 Peripheral power is split into two groups:
 
-**Serial 1** \(`TELEM 1`\) has a private 1.5A current limit, intended for powering a low power. This output is separately EMI filtered and draws directly from the USB / Brick inputs. Peak power draw on this port should not exceed 1.5A, never power your telemetry from this port under any circumstance.
+**Serial 1** (`TELEM 1`) has a private 1.5A current limit, intended for powering a low power. This output is separately EMI filtered and draws directly from the USB / Brick inputs. Peak power draw on this port should not exceed 1.5A, never power your telemetry from this port under any circumstance.
 
 **All other peripherals** share a 1A current limit and a single power switch. Peak power draw on this port should not exceed 1.5A. Each group is individually switched under software control.
 
-The Spektrum / DSM R/C interface draws power **from its own regulator**, rather than from either of the groups above. This port is switched under software control so that Spektrum / DSM binding can be implemented. Spektrum receivers generally draw ~25mA.
+The Spektrum / DSM R/C interface draws power **from its own regulator**, rather than from either of the groups above. This port is switched under software control so that Spektrum / DSM binding can be implemented. Spektrum receivers generally draw \~25mA.
 
 S.Bus and CPPM receivers are powered by a dedicated power supply. Please do not connect any servos to this power, only an RX by itself.
 
@@ -211,39 +211,39 @@ S.Bus and CPPM receivers are powered by a dedicated power supply. Please do not 
 
 #### Voltage, Current and Fault Sensing
 
-The battery voltage and current reported **by both bricks** can be measured by the FMU. In addition, the 5V unregulated supply rail can be measured \(to detect brown- out conditions\). IO can measure the servo power rail voltage.
+The battery voltage and current reported **by both bricks** can be measured by the FMU. In addition, the 5V unregulated supply rail can be measured (to detect brown- out conditions). IO can measure the servo power rail voltage.
 
 Over-current conditions on the peripheral power ports can be detected by the FMU. Hardware lock-out prevents damage due to persistent short-circuits on these ports. The lock- out can be reset by FMU software. The under/over voltage supervisor for FMU provides an output that is used to hold FMU in reset during brown-out events.
 
-#### EMI Filtering and Transient Protection \(on the normal Base Board, must be specified for externally supplied base boards.\)
+#### EMI Filtering and Transient Protection (on the normal Base Board, must be specified for externally supplied base boards.)
 
 EMI filtering is provided at key points in the system using high-insertion-loss pass- through filters. These filters are paired with TVS diodes at the peripheral connectors to suppress power transients.
 
 Reverse polarity protection is provided at each of the power inputs. USB signals are filtered and terminated with a combined termination/TVS array.
 
-Most digital peripheral signals \(all PWM outputs, serial ports, I2C port\) are driven using ESD-enhanced buffers and feature series blocking resistors to reduce the risk of damage due to transients or accidental misconnections.
+Most digital peripheral signals (all PWM outputs, serial ports, I2C port) are driven using ESD-enhanced buffers and feature series blocking resistors to reduce the risk of damage due to transients or accidental misconnections.
 
 #### The Cube Series Interface Specification
 
 **Scope of this Document**
 
-This document covers the complete interface standard and core mechanical, electrical and external connection options of The Cube module series. Sections marked as LT \(long term\) are intended to be kept stable to isolate vehicle from autopilot revisions.
+This document covers the complete interface standard and core mechanical, electrical and external connection options of The Cube module series. Sections marked as LT (long term) are intended to be kept stable to isolate vehicle from autopilot revisions.
 
 **Interface Standard**
 
 _Connector Series_
 
-Low density: 0.1” over mould Futaba keyed servo connectors \(Mfg. to be identified\)
+Low density: 0.1” over mould Futaba keyed servo connectors (Mfg. to be identified)
 
 > Cabling: AWG24, ribbon or round, iconic colour scheme
 
-Stack: [Hirose DF17, 80pos](http://www.hirose.co.jp/cataloge_hp/en_DF17_20130411.pdf) , 4 mm stacking height, 0.5 mm pitch, drop-proof
+Stack: [Hirose DF17, 80pos](http://www.hirose.co.jp/cataloge_hp/en_DF17\_20130411.pdf) , 4 mm stacking height, 0.5 mm pitch, drop-proof
 
-High density: [JST-GH](http://www.jst-mfg.com/product/detail_e.php?series=105\) 1.25 mm
+High density: [JST-GH](http://www.jst-mfg.com/product/detail_e.php?series=105\\) 1.25 mm
 
 > Cabling: AWG28, ribbon, iconic colour scheme
 
-Power Module: [Molex Clik-Mate](https://www.molex.com/molex/products/family/clikmate_wiretoboard_connectors) 2 mm for both main and backup power\(on bottom of board?\)
+Power Module: [Molex Clik-Mate](https://www.molex.com/molex/products/family/clikmate_wiretoboard_connectors) 2 mm for both main and backup power(on bottom of board?)
 
 **The Cube**
 
@@ -251,13 +251,13 @@ Mechanical: 30x30 mm M3 mounting hole pattern, 35x35 mm footprint
 
 80 position DF17 connector. Carries _all_ autopilot interface connections.
 
-Minimal \(read: really minimal\) electrical protection
+Minimal (read: really minimal) electrical protection
 
 _No power management_
 
-3.8 to 5.7V operation \(absolute maximum ratings\)
+3.8 to 5.7V operation (absolute maximum ratings)
 
-4.0 to 5.5V operation \(compliant rating\)
+4.0 to 5.5V operation (compliant rating)
 
 **The Cube IO**
 
@@ -267,272 +267,272 @@ Total connectivity:
 
 2x CAN: CAN1 and CAN2
 
-4x UART: TELEM1, TELEM2, GPS \(I2C 1 embedded\), SERIAL4\(I2C 2 embedded\)
+4x UART: TELEM1, TELEM2, GPS (I2C 1 embedded), SERIAL4(I2C 2 embedded)
 
-1x Console: CONSOLE \(SERIAL5\)
+1x Console: CONSOLE (SERIAL5)
 
 1x HMI: USB extender
 
-**Main Power - 6 pos \(ClikMate 6 pos 2.0mm\) \| Connector：POWER1**
+**Main Power - 6 pos (ClikMate 6 pos 2.0mm) | Connector：POWER1**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
-| 2 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
-| 3 | BATT\_CURRENT\_SENS\_PROT |  | 3.3 V | BLACK | Battery Current Connecter |
-| 4 | BATT\_CURRENT\_VOLTAGE\_PROT | IN | 3.3 V | BLACK | Battery Voltage Connecter |
-| 5 | GND | - | GND | BLACK | GND connection |
-| 6 | GND | - | GND | BLACK | GND connection |
+| **Pin #** | **Name**                  | **I/O** | **Voltage** | Wire Colour | Description                   |
+| --------- | ------------------------- | ------- | ----------- | ----------- | ----------------------------- |
+| 1         | VDD\_5V_BRICK             | IN      | 5 V         | RED/GRAY    | Supply To AP from Power Brick |
+| 2         | VDD\_5V_BRICK             | IN      | 5 V         | RED/GRAY    | Supply To AP from Power Brick |
+| 3         | BATT_CURRENT_SENS_PROT    |         | 3.3 V       | BLACK       | Battery Current Connecter     |
+| 4         | BATT_CURRENT_VOLTAGE_PROT | IN      | 3.3 V       | BLACK       | Battery Voltage Connecter     |
+| 5         | GND                       | -       | GND         | BLACK       | GND connection                |
+| 6         | GND                       | -       | GND         | BLACK       | GND connection                |
 
-**Backup Power - 6 pos \| Connector：POWER2**
+**Backup Power - 6 pos | Connector：POWER2**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
-| 2 | VDD\_5V\_BRICK | IN | 5 V | RED/GRAY | Supply To AP from Power Brick |
-| 3 | AUX\_BATT\_CURRENT\_SENS | - | 3.3 V | BLACK | Aux Battery Current Connecter |
-| 4 | AUX\_BATT\_VOLTAGE\_SENS | IN | 3.3 V | BLACK | Aux Battery Voltage Connecter |
-| 5 | GND | - | GND | BLACK | GND connection |
-| 6 | GND | - | GND | BLACK | GND connection |
+| **Pin #** | **Name**              | **I/O** | **Voltage** | Wire Colour | Description                   |
+| --------- | --------------------- | ------- | ----------- | ----------- | ----------------------------- |
+| 1         | VDD\_5V_BRICK         | IN      | 5 V         | RED/GRAY    | Supply To AP from Power Brick |
+| 2         | VDD\_5V_BRICK         | IN      | 5 V         | RED/GRAY    | Supply To AP from Power Brick |
+| 3         | AUX_BATT_CURRENT_SENS | -       | 3.3 V       | BLACK       | Aux Battery Current Connecter |
+| 4         | AUX_BATT_VOLTAGE_SENS | IN      | 3.3 V       | BLACK       | Aux Battery Voltage Connecter |
+| 5         | GND                   | -       | GND         | BLACK       | GND connection                |
+| 6         | GND                   | -       | GND         | BLACK       | GND connection                |
 
-**I2C - 4 pos \(1 fitted as a standalone, 1 old internal\) \| Connector：I2C2**
+**I2C - 4 pos (1 fitted as a standalone, 1 old internal) | Connector：I2C2**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | Supply to peripheral from AP |
-| 2 | I2C\_2\_SCL | IN/OUT | 3.3 V \(PULLUPS\) | BLUE/BLACK | SCL, Pull-up on AP |
-| 3 | I2C\_2\_SDA | IN/OUT | 3.3 V \(PULLUPS\) | GREEN/BLACK | SDA, Pull-up on AP |
-| 4 | GND |  | GND | BLACK | GND connection |
+| **Pin #** | **Name**    | **I/O** | **Voltage**     | Wire Colour | Description                  |
+| --------- | ----------- | ------- | --------------- | ----------- | ---------------------------- |
+| 1         | VCC\_5V     | OUT     | 5 V             | RED/GRAY    | Supply to peripheral from AP |
+| 2         | I2C\_2\_SCL | IN/OUT  | 3.3 V (PULLUPS) | BLUE/BLACK  | SCL, Pull-up on AP           |
+| 3         | I2C\_2\_SDA | IN/OUT  | 3.3 V (PULLUPS) | GREEN/BLACK | SDA, Pull-up on AP           |
+| 4         | GND         |         | GND             | BLACK       | GND connection               |
 
-**CAN \(2 fitted\) \| Connector：CAN1, CAN2**
+**CAN (2 fitted) | Connector：CAN1, CAN2**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | Supply to peripheral from AP |
-| 2 | CAN\_H | IN/OUT | 12 V | YELLOW/BLACK | CAN High |
-| 3 | CAN\_L | IN/OUT | 12 V | GREEN/BLACK | CAN Low |
-| 4 | GND | - | GND | BLACK | GND connection |
+| **Pin #** | **Name** | **I/O** | **Voltage** | Wire Colour  | Description                  |
+| --------- | -------- | ------- | ----------- | ------------ | ---------------------------- |
+| 1         | VCC\_5V  | OUT     | 5 V         | RED/GRAY     | Supply to peripheral from AP |
+| 2         | CAN_H    | IN/OUT  | 12 V        | YELLOW/BLACK | CAN High                     |
+| 3         | CAN_L    | IN/OUT  | 12 V        | GREEN/BLACK  | CAN Low                      |
+| 4         | GND      | -       | GND         | BLACK        | GND connection               |
 
-**UART GENERIC \(autopilot side\) \| Connector : TELEM1, TELEM2**
+**UART GENERIC (autopilot side) | Connector : TELEM1, TELEM2**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | Supply to peripheral from AP |
-| 2 | MCU\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | TX of AP |
-| 3 | MCU\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | RX of AP |
-| 4 | MCU\_CTS \(TX\) | OUT | 3.3 V - 5.0 V TTL | GRAY/BLACK | CTS \(Clear To Send\) |
-| 5 | MCU\_RTS \(RX\) | IN | 3.3 V - 5.0 V TTL | GRAY/BLACK | RTS \(Request To Send\) |
-| 6 | GND | - | GND | BLACK | GND connection |
+| **Pin #** | **Name**     | **I/O** | **Voltage**       | Wire Colour  | Description                  |
+| --------- | ------------ | ------- | ----------------- | ------------ | ---------------------------- |
+| 1         | VCC\_5V      | OUT     | 5 V               | RED/GRAY     | Supply to peripheral from AP |
+| 2         | MCU_TX       | OUT     | 3.3 V - 5.0 V TTL | YELLOW/BLACK | TX of AP                     |
+| 3         | MCU_RX       | IN      | 3.3 V - 5.0 V TTL | GREEN/BLACK  | RX of AP                     |
+| 4         | MCU_CTS (TX) | OUT     | 3.3 V - 5.0 V TTL | GRAY/BLACK   | CTS (Clear To Send)          |
+| 5         | MCU_RTS (RX) | IN      | 3.3 V - 5.0 V TTL | GRAY/BLACK   | RTS (Request To Send)        |
+| 6         | GND          | -       | GND               | BLACK        | GND connection               |
 
-**UART GPS \(autopilot side, I2C is the original “External” bus\), UART 3 \| Connector：GPS1**
+**UART GPS (autopilot side, I2C is the original “External” bus), UART 3 | Connector：GPS1**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VCC\_5V | IN | 5 V | RED | Supply to GPS from AP |
-| 3 | GPS\_RX | OUT | 3.3 V - 5.0 V TTL | BLACK | TX of AP |
-| 2 | GPS\_TX | IN | 3.3 V - 5.0 V TTL | BLACK | RX of AP |
-| 4 | SCL | IN | 3.3 V | BLACK | I2C 1 SCL |
-| 5 | SDA | IN/OUT | 3.3 V | BLACK | I2C 1 SDA |
-| 6 | BUTTON | OUT | GND | BLACK | Signal shorted to GND on press |
-| 7 | IO\_LED\_SAFET\_PROT | OUT | GND | BLACK | LED Driver For Safety Button |
-| 8 | GND | - | GND | BLACK | GND connection |
+| **Pin #** | **Name**          | **I/O** | **Voltage**       | Wire Colour | Description                    |
+| --------- | ----------------- | ------- | ----------------- | ----------- | ------------------------------ |
+| 1         | VCC\_5V           | IN      | 5 V               | RED         | Supply to GPS from AP          |
+| 3         | GPS_RX            | OUT     | 3.3 V - 5.0 V TTL | BLACK       | TX of AP                       |
+| 2         | GPS_TX            | IN      | 3.3 V - 5.0 V TTL | BLACK       | RX of AP                       |
+| 4         | SCL               | IN      | 3.3 V             | BLACK       | I2C 1 SCL                      |
+| 5         | SDA               | IN/OUT  | 3.3 V             | BLACK       | I2C 1 SDA                      |
+| 6         | BUTTON            | OUT     | GND               | BLACK       | Signal shorted to GND on press |
+| 7         | IO_LED_SAFET_PROT | OUT     | GND               | BLACK       | LED Driver For Safety Button   |
+| 8         | GND               | -       | GND               | BLACK       | GND connection                 |
 
-**UART 4 \(I2C2, the original “Internal” bus\) \| Port：GPS2**
+**UART 4 (I2C2, the original “Internal” bus) | Port：GPS2**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VCC\_5V | OUT | 5 V | RED/GRAY | Supply to GPS from AP |
-| 2 | MCU\_TX | OUT | 3.3 V - 5.0 V TTL | YELLOW/BLACK | TX of AP |
-| 3 | MCU\_RX | IN | 3.3 V - 5.0 V TTL | GREEN/BLACK | RX of AP |
-| 4 | SCL | OUT | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 SCL |
-| 5 | SDA | IN | 3.3 V - 5.0 V | GRAY/BLACK | I2C 2 SDA |
-| 6 | GND | - | GND | BLACK | GND connection |
+| **Pin #** | **Name** | **I/O** | **Voltage**       | Wire Colour  | Description           |
+| --------- | -------- | ------- | ----------------- | ------------ | --------------------- |
+| 1         | VCC\_5V  | OUT     | 5 V               | RED/GRAY     | Supply to GPS from AP |
+| 2         | MCU_TX   | OUT     | 3.3 V - 5.0 V TTL | YELLOW/BLACK | TX of AP              |
+| 3         | MCU_RX   | IN      | 3.3 V - 5.0 V TTL | GREEN/BLACK  | RX of AP              |
+| 4         | SCL      | OUT     | 3.3 V - 5.0 V     | GRAY/BLACK   | I2C 2 SCL             |
+| 5         | SDA      | IN      | 3.3 V - 5.0 V     | GRAY/BLACK   | I2C 2 SDA             |
+| 6         | GND      | -       | GND               | BLACK        | GND connection        |
 
-**UART 5 \(Debug\), S.Bus out - FR-SKY TELEM? or Debug \| Port：CONS SBUSo**
+**UART 5 (Debug), S.Bus out - FR-SKY TELEM? or Debug | Port：CONS SBUSo**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | S.Bus\_Out | OUT |  |  | S.Bus Signal Output, TX of AP |
-| 2 | MCU\_TX | OUT | 3.3 V - 5.0 V TTL |  | TX of AP |
-| 3 | VDD\_SERVO | OUT | Servo Voltage |  | Servo rail voltage |
-| 4 | MCU\_RX | IN | 3.3 V - 5.0 V TTL |  | RX of AP |
-| 5 | GND | - | GND |  | GND connection |
-| 6 | GND | - | GND |  | GND connection |
+| **Pin #** | **Name**  | **I/O** | **Voltage**       | Wire Colour | Description                   |
+| --------- | --------- | ------- | ----------------- | ----------- | ----------------------------- |
+| 1         | S.Bus_Out | OUT     |                   |             | S.Bus Signal Output, TX of AP |
+| 2         | MCU_TX    | OUT     | 3.3 V - 5.0 V TTL |             | TX of AP                      |
+| 3         | VDD_SERVO | OUT     | Servo Voltage     |             | Servo rail voltage            |
+| 4         | MCU_RX    | IN      | 3.3 V - 5.0 V TTL |             | RX of AP                      |
+| 5         | GND       | -       | GND               |             | GND connection                |
+| 6         | GND       | -       | GND               |             | GND connection                |
 
-**Debug \(New Standard Debug\) \(Digikey PN for housing SM06B-SURS-TF\(LF\)\(SN\)-ND\)**
+**Debug (New Standard Debug) (Digikey PN for housing SM06B-SURS-TF(LF)(SN)-ND)**
 
 **IO DEBUG**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Color | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VDD 5V PEIPH | OUT | 5 V |  | 5V |
-| 2 | IO\_TX | OUT | 3.3 V - 5.0 V TTL |  | TX of AP IO\_uart1 TX |
-| 3 | IO\_RX | IN | 3.3V - 5.0 V TTL |  | RX of AP IO\_uart1 RX |
-| 4 | IO-SWDIO | I/O | 3.3 V - 5.0 V TTL |  | Serial wire debug I/O |
-| 5 | IO-SWCLK | I/O | 3.3 V - 5.0 V TTL |  | Serial wire Clock |
-| 6 | GND | OUT | GND |  | GND connection |
+| **Pin #** | **Name**     | **I/O** | **Voltage**       | Wire Color | Description           |
+| --------- | ------------ | ------- | ----------------- | ---------- | --------------------- |
+| 1         | VDD 5V PEIPH | OUT     | 5 V               |            | 5V                    |
+| 2         | IO_TX        | OUT     | 3.3 V - 5.0 V TTL |            | TX of AP IO_uart1 TX  |
+| 3         | IO_RX        | IN      | 3.3V - 5.0 V TTL  |            | RX of AP IO_uart1 RX  |
+| 4         | IO-SWDIO     | I/O     | 3.3 V - 5.0 V TTL |            | Serial wire debug I/O |
+| 5         | IO-SWCLK     | I/O     | 3.3 V - 5.0 V TTL |            | Serial wire Clock     |
+| 6         | GND          | OUT     | GND               |            | GND connection        |
 
 **FMU DEBUG**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Color | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VDD 5V PEIPH | OUT | 5 V |  | 5V |
-| 2 | FMU\_TX \(SERIAL 5\) | OUT | 3.3 V - 5.0 V TTL |  | TX of AP FMU\_uart5 TX |
-| 3 | FMU\_RX \(SERIAL 5\) | IN | 3.3V - 5.0 V TTL |  | RX of AP FMU\_uart5 RX |
-| 4 | FMU-SWDIO | I/O | 3.3 V - 5.0 V TTL |  | Serial wire debug I/O |
-| 5 | FMU-SWCLK | I/O | 3.3 V - 5.0 V TTL |  | Serial wire Clock |
-| 6 | GND | OUT | GND |  | GND connection |
+| **Pin #** | **Name**          | **I/O** | **Voltage**       | Wire Color | Description           |
+| --------- | ----------------- | ------- | ----------------- | ---------- | --------------------- |
+| 1         | VDD 5V PEIPH      | OUT     | 5 V               |            | 5V                    |
+| 2         | FMU_TX (SERIAL 5) | OUT     | 3.3 V - 5.0 V TTL |            | TX of AP FMU_uart5 TX |
+| 3         | FMU_RX (SERIAL 5) | IN      | 3.3V - 5.0 V TTL  |            | RX of AP FMU_uart5 RX |
+| 4         | FMU-SWDIO         | I/O     | 3.3 V - 5.0 V TTL |            | Serial wire debug I/O |
+| 5         | FMU-SWCLK         | I/O     | 3.3 V - 5.0 V TTL |            | Serial wire Clock     |
+| 6         | GND               | OUT     | GND               |            | GND connection        |
 
-**Analogue \| Port：`ADC`**
+**Analogue | Port：`ADC`**
 
-| **Pin \#** | **Name** | **I/\)** | **Voltage** | **Wire Color** | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | VDD\_5V\_Periph | OUT |  |  |  |
-| 2 | Pressure sense in | IN |  |  |  |
-| 3 | GND | - |  |  | GND connection |
+| **Pin #** | **Name**          | **I/)** | **Voltage** | **Wire Color** | Description    |
+| --------- | ----------------- | ------- | ----------- | -------------- | -------------- |
+| 1         | VDD\_5V_Periph    | OUT     |             |                |                |
+| 2         | Pressure sense in | IN      |             |                |                |
+| 3         | GND               | -       |             |                | GND connection |
 
-**IO USART 1 / DSM / Spektrum \| Port：`SPKT`**
+**IO USART 1 / DSM / Spektrum | Port：`SPKT`**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | IO\_USART1\_RX\_SPECTRUM\_DSM | IN |  |  | IO USART 1 RX, DSM INPUT |
-| 2 | GND | - | GND |  | GND |
-| 3 | VDD\_3V3\_Spektrum | OUT | 3.3 V |  | private Power Supply |
+| **Pin #** | **Name**                   | **I/O** | **Voltage** | Wire Colour | Description              |
+| --------- | -------------------------- | ------- | ----------- | ----------- | ------------------------ |
+| 1         | IO_USART1\_RX_SPECTRUM_DSM | IN      |             |             | IO USART 1 RX, DSM INPUT |
+| 2         | GND                        | -       | GND         |             | GND                      |
+| 3         | VDD\_3V3\_Spektrum         | OUT     | 3.3 V       |             | private Power Supply     |
 
-**HMI \(Buzzer, USB, LEDs\) \| Port：`USB`**
+**HMI (Buzzer, USB, LEDs) | Port：`USB`**
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | V BUS | OUT | 5 V | RED/GRAY | USB V BUS |
-| 2 | OTG\_DP1 | IN/OUT | 3.3 V | GREEN/BLACK | USB Data Positive \(D+\) |
-| 3 | OTG\_DM1 | IN/OUT | 3.3 V | RED/BLACK | USB Data Minus \(D-\) |
-| 4 | GND | - | GND | BLACK | GND |
-| 5 | BUZZER\_OUT | OUT | Battery Voltage | GRAY/BLACK | VBAT \(8.4 - 42 V\) |
-| 6 | FMU\_LED\_AMBER | OUT |  | BLACK | Boot / Error LED \(FW updates\) |
+| **Pin #** | **Name**      | **I/O** | **Voltage**     | Wire Colour | Description                   |
+| --------- | ------------- | ------- | --------------- | ----------- | ----------------------------- |
+| 1         | V BUS         | OUT     | 5 V             | RED/GRAY    | USB V BUS                     |
+| 2         | OTG_DP1       | IN/OUT  | 3.3 V           | GREEN/BLACK | USB Data Positive (D+)        |
+| 3         | OTG_DM1       | IN/OUT  | 3.3 V           | RED/BLACK   | USB Data Minus (D-)           |
+| 4         | GND           | -       | GND             | BLACK       | GND                           |
+| 5         | BUZZER_OUT    | OUT     | Battery Voltage | GRAY/BLACK  | VBAT (8.4 - 42 V)             |
+| 6         | FMU_LED_AMBER | OUT     |                 | BLACK       | Boot / Error LED (FW updates) |
 
-**Back Edge \(may rearrange to suit PCB layout\) \| Port：`RCIN` `MAIN OUT` `AUX OUT`**
+**Back Edge (may rearrange to suit PCB layout) | Port：`RCIN` `MAIN OUT` `AUX OUT`**
 
-_**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
+_**SERVO HEADER (0.1”, 1/1/15 power layout)**_
 
-| **Pin \#** | **Name** | **I/O** | **Voltage** | Wire Colour | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| S - 1 | FMU\_CH1\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 2 | FMU\_CH2\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 3 | FMU\_CH3\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 4 | FMU\_CH4\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 5 | FMU\_CH5\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 6 | FMU\_CH6\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 7 | IO\_CH1\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 8 | IO\_CH2\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 9 | IO\_CH3\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 10 | IO\_CH4\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 11 | IO\_CH5\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 12 | IO\_CH6\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 13 | IO\_CH7\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 14 | IO\_CH8\_PROT | OUT | 3.3 V Servo Signal, Servo Rail Power |  | PWM Signal |
-| S - 15 | PPM\_SBUS\_PROT | IN/OUT | 3.3 V / 4.5 V Powered |  | PPM / S.Bus Signal |
+| **Pin #** | **Name**      | **I/O** | **Voltage**                          | Wire Colour | Description        |
+| --------- | ------------- | ------- | ------------------------------------ | ----------- | ------------------ |
+| S - 1     | FMU_CH1\_PROT | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 2     | FMU_CH2\_PROT | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 3     | FMU_CH3\_PROT | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 4     | FMU_CH4\_PROT | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 5     | FMU_CH5\_PROT | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 6     | FMU_CH6\_PROT | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 7     | IO_CH1\_PROT  | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 8     | IO_CH2\_PROT  | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 9     | IO_CH3\_PROT  | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 10    | IO_CH4\_PROT  | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 11    | IO_CH5\_PROT  | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 12    | IO_CH6\_PROT  | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 13    | IO_CH7\_PROT  | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 14    | IO_CH8\_PROT  | OUT     | 3.3 V Servo Signal, Servo Rail Power |             | PWM Signal         |
+| S - 15    | PPM_SBUS_PROT | IN/OUT  | 3.3 V / 4.5 V Powered                |             | PPM / S.Bus Signal |
 
-**The Cube 80-pin DF17 Connector \(LONG TERM STANDARD!\)**
+**The Cube 80-pin DF17 Connector (LONG TERM STANDARD!)**
 
-| **Pin \#** | **Name** | **I/O** | Description |
-| :--- | :--- | :--- | :--- |
-| 1 | FMU\_SWDIO | I/O | FMU serial wire debug I/O |
-| 2 | FMU\_LED\_AMBER | O | Boot error LED \(drive only, controlled by FET\) |
-| 3 | FMU\_SWCLK | O | FMU serial wire debug clock |
-| 4 | I2C\_2\_SDA | I/O | I2C Serial Data Tx/Rx |
-| 5 | EXTERN\_CS | O | Chip select for external SPI \(NC, just for debugging\) |
-| 6 | I2C\_2\_SCL | O | I2C Serial Clock Signal |
-| 7 | FMU\_!RESET | I | Reset pin for the FMU |
-| 8 | PROT\_SPARE\_1 |  | Spare |
-| 9 | VDD\_SERVO\_IN | I | Power for last resort I/O failsafe |
-| 10 | PROT\_SPARE\_2 |  | Spare |
-| 11 | EXTERN\_DRDY | I | Interrupt pin for external SPI \(NC, just for debugging\) |
-| 12 | SERIAL\_5\_RX | I | UART 5 RX \(Receive Data\) |
-| 13 | GND |  | System GND |
-| 14 | SERIAL\_5\_TX | O | UART 5 TX \(Transmit Data\) |
-| 15 | GND |  | System GND |
-| 16 | SERIAL\_4\_RX | I | UART 4 RX \(Receive Data\) |
-| 17 | SAFETY |  | Safety button input |
-| 18 | SERIAL\_4\_TX | O | UART 4 TX \(Transmit Data\) |
-| 19 | VDD\_3V3\_SPEKTRUM\_EN | O | Enable for the Spektrum voltage regulator |
-| 20 | SERIAL\_3\_RX | I | UART 3 RX \(Receive Data\) |
-| 21 | PRESSURE\_SENS\_IN | AI | Analogue Signal port, for pressure sensor, Laser range finder, or Sonar |
-| 22 | SERIAL\_3\_TX | O | UART 3 TX \(Transmit Data\) |
-| 23 | AUX\_BATT\_VOLTAGE\_SENS | AI | Voltage sense for Aux battery input |
-| 24 | ALARM | O | Buzzer PWM Signal |
-| 25 | AUX\_BATT\_CURRENT\_SENS | AI | Current sense for Aux battery input |
-| 26 | IO\_VDD\_3V3 | I | IO chip power, pinned through for debug |
-| 27 | VDD\_5V\_PERIPH\_EN | O | Enable voltage supply for Peripherals |
-| 28 | IO\_LED\_SAFET\_PROT | O | IO-LED\_SAFETY \(safety LED\) pinned out for IRIS |
-| 29 | VBUS | I | USB VBus \(VDD\) |
-| 30 | SERIAL\_2\_RTS |  | UART 2 RTS \(Request To Send\) |
-| 31 | OTG\_DP1 | I/O | USB Data+ \(D\) |
-| 32 | SERIAL\_2\_CTS |  | UART 2 CTS \(Clear To Send\) |
-| 33 | OTG\_DM1 | I/O | USB Data- \(M\) |
-| 34 | SERIAL\_2\_RX | I | UART 2 RX \(Receive Data\) |
-| 35 | I2C\_1\_SDA | I/O | I2C Serial Data Tx/Rx |
-| 36 | SERIAL\_2\_TX | O | UART 2 TX \(Transmit Data\) |
-| 37 | I2C\_1\_SCL | O | I2C Serial Clock Signal |
-| 38 | SERIAL\_1\_RX | I | UART 1 RX \(Receive Data\) |
-| 39 | CAN\_L\_2 | I/O | FMU CAN bus Low Signal Driver |
-| 40 | SERIAL\_1\_TX | O | UART 1 TX \(Transmit Data\) |
-| 41 | CAN\_H\_2 | I/O | FMU CAN bus High Signal Driver |
-| 42 | SERIAL\_1\_RTS |  | UART 1 RTS \(Request To Send\) |
-| 43 | VDD\_5V\_PERIPH\_OC | I | Error state message  from Peripheral power supply |
-| 44 | SERIAL\_1\_CTS |  | UART 1 CTS \(Clear To Send\) |
-| 45 | VDD\_5V\_HIPOWER\_OC | I | Error state message  from High power Peripheral power supply |
-| 46 | IO\_USART\_1\_TX | O | I/O USART 1 TX |
-| 47 | BATT\_VOLTAGE\_SENS\_PROT | AI | Voltage sense from main battery |
-| 48 | IO\_USART1\_RX\_SPECTRUM\_DSM | O | Signal from Spectrum receiver |
-| 49 | BATT\_CURRENT\_SENS\_PROT | AI | Current sense from main battery |
-| 50 | FMU\_CH1\_PROT | O | FMU PWM output channel 1 |
-| 51 | SPI\_EXT\_MOSI | O | External SPI, for debug only |
-| 52 | FMU\_CH2\_PROT | O | FMU PWM output channel 2 |
-| 53 | VDD\_SERVO | I | VDD\_Servo, for monitoring servo bus |
-| 54 | FMU\_CH3\_PROT | O | FMU PWM Output Channel 3 |
-| 55 | VDD\_BRICK\_VALID | I | Main Power valid signal |
-| 56 | FMU\_CH4\_PROT | O | FMU PWM Output Channel 4 |
-| 57 | VDD\_BACKUP\_VALID | I | Backup Power valid Signal |
-| 58 | FMU\_CH5\_PROT | O | FMU PWM Output Channel 5 |
-| 59 | VBUS\_VALID | I | USB bus valid signal |
-| 60 | FMU\_CH6\_PROT | O | FMU PWM Output Channel 6 |
-| 61 | VDD\_5V\_IN\_PROT | I | Main power \(5V\) into FMU from power selection |
-| 62 | PPM\_SBUS\_PROT | I | PPM / S.Bus Signal Input |
-| 63 | VDD\_5V\_IN\_PROT | I | Main power \(5V\) into FMU from power selection |
-| 64 | S.BUS\_OUT | O | S.Bus Signal Output |
-| 65 | IO\_VDD\_5V5 | O | IO VDD 5.5 V |
-| 66 | IO\_CH8\_PROT | O | I/O PWM Output Channel 8 |
-| 67 | SPI\_EXT\_MISO | I | External SPI, for Debug only |
-| 68 | IO\_CH7\_PROT | O | I/O PWM Channel 7 |
-| 69 | IO\_SWDIO | I/O | I/O serial wire debug |
-| 70 | IO\_CH6\_PROT | O | I/O PWM Output Channel 6 |
-| 71 | IO\_SWCLK | O | I/O Serial Wire Debug Clock |
-| 72 | IO\_CH5\_PROT | O | I/O PWM Output Channel 5 |
-| 73 | SPI\_EXT\_SCK | O | External SPI, for Debug only |
-| 74 | IO\_CH4\_PROT | O | I/O PWM Output Channel 4 |
-| 75 | IO\_!RESET | I | I/O Reset Pin |
-| 76 | IO\_CH3\_PROT | O | I/O PWM Output Channel 3 |
-| 77 | CAN\_L\_1 | I/O | FMU CAN bus Low Signal Driver |
-| 78 | IO\_CH2\_PROT | O | I/O PWM Output Channel 2 |
-| 79 | CAN\_H\_1 | I/O | FMU CAN bus High Signal Driver |
-| 80 | IO\_CH1\_PROT | O | I/O PWM Output Channel 1 |
+| **Pin #** | **Name**                   | **I/O** | Description                                                             |
+| --------- | -------------------------- | ------- | ----------------------------------------------------------------------- |
+| 1         | FMU_SWDIO                  | I/O     | FMU serial wire debug I/O                                               |
+| 2         | FMU_LED_AMBER              | O       | Boot error LED (drive only, controlled by FET)                          |
+| 3         | FMU_SWCLK                  | O       | FMU serial wire debug clock                                             |
+| 4         | I2C\_2\_SDA                | I/O     | I2C Serial Data Tx/Rx                                                   |
+| 5         | EXTERN_CS                  | O       | Chip select for external SPI (NC, just for debugging)                   |
+| 6         | I2C\_2\_SCL                | O       | I2C Serial Clock Signal                                                 |
+| 7         | FMU\_!RESET                | I       | Reset pin for the FMU                                                   |
+| 8         | PROT_SPARE\_1              |         | Spare                                                                   |
+| 9         | VDD_SERVO_IN               | I       | Power for last resort I/O failsafe                                      |
+| 10        | PROT_SPARE\_2              |         | Spare                                                                   |
+| 11        | EXTERN_DRDY                | I       | Interrupt pin for external SPI (NC, just for debugging)                 |
+| 12        | SERIAL\_5\_RX              | I       | UART 5 RX (Receive Data)                                                |
+| 13        | GND                        |         | System GND                                                              |
+| 14        | SERIAL\_5\_TX              | O       | UART 5 TX (Transmit Data)                                               |
+| 15        | GND                        |         | System GND                                                              |
+| 16        | SERIAL\_4\_RX              | I       | UART 4 RX (Receive Data)                                                |
+| 17        | SAFETY                     |         | Safety button input                                                     |
+| 18        | SERIAL\_4\_TX              | O       | UART 4 TX (Transmit Data)                                               |
+| 19        | VDD\_3V3\_SPEKTRUM_EN      | O       | Enable for the Spektrum voltage regulator                               |
+| 20        | SERIAL\_3\_RX              | I       | UART 3 RX (Receive Data)                                                |
+| 21        | PRESSURE_SENS_IN           | AI      | Analogue Signal port, for pressure sensor, Laser range finder, or Sonar |
+| 22        | SERIAL\_3\_TX              | O       | UART 3 TX (Transmit Data)                                               |
+| 23        | AUX_BATT_VOLTAGE_SENS      | AI      | Voltage sense for Aux battery input                                     |
+| 24        | ALARM                      | O       | Buzzer PWM Signal                                                       |
+| 25        | AUX_BATT_CURRENT_SENS      | AI      | Current sense for Aux battery input                                     |
+| 26        | IO_VDD\_3V3                | I       | IO chip power, pinned through for debug                                 |
+| 27        | VDD\_5V_PERIPH_EN          | O       | Enable voltage supply for Peripherals                                   |
+| 28        | IO_LED_SAFET_PROT          | O       | IO-LED_SAFETY (safety LED) pinned out for IRIS                          |
+| 29        | VBUS                       | I       | USB VBus (VDD)                                                          |
+| 30        | SERIAL\_2\_RTS             |         | UART 2 RTS (Request To Send)                                            |
+| 31        | OTG_DP1                    | I/O     | USB Data+ (D)                                                           |
+| 32        | SERIAL\_2\_CTS             |         | UART 2 CTS (Clear To Send)                                              |
+| 33        | OTG_DM1                    | I/O     | USB Data- (M)                                                           |
+| 34        | SERIAL\_2\_RX              | I       | UART 2 RX (Receive Data)                                                |
+| 35        | I2C\_1\_SDA                | I/O     | I2C Serial Data Tx/Rx                                                   |
+| 36        | SERIAL\_2\_TX              | O       | UART 2 TX (Transmit Data)                                               |
+| 37        | I2C\_1\_SCL                | O       | I2C Serial Clock Signal                                                 |
+| 38        | SERIAL\_1\_RX              | I       | UART 1 RX (Receive Data)                                                |
+| 39        | CAN_L\_2                   | I/O     | FMU CAN bus Low Signal Driver                                           |
+| 40        | SERIAL\_1\_TX              | O       | UART 1 TX (Transmit Data)                                               |
+| 41        | CAN_H\_2                   | I/O     | FMU CAN bus High Signal Driver                                          |
+| 42        | SERIAL\_1\_RTS             |         | UART 1 RTS (Request To Send)                                            |
+| 43        | VDD\_5V_PERIPH_OC          | I       | Error state message  from Peripheral power supply                       |
+| 44        | SERIAL\_1\_CTS             |         | UART 1 CTS (Clear To Send)                                              |
+| 45        | VDD\_5V_HIPOWER_OC         | I       | Error state message  from High power Peripheral power supply            |
+| 46        | IO_USART\_1\_TX            | O       | I/O USART 1 TX                                                          |
+| 47        | BATT_VOLTAGE_SENS_PROT     | AI      | Voltage sense from main battery                                         |
+| 48        | IO_USART1\_RX_SPECTRUM_DSM | O       | Signal from Spectrum receiver                                           |
+| 49        | BATT_CURRENT_SENS_PROT     | AI      | Current sense from main battery                                         |
+| 50        | FMU_CH1\_PROT              | O       | FMU PWM output channel 1                                                |
+| 51        | SPI_EXT_MOSI               | O       | External SPI, for debug only                                            |
+| 52        | FMU_CH2\_PROT              | O       | FMU PWM output channel 2                                                |
+| 53        | VDD_SERVO                  | I       | VDD_Servo, for monitoring servo bus                                     |
+| 54        | FMU_CH3\_PROT              | O       | FMU PWM Output Channel 3                                                |
+| 55        | VDD_BRICK_VALID            | I       | Main Power valid signal                                                 |
+| 56        | FMU_CH4\_PROT              | O       | FMU PWM Output Channel 4                                                |
+| 57        | VDD_BACKUP_VALID           | I       | Backup Power valid Signal                                               |
+| 58        | FMU_CH5\_PROT              | O       | FMU PWM Output Channel 5                                                |
+| 59        | VBUS_VALID                 | I       | USB bus valid signal                                                    |
+| 60        | FMU_CH6\_PROT              | O       | FMU PWM Output Channel 6                                                |
+| 61        | VDD\_5V_IN_PROT            | I       | Main power (5V) into FMU from power selection                           |
+| 62        | PPM_SBUS_PROT              | I       | PPM / S.Bus Signal Input                                                |
+| 63        | VDD\_5V_IN_PROT            | I       | Main power (5V) into FMU from power selection                           |
+| 64        | S.BUS_OUT                  | O       | S.Bus Signal Output                                                     |
+| 65        | IO_VDD\_5V5                | O       | IO VDD 5.5 V                                                            |
+| 66        | IO_CH8\_PROT               | O       | I/O PWM Output Channel 8                                                |
+| 67        | SPI_EXT_MISO               | I       | External SPI, for Debug only                                            |
+| 68        | IO_CH7\_PROT               | O       | I/O PWM Channel 7                                                       |
+| 69        | IO_SWDIO                   | I/O     | I/O serial wire debug                                                   |
+| 70        | IO_CH6\_PROT               | O       | I/O PWM Output Channel 6                                                |
+| 71        | IO_SWCLK                   | O       | I/O Serial Wire Debug Clock                                             |
+| 72        | IO_CH5\_PROT               | O       | I/O PWM Output Channel 5                                                |
+| 73        | SPI_EXT_SCK                | O       | External SPI, for Debug only                                            |
+| 74        | IO_CH4\_PROT               | O       | I/O PWM Output Channel 4                                                |
+| 75        | IO\_!RESET                 | I       | I/O Reset Pin                                                           |
+| 76        | IO_CH3\_PROT               | O       | I/O PWM Output Channel 3                                                |
+| 77        | CAN_L\_1                   | I/O     | FMU CAN bus Low Signal Driver                                           |
+| 78        | IO_CH2\_PROT               | O       | I/O PWM Output Channel 2                                                |
+| 79        | CAN_H\_1                   | I/O     | FMU CAN bus High Signal Driver                                          |
+| 80        | IO_CH1\_PROT               | O       | I/O PWM Output Channel 1                                                |
 
 ## Differences between Cube colours
 
-| The Cube Series | Cube Orange | Cube Blue H7 | Cube Purple H7 | Cube Yellow | Cube Black+ | Cube Black | Cube Green | Cube Blue | Cube Purple F4 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Processor | STM32H753 | STM32H753 | STM32H753 | STM32F777 | STM32F427 V3 | STM32F427 V3 | STM32F427 V3 | STM32F427 V3 | STM32F427 V3 |
-| Remote Signal | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM | PPM/SBUS/DSM |
-| I/O PWN Voltage | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V | 3.3V | 5.4v | 3.3V | 3.3V |
-| Redundancy | Triple Redundancy | Triple Redundancy | N/A | Triple Redundancy | Triple Redundancy | Triple Redundancy | Triple Redundancy | Triple Redundancy | N/A |
-| Isolation system | Y | Y | N | Y | Y | Y | Y | Y | N |
-| Temp regulator | Y | Y | N | Y | Y | Y | Y | Y | N |
-| Number of Accelerometer | 3 | 3 | 1 | 3 | 3 | 3 | 3 | 3 | 1 |
-| Number of Gyroscope | 3 | 3 | 1 | 3 | 3 | 3 | 3 | 3 | 1 |
-| Number of Magnetometer | 1 | 1 | N/A | 1 | 2 | 3 | 3 | 3 | 1 |
-| Number of Barometer | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 1 |
-| Original of Manufacturing | Taiwan | U.S.A | Taiwan | Taiwan | Taiwan | Taiwan | Taiwan | U.S.A | Taiwan |
-| Product lifecycle | Available | Available | Available | Available | EOL Please use Cube Orange | EOL Please use Cube Orange | EOL Please use Cube Orange | EOL Please use Cube Blue H7 | EOL Please use Cube Purple H7 |
+| The Cube Series           | Cube Orange                 | Cube Blue H7                | Cube Purple H7              | Cube Yellow                 | Cube Black+                | Cube Black                 | Cube Green                 | Cube Blue                   | Cube Purple F4                |
+| ------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | -------------------------- | -------------------------- | -------------------------- | --------------------------- | ----------------------------- |
+| Processor                 | STM32H753                   | STM32H753                   | STM32H753                   | STM32F777                   | STM32F427 V3               | STM32F427 V3               | STM32F427 V3               | STM32F427 V3                | STM32F427 V3                  |
+| Remote Signal             | PPM/SBUS/DSM                | PPM/SBUS/DSM                | PPM/SBUS/DSM                | PPM/SBUS/DSM                | PPM/SBUS/DSM               | PPM/SBUS/DSM               | PPM/SBUS/DSM               | PPM/SBUS/DSM                | PPM/SBUS/DSM                  |
+| I/O PWN Voltage           | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V/5V software selectable | 3.3V                       | 3.3V                       | 5.4v                       | 3.3V                        | 3.3V                          |
+| Redundancy                | Triple Redundancy           | Triple Redundancy           | N/A                         | Triple Redundancy           | Triple Redundancy          | Triple Redundancy          | Triple Redundancy          | Triple Redundancy           | N/A                           |
+| Isolation system          | Y                           | Y                           | N                           | Y                           | Y                          | Y                          | Y                          | Y                           | N                             |
+| Temp regulator            | Y                           | Y                           | N                           | Y                           | Y                          | Y                          | Y                          | Y                           | N                             |
+| Number of Accelerometer   | 3                           | 3                           | 1                           | 3                           | 3                          | 3                          | 3                          | 3                           | 1                             |
+| Number of Gyroscope       | 3                           | 3                           | 1                           | 3                           | 3                          | 3                          | 3                          | 3                           | 1                             |
+| Number of Magnetometer    | 1                           | 1                           | N/A                         | 1                           | 2                          | 3                          | 3                          | 3                           | 1                             |
+| Number of Barometer       | 2                           | 2                           | 1                           | 2                           | 2                          | 2                          | 2                          | 2                           | 1                             |
+| Original of Manufacturing | Taiwan                      | U.S.A                       | Taiwan                      | Taiwan                      | Taiwan                     | Taiwan                     | Taiwan                     | U.S.A                       | Taiwan                        |
+| Product lifecycle         | Available                   | Available                   | Available                   | Available                   | EOL Please use Cube Orange | EOL Please use Cube Orange | EOL Please use Cube Orange | EOL Please use Cube Blue H7 | EOL Please use Cube Purple H7 |
 
 \*CubeBlue “manufactured in USA with US and allied components”
 
@@ -546,7 +546,7 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
   * 1 Fixed on the FMU
 * One onboard compass Cube Orange, Cube Yellow
 * Two Baros
-  * 1 on the IMU \(this Baro will most likely be removed in favour of a dedicated external Barometer.
+  * 1 on the IMU (this Baro will most likely be removed in favour of a dedicated external Barometer.
   * 1 Fixed on the FMU
 * Dual Power input
   * This removes the option of redundancy from the Servo rail and replaces it with a dedicated second power plug
@@ -556,4 +556,3 @@ _**SERVO HEADER \(0.1”, 1/1/15 power layout\)**_
   * This allows for connection of items to either I2C port, potentially allowing two GPS / Mag units to be plugged in without the Mags conflicting.
 * Power monitoring pins are now routed to the I/O chip, these will allow for the logging of power events during an inflight reboot.
   * Brick OK, Backup OK, and FMU 3.3V are all connected to a digital pin on the I/O via a 220Ohm resister.
-

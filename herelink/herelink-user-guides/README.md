@@ -1,24 +1,40 @@
 # Herelink User Guides
 
-{% page-ref page="upgrading-firmware.md" %}
+{% content-ref url="upgrading-firmware.md" %}
+[upgrading-firmware.md](upgrading-firmware.md)
+{% endcontent-ref %}
 
-{% page-ref page="one-time-setup.md" %}
+{% content-ref url="one-time-setup.md" %}
+[one-time-setup.md](one-time-setup.md)
+{% endcontent-ref %}
 
-{% page-ref page="mavlink\_buttons.md" %}
+{% content-ref url="mavlink_buttons.md" %}
+[mavlink_buttons.md](mavlink_buttons.md)
+{% endcontent-ref %}
 
-{% page-ref page="sbus\_buttons.md" %}
+{% content-ref url="sbus_buttons.md" %}
+[sbus_buttons.md](sbus_buttons.md)
+{% endcontent-ref %}
 
-{% page-ref page="share-video-stream.md" %}
+{% content-ref url="share-video-stream.md" %}
+[share-video-stream.md](share-video-stream.md)
+{% endcontent-ref %}
 
-{% page-ref page="connect-to-mission-planner.md" %}
+{% content-ref url="connect-to-mission-planner.md" %}
+[connect-to-mission-planner.md](connect-to-mission-planner.md)
+{% endcontent-ref %}
 
-{% page-ref page="installing-a-custom-app.md" %}
+{% content-ref url="installing-a-custom-app.md" %}
+[installing-a-custom-app.md](installing-a-custom-app.md)
+{% endcontent-ref %}
 
-{% page-ref page="oem-image-setup.md" %}
+{% content-ref url="oem-image-setup.md" %}
+[oem-image-setup.md](oem-image-setup.md)
+{% endcontent-ref %}
 
-{% page-ref page="generate-a-bug-report.md" %}
-
-
+{% content-ref url="generate-a-bug-report.md" %}
+[generate-a-bug-report.md](generate-a-bug-report.md)
+{% endcontent-ref %}
 
 
 

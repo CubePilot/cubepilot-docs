@@ -6,13 +6,11 @@ I finished up the install and completely updated Windows 10 Pro. I downloaded an
 
 ![](../.gitbook/assets/cube-orange-windows-10-chris_goodall.jpeg)
 
-  
-Review this post can reach below:  
-[https://discuss.cubepilot.org/t/cube-orange-on-win10/3655/14](https://discuss.cubepilot.org/t/cube-orange-on-win10/3655/14)  
+\
+Review this post can reach below:\
+[https://discuss.cubepilot.org/t/cube-orange-on-win10/3655/14](https://discuss.cubepilot.org/t/cube-orange-on-win10/3655/14)\
 
 
-  
-  
-  
-
-
+\
+\
+\
