@@ -76,7 +76,7 @@ Connect each Here3 4Pin CAN cable to the CAN1 port of the flight controller\(one
 
 ![](../.gitbook/assets/gu-jian-en%20%281%29.png)
 
-After successful loading, select the autopilot COM port with 115200 baud rate and click "connect" at the right-top corner. Go to "Initial Setup - Optional Hardware - UAVCAN", click "SLCan Mode CAN1".
+After successful loading, select the autopilot SLCAN COM port with 115200 baud rate and on CubeOrange DONT Connect, CubeBlack Connect and then Go to "Initial Setup - Optional Hardware - UAVCAN", click "SLCan Mode CAN1".
 
 ![](../.gitbook/assets/canen%20%281%29.png)
 
@@ -138,7 +138,7 @@ Current PX4 firmware does not support auto allocating CAN node ID. Manually allo
 
 ![](../.gitbook/assets/gu-jian-en.png)
 
-After successful loading, select the autopilot COM port with 115200 baud rate and click "connect" at the right-top corner. Go to "Initial Setup - Optional Hardware - UAVCAN", click "SLCan Mode CAN1".
+After successful loading, select the autopilot SLCAN COM port with 115200 baud rate and on CubeOrange DONT Connect, CubeBlack Connect and then Go to "Initial Setup - Optional Hardware - UAVCAN", click "SLCan Mode CAN1".
 
 ![](../.gitbook/assets/canen%20%281%29%20%281%29.png)
 
