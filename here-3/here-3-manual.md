@@ -326,9 +326,13 @@ Download the u-blox chip firmware. \(The latest firmware for u-blox M8P chip is 
 u-blox M8P chip firmware:  
 [https://www.u-blox.com/en/product/neo-m8p-series\#tab-documentati](https://www.u-blox.com/en/product/neo-m8p-series#tab-documentati) on-resources
 
-Parameter definition: passThrough = 0 Standard mode
+Parameter definition: 
 
-passThrough = 1 Connect to u-center for parameters reviewing passThrough = 2 Connect to u-center for firmware update on u-blox chip
+passThrough = 0 Standard mode
+
+passThrough = 1 Connect to u-center for parameter review
+
+passThrough = 2 Connect to u-center for firmware update on u-blox chip
 
 After downloading the firmware, connect to Mission Planner. Go to UAVCAN tab and modify the parameter “passthrough” to “2”. When done, click “Write Params” and “Commit Params” at the righthand side.
 
@@ -393,8 +397,11 @@ Be aware that the following steps should be done when there is only 1 GPS module
 After verifying the firmware has already updated to v1.6 or later, click “Menu – Parameters to enter the setting:
 
 gnssConfig = 8 for BeiDou  
+
 gnssConfig = 9 for GPS+BeiDou  
+
 gnssConfig = 97 for GPS+GLONASS+QZSS  
+
 When done, click “Write Params” and “Commit Params” at the righthand side.
 
 ![](../.gitbook/assets/here3-19.jpg)
