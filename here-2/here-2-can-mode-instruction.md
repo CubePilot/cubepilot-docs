@@ -45,7 +45,7 @@ Note: The later released Copter3.7 firmware will support Dynamic Node Allocator.
 
 ## Using PX4 firmware:
 
-Connect with CNA1 or CAN2 port. Connect with the controller to set the DRONECAN\_ENABLE parameter as Sensors Automatic Config. The sensors should work properly.
+Connect with CAN1 or CAN2 port. Connect with the controller to set the DRONECAN\_ENABLE parameter as Sensors Automatic Config. The sensors should work properly.
 
 ## How to use I2C mode:
 
