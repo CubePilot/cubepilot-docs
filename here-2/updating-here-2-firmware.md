@@ -1,6 +1,6 @@
 ---
 description: >-
-  Instructions for Connecting the Here 2 to CAN and Using the UAVCAN Interface
+  Instructions for Connecting the Here 2 to CAN and Using the DroneCAN Interface
   in Mission Planner to Update the Here 2 Bootloader
 ---
 
@@ -30,7 +30,7 @@ Using the supplied USB cable, connect the Cube to your computer.
 
 The required version of mission planner is 1.3.66 or later. Mission planner can be retrieved from
 
-{% embed url="https://firmware.ardupilot.org" caption="" %}
+{% embed url="https://firmware.ardupilot.org" %}
 
 ## Step 5: Download ArduCopter master
 
@@ -56,7 +56,7 @@ Unplug the USB cable, plug it back in and reconnect Mission Planner.
 
 ![Step 9: Using the Mission Planner SLCAN interface](../.gitbook/assets/step-9.jpg)
 
-Click **Initial Setup**, then **Optional Hardware**, then UAVCAN, then **SLCan Mode CAN1**. Connected CAN devices \(in this case, a Here 2\) will be listed.
+Click **Initial Setup**, then **Optional Hardware**, then UAVCAN, then **SLCan Mode CAN1**. Connected CAN devices (in this case, a Here 2) will be listed.
 
 ## Step 10: Flash the bootloader updater
 
@@ -66,11 +66,10 @@ The bootloader updater performs the procedure listed above, which will start imm
 
 On the Here 2 entry in the list, select **Update**, navigate to the **bootloader\_updater** file and open it. After this point, **DO NOT DISCONNECT POWER UNTIL THE LEDS ARE EITHER GREEN OR YELLOW, OR 3 MINUTES HAVE ELAPSED.**
 
-{% file src="../.gitbook/assets/here2\_bootloader\_updater-crc.bin" %}
+{% file src="../.gitbook/assets/here2_bootloader_updater-crc.bin" %}
 
 ## Step 11: Flash the application
 
 Select **Update** again, navigate to the **Here2\_com.hex.here\_2.1-crc.bin** file and open it to flash the latest firmware.
 
-{% file src="../.gitbook/assets/here2\_com.hex.here\_2.1-crc \(1\).bin" %}
-
+{% file src="../.gitbook/assets/here2_com.hex.here_2.1-crc (1).bin" %}
