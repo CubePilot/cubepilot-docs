@@ -56,7 +56,7 @@ Unplug the USB cable, plug it back in and reconnect Mission Planner.
 
 ![Step 9: Using the Mission Planner SLCAN interface](../.gitbook/assets/step-9.jpg)
 
-Click **Initial Setup**, then **Optional Hardware**, then UAVCAN, then **SLCan Mode CAN1**. Connected CAN devices (in this case, a Here 2) will be listed.
+Click **Initial Setup**, then **Optional Hardware**, then DroneCAN, then **SLCan Mode CAN1**. Connected CAN devices (in this case, a Here 2) will be listed.
 
 ## Step 10: Flash the bootloader updater
 

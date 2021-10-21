@@ -14,7 +14,7 @@ For allocating node ID to Here2, user needs to use Cube as SLCAN (Serial port to
 
 ![](../.gitbook/assets/here-2-can-instruction-1.jpg)
 
-After uploading successfully, click on ‘Connect’. Press Ctrl+L keys to enter into UAVCAN interface.
+After uploading successfully, click on ‘Connect’. Press Ctrl+L keys to enter into DRONECAN interface.
 
 ![](../.gitbook/assets/here-2-can-instruction-2.jpg)
 
@@ -22,7 +22,7 @@ Click on ‘SLCan Mode CAN1’, then the information of Here2 device will show u
 
 ![](<../.gitbook/assets/here-2-can-instruction-3-1 (1) (2).jpg>)
 
-Pop up the parameters setting interface shown as the screenshot below, set the value of uavcan.node\_id between 0 and 125. Click on ‘Writing parameters’, then click on ‘Commit Params’ to save the setting. With the above mentioned steps, manual Node allocation is completed. If the user would like to enable the barometer, it can be done by setting the value of BARO\_ENABLE as 1.
+Pop up the parameters setting interface shown as the screenshot below, set the value of dronecan.node\_id between 0 and 125. Click on ‘Writing parameters’, then click on ‘Commit Params’ to save the setting. With the above mentioned steps, manual Node allocation is completed. If the user would like to enable the barometer, it can be done by setting the value of BARO\_ENABLE as 1.
 
 ![](../.gitbook/assets/here-2-can-instruction-4.jpg)
 
@@ -45,7 +45,7 @@ Note: The later released Copter3.7 firmware will support Dynamic Node Allocator.
 
 ## Using PX4 firmware:
 
-Connect with CNA1 or CAN2 port. Connect with the controller to set the UAVCAN\_ENABLE parameter as Sensors Automatic Config. The sensors should work properly.
+Connect with CNA1 or CAN2 port. Connect with the controller to set the DRONECAN\_ENABLE parameter as Sensors Automatic Config. The sensors should work properly.
 
 ## How to use I2C mode:
 
