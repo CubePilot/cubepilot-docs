@@ -14,7 +14,7 @@ HerePro uses multi-frequency DGNSS signals with advanced algorithms to converge 
 
 **1. ** Equipped with u-blox F9P, a professional high precision Multi-band RTK navigation module.
 
-**2. **Powerful processing performance provided by built-in STM32H7`53` chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP_Periph Firmware. Supports over CAN or USB firmware updates.
+**2. **Powerful processing performance provided by built-in STM32H7`53` chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP\_Periph Firmware. Supports over CAN or USB firmware updates.
 
 **3. **The tailor-made multi-band antenna from Taoglass supports L1, L2, and E5 frequencies. It features high gain, high sensitivity, and high stability.
 
@@ -96,29 +96,29 @@ Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CA
 
 Turn on the autopilot and connect it to Mission Planner. Go to Config - Full Parameter List page and modify the following parameters:
 
-**CAN_D1\_PROTOCOL: 1**
+**CAN\_D1\_PROTOCOL: 1**
 
-**CAN_D2\_PROTOCOL: 1**
+**CAN\_D2\_PROTOCOL: 1**
 
-**CAN_P1\_DRIVER: 1**
+**CAN\_P1\_DRIVER: 1**
 
-**CAN_P2\_DRIVER: 1**
+**CAN\_P2\_DRIVER: 1**
 
-**GPS_TYPE: 9**
+**GPS\_TYPE: 9**
 
-**NTF_LED_TYPES: 231**
+**NTF\_LED\_TYPES: 231**
 
 Once completed, click "Write Params". CAN function should be enabled after rebooting the autopilot.
 
 **Compass Setting (Using the current firmware):**
 
-> **There is no safety switch. Safety switch can be disabled by modifying BRD_SAFETYENABLE to 0. Connecting external safety switch to GPS1 port is also an option.**
+> **There is no safety switch. Safety switch can be disabled by modifying BRD\_SAFETYENABLE to 0. Connecting external safety switch to GPS1 port is also an option.**
 
 When using Cube Black, compasses are ordered from top to bottom as 1,2, and 3; When using Cube Orange, compasses are ordered from top to bottom as 1 and 2. External CAN compass is selected as the last one by default.
 
 ![](../.gitbook/assets/herepro-compass-setting-using-the-current-firmware-.jpg)
 
-To set external CAN compass as compass 1, move the UAVCAN compass to the top.
+To set external CAN compass as compass 1, move the  compass to the top.
 
 ![](../.gitbook/assets/herepro-compass-setting-using-the-current-firmware-1.jpg)
 
@@ -130,7 +130,7 @@ Select the compasses using (generally default setting is fine) and click "Start"
 
 > By the time of writing, PX4 v1.12 beta 3 is being used.
 
-Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port. Then, supply 6V - 40V power to HerePro. Connect to autopilot through GCS. Modify the parameter `UAVCAN_ENABLE` to `Sensors Automatic Conﬁg` and reboot the autopilot.
+Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port. Then, supply 6V - 40V power to HerePro. Connect to autopilot through GCS. Modify the parameter `_ENABLE` o`Sensors Automatic Conﬁg` and reboot the autopilot.
 
 ![](../.gitbook/assets/herepro-using-with-px4.jpg)
 
@@ -146,11 +146,11 @@ Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CA
 
 ![](../.gitbook/assets/herepro-2.using-with-ardupilot.png)
 
-Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > UAVCAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
+Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > DRONECAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
 
 ![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (1).png>)
 
-Modify parameters **“GPS_TYPE” = 1，“GPS_RTCMSOURCE” = 0，“SERIALPASS” = 0**. After that, click `write params` then `Commit Params` and reboot the HerePro.
+Modify parameters **“GPS\_TYPE” = 1，“GPS\_RTCMSOURCE” = 0，“SERIALPASS” = 0**. After that, click `write params` then `Commit Params` and reboot the HerePro.
 
 ![](<../.gitbook/assets/2en (2) (1).png>)
 
@@ -172,7 +172,7 @@ After connected, go to `Config > MAVFtp > APM > scripts` screen and right click.
 
 ![](../.gitbook/assets/herepro-missionplanner.png)
 
-Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro. Connect the autopilot to Mission Planner and go to `UAVCAN` screen. Click `SLCan Mode CAN1` to load CAN GPS status.
+Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro. Connect the autopilot to Mission Planner and go to `DRONECAN` screen. Click `SLCan Mode CAN1` to load CAN GPS status.
 
 ![](../.gitbook/assets/herepro-2.using-with-ardupilot.png)
 
@@ -212,11 +212,11 @@ Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CA
 
 ![](../.gitbook/assets/herepro-2.using-with-ardupilot.png)
 
-Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > UAVCAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
+Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > DRONECAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
 
 ![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3).png>)
 
-Modify parameters **“GPS_TYPE = 1“，“GPS_RTCMSOURCE = 10”，“SERIALPASS = 0“**. After that, click `write params` then `Commit Params` and disconnect the HerePro. Connect another HerePro and continue.
+Modify parameters **“GPS\_TYPE = 1“，“GPS\_RTCMSOURCE = 10”，“SERIALPASS = 0“**. After that, click `write params` then `Commit Params` and disconnect the HerePro. Connect another HerePro and continue.
 
 ![](<../.gitbook/assets/2en (2).png>)
 
@@ -226,7 +226,7 @@ Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CA
 
 ![](../.gitbook/assets/herepro-2.using-with-ardupilot.png)
 
-Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > UAVCAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
+Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > DRONECAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
 
 ![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (3).png>)
 
