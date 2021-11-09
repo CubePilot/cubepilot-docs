@@ -23,9 +23,9 @@ _\* _Please check and fulfil three requirements, otherwise register failure as a
 
 [**Open-Source Scrcpy To Control Android Via Windows & macOS**](https://discuss.cubepilot.org/t/herelink-screenshot/3881)****
 
-## Herelink - Video / Camera 
+## Herelink - Video / Camera&#x20;
 
-#### [Herelink - Compatible camera list](https://discuss.cubepilot.org/t/herelink-compatible-camera-list/1922) 
+#### [Herelink - Compatible camera list](https://discuss.cubepilot.org/t/herelink-compatible-camera-list/1922)&#x20;
 
 \*Latest update please check the URL above, thank you!
 
@@ -34,38 +34,38 @@ Any help to grow the list is welcome. If there is any specific settings to use, 
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Canon EOS M3\__\__\__\__\_Stock/out of the box settings\
-GoPro 3\__\__\__\__\__\__\__\_Stock/out of the box settings\
-GoPro 4\__\__\__\__\__\__\__\_Stock/out of the box settings\
-GoPro 5\__\__\__\__\__\__\__\_Stock/out of the box settings\
-GoPro 7\__\__\__\__\__\__\__\_Stock/out of the box settings\
-GoPro 8\__\__\__\__\__\__\__\_Stock/out of the box settings (with its Media Module)\
-ZCam E1\__\__\__\__\__\__\__Stock/out of the box settings\
-Foxeer Box2\__\__\__\__\__\_Specific settings (search for [@UlrichC](https://discuss.cubepilot.org/u/ulrichc) message for full infos)\
+Canon EOS M3\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+GoPro 3\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+GoPro 4\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+GoPro 5\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+GoPro 7\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+GoPro 8\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings (with its Media Module)\
+ZCam E1\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Foxeer Box2\_\_\_\_\_\_\_\_\_\_\_Specific settings (search for [@UlrichC](https://discuss.cubepilot.org/u/ulrichc) message for full infos)\
 Flir Duo Pro\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
-Sony AS200V\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
-Sony NEX-3N\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
-Sony a5100\__\__\__\__\__\__Stock/out of the box settings\
-Sony A6000\__\__\__\__\__\__Stock/out of the box settings\
-Sony A6300\__\__\__\__\__\__Stock/out of the box settings\
+Sony AS200V\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony NEX-3N\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony a5100\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony A6000\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony A6300\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
 Sony A7R\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
-Sony A7Rii\_\_\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
+Sony A7Rii\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
 Sony RX1Rii\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
-Sony RX0 mki\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
-Sony RX100VI\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
-Sony HX50\__\__\__\__\__\__\_Stock/out of the box settings\
-SONY HDR-CX450\__\__\__\_Stock/out of the box settings\
-SONY HDR-PJ620\__\__\__\_Stock/out of the box settings\
-SONY HDR-CX440\__\__\__\_Stock/out of the box settings\
-Foxeer HS1223\__\__\__\__\__Set resolution to 1080p 30fps with Foxeer app\
-Foxtech Seeker 30 max\_\__Stock/out of the box settings\
-Waltter move 500\__\__\__\__Stock/out of the box settings\
-Hawkeye Firefly split 4k\_\__Stock/out of the box settings (firmware 20190926 works better than others)\
-Firefly Q6\__\__\__\__\__\__\__Stock/out of the box settings\
-Optris PI-Series\_\_\_\_\_\_\_\__Stock/out of the box settings (via companion computer with MS Windows)\
-EKEN H9R\_\_\_\_\_\_\_\_\_\_\_\__Stock/out of the box settings\
-Black Magic micro cinema_Stock/out of the box settings\
-NextVision cameras with TRIP2 accessory_Stock/out of the box settings
+Sony RX0 mki\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony RX100VI\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Sony HX50\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+SONY HDR-CX450\_\_\_\_\_\_\_Stock/out of the box settings\
+SONY HDR-PJ620\_\_\_\_\_\_\_Stock/out of the box settings\
+SONY HDR-CX440\_\_\_\_\_\_\_Stock/out of the box settings\
+Foxeer HS1223\_\_\_\_\_\_\_\_\_\_Set resolution to 1080p 30fps with Foxeer app\
+Foxtech Seeker 30 max\_\_\_Stock/out of the box settings\
+Waltter move 500\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Hawkeye Firefly split 4k\_\_\_Stock/out of the box settings (firmware 20190926 works better than others)\
+Firefly Q6\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Optris PI-Series\_\_\_\_\_\_\_\_\_Stock/out of the box settings (via companion computer with MS Windows)\
+EKEN H9R\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
+Black Magic micro cinema\_Stock/out of the box settings\
+NextVision cameras with TRIP2 accessory\_Stock/out of the box settings
 
 \*\*\*\*\*\*\*\*\*\*\*\* Not Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
@@ -93,7 +93,7 @@ Mini BNC
 
 #### [Herelink encryption](https://discuss.cubepilot.org/t/support-for-encryption/1370)
 
-Herelink encrypt over the air uses aes-128-ctr 
+Herelink encrypt over the air uses aes-128-ctr&#x20;
 
 ## Herelink - Ethernet
 
@@ -206,9 +206,9 @@ _File "site-packages\adb-1.3.0-py3.8.egg\adb\adbcommands.py", line 138, in Conne
 _File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 221, in FindAndOpen _\
 _File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 117, in Open _\
 _File "site-packages\usb1\_init\_.py", line 2168, in open _\
-_File "site-packages\usb1\__init.py", line 133, in mayRaiseUSBError _\
-_File "site-packages\usb1\__init.py", line 125, in raiseUSBError _\
-_usb1.USBErrorAccess: LIBUSB_ERROR_ACCESS \[-3] _\
+_File "site-packages\usb1\_\_init.py", line 133, in mayRaiseUSBError _\
+_File "site-packages\usb1\_\_init.py", line 125, in raiseUSBError _\
+_usb1.USBErrorAccess: LIBUSB\_ERROR\_ACCESS \[-3] _\
 _\[11936] Failed to execute script flasher_
 
 A: The error message tells that the adb is running already. It can be fixed with the following command: \
