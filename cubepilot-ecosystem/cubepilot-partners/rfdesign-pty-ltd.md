@@ -24,7 +24,9 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 
 ### Features
 
-* Long range >40km depending on antennas and GCS setup \*80km demonstrated by Edge Research labs on a balloon, 57km in India, on Dipoles.
+*   Long range >40km depending on antennas and GCS setup&#x20;
+
+    _\*80km demonstrated by Edge Research labs on a balloon, 57km in India, on Dipoles._
 * 2 x RP-SMA RF connectors, diversity switched.
 * 1 Watt (+30dBm) transmit power.
 * Transmit low pass filter.
@@ -51,8 +53,8 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 
 |                              |                                                                                                                                                                                                           |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Frequency Range**          | 902 - 928 MHz (USA) / 915 - 928 MHz (Australia)                                                                                                                                                           |
-| **Output Power**             | 1W (+30dBm), controllable in 1dB steps ( +/- 1dB @=20dBm typical )                                                                                                                                        |
+| **Frequency Range**          | <p>902 - 928 MHz (USA)</p><p>915 - 928 MHz (Australia)</p>                                                                                                                                                |
+| **Output Power**             | <p>1W (+30dBm), controllable in 1dB steps </p><p>( +/- 1dB @=20dBm typical )</p>                                                                                                                          |
 | **Air Data transfer rates**  | 12, 56, 64, 100, 125, 200, 224, 500 and 750 kbit/sec (User settable, 64kbit default)\*                                                                                                                    |
 | **UART data transfer rates** | <p>1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800, 1M baud (User settable, 57600 default)*</p><p><strong>*note these values are correct as of version 3.16 SiK firmware</strong></p> |
 | **Output Power**             | 1W (+30dBm)                                                                                                                                                                                               |
@@ -60,8 +62,8 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 | **Size**                     | <p>30 mm (wide) x 57 mm (long) x 12.8 mm (thick) - Including RF Shield,</p><p>Heatsink and connector extremeties</p>                                                                                      |
 | **Weight**                   | 14.5g                                                                                                                                                                                                     |
 | **Mounting**                 | 3 x M2.5 screws, 3 x header pin solder points                                                                                                                                                             |
-| **Power Supply**             | <p>+5 V nominal, (+3.5 V min, +5.5 V max), ~800 mA peak at maximum</p><p>power</p>                                                                                                                        |
-| **Temp. Range**              | -40 to +85 deg C, tested operational from -73 to +123 deg C.                                                                                                                                              |
+| **Power Supply**             | <p>+5 V nominal (+3.5 V min, +5.5 V max) </p><p>~800 mA peak at maximum power</p>                                                                                                                         |
+| **Temp. Range**              | <p>-40 to +85 °C</p><p>tested operational from -73 to +123 °C</p>                                                                                                                                         |
 
 ### Software / GCS Support
 
@@ -69,8 +71,10 @@ The software solution is an open source development called "SiK". It has been re
 
 Most parameters are configurable via AT commands, Eg. baud rate (air/uart), frequency band, power levels.
 
-Integrated support for configuring the RFD900 radios is supported by APM Planner. The default settings are at 57600 baud, N, 8, 1, and 64k air data rate.\
-The RFD900x manual is here: [RFD900x Manual](http://files.rfdesign.com.au/Files/documents/RFD900x%20DataSheet%20V1.1.pdf)\
+Integrated support for configuring the RFD900 radios is supported by APM Planner. The default settings are at 57600 baud, N, 8, 1, and 64k air data rate.
+
+The RFD900x manual is here: [RFD900x Manual](http://files.rfdesign.com.au/Files/documents/RFD900x%20DataSheet%20V1.1.pdf)
+
 The RFD900x SiK software manual is here : [RFD900x Peer-to-peer Manual](http://files.rfdesign.com.au/Files/documents/RFD900x%20Peer-to-peer%20V3.X%20User%20Manual%20V1.2.pdf)
 
 ### Software features include
@@ -94,9 +98,9 @@ The RFD900x SiK software manual is here : [RFD900x Peer-to-peer Manual](http://f
 The RFD900 is designed to be compliant with the following standards:
 
 * FCC Part 15.247 (Frequency hopping and digitally modulated intentional radiators)
-*   AS/NZS 4268:2012 (Radio equipment and systems - short range devices)
+* AS/NZS 4268:2012 (Radio equipment and systems - short range devices)
 
-    The modem is designed for system integrators who will integrate the modem into their own projects and product prototypes. The user is responsible for compliance with local regulations for radio transmitters.
+The modem is designed for system integrators who will integrate the modem into their own projects and product prototypes. The user is responsible for compliance with local regulations for radio transmitters.
 
 ## Contact Information
 
