@@ -7,12 +7,12 @@
 ## Service Bulletins and Critical Notices
 
 * [Safety/Service Bulletins](service-bulletins-and-critical-notices/safety-service-bulletins/README.md)
-  * [SB\_0000001 Critical service bulletin for Beta Cube 2.1 \(2016\)](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000001-critical-service-bulletin-for-beta-cube-2.1-2016.md)
-  * [SB\_0000002 Critical service bulletin for Cubes Purchased between JAN 2019 to JUL 2019. DO NOT FLY](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000002-critical-service-bulletin-for-cubes-purchased-between-jan-2019-to-jul-2019.-do-not-fly.md)
-  * [SB\_0000003 Flight with arming checks set anything other than 1 prohibited](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000003-flight-with-arming-checks-set-anything-other-than-1-prohibited.md)
-  * [SB\_0000004 Limited power capacity of the RCIN power rail on Pixhawk Autopilots](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000004-limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots.md)
-  * [SB\_0000005 I2C Storm can cause inflight reboots, Chibios ONLY, not Nuttx \(all cube and Pixhawk hardw](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000005-i2c-storm-can-cause-inflight-reboots-chibios-only-not-nuttx-all-cube-and-pixhawk-hardw.md)
-  * [SB\_0000006 time to Go Orange](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000006-time-to-go-orange.md)
+  * [SB\_0000001 Critical service bulletin for Beta Cube 2.1 (2016)](service-bulletins-and-critical-notices/safety-service-bulletins/sb\_0000001-critical-service-bulletin-for-beta-cube-2.1-2016.md)
+  * [SB\_0000002 Critical service bulletin for Cubes Purchased between JAN 2019 to JUL 2019. DO NOT FLY](service-bulletins-and-critical-notices/safety-service-bulletins/sb\_0000002-critical-service-bulletin-for-cubes-purchased-between-jan-2019-to-jul-2019.-do-not-fly.md)
+  * [SB\_0000003 Flight with arming checks set anything other than 1 prohibited](service-bulletins-and-critical-notices/safety-service-bulletins/sb\_0000003-flight-with-arming-checks-set-anything-other-than-1-prohibited.md)
+  * [SB\_0000004 Limited power capacity of the RCIN power rail on Pixhawk Autopilots](service-bulletins-and-critical-notices/safety-service-bulletins/sb\_0000004-limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots.md)
+  * [SB\_0000005 I2C Storm can cause inflight reboots, Chibios ONLY, not Nuttx (all cube and Pixhawk hardw](service-bulletins-and-critical-notices/safety-service-bulletins/sb\_0000005-i2c-storm-can-cause-inflight-reboots-chibios-only-not-nuttx-all-cube-and-pixhawk-hardw.md)
+  * [SB\_0000006 time to Go Orange](service-bulletins-and-critical-notices/safety-service-bulletins/sb\_0000006-time-to-go-orange.md)
 * [Critical Notices](service-bulletins-and-critical-notices/critical-notices/README.md)
   * [Powering Telemetry radios externally](service-bulletins-and-critical-notices/critical-notices/powering-telemetry-radios-externally.md)
 
@@ -22,8 +22,8 @@
 * [Herelink User Guides](herelink/herelink-user-guides/README.md)
   * [How To Update Firmware](herelink/herelink-user-guides/upgrading-firmware.md)
   * [Pairing, RC Calibration & Setup](herelink/herelink-user-guides/one-time-setup.md)
-  * [Configure Modes & Mavlink Buttons](herelink/herelink-user-guides/mavlink_buttons.md)
-  * [Configure Sbus Buttons & Wheel](herelink/herelink-user-guides/sbus_buttons.md)
+  * [Configure Modes & Mavlink Buttons](herelink/herelink-user-guides/mavlink\_buttons.md)
+  * [Configure Sbus Buttons & Wheel](herelink/herelink-user-guides/sbus\_buttons.md)
   * [Share video Stream](herelink/herelink-user-guides/share-video-stream.md)
   * [Connecting to Mission Planner](herelink/herelink-user-guides/connect-to-mission-planner.md)
   * [Installing a custom app](herelink/herelink-user-guides/installing-a-custom-app.md)
@@ -55,7 +55,7 @@
 
 * [The Cube Module Overview](autopilot/the-cube-module-overview.md)
 * [The Cube User Manual V1.0](autopilot/the-cube-user-manual.md)
-* [The Cube  -  Firmware Installation & Connection  Troubleshooting](autopilot/the-cube-series-firmware-and-connection-troubleshooting.md)
+* [The Cube - Firmware Installation & Connection Troubleshooting](autopilot/the-cube-series-firmware-and-connection-troubleshooting.md)
 * [The Cube FAQ](autopilot/the-cube-faq.md)
 
 ## Carrier Boards
@@ -68,7 +68,7 @@
   * [Airbot Mini Carrier Board Set User Guide](carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md)
 * [Carrier Boards FAQ](carrier-boards/carrier-boards-faq.md)
 
-## FLOW SENSOR <a id="flow-senor"></a>
+## FLOW SENSOR <a href="flow-senor" id="flow-senor"></a>
 
 * [Here Flow](flow-senor/here-flow.md)
 
@@ -83,14 +83,14 @@
 
 ## CubePilot Ecosystem
 
-* [CubePilot Ecosystem Autopilot Wiring Diagram \(Multilingual\)](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
+* [CubePilot Ecosystem Autopilot Wiring Diagram (Multilingual)](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
 * [OEM Carrier Board](cubepilot-ecosystem/oem-carrier-board.md)
 * [CubePilot USA](cubepilot-ecosystem/cubepilot-usa.md)
 * [CubePilot Ecosystem Edu450 Reference Design](cubepilot-ecosystem/cubepilot-ecosystem-edu450-reference-design.md)
 * [CubePilot Ecosystem MissionGO](cubepilot-ecosystem/cubepilot-ecosystem-missiongo.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
-  * [RF Design](cubepilot-ecosystem/cubepilot-partners/rf-design.md)
+  * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
   * [Vamatis](cubepilot-ecosystem/cubepilot-partners/vamatis.md)
   * [Airbot Systems](cubepilot-ecosystem/cubepilot-partners/airbot-systems.md)
   * [Bask Aerospace](cubepilot-ecosystem/cubepilot-partners/bask-aerospace.md)
@@ -122,7 +122,7 @@
 ## 3D Printing
 
 * [CubePilot product 3D model](3d-printing/cubepilot-product-3d-model.md)
-* [Printable Camera Quad \(Foldable\)](3d-printing/printable-camera-quad-foldable.md)
+* [Printable Camera Quad (Foldable)](3d-printing/printable-camera-quad-foldable.md)
 * [Here 3 Stand](3d-printing/here-3-stand.md)
 * [Kore Multi-Rotor Carrier Board Case](3d-printing/kore-multi-rotor-carrier-board-case.md)
 
@@ -131,7 +131,6 @@
 * [CubePilot Logos](product-media/cubepilot-logos.md)
 * [Product Media Cloud Drive](product-media/product-media-cloud-drive.md)
 
----
+***
 
 * [OEM Carrier Board](oem-carrier-board.md)
-
