@@ -8,11 +8,9 @@ RFDesign is an electronics design and manufacturing company specialising in Embe
 
 We are located in Brisbane, Australia with our office located in Archerfield, QLD. Please visit our main website, http://rfdesign.com.au for more information.
 
-## **Product Description**
+## RFD900**x**
 
 ![](../../.gitbook/assets/RFD900x.jpg)
-
-### RFD900**x **
 
 ### **New Features:**
 
