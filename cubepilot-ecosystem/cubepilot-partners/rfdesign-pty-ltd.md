@@ -12,7 +12,7 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 
 ![](../../.gitbook/assets/RFD900x.jpg)
 
-### **New Features:**
+### **New Features**
 
 * New Processor, ARM 32 bit core.
 * Air data rate: 500kbit/s
@@ -22,7 +22,7 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 * Original SiK point to point firmware implemented.
 * Asynchronous multipoint firmware, \*Beta release\*
 
-### Features:
+### Features
 
 * Long range >40km depending on antennas and GCS setup \*80km demonstrated by Edge Research labs on a balloon, 57km in India, on Dipoles.
 * 2 x RP-SMA RF connectors, diversity switched.
@@ -38,7 +38,7 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 * License free use in Australia, Canada, USA, NZ
 * Note: Not compatible with older modems
 
-### Interfaces:
+### Interfaces
 
 |            |                                                   |
 | ---------- | ------------------------------------------------- |
@@ -47,7 +47,7 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 | **Power**  | +5v, \~800mA max peak (at maximum transmit power) |
 | **GPIO**   | 6 General purpose IO (Digita capable)             |
 
-### Specifications:
+### Specifications
 
 |                              |                                                                                                                                                                                                           |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +63,7 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 | **Power Supply**             | <p>+5 V nominal, (+3.5 V min, +5.5 V max), ~800 mA peak at maximum</p><p>power</p>                                                                                                                        |
 | **Temp. Range**              | -40 to +85 deg C, tested operational from -73 to +123 deg C.                                                                                                                                              |
 
-### Software / GCS Support:
+### Software / GCS Support
 
 The software solution is an open source development called "SiK". It has been re implemented to suit the new processor architecture available on the 32bit ARM processor core. A boot loader and interface is available for further development and field upgrade of the modem firmware via the serial port.
 
@@ -73,7 +73,7 @@ Integrated support for configuring the RFD900 radios is supported by APM Planner
 The RFD900x manual is here: [RFD900x Manual](http://files.rfdesign.com.au/Files/documents/RFD900x%20DataSheet%20V1.1.pdf)\
 The RFD900x SiK software manual is here : [RFD900x Peer-to-peer Manual](http://files.rfdesign.com.au/Files/documents/RFD900x%20Peer-to-peer%20V3.X%20User%20Manual%20V1.2.pdf)
 
-### Software features include:
+### Software features include
 
 * Frequency hopping spread spectrum (FHSS)
 * Transparent serial link
@@ -89,7 +89,7 @@ The RFD900x SiK software manual is here : [RFD900x Peer-to-peer Manual](http://f
 * Automatic antenna diversity switching on a packet basis in realtime
 * Automatic duty cycle throttling based on radio temperature to avoid overheating
 
-### Compliance:
+### Compliance
 
 The RFD900 is designed to be compliant with the following standards:
 
@@ -98,7 +98,7 @@ The RFD900 is designed to be compliant with the following standards:
 
     The modem is designed for system integrators who will integrate the modem into their own projects and product prototypes. The user is responsible for compliance with local regulations for radio transmitters.
 
-## Contact Information:
+## Contact Information
 
 RFDesign Pty Ltd&#x20;
 
