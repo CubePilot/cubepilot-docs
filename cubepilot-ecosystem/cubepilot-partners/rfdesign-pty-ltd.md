@@ -6,7 +6,7 @@
 
 RFDesign is an electronics design and manufacturing company specialising in Embedded systems, Radios, Antennas and high frequency electronics.
 
-We are located in Brisbane, Australia with our office located in Archerfield, QLD. Please visit our main website, http://rfdesign.com.au for more information.
+We are located in Brisbane, Australia with our office located in Archerfield, QLD. Please visit RFDesign main website, [http://rfdesign.com.au](http://rfdesign.com.au) for more information.
 
 ## RFD900**x**
 
