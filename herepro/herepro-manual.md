@@ -317,4 +317,4 @@ If you connected the UAVs with 1 telemetry module, they should share the same CO
 
 ![](../.gitbook/assets/herepro-l2.jpg)
 
-2021/5/12
+2021/11/23
