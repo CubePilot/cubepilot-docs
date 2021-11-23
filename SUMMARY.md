@@ -111,6 +111,7 @@
       * [Meadowhawk 2 User Guide](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/README.md)
         * [TABLE OF CONTENTS](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/README.md)
           * [1. GENERAL](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/1.-general.md)
+          * [2. OPERATING LIMITATIONS](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/2.-operating-limitations.md)
     * [HereLink Blue](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue.md)
   * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
