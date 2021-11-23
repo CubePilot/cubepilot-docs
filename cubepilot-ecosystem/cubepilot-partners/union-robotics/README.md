@@ -8,8 +8,8 @@ description: >-
 
 ## Product Manuals
 
-{% content-ref url="meadowhawk-2.md" %}
-[meadowhawk-2.md](meadowhawk-2.md)
+{% content-ref url="meadowhawk-2/" %}
+[meadowhawk-2](meadowhawk-2/)
 {% endcontent-ref %}
 
 {% content-ref url="herelink-blue.md" %}
