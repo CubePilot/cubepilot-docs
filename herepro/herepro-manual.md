@@ -216,7 +216,7 @@ Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Opti
 
 ![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3).png>)
 
-Modify parameters **“GPS\_TYPE = 1“，“GPS\_RTCMSOURCE = 10”，“SERIALPASS = 0“**. After that, click `write params` then `Commit Params` and disconnect the HerePro. Connect another HerePro and continue.
+Modify parameters **“GPS\_TYPE = 1“ , “GPS\_RTCMSOURCE = 10” , “SERIALPASS = 0“ , "CAN\_NODE = 9"**. After that, click `write params` then `Commit Params` and disconnect the HerePro. Connect another HerePro and continue.
 
 ![](<../.gitbook/assets/2en (2).png>)
 
