@@ -117,8 +117,73 @@
 |                                                                 |
 | **6 WEIGHT AND BALANCE EQUIPMENT LIST**                         |
 | 6.1 Introduction                                                |
-| 6.2                                                             |
+| 6.2 Weighing Procedures                                         |
+|          Operating weights and loading (batteries \| payloads)  |
+|          Centre of Gravity range and determination              |
+| 6.3 Equipment List                                              |
 |                                                                 |
+| **7 DESCRIPTION OF THE sUAS AND SYSTEMS**                       |
+| 7.1 Introduction                                                |
+| 7.2 Airframe                                                    |
+| 7.3 Flight Controls                                             |
+|          Throttle                                               |
+|          Yaw                                                    |
+|          Pitch                                                  |
+|          Roll                                                   |
+|          Anti-Collision Light / Orientation Lights              |
+|          Cargo Release Hook                                     |
+|          Loading the Hook                                       |
+| 7.4 Propulsion System                                           |
+| 7.4.1 Motor \| Propeller \| Electronic Speed Control            |
+| 7.4.2 Flight Battery                                            |
+| 7.5 Electrical System                                           |
+| 7.6 Avionics System                                             |
+| 7.6.1 Navigation                                                |
+| 7.6.2 Communication                                             |
+| 7.6.3 Telemetry                                                 |
+| 7.7 Launch \| Flight Recovery System                            |
+|          Launch                                                 |
+|          Arming the Meadowhawk                                  |
+|          Return-to-Launch (RTH)                                 |
+|          Smart Return-to-Launch (SmartRTL)                      |
+|          Land Now                                               |
+| 7.8 Payloads                                                    |
+| 7.9 Remote Pilot Station                                        |
+|          Radio                                                  |
+| 7.10 Ground Support \| Surveillance                             |
+|          Share Video Stream                                     |
+|          Enable the video stream on the radio controller        |
+|          Connect over Wifi Tethering                            |
+|          Display the video stream                               |
+|                                                                 |
+| **8 HANDLING, CARE AND MAINTENANCE**                            |
+| 8.1 Introduction                                                |
+| 8.2 Transport \| Storage                                        |
+| 8.3 Assembly \| Disassembly                                     |
+| 8.3.1 Propeller Care                                            |
+| 8.3.2 Aircraft Components                                       |
+|          Top Canopy                                             |
+|          Front Canopy                                           |
+|          Bottom Canopy                                          |
+|          Motor                                                  |
+|          Arm                                                    |
+|          Leg                                                    |
+| 8.4 Cleaning and Care                                           |
+| 8.4.1 Aircraft Cleaning                                         |
+| 8.4.2 Battery Care, Storage, and Use                            |
+|          Aircraft Battery Storage                               |
+|          Aircraft Battery Use                                   |
+|          Aircraft Battery Charging                              |
+|          Radio Controller Charging                              |
+| 8.5 Scheduled Maintenance                                       |
+| 8.5.1 Annual Inspection                                         |
+| 8.5.2 500 Hour Preventive Maintenance                           |
+|                                                                 |
+| **9 SUPPLEMENTS**                                               |
+| 9.1 General                                                     |
+| 9.2 Index of Supplements                                        |
+|          1. Sony RX0                                            |
+|          2. Sony RX100                                          |
 |                                                                 |
 |                                                                 |
 |                                                                 |
