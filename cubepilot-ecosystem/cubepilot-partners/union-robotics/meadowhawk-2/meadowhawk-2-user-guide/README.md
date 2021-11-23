@@ -1,8 +1,8 @@
 # Meadowhawk 2 User Guide
 
-![](../../../../.gitbook/assets/union-robotics-logo-black.jpeg)
+![](../../../../../.gitbook/assets/union-robotics-logo-black.jpeg)
 
-![](../../../../.gitbook/assets/meadowhawk\_1.2.6\_basic.jpg)
+![](../../../../../.gitbook/assets/meadowhawk\_1.2.6\_basic.jpg)
 
 ## Meadowhawk 2 - Remote Vehicle Flight Manual
 
