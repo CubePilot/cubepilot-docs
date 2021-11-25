@@ -114,6 +114,7 @@
           * [2. OPERATING LIMITATIONS](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/2.-operating-limitations.md)
           * [3. EMERGENCY PROCEDURE](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/3.-emergency-procedure.md)
           * [4. NORMAL OPERATING PROCEDURES](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/4.-normal-operating-procedures.md)
+          * [5. PERFORMANCE](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/5.-performance.md)
     * [HereLink Blue](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue.md)
   * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
