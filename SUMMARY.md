@@ -116,6 +116,7 @@
           * [4. NORMAL OPERATING PROCEDURES](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/4.-normal-operating-procedures.md)
           * [5. PERFORMANCE](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/5.-performance.md)
           * [6. WEIGHT AND BALANCE EQUIPMENT LIST](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/6.-weight-and-balance-equipment-list.md)
+          * [7. DESCRIPTION OF THE sUAS AND SYSTEMS](cubepilot-ecosystem/cubepilot-partners/union-robotics/meadowhawk-2/meadowhawk-2-user-guide/table-of-contents/7.-description-of-the-suas-and-systems.md)
     * [HereLink Blue](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue.md)
   * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
