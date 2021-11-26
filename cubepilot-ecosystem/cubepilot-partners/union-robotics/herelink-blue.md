@@ -1,5 +1,0 @@
-# HereLink Blue
-
-Updating.......
-
-###
