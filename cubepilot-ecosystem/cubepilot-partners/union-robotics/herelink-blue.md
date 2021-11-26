@@ -1,6 +1,6 @@
 # HereLink Blue
 
-![HereLink Blue](../../../../.gitbook/assets/BlueHereLink\_web.png)
+![HereLink Blue](../../../.gitbook/assets/BlueHereLink\_web.png)
 
 ## Overview
 
@@ -59,7 +59,7 @@ HereLink Blue allows RC control, HD video and telemetry data to be transmitted u
 
 ## Ground Station
 
-![HereLink Blue Ground Station](../../../../.gitbook/assets/BlueHereLink\_GCS.png)
+![HereLink Blue Ground Station](../../../.gitbook/assets/BlueHereLink\_GCS.png)
 
 |                    |                                                                                                                                |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -77,7 +77,7 @@ HereLink Blue allows RC control, HD video and telemetry data to be transmitted u
 
 ### Air Unit
 
-![HereLink Blue Air Unit](../../../../.gitbook/assets/BlueHereLink\_AIR\_web.png)
+![HereLink Blue Air Unit](../../../.gitbook/assets/BlueHereLink\_AIR\_web.png)
 
 |                 |                                                                                                                                                                                           |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

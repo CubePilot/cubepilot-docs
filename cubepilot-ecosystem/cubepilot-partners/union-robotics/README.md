@@ -12,8 +12,8 @@ description: >-
 [meadowhawk-2.md](meadowhawk-2.md)
 {% endcontent-ref %}
 
-{% content-ref url="herelink-blue/" %}
-[herelink-blue](herelink-blue/)
+{% content-ref url="herelink-blue.md" %}
+[herelink-blue.md](herelink-blue.md)
 {% endcontent-ref %}
 
 ## Customer Support
