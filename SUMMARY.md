@@ -68,7 +68,7 @@
   * [Airbot Mini Carrier Board Set User Guide](carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md)
 * [Carrier Boards FAQ](carrier-boards/carrier-boards-faq.md)
 
-## FLOW SENSOR <a href="flow-senor" id="flow-senor"></a>
+## FLOW SENSOR <a href="#flow-senor" id="flow-senor"></a>
 
 * [Here Flow](flow-senor/here-flow.md)
 
@@ -132,6 +132,7 @@
           * [Ground Station Buttons & LED](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-user-guide/ground-station/ground-station-buttons-and-led.md)
           * [Ground Station Charging](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-user-guide/ground-station/ground-station-charging.md)
       * [UR/Solex TX App](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/ur-solex-tx-app.md)
+      * [Pairing & Calibration](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/pairing-and-calibration.md)
   * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
     * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
