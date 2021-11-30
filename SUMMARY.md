@@ -134,6 +134,7 @@
       * [UR/Solex TX App](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/ur-solex-tx-app.md)
       * [Pairing & Calibration](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/pairing-and-calibration.md)
       * [Configure Buttons](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/configure-buttons.md)
+      * [Share Video Stream](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/share-video-stream.md)
   * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
     * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
