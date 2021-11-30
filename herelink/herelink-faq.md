@@ -7,13 +7,13 @@ description: "Herelink \bFAQ Resources"
 ## Herelink - Register Failure
 
 **-Wi-Fi**\
-_5.8GHz _\
+_5.8GHz_ \
 **-IP Address**\
 _Not in range 192.168.0.x_\
 **-Region**\
 _Select the correct region and within 5mins difference_\
 __\
-_\* _Please check and fulfil three requirements, otherwise register failure as a result
+_\*_ Please check and fulfil three requirements, otherwise register failure as a result
 
 ## Herelink - Solex as Autostarting App
 
@@ -97,7 +97,7 @@ Herelink encrypt over the air uses aes-128-ctr&#x20;
 
 ## Herelink - Ethernet
 
-[**Herelink Ethernet**](https://discuss.cubepilot.org/t/herelink-ethernet/4369)** **\
+[**Herelink Ethernet**](https://discuss.cubepilot.org/t/herelink-ethernet/4369) **** \
 ****\
 ****I’m trying to get ethernet passthrough working. I’m running on the Beta Channel, SRU01200616 on the ground unit and the corresponding version on the airside.
 
@@ -198,17 +198,17 @@ When using Dual Streaming mode, the Herelink can get quite warm, for best result
 
 Q: When connecting the Herelink to computer to update it with flasher, the following message pops up:
 
-_Looking for DeviceTraceback (most recent call last): _\
-_File "flasher.py", line 260, in  _\
-_File "flasher.py", line 142, in detectuntilfound _\
-_File "flasher.py", line 238, in detectunit _\
-_File "site-packages\adb-1.3.0-py3.8.egg\adb\adbcommands.py", line 138, in ConnectDevice _\
-_File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 221, in FindAndOpen _\
-_File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 117, in Open _\
-_File "site-packages\usb1\_init\_.py", line 2168, in open _\
-_File "site-packages\usb1\_\_init.py", line 133, in mayRaiseUSBError _\
-_File "site-packages\usb1\_\_init.py", line 125, in raiseUSBError _\
-_usb1.USBErrorAccess: LIBUSB\_ERROR\_ACCESS \[-3] _\
+_Looking for DeviceTraceback (most recent call last):_ \
+_File "flasher.py", line 260, in_  \
+_File "flasher.py", line 142, in detectuntilfound_ \
+_File "flasher.py", line 238, in detectunit_ \
+_File "site-packages\adb-1.3.0-py3.8.egg\adb\adbcommands.py", line 138, in ConnectDevice_ \
+_File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 221, in FindAndOpen_ \
+_File "site-packages\adb-1.3.0-py3.8.egg\adb\common.py", line 117, in Open_ \
+_File "site-packages\usb1\_init\_.py", line 2168, in open_ \
+_File "site-packages\usb1\_\_init.py", line 133, in mayRaiseUSBError_ \
+_File "site-packages\usb1\_\_init.py", line 125, in raiseUSBError_ \
+_usb1.USBErrorAccess: LIBUSB\_ERROR\_ACCESS \[-3]_ \
 _\[11936] Failed to execute script flasher_
 
 A: The error message tells that the adb is running already. It can be fixed with the following command: \

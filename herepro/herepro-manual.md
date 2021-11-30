@@ -12,27 +12,27 @@ HerePro uses multi-frequency DGNSS signals with advanced algorithms to converge 
 
 ## Features
 
-**1. ** Equipped with u-blox F9P, a professional high precision Multi-band RTK navigation module.
+**1.** Equipped with u-blox F9P, a professional high precision Multi-band RTK navigation module.
 
-**2. **Powerful processing performance provided by built-in STM32H7`53` chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP\_Periph Firmware. Supports over CAN or USB firmware updates.
+**2.** Powerful processing performance provided by built-in STM32H7`53` chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP\_Periph Firmware. Supports over CAN or USB firmware updates.
 
-**3. **The tailor-made multi-band antenna from Taoglass supports L1, L2, and E5 frequencies. It features high gain, high sensitivity, and high stability.
+**3.** The tailor-made multi-band antenna from Taoglass supports L1, L2, and E5 frequencies. It features high gain, high sensitivity, and high stability.
 
-**4. **HerePro base supports both fixed and moving base mode, selectable for different scenarios to maximize performance.
+**4.** HerePro base supports both fixed and moving base mode, selectable for different scenarios to maximize performance.
 
-**5. **HerePro is a base and rover 2-in-1 Functionality switching can be easily done by parameter settings.
+**5.** HerePro is a base and rover 2-in-1 Functionality switching can be easily done by parameter settings.
 
-**6. **HerePro uses multi-frequency DGNSS signals with advanced algorithm allowing fast convergence to an RTK Fix, achieving more reliable and stable centimeter level positioning.
+**6.** HerePro uses multi-frequency DGNSS signals with advanced algorithm allowing fast convergence to an RTK Fix, achieving more reliable and stable centimeter level positioning.
 
-**7. **HerePro module is 15 x 78mm and 101g.
+**7.** HerePro module is 15 x 78mm and 101g.
 
-**8. **6 - 40V dual and wide range input. Compatible with different voltage levels.Redundant power input for improved safety
+**8.** 6 - 40V dual and wide range input. Compatible with different voltage levels.Redundant power input for improved safety
 
-**9. **Circular LED ring embedded with ProfiLEDs. Built-in multiple display modes for notification or navigation signals. Display modes can be selected according to specific scenarios via parameters or onboard Lua Scripting.
+**9.** Circular LED ring embedded with ProfiLEDs. Built-in multiple display modes for notification or navigation signals. Display modes can be selected according to specific scenarios via parameters or onboard Lua Scripting.
 
-**10. **CAN FD, real time, and high transmission rate.
+**10.** CAN FD, real time, and high transmission rate.
 
-**11. **Built-in 9-axis IMU. Through future firmware updates, HerePro can achieve tightly coupled DGNSS-INS-fusing solutions.
+**11.** Built-in 9-axis IMU. Through future firmware updates, HerePro can achieve tightly coupled DGNSS-INS-fusing solutions.
 
 ## Specification
 
@@ -168,7 +168,7 @@ After connected, go to `Config > MAVFtp > APM > scripts` screen and right click.
 
 > Update procedures are as shown as following if there are any future firmware update
 
-**Mission Planner must be later or at the following version to have the new feature available: **
+**Mission Planner must be later or at the following version to have the new feature available:**&#x20;
 
 ![](../.gitbook/assets/herepro-missionplanner.png)
 
@@ -234,11 +234,11 @@ Modify parameters **“SERIALPASS = 1”**. After that, click `write params` the
 
 ![](../.gitbook/assets/herepro-9en.png)
 
-**Before using, please ensure that everything are correctly connected.: **
+**Before using, please ensure that everything are correctly connected.:**&#x20;
 
-**Base: **Power the HerePro base with 6V-40V. Connect its USB port to computer USB port. Connect a telemetry to another port on computer.
+**Base:** Power the HerePro base with 6V-40V. Connect its USB port to computer USB port. Connect a telemetry to another port on computer.
 
-**Rover: **Power the HerePro with 6V-40V. Connect it to CAN1 port on autopilot. Connect a telemetry to TELEM1 port on autopilot.
+**Rover:** Power the HerePro with 6V-40V. Connect it to CAN1 port on autopilot. Connect a telemetry to TELEM1 port on autopilot.
 
 **Antenna Placement**:
 

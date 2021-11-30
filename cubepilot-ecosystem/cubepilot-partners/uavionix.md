@@ -18,7 +18,7 @@ uAvionix offers low SWaP TSO certified and uncertified avionics for General Avia
 
 George combines the flexibility and over a decade’s worth of open-source innovation in UAS autopilots with the robustness of a certifiable DAL-C hardware and a DAL-C safety and sensor processor. George has the aircraft.
 
-![](../../.gitbook/assets/george_ecosystems-2x.png)
+![](../../.gitbook/assets/george\_ecosystems-2x.png)
 
 While George provides the flexibility of the Pixhawk platform, it’s sweet spot is optimized for Vertical Takeoff and Landing (VTOL) Fixed Wing platforms – the most flexible and energy-efficient combo to emerge in aviation in over a century.
 
@@ -28,9 +28,9 @@ Learn more: [George UAV Autopilot](https://uavionix.com/products/george/)
 
 ### **truFYX**
 
-![](../../.gitbook/assets/trufyx-tso_wpixhawk.png)
+![](../../.gitbook/assets/trufyx-tso\_wpixhawk.png)
 
-**The 1st TSOd GPS Source for UAS. **truFYX weighing only 20 grams and able to fit in the palm of your hand, truFYX integrates into nearly any configuration. Compatible with popular autopilots and approved for transponder and ADS-B solutions, truFYX is the trusted GPS source for your UAS or UAM operation. truFYX uses industry-standard NMEA or MAVLink protocols.
+**The 1st TSOd GPS Source for UAS.** truFYX weighing only 20 grams and able to fit in the palm of your hand, truFYX integrates into nearly any configuration. Compatible with popular autopilots and approved for transponder and ADS-B solutions, truFYX is the trusted GPS source for your UAS or UAM operation. truFYX uses industry-standard NMEA or MAVLink protocols.
 
 | Specification     |               |
 | ----------------- | ------------- |
@@ -46,9 +46,9 @@ Learn more: [truFYX](https://uavionix.com/products/trufyx/)
 
 ### ****
 
-### **ping200X **
+### **ping200X**&#x20;
 
-![](../../.gitbook/assets/ping200x_money.png)
+![](../../.gitbook/assets/ping200x\_money.png)
 
 **Transponder & ADSB Out Device. This is the 1st and only TSOd unit on the market for UAS.**
 
@@ -66,11 +66,11 @@ Learn more: [**ping200X**](https://uavionix.com/products/ping200x/)****
 
 ****
 
-### ping2020i** **/ ping1090i
+### ping2020i **** / ping1090i
 
 ![](../../.gitbook/assets/ping2020i-no-logo.png)
 
-**ADSB Transceiver for ADSB In & Out. **ping2020i detects aircraft threats on both 1090MHz and 978MHz within a 100 statute mile radius in real-time and allows nearby aircraft to see you on 978MHz.
+**ADSB Transceiver for ADSB In & Out.** ping2020i detects aircraft threats on both 1090MHz and 978MHz within a 100 statute mile radius in real-time and allows nearby aircraft to see you on 978MHz.
 
 ping2020i is the world’s smallest, lightest, and most affordable full-range, dual-link Automatic Dependent Surveillance-Broadcast (ADS-B) transceiver with integrated Satellite Based Augmentation System (SBAS) Global Positioning System (GPS) and precision barometric sensor. At just 26 grams, it assists with Detect and Avoid (DAA) for Unmanned Aircraft Systems (UAS) operations in the National Airspace System (NAS).
 
@@ -90,15 +90,15 @@ Learn more: [ping2020i](https://uavionix.com/products/ping2020/)
 
 ![](../../.gitbook/assets/pingrx-pro.png)
 
-**Professional detect and avoid ADSB Receiver. **
+**Professional detect and avoid ADSB Receiver.**&#x20;
 
 pingRX Pro is a dual-band ADS-B receiver capable of tracking aircraft on both 978MHz and 1090MHz.
 
 The all-new pingRX Pro is the latest purpose-built Detect and Avoid (DAA) system for professional UAS applications. With easy autopilot integration and the added protection of an aircraft-aluminum housing and detachable remote mount antenna, pingRX Pro is the ideal ADS-B receiver for professional UAS operators who need reliability, rugged build quality, and flexibility for limitless UAS applications.
 
-![](../../.gitbook/assets/detection_range_overview-3.png)
+![](../../.gitbook/assets/detection\_range\_overview-3.png)
 
-pingRX Pro features a maximum range of nearly 100 times any competitive solution** **and meets all suggested well clear distances.
+pingRX Pro features a maximum range of nearly 100 times any competitive solution **** and meets all suggested well clear distances.
 
 | Specification         |                                                  |
 | --------------------- | ------------------------------------------------ |
@@ -115,7 +115,7 @@ Learn more: [pingRX PRO](https://uavionix.com/products/pingrx-pro/)
 
 ![](../../.gitbook/assets/3-product-skylink-x-01-2021.01.17.png)
 
-**Enterprise Managed C2 Infrastructure. **SkyLine is the first Enterprise Command and Control (C2) infrastructure management service built from the ground up to meet aviation design standards for critical UAS and UAM applications. Leveraging DO-362A SkyLink radios, SkyLine integrates hardware, software, and services for seamless management of your mission and infrastructure.
+**Enterprise Managed C2 Infrastructure.** SkyLine is the first Enterprise Command and Control (C2) infrastructure management service built from the ground up to meet aviation design standards for critical UAS and UAM applications. Leveraging DO-362A SkyLink radios, SkyLine integrates hardware, software, and services for seamless management of your mission and infrastructure.
 
 ![](../../.gitbook/assets/real-time-statistics-and-telemetry-2x.png)
 
@@ -131,11 +131,11 @@ Learn more: [SkyLine](https://uavionix.com/products/skyline/)
 
 ### microLink
 
-![](../../.gitbook/assets/microlink_pixhawk\_1000x1000.jpg)
+![](../../.gitbook/assets/microlink\_pixhawk\_1000x1000.jpg)
 
 **microLink is an FCC (U.S.A.) and IC (Canada) approved, aviation-grade, Beyond Visual Line of Sight (BVLOS) Command and Control (C2) datalink radio specifically designed for long-range mission-critical UAS operations. microLink is the only solution when integrity and performance are critical to your mission.**
 
-![](../../.gitbook/assets/precision_timing.png)
+![](../../.gitbook/assets/precision\_timing.png)
 
 microLink and skyStation use GPS UTC timing for its precision frequency hopping algorithm. While skyStation includes an internal GPS, microLink can receive GPS timing from your autopilot, or a dedicated high-quality GPS such as the uAvionix microFYX or the CubePilot [Here+ GPS](https://docs.cubepilot.org/user-guides/here+/here+v2-user-manual).
 

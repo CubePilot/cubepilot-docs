@@ -18,11 +18,11 @@ T-MOTOR, a world renowned company, providing propulsion system solution for UAV 
 
 T-MOTOR is a team of profession, innovation and passion.
 
-**R\&D Department: **We do R\&D with pursuit of innovation and quality, but also attach significance to details and user experience.
+**R\&D Department:** We do R\&D with pursuit of innovation and quality, but also attach significance to details and user experience.
 
-**Production Department: **We make perfect products with best raw materials and advanced production technology and equipment.
+**Production Department:** We make perfect products with best raw materials and advanced production technology and equipment.
 
-**QC Department: **We carry out inspection in each process from raw materials to finished products to make sure impeccable products reach our customers.
+**QC Department:** We carry out inspection in each process from raw materials to finished products to make sure impeccable products reach our customers.
 
 **Sales Department:** We do sale with profession and passion, supplying thoughtful service for customers.
 
@@ -56,7 +56,7 @@ SERVICE T-MOTOR provides you with full-scale and professional services.
 
 | Specification           |                |                                |           |
 | ----------------------- | -------------- | ------------------------------ | --------- |
-| **KV **                 | 880            | **Rated Voltage (Lipo)**       | 2-4S      |
+| **KV**                  | 880            | **Rated Voltage (Lipo)**       | 2-4S      |
 | **Idle Current (10V)**  | 0.6A - 0.8A    | **ESC Recommendation**         | AIR 20A   |
 | **Peak Current (180s)** | 16A            | **Propeller Recommendation**   | T1045     |
 | **Max. Power (180s)**   | 260w           | **Motor Weight (Incl. Cable)** | 65 ± 2g   |
@@ -105,7 +105,7 @@ For more information about T-motor Air MN4010 please check below:\
 For more information about T-motor Air MN4010 please check below:\
 [https://store.tmotor.com/goods.php?id=561](https://store.tmotor.com/goods.php?id=561)
 
-**Contact Information **\
+**Contact Information** \
 Contact person:Annie Qiu\
 Position: Sales Manager\
 Mobile：+8615879175073\

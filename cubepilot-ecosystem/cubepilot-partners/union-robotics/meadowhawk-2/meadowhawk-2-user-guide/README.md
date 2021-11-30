@@ -20,7 +20,7 @@ Union Corp.
 
 |                                                 |                |
 | ----------------------------------------------- | -------------- |
-| **Remote Vehicle Flight Manual - Multi-rotor ** |                |
+| **Remote Vehicle Flight Manual - Multi-rotor**  |                |
 | sUAS Manufacture                                | Union Corp.    |
 | sUAS Model                                      | Meadowhawk 2   |
 | Serial Number                                   | MH2-12XXXX     |

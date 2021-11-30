@@ -10,7 +10,7 @@ UNION CORP.’S LIABILITY RESPECTING THE PRODUCT IS AND WILL BE LIMITED TO ITS O
 
 UNION CORP. shall not be liable for damages or injuries incurred directly or indirectly from the use of the Meadowhawk including, but not limited to, the following situations:
 
-* **Failure of operator to follow proper instructions and safety warnings found at **[**www.union-robotics.com.**](http://www.union-robotics.com)
+* **Failure of operator to follow proper instructions and safety warnings found at** [**www.union-robotics.com.**](http://www.union-robotics.com)
 * **Failure of the operator to understand and operate the aircraft within the operating limitations described in this manual.**
 * **Failure of the operator to follow on-board safety warnings while using the Meadowhawk.**
 * **Failure of the operator to follow and comply with local rules and regulations.**

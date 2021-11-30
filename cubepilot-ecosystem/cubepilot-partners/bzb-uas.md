@@ -8,7 +8,7 @@
 
 BZB UAS specializes in production and integration of airplanes with vertical take off and landing systems (VTOL).
 
-**Are you monitoring large areas? **
+**Are you monitoring large areas?**&#x20;
 
 **Is the flight time of conventional multirotor drones too short?**
 
