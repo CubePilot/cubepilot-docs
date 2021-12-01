@@ -138,6 +138,8 @@
       * [Connecting to Mission Planner](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/connecting-to-mission-planner.md)
       * [Installing a Custom App](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/installing-a-custom-app/README.md)
         * [Installing QGC](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/installing-a-custom-app/installing-qgc.md)
+      * [Important Notes & Warnings](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/important-notes-and-warnings.md)
+      * [Update Firmware](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/update-firmware.md)
   * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
     * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
