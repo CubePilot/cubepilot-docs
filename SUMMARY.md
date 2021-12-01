@@ -141,6 +141,7 @@
       * [Important Notes & Warnings](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/important-notes-and-warnings.md)
       * [Update Firmware](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/update-firmware.md)
       * [Bug Report](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/bug-report.md)
+      * [HereLink Blue FAQs](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-faqs.md)
   * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
   * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
     * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)

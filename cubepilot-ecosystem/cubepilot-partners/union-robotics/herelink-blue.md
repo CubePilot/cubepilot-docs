@@ -40,22 +40,22 @@ HereLink Blue allows RC control, HD video and telemetry data to be transmitted u
 
 ## Technical specifications
 
-|                        |                                                                  |   |
-| ---------------------- | ---------------------------------------------------------------- | - |
-| Feature                | Specification                                                    |   |
-| C2/RF Link Encryption  | AES 128                                                          |   |
-| SOC:                   | ARM Cortex A53 4 core 2.2GHz + Cortex A53 4 core 1.4GHz          |   |
-| Processor:             | SoC Pinecone S1                                                  |   |
-| AP:                    | 4x large core Cortex A53 2.2GHz, 4x small core Cortex A53 1.4GHz |   |
-| GPU:                   | 4 core, Mali-T860                                                |   |
-| SDR:                   | A7 + DSP                                                         |   |
-| Memory:                | Air Unit LPDDR3 1GB, Ground Station LPDDR3 2GB                   |   |
-| Transmission Range:    | FCC20km, CE/SRRC 12km                                            |   |
-| Frequency Band:        | 2.4GHz ISM                                                       |   |
-| Receive Sensitivity:   | -99dBm@20MHz BW                                                  |   |
-| Interference recovery: | <1s                                                              |   |
-| Latency:               | Min 110ms                                                        |   |
-| Resolution:            | 720p@30fps, 1080p@30/60fps                                       |   |
+|                        |                                                                  |
+| ---------------------- | ---------------------------------------------------------------- |
+| Feature                | Specification                                                    |
+| C2/RF Link Encryption  | AES 128                                                          |
+| SOC:                   | ARM Cortex A53 4 core 2.2GHz + Cortex A53 4 core 1.4GHz          |
+| Processor:             | SoC Pinecone S1                                                  |
+| AP:                    | 4x large core Cortex A53 2.2GHz, 4x small core Cortex A53 1.4GHz |
+| GPU:                   | 4 core, Mali-T860                                                |
+| SDR:                   | A7 + DSP                                                         |
+| Memory:                | Air Unit LPDDR3 1GB, Ground Station LPDDR3 2GB                   |
+| Transmission Range:    | FCC20km, CE/SRRC 12km                                            |
+| Frequency Band:        | 2.4GHz ISM                                                       |
+| Receive Sensitivity:   | -99dBm@20MHz BW                                                  |
+| Interference recovery: | <1s                                                              |
+| Latency:               | Min 110ms                                                        |
+| Resolution:            | 720p@30fps, 1080p@30/60fps                                       |
 
 ## Ground Station
 
