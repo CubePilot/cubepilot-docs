@@ -65,3 +65,5 @@ Type the url address provided on the HereLink Blue stream menu and click `Open`&
 ![](<../../../../.gitbook/assets/image (16).png>)
 
 The video stream window will automatically opens, if not, you can force it by clicking right on the video stream link >> Play
+
+![](<../../../../.gitbook/assets/image (18).png>)
