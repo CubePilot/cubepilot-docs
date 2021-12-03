@@ -4,6 +4,10 @@ description: 'Here are the articles in this section:'
 
 # HereLink Blue User Guide
 
+{% content-ref url="air-unit.md" %}
+[air-unit.md](air-unit.md)
+{% endcontent-ref %}
+
 {% content-ref url="ground-station/" %}
 [ground-station](ground-station/)
 {% endcontent-ref %}
