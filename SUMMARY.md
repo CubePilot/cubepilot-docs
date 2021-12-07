@@ -88,6 +88,7 @@
 * [CubePilot USA](cubepilot-ecosystem/cubepilot-usa.md)
 * [CubePilot Ecosystem Edu450 Reference Design](cubepilot-ecosystem/cubepilot-ecosystem-edu450-reference-design.md)
 * [CubePilot Ecosystem MissionGO](cubepilot-ecosystem/cubepilot-ecosystem-missiongo.md)
+* [CubePilot Ecosystem Doosan Hydrogen Zero Emission Vehicle](cubepilot-ecosystem/cubepilot-ecosystem-doosan-hydrogen-zero-emission-vehicle.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)

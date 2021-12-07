@@ -87,10 +87,8 @@ When clicking on the layers button on the Map View, the layers option menu will 
 
 ### **Alert Indications** <a href="#alert-indications" id="alert-indications"></a>
 
-The DataLink has many alarm, warning and failure indicators. All alarm, warning and failure indicators will be displayed in a red bar across the top of the ground station screen.\
+The DataLink has many alarm, warning and failure indicators. All alarm, warning and failure indicators will be displayed in a red bar across the top of the ground station screen.![](https://docs.union-robotics.com/\~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MTS1Xx6Kx3fwJFjqpWk%2F-MTXPm9kt-0FWt1LSnQy%2F-MTXfpBZsRic3y36UfF9%2FScreen%20Shot%202021-01-18%20at%205.02.33%20PM.png?alt=media\&token=aabbb50d-b4d3-4d69-bdcd-dfc8087d1f47)\
 
-
-![](https://docs.union-robotics.com/\~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MTS1Xx6Kx3fwJFjqpWk%2F-MTXPm9kt-0FWt1LSnQy%2F-MTXfpBZsRic3y36UfF9%2FScreen%20Shot%202021-01-18%20at%205.02.33%20PM.png?alt=media\&token=aabbb50d-b4d3-4d69-bdcd-dfc8087d1f47)
 
 |                                            |                                                                                                               |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
