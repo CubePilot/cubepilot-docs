@@ -6,7 +6,7 @@
 
 With over 40 years’ experience in the manufacture of Light Detection and Ranging (LiDAR) sensors, LightWare is at the forefront of laser rangefinder technology. Through a mission to provide machines with accurate range and perception capability, LightWare design and manufacture high quality LiDAR™ sensors in small and a lightweight format.
 
-## **Home of the microLiDAR™ sensor**
+**Home of the microLiDAR™ sensor**
 
 Through an expert team of engineers, LightWare manufactures the **world’s smallest, lightest, scanning microLiDAR™** sensors for use in autonomous navigation, collision-avoidance, and Internet of Things (IoT) applications. LightWare also partners to offer exceptional service and expert after-sales support to ensure you get the best from your microLiDAR™ product.
 
