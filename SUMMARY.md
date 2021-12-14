@@ -97,7 +97,7 @@
   * [Bask Aerospace](cubepilot-ecosystem/cubepilot-partners/bask-aerospace.md)
   * [HiTEC](cubepilot-ecosystem/cubepilot-partners/hitec.md)
   * [uAvionix](cubepilot-ecosystem/cubepilot-partners/uavionix.md)
-  * [Lightware](cubepilot-ecosystem/cubepilot-partners/lightware.md)
+  * [LightWare](cubepilot-ecosystem/cubepilot-partners/lightware.md)
   * [Gremsy](cubepilot-ecosystem/cubepilot-partners/gremsy.md)
   * [IR-Lock](cubepilot-ecosystem/cubepilot-partners/ir-lock.md)
   * [Tattu](cubepilot-ecosystem/cubepilot-partners/tattu.md)
