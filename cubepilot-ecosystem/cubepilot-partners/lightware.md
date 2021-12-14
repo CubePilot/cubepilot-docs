@@ -169,4 +169,6 @@ With an update rate of **20 000 readings per second**, the robust SF40/C is spec
 
 ![](<../../.gitbook/assets/Contact us\_LightWare\_CubePilot Image 1900x400\_Contact us Banner.png>)
 
-It’s more than just buying a sensor. LightWare is about being a partner for your project and to provide expert advice on microLiDAR™ solutions. They solve many technical challenges in multiple sectors and bring a different perspective on exceeding your LiDAR requirements. Contact LightWare on info@lightwarelidar.com
+It’s more than just buying a sensor. LightWare is about being a partner for your project and to provide expert advice on microLiDAR™ solutions. They solve many technical challenges in multiple sectors and bring a different perspective on exceeding your LiDAR requirements.&#x20;
+
+Contact LightWare on info@lightwarelidar.com
