@@ -16,7 +16,7 @@ Through an expert team of engineers, LightWare manufactures the **world’s smal
 
 The LW20/C is an **IP-rated**, **small form** factor microLiDAR™ sensor ideal for distance and height measurement. Suitable for use on drones, other UAVs, UGVs, and IoT applications, the LW20/C is dust and water (rain) resistant. The LW20/C microLiDAR™ is the answer where weight, size and power consumption are critical to your project design.
 
-![](<../../.gitbook/assets/LW20\_LightWare\_CubePilot Image 460x690\_LW20.png>)
+![](<../../.gitbook/assets/LW20\_LightWare\_CubePilot Image 230x345\_LW20.png>)
 
 #### **Key features of LW20/C**
 
@@ -39,7 +39,7 @@ The LW20/C is an **IP-rated**, **small form** factor microLiDAR™ sensor ideal 
 
 Suitable for integration with any type of UAV, UGV or robot, the SF20/C is a **robust** microLiDAR™ sensor and a workhorse of the LightWare range. It is a small form factor microLiDAR™ sensor, weighing only 10 grams. The SF20/C has fast, high accuracy capabilities of up to 100 meters and works especially well in most light conditions, including fog and direct sunlight. This sturdy microLiDAR™ also features a configurable update rate of up to 388 readings per second, making it the essential choice where fast and accurate distance measurement is required.
 
-![](<../../.gitbook/assets/SF20\_LightWare\_CubePilot Image 460x690\_SF20.png>)
+![](<../../.gitbook/assets/SF20\_LightWare\_CubePilot Image 230x345\_SF20.png>)
 
 #### **Key features of SF20/C**
 
@@ -59,9 +59,9 @@ Suitable for integration with any type of UAV, UGV or robot, the SF20/C is a **r
 
 ### SF11/C
 
-Designed specifically for use on drones and other UAVs (multicopters or fixed wings), the SF11/C is a long-range and lightweight laser altimeter. It has a 100-meter range and an update rate of 20 readings per second, providing **accurate and fast** altitude AGL measuring capability. The SF11/C is the ideal choice for automated landings, precision hovering, and terrain following.
+Designed specifically for use on drones and other UAVs (multicopters or fixed wings), the SF11/C is a long-range and lightweight laser altimeter. It has a 100-meter range and an update rate of 20 readings per second, providing **accurate and fast** altitude AGL measuring capability. The SF11/C is the ideal choice for automated landings, precision hovering, and terrain following
 
-![](<../../.gitbook/assets/SF11\_LightWare\_CubePilot Image 460x690\_SF11.png>)
+![](<../../.gitbook/assets/SF11\_LightWare\_CubePilot Image 230x345\_SF11.png>)
 
 #### **Key features of SF11/C**
 
@@ -81,9 +81,9 @@ Designed specifically for use on drones and other UAVs (multicopters or fixed wi
 
 ### **SF30/D**
 
-With an update rate of up to 20 000 readings per second, the SF30/D is a fast and accurate microLiDAR™ sensor specifically designed for distance measurements. It has a range of 200 meters that provides real time, accurate altitude or AGL measurements for UAVs. The SF30/D is also ideal for UGVs and IoT applications.
+With an update rate of up to 20 000 readings per second, the SF30/D is a fast and accurate microLiDAR™ sensor specifically designed for distance measurements. It has a **range of 200 meters** that provides real time, accurate altitude or AGL measurements for UAVs. The SF30/D is also ideal for UGVs and IoT applications.
 
-![](<../../.gitbook/assets/SF30\_LightWare\_CubePilot Image 460x690\_SF30.png>)
+![](<../../.gitbook/assets/SF30\_LightWare\_CubePilot Image 230x345\_SF30.png>)
 
 **Key features of SF30/D**
 
@@ -105,7 +105,7 @@ With an update rate of up to 20 000 readings per second, the SF30/D is a fast an
 
 The SF000/B is the **world’s smallest and lightest microLiDAR™** sensor! Weighing just 8.8 grams and measuring smaller than a pencil sharpener, the SF000/B microLiDAR™ sensor has a range of 50 meters. It delivers up to 388 readings per second to provide superfast and precise measurements of speed and distance. Through multiple return signals, the SF000 microLiDAR™ works effectively in rain, dust, and treetops up to 50 meters. Being ‘a dynamite in a small package’ and outperforming many larger LiDAR models, the SF000/B has become a firm industry favorite!
 
-![](<../../.gitbook/assets/SF000\_LightWare\_CubePilot Image 460x690\_SF000.png>)
+![](<../../.gitbook/assets/SF000\_LightWare\_CubePilot Image 230x345\_SF000.png>)
 
 #### **Key features of SF000/B**
 
@@ -125,9 +125,9 @@ The SF000/B is the **world’s smallest and lightest microLiDAR™** sensor! Wei
 
 ### SF45/B
 
-Weighing only 59 grams and measuring roughly the **size of a golf ball**, the SF45/B is a small, lightweight scanning microLiDAR™ sensor. The SF45/B is ideal for collision avoidance, navigation, detect and avoid, height above ground altitude, obstacle detection, as well as terrain-following by a wide range of unmanned vehicles (UVs). The SF45/B has a horizontal field of view that is adjustable to 320°. This microLiDAR™ sensor has an update range of 50 – 5000 readings per second and works accurately in all light conditions, including direct sunlight.&#x20;
+Weighing only 59 grams and measuring roughly the **size of a golf ball**, the SF45/B is a small, lightweight scanning microLiDAR™ sensor. The SF45/B is ideal for collision avoidance, navigation, detect and avoid, height above ground altitude, obstacle detection, as well as terrain-following by a wide range of unmanned vehicles (UVs). The SF45/B has a horizontal field of view that is adjustable to 320°. This microLiDAR™ sensor has an update range of 50 – 5000 readings per second and works accurately in all light conditions, including direct sunligh
 
-![](<../../.gitbook/assets/SF45\_LightWare\_CubePilot Image 460x690\_SF45.png>)
+![](<../../.gitbook/assets/SF45\_LightWare\_CubePilot Image 230x345\_SF45.png>)
 
 #### **Key features of SF45/B**
 
@@ -149,7 +149,7 @@ Weighing only 59 grams and measuring roughly the **size of a golf ball**, the SF
 
 With an update rate of **20 000 readings per second**, the robust SF40/C is specifically designed to provide drones and other UAVs with SLAM (Simultaneous Localization and Mapping) intelligence. The SF40/C has a range of up to 100 meters with a single, scanning beam type up to a full 360°. This LiDAR seamlessly integrates with ‘plug and play’ flight control tools and interfaces such as ArduPilot, Raspberry Pi, ROS, Arduino and LightWare Studio.
 
-![](<../../.gitbook/assets/SF40\_LightWare\_CubePilot Image 460x690\_SF40.png>)
+![](<../../.gitbook/assets/SF40\_LightWare\_CubePilot Image 230x345\_SF40.png>)
 
 #### **Key features of SF40/C**
 
