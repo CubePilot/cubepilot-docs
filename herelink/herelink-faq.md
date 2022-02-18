@@ -213,3 +213,48 @@ _\[11936] Failed to execute script flasher_
 
 A: The error message tells that the adb is running already. It can be fixed with the following command: \
 **adb kill-server**
+
+## Herelink Dual Video Instruction
+
+Remark: Enabling this feature will get Herelink very hot. Please install cooling fan on Herelink otherwise it will be overheated soon.
+
+#### Prerequisite
+
+1. Install ADB and Google drivers
+2. Then Setting-up the device for ADB
+
+Steps are same as step 1 and 2 in `Generate a bug report` instruction:
+
+{% embed url="https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/generate-a-bug-report" %}
+
+#### Enable Multiple Video Stream via ADB
+
+Connect controller unit to computer via ADB and run
+
+> adb shell setprop persist.multiple.videostream true
+>
+>
+>
+> adb reboot
+
+Then repeat on air unit. Both of them need the setprop set.
+
+The video stream will be available at these 2 addresses
+
+> rtsp://(wifiIPongcs):8554/fpv\_stream rtsp://(wifiIPongcs):8554/fpv\_stream1
+
+#### Notice
+
+1. Ensure something valid is connected to HDMI1 also, otherwise HDMI2 will not work.
+2. Ensure [cooling fan](https://youtu.be/n-0xik3lVfE) is connected, else the air unit will be overheated.
+
+#### Disable Multiple Video Stream
+
+To disable and restore the setting, connect the unit to computer via ADB and run
+
+> adb shell setprop persist.multiple.videostream false
+>
+>
+>
+> adb reboot
+
