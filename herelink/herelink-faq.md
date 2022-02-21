@@ -231,30 +231,27 @@ Steps are same as step 1 and 2 in `Generate a bug report` instruction:
 
 Connect controller unit to computer via ADB and run
 
-> adb shell setprop persist.multiple.videostream true
->
->
->
+> adb shell setprop persist.multiple.videostream true\
+> \
 > adb reboot
 
 Then repeat on air unit. Both of them need the setprop set.
 
 The video stream will be available at these 2 addresses
 
-> rtsp://(wifiIPongcs):8554/fpv\_stream rtsp://(wifiIPongcs):8554/fpv\_stream1
+> rtsp://(wifiIPongcs):8554/fpv\_stream\
+> rtsp://(wifiIPongcs):8554/fpv\_stream1
 
 #### Notice
 
 1. Ensure something valid is connected to HDMI1 also, otherwise HDMI2 will not work.
-2. Ensure [cooling fan](https://youtu.be/n-0xik3lVfE) is connected, else the air unit will be overheated.
+2. Ensure [cooling fan](https://docs.cubepilot.org/user-guides/herelink/herelink-faq#herelink-airunit-fan-installation) is connected, else the air unit will be overheated.
 
 #### Disable Multiple Video Stream
 
 To disable and restore the setting, connect the unit to computer via ADB and run
 
-> adb shell setprop persist.multiple.videostream false
->
->
->
+> adb shell setprop persist.multiple.videostream false\
+> \
 > adb reboot
 
