@@ -216,7 +216,7 @@ A: The error message tells that the adb is running already. It can be fixed with
 
 ## Herelink Dual Video Instruction
 
-**\*\*\*Enabling this feature will get Herelink very hot. Please install** [**cooling fan**](https://docs.cubepilot.org/user-guides/herelink/herelink-faq#herelink-dual-video-instruction) **on Herelink otherwise it will be overheated soon.\*\*\***
+**\*\*\*Enabling this feature will get Herelink very hot. Please install** [**cooling fan**](https://docs.cubepilot.org/user-guides/herelink/herelink-faq#herelink-airunit-fan-installation) **on Herelink otherwise it will be overheated soon.\*\*\***
 
 #### Prerequisite
 
