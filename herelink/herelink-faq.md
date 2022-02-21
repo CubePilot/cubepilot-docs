@@ -216,7 +216,7 @@ A: The error message tells that the adb is running already. It can be fixed with
 
 ## Herelink Dual Video Instruction
 
-Remark: Enabling this feature will get Herelink very hot. Please install cooling fan on Herelink otherwise it will be overheated soon.
+Remark: \*\*\***Enabling this feature will get Herelink very hot. Please install cooling fan on Herelink otherwise it will be overheated soon.\*\*\***
 
 #### Prerequisite
 
