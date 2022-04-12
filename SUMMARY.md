@@ -86,7 +86,7 @@
 * [CubePilot Ecosystem Autopilot Wiring Diagram (Multilingual)](cubepilot-ecosystem/cubepilot-ecosystem-autopilot-wiring-diagram.md)
 * [OEM Carrier Board](cubepilot-ecosystem/oem-carrier-board.md)
 * [CubePilot USA](cubepilot-ecosystem/cubepilot-usa.md)
-* [CubePilot Ecosystem Edu450 Reference Design](cubepilot-ecosystem/cubepilot-ecosystem-edu450-reference-design.md)
+* [CubePilot Ecosystem Edu450 Reference Design (Multilingual)](cubepilot-ecosystem/cubepilot-ecosystem-edu450-reference-design.md)
 * [CubePilot Ecosystem MissionGO](cubepilot-ecosystem/cubepilot-ecosystem-missiongo.md)
 * [CubePilot Ecosystem Doosan Hydrogen Zero Emission Vehicle](cubepilot-ecosystem/cubepilot-ecosystem-doosan-hydrogen-zero-emission-vehicle.md)
 * [CubePilot Ecosystem Ardubee multipurpose platform](cubepilot-ecosystem/cubepilot-ecosystem-ardubee-multipurpose-platform.md)
