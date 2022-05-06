@@ -64,11 +64,11 @@ HerePro uses multi-frequency DGNSS signals with advanced algorithms to converge 
 | Anti-spoofing                       | Advanced anti-spoofing algorithms                                                    |
 | **Pinout**                          |                                                                                      |
 | Power (XT30)                        | x2                                                                                   |
-|                                     | ![](../.gitbook/assets/xt30.png)                                                     |
+|                                     | <img src="../.gitbook/assets/xt30.png" alt="" data-size="original">                  |
 | CAN FD                              | x2                                                                                   |
-|                                     | ![](../.gitbook/assets/can-fd.png)                                                   |
+|                                     | <img src="../.gitbook/assets/can-fd.png" alt="" data-size="original">                |
 | USB / GPIO                          | x1 / x2                                                                              |
-|                                     | ![](../.gitbook/assets/usb-gpio.png)                                                 |
+|                                     | <img src="../.gitbook/assets/usb-gpio.png" alt="" data-size="original">              |
 | **Others**                          |                                                                                      |
 | SD card                             | 16G                                                                                  |
 | Flash                               | 2M                                                                                   |
