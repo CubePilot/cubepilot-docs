@@ -2,7 +2,8 @@
 
 ![](../../.gitbook/assets/tattu-logo-842x258.png)
 
-## &#xD;**About Tattu**
+**About Tattu**
+---------------
 
 Founded by Grepow in 2015, Tattu has become renown as the tried-and-true battery brand for professional drones, eVTOLs, FPVs, and remote control hobbies.  It has continued to deliver reliable, local customer support for years with its offices located in the United States, Germany, and mainland China and Taiwan.
 
@@ -10,7 +11,8 @@ With Grepow’s more than 20 years of experience in battery development and prod
 
 ![](../../.gitbook/assets/innovative-product-award.jpg)
 
-## &#xD;&#xD;**Tattu series**
+**Tattu series**
+----------------
 
 Tattu batteries’ capacity, C-rate, weight, and other specs have been designed according to industry standards and demands of its many pilots.  With its dependable yet powerful Smart and High Voltage series, Tattu batteries carry quite the punch.  For smaller packs, the Funfly and R-Line series have and continue to be a trustworthy choice.
 
@@ -20,7 +22,7 @@ Tattu batteries’ capacity, C-rate, weight, and other specs have been designed 
 
 **Tattu Smart Batteries** are equipped with a BMS and anti-spark capabilities, combined with a high-performance, low-power MCU to give users a better understanding of their battery status. The compact and waterproof housing optimises the reliability of the system in harsh environments.
 
-There is a plethora of other options: high-voltage and low-temperature batteries can be used in a wider range of scenarios; the NMC 811 battery makes a breakthrough with an energy density of 275wh/Kg and cycle life of 1000 cycles, which extends operating times. 
+There is a plethora of other options: high-voltage and low-temperature batteries can be used in a wider range of scenarios; the NMC 811 battery makes a breakthrough with an energy density of 275wh/Kg and cycle life of 1000 cycles, which extends operating times.&#x20;
 
 Tattu products are widely used in film aerial photography, agricultural spraying, surveying and mapping, forest fire prevention, flood rescue, cargo transportation and many other fields.
 
@@ -48,9 +50,9 @@ If you can’t find what you need under Tattu and Gens Ace, then look no further
 
 For more information on Tattu, peruse the below websites and social media:
 
-USA Website: [https://www.genstattu.com/](https://www.genstattu.com)
+USA Website: [https://www.genstattu.com/](https://www.genstattu.com/)
 
-EU Website: [https://www.gensace.de/](https://www.gensace.de) 
+EU Website: [https://www.gensace.de/](https://www.gensace.de/)&#x20;
 
 Facebook: [https://www.facebook.com/Tattulipos](https://www.facebook.com/Tattulipos)\
 
