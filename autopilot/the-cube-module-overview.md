@@ -273,18 +273,18 @@ Total connectivity:
 
 1x HMI: USB extender
 
-**Main Power - 6 pos (ClikMate 6 pos 2.0mm) | Connector：POWER1**
+**Main Power - | Connector：POWER1**
 
 | **Pin #** | **Name**            | **I/O** | **Voltage** | Wire Colour | Description                   |
 | --------- | ------------------- | ------- | ----------- | ----------- | ----------------------------- |
 | 1         | VDD\_5V\_BRICK      | IN      | 5 V         | RED/GRAY    | Supply To AP from Power Brick |
 | 2         | VDD\_5V\_BRICK      | IN      | 5 V         | RED/GRAY    | Supply To AP from Power Brick |
 | 3         | BATT\_CURRENT\_SENS | IN      | 3.3 V       | BLACK       | Battery Current Connecter     |
-| 4         | BATT\_CURRENT\_SENS | IN      | 3.3 V       | BLACK       | Battery Voltage Connecter     |
+| 4         | BATT\_VOLTAGE\_SENS | IN      | 3.3 V       | BLACK       | Battery Voltage Connecter     |
 | 5         | GND                 | -       | GND         | BLACK       | GND connection                |
 | 6         | GND                 | -       | GND         | BLACK       | GND connection                |
 
-**Backup Power - 6 pos | Connector：POWER2**
+**Backup Power -  | Connector：POWER2**
 
 | **Pin #** | **Name**                 | **I/O** | **Voltage** | Wire Colour | Description                   |
 | --------- | ------------------------ | ------- | ----------- | ----------- | ----------------------------- |
