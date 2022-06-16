@@ -26,7 +26,7 @@ Standard Carrier Board.STEP (ZIP)
 HereLink Controller.stp (ZIP)
 {% endfile %}
 
-## HereLink Air Unit
+## HereLink AirUnit
 
 ![](../.gitbook/assets/herelink-air-unit.jpg)
 
@@ -85,3 +85,15 @@ Here+ RTK Base.STEP (ZIP)
 ![](<../.gitbook/assets/Power Brick Mini2.JPG>)
 
 {% file src="../.gitbook/assets/Power Brick Mini.STEP.zip" %}
+
+## Herelink AirUnit 1.1 case
+
+![](<../.gitbook/assets/Herelink Airunit 1.1 Case.jpg>)
+
+{% file src="../.gitbook/assets/Herelink Airunit 1.1 Case.STEP.zip" %}
+
+## Herelink Airunit 1.1 PCBA
+
+![](<../.gitbook/assets/Herelink Airunit 1.1 PCBA.jpg>)
+
+{% file src="../.gitbook/assets/Herelink Airunit 1.1 PCBA.STEP.zip" %}
