@@ -32,7 +32,7 @@ Select either `Click` or `Long Click` (**Note** this allows you to set two funct
 
 Click on drop down to select the function you want
 
-![](<../../../../.gitbook/assets/image (1) (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1) (1).png>)
 
 Click on small cog to select option with-in selected function
 
@@ -40,7 +40,7 @@ Click on small cog to select option with-in selected function
 
 Select function option
 
-![](<../../../../.gitbook/assets/image (2).png>)
+![](<../../../../.gitbook/assets/image (2) (1).png>)
 
 Repeat for each button assignment and click `SAVE BUTTONS` in bottom corner to finish
 
@@ -73,7 +73,7 @@ To configure a button to change the wheel servo output configure the button to `
 
 Click the cog and set new channel and PWM values and click `OK` and then `SAVE BUTTONS` in bottom right corner. &#x20;
 
-![](<../../../../.gitbook/assets/image (3).png>)
+![](<../../../../.gitbook/assets/image (3) (1).png>)
 
 Once changed the wheel will output on the new selected channel, to return to its original servo output you will need to program one button function to `Clear Wheel Settings` as shown above.
 
@@ -115,11 +115,11 @@ From App Launcher slide down the notification drawer from the top and select "Un
 
 ![](../../../../.gitbook/assets/91.png)
 
-![](<../../../../.gitbook/assets/image (4).png>)
+![](<../../../../.gitbook/assets/image (4) (1).png>)
 
 Click `NEW` and type name for your new profile and press `OK`.
 
-![](<../../../../.gitbook/assets/image (6).png>)
+![](<../../../../.gitbook/assets/image (6) (2).png>)
 
 Select the first button you want to configure from the drop down menu then click `ADD` .
 
@@ -151,7 +151,7 @@ Once configured you must click `SAVE` to store settings.
 
 Next continue to add more buttons via the above process.
 
-![](<../../../../.gitbook/assets/image (8).png>)
+![](<../../../../.gitbook/assets/image (8) (1).png>)
 
 To remove a button config simply click the bin icon next to the name.&#x20;
 

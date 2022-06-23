@@ -55,7 +55,10 @@
 
 * [The Cube Module Overview](autopilot/the-cube-module-overview.md)
 * [The Cube User Manual V1.0](autopilot/the-cube-user-manual.md)
-* [The Cube - Firmware Installation & Connection Troubleshooting](autopilot/the-cube-series-firmware-and-connection-troubleshooting.md)
+* [The Cube - Firmware Installation & Connection Troubleshooting](autopilot/the-cube-series-firmware-and-connection-troubleshooting/README.md)
+  * [Installing Mission Planner](autopilot/the-cube-series-firmware-and-connection-troubleshooting/installing-mission-planner.md)
+  * [Installing Ardupilot](autopilot/the-cube-series-firmware-and-connection-troubleshooting/installing-ardupilot.md)
+  * [Installing Secure Firmware](autopilot/the-cube-series-firmware-and-connection-troubleshooting/installing-secure-firmware.md)
 * [The Cube FAQ](autopilot/the-cube-faq.md)
 
 ## Carrier Boards

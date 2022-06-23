@@ -118,7 +118,7 @@ To calibrate the joystick SBUS outputs click `SBUS OUT CAL`.
 
 Follow the RC stock movement steps as shown in the highlight section moving the stick through each position.
 
-![](<../../../../.gitbook/assets/image (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1).png>)
 
 ![](<../../../../.gitbook/assets/image (2).jpeg>)
 
