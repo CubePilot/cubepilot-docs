@@ -178,9 +178,9 @@ To change the first waypoint to a Takeoff, click the top of the panel, and it wi
 
 To change the last waypoint to a Return Home, click the top of the panel, and it will drop down a list of items. Click `Return Home` in the list. The panel's contents will change to show just the relevant attributes for a Return Home. The waypoint also disappears off of the map, because a Return Home doesn't really have a defined point; it's just the location your vehicle starts to return to the launch location to land.
 
-![](../../../../.gitbook/assets/33.png)
+![](<../../../../.gitbook/assets/33 (1).png>)
 
-![](../../../../.gitbook/assets/34.png)
+![](<../../../../.gitbook/assets/34 (1).png>)
 
 #### **Land**
 
@@ -188,7 +188,7 @@ To change the last waypoint to a Land, click the top of the panel, and it will d
 
 ![](../../../../.gitbook/assets/35.png)
 
-![](../../../../.gitbook/assets/36.png)
+![](<../../../../.gitbook/assets/36 (1).png>)
 
 #### **Deleting a Waypoint**
 
@@ -198,7 +198,7 @@ To stop deleting things when you click them, click the trash can icon until it's
 
 ![](../../../../.gitbook/assets/31.png)
 
-![](../../../../.gitbook/assets/32.png)
+![](<../../../../.gitbook/assets/32 (1).png>)
 
 #### **Terrain Following**
 
@@ -341,13 +341,13 @@ Surveys are kind of their own thing within missions. A Survey is an item in a mi
 
 To create a Survey, click the Add button and pick `Survey` from the waypoint type list.&#x20;
 
-![](../../../../.gitbook/assets/19.png)
+![](<../../../../.gitbook/assets/19 (1).png>)
 
 Tap the map where you want the center of the survey to be, and it will display a message saying to draw the survey region. Draw a shape, and a polygon will be created that approximates what you drew. If you want a square, draw something vaguely square-shaped, and a polygon will appear that's sort of square-shaped. It won't be perfect, but it's OK because you can adjust it.
 
-![](../../../../.gitbook/assets/20.png)
+![](<../../../../.gitbook/assets/20 (1).png>)
 
-![](../../../../.gitbook/assets/21.png)
+![](<../../../../.gitbook/assets/21 (1).png>)
 
 To adjust a Survey, use the normal editing tools. Move polygon points by dragging them around, and delete them by clicking the Delete button and clicking the points. If you don't like a move or delete you've just done, hit Undo and it will go back to where it was.
 
