@@ -1,6 +1,6 @@
 # Pairing, RC Calibration & Setup
 
-Note: Before set Sbus button (button is default to Sbus channel),please pay special attention to the flight mode settings on the Mavlink button page, i.e. button settings in Solex TX and QGC
+**Note: Before set Sbus button (button is default to Sbus channel),please pay special attention to the flight mode settings on the Mavlink button page, i.e. button settings in Solex TX and QGC**
 
 ## 1. Controller calibration
 
