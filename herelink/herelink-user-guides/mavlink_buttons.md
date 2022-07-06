@@ -105,7 +105,7 @@ Wheel configuration in Solex TX to Servo output channels 1-16 on the Autopilot, 
 
 * Once changed the wheel will output on the new selected channel, to return to its original servo output you will need to program one button function to Clear Wheel Settings as shown above.
 
-**QGC**
+### **QGC**
 
 * Open QGC
 * Click gear icon on top left corner.

@@ -18,13 +18,13 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 
 ## 1. Upgrade Via PC
 
-**Download firmware upgrade application**
+### **Download firmware upgrade application**
 
-* Windows ：https://herelinkfw.cubepilot.org/flasher\_win.zip
-* MAC ：https://herelinkfw.cubepilot.org/flasher\_mac.zip
-* Linux ：https://herelinkfw.cubepilot.org/flasher\_linux.zip
+* Windows ：[https://herelinkfw.cubepilot.org/flasher\_win.zip](https://herelinkfw.cubepilot.org/flasher\_win.zip)
+* MAC ：[https://herelinkfw.cubepilot.org/flasher\_mac.zip](https://herelinkfw.cubepilot.org/flasher\_mac.zip)
+* Linux ：[https://herelinkfw.cubepilot.org/flasher\_linux.zip](https://herelinkfw.cubepilot.org/flasher\_linux.zip)
 
-**Controller Upgrade**
+### **Controller Upgrade**
 
 1. Connect controller to PC via USB.
 2.  Put the Herelink Remote Unit into Fastboot mode by pressing **Power** and **D** button simultaneously while turning on.
@@ -33,7 +33,7 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 3. Extract and Run the application packaged inside the zip file.After Remote Unit upgrade is complete the Unit will automatically restart once finished.
 4. Herelink Remote Unit will boot up with Activation window, follow the Activation steps below to continue.
 
-**Airunit Upgrade**
+### **Airunit Upgrade**
 
 1. Extract and Run the application packaged inside the zip file
 2. Power Airunit with **7-12v** power supply ，Connect Airunit to PC via USB. At least one antenna needs to be connected，UART and SBUS cables are no need to connect.
@@ -68,7 +68,7 @@ After upgrading the Herelink firmware you may be required to activate your devic
 
 * Once input click 'done' the 'Register' and your device will then download the latest software and update automatically.
 
-## **3.OTA Online Firmware upgrade(Via Wifi)**
+## **3. OTA Online Firmware upgrade(Via Wifi)**
 
 If Solex is installed. Please upgarde with OTA (Via Wifi)
 
@@ -138,11 +138,12 @@ If you can view the airunit firmware version from controller, you can upgrade it
 
 (wait the progress bar until the download is 100%)
 
-*   **2** Once downloading is complete,click **TRANSFER TO AIRUNIT** .The downloaded firmware will start to transfer to the Air Unit.
+**2** Once downloading is complete,click **TRANSFER TO AIRUNIT** .The downloaded firmware will start to transfer to the Air Unit.
 
-    (wait the progress bar until the transfer is 100%)
-*   **3** Once the transfer is complete,click **UPDATE AIRUNIT**.The new Air Unit firmware will be installed on the Air Unit.
+(wait the progress bar until the transfer is 100%)
 
-    (wait the progress bar until the installation complete)
+**3** Once the transfer is complete,click **UPDATE AIRUNIT**.The new Air Unit firmware will be installed on the Air Unit.
+
+(wait the progress bar until the installation complete)
 
 ![](../../.gitbook/assets/019.png)
