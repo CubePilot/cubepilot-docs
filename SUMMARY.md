@@ -20,6 +20,7 @@
 
 * [Herelink Overview](herelink/herelink-overview.md)
 * [Herelink User Guides](herelink/herelink-user-guides/README.md)
+  * [Assembly and Connection](herelink/herelink-user-guides/assembly-and-connection.md)
   * [How To Update Firmware](herelink/herelink-user-guides/upgrading-firmware.md)
   * [Pairing, RC Calibration & Setup](herelink/herelink-user-guides/one-time-setup.md)
   * [Configure Modes & Mavlink Buttons](herelink/herelink-user-guides/mavlink\_buttons.md)
