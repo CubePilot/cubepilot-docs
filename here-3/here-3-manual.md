@@ -4,7 +4,7 @@
 
 ### Overview
 
-Here 3/3+ GPS is a Cost-efficient GNSS system that supports RTK mode. Positioning accuracy down to centimetre-level in an ideal environment. Improved dust and water resistance over the Here+ (Not guaranteed to be water-proof).High data rate, upgradeability, noise immunity, and real-time features from the DroneCAN protocol, with Here3+ now moving to DroneCAN FD 8Mbit bus speed. Here 3 is Equipped with the STM32F302 processor while the Here3+ jumps to the Dual core STM32H757 running at 400MHz with 2MByte Flash, and 1MByte RAM. Supports future firmware updates. Support from ground control software. Future updates will be available from Mission Planner. Built-in Inertial Measurement Unit (compass, gyroscope, and accelerometer), for advanced navigation needs.
+Here 3/3+ GPS is a Cost-efficient GNSS system that supports RTK mode. Positioning accuracy down to centimetre-level in an ideal environment. Improved dust and water resistance over the Here+ (Not guaranteed to be water-proof).High data rate, upgradeability, noise immunity, and real-time features from the DroneCAN protocol, with Here3+ now moving to DroneCAN 8Mbit bus speed. Here 3 is Equipped with the STM32F302 processor while the Here3+ jumps to the Dual core STM32H757 running at 400MHz with 2MByte Flash, and 1MByte RAM. Supports future firmware updates. Support from ground control software. Future updates will be available from Mission Planner. Built-in Inertial Measurement Unit (compass, gyroscope, and accelerometer), for advanced navigation needs.
 
 ***
 
@@ -20,7 +20,7 @@ Here 3/3+ GPS is a Cost-efficient GNSS system that supports RTK mode. Positionin
 | **Processor**               |                    STM32F302                   |                    STM32H757                   |
 | **IMU sensor**              |                    ICM20948                    |                 ICM42688,RM3100                |
 | **Navigation Update Rate**  |                      8 hz                      |                      8 hz                      |
-| **Communication Protocol**  |                DroneCAN 1Mbit/s                |               DroneCAN FD 8Mbit/s              |
+| **Communication Protocol**  |                DroneCAN 1Mbit/s                |                DroneCAN 8Mbit/s                |
 | **Operating Temperature**   |                   -40℃ to 85℃                  |                   -40℃ to 85℃                  |
 | **Dimension**               |                 68mmx68mmx16mm                 |                 68mmx68mmx16mm                 |
 | **Weight**                  |                      48.8g                     |                      51.8g                     |

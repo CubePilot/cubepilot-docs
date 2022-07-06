@@ -1,138 +1,152 @@
 # Pairing, RC Calibration & Setup
 
-Herelink has a dedicated system settings app for the setup and configuration of the Herelink RC control and radio system.
+Note: Before set Sbus button (button is default to Sbus channel),please pay special attention to the flight mode settings on the Mavlink button page, i.e. button settings in Solex TX and QGC
 
-The Herelink Settings app allows you to
-
-* Pair The Air Unit 
-* See Radio & System Status
-* Calibrate the RC
-* Set RC Mode & Throttle Settings 
-* Calibrate HW Wheel and Set Channel
-* Set Radio Regional Settings
-* Configure Sbus Buttons
-
-The following tutorial will guide you through the steps to setup and calibrate the Herelink system. For button setup there are dedicated pages in this wiki for Mavlink and Sbus button options, these should only be completed after performing the steps on this page.
-
-**Important: Please pay special attention to Autopilot Mode setup on the Mavlink Buttons page before configuring any buttons on your system,see**
-
-* [Configure Modes & Mavlink Buttons](mavlink_buttons.md)
-
-## Video Overview Of Herelink Setup
-
-Here is a video overview of the Herelink setup process and configuring mavlink and Sbus buuttons.
-
-{% embed url="https://youtu.be/48imNRdagCE" caption="" %}
-
-## Herelink Settings App
+## 1. Controller calibration
 
 * From App Launcher slide down the notification drawer from the top
 
-![](../../.gitbook/assets/home-screen.png)
+![](../../.gitbook/assets/020.png)
 
-* Select Herelink Setting 
+![](../../.gitbook/assets/021.jpg)
 
-![](../../.gitbook/assets/settings-app%20%281%29%20%281%29%20%281%29%20%281%29.jpg)
+Click **'HW JS CAL'**
 
-* The settings app will open 
+![](../../.gitbook/assets/022.png)
 
-![](../../.gitbook/assets/settings101%20%281%29.png)
+Here are some comtroller calibration and function settings.
 
-## Pairing with Air Unit
+* SAVE (after modified controller configuration must click save to take effect)
+* Calibrated (Calibration state, If the indicator is red,calibration for roller hardware, rocker hardware and SBUS output is necessary. If the indicator is green, it is normal and no calibration is required )
+* HW WHEEL CAL
+* HW JS CAL
+* SBUS OUT CAL SBUS
+* AXIS
+* INPUT
+* REV
+* DZ
+* EXPO
+* CH#
+* Wheel Acc
+* Throt Cent 0
+* Mode
+* Dual Cont
+* MAIN
+* IP
 
-* Tap Pair button and then hold the `Pair/Reset` button on Air Unit until `LED2` blinks.
+**First time use requires three calibration steps**
 
-![](../../.gitbook/assets/settings101%20%281%29.png)
+**1.** Calibrate the hardware wheel
 
-![](../../.gitbook/assets/image%20%2810%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+* Select **“ HW WHEEL CAL”**
 
-![](../../.gitbook/assets/image%20%287%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../.gitbook/assets/023.png)
 
-## Joystick and HW Wheel Calibration
+*   Click **Start rollwheel** and follow the calibration steps.
 
-* Swipe left to access the joystick screen.
+    **Note** once complete you can check its correct functioning by looking at the values change,
+* Click **Pass** to return to joystick screen.
 
-![](../../.gitbook/assets/Stick_screen.jpg)
+![](../../.gitbook/assets/024.png)
 
-Here you will find the sticks and hardware wheel options and calibration settings.
+&#x20;
 
-From this screen you can
+![](../../.gitbook/assets/025.png)
 
-* See RC Calibration Status 
-* Calibrate Hardware Wheel
-* Calibrate Sticks
-* Set RC Stick Mode
-* Set Hardware Wheel Sbus Channel & Bus
-* Reverse RC Channel
-* Set Throttle Centre Behavior
+* After the rollwheel calibration is complete, proceed to the next step.
 
-## Step 1: Calibrate the hardware wheel
+## **2**. Calibrate the joysticks
 
-* Select 'HW WHEEL CAL'.
+* Click **HW JS CAL**
 
-![](../../.gitbook/assets/wheel_cal.jpg)
+![](../../.gitbook/assets/js.png)
 
-* Click 'Start rollwheel'  and follow the calibration steps
-* **Note** once complete you can check its correct functioning by looking at the values change, click Pass to return to joystick screen
+*   Click **Start Calibration** to begin the process and follow the instructions in the green box ,and the sick movement arrows located around the sticks on the remote as highlighted in red below.
 
-![](../../.gitbook/assets/hw-wheel.png)
+    > Note: At the beginning of the calibration process, the stroke of the joystick on the screen will not change with the actual joystick. You only need to calibrate according to the instruction.
 
-* Once calibration is complete you can set the Sbus channel output and Bus output for the wheel on the highlighted settings
+&#x20;
 
-  Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 16, on bus 2 the wheel can be set to channels 1 -16. 
+![](../../.gitbook/assets/026.png)
 
-![](../../.gitbook/assets/Wheel_ch.jpg)
+![](../../.gitbook/assets/027.png)
 
-* Once complete click 'SAVE' to store settings. 
+* At the end of this process if you are happy with the input behavior you can click **Pass** and the calibration will be stored, if you're experiencing any issues click **Fail** and start the calibration process again using a little more pressure in the corners.
 
-## Step 2: Calibrate the joysticks
+![](../../.gitbook/assets/028.png)
 
-* Click 'HW JS CAL'
+* After the Joy-Stick calibration is complete, proceed to the next step.
 
-![](../../.gitbook/assets/Stick_cal.jpg)
+## **3.** Calibrate SBUS Output
 
-* This screen is split into 2 sections, joystick calibration on the left, joystick testing on the bottom right, instructions for the user to follow will be shown in the green box.  Click 'Start Calibration' to begin the process and follow the instructions in the green box  and the sick movement arrows located around the sticks on the remote as highlighted in red below.
+![](<../../.gitbook/assets/SBUS OUT.png>)
 
-**Note:** The joystick testing area in the bottom right will not move or show any input while you are calibrating the sticks. This is normal, this area will only diplay input after the joysticks have been calibrated.
+* Follow the RC stock movement steps as shown in the highlight section moving the stick through each position. Finally move the wheel then the calibration is done.
 
-![](../../.gitbook/assets/joystick-cal1.jpg) ![](../../.gitbook/assets/joystick-testnote.jpg)
+![](../../.gitbook/assets/029.png)
 
-* Once the joystick calibration step is complete the input test area in the red box will activate, follow the instructions above it to test the sticks input are functioning correctly by aligning the black and red circles in each step shown. This will test the joysticks are moving correctly in all axises.
-* At the end of this process if you are happy with the input behaviour you can click ‘Pass’ and the calibration will be stored, if you're experiencing any issues click ‘Fail’ and start the calibration process again using a little more pressure in the corners.
+* Once all calibrations have been completed the \*\*Calibrated \*\* status will turn green ，which indicate that all remote calibrations have been completed.
 
-![](../../.gitbook/assets/joystick-test.jpg)
+![](../../.gitbook/assets/030.png)
 
-## Step 3 RC Mode Selection , Throttle Behavior & Channel Reversing
+## 3.Controller setting
 
-Herelink supports rc modes 1 - 4 as well as the option to set the throttle centre as zero PWM output and reverse each channeel.
+### **RC Transmitter Modes**
 
-* Set throttle center and RC mode via the below settings. 
+RC Transmitter Modes can be setted selected using the Mode option at the bottom,click **SAVE** to save the modification.
 
-![](../../.gitbook/assets/Rc_mode.jpg)
+![](../../.gitbook/assets/031.png)
 
-* The stick sbus output can be reversed by clicking on ‘REV’ next to the channel you want to change.
+![](../../.gitbook/assets/032.png)
 
-![](../../.gitbook/assets/Channel_rev.jpg)
+For some special models that cannot use the mid-throttle, you can select Throt Cent 0 to set the mid-throttle to throttle 0, then click **SAVE** to save the modification.
 
-* After making any changes click ‘SAVE” to store settings. 
+![](../../.gitbook/assets/033.png)
 
-## Step 4 Calibrate SBUS Output
+### **Wheel setting**
 
-* To calibrate the joystick SBUS outpiuts click 'SBUS OUT CAL'. 
+The wheel is set as W axis input, you can click **REV** to reverse the input.
 
-![](../../.gitbook/assets/Sbus_cal.jpg)
+**CH#** is used to configure the output channels, SBUS1 for channel 1-16 ,SBUS2 for channel 17-32 .
 
-* Follow the RC stock movement steps as shown in the highlight section moving the stick through each position.
+Click **Wheel Acc** to make oupput stack and not return to the middle, then click **SAVE** to save the modification.
 
-![](../../.gitbook/assets/Sbus_cal2.png)
+![](../../.gitbook/assets/034.png)
 
-![](../../.gitbook/assets/Sbus_cal1.jpg)
+### **Dual control mode**
 
-* Once complete click ‘SAVE” to store settings. 
+Herelink can use 2 controller to control 1 Airunit indorder to meet more requirement. This function requires connecting the wifi hotspot of the secondary controller to the master controller or connecting the master controller and the secondary controller to the same WIFI to access the LAN.
 
-## **Selecting FCC/CE settings**
+* **Master switch setting**, Click **Dual Cont** and **MAIN** then click **SAVE** to save the modification.
 
-* Select the region you are residing in or matches closest to your locations policy from Country Under Herelink Settings main screen.
+![](../../.gitbook/assets/035.png)
 
-![](../../.gitbook/assets/image%20%286%29%20%281%29%20%281%29.png)
+Secondary controller's RC channel will show up after connect, you can assigned secondary controller's Joystick and Wheel channel to any channel of the mater control, then click **SAVE** to save the modification.
 
+![](../../.gitbook/assets/036.png)
+
+* **Secondary controller setting**, click **Dual Cont** ans select the corresponding IP address. If master and secondary controller connect with wifi hotspot, then set the IP address to 192.168.43.1.
+* If connect access the LAN, please follow the steps below to check the master IP address , then click **SAVE** to save the modification.
+
+![](../../.gitbook/assets/037.png)
+
+To check the master IP , you can open the WIFI interface and then click the Settings icon in the upper right corner, then you can check the IP in it.
+
+![](../../.gitbook/assets/038.png)
+
+![](../../.gitbook/assets/039.png)
+
+The master image can be displayed on the secondary controller, and the image and data can be connected to the QGroundControl ground station according to the data sharing procedure later.
+
+### **Trainer Mode**
+
+Dual control can also be used as a trainer mode for teaching.
+
+* Turn on and connect master and secondary control
+* Set the X2, Y2, Z2 R2 channels of the secondary controller on the main control as channels 1, 2, 3, and 4 respectively, corresponding to the main control channel. Click **SAVE** to SAVE the Settings after completion.
+
+![](../../.gitbook/assets/040.png)
+
+After setting, press the CAM button in the upper right corner of the main control to make channel 1, 2, 3 and 4 of the secondary control. Release the button to make channel 1, 2, 3 and 4 of the main control normal.
+
+###
