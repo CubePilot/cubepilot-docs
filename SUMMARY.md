@@ -26,6 +26,7 @@
   * [Configure Sbus Buttons & Wheel](herelink/herelink-user-guides/sbus\_buttons.md)
   * [Share video Stream](herelink/herelink-user-guides/share-video-stream.md)
   * [Connecting to Mission Planner](herelink/herelink-user-guides/connect-to-mission-planner.md)
+  * [Herelink 1.0 AirUnit to AirUnit instruction](herelink/herelink-user-guides/herelink-1.0-airunit-to-airunit-instruction.md)
   * [Installing a custom app](herelink/herelink-user-guides/installing-a-custom-app.md)
   * [OEM Image Setup](herelink/herelink-user-guides/oem-image-setup.md)
   * [Generate a bug report](herelink/herelink-user-guides/generate-a-bug-report.md)
