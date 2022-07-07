@@ -1,93 +1,65 @@
 # Configure Sbus Buttons & Wheel
 
-Herelink is fitted with six programmable buttons and one hardware wheel. These can be configured to control sbus channel outputs from the air end’s dual sbus connector and to send Mavlink commands to the autopilot via Solex TX or QGC.
+Herelink is fitted with six programmable buttons and one hardware wheel. These can be configured to control sbus channel outputs from the Rover Unit's dual sbus connector and to send Mavlink commands to the autopilot via UR/Solex TX.
 
-{% hint style="info" %}
-More info see [Herelink Pairing, RC Calibration & Setup](one-time-setup.md)
-{% endhint %}
+Autopilot mode selection must not be programmed to sbus channels. Mode selection should be configured to Mavlink commands within Solex or QGC to ensure predictable behavior in the event of signal loss or system reboot.
 
-## Autopilot Mode Selection - Important
+**Important Note:** Ardupilot sets Sbus channel 5 to flight mode selection as default, this should be disabled with Herelink by setting the parameter **FLTMODE\_CH:** to 0.
 
-Autopilot mode selection must not be programmed to sbus channels. Mode selection should be configured to Mavlink commands within Solet TX or QGC to ensure predictable behavior in the event of signal loss or system reboot.
+**Sbus Output：** The Herelink settings allows you to program buttons A,B,C,D,Cam & Wheel to control sbus outputs on the air unit. HereLink has dual independent sbus outputs on bus 1 and bus 2. Buttons can be configured on channels 5 - 16 on bus 1 and channels 1-16 on bus 2.
 
-{% hint style="info" %}
-More info see [Mode Selection & Mavlink Buttons](mavlink_buttons.md)
-{% endhint %}
-
-**Important Note:** Ardupilot sets Sbus channel 5 to mode selection as default, this should be disabled with herelink by setting the pram FLTMODE\_CH: to 0.
-
-## Sbus Outputs
-
-The Herelink settings app allows you to program buttons A,B,C,D,Cam & HW Wheel to control sbus outputs on the air unit, Herelink has dual independent sbus outputs on bus 1 and bus 2. Buttons can be configured on channels 5 - 16 on bus 1 and channels 1-16 on bus 2.
-
-Channels 1-4 on Bus 1 are reserved for RC control.
+Channels 1-4 on Sbus 1 are reserved for RC control.
 
 Each button can be programmed in one of 3 modes with long press and short press actions in Toggle and Multi modes.
 
-### Button Modes Available
+### **Button Modes**
 
-* Toggle  = Output latches between two pwm values with a short or long press option. 
-* Momenty = Output changes to active value when pressed and held, returns to default when released. 
-* Multi = Sends command for channel to go to preset pwm value. Multi buttons can be stacked on both short and long press as well as multiple buttons configurations to allow channel outputs to range in values.  
+* Toggle (T) = Output latches between two pwm values with a short or long press option.
+* Momenty (M)= Output changes to active value when pressed and held, returns to default when released.
+* Multi = Sends command for channel to go to preset pwm value. Multi buttons can be stacked on both short and long press as well as multiple buttons configurations to allow channel outputs to range in values.
 
-To select the mode either press T for Toggle, M for Momantry, when neither T or M is selected the button is in Multi mode.
+To select the mode either press T for Toggle, M for Momantry, when neither T or M is selected the button is in Multi mode
 
-## Profiles
+### **Sbus Button Configuration**
 
-Herelink Sbus Buttons allows you to save multiple button profiles. This means you can set up Herelink to have multiple configurations for different applications.
+You can set Sbus button configuration in **Herelink Settings**>**button**
 
-## Sbus Button Configuration
+![](../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2Fsync%2Ffe37395557c778046215bb011458d284f666a86a.png)
 
-### Buttons Screen Overview
+* Click NEW and type name for your new profile and press OK.
 
-![](../../.gitbook/assets/Button_overview2.jpg) ![](../../.gitbook/assets/Button_overview1.jpg)
+![](../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2Fsync%2F0d6efbc80556581964177a3a8c51978b9239d23f.png)
 
-## To Configure
+* Select the first button you want to configure from the drop down menu then click ADD .
 
-* From App Launcher slide down the notification drawer from the top and select Herelink Setting. Slide left for buttons screen. Here you will find the button configuration options for sbus. 
+![](<../../.gitbook/assets/Screenshot 2022-07-07 at 1.24.23 PM.jpg>)
 
-![](../../.gitbook/assets/Sbusbuttons_1.png)
+* Select desired button mode by tapping the letter, ie: Toggle, Maintain or leave blank for Multi
 
-* Click ‘NEW’ and type name for your new profile and press OK.
+![](<../../.gitbook/assets/Screenshot 2022-07-07 at 1.25.22 PM.jpg>)
 
-![](../../.gitbook/assets/Sbusbuttons_Profile.png)
+* Tip: To move to the top end of the range you can scroll backwards, also ‘Flicking’ the numbers will scroll faster though the range.
 
-* Select the first button you want to configure from the drop down menu then click ‘ADD’
+![](<../../.gitbook/assets/Screenshot 2022-07-07 at 1.26.02 PM.jpg>)
 
-![](../../.gitbook/assets/Sbusbuttons_2.png)
+* If setting a Multi mode button set desired active pwm output.
 
-* Select desired button mode by tapping the letter, ie: Toggle, Momenty or leave blank for Multi 
+![](<../../.gitbook/assets/Screenshot 2022-07-07 at 1.27.24 PM.jpg>)
 
-![](../../.gitbook/assets/Sbusbuttons_3.jpg)
+* Set sbus channel output and bus.
 
-**Note: When setting up Multi mode buttons at least one must be selected as default, this sets the default output pwm on system boot.**
-
-* For Toggle & Momentary set the default pwm and active pwm values, these values are selected by scrolling left and right on the number to select the desired output. 
-
-![](../../.gitbook/assets/Sbusbuttons_4.jpg)
-
-**Tip: To move to the top end of the range you can scroll backwards, also ‘Flicking’ the numbers will scroll faster though the range.**
-
-* If setting a Multi mode button set desired active pwm output. 
-
-![](../../.gitbook/assets/Sbusbuttons_6.jpg)
-
-* Set sbus channel output and bus. 
-
-![](../../.gitbook/assets/Sbusbuttons_5.jpg)
+![](<../../.gitbook/assets/Screenshot 2022-07-07 at 1.28.33 PM.jpg>)
 
 * Once configured you must click SAVE to store settings.
-* Next contine to add more buttons via the above process.
+* Next continue to add more buttons via the above process.
 
-![](../../.gitbook/assets/Sbusbuttons_7.png)
+![](<../../.gitbook/assets/Screenshot 2022-07-07 at 1.29.09 PM.jpg>)
 
-* To remove a button config simply click the bin icon next to the name. 
+* To remove a button config simply click the bin icon next to the name.
 
-### Multi Buttons
+### **Multi Buttons**
 
-Multi button config allows you to set short and long press options as well as other buttons to set stages outputs on a sbus channel, below is an example of two buttons changing a channel to 4 different pwm values.
+* Multi button config allows you to set short and long press options as well as other buttons to set stages outputs on a sbus channel, below is an example of two buttons changing a channel to 4 different pwm values.
+* When setting up Multi mode buttons at least one on each channel must be selected as default value, this sets the default output pwm the system will default to on power on.
 
-When setting up Multi mode buttons at least one on each channel must be selected as default value, this sets the default output pwm the system will default to on power on.
-
-![](../../.gitbook/assets/Sbusbuttons_Setupmulti.png)
-
+![](<../../.gitbook/assets/Screenshot 2022-07-07 at 1.30.14 PM.jpg>)
