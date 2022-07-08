@@ -60,7 +60,7 @@ Android：https://developer.android.com/studio/releases/platform-tools
 
     `mkdir oem`
 * Mount the image using
-* `fuse-ext2 raw_oem_au_base.img oem -o rw+`挂载映像。
+* `fuse-ext2 raw_oem_au_base.img oem -o rw+`
 * Now you should be able to modify files inside the mount directory.
 * You need to use `sudo` to be able to do any writes the files inside the mount point.
 *   Once you have made your changes, you need to unmount your drive using command

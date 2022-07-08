@@ -168,6 +168,9 @@ Connect with QGroundControl
 
 * Connect PC to HereLink Wifi will connect automatically after open QGC.
 * Click Application Setting
+
+![](<../../.gitbook/assets/Screenshot 2022-07-08 at 1.07.08 PM.jpg>)
+
 * In Video Settings changes Source to RTSP Video Stream and enter "RTSP URL" which mentioned above to get video stream.
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-08 at 1.07.23 PM.jpg>)
