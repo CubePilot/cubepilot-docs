@@ -1,7 +1,5 @@
 # System setting
 
-### System setting
-
 ## 1. Language setting
 
 Click the icon in the bottom right corner to enter the secondary menu
