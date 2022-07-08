@@ -65,12 +65,11 @@ Firefly Q6\_\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
 Optris PI-Series\_\_\_\_\_\_\_\_\_Stock/out of the box settings (via companion computer with MS Windows)\
 EKEN H9R\_\_\_\_\_\_\_\_\_\_\_\_\_Stock/out of the box settings\
 Black Magic micro cinema\_Stock/out of the box settings\
-NextVision cameras with TRIP2 accessory\_Stock/out of the box settings
-
-\*\*\*\*\*\*\*\*\*\*\*\* Not Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
+NextVision cameras with TRIP2 accessory\_Stock/out of the box settings\
 Workswell Wiris Mini\
-Workswell Wiris and Wiris 2nd Generation\
+Workswell Wiris and Wiris 2nd Generation
+
+\*\*\*\*\*\*\*\*\*\*\*\* Not Working \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
 Xiaomi Yi
 
 ## Herelink - Connection
