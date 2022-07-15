@@ -1,5 +1,9 @@
 # Herelink User Guides
 
+{% content-ref url="assembly-and-connection.md" %}
+[assembly-and-connection.md](assembly-and-connection.md)
+{% endcontent-ref %}
+
 {% content-ref url="upgrading-firmware.md" %}
 [upgrading-firmware.md](upgrading-firmware.md)
 {% endcontent-ref %}
@@ -16,6 +20,10 @@
 [sbus\_buttons.md](sbus\_buttons.md)
 {% endcontent-ref %}
 
+{% content-ref url="wireless-communication.md" %}
+[wireless-communication.md](wireless-communication.md)
+{% endcontent-ref %}
+
 {% content-ref url="share-video-stream.md" %}
 [share-video-stream.md](share-video-stream.md)
 {% endcontent-ref %}
@@ -26,6 +34,10 @@
 
 {% content-ref url="herelink-1.0-airunit-to-airunit-instruction.md" %}
 [herelink-1.0-airunit-to-airunit-instruction.md](herelink-1.0-airunit-to-airunit-instruction.md)
+{% endcontent-ref %}
+
+{% content-ref url="system-setting.md" %}
+[system-setting.md](system-setting.md)
 {% endcontent-ref %}
 
 {% content-ref url="installing-a-custom-app.md" %}

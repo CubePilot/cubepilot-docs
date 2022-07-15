@@ -83,6 +83,10 @@
 
 * [ProfiLED](profiled/profiled.md)
 
+## Product Certificate
+
+* [CE Certificate](product-certificate/ce-certificate.md)
+
 ## SOLO
 
 * [Open Solo Installation](solo/open-solo-installation.md)
