@@ -103,6 +103,7 @@
 * [CubePilot Ecosystem Ardubee multipurpose platform](cubepilot-ecosystem/cubepilot-ecosystem-ardubee-multipurpose-platform.md)
 * [Silent Arrow](cubepilot-ecosystem/silent-arrow.md)
 * [CubePilot Ecosystem Herelink](cubepilot-ecosystem/cubepilot-ecosystem-herelink.md)
+* [Acecore NOA, Cubepilot Ecosystem, and George Herelink, the right combination](cubepilot-ecosystem/acecore-noa-cubepilot-ecosystem-and-george-herelink-the-right-combination.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
