@@ -21,7 +21,6 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 ### **Download firmware upgrade application**
 
 * Windows ：[https://herelinkfw.cubepilot.org/flasher\_win.zip](https://herelinkfw.cubepilot.org/flasher\_win.zip)
-*           [https://herelinkfw.cubepilot.org/driver.msi](https://herelinkfw.cubepilot.org/driver.msi)
 * MAC ：[https://herelinkfw.cubepilot.org/flasher\_mac.zip](https://herelinkfw.cubepilot.org/flasher\_mac.zip)
 * Linux ：[https://herelinkfw.cubepilot.org/flasher\_linux.zip](https://herelinkfw.cubepilot.org/flasher\_linux.zip)
 
