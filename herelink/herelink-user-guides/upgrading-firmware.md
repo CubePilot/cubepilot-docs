@@ -21,6 +21,7 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 ### **Download firmware upgrade application**
 
 * Windows ：[https://herelinkfw.cubepilot.org/flasher\_win.zip](https://herelinkfw.cubepilot.org/flasher\_win.zip)
+*           [https://herelinkfw.cubepilot.org/driver.msi](https://herelinkfw.cubepilot.org/driver.msi)
 * MAC ：[https://herelinkfw.cubepilot.org/flasher\_mac.zip](https://herelinkfw.cubepilot.org/flasher\_mac.zip)
 * Linux ：[https://herelinkfw.cubepilot.org/flasher\_linux.zip](https://herelinkfw.cubepilot.org/flasher\_linux.zip)
 
@@ -40,7 +41,7 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 3. The program identifies the device and downloads the firmware, requiring the PC to be connected to the Internet during upgrade.
 4. After the download is complete, it will automatically start to write and restart after the writing is complete.
 
-> In some Windows systems it's been found that due to incorrect Driver setup, Herelink units fail to be detected. In such cases please power up by pressing Power+D button until "Fastboot" screen shows up. Install driver from here https://developer.android.com/studio/run/win-usb. In cases where driver was already installed, Uninstall Device from Device manager (Ensure to check the "also uninstall driver" option), and then reconnect and install the correct driver from Google.
+> In some Windows systems it's been found that due to incorrect Driver setup, Herelink units fail to be detected. In such cases please power up by pressing Power+D button until "Fastboot" screen shows up. Install driver from here https://developer.android.com/studio/run/win-usb. In cases where driver was already installed, Uninstall Device from Device manager (Ensure to check the "also uninstall driver" option), and then reconnect and install the correct driver from Google. OR use [https://herelinkfw.cubepilot.org/driver.msi](https://herelinkfw.cubepilot.org/driver.msi)
 
 ## 2. Herelink Activate
 
