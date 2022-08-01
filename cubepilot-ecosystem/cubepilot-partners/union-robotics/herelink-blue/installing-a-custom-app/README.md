@@ -14,7 +14,7 @@ Enable "Developer Mode" on the DataLink by navigating to `Settings`->`About Phon
 
 ![](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.07.56 PM.png>)
 
-![](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.09.10 PM.png>)
+![](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.09.10 PM (2).png>)
 
 ![](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.10.10 PM.png>)
 

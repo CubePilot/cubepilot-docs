@@ -121,7 +121,7 @@ Learn more: [pingRX PRO](https://uavionix.com/products/pingrx-pro/)
 
 Monitor and control aircraft location, network health, signal strength, and load balancing and roaming capabilities from the SkyLine Service Platform
 
-![](<../../.gitbook/assets/scalable-2x (2).png>)
+![](<../../.gitbook/assets/scalable-2x (2) (2) (1).png>)
 
 The SkyLink hardware and Managed Infrastructure services provide centralized control over your mission, be it linear infrastructure or wide-area coverage.
 

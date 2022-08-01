@@ -20,7 +20,7 @@ After uploading successfully, click on ‘Connect’. Press Ctrl+L keys to enter
 
 Click on ‘SLCan Mode CAN1’, then the information of Here2 device will show up. Click on ‘Parameters’ on the right side.
 
-![](<../.gitbook/assets/here-2-can-instruction-3-1 (1) (2).jpg>)
+![](<../.gitbook/assets/here-2-can-instruction-3-1 (1) (2) (1).jpg>)
 
 Pop up the parameters setting interface shown as the screenshot below, set the value of dronecan.node\_id between 0 and 125. Click on ‘Writing parameters’, then click on ‘Commit Params’ to save the setting. With the above mentioned steps, manual Node allocation is completed. If the user would like to enable the barometer, it can be done by setting the value of BARO\_ENABLE as 1.
 

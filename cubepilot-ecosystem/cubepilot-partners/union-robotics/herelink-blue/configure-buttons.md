@@ -24,23 +24,23 @@ Select `Button Mapping` &#x20;
 
 Choose desired button
 
-![](<../../../../.gitbook/assets/image (3).jpeg>)
+![](../../../../.gitbook/assets/button-mapping-2.jpg)
 
 Select either `Click` or `Long Click` (**Note** this allows you to set two functions to each button)
 
-![](<../../../../.gitbook/assets/image (4).jpeg>)
+![](../../../../.gitbook/assets/button-mapping-2.5.jpg)
 
 Click on drop down to select the function you want
 
-![](<../../../../.gitbook/assets/image (1) (1) (1).png>)
+![](../../../../.gitbook/assets/button-mapping-3.png)
 
 Click on small cog to select option with-in selected function
 
-![](<../../../../.gitbook/assets/image (5).jpeg>)
+![](../../../../.gitbook/assets/button-mapping-6.jpg)
 
 Select function option
 
-![](<../../../../.gitbook/assets/image (2) (1).png>)
+![](../../../../.gitbook/assets/button-mapping-5.png)
 
 Repeat for each button assignment and click `SAVE BUTTONS` in bottom corner to finish
 
@@ -115,11 +115,11 @@ From App Launcher slide down the notification drawer from the top and select "Un
 
 ![](../../../../.gitbook/assets/91.png)
 
-![](<../../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2Fsync%2Ffe37395557c778046215bb011458d284f666a86a (1).png>)
 
 Click `NEW` and type name for your new profile and press `OK`.
 
-![](<../../../../.gitbook/assets/image (6) (2).png>)
+![](<../../../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2Fsync%2F0d6efbc80556581964177a3a8c51978b9239d23f (1).png>)
 
 Select the first button you want to configure from the drop down menu then click `ADD` .
 

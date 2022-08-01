@@ -32,7 +32,7 @@ Once all items have been checked on the Pre-Flight Checklist screen, you will be
 
 ### **Flight Screen**
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.17.26 PM (2).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.17.26 PM (2) (1).png>)
 
 |                        |                                                                         |
 | ---------------------- | ----------------------------------------------------------------------- |
