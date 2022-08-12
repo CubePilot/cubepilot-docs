@@ -177,7 +177,7 @@ Not lighting up: No firmware detected or firmware corrupted.
 
 To use Here 3 / Here 3+ on a UAV, you need the following hardware： Computer, telemetry modules, \*_Here 3 / Here 3+_ , Base Antenna, Base, Tripod(Stand).
 
-![](../.gitbook/assets/6-16532737811391.bmp)
+![](../.gitbook/assets/Here3+.png)
 
 **Before starting to use, please make sure that the hardware connection is correct:**
 
