@@ -35,7 +35,7 @@ Here 3/3+ GPS is a Cost-efficient GNSS system that supports RTK mode. Positionin
 | :-: | :--------: | :---------: |
 |  1  |   VCC\_5V  |     red     |
 |  2  |   CAN\_H   |    brown    |
-|  3  |   CAN\_L   |    yellow   |
+|  3  |   CAN\_L   |    orange   |
 |  4  |     GND    |    black    |
 
 ![](<../.gitbook/assets/Here3 Can2.png>)
