@@ -24,7 +24,7 @@ Select `Button Mapping` &#x20;
 
 Choose desired button
 
-![](../../../../.gitbook/assets/button-mapping-2.jpg)
+![](<../../../../.gitbook/assets/button-mapping-2 (1).jpg>)
 
 Select either `Click` or `Long Click` (**Note** this allows you to set two functions to each button)
 
@@ -32,15 +32,15 @@ Select either `Click` or `Long Click` (**Note** this allows you to set two funct
 
 Click on drop down to select the function you want
 
-![](../../../../.gitbook/assets/button-mapping-3.png)
+![](<../../../../.gitbook/assets/button-mapping-3 (1).png>)
 
 Click on small cog to select option with-in selected function
 
-![](../../../../.gitbook/assets/button-mapping-6.jpg)
+![](<../../../../.gitbook/assets/button-mapping-6 (1).jpg>)
 
 Select function option
 
-![](../../../../.gitbook/assets/button-mapping-5.png)
+![](<../../../../.gitbook/assets/button-mapping-5 (1).png>)
 
 Repeat for each button assignment and click `SAVE BUTTONS` in bottom corner to finish
 
@@ -63,17 +63,17 @@ The hardware wheel is mapped to SBUS channel 5 by default but can also be config
 
 Select the desired servo channel from 1- to 16
 
-![](<../../../../.gitbook/assets/image (6).jpeg>)
+![](<../../../../.gitbook/assets/image (6) (1).jpeg>)
 
 Finish by clicking OK and click `SAVE BUTTONS` in bottom corner
 
 To configure a button to change the wheel servo output configure the button to `WHEEL SETTINGS`&#x20;
 
-![](<../../../../.gitbook/assets/image (7).jpeg>)
+![](<../../../../.gitbook/assets/image (7) (1).jpeg>)
 
 Click the cog and set new channel and PWM values and click `OK` and then `SAVE BUTTONS` in bottom right corner. &#x20;
 
-![](<../../../../.gitbook/assets/image (3) (1).png>)
+![](<../../../../.gitbook/assets/image (3) (1) (1).png>)
 
 Once changed the wheel will output on the new selected channel, to return to its original servo output you will need to program one button function to `Clear Wheel Settings` as shown above.
 

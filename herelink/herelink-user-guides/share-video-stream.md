@@ -153,7 +153,7 @@ Now，Mission Planner able to use mavlink telemetry data.
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.27 PM (1).jpg>)
 
-![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.41 PM (2).jpg>)
+![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.41 PM (2) (1).jpg>)
 
 * Right click on HUD screen to enter Vedio menu,choose HereLink Video then a IP input window will pop up.
 * Enter the IP address obtained in the previous step，then the vedio will be showed on HUD screen.

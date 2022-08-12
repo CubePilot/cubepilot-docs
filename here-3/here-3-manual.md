@@ -27,14 +27,29 @@ Here 3/3+ GPS is a Cost-efficient GNSS system that supports RTK mode. Positionin
 
 #### Pinout
 
+
+
 ![](../.gitbook/assets/01.png)
 
-| Pin | Defination | Cable color |
+| Pin | Definition | Cable color |
 | :-: | :--------: | :---------: |
 |  1  |   VCC\_5V  |     red     |
-|  2  |   CAN\_H   |    white    |
+|  2  |   CAN\_H   |    brown    |
 |  3  |   CAN\_L   |    yellow   |
 |  4  |     GND    |    black    |
+
+![](<../.gitbook/assets/Here3 Can2.png>)
+
+
+
+| Pin | Definition | Cable color |
+| :-: | :--------: | :---------: |
+|  1  |   VCC\_5V  |     grey    |
+|  2  |   CAN\_H   |     blue    |
+|  3  |   CAN\_L   |    white    |
+|  4  |     GND    |    green    |
+
+**Note: Current firmware only support CAN 1 ,CAN 2 is not supported. Dual CAN will be enabled in a future firmware update.**
 
 ### Operation instruction
 

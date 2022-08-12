@@ -18,7 +18,7 @@ Pull down the Notification Drawer and enable Hotspot.
 
 To configure press and hold hotspot logo, and you should see following screen.
 
-![](<../../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../../.gitbook/assets/image (10).png>)
 
 Then under Set up Wifi hotspot configure name and password for the hotspot.
 
@@ -34,7 +34,7 @@ Press and hold the Hotspot button under notification logo.
 
 Under `Tethering & portable hotspot` find `USB tethering`, turn it on.
 
-![](<../../../../.gitbook/assets/image (10).png>)
+![](<../../../../.gitbook/assets/image (10) (1).png>)
 
 ![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 12.41.01 PM.png>)
 
