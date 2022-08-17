@@ -50,7 +50,7 @@ Go to Settings > Developer Options > OPEN USB debugging, use USB to HDMI convers
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-08 at 10.36.19 AM.jpg>)
 
-* The video stream will be available at rtsp://192.168.43.1:8554/fpv\_streamto connected devices.
+* The video stream will be available at rtsp://192.168.43.1:8554/fpv\_stream to connected devices.
 
 > Can be played through a player that supports playing video streams
 
