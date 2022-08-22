@@ -18,6 +18,8 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 
 ## 1. Upgrade Via PC
 
+**\*Please use the following link to download the most current version of flasher\_win.**
+
 ### **Download firmware upgrade application**
 
 * Windows ：[https://herelinkfw.cubepilot.org/flasher\_win.zip](https://herelinkfw.cubepilot.org/flasher\_win.zip)
@@ -61,8 +63,6 @@ After upgrading the Herelink firmware you may be required to activate your devic
 > **Note**: On later Herelink versions your key will be located on the back of the controller, for earlier(before April 20th 2020) Herelink versions you should contact your original reseller to obtain a valid licence key.
 
 ![](../../.gitbook/assets/fw-up3.png)
-
-&#x20;
 
 ![](../../.gitbook/assets/fw-up4.png)
 
