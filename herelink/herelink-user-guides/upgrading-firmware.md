@@ -18,7 +18,7 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 
 ## 1. Upgrade Via PC
 
-**\*Please use the following link to download the most current version of flasher\_win.**
+**\*Please use the following link to download the latest version of flasher\_win.**
 
 ### **Download firmware upgrade application**
 
