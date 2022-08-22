@@ -6,7 +6,7 @@ Herelink is an integrated remote controller, ground station and wireless digital
 
 Herelink 1.1 is based on the original platform and functions of Herelink 1.0. The controller improved the display brightness up to 1000 nit. Moreover, an additional Ethernet interface is available on airunit1.1 to support more peripheral devices and adapt to more applications, a SD card slot is available on the airunit 1.1.
 
-**Note: Please use the most current version of flasher\_win to upgrade your HereLink1.1 controller and HereLink1.1 airunit firmware. (**[**https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/upgrading-firmware#download-firmware-upgrade-application**](https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/upgrading-firmware#download-firmware-upgrade-application)**)**
+**Note: Please use the latest version of flasher\_win to upgrade your HereLink1.1 controller and HereLink1.1 airunit firmware. (**[**https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/upgrading-firmware#download-firmware-upgrade-application**](https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/upgrading-firmware#download-firmware-upgrade-application)**)**
 
 ## HereLink / HereLink 1.1 Technical specifications
 
