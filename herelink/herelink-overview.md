@@ -68,7 +68,7 @@ Herelink 1.1 is based on the original platform and functions of Herelink 1.0. Th
 |      **S.bus Interface**     |                                  Dual RCout ，S.bus1 and S.bus2                                 |
 |         **Micro USB**        | Used for debugging and upgrading, support OTG mode\*\*（need external power for USB device）\*\* |
 |          **Buttom**          |                                Used for pairing and state reset                                |
-|   **Indicator light 1 ，2**   |                    Used to indicate state for pairing and vedio transmission                   |
+|   **Indicator light 1 ，2**   |                    Used to indicate state for pairing and video transmission                   |
 |   **MMCX antenna jack 1，2**  |                      Used for signal transmission and ground communication                     |
 
 ### **Airunit1.1**
@@ -88,7 +88,7 @@ Herelink 1.1 is based on the original platform and functions of Herelink 1.0. Th
 |                **S.bus Interface**               |                                   Dual RCout ，S.bus1 and S.bus2                                   |
 |                   **Micro USB**                  | Used for debugging and upgrading, support OTG mode\*\*（no need external power for USB device）\*\* |
 |                    **Buttom**                    |                                  Used for pairing and state reset                                 |
-|             **Indicator light 1 ，2**             |                     Used to indicate state for pairing and vedio transmission                     |
+|             **Indicator light 1 ，2**             |                     Used to indicate state for pairing and video transmission                     |
 |             **MMCX antenna jack 1，2**            |                       Used for signal transmission and ground communication                       |
 |    **SD Slot（only supported by Airunit 1.1）**    |                                          For future usage                                         |
 | **ETH Interface（only supported by Airunit 1.1）** |                                   Network protocol device access                                  |
@@ -178,9 +178,9 @@ Solid Red Light : Receiving HDMI 2 Signal
 
 Solid Yellow Light : Receiving flight control data signal
 
-Geen and Red light flickered alternately : Receive 2 vedio stream signal
+Geen and Red light flickered alternately : Receive 2 video stream signal
 
-Geen Yellow, and Red light flickered alternately : Receive 2 vedio stream signal and flight control signal
+Geen Yellow, and Red light flickered alternately : Receive 2 video stream signal and flight control signal
 
 No Light : Receiving no valid video signal or flight controller signal
 
