@@ -426,9 +426,9 @@ Enter the properties your module can measure, the type of module, the type of fl
 
 ![](../.gitbook/assets/photo-35.jpg)
 
-Monitor Analog Voltage and Current ; Current monitor is currently not supported
+Monitor Analog Voltage and Current ;
 
-Sensor 0.Other ;
+Sensor;
 
 APM Ver 4.The Cube or Pixhawk .
 
