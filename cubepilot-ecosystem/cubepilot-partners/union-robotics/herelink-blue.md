@@ -77,7 +77,7 @@ HereLink Blue allows RC control, HD video and telemetry data to be transmitted u
 
 ### Air Unit
 
-![HereLink Blue Air Unit](../../../.gitbook/assets/BlueHereLink\_AIR\_web.png)
+![HereLink Blue Air Unit](<../../../.gitbook/assets/BlueHereLink\_AIR\_web (1).png>)
 
 |                 |                                                                                                                                                                                           |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -11,6 +11,6 @@
 | Width With Props    | 33 in / 838 mm   |
 | Height              | 7.9 in / 200mm   |
 
-![Meadowhawk 2 - Height](../../../.gitbook/assets/front\_measurments.jpeg)
+![Meadowhawk 2 - Height](<../../../.gitbook/assets/1 general front\_measurments.jpeg>)
 
-![Meadowhawk 2 - Width](../../../.gitbook/assets/top\_measurments.jpeg)
+![Meadowhawk 2 - Width](<../../../.gitbook/assets/1 general top\_measurments.jpeg>)

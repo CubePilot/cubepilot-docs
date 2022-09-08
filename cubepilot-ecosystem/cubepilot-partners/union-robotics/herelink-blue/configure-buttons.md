@@ -16,7 +16,7 @@ On release, the "Secret mode set to ON" message should appear.
 
 Click the hamburger menu icon in the top left corner
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 11.47.49 AM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 11.47.49 AM.png>)
 
 Select `Button Mapping` &#x20;
 
@@ -24,23 +24,23 @@ Select `Button Mapping` &#x20;
 
 Choose desired button
 
-![](<../../../../.gitbook/assets/button-mapping-2 (1).jpg>)
+![](../../../../.gitbook/assets/043.jpg)
 
 Select either `Click` or `Long Click` (**Note** this allows you to set two functions to each button)
 
-![](../../../../.gitbook/assets/button-mapping-2.5.jpg)
+![](<../../../../.gitbook/assets/044 (1).jpg>)
 
 Click on drop down to select the function you want
 
-![](<../../../../.gitbook/assets/button-mapping-3 (1).png>)
+![](../../../../.gitbook/assets/045.png)
 
 Click on small cog to select option with-in selected function
 
-![](<../../../../.gitbook/assets/button-mapping-6 (1).jpg>)
+![](../../../../.gitbook/assets/046.jpg)
 
 Select function option
 
-![](<../../../../.gitbook/assets/button-mapping-5 (1).png>)
+![](../../../../.gitbook/assets/047.png)
 
 Repeat for each button assignment and click `SAVE BUTTONS` in bottom corner to finish
 
@@ -63,17 +63,17 @@ The hardware wheel is mapped to SBUS channel 5 by default but can also be config
 
 Select the desired servo channel from 1- to 16
 
-![](<../../../../.gitbook/assets/image (6) (1).jpeg>)
+![](../../../../.gitbook/assets/050.jpg)
 
 Finish by clicking OK and click `SAVE BUTTONS` in bottom corner
 
 To configure a button to change the wheel servo output configure the button to `WHEEL SETTINGS`&#x20;
 
-![](<../../../../.gitbook/assets/image (7) (1).jpeg>)
+![](../../../../.gitbook/assets/053.jpg)
 
 Click the cog and set new channel and PWM values and click `OK` and then `SAVE BUTTONS` in bottom right corner. &#x20;
 
-![](<../../../../.gitbook/assets/image (3) (1) (1).png>)
+![](../../../../.gitbook/assets/054.png)
 
 Once changed the wheel will output on the new selected channel, to return to its original servo output you will need to program one button function to `Clear Wheel Settings` as shown above.
 
@@ -115,11 +115,11 @@ From App Launcher slide down the notification drawer from the top and select "Un
 
 ![](../../../../.gitbook/assets/91.png)
 
-![](<../../../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2Fsync%2Ffe37395557c778046215bb011458d284f666a86a (1).png>)
+![](<../../../../.gitbook/assets/Sbusbuttons\_1 (1).png>)
 
 Click `NEW` and type name for your new profile and press `OK`.
 
-![](<../../../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2Fsync%2F0d6efbc80556581964177a3a8c51978b9239d23f (1).png>)
+![](<../../../../.gitbook/assets/Sbusbuttons\_Profile (1).png>)
 
 Select the first button you want to configure from the drop down menu then click `ADD` .
 
@@ -135,23 +135,23 @@ Select the first button you want to configure from the drop down menu then click
 
 Select desired button mode by tapping the letter, ie: Toggle, Momenty or leave blank for Multi
 
-![](<../../../../.gitbook/assets/image (10).jpeg>)
+![](../../../../.gitbook/assets/Sbusbuttons\_4.jpg)
 
 **Tip: To move to the top end of the range you can scroll backwards, also ‘Flicking’ the numbers will scroll faster though the range.**
 
 If setting a Multi mode button set desired active pwm output.&#x20;
 
-![](<../../../../.gitbook/assets/image (11).jpeg>)
+![](../../../../.gitbook/assets/Sbusbuttons\_6.jpg)
 
 Set sbus channel output and bus.&#x20;
 
-![](<../../../../.gitbook/assets/image (12).jpeg>)
+![](../../../../.gitbook/assets/Sbusbuttons\_5.jpg)
 
 Once configured you must click `SAVE` to store settings.
 
 Next continue to add more buttons via the above process.
 
-![](<../../../../.gitbook/assets/image (8) (1).png>)
+![](../../../../.gitbook/assets/Sbusbuttons\_7.png)
 
 To remove a button config simply click the bin icon next to the name.&#x20;
 
@@ -161,4 +161,4 @@ Multi button config allows you to set short and long press options as well as ot
 
 When setting up Multi mode buttons at least one on each channel must be selected as default value, this sets the default output pwm the system will default to on power on.
 
-![](<../../../../.gitbook/assets/image (9) (1).png>)
+![](../../../../.gitbook/assets/Sbusbuttons\_Setupmulti.png)

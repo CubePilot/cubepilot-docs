@@ -27,6 +27,6 @@ Once Mission Planner is updated you must also update the drivers, to do this you
 
 ![Mission Planner Driver Clean](../../.gitbook/assets/mission-planner-driver-clean.jpg)
 
-1. Next download the latest drivers from [http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi](http://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi), Install then reboot the system then connect Cube to a USB port and allow the drivers to install.&#x20;
+1. Next download the latest drivers from [https://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi](https://firmware.ardupilot.org/Tools/MissionPlanner/driver.msi) , Install then reboot the system then connect Cube to a USB port and allow the drivers to install.&#x20;
 
 ##

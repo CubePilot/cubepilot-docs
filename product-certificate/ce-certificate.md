@@ -17,7 +17,7 @@
 
 ## Here+ Base CE Certificate
 
-![](<../.gitbook/assets/Here+ Base CE Certificate.jpg>)
+![](<../.gitbook/assets/Here+ Base CE Certificate (1).jpg>)
 
 ## Here+ Rover CE Certificate
 

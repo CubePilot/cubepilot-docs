@@ -148,11 +148,11 @@ Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CA
 
 Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > DRONECAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
 
-![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (1).png>)
+![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (2) (1).png>)
 
 Modify parameters **“GPS\_TYPE” = 1，“GPS\_RTCMSOURCE” = 0，“SERIALPASS” = 0**. After that, click `write params` then `Commit Params` and reboot the HerePro.
 
-![](<../.gitbook/assets/2en (2) (1).png>)
+![](<../.gitbook/assets/2en (2) (2) (1).png>)
 
 After power cycle the HerePro, connect it to computer through its USB port. Select the lower COM port as there are 2 for HerePro.
 
@@ -214,11 +214,11 @@ Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CA
 
 Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > DRONECAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
 
-![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (2).png>)
+![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (1) (1).png>)
 
 Modify parameters **“GPS\_TYPE = 1“ , “GPS\_RTCMSOURCE = 10” , “SERIALPASS = 0“ , "CAN\_NODE = 9"**. After that, click `write params` then `Commit Params` and disconnect the HerePro. Connect another HerePro and continue.
 
-![](<../.gitbook/assets/2en (2) (2).png>)
+![](<../.gitbook/assets/2en (2) (1) (1).png>)
 
 **HerePro Base parameter settings:**
 
@@ -228,7 +228,7 @@ Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CA
 
 Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > DRONECAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
 
-![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (2) (1).png>)
+![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (1) (2).png>)
 
 Modify parameters **“SERIALPASS = 1”**. After that, click `write params` then `Commit Params` and disconnect the HerePro.
 

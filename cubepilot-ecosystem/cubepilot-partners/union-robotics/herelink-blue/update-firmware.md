@@ -10,7 +10,7 @@ Pull down from the top and select the settings cog in the top corner or click th
 
 Scroll to the bottom and click the `About Phone` option
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.09.10 PM (2) (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.09.10 PM (1).png>)
 
 Select `System Update`&#x20;
 

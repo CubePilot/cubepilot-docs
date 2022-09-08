@@ -58,7 +58,7 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
 
 {% embed url="https://www.youtube.com/watch?v=3GMF1Nq-Upo&ab_channel=Gremsy-3AxisCameraStabilizer" %}
 
-| <p><strong>Specifications for </strong><br><strong>PIXY U</strong></p> |                                                                                                                 |
+| <p><strong>Specifications for</strong> <br><strong>PIXY U</strong></p> |                                                                                                                 |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | **Dimensions (D x W x H)**                                             | <p>145 x 112 x 200 mm (gimbal) <br>65.5 x 100 x 70 mm (camera cage)</p>                                         |
 | **Weight**                                                             | 1.0 lbs (465 g)                                                                                                 |
@@ -148,7 +148,7 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 
 ### GREMSY S1
 
-![](../../.gitbook/assets/gremsy-s1.png)
+![](<../../.gitbook/assets/gremsy-s1 (1).png>)
 
 
 
@@ -192,7 +192,7 @@ Gremsy T7 is the next level of heavy lifting gimbal for industrial applications.
 
 {% embed url="https://www.youtube.com/watch?v=Nwnilc-HcIE&ab_channel=Gremsy-3AxisCameraStabilizer" %}
 
-| <p>Specifications<strong> for </strong><br><strong>GREMSY T7</strong></p> |                                                                                                 |
+| <p>Specifications <strong>for</strong> <br><strong>GREMSY T7</strong></p> |                                                                                                 |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | **Dimensions (D x W x H)**                                                | <p>253 x 260 x 345 mm (gimbal) <br>150 x 180 x 130 mm (camera cage)</p>                         |
 | **Weight**                                                                | 4 lbs (1860 g)                                                                                  |

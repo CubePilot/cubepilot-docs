@@ -58,19 +58,19 @@ From this screen you can:
 
 Select `HW WHEEL CAL`&#x20;
 
-![](../../../../.gitbook/assets/wheel\_cal.jpeg)
+![](../../../../.gitbook/assets/wheel\_cal.jpg)
 
 Click `Start rollwheel` and follow the calibration steps.
 
 **Note** once complete you can check its correct functioning by looking at the values change, click `Pass` to return to joystick screen.
 
-![](<../../../../.gitbook/assets/hw-wheel (1).png>)
+![](../../../../.gitbook/assets/hw-wheel.png)
 
 Once calibration is complete you can set the Sbus channel output and Bus output for the wheel on the highlighted settings
 
 Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 16, on bus 2 the wheel can be set to channels 1 -16.&#x20;
 
-![](../../../../.gitbook/assets/Wheel\_ch.jpeg)
+![](../../../../.gitbook/assets/Wheel\_ch.jpg)
 
 Once complete click `SAVE` to store settings
 
@@ -80,7 +80,7 @@ Once complete click `SAVE` to store settings
 
 * Click `HW JS CAL`&#x20;
 
-![](../../../../.gitbook/assets/Stick\_cal.jpeg)
+![](../../../../.gitbook/assets/Stick\_cal.jpg)
 
 ![](../../../../.gitbook/assets/94.png)
 
@@ -102,11 +102,11 @@ DataLink supports RC modes 1-4 as well as the option to set the throttle centre 
 
 Set throttle center and RC mode via the below settings.&#x20;
 
-![](../../../../.gitbook/assets/Rc\_mode.jpeg)
+![](../../../../.gitbook/assets/Rc\_mode.jpg)
 
 The stick sbus output can be reversed by clicking on ‘REV’ next to the channel you want to change.
 
-![](../../../../.gitbook/assets/image.jpeg)
+![](../../../../.gitbook/assets/Channel\_rev.jpg)
 
 After making any changes click `SAVE` to store settings.
 
@@ -114,13 +114,13 @@ After making any changes click `SAVE` to store settings.
 
 To calibrate the joystick SBUS outputs click `SBUS OUT CAL`.
 
-![](<../../../../.gitbook/assets/image (1).jpeg>)
+![](../../../../.gitbook/assets/Sbus\_cal.jpg)
 
 Follow the RC stock movement steps as shown in the highlight section moving the stick through each position.
 
-![](<../../../../.gitbook/assets/image (1) (1).png>)
+![](../../../../.gitbook/assets/Sbus\_cal2.png)
 
-![](<../../../../.gitbook/assets/image (2).jpeg>)
+![](../../../../.gitbook/assets/Sbus\_cal1.jpg)
 
 Once complete click `SAVE` to store settings.&#x20;
 

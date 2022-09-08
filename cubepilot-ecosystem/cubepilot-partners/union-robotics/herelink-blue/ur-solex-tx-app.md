@@ -4,7 +4,7 @@
 
 If the Ground Station and Air Unit link does not automatically connect, press the `CONNECT` button on the left hand side of the display screen.
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.40.58 PM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.40.58 PM.png>)
 
 Once connected, the UR/Solex TX app will download the vehicle's parameters
 
@@ -14,7 +14,7 @@ Once connected, the UR/Solex TX app will download the vehicle's parameters
 
 To view the flight screen, click on the Union Robotics logo at the bottom left side of the screen.
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.44.45 PM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.44.45 PM.png>)
 
 ### Pre-Flight Checklist Screen
 
@@ -22,17 +22,17 @@ This will take you to the “Pre-Flight Checklist” screen, where you are requi
 
 **WARNING: Physically inspect the aircraft for each item on the Pre-Flight Checklist before checking the box on the screen. Failure to do so could result in aircraft failure or injury.**
 
-![](<../../../../.gitbook/assets/1 (1).png>)
+![](<../../../../.gitbook/assets/Pre-Flight Checklist Screen.png>)
 
 Once all items have been checked on the Pre-Flight Checklist screen, you will be automatically directed to the Verify Controls screen. This screen reminds the pilot to verify all the aircraft controls properly function upon take off before starting the mission. Click `GO!` to be directed to the flight screen
 
-![](../../../../.gitbook/assets/2.png)
+![](<../../../../.gitbook/assets/Verify Controls Screen.png>)
 
 ## **UI Overview**
 
 ### **Flight Screen**
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.17.26 PM (2).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.17.26 PM (1) (1).png>)
 
 |                        |                                                                         |
 | ---------------------- | ----------------------------------------------------------------------- |
@@ -52,7 +52,7 @@ Once all items have been checked on the Pre-Flight Checklist screen, you will be
 
 ### Land
 
-![](../../../../.gitbook/assets/70.png)
+![](<../../../../.gitbook/assets/70 (1).png>)
 
 |                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -63,7 +63,7 @@ Once all items have been checked on the Pre-Flight Checklist screen, you will be
 
 ### **Control Panel**
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.06.59 PM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.06.59 PM.png>)
 
 |                   |                                                                      |
 | ----------------- | -------------------------------------------------------------------- |
@@ -83,7 +83,7 @@ Displays an overhead map view. This view can be used for mapping autonomous miss
 
 When clicking on the layers button on the Map View, the layers option menu will display. The options will overlay on the map.
 
-![](../../../../.gitbook/assets/63.png)
+![](<../../../../.gitbook/assets/63 (1).png>)
 
 ### **Alert Indications** <a href="#alert-indications" id="alert-indications"></a>
 
@@ -216,9 +216,9 @@ On infrequent occasions, Solex might flag a point right next to a waypoint as a 
 
 Draw all of your waypoints on the map, then select `Follow Terrain` from the menu (it will be grayed out if you don't have an internet connection, or your mission is empty).&#x20;
 
-![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 9.42.24 AM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 9.42.24 AM.png>)
 
-![](<../../../../.gitbook/assets/24 (1).png>)
+![](<../../../../.gitbook/assets/24 (2).png>)
 
 On the dialog box that appears, click `Apply Elevations`.
 
@@ -371,7 +371,7 @@ To Fly a created mission, you will need to save the mission. Click **** `SAVE` o
 
 Flying missions  are done from the Map view in the flight screen. In the Map view, one of the layers is `Missions`. Click `Missions`, and you'll see a list of missions.
 
-![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 11.06.51 AM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 11.06.51 AM.png>)
 
 ![](<../../../../.gitbook/assets/47 (1).png>)
 

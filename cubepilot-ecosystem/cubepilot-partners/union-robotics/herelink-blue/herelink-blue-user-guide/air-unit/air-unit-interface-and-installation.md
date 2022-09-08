@@ -18,7 +18,7 @@
 
 ## Pin Out
 
-![](<../../../../../../.gitbook/assets/RoverUnit\_Connectors (1).jpeg>)
+![](../../../../../../.gitbook/assets/RoverUnit\_Connectors.jpeg)
 
 ## Connector Routing
 
