@@ -129,6 +129,8 @@ The supply of 3.3v
 * Split digital and analogue power domains for FMU and sensors.
 * Backup power for IO in the case of FMU power supply failure.
 
+<figure><img src="../.gitbook/assets/System Power Distribution.svg" alt=""><figcaption></figcaption></figure>
+
 ### Power management module (separate from the FMU)
 
 Key features of The Cube power architecture:
