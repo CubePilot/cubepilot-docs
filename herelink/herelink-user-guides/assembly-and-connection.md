@@ -34,7 +34,7 @@ Please refer to Figure 1 and Figure 2 below. (Note that carbon fiber is also con
 
 ## 3.Airunit back board assembly
 
-**1.** Use M16x3mm screw to mount Airunit on back board.
+**1.** Use M1.6x3mm screw to mount Airunit on back board.
 
 **2.** Ues M3x10mm screw and M3 nut to mount Airunit to Rover.
 
