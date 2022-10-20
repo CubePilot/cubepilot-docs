@@ -12,7 +12,7 @@ Using the 3M double layer tape or screw from the package, mount The Cube as clos
 
 **According to the actual requirement, The Cube can also be mounted reversely or upside-down. Parameters will need to be edited.**
 
-![](../.gitbook/assets/photo-01.jpg)
+<figure><img src="../.gitbook/assets/Photo%20-%2001-R.jpg" alt=""><figcaption></figcaption></figure>
 
 **If screw is needed for mounting, there are screws attached in the package. They are designed for 1.8mm boards. Length of customized M2.5 screws should be around 6 mm to 7.55 mm to fit The Cube.**
 
@@ -20,7 +20,7 @@ Using the 3M double layer tape or screw from the package, mount The Cube as clos
 
 ## Peripheral Connection
 
-According to the type, size, dynamic structure, and load, installation of hardware and parameter setting can be diverse. However, the connection of electronic devices are similar. The following contents will guide you to connect your peripheral to The Cube \(formerly known as Pixhawk\). Please follow these steps before your first flight.
+According to the type, size, dynamic structure, and load, installation of hardware and parameter setting can be diverse. However, the connection of electronic devices are similar. The following contents will guide you to connect your peripheral to The Cube (formerly known as Pixhawk). Please follow these steps before your first flight.
 
 **Remark:Please connect the GPS, sensors, telemetry, etc to The Cube according to the pinout. Please check the wiring order carefully because most of the peripheral malfunctioning are due to incorrect wiring. Since there are limitation on every interface on The Cube, please connect your high-power peripheral to external BEC.**
 
@@ -36,13 +36,13 @@ Dataflash logs are stored on microSD Card, which is plugged in the left of The C
 
 The Cube supports triple power source, which are power module, servo rail, and USB cable.
 
-When more than 1 power source is connected, power will be drawn from the highest-priority source with a valid input voltage. \(Priority as shown in the table below\)
+When more than 1 power source is connected, power will be drawn from the highest-priority source with a valid input voltage. (Priority as shown in the table below)
 
-| Power Sources | Priority | Regular range | Limit | Protection Range |
-| :--- | :--- | :--- | :--- | :--- |
-| Power Module Input | High | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 20 V |
-| Servo Rail Input | Medium | 4.8 V - 5.4 V | 4.1 V - 10 V | 0 V - 20 V |
-| USB Cable Input | Low | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 6 V |
+| Power Sources      | Priority | Regular range | Limit         | Protection Range |
+| ------------------ | -------- | ------------- | ------------- | ---------------- |
+| Power Module Input | High     | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 20 V       |
+| Servo Rail Input   | Medium   | 4.8 V - 5.4 V | 4.1 V - 10 V  | 0 V - 20 V       |
+| USB Cable Input    | Low      | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 6 V        |
 
 I/O will accept power from the servo connector up to 10 V FOR MANUAL OVERRIDE. System will be UNPOWERED WHEN SERVO INPUT IS ABOVE 5.7 V AND POWER MODULE INPUT IS ABSENT. FMU and peripherals will NOT accept power from the servo rail.
 
@@ -54,13 +54,13 @@ Connect the power module to the POWER1 port via POWER cable. If there are second
 
 ### Connect ESCs and Motors
 
-Connect the power \(+\), ground \(-\), and signal \(s\) wires for each ESC to the flight controller’s main output pins by motor number. Find your frame type below to determine the assigned order of the motors.
+Connect the power (+), ground (-), and signal (s) wires for each ESC to the flight controller’s main output pins by motor number. Find your frame type below to determine the assigned order of the motors.
 
 ESC malfunctioning are due to incorrect wiring in most of the case. Signal and ground should always be connected. Please check your ESC model to ensure that the +5 V cable is connected correctly. On APM2.x, ground pin of power supply can be used as APM feedback signal. For The Cube, signal pin and ground pin must be connected to operate the ESC.
 
 ### Motor order diagrams
 
-The diagrams below show motor order for each frame type. The numbers indicate which output pin from the flight controller should be connected to each motor/propeller. The propeller direction is shown in green \(clockwise, CW\) or blue \(counter-clockwise, CCW\) Connect the cable from ESC to the MAIN OUT port on The Cube.
+The diagrams below show motor order for each frame type. The numbers indicate which output pin from the flight controller should be connected to each motor/propeller. The propeller direction is shown in green (clockwise, CW) or blue (counter-clockwise, CCW) Connect the cable from ESC to the MAIN OUT port on The Cube.
 
 ![](../.gitbook/assets/photo-05-1.jpg)
 
@@ -74,7 +74,7 @@ The diagrams below show motor order for each frame type. The numbers indicate wh
 
 The servo rail is not powered by the flight controller. Therefore an external BEC or ESC that can provide 5V should be used.
 
-Control channels for servos can be set in "Initial Setup &gt; Mandatory Hardware &gt; Servo Output" in Mission Planner.
+Control channels for servos can be set in "Initial Setup > Mandatory Hardware > Servo Output" in Mission Planner.
 
 ### Sensors Connection
 
@@ -82,7 +82,7 @@ Control channels for servos can be set in "Initial Setup &gt; Mandatory Hardware
 
 GPS module should be operated under good condition:
 
-_-Place the module on the outside of your vehicle \(in an elevated position if appropriate\) with a clear view of the sky, as far as possible from the motors and ESCs, with the arrow facing forward._
+_-Place the module on the outside of your vehicle (in an elevated position if appropriate) with a clear view of the sky, as far as possible from the motors and ESCs, with the arrow facing forward._
 
 _-Distance the module from DC power wiring and the batteries by at least 10cm. Use of a GPS mast is highly recommended._
 
@@ -109,7 +109,7 @@ The Cube supports the following signal receivers. Different type of signals has 
 * PWM Receiver: The Cube cannot directly process PWM signal. A PPM encoder is needed to encode multi-channel PWM to single-channel PPM signal. Then, connect it to RCIN port on The Cube.
 * PPM RC Receiver / Futaba S.Bus Receiver can be directly plugged into the RCIN port.
 
-**Some signal receivers can switch to different modes \(eg: multi-channel PWM, single-channel S.Bus\). Please refer to the user manual of the signal receiver to set it to S.Bus mode.**
+**Some signal receivers can switch to different modes (eg: multi-channel PWM, single-channel S.Bus). Please refer to the user manual of the signal receiver to set it to S.Bus mode.**
 
 ### Spektrum DSM/DSM2/DSM-X Satellite Receiver
 
@@ -123,7 +123,7 @@ The main purpose of wireless telemetry is for two-way communication between auto
 
 Please ensure that the pin assignment of the cable matches the pinout of TELEM1 on The Cube. Otherwise, please modify it.
 
-After confirming, the telemetry can be connected to TELEM1 or TELEM2 port. Connect it by selecting the corresponding COM port and baud rate \(typically 57600\) in ground control station.
+After confirming, the telemetry can be connected to TELEM1 or TELEM2 port. Connect it by selecting the corresponding COM port and baud rate (typically 57600) in ground control station.
 
 **Please be noticed the default baud rate of TELEM1 port is 57600. This must match to the baud rate of telemetry.**
 
@@ -145,7 +145,7 @@ The Cube supports ArduPilot and PX4 firmware. Firmware can be uploaded from grou
 
 If you are a developer, you may directly compile and upload the firmware to The Cube:
 
-```text
+```
 ./waf configure --board px4-v3
 ./waf --targets bin/arducopter --upload
 ```
@@ -168,14 +168,14 @@ Using Windows 10 as example, download the .msi installation file and run it as a
 
 To establish a connection you must first choose the communication method/channel you want to use, and then set up the physical hardware and Windows device drivers. You can connect the PC and autopilot using USB cables, Telemetry Radios, Bluetooth, IP connections etc.
 
-* Using USB Cable: Connect the USB cable to the USB port at the left or The Cube. Use a direct USB port on your computer \(not a USB hub\). Select the corresponding COM port from the dropdown list at the top-right corner in Mission Planner. Then select the baud rate as 115200 。
+* Using USB Cable: Connect the USB cable to the USB port at the left or The Cube. Use a direct USB port on your computer (not a USB hub). Select the corresponding COM port from the dropdown list at the top-right corner in Mission Planner. Then select the baud rate as 115200 。
 * Using Telemetry: For USB telemetry, select the corresponding COM port and set baud rate as 57600 . For WIFI or Bluetooth telemetry, select the corresponding device from the device list and input the IP address of telemetry. Please refer to the user manual of your telemetry for more details on parameter setting.
 
 ### Loading Firmware to The Cube
 
-elect the COM port drop-down on the upper-right corner of the screen \(near the **Connect** button\). Select **AUTO** or the specific port for your board. Set the Baud rate to 115200 as shown. Don’t hit **Connect** just yet.
+elect the COM port drop-down on the upper-right corner of the screen (near the **Connect** button). Select **AUTO** or the specific port for your board. Set the Baud rate to 115200 as shown. Don’t hit **Connect** just yet.
 
-On the Mission Planner’s "Initial Setup &gt; Install Firmware"" screen select the appropriate icon that matches your frame \(i.e. Quad, Hexa\). Follow the instruction and messages to install firmware.
+On the Mission Planner’s "Initial Setup > Install Firmware"" screen select the appropriate icon that matches your frame (i.e. Quad, Hexa). Follow the instruction and messages to install firmware.
 
 You may also install old firmware if the latest firmware is not stable enough. In some cases, installing previous version of firmware may solve the problem.
 
@@ -187,17 +187,17 @@ Custom firmware can be installed without internet connection by selecting from l
 
 ### Frame Class and Type Configuration
 
-Connect to Mission Planner. On the "Initial Setup &gt; Mandatory Hardware &gt; Frame Type" screen select the frame type of your vehicle such as Plus frame or X frame.
+Connect to Mission Planner. On the "Initial Setup > Mandatory Hardware > Frame Type" screen select the frame type of your vehicle such as Plus frame or X frame.
 
 ![](../.gitbook/assets/photo-08.jpg)
 
 ### Accelerometer and Compass Calibration
 
-For more details on minimize magnetic interference and improve compass performance, please refer to [http://ardupilot.org/copter/docs/common-magnetic-interference.html\#common-magnetic-interference](https://ardupilot.org/copter/docs/common-magnetic-interference.html#common-magnetic-interference)
+For more details on minimize magnetic interference and improve compass performance, please refer to [http://ardupilot.org/copter/docs/common-magnetic-interference.html#common-magnetic-interference](https://ardupilot.org/copter/docs/common-magnetic-interference.html#common-magnetic-interference)
 
 Calibration steps
 
-Go to "Initial Setup &gt; Mandatory Hardware &gt; Accel Calibration". Click Calibrate Accel to start the calibration. Pointing the nose of your vehicle to LEVEL, LEFT, RIGHT, NOSEDOWN, NOSEUP, and BACK according to the message below. "Calibration successful" will be shown after calibration completed successfully.
+Go to "Initial Setup > Mandatory Hardware > Accel Calibration". Click Calibrate Accel to start the calibration. Pointing the nose of your vehicle to LEVEL, LEFT, RIGHT, NOSEDOWN, NOSEUP, and BACK according to the message below. "Calibration successful" will be shown after calibration completed successfully.
 
 1. Place the vehicle LEVEL then press "Click when Done".
 
@@ -244,15 +244,14 @@ Place the vehicle horizontally and click "Calibrate Level". The text in button w
 Ensure the compass has been enabled.
 
 1. Select "Enable Compasses" and "Compass1"
-2. Select all 3 compass \(only 2 if no external GPS module is connect\). Select "External mounted" for
+2.  Select all 3 compass (only 2 if no external GPS module is connect). Select "External mounted" for
 
-   Compass \#1 if there is an external GPS module connected. Otherwise, all 2 compasses are internal
+    Compass #1 if there is an external GPS module connected. Otherwise, all 2 compasses are internal
 
-   compass inside The Cube.
+    compass inside The Cube.
+3.  Click "Start" to calibrate compasses. hold the vehicle in the air and rotate it so that each side (front,
 
-3. Click "Start" to calibrate compasses. hold the vehicle in the air and rotate it so that each side \(front,
-
-   back, left, right, top and bottom\) points down towards the earth for a few seconds in turn. As the vehicle is rotated the green bars should extend further and further to the right until the calibration completes.
+    back, left, right, top and bottom) points down towards the earth for a few seconds in turn. As the vehicle is rotated the green bars should extend further and further to the right until the calibration completes.
 
 ![](../.gitbook/assets/photo-21.jpg)
 
@@ -270,15 +269,15 @@ If, after multiple attempts, you are unable to calibrate the compass, Press the 
 
 ### Radio Control Calibration
 
-Connect the RC receiver to The Cube via RCIN and turn on your RC transmitter. Verify that the transmitter is bound to the receiver \(the receiver displays a solid green light\) and that it is set to use the correct model for your vehicle.
+Connect the RC receiver to The Cube via RCIN and turn on your RC transmitter. Verify that the transmitter is bound to the receiver (the receiver displays a solid green light) and that it is set to use the correct model for your vehicle.
 
-Open the "INITIAL SETUP &gt; Mandatory Hardware &gt; Radio Calibration" screen. If your RC receiver \(Rx\) and transmitter \(Tx\) are bound, you should see the green bars move when you move the transmitter sticks.
+Open the "INITIAL SETUP > Mandatory Hardware > Radio Calibration" screen. If your RC receiver (Rx) and transmitter (Tx) are bound, you should see the green bars move when you move the transmitter sticks.
 
 ![](../.gitbook/assets/photo-25.jpg)
 
 ![](../.gitbook/assets/photo-26.jpg)
 
-### Electronic Speed Controller \(ESC\) Calibration
+### Electronic Speed Controller (ESC) Calibration
 
 Safety Check!
 
@@ -304,7 +303,7 @@ All at once calibration:
 
 5.The autopilot is now in ESC calibration mode. You may notice the red and blue LEDs blinking alternatively on and off like a police car.
 
-6.Wait for your ESCs to emit the musical tone, the regular number of beeps indicating your battery’s cell count \(i.e. 3 for 3S, 4 for 4S\) and then an additional two beeps to indicate that the maximum throttle has been captured.
+6.Wait for your ESCs to emit the musical tone, the regular number of beeps indicating your battery’s cell count (i.e. 3 for 3S, 4 for 4S) and then an additional two beeps to indicate that the maximum throttle has been captured.
 
 7.Pull the transmitter’s throttle stick down to its minimum position.
 
@@ -318,7 +317,7 @@ All at once calibration:
 
 ### Flight Mode Configuration
 
-The flight mode channel is the input radio channel that ArduPilot monitors for mode changes. On Copter this is always channel 5 \(can be changed in parameter FLTMODE-CH \).
+The flight mode channel is the input radio channel that ArduPilot monitors for mode changes. On Copter this is always channel 5 (can be changed in parameter FLTMODE-CH ).
 
 Toggle the corresponding button to the desired position. As you move your transmitter’s flight mode switch the green highlight bar will move to a different position. When finished press the Save Modes button.
 
@@ -338,13 +337,13 @@ Make sure you have assigned a button which can easily switch to Stabilize mode. 
 
 You may try this mode after your first flight. GPS is not required in this mode. The flight controller uses a barometer which measures air pressure as the primary means for determining altitude.
 
-When altitude hold mode \(aka AltHold\) is selected, the throttle is automatically controlled to maintain the current altitude.
+When altitude hold mode (aka AltHold) is selected, the throttle is automatically controlled to maintain the current altitude.
 
 Position is not controlled under this mode, therefore it may drift. You may use the controller to move or hold the position.
 
 AC3.1 and later allow arming and disarming in altitude hold mode. When disarming, the copter may need to rest in the landing position for a few seconds to allow the “landing checker” to verify that the copter has landed before you are able to disarm.
 
-When switching into AltHold from a manual flight mode \(like Stabilize\) on a copter, make sure the throttle stick in the mid position. Otherwise, the copter may suddenly descend or climb.
+When switching into AltHold from a manual flight mode (like Stabilize) on a copter, make sure the throttle stick in the mid position. Otherwise, the copter may suddenly descend or climb.
 
 #### 3. Loiter Mode
 
@@ -362,7 +361,7 @@ If you get GPS lock and then ARM your copter, the home position is the location 
 
 If you get GPS no fix before ARMing, the first GPS lock position in the air will be the home position.
 
-When RTL mode is selected, the copter will return to the home location. The copter will first rise to RTL\_ALT \(default 15m\) before returning home or maintain the current altitude if the current altitude is higher than RTL\_ALT.
+When RTL mode is selected, the copter will return to the home location. The copter will first rise to RTL\_ALT (default 15m) before returning home or maintain the current altitude if the current altitude is higher than RTL\_ALT.
 
 You may also adjust parameters to set automatically landing, and loitering timeout before landing.
 
@@ -372,23 +371,23 @@ Circle will orbit a point located CIRCLE\_RADIUS centimeters in front of the veh
 
 The pilot does not have any control over the roll and pitch but can change the altitude with the throttle stick as in AltHold or Loiter mode. The copter cannot land in this mode. Radius of the circle can be set by modifying the parameter CIRCLE\_RADIUS.
 
-* The speed of the vehicle \(in deg/second\) can be modified by changing the CIRCLE\_RATE parameter
+* The speed of the vehicle (in deg/second) can be modified by changing the CIRCLE\_RATE parameter
 * Circling will not stop until another mode is selected
 * Centre of circle is defined by GPS coordination and cannot be changed
 
 #### 7. Guided Mode
 
-This mode requires communication between Ground Control Station \(such as Mission Planner\) and flight controller. In the Mission Planner Flight Data screen map, try right-clicking on a nearby spot and select “Fly to Here”. You will be asked for a guided mode altitude. Enter an above home altitude in meters.
+This mode requires communication between Ground Control Station (such as Mission Planner) and flight controller. In the Mission Planner Flight Data screen map, try right-clicking on a nearby spot and select “Fly to Here”. You will be asked for a guided mode altitude. Enter an above home altitude in meters.
 
 #### 8. Follow Me Mode
 
-You will need a laptop \(or a phone/tablet\) with an integrated GPS available to the GCS. Once the flight controller is connected to the GCS, the GCS will read the GPS data from your device and send it to your Copter as “fly to here” commands every two seconds. Such that the vehicle will follow the pilot when he is walking around.
+You will need a laptop (or a phone/tablet) with an integrated GPS available to the GCS. Once the flight controller is connected to the GCS, the GCS will read the GPS data from your device and send it to your Copter as “fly to here” commands every two seconds. Such that the vehicle will follow the pilot when he is walking around.
 
 This mode may requires additional device.
 
 #### 9. Auto Mode
 
-In Auto mode the copter will follow a pre-programmed mission script stored in the Mission Planner, which is made up of navigation commands \(i.e. waypoints\) and “do” commands \(i.e. commands that do not affect the location of the copter including triggering a camera shutter\).
+In Auto mode the copter will follow a pre-programmed mission script stored in the Mission Planner, which is made up of navigation commands (i.e. waypoints) and “do” commands (i.e. commands that do not affect the location of the copter including triggering a camera shutter).
 
 An independent chapter will further explain this mode.
 
@@ -396,9 +395,9 @@ An independent chapter will further explain this mode.
 
 Poshold Mode is the combination of GPS loitering mode and AltHold mode. GPS lock should be done before takeoff, to avoid GPS glitch during the flight. The control and reaction is similar to AltHold mode: When the pilot releases the sticks the copter will lean back to bring the vehicle to a stop. When no control input, it performs same with Loiter mode.
 
-The maximum brake-angle can be set with the PHLD\_BRAKE\_ANGLE parameter \(i.e. 3000 = the vehicle will lean back up to 30degrees\)
+The maximum brake-angle can be set with the PHLD\_BRAKE\_ANGLE parameter (i.e. 3000 = the vehicle will lean back up to 30degrees)
 
-The speed the vehicle rotates back to the maximum angle can be set with the PHLD\_BRAKE\_RATE parameter \(i.e. 8 = rotates back at 8 degrees per second\)
+The speed the vehicle rotates back to the maximum angle can be set with the PHLD\_BRAKE\_RATE parameter (i.e. 8 = rotates back at 8 degrees per second)
 
 #### 11. LAND Mode
 
@@ -406,7 +405,7 @@ LAND Mode attempts to bring the copter straight down. The flight controller uses
 
 #### 12. Acro Mode
 
-Acro mode \(Rate mode\) uses the RC sticks to control the angular velocity of the copter. The throttle is completely manual with no compensation for tilt angle of the vehicle. Not recommended for new pilots.
+Acro mode (Rate mode) uses the RC sticks to control the angular velocity of the copter. The throttle is completely manual with no compensation for tilt angle of the vehicle. Not recommended for new pilots.
 
 ### The Cube Power Module Voltage Calibration
 
@@ -414,13 +413,13 @@ The power module inside The Cube package supports up to 8S voltage, 30 A continu
 
 ### Connecting Power Module
 
-Connect the XT60 male connector to the battery \(female on the other side for motors or ESC\) and JST connector to the POWER1 port on The Cube.
+Connect the XT60 male connector to the battery (female on the other side for motors or ESC) and JST connector to the POWER1 port on The Cube.
 
 Dual input redundant power is also supported. You may connect the second battery to POWER2 to monitor 2 batteries at the same time.
 
 ### Battery Monitor Calibration
 
-Connect The Cube to power module and turn it on. Connect The Cube to Mission Planner via telemetry or USB cable. Battery measurement is primarily set up in the "Initial Setup &gt; Optional Hardware &gt; Battery Monitor" screen.
+Connect The Cube to power module and turn it on. Connect The Cube to Mission Planner via telemetry or USB cable. Battery measurement is primarily set up in the "Initial Setup > Optional Hardware > Battery Monitor" screen.
 
 Enter the properties your module can measure, the type of module, the type of flight controller, and the battery capacity:
 
@@ -440,8 +439,8 @@ Enter the new Voltage Divider according to your calculation and reboot the fligh
 
 #### Battery Monitor 2 Calibration
 
-Battery Monitor 2 corresponds to POWER2 port.  
-In the "Configuration &gt; Full Parameter Tree" screen, change the following parameters to enable battery _\*_monitor 2:
+Battery Monitor 2 corresponds to POWER2 port.\
+In the "Configuration > Full Parameter Tree" screen, change the following parameters to enable battery \_\*\_monitor 2:
 
 ![](../.gitbook/assets/photo-36.jpg)
 
@@ -469,10 +468,9 @@ Copter includes a suite of Pre-arm Safety Checks which will prevent the vehicle 
 
 _In normal situation LED will blink blue or green. The LED will be flashing yellow if the flight controller notice a pre-arm check failure._
 
-* If it is blinking yellow, please try to disarm. The failure messages will be shown in the HUD window. Solve the error according to the failure message shown.
+*   If it is blinking yellow, please try to disarm. The failure messages will be shown in the HUD window. Solve the error according to the failure message shown.
 
-  Detailed failure messages and solutions can be found on the Ardupilot official website: [http://ardupilot. org/copter/docs/prearm\_safety\_check.html](http://ardupilot.org/copter/docs/prearm_safety_check.html)
-
+    Detailed failure messages and solutions can be found on the Ardupilot official website: [http://ardupilot. org/copter/docs/prearm\_safety\_check.html](http://ardupilot.org/copter/docs/prearm\_safety\_check.html)
 * If it is blinking blue or green, you may disarm. A low pitch tone will be emited from the buzzer. You will see the motors start to rotate and ready to take off.
 
 ### LED Meanings:
@@ -483,35 +481,35 @@ Flashing blue:Disarmed, no GPS lock. Auto-mission, loiter and return-to-launch f
 
 Solid blue:Armed with no GPS lock
 
-Flashing green:Disarmed \(ready to arm\), GPS lock acquired. Quick double tone when disarming from the armed state.
+Flashing green:Disarmed (ready to arm), GPS lock acquired. Quick double tone when disarming from the armed state.
 
-Fast Flashing green: Same as above but GPS is using SBAS \(so should have better position estimate\)
+Fast Flashing green: Same as above but GPS is using SBAS (so should have better position estimate)
 
 Solid green: with single long tone at time of arming: Armed, GPS lock acquired. Ready to fly!
 
-Double flashing yellow: Failing pre-arm checks \(system refuses to arm\)
+Double flashing yellow: Failing pre-arm checks (system refuses to arm)
 
 Single Flashing yellow: Radio failsafe activated
 
 Flashing yellow - with quick beeping tone: Battery failsafe activated
 
-Flashing yellow and blue- with high-high-high-low tone sequence \(dah-dah-dah-doh\): GPS glitch or GPS failsafe activated
+Flashing yellow and blue- with high-high-high-low tone sequence (dah-dah-dah-doh): GPS glitch or GPS failsafe activated
 
 Flashing red and yellow:EKF or Inertial Nav failure
 
 Flashing purple and yellow: Barometer glitch
 
-Solid Red: Error，usually due to the SD card\(re-plug or place the SD card to solve\),MTD or IMU， you may check the SD card and have a look at BOOT.txt for boot message analysis
+Solid Red: Error，usually due to the SD card(re-plug or place the SD card to solve),MTD or IMU， you may check the SD card and have a look at BOOT.txt for boot message analysis
 
 Solid red with SOS tone sequence:SD card missing or SD card bad format
 
-No light when power on: No firmware，firmware lost，SD card missing or bad format\(ac3.4 or higher version\)
+No light when power on: No firmware，firmware lost，SD card missing or bad format(ac3.4 or higher version)
 
 ### Arming
 
 The flight controller can be armed by GCS or remote controller.
 
-* By controller: holding the throttle down, and rudder right for 5 seconds. Do not hold the rudder right for too long \(&gt;15 seconds\) or you will begin the AutoTrim feature
+* By controller: holding the throttle down, and rudder right for 5 seconds. Do not hold the rudder right for too long (>15 seconds) or you will begin the AutoTrim feature
 * By GCS: Connect the flight controller to GCS. There should be a "Action" tab under the HUD. Click the button Arm / Disarm to arm the vehicle.
 
 ## Tips For New Pilots
@@ -528,17 +526,17 @@ Note: Please read and understand the characteristic of flight modes before actua
 
 ### IMU Temperature Control
 
-IMUs in The Cube are temperature-controlled by onboard heating resistors. Target temperature can be set by changing BRD\_IMU\_TARGTEMP in Full Parameter List. Optimal temperature of IMU is 60 degrees Celsius but it may takes a while \(around 10 minutes, variate to actual environment\) to reach target temperature. Therefore default temperature in ArduPilot is set as 60 degrees Celsius to shorten the heating time.
+IMUs in The Cube are temperature-controlled by onboard heating resistors. Target temperature can be set by changing BRD\_IMU\_TARGTEMP in Full Parameter List. Optimal temperature of IMU is 60 degrees Celsius but it may takes a while (around 10 minutes, variate to actual environment) to reach target temperature. Therefore default temperature in ArduPilot is set as 60 degrees Celsius to shorten the heating time.
 
 It is recommended to set BRD\_IMU\_TARGTEMP to 60 and wait for a while for pre-heating, if you need to maximize the accuracy. After pre-heating, reboot The Cube. Flight controller will re-log the IMU data and the IMU measurement will be at best performance.
 
-### GPS Blending \(aka Dual GPS\)
+### GPS Blending (aka Dual GPS)
 
 Only GPSs that report position and speed accuracy can be used for blending. All UBlox GPSs provide this extra information while GPSs using the NMEA protocol generally do not.
 
 Normally blending should be done with two GPSs from the same manufacturer because the scaling of the accuracy numbers varies and will lead to favouring one GPS over the other.
 
-Note: Two GPSs should not be used on Copter-3.4.5 \(and older\) firmwares because of the risk of sudden vehicle movements when the primary GPS changes. Copter 3.5 \(and higher\), Plane 3.8.0 \(and higher\) and recent versions of Rover all support GPS Blending.
+Note: Two GPSs should not be used on Copter-3.4.5 (and older) firmwares because of the risk of sudden vehicle movements when the primary GPS changes. Copter 3.5 (and higher), Plane 3.8.0 (and higher) and recent versions of Rover all support GPS Blending.
 
 ### Hardware Connection
 
@@ -556,7 +554,7 @@ Change the following parameters in ArduPilot firmware to enable GPS blending mod
 
 ## ADS-B Receiver
 
-ADS-B \(aka Automatic Dependent Surveillance Broadcast\) is an air traffic surveillance technology that enables aircraft to be accurately tracked by air traffic controllers and other pilots without the need for conventional radar.
+ADS-B (aka Automatic Dependent Surveillance Broadcast) is an air traffic surveillance technology that enables aircraft to be accurately tracked by air traffic controllers and other pilots without the need for conventional radar.
 
 The ADSB receiver comes with a DF13 serial cable that can be plugged directly into serial port on The Cube. The Ping sensor should be mounted so that the antenna is oriented vertically.
 
@@ -564,29 +562,28 @@ The ADSB receiver comes with a DF13 serial cable that can be plugged directly in
 
 Set the ADSB\_ENABLE parameter to “1” to enable receiving data from the ADSB sensor
 
-If you are using one of the UARTs on your board which defaults to MAVLink \(i.e. TELEM1 , TELEM2 on The Cube\) then the default settings will work fine for the PingRx. Alternatively you can connect the Ping to one of the other UARTs, such as the GPS UART \(if it is unused\) or the serial4/5 UART. In that case you will need to configure the UART as MAVLink at a baudrate of 57600.
+If you are using one of the UARTs on your board which defaults to MAVLink (i.e. TELEM1 , TELEM2 on The Cube) then the default settings will work fine for the PingRx. Alternatively you can connect the Ping to one of the other UARTs, such as the GPS UART (if it is unused) or the serial4/5 UART. In that case you will need to configure the UART as MAVLink at a baudrate of 57600.
 
 For example, if you plugged the Ping into “serial4/5” on The Cube you would set:
 
-SERIAL4\_PROTOCOL =1 \(meaning MAVLink\) SERIAL4\_BAUD =57 \(meaning 57600\)
+SERIAL4\_PROTOCOL =1 (meaning MAVLink) SERIAL4\_BAUD =57 (meaning 57600)
 
 For the Ping2020 you will need to set the SERIAL4\_PROTOCOL value to 2. For example, when connected to TELEM2 you would set:
 
-SERIAL2\_PROTOCOL = 2 \(meaning MAVLink2.1.0\)
+SERIAL2\_PROTOCOL = 2 (meaning MAVLink2.1.0)
 
 You will need to reboot your board after making those changes.
 
 To enable streaming the ADSB data to the GCS you’ll want to check your StreamRate param. In some cases it is already set but it’s good to check. These rates are adjustable per telemetry like in the case of having both a high-bandwidth and a low-bandwitdh link attached. The param to adjust the rate would depend on which one your GCS is connected to. In most cases, it is TELEM1 .
 
-SR1\_ADSB = 5 \(meaning 5 Hz\)
+SR1\_ADSB = 5 (meaning 5 Hz)
 
 Once operational aircraft within about 50km should appear on the Mission Planner map.
 
-## OSD \(On-Screen Display\)
+## OSD (On-Screen Display)
 
 ### Optional OSD Module
 
-An optional OSD \(On Screen Display\) module receives real-time data from vehicle and overlay those information on the camera. The video is then streaming through video transmitter and can be viewed in the GCS. To enable video display, Connect the 6 pin DF13 cable from the module to TELEM2 on The Cube.
+An optional OSD (On Screen Display) module receives real-time data from vehicle and overlay those information on the camera. The video is then streaming through video transmitter and can be viewed in the GCS. To enable video display, Connect the 6 pin DF13 cable from the module to TELEM2 on The Cube.
 
 Last Update: 11th June 2019
-
