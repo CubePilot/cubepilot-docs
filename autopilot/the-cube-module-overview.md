@@ -284,6 +284,12 @@ Total connectivity:
 
 1x HMI: USB extender
 
+#### Serial Ports Parameter
+
+**Port Interface and Pin Label**
+
+<figure><img src="../.gitbook/assets/Ports Sequence.svg" alt=""><figcaption></figcaption></figure>
+
 **Main Power - | Connector：POWER1**
 
 | **Pin #** | **Name**            | **I/O** | **Voltage** | Wire Colour | Description                   |

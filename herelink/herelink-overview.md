@@ -28,7 +28,7 @@ Herelink 1.1 is based on the original platform and functions of Herelink 1.0. Th
 
 ## 2. Controller
 
-![](../.gitbook/assets/001.png)
+<figure><img src="../.gitbook/assets/Herelink Controller .png" alt=""><figcaption></figcaption></figure>
 
 |        Case Material       |                                                             Plastic                                                            |
 | :------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
