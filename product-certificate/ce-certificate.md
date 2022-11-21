@@ -23,6 +23,14 @@
 
 ![](<../.gitbook/assets/Here+ Rover CE Certificate.jpg>)
 
-## Herelink 1.0 CE Certificate
+## Herelink v1.0 CE Certificate
 
 ![](<../.gitbook/assets/Herelink 1.0 CE Certificate.jpg>)
+
+## Herelink v1.1 Controller Unit CE Certificate
+
+{% file src="../.gitbook/assets/HERELINK v1.1 Controller Unit CE certificate.pdf" %}
+
+## Herelink v1.1 Air Unit CE Certificate
+
+{% file src="../.gitbook/assets/HERELINK v1.1 Air Unit CE certificat.pdf" %}
