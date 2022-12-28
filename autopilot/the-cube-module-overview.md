@@ -112,7 +112,7 @@ All flight sensors in The Cube are connected via SPI.
 | CubePurpleF4                     | EOL        | MPU9250  | NA             | NA       | MS5611 | NA     |
 | CubePurpleH7                     | ACTIVE     | ICM20649 | NA             | NA       | MS5611 | NA     |
 | CubeOrange CubeYellow CubeBlueH7 | ACTIVE     | ICM20649 | ICM20602       | ICM20948 | MS5611 | MS5611 |
-| CubeOrange+                      | ACTIVE     | ICM42688 | ICM20648       | ICM20949 | MS5611 | MS5611 |
+| CubeOrange+                      | ACTIVE     | ICM42688 | ICM20648       | ICM20948 | MS5611 | MS5611 |
 
 IMU1, Non-Isolated\
 IMU2 & 3, Isolated\
