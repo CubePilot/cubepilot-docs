@@ -183,6 +183,7 @@
 * [Printable Camera Quad (Foldable)](3d-printing/printable-camera-quad-foldable.md)
 * [Here 3 Stand](3d-printing/here-3-stand.md)
 * [Kore Multi-Rotor Carrier Board Case](3d-printing/kore-multi-rotor-carrier-board-case.md)
+* [Hexsoon Multirotor Frame](3d-printing/hexsoon-multirotor-frame.md)
 
 ## Product Media
 
