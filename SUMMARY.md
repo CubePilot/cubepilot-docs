@@ -111,6 +111,7 @@
 * [Acecore NOA, Cubepilot Ecosystem, and George Herelink, the right combination](cubepilot-ecosystem/acecore-noa-cubepilot-ecosystem-and-george-herelink-the-right-combination.md)
 * [CubePilot Ecosystem Inspired Flight IF1200A](cubepilot-ecosystem/cubepilot-ecosystem-inspired-flight-if1200a.md)
 * [CubePilot Ecosystem Here4](cubepilot-ecosystem/cubepilot-ecosystem-here4.md)
+* [2023 CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/2023-cubepilot-ecosystem-autopilot-wiring-diagram.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
