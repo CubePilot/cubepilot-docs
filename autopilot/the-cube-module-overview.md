@@ -346,8 +346,8 @@ Total connectivity:
 | **Pin #** | **Name**             | **I/O** | **Voltage**       | Wire Colour | Description                    |
 | --------- | -------------------- | ------- | ----------------- | ----------- | ------------------------------ |
 | 1         | VCC\_5V              | IN      | 5 V               | RED         | Supply to GPS from AP          |
-| 2         | GPS\_TX              | IN      | 3.3 V - 5.0 V TTL | BLACK       | RX of AP                       |
-| 3         | GPS\_RX              | OUT     | 3.3 V - 5.0 V TTL | BLACK       | TX of AP                       |
+| 2         | GPS\_TX              | IN      | 3.3 V - 5.0 V TTL | BLACK       | TX of AP                       |
+| 3         | GPS\_RX              | OUT     | 3.3 V - 5.0 V TTL | BLACK       | RX of AP                       |
 | 4         | SCL                  | IN      | 3.3 V             | BLACK       | I2C 1 SCL                      |
 | 5         | SDA                  | IN/OUT  | 3.3 V             | BLACK       | I2C 1 SDA                      |
 | 6         | BUTTON               | OUT     | GND               | BLACK       | Signal shorted to GND on press |
