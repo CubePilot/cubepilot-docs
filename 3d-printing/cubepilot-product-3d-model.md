@@ -38,7 +38,7 @@ HereLink Air Unit.STEP (ZIP)
 
 ![](../.gitbook/assets/herelink-air-unit-antenna.jpg)
 
-{% file src="../.gitbook/assets/herelink-air-unit-antenna.step (1).zip" %}
+{% file src="../.gitbook/assets/herelink-air-unit-antenna.step.zip" %}
 HereLink Air Unit Antenna.STEP (ZIP)
 {% endfile %}
 
@@ -103,3 +103,9 @@ Here+ RTK Base.STEP (ZIP)
 ![](../.gitbook/assets/Hereflow.jpg)
 
 {% file src="../.gitbook/assets/Hereflow_REV4.step.zip" %}
+
+## HerePro
+
+<figure><img src="../.gitbook/assets/HerePro.png" alt=""><figcaption></figcaption></figure>
+
+{% file src="../.gitbook/assets/HerePro.STEP.zip" %}
