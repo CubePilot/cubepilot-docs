@@ -1,5 +1,9 @@
 # CubePilot Ecosystem Doosan Hydrogen Zero Emission Vehicle
 
-![Universal Version](<../.gitbook/assets/CubePilot Ecosystem Doosan Hydrogen Zero Emission Vehicle(20211208)-Final.jpg>)
+![Universal Version
+This poster is licensed as by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display etc, etc..
+https://creativecommons.org/licenses/by-nc-nd/4.0/](<../.gitbook/assets/CubePilot Ecosystem Doosan Hydrogen Zero Emission Vehicle(20211208)-Final.jpg>)
 
-![Korean Version](<../.gitbook/assets/CubePilot 생태계, 두산의 친환경 수소 드.jpg>)
+![Korean Version
+This poster is licensed as by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display etc, etc..
+https://creativecommons.org/licenses/by-nc-nd/4.0/](<../.gitbook/assets/CubePilot 생태계, 두산의 친환경 수소 드.jpg>)
