@@ -1,6 +1,8 @@
 # OEM Carrier Board
 
-![CubePilot Ecosystem OEM Carrier Board Poster](.gitbook/assets/cubepilot-ecosystem-oem-carrier-board-poster.jpg)
+![CubePilot Ecosystem OEM Carrier Board Poster
+This poster is licensed as by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display etc, etc..
+https://creativecommons.org/licenses/by-nc-nd/4.0/](.gitbook/assets/cubepilot-ecosystem-oem-carrier-board-poster.jpg)
 
 Thank you to some awesome CubePilot Ecosystem members, HexAero, ProfiCNC, Airbot Systems, Bask Aerospace, Taiwan Drone 100, RFDesign, Spektreworks, and Vamatis
 
