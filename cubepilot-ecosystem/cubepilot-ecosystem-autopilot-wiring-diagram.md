@@ -43,3 +43,15 @@
 ## CubePilot-CubePilot Ecosystem Autopilot Wiring Diagram-Turkish
 
 <figure><img src="../.gitbook/assets/CubePilot-CubePilot Ecosystem Autopilot Wiring Diagram-Turkish.jpg" alt=""><figcaption></figcaption></figure>
+
+## CubePilot Diagram-Portuguese Version\_Tradução
+
+<figure><img src="../.gitbook/assets/CubePilot Diagram-Portuguese Version_Tradução.jpg" alt=""><figcaption></figcaption></figure>
+
+## CubePilot Ecosystem Autopilot Wiring Diagram-Finnish
+
+<figure><img src="../.gitbook/assets/CubePilot Diagram-Portuguese Version_Tradução.jpg" alt=""><figcaption></figcaption></figure>
+
+## 多旋翼开源飞控硬件接线图(汉语版)
+
+<figure><img src="../.gitbook/assets/多旋翼开源飞控硬件接线图(汉语版).jpg" alt=""><figcaption></figcaption></figure>
