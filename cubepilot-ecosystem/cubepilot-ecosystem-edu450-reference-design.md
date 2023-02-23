@@ -2,40 +2,32 @@
 
 ## CubePilot Ecosystem Edu450 Reference Design - English
 
-![This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc..
-https://creativecommons.org/licenses/by-nc-nd/4.0/](../.gitbook/assets/cubepilot-ecosystem-edu450-reference-design-rgb-4098x5464dpi-20210727-final.jpg)
+<figure><img src="../.gitbook/assets/CubePilot Ecosystem Edu450 Reference Design - English.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
 
 ## CubePilot Ecosystem Edu450 Reference Design - Spanish
 
-![This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc..
-https://creativecommons.org/licenses/by-nc-nd/4.0/](../.gitbook/assets/CubePilot-Ecosystem-Edu450-Reference-design\(ES\)-Final.jpg)
+<figure><img src="../.gitbook/assets/CubePilot Ecosystem Edu450 Reference Design - Spanish.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
 
 ## CubePilot Ecosystem Edu450 Reference Design - Germany
 
-![This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc..
-https://creativecommons.org/licenses/by-nc-nd/4.0/](../.gitbook/assets/CubePilot-Ecosystem-Edu450-Reference-design\(DE\)-Final.jpg)
+<figure><img src="../.gitbook/assets/CubePilot Ecosystem Edu450 Reference Design - Germany.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
 
 ## CubePilot Ecosystem Edu450 Reference Design - French
 
-![This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc..
-https://creativecommons.org/licenses/by-nc-nd/4.0/](../.gitbook/assets/CubePilot-Ecosystem-Edu450-Reference-design\(FR\)-Final.jpg)
+<figure><img src="../.gitbook/assets/CubePilot Ecosystem Edu450 Reference Design - French.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
 
 ## CubePilot Ecosystem Edu450 Reference Design - Hindi
 
-![This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc..
-https://creativecommons.org/licenses/by-nc-nd/4.0/](../.gitbook/assets/CubePilot-Ecosystem-Edu450-Reference-design\(IN\)-Final.jpg)
+<figure><img src="../.gitbook/assets/CubePilot Ecosystem Edu450 Reference Design - Hindi.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
 
 ## CubePilot Ecosystem Edu450 Reference Design - Russian
 
-![This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc..
-https://creativecommons.org/licenses/by-nc-nd/4.0/](../.gitbook/assets/CubePilot-Ecosystem-Edu450-Reference-design\(RUS\)-Final.jpg)
+<figure><img src="../.gitbook/assets/CubePilot Ecosystem Edu450 Reference Design - Russian.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
 
 ## CubePilot Ecosystem Edu450 Reference Design - Turkish
 
-![This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc..
-https://creativecommons.org/licenses/by-nc-nd/4.0/](../.gitbook/assets/CubePilot-Ecosystem-Edu450-Reference-design\(TR\)-Final.jpg)
+<figure><img src="../.gitbook/assets/CubePilot Ecosystem Edu450 Reference Design - Turkish.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
 
 ## CubePilot Ecosystem Edu450 Reference Design - Chinese
 
-![This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc..
-https://creativecommons.org/licenses/by-nc-nd/4.0/](../.gitbook/assets/CubePilot-Ecosystem-Edu450-Reference-design\(CN\)-Final.jpg)
+<figure><img src="../.gitbook/assets/CubePilot Ecosystem Edu450 Reference Design - Chinese.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
