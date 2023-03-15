@@ -78,7 +78,7 @@ _\*Keep the antenna away from the propeller._
 
 <figure><img src="../.gitbook/assets/can.png" alt=""><figcaption></figcaption></figure>
 
-（or if you use serial port ,find Serialx\_PROTOCAL and change it to mavlink）
+（or if you use serial port ,find Serialx\_PROTOCAL ,change it to mavlink and make the baud rate to 57600）
 
 <figure><img src="../.gitbook/assets/serial.png" alt=""><figcaption></figcaption></figure>
 
