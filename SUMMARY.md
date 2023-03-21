@@ -116,6 +116,7 @@
 * [CubePilot Ecosystem Inspired Flight IF1200A](cubepilot-ecosystem/cubepilot-ecosystem-inspired-flight-if1200a.md)
 * [CubePilot Ecosystem Here4](cubepilot-ecosystem/cubepilot-ecosystem-here4.md)
 * [2023 CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/2023-cubepilot-ecosystem-autopilot-wiring-diagram.md)
+* [CubePilot Ecosystem Cube ID](cubepilot-ecosystem/cubepilot-ecosystem-cube-id.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
