@@ -110,11 +110,11 @@ Operator are able to check UAV's location, ID , operator ID, distance from opera
 
 ## Updating
 
-CubeID CAN module Update
+#### CubeID CAN module Update
 
 * Inside Mission Planner Go to **Setup > Optional Hardware > DroneCAN/UAVCAN** and establish mavcan connection depending on which CAN port you are connected.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 * CubeID should appear as com.cubepilot.cubeid in the list, click **Menu > Update** to start the update process, Mission Planner will fetch the latest firmware binary automatically and start the process
 
@@ -122,7 +122,20 @@ CubeID CAN module Update
 
 Note: If you want to use different tool to update CubeID CAN module, you can get the latest firmware from [https://firmware.cubepilot.org/UAVCAN/com.cubepilot.cubeid/1.0/firmware.bin](https://firmware.cubepilot.org/UAVCAN/com.cubepilot.cubeid/1.0/firmware.bin)
 
+#### CubeID Serial module update&#x20;
 
+* Start Mission Planner with CubeID connected to one of the Telem ports of Cube and the cube connected via USB. Ensure that you start connection with Baud rate as 57600.
+* Select Serial Port number where CubeID is connected (Telem1 is Serial 1 and Telem2 is Serial 2).
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* Select ODID TX RX device from the Top left corner list.
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+* Finally click Update Firmware. The firmware update can take few minutes.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### **Warning**
 
