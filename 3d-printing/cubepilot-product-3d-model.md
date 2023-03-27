@@ -109,3 +109,9 @@ Here+ RTK Base.STEP (ZIP)
 <figure><img src="../.gitbook/assets/HerePro.png" alt=""><figcaption></figcaption></figure>
 
 {% file src="../.gitbook/assets/HerePro.STEP.zip" %}
+
+## Here3＋
+
+<figure><img src="../.gitbook/assets/Here3+ Front.png" alt=""><figcaption></figcaption></figure>
+
+{% file src="../.gitbook/assets/Here3+.STEP.zip" %}
