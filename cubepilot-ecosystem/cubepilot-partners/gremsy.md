@@ -21,7 +21,7 @@
 [Mio](https://gremsy.com/mio) is the smallest and lightest Gremsy gimbal offering motorised 3 axis stabilisation for industrial and commercial uses. Mio is compatible with a wide range of cameras weighing up to 400g, including Sony mapping sensors, FLIR infrared sensors and Micasense Rededge multispectral cameras. The versatile system can be mounted on the top, bottom or front of the drone.
 
 **KEY FEATURES**\
-****● Small form factor design\
+● Small form factor design\
 ● Versatile payload\
 ● Flexible mounting option\
 ● Support Herelink for drone & camera gimbal control\
@@ -48,7 +48,7 @@
 PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring Pixy quick release with integrated HDMI, a variety of I/O interfaces and ability to start up within seconds. Greatly compatible with Flir, Redege cameras and many other sensors, Pixy U is built to carry out survey, inspection, mapping and flexible aerial missions.
 
 **KEY FEATURES**\
-****●  Multi-camera support\
+●  Multi-camera support\
 ●  Compact & lightweight design\
 ●  Upside down perspective\
 ●  Support Herelink for drone & camera gimbal control \
@@ -77,7 +77,7 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
 Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PRO R. This compact gimbal offers the optimised size and weight for longer flight time.
 
 **KEY FEATURES**\
-****●  Super lightweight gimbal\
+●  Super lightweight gimbal\
 ●  Fully support Flir duo pro R\
 ●  Support Herelink for drone & camera gimbal control\
 ●  Support autonomous flight using Pixhawk

@@ -1,7 +1,7 @@
 # CE Certificate
 
 **“Please note our address change to our new Singapore office, some documents show our old HK office"**\
-****
+
 
 ## The Cube Orange Standard Set CE Certificate
 

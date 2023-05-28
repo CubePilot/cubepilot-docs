@@ -27,7 +27,7 @@ Impresses with its design
 
 {% embed url="https://www.youtube.com/watch?v=b2fKc6aFPcc" %}
 
-| Technical Detail     | ****                         |
+| Technical Detail     |                              |
 | -------------------- | ---------------------------- |
 | FLIGHT TIME          | Up to 240 minutes            |
 | MASS (MTOM)          | 18 kg                        |
@@ -37,7 +37,7 @@ Impresses with its design
 | TAKEOFF/LANDING      | Vertical takeoff and landing |
 | Range                | 868 MHZ; 30 km               |
 
-### ****
+###
 
 ### **modified Freeman 2100 by BZB UAS - KOLIBER VTOL**
 
@@ -57,7 +57,7 @@ Professional system for people that value safety and work comfort. The system de
 | TAKEOFF/LANDING      | Vertical takeoff and landing |
 | Range                | 868 MHZ; 30 km               |
 
-### ****
+###
 
 ### **DROTAG X**
 
@@ -65,9 +65,9 @@ Professional system for people that value safety and work comfort. The system de
 
 DROTAG.x updated version of an earlier DROTAG. It is a small circuit board that triggers your camera and saves geotags in EXIF files (latitude, longitude, height and direction) in flight!
 
-### ****
+###
 
-### **MOTHERBOARD** ****
+### **MOTHERBOARD** 
 
 ![](../../.gitbook/assets/carrier-board-bzb-uas..-.png)
 

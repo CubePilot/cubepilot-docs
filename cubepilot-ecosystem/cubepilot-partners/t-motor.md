@@ -35,7 +35,7 @@ T-MOTOR also offers OEM/ODM service to meet various demands from customers. We w
 Tiger, king of the jungle, is celebrated for valor, power, boldness and vigor in Chinese traditional culture. TIGER MOTOR (T-MOTOR) is devoted to being the guiding star in UAV field with its profession, quality, innovation, integrity and great service.
 
 **PROFESSION**\
-****T-MOTOR is offering customers products and service with profession, which fundamentally ensures interests of our customers.
+T-MOTOR is offering customers products and service with profession, which fundamentally ensures interests of our customers.
 
 **QUALITY**\
 T-MOTOR values quality most. We furnish you with the safest propulsion system for your pilot dream.

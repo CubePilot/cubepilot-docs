@@ -117,6 +117,7 @@
 * [CubePilot Ecosystem Here4](cubepilot-ecosystem/cubepilot-ecosystem-here4.md)
 * [2023 CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/2023-cubepilot-ecosystem-autopilot-wiring-diagram.md)
 * [CubePilot Ecosystem Cube ID](cubepilot-ecosystem/cubepilot-ecosystem-cube-id.md)
+* [CubePilot Ecosystem Mission Planner](cubepilot-ecosystem/cubepilot-ecosystem-mission-planner.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
@@ -187,7 +188,8 @@
 
 * [CubePilot product 3D model](3d-printing/cubepilot-product-3d-model.md)
 * [Printable Camera Quad (Foldable)](3d-printing/printable-camera-quad-foldable.md)
-* [Here 3 Stand](3d-printing/here-3-stand.md)
+* [Here 3 Istand](3d-printing/here-3-stand.md)
+* [HerePro Istand](3d-printing/herepro-istand.md)
 * [Kore Multi-Rotor Carrier Board Case](3d-printing/kore-multi-rotor-carrier-board-case.md)
 * [Hexsoon Multirotor Frame](3d-printing/hexsoon-multirotor-frame.md)
 

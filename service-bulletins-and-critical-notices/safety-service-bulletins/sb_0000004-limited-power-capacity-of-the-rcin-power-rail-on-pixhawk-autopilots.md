@@ -1,7 +1,7 @@
 # SB\_0000004 Limited power capacity of the RCIN power rail on Pixhawk Autopilots
 
 **Latest update please refer to:**\
-****[SB\_0000004Limited power capacity of the RCIN power rail on Pixhawk Autopilots](https://discuss.cubepilot.org/t/sb-0000004limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots/1853)
+[SB\_0000004Limited power capacity of the RCIN power rail on Pixhawk Autopilots](https://discuss.cubepilot.org/t/sb-0000004limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots/1853)
 
 This bulletin applies to ALL Pixhawk and Pixhawk related hardware including all genuine boards (3DR and Hex) as well as all clones and derivatives.
 

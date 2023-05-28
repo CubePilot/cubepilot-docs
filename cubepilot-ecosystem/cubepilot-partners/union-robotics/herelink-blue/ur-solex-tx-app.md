@@ -154,7 +154,7 @@ Click the `VEHICLE TYPE` button in the top right of the missions screen. Select 
 
 ### **Waypoint Missions**
 
-To create a mission using  waypoints, click the **** `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose Waypoint.
+To create a mission using  waypoints, click the `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose Waypoint.
 
 ![](../../../../.gitbook/assets/22.png)
 
@@ -164,11 +164,11 @@ To add waypoints, click on the map where you want the aircraft to fly, starting 
 
 To change settings on each waypoint, click either the waypoint marker on the map, or the item in the horizontal list at the bottom. A panel will appear on the right of the screen with slider attributes. These are attributes of the waypoint that can be edited. The top sliders are common to most waypoints (i.e Altitude, speed). The next set (under "Details") is the set of attributes specific to that type of waypoint.
 
-#### ****
+####
 
 #### **Takeoff Point**
 
-To change the first waypoint to a Takeoff, click the top of the panel, and it will drop down a list of items. Click **** `Takeoff` in the list. The panel's contents will change to show just the relevant attributes for a Takeoff. The waypoint also disappears off of the map, because a Takeoff doesn't really have a defined point; it's just the location your vehicle is sitting when it takes off.
+To change the first waypoint to a Takeoff, click the top of the panel, and it will drop down a list of items. Click `Takeoff` in the list. The panel's contents will change to show just the relevant attributes for a Takeoff. The waypoint also disappears off of the map, because a Takeoff doesn't really have a defined point; it's just the location your vehicle is sitting when it takes off.
 
 ![](../../../../.gitbook/assets/27.png)
 
@@ -236,7 +236,7 @@ A Grid acts a bit like a survey, in that it causes the vehicle to travel a path 
 
 The normal mission-item attributes like Speed and Altitude are present if you need to specify them. Angle controls the angle relative to North that the lines on the Grid will be oriented.
 
-#### ****
+####
 
 #### **Turns**
 
@@ -246,7 +246,7 @@ The Turn Margin attribute affects how closely the vehicle will change from Run t
 
 Turn Delay and Run Delay can be used to control how long the vehicle waits between speed changes. This is useful if you've assigned an action that takes some time to complete before the vehicle should continue the mission.
 
-#### ****
+####
 
 #### **Guide Point**
 
@@ -315,7 +315,7 @@ A Tower Scan can be assigned the following attributes:
 
 The minimum number of legs is 3. In this case, the vehicle will fly to one side and point at the target, fly half-way between that point and the other side, and finally to the other side. The number of legs you select influences the number of generated waypoints, the number of pictures taken, and the time required to fly the scan.
 
-#### ****
+####
 
 #### **Horizontal vs Vertical**
 
@@ -335,7 +335,7 @@ A Horizontal scan starts at the base altitude and flies horizontally, stopping f
 
 Surveys are kind of their own thing within missions. A Survey is an item in a mission that contains its own waypoints. Your vehicle won't fly straight to the waypoint, but will follow the path determined by the Survey.
 
-#### ****
+####
 
 #### **Creating a Survey**
 
@@ -353,7 +353,7 @@ To adjust a Survey, use the normal editing tools. Move polygon points by draggin
 
 You can move an entire Survey around by dragging the center point. The whole collection of points will move along with it.
 
-#### ****
+####
 
 #### **Survey Settings**
 
@@ -363,7 +363,7 @@ To make a Spline Survey (a Survey involving spline points, hence the name), clic
 
 ## **Save a Mission**
 
-To Fly a created mission, you will need to save the mission. Click **** `SAVE` on the title area, specify a name for your mission, and click `SAVE` again. The mission should appear in the list you see when you select `Missions`.
+To Fly a created mission, you will need to save the mission. Click `SAVE` on the title area, specify a name for your mission, and click `SAVE` again. The mission should appear in the list you see when you select `Missions`.
 
 ![](../../../../.gitbook/assets/37.png)
 
@@ -377,19 +377,19 @@ Flying missions  are done from the Map view in the flight screen. In the Map vie
 
 Click one, and a panel containing `Send` and `Arm` buttons will appear. Click `Send` and the mission will be generated and sent to the vehicle. At that point, the Arm button can be used to arm the motors. Once you've done that: If your mission has a Takeoff point, you can click Start and the mission will start on its own. Otherwise, you can click Takeoff, and then Start. Alternatively, you can launch manually, and then click `Start`.
 
-### ****
+###
 
 ### **Skipping to Items in Mission**
 
 Once underway, you can click a waypoint on the solexMap and you'll see a prompt asking if you want to fly to that location in the mission. If you click `Yes`, your vehicle will stop what it's doing, fly directly to that location in the mission, and continue from there.
 
-### ****
+###
 
 ### **Pausing/Resuming Missions**
 
 You can hit `Pause` to freeze the mission. At this point, you can either hit `Resume`to resume the mission, `Home` to RTL, or hit the `FLY` button on your transmitter to take manual control and fly normally. `Land` lands the vehicle right where it is, which you'll most likely only want to do in special cases. In the case of  `Resume`, your vehicle will start flying at the last speed it was flying at according to the waypoint speeds in your mission. If no waypoint speeds were set in a mission, then it will resume flying at the overall mission speed.
 
-### ****
+###
 
 ### **Editing from the Mission Layer**
 

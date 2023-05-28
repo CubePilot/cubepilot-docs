@@ -12,16 +12,16 @@ _5.8GHz_ \
 _Not in range 192.168.0.x_\
 **-Region**\
 _Select the correct region and within 5mins difference_\
-__\
+\
 _\*_ Please check and fulfil three requirements, otherwise register failure as a result
 
 ## Herelink - Solex as Autostarting App
 
-[**Solex as autostarting app**](https://discuss.cubepilot.org/t/solex-as-autostarting-app/3893)****
+[**Solex as autostarting app**](https://discuss.cubepilot.org/t/solex-as-autostarting-app/3893)
 
 ## Herelink - Screenshot
 
-[**Open-Source Scrcpy To Control Android Via Windows & macOS**](https://discuss.cubepilot.org/t/herelink-screenshot/3881)****
+[**Open-Source Scrcpy To Control Android Via Windows & macOS**](https://discuss.cubepilot.org/t/herelink-screenshot/3881)
 
 ## Herelink - Video / Camera&#x20;
 
@@ -86,7 +86,7 @@ Mini BNC
 
 ## Herelink - Calibration
 
-[**Refer to - Herelink User Guides - Pairing, RC Calibration & Setup**](herelink-user-guides/one-time-setup.md)****
+[**Refer to - Herelink User Guides - Pairing, RC Calibration & Setup**](herelink-user-guides/one-time-setup.md)
 
 ## Herelink - Encryption
 
@@ -96,9 +96,9 @@ Herelink encrypt over the air uses aes-128-ctr&#x20;
 
 ## Herelink - Ethernet
 
-[**Herelink Ethernet**](https://discuss.cubepilot.org/t/herelink-ethernet/4369) **** \
-****\
-****I’m trying to get ethernet passthrough working. I’m running on the Beta Channel, SRU01200616 on the ground unit and the corresponding version on the airside.
+[**Herelink Ethernet**](https://discuss.cubepilot.org/t/herelink-ethernet/4369) \
+\
+I’m trying to get ethernet passthrough working. I’m running on the Beta Channel, SRU01200616 on the ground unit and the corresponding version on the airside.
 
 I understand an ethernet adapter with a R8152/8153 chip is required, I have an ANKER A7610011 and a Cable Matters 202023-BLK for testing. Both use the correct chip according to the Amazon comments, although it's very hard to get the information directly from the manufactures.
 

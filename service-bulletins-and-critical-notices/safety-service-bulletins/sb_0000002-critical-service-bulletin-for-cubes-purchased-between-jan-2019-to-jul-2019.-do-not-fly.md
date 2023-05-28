@@ -1,7 +1,7 @@
 # SB\_0000002 Critical service bulletin for Cubes Purchased between JAN 2019 to JUL 2019. DO NOT FLY
 
 **Latest update please refer to:**\
-****[SB\_0000002 Critical service bulletin for Cubes Purchased between January 2019 to July 2019. DO NOT FLY](https://discuss.cubepilot.org/t/sb-0000002-critical-service-bulletin-for-cubes-purchased-between-january-2019-to-july-2019-do-not-fly/406)
+[SB\_0000002 Critical service bulletin for Cubes Purchased between January 2019 to July 2019. DO NOT FLY](https://discuss.cubepilot.org/t/sb-0000002-critical-service-bulletin-for-cubes-purchased-between-january-2019-to-july-2019-do-not-fly/406)
 
 [Cube Blue (USA) is not affected by safety Bulletin 2\
 ](https://discuss.cubepilot.org/t/cube-blue-is-not-affected-by-safety-bulletin-2/631)\
@@ -25,14 +25,14 @@ SB\_0000002 Critical service bulletin for Cubes Purchased between January 2019 t
 2.You must use latest Mission Planner or Latest QGC
 
 3.Set the following parameters\
-[CUBE_BLACK.param 32](https://discuss.cubepilot.org/uploads/default/original/1X/d4ace0149f9bfbabac84c30cdff2d53ec98879de.param) (98 Bytes)
+[CUBE\_BLACK.param 32](https://discuss.cubepilot.org/uploads/default/original/1X/d4ace0149f9bfbabac84c30cdff2d53ec98879de.param) (98 Bytes)
 
-> BRD_TYPE == 3 \
-> EK2\_IMU_MASK == 7 \
-> (or EK3\_IMU_MASK == 7 if using EKF3) \
-> INS_USE == 1 \
-> INS_USE2 == 1 \
-> INS_USE3 == 1
+> BRD\_TYPE == 3 \
+> EK2\_IMU\_MASK == 7 \
+> (or EK3\_IMU\_MASK == 7 if using EKF3) \
+> INS\_USE == 1 \
+> INS\_USE2 == 1 \
+> INS\_USE3 == 1
 
 4.Save the parametersReboot the cube
 
@@ -47,10 +47,10 @@ SB\_0000002 Critical service bulletin for Cubes Purchased between January 2019 t
 **EDIT: 02nd of May 2019:**\
 In addition to following the instructions on the 27th of April, ensure that the following parameters are set.
 
-> EK2\_IMU_MASK == 7 (or EK3 if using EKF3) \
-> INS_USE == 1 \
-> INS_USE2 == 1 \
-> INS_USE3 == 1
+> EK2\_IMU\_MASK == 7 (or EK3 if using EKF3) \
+> INS\_USE == 1 \
+> INS\_USE2 == 1 \
+> INS\_USE3 == 1
 
 **EDIT: 27th of April 2019**: Ardupilot has now added detection, prearm checking, and inflight checking and failover to the redundant sensors. This is now in Release Copter and Release Plane.\
 Detection of the fault has also been added to Mission Planner, and QGC latest. Mission planner now collects information on this fault if you are willing to send it to us.

@@ -18,17 +18,7 @@ Union Corp.
 
 **All rights reserved. No part of this manual may be reproduced or copied in any form or by any means without written permission of Union Corp.**
 
-|                                                 |                |
-| ----------------------------------------------- | -------------- |
-| **Remote Vehicle Flight Manual - Multi-rotor**  |                |
-| sUAS Manufacture                                | Union Corp.    |
-| sUAS Model                                      | Meadowhawk 2   |
-| Serial Number                                   | MH2-12XXXX     |
-| Radio Controller Manufacturer                   | Union Corp.    |
-| Radio Controller Model                          | URDL-1004      |
-| RVFM Document Number                            | MH-300201.01   |
-| Date of Initial Issue                           | March 25, 2021 |
-| Date of Revision                                | N/A            |
+<table><thead><tr><th width="449"></th><th></th></tr></thead><tbody><tr><td><strong>Remote Vehicle Flight Manual - Multi-rotor</strong> </td><td></td></tr><tr><td>sUAS Manufacture</td><td>Union Corp.</td></tr><tr><td>sUAS Model</td><td>Meadowhawk 2</td></tr><tr><td>Serial Number</td><td>MH2-12XXXX</td></tr><tr><td>Radio Controller Manufacturer</td><td>Union Corp.</td></tr><tr><td>Radio Controller Model</td><td>URDL-1004</td></tr><tr><td>RVFM Document Number</td><td>MH-300201.01</td></tr><tr><td>Date of Initial Issue</td><td>March 25, 2021</td></tr><tr><td>Date of Revision</td><td>N/A</td></tr></tbody></table>
 
 **This manual must be readily available to the sUAS pilot at all times. The sUAS should be operated in compliance with the information and limitations contained herein.**
 

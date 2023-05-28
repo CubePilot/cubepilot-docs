@@ -124,6 +124,8 @@ Note: If you want to use different tool to update CubeID CAN module, you can get
 
 #### CubeID Serial module update&#x20;
 
+> If you are not seeing CubeID Update tab in Mission Planner please update your mission planner to latest beta [https://ardupilot.org/planner/docs/mission-planner-overview.html?highlight=beta#support](https://ardupilot.org/planner/docs/mission-planner-overview.html?highlight=beta#support)
+
 * Start Mission Planner with CubeID connected to one of the Telem ports of Cube and the cube connected via USB. Ensure that you start connection with Baud rate as 57600.
 * Select Serial Port number where CubeID is connected (Telem1 is Serial 1 and Telem2 is Serial 2).
 

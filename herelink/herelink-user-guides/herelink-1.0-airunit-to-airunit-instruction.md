@@ -30,7 +30,7 @@ R8152 / R8153 - Airside only\
 **-Upgrade both units to the latest firmware before toggling the switches.**\
 **-Toggle switches both down position as default AirUnit function, firmware only can be upgraded when switches both at down position.**
 
-## 1. **** GroundUnit and AirUnit Setup
+## 1. GroundUnit and AirUnit Setup
 
 ### 1A GroundUnit setup
 
@@ -52,8 +52,12 @@ Press and hold the pairing button for 3s on both AirUnit and GroundUnit within 3
 
 \*Once pairing is completed LED will turn solid GREEN.
 
-![1＝Pairing button
-2＝Indicator Led](<../../.gitbook/assets/AirUnit 1.0 Switches - 1 and 2.jpg>)
+<div align="center">
+
+<img src="../../.gitbook/assets/AirUnit 1.0 Switches - 1 and 2.jpg" alt="1＝Pairing button
+2＝Indicator Led">
+
+</div>
 
 ## 3. AirUnit HDMI functionality
 
@@ -103,7 +107,7 @@ Click “Play”.Click “Play”.
 4. Enter “rtspsrc location=rtsp://192.168.144.10:8554/H264Video latency=1 udp-reconnect=1 timeout=0 do-retransmission=false ! application/x-rtp ! decodebin3 ! queue max-size-buffers=1 leaky=2 ! videoconvert ! video/x-raw,format=BGRx ! appsink name=outsink”
 5. Press OK
 
-****\
+\
 &#x20;**Mavlink**
 
 1. Open Mission Planner

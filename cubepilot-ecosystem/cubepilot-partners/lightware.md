@@ -77,7 +77,7 @@ Designed specifically for use on drones and other UAVs (multicopters or fixed wi
 | **Suitability**      | UAV \| UGV \| IoT                                                     |
 | **Applications**     | Altitude \| Height above ground \| Position hold \| Terrain following |
 
-****
+
 
 ### **SF30/D**
 

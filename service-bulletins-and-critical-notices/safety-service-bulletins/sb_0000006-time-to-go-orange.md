@@ -1,7 +1,7 @@
 # SB\_0000006 time to Go Orange
 
 **Latest update please refer to:**\
-****[SB\_0000006 time to Go Orange](https://discuss.cubepilot.org/t/sb-0000006-time-to-go-orange/4124)
+[SB\_0000006 time to Go Orange](https://discuss.cubepilot.org/t/sb-0000006-time-to-go-orange/4124)
 
 Reminder to plan for upgrade to cube Orange soon, Orange is the new Long Term Stable (LTS) option.
 

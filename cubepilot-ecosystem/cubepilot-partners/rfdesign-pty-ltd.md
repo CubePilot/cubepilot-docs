@@ -42,28 +42,11 @@ We are located in Brisbane, Australia with our office located in Archerfield, QL
 
 ### Interfaces
 
-|            |                                                   |
-| ---------- | ------------------------------------------------- |
-| **RF**     | 2 x RP-SMA connectors                             |
-| **Serial** | Logic level TTL (+3.3v)                           |
-| **Power**  | +5v, \~800mA max peak (at maximum transmit power) |
-| **GPIO**   | 6 General purpose IO (Digita capable)             |
+<table><thead><tr><th></th><th width="297"></th></tr></thead><tbody><tr><td><strong>RF</strong></td><td>2 x RP-SMA connectors</td></tr><tr><td><strong>Serial</strong></td><td>Logic level TTL (+3.3v)</td></tr><tr><td><strong>Power</strong></td><td>+5v, ~800mA max peak (at maximum transmit power)</td></tr><tr><td><strong>GPIO</strong></td><td>6 General purpose IO (Digita capable)</td></tr></tbody></table>
 
 ### Specifications
 
-|                              |                                                                                                                                                                                                           |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Frequency Range**          | <p>902 - 928 MHz (USA)</p><p>915 - 928 MHz (Australia)</p>                                                                                                                                                |
-| **Output Power**             | <p>1W (+30dBm), controllable in 1dB steps </p><p>( +/- 1dB @=20dBm typical )</p>                                                                                                                          |
-| **Air Data transfer rates**  | 12, 56, 64, 100, 125, 200, 224, 500 and 750 kbit/sec (User settable, 64kbit default)\*                                                                                                                    |
-| **UART data transfer rates** | <p>1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800, 1M baud (User settable, 57600 default)*</p><p><strong>*note these values are correct as of version 3.16 SiK firmware</strong></p> |
-| **Output Power**             | 1W (+30dBm)                                                                                                                                                                                               |
-| **Receive Sensitivity**      | >111 dBm at 12kbps, 105 at 64 kbps and 98 at 200 kbps                                                                                                                                                     |
-| **Size**                     | <p>30 mm (wide) x 57 mm (long) x 12.8 mm (thick) - Including RF Shield,</p><p>Heatsink and connector extremeties</p>                                                                                      |
-| **Weight**                   | 14.5g                                                                                                                                                                                                     |
-| **Mounting**                 | 3 x M2.5 screws, 3 x header pin solder points                                                                                                                                                             |
-| **Power Supply**             | <p>+5 V nominal (+3.5 V min, +5.5 V max) </p><p>~800 mA peak at maximum power</p>                                                                                                                         |
-| **Temp. Range**              | <p>-40 to +85 °C</p><p>tested operational from -73 to +123 °C</p>                                                                                                                                         |
+<table><thead><tr><th width="170.92018567173824"></th><th></th></tr></thead><tbody><tr><td><strong>Frequency Range</strong></td><td><p>902 - 928 MHz (USA)</p><p>915 - 928 MHz (Australia)</p></td></tr><tr><td><strong>Output Power</strong></td><td><p>1W (+30dBm), controllable in 1dB steps </p><p>( +/- 1dB @=20dBm typical )</p></td></tr><tr><td><strong>Air Data transfer rates</strong></td><td>12, 56, 64, 100, 125, 200, 224, 500 and 750 kbit/sec (User settable, 64kbit default)*</td></tr><tr><td><strong>UART data transfer rates</strong></td><td><p>1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800, 1M baud (User settable, 57600 default)*</p><p><strong>*note these values are correct as of version 3.16 SiK firmware</strong></p></td></tr><tr><td><strong>Output Power</strong></td><td>1W (+30dBm)</td></tr><tr><td><strong>Receive Sensitivity</strong></td><td>>111 dBm at 12kbps, 105 at 64 kbps and 98 at 200 kbps</td></tr><tr><td><strong>Size</strong></td><td><p>30 mm (wide) x 57 mm (long) x 12.8 mm (thick) - Including RF Shield,</p><p>Heatsink and connector extremeties</p></td></tr><tr><td><strong>Weight</strong></td><td>14.5g</td></tr><tr><td><strong>Mounting</strong></td><td>3 x M2.5 screws, 3 x header pin solder points</td></tr><tr><td><strong>Power Supply</strong></td><td><p>+5 V nominal (+3.5 V min, +5.5 V max) </p><p>~800 mA peak at maximum power</p></td></tr><tr><td><strong>Temp. Range</strong></td><td><p>-40 to +85 °C</p><p>tested operational from -73 to +123 °C</p></td></tr></tbody></table>
 
 ### Software / GCS Support
 

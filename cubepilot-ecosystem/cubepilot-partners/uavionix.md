@@ -44,7 +44,7 @@ Learn more: [George UAV Autopilot](https://uavionix.com/products/george/)
 
 Learn more: [truFYX](https://uavionix.com/products/trufyx/)
 
-### ****
+###
 
 ### **ping200X**&#x20;
 
@@ -62,11 +62,11 @@ ping200X is the premier FAA TSO Certified Mode S ADS-B OUT transponder for UAS. 
 
 Compact and light, ping200X is a Level 2els, Class 1 transponder small enough to fit on Class 1 and 2 sUAS. At only 50-grams, the ping200X transponder packs a punch managing to outperform bulkier transponders while drawing only 1.5 Watts.
 
-Learn more: [**ping200X**](https://uavionix.com/products/ping200x/)****
+Learn more: [**ping200X**](https://uavionix.com/products/ping200x/)
 
-****
 
-### ping2020i **** / ping1090i
+
+### ping2020i / ping1090i
 
 ![](../../.gitbook/assets/ping2020i-no-logo.png)
 
@@ -98,7 +98,7 @@ The all-new pingRX Pro is the latest purpose-built Detect and Avoid (DAA) system
 
 ![](../../.gitbook/assets/detection\_range\_overview-3.png)
 
-pingRX Pro features a maximum range of nearly 100 times any competitive solution **** and meets all suggested well clear distances.
+pingRX Pro features a maximum range of nearly 100 times any competitive solution and meets all suggested well clear distances.
 
 | Specification         |                                                  |
 | --------------------- | ------------------------------------------------ |

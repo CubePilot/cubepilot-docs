@@ -1,7 +1,7 @@
 # SB\_0000005 I2C Storm can cause inflight reboots, Chibios ONLY, not Nuttx (all cube and Pixhawk hardw
 
 **Latest update please refer to:**\
-****[SB\_0000005 I2C Storm can cause inflight reboots, Chibios ONLY, not Nuttx (all cube and Pixhawk hardware, including clones and derivatives)](https://discuss.cubepilot.org/t/sb-0000005-i2c-storm-can-cause-inflight-reboots-chibios-only-not-nuttx-all-cube-and-pixhawk-hardware-including-clones-and-derivatives/2419)
+[SB\_0000005 I2C Storm can cause inflight reboots, Chibios ONLY, not Nuttx (all cube and Pixhawk hardware, including clones and derivatives)](https://discuss.cubepilot.org/t/sb-0000005-i2c-storm-can-cause-inflight-reboots-chibios-only-not-nuttx-all-cube-and-pixhawk-hardware-including-clones-and-derivatives/2419)
 
 **CRITICAL**
 
