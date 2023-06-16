@@ -37,7 +37,8 @@ R8152 / R8153 - Airside only\
 1. Upgrade AirUnits to the latest firmware.(Make sure toggle both switches at down position)
 2. Power off the GroundUnit by disconnecting the power cable (7v-12v).
 3. Remove the screws from the chassis.
-4. Toggle the switches as shown below to activate GroundUnit. (1 up, 2 down)
+4. Herelink AirUnit v1.0 (without ethernet port) Toggle the switches as shown below to activate GroundUnit. (1 up, 2 down) \
+   **Note: For Herelink AirUnit v1.1 (with ethernet port) GroundUnit activated by toggle switch (1 down, 2up)**
 5. Power on GroundUnit by reconnecting the power cable (7v-12v).
 
 ![](<../../.gitbook/assets/1A GoundUnit and AirUnit Setup.png>)
