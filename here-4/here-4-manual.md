@@ -4,7 +4,7 @@
 
 ## Here 4 **High Precision Dual-band RTK Navigation**
 
-### Overview
+## Overview
 
 Here 4 is a professional High Precision Dual-band RTK Navigation module. It supports multiple GNSS options such as BeiDou, Galileo, GLONASS, GPS, QZSS.
 
@@ -12,7 +12,7 @@ The Here 4 utilizes advanced algorithms and multi-frequency DGNSS signals to qui
 
 The Here 4 goes beyond being a simple GNSS module. It combines flight control and navigation functionalities into a single device. With 8 PWM or BDSHOT outputs, an RCIN, Hotshoe, and camera trigger, it offers a self-contained solution for accurate mapping and precise control capabilities.
 
-### Features
+## Features
 
 1. Equipped with u-blox F9P, a professional high precision Dual-band RTK navigation module.
 2. Powerful processing performance provided by a built-in STM32H7 chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP\_Periph Firmware.
@@ -26,7 +26,7 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 8. CAN FD, real time, and high transmission rate.
 9. Built-in IMU. Through future firmware updates, Here 4 can achieve tightly coupled DGNSS-INS-fusing solutions.
 
-### Specifications
+## Specifications
 
 | Features                    |                                                                                                                            |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
@@ -49,7 +49,7 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 | Protocols                   | NMEA、UBX binary、RTCM 3.3、SPARTN 2.0.1                                                                                      |
 | Anti-spoofing               | Advanced anti-spoofing algorithms                                                                                          |
 
-### Pinout
+## Pinout
 
 <figure><img src="../.gitbook/assets/-can-20230615-2.png" alt=""><figcaption></figcaption></figure>
 
@@ -57,7 +57,7 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 
 ## User Manual
 
-### 1. For use with Ardupilot:
+## 1. For use with Ardupilot:
 
 Connect the 4pin CAN cable from Here 4 to CAN1 or CAN2 on flight control.
 
@@ -95,7 +95,7 @@ Select the compasses by using the default setting (generally default setting is 
 
 <figure><img src="../.gitbook/assets/compass-start-en.png" alt=""><figcaption></figcaption></figure>
 
-### 2. Using with PX4:
+## 2. Using with PX4:
 
 By the time of this writing, PX4 v1.12 beta 3 is being used. \
 \*Please make sure that you are using the most recent stable release of PX4 firmware.
@@ -106,13 +106,13 @@ Connect to autopilot through GCS. Modify the parameter UAVCAN\_ENABLE to Sensors
 
 <figure><img src="../.gitbook/assets/here4-qgc-se-en.png" alt=""><figcaption></figcaption></figure>
 
-### 3. Firmware update
+## 3. Firmware update
 
 Update procedures are shown as the following when there are any future firmware updates.
 
 Mission Planner must be updated to the following or later version to have the new feature available:
 
-<figure><img src="../.gitbook/assets/0 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
 
 Connect the 4pin CAN cable from CAN port on Here 4 to CAN1 on the autopilot.
 
@@ -130,13 +130,13 @@ Click the Update button. A window will pop up and ask if you want to search the 
 
 Wait for the firmware update to complete. Confirm the change in SW Version. If the update was successful, reboot the Here 4.
 
-#### 4.Cube\_ID setting
+## 4.Cube\_ID setting
 
 For the set up procedure , please check[ https://docs.cubepilot.org/user-guides/cube-id/cube-id](https://docs.cubepilot.org/user-guides/cube-id/cube-id).
 
-#### 5.RTK Use Operation
+## 5.RTK Use Operation
 
-#### 1. Base/Rover Survey by Mission Planner
+### 1. Base/Rover Survey by Mission Planner
 
 This part of the tutorial uses Mission Planner ground software and Arducopter-4.3.5 flight firmware for operating instructions. RTK mode requires a base station. The following tutorial Uses "Here+" base stations as an example. Users can also use other u-blox M8P/F9P base stations (such as HerePro, etc.), or use the local wireless RTK correction service.
 
@@ -220,7 +220,7 @@ Once the base station is established, you can activate the UXV. By utilizing the
 
 <figure><img src="../.gitbook/assets/rtk0real13.jpg" alt=""><figcaption></figcaption></figure>
 
-**2. Single Base to Multiple Rovers**
+### **2. Single Base to Multiple Rovers**
 
 There are 2 methods to do this:
 
