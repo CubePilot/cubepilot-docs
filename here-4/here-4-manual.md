@@ -16,10 +16,10 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 
 1. Equipped with u-blox F9P, a professional high precision Dual-band RTK navigation module.
 2. Powerful processing performance provided by a built-in STM32H7 chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP\_Periph Firmware.
-3. The tailor-made Dual-band antenna from Taoglass supports L1and L5 frequencies. It features high gain, high sensitivity, and high stability.
+3. The tailor-made Dual-band antenna from Taoglas supports L1and L5 frequencies. It features high gain, high sensitivity, and high stability.
 4. Here 4 provides built-in Drone-ID and ADS-B features.\
-   \*Blue version supports Drone-ID and ADS-B feature\
-   \*Black version supports ADS-B only
+   \***Blue version supports Drone-ID and ADS-B feature**\
+   \***Black version supports ADS-B only**
 5. Here 4 uses multi-frequency DGNSS signals with advanced algorithms. This allows fast convergence to an RTK Fix, achieving more reliable and stable centimeter level positioning.
 6. The Here 4 module is 16 x 68mm and 60g.
 7. LED embedded with ProfiLEDs. Built-in multiple display modes for notification or navigation signals. Display modes can be selected according to specific scenarios via parameters or onboard Lua Scripting.
@@ -61,7 +61,7 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 
 Connect the 4pin CAN cable from Here 4 to CAN1 or CAN2 on flight control.
 
-（Note: Current firmware only supports CAN1-green、blue、white、grey）
+**（Note: Current firmware only supports CAN1-green、blue、white、grey）**
 
 Power the flight control and connect it to Mission Planner.
 
@@ -83,7 +83,7 @@ Once completed, click **Write Params**.
 
 CAN function should be enabled after rebooting the autopilot.
 
-**Compass Setting**
+### **Compass Setting**
 
 **There is no safety switch. Safety switch can be disabled by modifying BRD\_SAFETYENABLE to 0. Another option is to connect to an external safety switch to GPS1 port.**
 
@@ -98,11 +98,11 @@ Select the compasses by using the default setting (generally default setting is 
 ## 2. Using with PX4:
 
 By the time of this writing, PX4 v1.12 beta 3 is being used. \
-\*Please make sure that you are using the most recent stable release of PX4 firmware.
+\***Please make sure that you are using the most recent stable release of PX4 firmware.**
 
 Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port
 
-Connect to autopilot through GCS. Modify the parameter UAVCAN\_ENABLE to Sensors Automatic Conﬁg and reboot the autopilot.
+Connect to autopilot through GCS. Modify the parameter _**UAVCAN\_ENABLE**_ to _**Sensors Automatic**_ Conﬁg and reboot the autopilot.
 
 <figure><img src="../.gitbook/assets/here4-qgc-se-en.png" alt=""><figcaption></figcaption></figure>
 
@@ -124,15 +124,16 @@ Click Menu > Update to check if there are any firmware updates for Here 4
 
 <figure><img src="../.gitbook/assets/upgrade0-en.png" alt=""><figcaption></figcaption></figure>
 
-Click the Update button. A window will pop up and ask if you want to search the internet for updates. Click Yes.
+Click the Update button. A window will pop up and ask if you want to search the internet for updates. Click _**Yes**_.
 
 <figure><img src="../.gitbook/assets/upgrade-en.png" alt=""><figcaption></figcaption></figure>
 
-Wait for the firmware update to complete. Confirm the change in SW Version. If the update was successful, reboot the Here 4.
+Wait for the firmware update to complete. Confirm the change in _**SW**_ Version. If the update was successful, reboot the Here 4.
 
 ## 4.Cube\_ID setting
 
-For the set up procedure , please check[ https://docs.cubepilot.org/user-guides/cube-id/cube-id](https://docs.cubepilot.org/user-guides/cube-id/cube-id).
+For the set up procedure, please check\
+[https://docs.cubepilot.org/user-guides/cube-id/cube-id](https://docs.cubepilot.org/user-guides/cube-id/cube-id).
 
 ## 5.RTK Use Operation
 
@@ -148,7 +149,9 @@ To use Here 4 on a UXV, you need the following hardware： Computer, telemetry m
 
 **Before use, please make sure that the hardware connection is correct:**
 
-Ground side: Connect the base antenna to the base station, then connect the base station module to the computer through the USB port; The Telemetry module should be connected to another USB port of the same computer. UXV side: Connect Here 4 to CAN interface, and telemetry module to the TELEM interface on flight control.
+**Ground side:** Connect the base antenna to the base station, then connect the base station module to the computer through the USB port; The Telemetry module should be connected to another USB port of the same computer.&#x20;
+
+**UXV side:** Connect Here 4 to CAN interface, and telemetry module to the TELEM interface on flight control.
 
 <figure><img src="../.gitbook/assets/rtk0real.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -160,9 +163,9 @@ Normal GPS positioning, only requires you to place the device near a window and 
 
 The best environment for the base and rover antenna is a clear view of the sky that is 30 degrees above the horizon. RTK antenna can be elevated but ensure that there are no obstacles around, such as buildings, trees, cars, and etc
 
-Examples of bad environments: indoors, urban areas, forests, or near the ground.
+**Examples of bad environments:** indoors, urban areas, forests, or near the ground.
 
-Examples of good environments: Open spaces, peak of a mountains, roof of the a building.
+**Examples of good environments:** Open spaces, peak of a mountain, roof of a building.
 
 Do not place the antenna near electronic devices, as high power electronic devices in close proximity may affect the radio frequency noise of the GPS signal. Examples are mobile phone base stations, high voltage transformers, etc.
 
@@ -188,7 +191,7 @@ During the survey process, the right box will show the current survey status:
 
 **The Position is invalid:** The base station has not yet reached a valid location;
 
-**In Progress:** The survey is still in progress；
+**In Progress:** The survey is still in progress;
 
 **Duration:** The number of seconds that the current surveying task has been executed;
 
@@ -196,7 +199,7 @@ During the survey process, the right box will show the current survey status:
 
 **Current Acc:** Absolute geographic accuracy that the current base station can achieve;
 
-The Green bar at the lower part of the Mission Planner page shows the current satellites being detected and the signal strength related to each satellite. At least eight or more satellite signals need to be guaranteed to exceed the red line (Only when the satellite signal exceeds the red line,  the effective number of satellites have been connected).
+**The Green bar** at the lower part of the Mission Planner page shows the current satellites being detected and the signal strength related to each satellite. At least eight or more satellite signals need to be guaranteed to exceed the red line (Only when the satellite signal exceeds the red line,  the effective number of satellites have been connected).
 
 The base station needs a certain amount of time to meet the accuracy requirements of your input. Testing shows that in an open area without sky coverage, the base station will achieve the absolute accuracy of 2m within a few minutes; to reach the absolute accuracy of less than 30cm takes about an hour; to reach the absolute accuracy of 10cm takes a few hours.
 
