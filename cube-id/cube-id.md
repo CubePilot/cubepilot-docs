@@ -96,7 +96,7 @@ Go to **Operation** to set **(1)Operator ID , (2)Oper ID Type , (3)Self ID DESC*
 
 ## Testing
 
-***
+
 
 Download **DroneScanner** for IOS， **OpenDroneID** or **DroneScanner** for Android to detect and monitor nearby UAVs.
 

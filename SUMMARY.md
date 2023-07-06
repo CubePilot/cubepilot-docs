@@ -51,6 +51,10 @@
 
 * [Here+V2 User Manual](here+/here+v2-user-manual.md)
 
+## HERE 4
+
+* [Here 4 Manual](here-4/here-4-manual.md)
+
 ## HEREPRO
 
 * [HerePro Manual](herepro/herepro-manual.md)
