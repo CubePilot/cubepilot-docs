@@ -18,7 +18,7 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 2. Powerful processing performance provided by a built-in STM32H7 chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP\_Periph Firmware.
 3. The tailor-made Dual-band antenna from Taoglas supports L1and L5 frequencies. It features high gain, high sensitivity, and high stability.
 4. Here 4 provides built-in Drone-ID and ADS-B features.\
-   \***Blue version supports Drone-ID and ADS-B feature**\
+   \***Blue version supports Drone-ID only**\
    \***Black version supports ADS-B only**
 5. Here 4 uses multi-frequency DGNSS signals with advanced algorithms. This allows fast convergence to an RTK Fix, achieving more reliable and stable centimeter level positioning.
 6. The Here 4 module is 16 x 68mm and 60g.
@@ -97,7 +97,7 @@ Select the compasses by using the default setting (generally default setting is 
 
 ## 2. Using with PX4:
 
-By the time of this writing, PX4 v1.12 beta 3 is being used. \
+By the time of this writing, PX4 v1.13 is being used. \
 \***Please make sure that you are using the most recent stable release of PX4 firmware.**
 
 Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port
