@@ -15,3 +15,13 @@
 ## Here3+ FCC Certificate
 
 <figure><img src="../.gitbook/assets/Here3+ FCC Certificate.jpg" alt=""><figcaption></figcaption></figure>
+
+## Cube ID FCC Certificate
+
+{% file src="../.gitbook/assets/Cube ID FCC certificates_2A6CG-HX406252.pdf" %}
+
+## Cube ID\_CAN FCC Certificate
+
+{% file src="../.gitbook/assets/Cube ID_CAN FCC certificates_2A6CG-HX406253.pdf" %}
+
+{% file src="broken-reference" %}
