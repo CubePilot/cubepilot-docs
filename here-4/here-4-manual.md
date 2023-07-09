@@ -17,9 +17,8 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 1. Equipped with u-blox F9P, a professional high precision Dual-band RTK navigation module.
 2. Powerful processing performance provided by a built-in STM32H7 chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP\_Periph Firmware.
 3. The tailor-made Dual-band antenna from Taoglas supports L1and L5 frequencies. It features high gain, high sensitivity, and high stability.
-4. Here 4 provides built-in Drone-ID and ADS-B features.\
-   \***Blue version supports Drone-ID only**\
-   \***Black version supports ADS-B only**
+4. Here 4 provides built-in Drone-ID feature.\
+   \***Blue version supports Drone-ID**
 5. Here 4 uses multi-frequency DGNSS signals with advanced algorithms. This allows fast convergence to an RTK Fix, achieving more reliable and stable centimeter level positioning.
 6. The Here 4 module is 16 x 68mm and 60g.
 7. LED embedded with ProfiLEDs. Built-in multiple display modes for notification or navigation signals. Display modes can be selected according to specific scenarios via parameters or onboard Lua Scripting.
