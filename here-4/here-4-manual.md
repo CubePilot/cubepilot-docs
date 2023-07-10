@@ -103,7 +103,7 @@ Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port
 
 Connect to autopilot through GCS. Modify the parameter _**UAVCAN\_ENABLE**_ to _**Sensors Automatic**_ Conﬁg and reboot the autopilot.
 
-<figure><img src="../.gitbook/assets/here4-qgc-se-en.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6MYH6245MLZ{L(J4D15QZPE.png" alt=""><figcaption></figcaption></figure>
 
 ## 3. Firmware update
 
