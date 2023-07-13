@@ -1,7 +1,5 @@
 # Here 4 Manual
 
-<figure><img src="../.gitbook/assets/Here 4 Manual.jpg" alt=""><figcaption></figcaption></figure>
-
 ## Here 4 **High Precision Dual-band RTK Navigation**
 
 ## Overview
@@ -238,26 +236,38 @@ Ground station configuration: connect all telemetry modules to the computer via 
 
 If you connected the UXVs with 1 telemetry module, they should share the same COM port:
 
-2023/06/27\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
+## 6. U-Center Firmware Update
 
+{% hint style="info" %}
+Ensure that you have the latest firmware on Here4 before this process. Please follow [#3.-firmware-update](here-4-manual.md#3.-firmware-update "mention") to update the firmware.
+{% endhint %}
 
-\
-\
+Latest NEO F9P L1L5 firmware can be found here under Firmware Update section. [https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources](https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources)&#x20;
 
+1. Inside DroneCAN/UAVCAN config page of Mission Planner. Select Menu and Check
 
-\
-\
+{% hint style="info" %}
+If the following option is not visible in Mission Planner, then update Mission Planner to latest Beta from Help menu.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+2. Select port for u-Center to connect on.
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+3. Select baudrate to set for ublox communication.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+4. Open u-center (Ensure that its version 22.07+). Under connections select Network connections > New.
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+5. Set url to tcp://127.0.0.1:500.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+6. Select Tools>Firmware Update Utility. Select the downloaded firmware from ublox website in the tool. Ensure that baudrate is same as set in Mission Planner. And Options are correctly selected as shown below. And then click GO.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
