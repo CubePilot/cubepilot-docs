@@ -76,7 +76,7 @@ Once completed, click "Write Params". CAN function should be enabled after reboo
 
 **Compass Setting (Using the current firmware):**
 
-> There is no safety switch. Safety switch can be disabled by modifying BRD\_SAFETYENABLE to 0. Connecting external safety switch to GPS1 port is also an option.
+> **There is no safety switch. Safety switch can be disabled by modifying BRD\_SAFETYENABLE to 0. Connecting external safety switch to GPS1 port is also an option.**
 
 When using Cube Black, compasses are ordered from top to bottom as 1,2, and 3; When using Cube Orange+, compasses are ordered from top to bottom as 1 and 2. External CAN compass is selected as the last one by default.
 
@@ -154,23 +154,19 @@ Modify parameters “GPS\_TYPE” = 1，**“GPS\_RTCMSOURCE” = 0**，**“GPS
 
 ![](../.gitbook/assets/2en.png)
 
-Modify parameters **“GPS\_TYPE” = 1，“GPS\_RTCMSOURCE” = 0，“SERIALPASS” = 0**. After that, click `write params` then `Commit Params` and reboot the HerePro.
-
-![](<../.gitbook/assets/2en (2) (2) (1).png>)
-
 After power cycle the HereProV2, connect it to the computer through its USB port. Select the lower COM port as there are 2 for HereProV2.
 
 ![](../.gitbook/assets/herepro-3en.png)
 
 After connecting, go to Config > MAVFtp > APM > scripts screen and right click. Click Upload to import the new Lua script. Then reboot the HereProV2.
 
-![](../.gitbook/assets/herepro-4.1en.jpg)
-
-("Right click here")
+![("Right click here")](../.gitbook/assets/herepro-4.1en.jpg)
 
 Or connect HereProV2 to PC with USB-Type c directly.
 
 Connect the HereProV2 to Mission Planner via USB. Go to Config > Full Parameter page to modify the relative parameters:&#x20;
+
+<figure><img src="../.gitbook/assets/type-c (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6. Firmware update
 
@@ -196,117 +192,122 @@ Wait for the firmware update to complete. Confirm the change in SW Version. If t
 
 ### 7. RTK manual
 
-**Using Mission Planner for base surveying/rover positioning**
-
-> In the tutorial, Mission Planner and Arducopter-4.0.7 will be used for demonstration.
->
-> For RTK, 2 HerePro modules are needed. One as base and one as rover respectively.
+This part of the tutorial uses Mission Planner ground software and Arducopter-4.3.5 flight firmware for operating instructions. RTK mode requires a base station. The following tutorial Uses HereProV2 as an example. Users can also use other u-blox M8P/F9P base stations (such as Here+ RTK Base, etc.), or use the local wireless RTK correction service.
 
 **Setup:**
 
-To use HerePro RTK, you will need the following hardware: autopilot, computer, telemetry, HerePro x2, 6V-40V power supply, Tripod(Stand)
+To use HereProV2 RTK, you will need the following hardware : autopilot, computer, telemetry, HereProV2 x2, 6V-40V power supply, Tripod(Stand)and a USB Type-C cable.
 
-![](../.gitbook/assets/herepro-8en.png)
+To use HereProV2 on a UXV, you need the following hardware : Computer, telemetry modules, 2 x HereProV2, Tripod(Stand).
 
-**The following operations use 2 HerePro module, with one as base and one as rover respectively. Connecting them 1 by 1 to setup their parameters.**
+![](<../.gitbook/assets/HerePro EN-20230712-2稿.jpg>)
 
-**HerePro RTK rover parameter settings:**
+The following operations use 2 HereProV2 modules, with one as base and one as rover respectively. Connecting them 1 by 1 to setup their parameters.
 
-Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro.
+**HereProV2 RTK rover parameter settings:**&#x20;
 
-![](../.gitbook/assets/herepro-2.using-with-ardupilot.png)
+Connect the 4pin CAN cable from CAN port on HereProV2 to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HereProV2.
 
-Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > DRONECAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
+Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:&#x20;
 
-![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (1) (1).png>)
+![](<../.gitbook/assets/fw4 (1).png>)
 
-Modify parameters **“GPS\_TYPE = 1“ , “GPS\_RTCMSOURCE = 10” , “SERIALPASS = 0“ , "CAN\_NODE = 9"**. After that, click `write params` then `Commit Params` and disconnect the HerePro. Connect another HerePro and continue.
+Modify parameters **“GPS\_TYPE = 1“**，**“SERIAL\_PASS1 = 0“**. After that, click write params then Commit Params and disconnect the HereProV2.
 
-![](<../.gitbook/assets/2en (2) (1) (1).png>)
+![](<../.gitbook/assets/fw5 (1).png>)
 
-**HerePro Base parameter settings:**
+Connect another HereProV2 and continue.\
 
-Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. supply 6V - 40V to HerePro.
 
-![](../.gitbook/assets/herepro-2.using-with-ardupilot.png)
+**HereProV2 Base parameter settings(Ground side):**&#x20;
 
-Connect the autopilot to Mission Planner via USB. Go to `Initial Settings > Optional Hardware > DRONECAN` page and click `SLCan Mode CAN1`. CAN device status will show up. Click `Menu > parameters` at the right-hand-side to modify the following parameters:
+Connect the 4pin CAN cable from left-hand-side CAN port on HereProV2 to CAN1 or CAN2 on autopilot. supply 6V - 40V to HereProV2.
 
-![](<../.gitbook/assets/herepro-connect-the-autopilot-to-mission-planner-via-usb (3) (1) (2).png>)
+Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:&#x20;
 
-Modify parameters **“SERIALPASS = 1”**. After that, click `write params` then `Commit Params` and disconnect the HerePro.
+<figure><img src="../.gitbook/assets/fw4.png" alt=""><figcaption></figcaption></figure>
 
-![](../.gitbook/assets/herepro-9en.png)
+Modify parameters **“SERIAL\_PASS1 = 1”**. After that, click write params then Commit Params and disconnect the HereProV2.
+
+<figure><img src="../.gitbook/assets/fw5.png" alt=""><figcaption></figcaption></figure>
 
 **Before using, please ensure that everything are correctly connected.:**&#x20;
 
-**Base:** Power the HerePro base with 6V-40V. Connect its USB port to computer USB port. Connect a telemetry to another port on computer.
+**Base:** \
+Power the HereProV2 base with 6V-40V. \
+Connect its USB port to the computer USB port. (Or connect HereProV2 with type-c cable to PC)\
+Connect a telemetry to another port on the computer.
 
-**Rover:** Power the HerePro with 6V-40V. Connect it to CAN1 port on autopilot. Connect a telemetry to TELEM1 port on autopilot.
+**Rover:** \
+Power the HereProV2 with 6V-40V. Connect it to CAN1 port on autopilot. Connect a telemetry to TELEM1 port on autopilot.
 
-**Antenna Placement**:
-
-**RTK Antenna placement is very important for getting precise RTK positioning**
-
-RTK requires much better environment to work. There are special requirements on placement of its antenna.
+**Antenna Placement:** \
+**RTK Antenna placement is very important for getting precise RTK positioning**\
+RTK requires a much better environment to work. There are special requirements on placement of its antenna.
 
 The best environment requires the base and rover antenna to have a clear view of the sky that is 20 degrees above the horizon. RTK antenna can be elevated but make sure that there are no obstacles around, such as buildings, trees, cars, and etc.
 
-**Example of a bad environment:** indoors, crowded urban area, forest, near the ground.
+**Examples of a bad environment:** indoors, crowded urban area, forest, near the ground.
 
-**Example of a good environment:** Open spaces, peak of the mountains, roof of buildings.
+**Examples of a good environment**: Open spaces, peak of the mountains, roof of buildings.
 
-Do not place the antenna near electronic devices, as high power electronic devices nearby may generate frequency noise which interfere GPS signal. Examples are mobile phone base stations, high voltage transformers, and etc.
+Do not place the antenna near electronic devices, as high power electronic devices in close proximity may affect the radio frequency noise of the GPS signal. Examples are mobile phone base stations, high voltage transformers, and etc.
 
-Please place the base station in an outdoor environment with sufficient sky coverage to obtain good satellite signal. Place the base station on a stable and elevated platform such as a tripod.
+Please place the base station in an outdoor environment with sufficient sky coverage to obtain good satellite signal.&#x20;
 
-**Base Module Setting using Mission Planner:**
+Place the base station on a stable and elevated platform such as a tripod.
 
-Start with base module setup. During the base station setup, the rover and the UAV do not need to be turned on.
+
+
+### **Base Module Setting using Mission Planner:**
+
+Start with base module setup. During the base station setup, the rover and the UXV do not need to be turned on.
 
 Open Mission Planner ground station software on computer and go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
-![](../.gitbook/assets/herepro-11en.png)
+<figure><img src="../.gitbook/assets/11en-1619681019905.png" alt=""><figcaption></figcaption></figure>
 
-Select the correct base module COM port (There are 2 COM port for HerePro. Eg: COM13 and COM14. Select the bottom one.) at the top-left corner. Select baud rate **38400**. Uncheck **Send GGA**. Check “**M8P/F9P autoconfig**” and “**M8P fw 130+/F9P**”. Then click `connect`. In the `SurveyIn Acc` section, enter the expected absolute geographic accuracy. In the Time column, enter the expected minimum survey time. Click `Restart`. The ground station will now transfer the data you have entered to the HerePro base, the base module will start surveying. You will see the following screen:
+Select the correct base module COM port (There are 2 COM port for HereProV2. Eg: COM13 and COM14. Select the bottom one.) at the top-left corner. Select baud rate **38400**. Uncheck **Send GGA**. Check “**M8P/F9P autoconfig**” and “**M8P fw 130+/F9P**”. Then click connect. In the SurveyIn Acc section, enter the expected absolute geographic accuracy. In the Time column, enter the expected minimum survey time. Click Restart. The ground station will now transfer the data you have entered to the HereProV2 base, the base module will start surveying. You will see the following screen:
 
-![](../.gitbook/assets/herepro-12en.png)
+<figure><img src="../.gitbook/assets/12en.png" alt=""><figcaption></figcaption></figure>
 
 During the survey process, the right box will show the current survey status:
 
-**Position is invalid:** The base station has not acquire a valid position yet;
+**Position is invalid:** The base station has not yet reached a valid location;
 
 **In Progress:** The survey is still in progress;
 
-**Duration:** The number of seconds from when the current surveying task started;
+**Duration:** The number of seconds that the current surveying task has been executed;
 
 **Observation:** The number of observations acquired;
 
 **Current Acc:** Absolute geographic accuracy that the current base station can achieve;
 
-**The Green bar** at the lower part of the Mission Planner page shows the satellites being detected and the signal strength corresponds to each satellite. Ensure at least eight or more satellite signals are higher than the red line (The satellite is counted into effective number of satellites only if its signal exceeds the red line).
+**The Green bar** at the lower part of the Mission Planner page shows the current satellites being detected and the signal strength related to each satellite. At least eight or more satellite signals need to be guaranteed to exceed the red line (Only when the satellite signal exceeds the red line, the effective number of satellites have been connected).
 
-Please noted that the absolute geographic accuracy of the base station here will affect the absolute geographic accuracy of the rover module, but the relative accuracy between the base station and rover is unaffected. If your application does not require UAV having high absolute geographic accuracy, you do not need to set the base station’s precision too high, which may results long surveying time.
+The base station needs a certain amount of time to meet the accuracy requirements of your input. Testing shows that in an open area without sky coverage, the base station will achieve the absolute accuracy of 2m within a few minutes; to reach the absolute accuracy of less than 30cm takes about an hour; to reach the absolute accuracy of 10cm takes a few hours.
+
+It should be noted that the absolute geographic accuracy of the base station here will affect the absolute geographic accuracy of the rover module without affecting the relative accuracy between the base station and rover. If your application does not require UXV with high absolute geographic accuracy, you do not need to set the base station's precision too high, which helps to avoid a longer survey time.
 
 Even if the accuracy of the base station is 1.5 to 2 m, the position accuracy of the rover module relative to the base station can still reach the centimeter level.
 
 After the survey is complete, the Mission Planner will display the following page:
 
-![](../.gitbook/assets/herepro-15en.png)
+<figure><img src="../.gitbook/assets/15en (1).png" alt=""><figcaption></figcaption></figure>
 
-In the RTCM box, the base status indicator is green and indicators for different GNSS systems are also green. The box on the right shows `Position is valid`.
+In the RTCM box, the base status indicator is green and indicators for different GNSS systems are also green. The box on the right shows Position is valid.
 
-To store the current location in the Mission Planner: Click `Save Current Pos`, enter a name in the dialogue box, and click `OK`. As shown below, you can see your saved location in the list. Click the `Use` button for the location you saved, the status will show `Using FixedLLA`. If you set the base station in the same location later, you do not need to survey again. You may click the `Use` button that corresponds to the location you have saved.
+To store the current location in Mission Planner : Click Save Current Pos, enter a name in the dialogue box, and click OK. As shown below, you can see your saved location in the list. Click the Use button for the location you saved, the status will show Using FixedLLA. If you set the base station in the same location later, you do not need to survey again. You may click the Use button that corresponds to the location you have saved.
 
-![](../.gitbook/assets/herepro-14-1en.png)
+<figure><img src="../.gitbook/assets/14-1en.png" alt=""><figcaption></figcaption></figure>
 
-**Rover Module and Flight Controller Setup**
+### **Rover Module and Flight Controller Setup**
 
-After the base station is set up, you can turn on the UAV. Using the same Mission Planner to connect the telemetry, the base station data will be transmitted through telemetry to the HerePro rover on UAV. In the Mission Planner main page, you will see the current GPS status showing as RTK Float / RTK Fixed / 3D RTK, indicating UAV positioning has entered RTK mode. RTK Float is a floating-point solution; RTK Fixed is a fixed solution. RTK Fixed mode has higher accuracy and requires better signal strength. 3D RTK is unified saying of RTK Float / RTK in the Mission Planner Chinese version.
+After the base station is set up, you can turn on the UXV. Using the same Mission Planner to connect the telemetry, the base station data will be transmitted through telemetry to the HereProV2 rover on UXV. In the Mission Planner main page, you will see the current GPS status showing as RTK Float / RTK Fixed / 3D RTK, indicating UXVUAV positioning has entered RTK mode. RTK Float is a floating-point solution; RTK Fixed is a fixed solution. RTK Fixed mode has higher accuracy and requires better signal strength. 3D RTK is unified saying of RTK Float / RTK in the Mission Planner.
 
 ![](../.gitbook/assets/herepro-13-1en-1619681504839.png)
 
-**Single Base to Multiple Rovers:**
+### **Single Base to Multiple Rovers:**
 
 There are 2 methods to do this:
 
@@ -315,10 +316,10 @@ There are 2 methods to do this:
 
 Ground station configuration: connect all telemetry modules to the computer via USB hub. Open Mission Planner to locate the base then connect it with flight controllers. Select AUTO connecting as shown below. All recognized flight controllers on the ports will be connected. You may select the UAV from the dropdown list below:
 
-![](../.gitbook/assets/herepro-l1.jpg)
+![](../.gitbook/assets/rtk\_frame.png)
 
-If you connected the UAVs with 1 telemetry module, they should share the same COM port:
+If you connected the UXVs with 1 telemetry module, they should share the same COM port:
 
-![](../.gitbook/assets/herepro-l2.jpg)
+![](../.gitbook/assets/rtk\_frame2.png)
 
-2021/11/23
+2023/07/12
