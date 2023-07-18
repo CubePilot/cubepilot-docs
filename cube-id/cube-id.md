@@ -6,7 +6,7 @@
 
 ## Overview
 
-Cube ID is small size (25mm \* 13.75mm \* 3.5mm ) Remote ID which broadcasting information about UAVs in fligh through a Bluetooth 5.2 dual-mode unit, supports both CAN and serial protocols.
+Cube ID is small size (25mm \* 13.75mm \* 3.5mm ) Remote ID which broadcasting information about UAVs in flight through a Bluetooth 5.2 dual-mode unit, supports both CAN and serial protocols.
 
 Users can write different codes with one Cube ID only, to adapt to multiple UAVs based on their needs.
 
@@ -96,7 +96,7 @@ Go to **Operation** to set **(1)Operator ID , (2)Oper ID Type , (3)Self ID DESC*
 
 ## Testing
 
-
+***
 
 Download **DroneScanner** for IOS， **OpenDroneID** or **DroneScanner** for Android to detect and monitor nearby UAVs.
 
