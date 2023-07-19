@@ -196,9 +196,9 @@ This part of the tutorial uses Mission Planner ground software and Arducopter-4.
 
 **Setup:**
 
-To use HereProV2 RTK, you will need the following hardware : autopilot, computer, telemetry, HereProV2 x2, 6V-40V power supply, Tripod(Stand)and a USB Type-C cable.
+To use HereProV2 RTK, you will need the following hardware : autopilot, computer, telemetry, HereProV2, Tripod(Stand), and 6V-40V power supply or USB Type-C cable.
 
-To use HereProV2 on a UXV, you need the following hardware : Computer, telemetry modules, 2 x HereProV2, Tripod(Stand).
+To use HereProV2 on a UXV, you need the following hardware : Computer, telemetry modules, HereProV2, Tripod(Stand).
 
 ![](<../.gitbook/assets/HerePro EN-20230712-2稿.jpg>)
 
