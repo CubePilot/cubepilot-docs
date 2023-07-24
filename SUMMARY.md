@@ -122,6 +122,7 @@
 * [2023 CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/2023-cubepilot-ecosystem-autopilot-wiring-diagram.md)
 * [CubePilot Ecosystem Cube ID](cubepilot-ecosystem/cubepilot-ecosystem-cube-id.md)
 * [CubePilot Ecosystem Mission Planner](cubepilot-ecosystem/cubepilot-ecosystem-mission-planner.md)
+* [CubePilot Ecosystem BZB UAS ekoSKY](cubepilot-ecosystem/cubepilot-ecosystem-bzb-uas-ekosky.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
