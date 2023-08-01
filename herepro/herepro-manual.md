@@ -2,13 +2,13 @@
 
 ![](../.gitbook/assets/feng-mian-en1619661929732.png)
 
-## HereProV2 High Precision Multi-band RTK Navigation
+## HerePro High Precision Multi-band RTK Navigation
 
 ### Overview
 
-HereProV2 is a professional High Precision Multi-band RTK Navigation module. It supports various GNSS options such as BeiDou, Galileo, GLONASS, GPS, QZSS. To establish a precise Multi-band Multi-GNSS RTK system, follow these steps to connect two HereProV2 modules, one serving as the base and the other as the rover. It's important to note that both the HereProV2 rover and base have identical software and hardware, with the only variation being in the parameter settings.
+HerePro is a professional High Precision Multi-band RTK Navigation module. It supports various GNSS options such as BeiDou, Galileo, GLONASS, GPS, QZSS. To establish a precise Multi-band Multi-GNSS RTK system, follow these steps to connect two HerePro modules, one serving as the base and the other as the rover. It's important to note that both the HerePro rover and base have identical software and hardware, with the only variation being in the parameter settings.
 
-HereProV2 utilizes multi-frequency DGNSS signals with advanced algorithms to converge on an RTK Fix in seconds, achieving more reliable centimeter level positioning.
+HerePro utilizes multi-frequency DGNSS signals with advanced algorithms to converge on an RTK Fix in seconds, achieving more reliable centimeter level positioning.
 
 ### Features
 
@@ -18,21 +18,21 @@ HereProV2 utilizes multi-frequency DGNSS signals with advanced algorithms to con
 
 **3.** The tailor-made multi-band antenna from Taoglas supports L1, L2, and E5 frequencies. It features high gain, high sensitivity, and high stability.
 
-**4.** HereProV2 base supports both fixed and moving base mode, selectable for different scenarios to maximize performance.
+**4.** HerePro base supports both fixed and moving base mode, selectable for different scenarios to maximize performance.
 
-**5.** The HereProV2 module functions as both a base and a rover. Switching between these two functionalities is a straightforward process that can be achieved through parameter settings
+**5.** The HerePro module functions as both a base and a rover. Switching between these two functionalities is a straightforward process that can be achieved through parameter settings
 
-**6.** HereProV2 uses multi-frequency DGNSS signals with advanced algorithms. This allow fast convergence to an RTK Fix, achieving more reliable and stable centimeter level positioning.
+**6.** HerePro uses multi-frequency DGNSS signals with advanced algorithms. This allow fast convergence to an RTK Fix, achieving more reliable and stable centimeter level positioning.
 
-**7.** HereProV2 module is 15 x 78mm and 101g.
+**7.** HerePro module is 15 x 78mm and 101g.
 
-**8.** The HereProV2 supports voltages from 6V to 40V. This allows for compatibility with different voltage levels. To enhance safety, it supports redundant power input system.
+**8.** The HerePro supports voltages from 6V to 40V. This allows for compatibility with different voltage levels. To enhance safety, it supports redundant power input system.
 
-**9.** The HereProV2 module is designed with a circular ProfiLEDs. It offers multiple built-in display modes. These modes can be easily selected based on specific needs, either through parameter settings or by utilizing the onboard Lua Scripting feature. This flexibility enables the module to effectively convey notifications or serve as a navigation signal, enhancing its usability and adaptability in different applications.
+**9.** The HerePro module is designed with a circular ProfiLEDs. It offers multiple built-in display modes. These modes can be easily selected based on specific needs, either through parameter settings or by utilizing the onboard Lua Scripting feature. This flexibility enables the module to effectively convey notifications or serve as a navigation signal, enhancing its usability and adaptability in different applications.
 
 **10.** CAN FD, real time, and high transmission rate.
 
-**11.** Built-in 9-axis IMU. Through future firmware updates, HereProV2 can achieve tightly coupled DGNSS-INS-fusing solutions.
+**11.** Built-in 9-axis IMU. Through future firmware updates, HerePro can achieve tightly coupled DGNSS-INS-fusing solutions.
 
 ## Specifications
 
@@ -42,9 +42,9 @@ HereProV2 utilizes multi-frequency DGNSS signals with advanced algorithms to con
 
 ### 1. Install connector
 
-HereProV2 does not come with connector installed. Before first time using, install the port connector as shown below:
+HerePro does not come with connector installed. Before first time using, install the port connector as shown below:
 
-Align the mount holes on port connect and HereProV2. Then lock them tightly with 3 M3\*8 screws.
+Align the mount holes on port connect and HerePro. Then lock them tightly with 3 M3\*8 screws.
 
 \
 \
@@ -54,7 +54,7 @@ Align the mount holes on port connect and HereProV2. Then lock them tightly with
 
 ### 2. Using with Ardupilot:
 
-Connect the 4pin CAN cable from left-hand-side CAN port on HereProV2 to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HereProV2. (or connect HereProV2 with type-c to PC directly for power supply)
+Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro. (or connect HerePro with type-c to PC directly for power supply)
 
 Turn on the autopilot and connect it to Mission Planner. Go to Config - Full Parameter List page and modify the following parameters:
 
@@ -96,7 +96,7 @@ Select the compasses using (generally default setting is fine) and click "Start"
 >
 > **\*Please make sure that you are using the most recent stable release of PX4 firmware.**
 
-Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port. Then, supply 6V - 40V power to HereProV2. Connect to autopilot through GCS. Modify the parameter UAVCAN\_ENABLE to Sensors Automatic Conﬁg and reboot the autopilot.
+Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port. Then, supply 6V - 40V power to HerePro. Connect to autopilot through GCS. Modify the parameter UAVCAN\_ENABLE to Sensors Automatic Conﬁg and reboot the autopilot.
 
 ![](../.gitbook/assets/herepro-using-with-px4.jpg)
 
@@ -138,33 +138,33 @@ The above configuration assumes that you want the RTCMv3 data between the two GP
 
 ### 5.LED Control
 
-LED arrays on HereProV2 supports Lua script. The script can be saved into the EMMC on HereProV2.
+LED arrays on HerePro supports Lua script. The script can be saved into the EMMC on HerePro.
 
 > There is an official Lua script for default setting. Put it into the EMMC if needed.
 >
-> Prerequisites: Set HereProV2 to Rover mode. Then connect it to Mission Planner via USB and upload the script to HereProV2.
+> Prerequisites: Set HerePro to Rover mode. Then connect it to Mission Planner via USB and upload the script to HerePro.
 
-Connect the 4pin CAN cable from left-hand-side CAN port on HereProV2 to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HereProV2.
+Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro.
 
 Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:&#x20;
 
 ![](../.gitbook/assets/1en.png)
 
-Modify parameters “GPS\_TYPE” = 1，**“GPS\_RTCMSOURCE” = 0**，**“GPS\_RTCMSOURCE” = 0**. After that, click write params then Commit Params and reboot the HereProV2.
+Modify parameters “GPS\_TYPE” = 1，**“GPS\_RTCMSOURCE” = 0**，**“GPS\_RTCMSOURCE” = 0**. After that, click write params then Commit Params and reboot the HerePro.
 
 ![](../.gitbook/assets/2en.png)
 
-After power cycle the HereProV2, connect it to the computer through its USB port. Select the lower COM port as there are 2 for HereProV2.
+After power cycle the HerePro, connect it to the computer through its USB port. Select the lower COM port as there are 2 for HerePro.
 
 ![](../.gitbook/assets/herepro-3en.png)
 
-After connecting, go to Config > MAVFtp > APM > scripts screen and right click. Click Upload to import the new Lua script. Then reboot the HereProV2.
+After connecting, go to Config > MAVFtp > APM > scripts screen and right click. Click Upload to import the new Lua script. Then reboot the HerePro.
 
 ![("Right click here")](../.gitbook/assets/herepro-4.1en.jpg)
 
-Or connect HereProV2 to PC with USB-Type c directly.
+Or connect HerePro to PC with USB-Type c directly.
 
-Connect the HereProV2 to Mission Planner via USB. Go to Config > Full Parameter page to modify the relative parameters:&#x20;
+Connect the HerePro to Mission Planner via USB. Go to Config > Full Parameter page to modify the relative parameters:&#x20;
 
 <figure><img src="../.gitbook/assets/type-c (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -176,9 +176,9 @@ Connect the HereProV2 to Mission Planner via USB. Go to Config > Full Parameter 
 
 ![](../.gitbook/assets/herepro-missionplanner.png)
 
-Connect the 4pin CAN cable from left-hand-side CAN port on HereProV2 to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HereProV2. Connect the autopilot to Mission Planner and go to UAVCAN screen. Click SLCan Mode CAN1 to load CAN GPS status.
+Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro. Connect the autopilot to Mission Planner and go to UAVCAN screen. Click SLCan Mode CAN1 to load CAN GPS status.
 
-Click Menu > Update to check if there are any firmware updates for HereProV2.
+Click Menu > Update to check if there are any firmware updates for HerePro.
 
 ![](../.gitbook/assets/fw1.png)
 
@@ -186,60 +186,60 @@ Click the Update button. A window will pop up and ask if you want to search the 
 
 ![](../.gitbook/assets/fw2.png)
 
-Wait for the firmware update to complete. Confirm the change in SW Version. If the update was successful, reboot the HereProV2.
+Wait for the firmware update to complete. Confirm the change in SW Version. If the update was successful, reboot the HerePro.
 
 ![](../.gitbook/assets/fw3.png)
 
 ### 7. RTK manual
 
-This part of the tutorial uses Mission Planner ground software and Arducopter-4.3.5 flight firmware for operating instructions. RTK mode requires a base station. The following tutorial Uses HereProV2 as an example. Users can also use other u-blox M8P/F9P base stations (such as Here+ RTK Base, etc.), or use the local wireless RTK correction service.
+This part of the tutorial uses Mission Planner ground software and Arducopter-4.3.5 flight firmware for operating instructions. RTK mode requires a base station. The following tutorial Uses HerePro as an example. Users can also use other u-blox M8P/F9P base stations (such as Here+ RTK Base, etc.), or use the local wireless RTK correction service.
 
 **Setup:**
 
-To use HereProV2 RTK, you will need the following hardware : autopilot, computer, telemetry, HereProV2, Tripod(Stand), and 6V-40V power supply or USB Type-C cable.
+To use HerePro RTK, you will need the following hardware : autopilot, computer, telemetry, HerePro, Tripod(Stand), and 6V-40V power supply or USB Type-C cable.
 
-To use HereProV2 on a UXV, you need the following hardware : Computer, telemetry modules, HereProV2, Tripod(Stand).
+To use HerePro on a UXV, you need the following hardware : Computer, telemetry modules, HerePro, Tripod(Stand).
 
 ![](<../.gitbook/assets/HerePro EN-20230712-2稿.jpg>)
 
-The following operations use 2 HereProV2 modules, with one as base and one as rover respectively. Connecting them 1 by 1 to setup their parameters.
+The following operations use 2 HerePro modules, with one as base and one as rover respectively. Connecting them 1 by 1 to setup their parameters.
 
-**HereProV2 RTK rover parameter settings:**&#x20;
+**HerePro RTK rover parameter settings:**&#x20;
 
-Connect the 4pin CAN cable from CAN port on HereProV2 to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HereProV2.
+Connect the 4pin CAN cable from CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro.
 
 Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:&#x20;
 
 ![](<../.gitbook/assets/fw4 (1).png>)
 
-Modify parameters **“GPS\_TYPE = 1“**，**“SERIAL\_PASS1 = 0“**. After that, click write params then Commit Params and disconnect the HereProV2.
+Modify parameters **“GPS\_TYPE = 1“**，**“SERIAL\_PASS1 = 0“**. After that, click write params then Commit Params and disconnect the HerePro.
 
 ![](<../.gitbook/assets/fw5 (1).png>)
 
-Connect another HereProV2 and continue.\
+Connect another HerePro and continue.\
 
 
-**HereProV2 Base parameter settings(Ground side):**&#x20;
+**HerePro Base parameter settings(Ground side):**&#x20;
 
-Connect the 4pin CAN cable from left-hand-side CAN port on HereProV2 to CAN1 or CAN2 on autopilot. supply 6V - 40V to HereProV2.
+Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. supply 6V - 40V to HerePro.
 
 Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:&#x20;
 
 <figure><img src="../.gitbook/assets/fw4.png" alt=""><figcaption></figcaption></figure>
 
-Modify parameters **“SERIAL\_PASS1 = 1”**. After that, click write params then Commit Params and disconnect the HereProV2.
+Modify parameters **“SERIAL\_PASS1 = 1”**. After that, click write params then Commit Params and disconnect the HerePro.
 
 <figure><img src="../.gitbook/assets/fw5.png" alt=""><figcaption></figcaption></figure>
 
 **Before using, please ensure that everything are correctly connected.:**&#x20;
 
 **Base:** \
-Power the HereProV2 base with 6V-40V. \
-Connect its USB port to the computer USB port. (Or connect HereProV2 with type-c cable to PC)\
+Power the HerePro base with 6V-40V. \
+Connect its USB port to the computer USB port. (Or connect HerePro with type-c cable to PC)\
 Connect a telemetry to another port on the computer.
 
 **Rover:** \
-Power the HereProV2 with 6V-40V. Connect it to CAN1 port on autopilot. Connect a telemetry to TELEM1 port on autopilot.
+Power the HerePro with 6V-40V. Connect it to CAN1 port on autopilot. Connect a telemetry to TELEM1 port on autopilot.
 
 **Antenna Placement:** \
 **RTK Antenna placement is very important for getting precise RTK positioning**\
@@ -267,7 +267,7 @@ Open Mission Planner ground station software on computer and go to the "initial 
 
 <figure><img src="../.gitbook/assets/11en-1619681019905.png" alt=""><figcaption></figcaption></figure>
 
-Select the correct base module COM port (There are 2 COM port for HereProV2. Eg: COM13 and COM14. Select the bottom one.) at the top-left corner. Select baud rate **38400**. Uncheck **Send GGA**. Check “**M8P/F9P autoconfig**” and “**M8P fw 130+/F9P**”. Then click connect. In the SurveyIn Acc section, enter the expected absolute geographic accuracy. In the Time column, enter the expected minimum survey time. Click Restart. The ground station will now transfer the data you have entered to the HereProV2 base, the base module will start surveying. You will see the following screen:
+Select the correct base module COM port (There are 2 COM port for HerePro. Eg: COM13 and COM14. Select the bottom one.) at the top-left corner. Select baud rate **38400**. Uncheck **Send GGA**. Check “**M8P/F9P autoconfig**” and “**M8P fw 130+/F9P**”. Then click connect. In the SurveyIn Acc section, enter the expected absolute geographic accuracy. In the Time column, enter the expected minimum survey time. Click Restart. The ground station will now transfer the data you have entered to the HerePro base, the base module will start surveying. You will see the following screen:
 
 <figure><img src="../.gitbook/assets/12en.png" alt=""><figcaption></figcaption></figure>
 
@@ -303,7 +303,7 @@ To store the current location in Mission Planner : Click Save Current Pos, enter
 
 ### **Rover Module and Flight Controller Setup**
 
-After the base station is set up, you can turn on the UXV. Using the same Mission Planner to connect the telemetry, the base station data will be transmitted through telemetry to the HereProV2 rover on UXV. In the Mission Planner main page, you will see the current GPS status showing as RTK Float / RTK Fixed / 3D RTK, indicating UXVUAV positioning has entered RTK mode. RTK Float is a floating-point solution; RTK Fixed is a fixed solution. RTK Fixed mode has higher accuracy and requires better signal strength. 3D RTK is unified saying of RTK Float / RTK in the Mission Planner.
+After the base station is set up, you can turn on the UXV. Using the same Mission Planner to connect the telemetry, the base station data will be transmitted through telemetry to the HerePro rover on UXV. In the Mission Planner main page, you will see the current GPS status showing as RTK Float / RTK Fixed / 3D RTK, indicating UXVUAV positioning has entered RTK mode. RTK Float is a floating-point solution; RTK Fixed is a fixed solution. RTK Fixed mode has higher accuracy and requires better signal strength. 3D RTK is unified saying of RTK Float / RTK in the Mission Planner.
 
 ![](../.gitbook/assets/herepro-13-1en-1619681504839.png)
 
