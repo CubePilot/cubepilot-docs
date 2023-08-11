@@ -1,10 +1,6 @@
 # Cube ID
 
-<figure><img src="../.gitbook/assets/CubeID-can.jpg" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/CubeID-serial.jpg" alt=""><figcaption></figcaption></figure>
-
-## Overview
+Overview
 
 Cube ID is small size (25mm \* 13.75mm \* 3.5mm ) Remote ID which broadcasting information about UAVs in flight through a Bluetooth 5.2 dual-mode unit, supports both CAN and serial protocols.
 
@@ -74,15 +70,33 @@ _\*Keep the antenna away from the propeller._
 
 <figure><img src="../.gitbook/assets/odid.png" alt=""><figcaption></figcaption></figure>
 
-3. Go to "Full Parameter List" and find "CAN\_P1\_DRIVER". Change it to "1" to enable CAN.
+#### For CAN
+
+1.Go to "Full Parameter List" and find "CAN\_P1\_DRIVER". Change it to "1" to enable CAN.
 
 <figure><img src="../.gitbook/assets/can.png" alt=""><figcaption></figcaption></figure>
 
-（or if you use serial port ,find Serialx\_PROTOCAL ,change it to mavlink and make the baud rate to 57600）
+2.  Modify the following parameters:
+
+    **DID\_CANDRIVER : 1** (enable relative CAN port)
+
+<figure><img src="../.gitbook/assets/}L1NN5&#x60;KJKLVD]7&#x60;Z%1YD2-1691373851187-2.png" alt=""><figcaption></figcaption></figure>
+
+**For Serial**
+
+1.Find Serialx\_PROTOCAL and change it to mavlink）
 
 <figure><img src="../.gitbook/assets/serial.png" alt=""><figcaption></figcaption></figure>
 
-4. Go to MissionPlanner homepage select **Drone ID** to set **(1)UAS ID\*** **(2)UAD ID Type** and **(3)UA Type**
+2.Modify the following parameters:
+
+**DID\_CANDRIVER : 0** (disable relative CAN port)
+
+**DID\_MAVPORT :** (Serial port number to send OpenDroneID MAVLink messages to. Can be -1 if using DroneCAN)
+
+<figure><img src="../.gitbook/assets/serial (2).png" alt=""><figcaption></figcaption></figure>
+
+Go to MissionPlanner homepage select **Drone ID** to set **(1)UAS ID\*** **(2)UAD ID Type** and **(3)UA Type**
 
 <figure><img src="../.gitbook/assets/Droneid.png" alt=""><figcaption></figcaption></figure>
 
