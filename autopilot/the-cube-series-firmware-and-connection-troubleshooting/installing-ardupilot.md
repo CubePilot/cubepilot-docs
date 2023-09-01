@@ -48,13 +48,13 @@ Cube Orange and Yellow should show two com ports connected 'Cube Orange Mavlink 
 
 ![Cube Orange Com Ports in Device Manager ](../../.gitbook/assets/cube-orange-device-manager-ports.jpg)
 
-For Cube Orange and Yellow if you see 'ProfiCNC CUBE H7 (COMx)' or ' ProfiCNC CUBE F7 (COMx)' then the drivers are not installed correctly and follow the above process again.
+For Cube Orange and Yellow if you see 'CubePilot CUBE H7 (COMx)' or ' CubePilot CUBE F7 (COMx)' then the drivers are not installed correctly and follow the above process again.
 
 ### Cube Orange & Yellow - Windows 7
 
-There are known issues installing the Cube Orange and Cube Yellow with Windows 7. Its advised you use Windowns 10 or later however Windows 7 can be made to work in some circumstances by manually deleting the driver files and installing the latest driver file and forcing Windows to install the correct driver manually.
+There are known issues installing the Cube Orange and Cube Yellow with Windows 7. Its advised you use Windows 10 or later however Windows 7 can be made to work in some circumstances by manually deleting the driver files and installing the latest driver file and forcing Windows to install the correct driver manually.
 
-1. Delete ProfiCNC CUBE H7/F7 from device manager while the Cube is still connected, then disconnect the Cube from USB.
+1. Delete CubePilot CUBE H7/F7 from device manager while the Cube is still connected, then disconnect the Cube from USB.
 2. Uninstall and reinstall the latest Cube drivers as linked above.
 3. Reconnect the Cube Orange/Yellow and two devices will show up in “Other Devices” called CubeOrange-BL.&#x20;
 4. The top entry will change to CubeOrange and you should see the message from windows notifying you that it is installing device drivers.
