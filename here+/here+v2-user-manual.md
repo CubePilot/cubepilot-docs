@@ -2,7 +2,7 @@
 
 ## Overview
 
-HERE+/HERE+ V2 RTK kit developed by HEX and Ardupilot Team is compatible with Mission Planner, a ground control station for ArduPilot, as well as PX4 and QGroundControl. The kit is the first Differential Global Positioning System (DGPS) module for open source flight controller users.
+HERE+/HERE+ V2 RTK kit developed by CubePilot and Ardupilot Team is compatible with Mission Planner, a ground control station for ArduPilot, as well as PX4 and QGroundControl. The kit is the first Differential Global Positioning System (DGPS) module for open source flight controller users.
 
 RTK technology provides much more accurate position estimates than regular GNSS systems. Its ideal accuracy can reach up to centimeters, which greatly improve the precision of flight.
 
