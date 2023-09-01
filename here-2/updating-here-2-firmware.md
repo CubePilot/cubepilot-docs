@@ -70,6 +70,6 @@ On the Here 2 entry in the list, select **Update**, navigate to the **bootloader
 
 ## Step 11: Flash the application
 
-Select **Update** again, navigate to the **Here2\_com.hex.here\_2.1-crc.bin** file and open it to flash the latest firmware.
+Select **Update** again, navigate to the **Here2\_com.here\_2.1-crc.bin** file and open it to flash the latest firmware.
 
-{% file src="../.gitbook/assets/here2_com.hex.here_2.1-crc (1).bin" %}
+{% file src="../.gitbook/assets/Here2_com.here_2.1-crc.bin" %}
