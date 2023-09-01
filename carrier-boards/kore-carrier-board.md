@@ -27,7 +27,7 @@ While this carrier board is geometrically optimized for quadcopters, X8 configur
 * Connectors for every function of The CUBE
 * Easily accessible PWM voltage level selector (3.3V or 5V)
 * Resistant to ground bounce on PWM signal
-* Connector-compatible with standard ProfiCNC carrier board
+* Connector-compatible with standard CubePilot carrier board
 * Connector ports for debugging IO and FMU processors
 
 ## Power
@@ -207,7 +207,7 @@ The following procedure may be used to configure the board for an X-8 (OctaQuad)
 
 ## Digital and Analog Connectors <a href="#digital-and-analog-connectors" id="digital-and-analog-connectors"></a>
 
-The SpektreWorks carrier board comes with all of the same JST-brand receptacles as the standard ProfiCNC carrier board with a few exceptions. The tables below describe the pin-out of each JST connector.
+The SpektreWorks carrier board comes with all of the same JST-brand receptacles as the standard CubePilot carrier board with a few exceptions. The tables below describe the pin-out of each JST connector.
 
 ### Telemetry 1
 
