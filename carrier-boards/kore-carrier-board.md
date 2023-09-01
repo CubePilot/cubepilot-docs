@@ -116,7 +116,7 @@ Any motor number can be re-mapped to any output. This is done by setting the SER
 
 For example, if I wanted to plug Motor 3 into the MAIN5 connector on the board, I would set the SERVO5\_FUNCTION parameter to 35.
 
-### Hex Setup
+### Hexacopter Setup
 
 The following procedure may be used to configure the board for a hexacopter:
 
