@@ -123,6 +123,7 @@
 * [CubePilot Ecosystem Cube ID](cubepilot-ecosystem/cubepilot-ecosystem-cube-id.md)
 * [CubePilot Ecosystem Mission Planner](cubepilot-ecosystem/cubepilot-ecosystem-mission-planner.md)
 * [CubePilot Ecosystem BZB UAS ekoSKY](cubepilot-ecosystem/cubepilot-ecosystem-bzb-uas-ekosky.md)
+* [CubePilot Ecosystem 10th Anniversary of The Cube](cubepilot-ecosystem/cubepilot-ecosystem-10th-anniversary-of-the-cube.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
