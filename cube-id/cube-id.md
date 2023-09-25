@@ -60,7 +60,7 @@ _\*Keep the antenna away from the propeller._
 >
 >
 >
-> For normal user please load latest Ardupilot firmware.
+> For normal user please load latest Ardupilot firmware. Do ensure that the build you are using has OpenDroneID feature enabled. Easiest way to tell is that `DID_*` parameters should appear.
 
 1. Connect the flight controller to computer via USB cable. Open Mission Planner（latest version）. Install the OpenDroneID firmware firmware by "Load custom firmware".
 
@@ -121,6 +121,19 @@ Operator are able to check UAV's location, ID , operator ID, distance from opera
 > For more information about Remote ID, you may check in Wiki:
 >
 > [https://ardupilot.org/copter/docs/common-remoteid.html](https://ardupilot.org/copter/docs/common-remoteid.html)
+
+## Persistent UAS ID
+
+* To meet FAA requirements for manufacturers, a persistent ID needs to be recorded in Flight system.
+* To achieve this with CubeID + Ardupilot setup. Ardupilot's persistent storage feature is used.
+* The Manufacturer needs to integrate following changes depending on which release they are on:
+  * Ardupilot 4.3 Releases ([https://github.com/ArduPilot/ardupilot/pull/24367](https://github.com/ArduPilot/ardupilot/pull/24367))
+  * Ardupilot 4.4 Releases ([https://github.com/ArduPilot/ardupilot/pull/24370](https://github.com/ArduPilot/ardupilot/pull/24370))
+* The changes are merged into latest master at the time of writing this doc, and are expected to be added to stable release 4.4.2.
+* Once the firmware with said changes is loaded, parameter `DID_OPTIONS` need to be set to **4**
+* This can also be done as part of default.parms at custom build stage, to ease the setup process.
+* After the setting, the first reception of Basic ID containing Drone ID and other details (from Mission Planner or any other GCS) will be persistently recorded. Please note that once set the persistent parameters can't be rolled back.
+* The ID will be persistently linked with the Flight Controller.
 
 ## Updating
 
