@@ -74,9 +74,10 @@
 * [Kore Carrier Board](carrier-boards/kore-carrier-board.md)
 * [ADS-B IN Carrier Board](carrier-boards/ads-b-carrier-board.md)
 * [Mini Carrier Board](carrier-boards/mini-carrier-board.md)
-* [Standard Carrier Board Footprint & Dimensions](carrier-boards/standard-carrier-board-footprint-and-dimensions.md)
 * [Airbot Systems Mini Carrier Board](carrier-boards/airbot-mini-carrier-board/README.md)
   * [Airbot Systems Mini Carrier Board Set User Guide](carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md)
+* [EDU450 Carrier Board](carrier-boards/edu450-carrier-board.md)
+* [Standard Carrier Board Footprint & Dimensions](carrier-boards/standard-carrier-board-footprint-and-dimensions.md)
 * [Carrier Boards FAQ](carrier-boards/carrier-boards-faq.md)
 
 ## Cube ID
