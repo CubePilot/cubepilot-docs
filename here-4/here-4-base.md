@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/Here4-Base-EN-20230905-1 (1).png" alt=""><figcaption></figcaption></figure>
 
-### Overview
+## Overview
 
 
 
@@ -12,7 +12,7 @@ Employing RTK (Real-Time Kinematic) technology offers more precise position esti
 
 Furthermore, the Here 4 Base is designed for user-friendliness. Setting it up to work with Mission Planner is a straightforward process, requiring minimal configuration. For data communication between rover and base modules, a pair of telemetry modules is required (please note that these modules are not included in the standard package).
 
-#### Pinout
+### Pinout
 
 
 
@@ -46,7 +46,7 @@ To initiate the U-center software, click on the connection button (refer to red 
 
 \*\*Download firmware from U-blox official website. \*\*
 
-(https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources)
+([https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources](https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources))
 
 **Please made sure baud rate is 230400**.
 
@@ -60,9 +60,9 @@ Done
 
 **(If the upload process is successful, you will see the upgrade interface displayed in green. However, if the upgrade fails, the interface will appear in red. If the process gets interrupted or becomes unresponsive for an extended period, you will need to power cycle the modules and then attempt the uploading process again.)**
 
-### Operation instruction
+## Operation instruction
 
-#### 1. Base/Rover Survey by Mission Planner
+### 1. Base/Rover Survey by Mission Planner
 
 > This part of the tutorial uses Mission Planner ground software and Arducopter-4.3.5 flight firmware for operating instructions.
 
@@ -82,7 +82,7 @@ To use Here 4 Base on a UXV, you need the following hardware： Computer, teleme
 
 <figure><img src="../.gitbook/assets/7 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-**Antenna Placing**
+#### **Antenna Placing**
 
 **Placing the RTK Antenna is very important for getting precise RTK positioning**
 
@@ -102,7 +102,7 @@ Place the base station on a stable and elevated platform, such as a tripod.
 
 <figure><img src="../.gitbook/assets/8 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-**Base Module Setting using Mission Planner**
+#### **Base Module Setting using Mission Planner**
 
 Start with a base module setup first. During the base station setup, the rover and the UXV do not need to be turned on.
 
@@ -148,13 +148,13 @@ To store the current location in the Mission Planner: Click "Save Current Pos", 
 
 <figure><img src="../.gitbook/assets/12 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-**Rover Module and Flight Controller Setup**
+### **Rover Module and Flight Controller Setup**
 
 After the base station is set up, you can turn on the UXV. Using the same telemetry module to connect Mission Planner, the base station data will be transmitted through the telemetry module to the Here 4 rover module on the UXV. In the Mission Planner main page, you can see the current GPS status displayed as RTK Float / RTK Fixed / 3D RTK, indicating that the positioning of the UXV has entered the RTK mode. RTK Float is a floating-point solution; RTK Fixed is a fixed solution. RTK Fixed mode has higher accuracy and requires better signal strength. 3D RTK is unified saying of RTK Float / RTK in the Mission Planner version.
 
 <figure><img src="../.gitbook/assets/13 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-**2. Single Base to Multiple Rovers**
+### **2. Single Base to Multiple Rovers**
 
 There are 2 methods to do this:
 
