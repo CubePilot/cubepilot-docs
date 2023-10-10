@@ -52,6 +52,90 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 
 <table><thead><tr><th width="245"></th><th></th></tr></thead><tbody><tr><td>CAN</td><td>x2（Current firmware only supports CAN1-green、blue、white、grey）</td></tr><tr><td>Working Temperature</td><td>-40 °C to +85 °C</td></tr><tr><td>Size</td><td>16 x 68 mm</td></tr><tr><td>Weight</td><td>60g (with cable)</td></tr></tbody></table>
 
+**Here 4 can enable flight controller function by connect to a Breakout board.**
+
+**(Current firmware does not support this function)**
+
+<figure><img src="../.gitbook/assets/breakoutboard-1696904167977-7.png" alt=""><figcaption></figcaption></figure>
+
+### **Power**
+
+| PIN | Name |
+| --- | ---- |
+| 1   | 5V   |
+| 2   | 5V   |
+| 3   | NC   |
+| 4   | NC   |
+| 5   | GND  |
+| 6   | GND  |
+
+### **CPPM / S.BUS / SERVO SYSTEM**
+
+| PIN | Name    |
+| --- | ------- |
+| 1   | RC\_IN  |
+| 2   | PWM 8   |
+| 3   | PWM 7   |
+| 4   | PWM 6   |
+| 5   | PWM 5   |
+| 6   | PWM 4   |
+| 7   | PWM 3   |
+| 8   | PWM 2   |
+| 9   | PWM 1   |
+| 10  | PPS     |
+| 11  | HOTSHOE |
+
+### **11 Pin in**
+
+| PIN | Name    |
+| --- | ------- |
+| 1   | PWM 8   |
+| 2   | PWM 7   |
+| 3   | PWM 6   |
+| 4   | PWM 5   |
+| 5   | PWM 4   |
+| 6   | PWM 3   |
+| 7   | PWM 2   |
+| 8   | PWM 1   |
+| 9   | RC\_IN  |
+| 10  | HOTSHOE |
+| 11  | PPS     |
+
+### **10 Pin in**
+
+| PIN | Name     |
+| --- | -------- |
+| 1   | 5V       |
+| 2   | CAN1\_H  |
+| 3   | CAN1\_L  |
+| 4   | CAN2\_H  |
+| 5   | CAN2\_L  |
+| 6   | GPS\_TX  |
+| 7   | GPS\_RX  |
+| 8   | I2C\_SCL |
+| 9   | I2C\_SDA |
+| 10  | GND      |
+
+### **CAN**
+
+| PIN | Name   |
+| --- | ------ |
+| 1   | 5V     |
+| 2   | CAN\_H |
+| 3   | CAN\_L |
+| 4   | GND    |
+
+### **Uart**
+
+| PIN | Name     |
+| --- | -------- |
+| 1   | 5V       |
+| 2   | GPS\_TX  |
+| 3   | GPS\_RX  |
+| 4   | I2C\_SCL |
+| 5   | I2C\_SDA |
+| 6   | GND      |
+
 ## User Manual
 
 ## 1. For use with Ardupilot:
