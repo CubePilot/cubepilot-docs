@@ -15,9 +15,9 @@ For enabling video stream in Herelink settings please refer [Share video Stream]
 * Click 'Connect'
 * Enter port '14550'
 
-![](<../../.gitbook/assets/image (13).jpeg>)
+![](../../.gitbook/assets/screen-udp-copie-min.jpg)
 
-![](<../../.gitbook/assets/image (19).png>)
+![](../../.gitbook/assets/mission-planner-2.png)
 
 ## You are now connected to the same wifi network as the Herelink is.
 
@@ -44,6 +44,6 @@ You will now have Mavlink working into Mission Planner
 * The first time you do this Mission Planner may need to download the files required to play the video. Your device will require and internet connection to be able to do this, you may need to disconnect from the Herelink hotspot to perform this step
 * A popup window will open, enter the same IP as you did in the mavlink step and click OK
 
-![](<../../.gitbook/assets/image (14).jpeg>)
+![](../../.gitbook/assets/herelink-video.jpg)
 
-![](<../../.gitbook/assets/image (15).jpeg>)
+![](../../.gitbook/assets/herelink-video-ip.jpg)

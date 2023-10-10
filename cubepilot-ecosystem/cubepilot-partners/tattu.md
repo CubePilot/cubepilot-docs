@@ -1,6 +1,6 @@
 # Tattu
 
-![](../../.gitbook/assets/tattu-logo-842x258.png)
+![](<../../.gitbook/assets/Tattu-Logo 842x258.png>)
 
 **About Tattu**
 ---------------
@@ -9,7 +9,7 @@ Founded by Grepow in 2015, Tattu has become renown as the tried-and-true battery
 
 With Grepow’s more than 20 years of experience in battery development and production, Tattu has unfailingly yielded high-quality battery packs that have pushed the UAV industry to new heights.  Its work as an industry-leading brand has gained public recognition as reflected with its acceptance of the Innovation Product Award at the 2021 Drone World Conference.
 
-![](../../.gitbook/assets/innovative-product-award.jpg)
+![](<../../.gitbook/assets/Innovative Product Award.jpg>)
 
 **Tattu series**
 ----------------
@@ -18,7 +18,7 @@ Tattu batteries’ capacity, C-rate, weight, and other specs have been designed 
 
 ### &#xD;&#xD;**Commercial-Drone** **Batteries**
 
-![](../../.gitbook/assets/tattu-commercial-drone-batteries.jpg)
+![](<../../.gitbook/assets/Tattu Commercial-Drone Batteries.jpg>)
 
 **Tattu Smart Batteries** are equipped with a BMS and anti-spark capabilities, combined with a high-performance, low-power MCU to give users a better understanding of their battery status. The compact and waterproof housing optimises the reliability of the system in harsh environments.
 
@@ -28,7 +28,7 @@ Tattu products are widely used in film aerial photography, agricultural spraying
 
 ### &#xD;&#xD;  **FPV Batteries**
 
-![](../../.gitbook/assets/tattu-fpv-batteries.jpg)
+![](<../../.gitbook/assets/Tattu FPV Batteries.jpg>)
 
 With its high output current and high C-rate, **Tattu FPV batteries** are often found in major competitions, such as the Multi GP and EMHC.  Their performance pushes pilots to achieve the best flights.  With superb battery technology, light weight, and high reliability, these battery packs are versatile and used in FPV drones, races, and many other applications.
 

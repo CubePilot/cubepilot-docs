@@ -2,17 +2,17 @@
 
 ## Cube
 
-![](../.gitbook/assets/cube.jpg)
+![](../.gitbook/assets/Cube.jpg)
 
-{% file src="../.gitbook/assets/cube.step.zip" %}
+{% file src="../.gitbook/assets/Cube.STEP.zip" %}
 Cube.STEP (ZIP)
 {% endfile %}
 
 ## Standard Carrier Board
 
-![](../.gitbook/assets/standard-carrier-board.jpg)
+![](<../.gitbook/assets/Standard Carrier Board.jpg>)
 
-{% file src="../.gitbook/assets/standard-carrier-board.step.zip" %}
+{% file src="../.gitbook/assets/Standard Carrier Board.STEP.zip" %}
 Standard Carrier Board.STEP (ZIP)
 {% endfile %}
 
@@ -20,65 +20,65 @@ Standard Carrier Board.STEP (ZIP)
 
 ## HereLink Controller
 
-![](../.gitbook/assets/herelink-controller.jpg)
+![](<../.gitbook/assets/HereLink Controller.jpg>)
 
-{% file src="../.gitbook/assets/herelink-controller.stp.zip" %}
+{% file src="../.gitbook/assets/HereLink Controller.stp.zip" %}
 HereLink Controller.stp (ZIP)
 {% endfile %}
 
 ## HereLink AirUnit
 
-![](../.gitbook/assets/herelink-air-unit.jpg)
+![](<../.gitbook/assets/HereLink Air Unit.jpg>)
 
-{% file src="../.gitbook/assets/herelink-air-unit.step.zip" %}
+{% file src="../.gitbook/assets/HereLink Air Unit.STEP.zip" %}
 HereLink Air Unit.STEP (ZIP)
 {% endfile %}
 
 ## HereLink Air Unit Antenna
 
-![](../.gitbook/assets/herelink-air-unit-antenna.jpg)
+![](<../.gitbook/assets/Herelink Air Unit Antenna.jpg>)
 
-{% file src="../.gitbook/assets/herelink-air-unit-antenna.step.zip" %}
+{% file src="../.gitbook/assets/HereLink Air Unit Antenna.STEP.zip" %}
 HereLink Air Unit Antenna.STEP (ZIP)
 {% endfile %}
 
 ## Here3
 
-![](../.gitbook/assets/here3-.jpg)
+![](<../.gitbook/assets/Here3 .jpg>)
 
-{% file src="../.gitbook/assets/here3.step.zip" %}
+{% file src="../.gitbook/assets/Here3.STEP.zip" %}
 Here3.STEP (ZIP)
 {% endfile %}
 
 ## Here2
 
-![](../.gitbook/assets/here2.jpg)
+![](../.gitbook/assets/Here2.jpg)
 
-{% file src="../.gitbook/assets/here2.step.zip" %}
+{% file src="../.gitbook/assets/Here2.STEP.zip" %}
 Here2.STEP (ZIP)
 {% endfile %}
 
 ## Here+ V2 Rover
 
-![](../.gitbook/assets/here+-v2-rover.jpg)
+![](<../.gitbook/assets/Here+ V2 Rover.jpg>)
 
-{% file src="../.gitbook/assets/here+-v2-rover.step.zip" %}
+{% file src="../.gitbook/assets/Here+ V2 Rover.STEP.zip" %}
 Here+ V2 Rover.STEP (ZIP)
 {% endfile %}
 
 ## Here+ RTK Base
 
-![](../.gitbook/assets/here+-rtk-base.jpg)
+![](<../.gitbook/assets/Here+ RTK Base.jpg>)
 
-{% file src="../.gitbook/assets/here+-rtk-base.step.zip" %}
+{% file src="../.gitbook/assets/Here+ RTK Base.STEP.zip" %}
 Here+ RTK Base.STEP (ZIP)
 {% endfile %}
 
 ## Mini Carrier Board
 
-![](../.gitbook/assets/mini-carrier-board.jpg)
+![](<../.gitbook/assets/Mini Carrier Board.jpg>)
 
-{% file src="../.gitbook/assets/mini-carrier-board.step.zip" %}
+{% file src="../.gitbook/assets/Mini Carrier Board.STEP.zip" %}
 
 ## Power Brick Mini
 

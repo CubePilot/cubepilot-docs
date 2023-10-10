@@ -109,7 +109,7 @@ Update procedures are shown as the following when there are any future firmware 
 
 Mission Planner must be updated to the following or later version to have the new feature available:
 
-<figure><img src="../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/0 (1).png" alt=""><figcaption></figcaption></figure>
 
 Connect the 4pin CAN cable from CAN port on Here 4 to CAN1 on the autopilot.
 
@@ -250,24 +250,24 @@ Latest NEO F9P L1L5 firmware can be found here under Firmware Update section. [h
 If the following option is not visible in Mission Planner, then update Mission Planner to latest Beta from Help menu.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 2. Select port for u-Center to connect on.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 3. Select baudrate to set for ublox communication.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 4. Open u-center (Ensure that its version 22.07+). Under connections select Network connections > New.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 5. Set url to tcp://127.0.0.1:500.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 6. Select Tools>Firmware Update Utility. Select the downloaded firmware from ublox website in the tool. Ensure that baudrate is same as set in Mission Planner. And Options are correctly selected as shown below. And then click GO.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>

@@ -1,8 +1,6 @@
-# Here 3 Stand
+# Here 3 Istand
 
-![](../.gitbook/assets/here3_istand.jpg)
+![](../.gitbook/assets/Here3\_Istand.jpg)
 
-{% file src="../.gitbook/assets/here3\_istand.step.zip" %}
-
-
+{% file src="../.gitbook/assets/Here3_Istand.STEP.zip" %}
 

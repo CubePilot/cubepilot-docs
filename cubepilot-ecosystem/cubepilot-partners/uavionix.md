@@ -1,6 +1,6 @@
 # uAvionix
 
-![](../../.gitbook/assets/uavionix-logo-1500x603.png)
+![](../../.gitbook/assets/uAvionix-Logo-1500x603.png)
 
 ## About uAvionix
 
@@ -12,13 +12,13 @@ uAvionix offers low SWaP TSO certified and uncertified avionics for General Avia
 
 ### George UAV Autopilot
 
-![](../../.gitbook/assets/g2-g3\_overview.png)
+![](../../.gitbook/assets/G2-G3\_overview.png)
 
 **George G2i and G3 Autopilots based on the CubePilot System. Migrate your existing Ardupilot or PX4 software and configuration to George’s robust certifiable platform.**
 
 George combines the flexibility and over a decade’s worth of open-source innovation in UAS autopilots with the robustness of a certifiable DAL-C hardware and a DAL-C safety and sensor processor. George has the aircraft.
 
-![](../../.gitbook/assets/george\_ecosystems-2x.png)
+![](../../.gitbook/assets/George\_Ecosystems@2x.png)
 
 While George provides the flexibility of the Pixhawk platform, it’s sweet spot is optimized for Vertical Takeoff and Landing (VTOL) Fixed Wing platforms – the most flexible and energy-efficient combo to emerge in aviation in over a century.
 
@@ -28,7 +28,7 @@ Learn more: [George UAV Autopilot](https://uavionix.com/products/george/)
 
 ### **truFYX**
 
-![](../../.gitbook/assets/trufyx-tso\_wpixhawk.png)
+![](../../.gitbook/assets/truFYX-TSO\_wPixHawk.png)
 
 **The 1st TSOd GPS Source for UAS.** truFYX weighing only 20 grams and able to fit in the palm of your hand, truFYX integrates into nearly any configuration. Compatible with popular autopilots and approved for transponder and ADS-B solutions, truFYX is the trusted GPS source for your UAS or UAM operation. truFYX uses industry-standard NMEA or MAVLink protocols.
 
@@ -48,7 +48,7 @@ Learn more: [truFYX](https://uavionix.com/products/trufyx/)
 
 ### **ping200X**&#x20;
 
-![](../../.gitbook/assets/ping200x\_money.png)
+![](../../.gitbook/assets/ping200X\_Money.png)
 
 **Transponder & ADSB Out Device. This is the 1st and only TSOd unit on the market for UAS.**
 
@@ -88,7 +88,7 @@ Learn more: [ping2020i](https://uavionix.com/products/ping2020/)
 
 ### pingRX PRO
 
-![](../../.gitbook/assets/pingrx-pro.png)
+![](<../../.gitbook/assets/pingRX PRO.png>)
 
 **Professional detect and avoid ADSB Receiver.**&#x20;
 
@@ -117,11 +117,11 @@ Learn more: [pingRX PRO](https://uavionix.com/products/pingrx-pro/)
 
 **Enterprise Managed C2 Infrastructure.** SkyLine is the first Enterprise Command and Control (C2) infrastructure management service built from the ground up to meet aviation design standards for critical UAS and UAM applications. Leveraging DO-362A SkyLink radios, SkyLine integrates hardware, software, and services for seamless management of your mission and infrastructure.
 
-![](../../.gitbook/assets/real-time-statistics-and-telemetry-2x.png)
+![](../../.gitbook/assets/Real-time-Statistics-and-Telemetry@2x.png)
 
 Monitor and control aircraft location, network health, signal strength, and load balancing and roaming capabilities from the SkyLine Service Platform
 
-![](<../../.gitbook/assets/scalable-2x (2) (1) (1).png>)
+![](<../../.gitbook/assets/scalable-2x (2) (1).png>)
 
 The SkyLink hardware and Managed Infrastructure services provide centralized control over your mission, be it linear infrastructure or wide-area coverage.
 
@@ -131,7 +131,7 @@ Learn more: [SkyLine](https://uavionix.com/products/skyline/)
 
 ### microLink
 
-![](../../.gitbook/assets/microlink\_pixhawk\_1000x1000.jpg)
+![](../../.gitbook/assets/microLink\_PixHawk\_1000x1000.jpg)
 
 **microLink is an FCC (U.S.A.) and IC (Canada) approved, aviation-grade, Beyond Visual Line of Sight (BVLOS) Command and Control (C2) datalink radio specifically designed for long-range mission-critical UAS operations. microLink is the only solution when integrity and performance are critical to your mission.**
 

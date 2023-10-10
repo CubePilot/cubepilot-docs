@@ -6,9 +6,9 @@
 
 * From App Launcher slide down the notification drawer from the top
 
-![](../../.gitbook/assets/home-screen.png)
+![](../../.gitbook/assets/020.png)
 
-![](<../../.gitbook/assets/settings-app (1) (1) (1) (1) (1) (1).jpg>)
+![](../../.gitbook/assets/021.jpg)
 
 Click **'HW JS CAL'**
 

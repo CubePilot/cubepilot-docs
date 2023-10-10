@@ -42,7 +42,7 @@
 
 ## CubePilot-CubePilot Ecosystem Autopilot Wiring Diagram-Turkish
 
-<figure><img src="../.gitbook/assets/CubePilot-CubePilot Ecosystem Autopilot Wiring Diagram-Turkish.jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CubePilot-CubePilot Ecosystem Autopilot Wiring Diagram-Turkish (1).jpg" alt=""><figcaption><p>This poster is licensed as cc-by-NC-nd 4.0. This means you can print and use this in its current format, but no commercial purposes, and no modifications, or no use of individual elements without contacting us for specific permission. You can print, publish, give away, display, etc.. <br>https://creativecommons.org/licenses/by-nc-nd/4.0/</p></figcaption></figure>
 
 ## CubePilot Diagram-Portuguese Version\_Tradução
 

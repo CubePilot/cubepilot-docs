@@ -4,7 +4,7 @@
 
 If the Ground Station and Air Unit link does not automatically connect, press the `CONNECT` button on the left hand side of the display screen.
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.40.58 PM.png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.40.58 PM (1).png>)
 
 Once connected, the UR/Solex TX app will download the vehicle's parameters
 
@@ -14,7 +14,7 @@ Once connected, the UR/Solex TX app will download the vehicle's parameters
 
 To view the flight screen, click on the Union Robotics logo at the bottom left side of the screen.
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.44.45 PM.png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.44.45 PM (1).png>)
 
 ### Pre-Flight Checklist Screen
 
@@ -22,17 +22,17 @@ This will take you to the “Pre-Flight Checklist” screen, where you are requi
 
 **WARNING: Physically inspect the aircraft for each item on the Pre-Flight Checklist before checking the box on the screen. Failure to do so could result in aircraft failure or injury.**
 
-![](<../../../../.gitbook/assets/Pre-Flight Checklist Screen.png>)
+![](<../../../../.gitbook/assets/1 (1).png>)
 
 Once all items have been checked on the Pre-Flight Checklist screen, you will be automatically directed to the Verify Controls screen. This screen reminds the pilot to verify all the aircraft controls properly function upon take off before starting the mission. Click `GO!` to be directed to the flight screen
 
-![](<../../../../.gitbook/assets/Verify Controls Screen.png>)
+![](<../../../../.gitbook/assets/2 (1).png>)
 
 ## **UI Overview**
 
 ### **Flight Screen**
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.17.26 PM (1) (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.17.26 PM (2).png>)
 
 |                        |                                                                         |
 | ---------------------- | ----------------------------------------------------------------------- |
@@ -52,7 +52,7 @@ Once all items have been checked on the Pre-Flight Checklist screen, you will be
 
 ### Land
 
-![](<../../../../.gitbook/assets/70 (1).png>)
+![](../../../../.gitbook/assets/70.png)
 
 |                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -63,7 +63,7 @@ Once all items have been checked on the Pre-Flight Checklist screen, you will be
 
 ### **Control Panel**
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.06.59 PM.png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.06.59 PM (1).png>)
 
 |                   |                                                                      |
 | ----------------- | -------------------------------------------------------------------- |
@@ -77,13 +77,13 @@ Once all items have been checked on the Pre-Flight Checklist screen, you will be
 
 Displays an overhead map view. This view can be used for mapping autonomous missions.
 
-![](<../../../../.gitbook/assets/62 (1).png>)
+![](../../../../.gitbook/assets/62.png)
 
 #### **Layers**
 
 When clicking on the layers button on the Map View, the layers option menu will display. The options will overlay on the map.
 
-![](<../../../../.gitbook/assets/63 (1).png>)
+![](../../../../.gitbook/assets/63.png)
 
 ### **Alert Indications** <a href="#alert-indications" id="alert-indications"></a>
 
@@ -156,11 +156,11 @@ Click the `VEHICLE TYPE` button in the top right of the missions screen. Select 
 
 To create a mission using  waypoints, click the `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose Waypoint.
 
-![](../../../../.gitbook/assets/22.png)
+![](<../../../../.gitbook/assets/22 (1).png>)
 
 To add waypoints, click on the map where you want the aircraft to fly, starting with the place of launch. At each point, a marker will be placed on the map.
 
-![](../../../../.gitbook/assets/23.png)
+![](<../../../../.gitbook/assets/23 (1).png>)
 
 To change settings on each waypoint, click either the waypoint marker on the map, or the item in the horizontal list at the bottom. A panel will appear on the right of the screen with slider attributes. These are attributes of the waypoint that can be edited. The top sliders are common to most waypoints (i.e Altitude, speed). The next set (under "Details") is the set of attributes specific to that type of waypoint.
 
@@ -178,7 +178,7 @@ To change the first waypoint to a Takeoff, click the top of the panel, and it wi
 
 To change the last waypoint to a Return Home, click the top of the panel, and it will drop down a list of items. Click `Return Home` in the list. The panel's contents will change to show just the relevant attributes for a Return Home. The waypoint also disappears off of the map, because a Return Home doesn't really have a defined point; it's just the location your vehicle starts to return to the launch location to land.
 
-![](<../../../../.gitbook/assets/33 (1).png>)
+![](../../../../.gitbook/assets/33.png)
 
 ![](<../../../../.gitbook/assets/34 (1).png>)
 
@@ -198,7 +198,7 @@ To stop deleting things when you click them, click the trash can icon until it's
 
 ![](../../../../.gitbook/assets/31.png)
 
-![](<../../../../.gitbook/assets/32 (1).png>)
+![](../../../../.gitbook/assets/32.png)
 
 #### **Terrain Following**
 
@@ -216,9 +216,9 @@ On infrequent occasions, Solex might flag a point right next to a waypoint as a 
 
 Draw all of your waypoints on the map, then select `Follow Terrain` from the menu (it will be grayed out if you don't have an internet connection, or your mission is empty).&#x20;
 
-![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 9.42.24 AM.png>)
+![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 9.42.24 AM (1).png>)
 
-![](<../../../../.gitbook/assets/24 (2).png>)
+![](<../../../../.gitbook/assets/24 (1).png>)
 
 On the dialog box that appears, click `Apply Elevations`.
 
@@ -226,7 +226,7 @@ On the dialog box that appears, click `Apply Elevations`.
 
 UR/Solex TX will look up the elevation for each location in your mission to find the ground elevation at each location. For each location in the mission, it will add the difference between the first location's elevation and the current location's elevation to the current location's altitude.
 
-![](../../../../.gitbook/assets/26.png)
+![](<../../../../.gitbook/assets/26 (1).png>)
 
 ### **Grid Missions**
 
@@ -262,7 +262,7 @@ Tab the map in the area you want to create a grid.
 
 Use your finger or stylus pen to draw the perimeter of the area you want to to add a grid mission.
 
-![](../../../../.gitbook/assets/9.png)
+![](<../../../../.gitbook/assets/9 (1).png>)
 
 Upon lifting your finger from drawing, a grid will automatically be placed within the area you outlined.
 
@@ -295,7 +295,7 @@ Tower Scan is a type of mission item that allows for scanning things like wind t
 
 ![](../../../../.gitbook/assets/43.png)
 
-![](<../../../../.gitbook/assets/44 (1).png>)
+![](../../../../.gitbook/assets/44.png)
 
 A Tower Scan can be assigned the following attributes:
 
@@ -321,7 +321,7 @@ The minimum number of legs is 3. In this case, the vehicle will fly to one side 
 
 There are two types of Tower scan: Horizontal and Vertical.
 
-![](<../../../../.gitbook/assets/45 (1).png>)
+![](../../../../.gitbook/assets/45.png)
 
 A Vertical scan starts at the base altitude of a scan leg and flies straight up to the top of the leg. Once there, it moves over to the next leg, and flies straight down to the base altitude. It continues this pattern until the end of the scan. If you have "Take Picture" turned on, it stops at intervals on the way up or down and takes a picture.
 
@@ -371,9 +371,9 @@ To Fly a created mission, you will need to save the mission. Click `SAVE` on the
 
 Flying missions  are done from the Map view in the flight screen. In the Map view, one of the layers is `Missions`. Click `Missions`, and you'll see a list of missions.
 
-![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 11.06.51 AM.png>)
+![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 11.06.51 AM (1).png>)
 
-![](<../../../../.gitbook/assets/47 (1).png>)
+![](../../../../.gitbook/assets/47.png)
 
 Click one, and a panel containing `Send` and `Arm` buttons will appear. Click `Send` and the mission will be generated and sent to the vehicle. At that point, the Arm button can be used to arm the motors. Once you've done that: If your mission has a Takeoff point, you can click Start and the mission will start on its own. Otherwise, you can click Takeoff, and then Start. Alternatively, you can launch manually, and then click `Start`.
 

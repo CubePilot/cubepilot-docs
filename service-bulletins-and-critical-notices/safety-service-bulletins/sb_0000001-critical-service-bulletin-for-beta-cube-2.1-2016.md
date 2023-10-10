@@ -21,17 +21,17 @@ Firmware 3.4 set RC5\_FUNCTION=33\
 Firmware 3.5 set SERVO5\_FUNCTION=33\
 
 
-![](../../.gitbook/assets/sb\_0000001-photo-01.jpeg)
+![](<../../.gitbook/assets/SB\_0000001 Photo-01.jpeg>)
 
 After you have made these changes, please leave I/O channel 1 disconnected… plug Aileron / ESC1 to I/O5
 
 2.We will be sending all affected users a mod kit. This will involve a insulating sticker that will fit in the corner of the board.
 
-![SB\_0000001 Photo-02 PH2 ch 1-4](../../.gitbook/assets/sb\_0000001-photo-02-ph2-ch-1-4.jpeg)
+![SB\_0000001 Photo-02 PH2 ch 1-4](<../../.gitbook/assets/SB\_0000001 Photo-02 PH2 ch 1-4.jpeg>)
 
-![SB\_0000001 Photo-03 PH2 short](../../.gitbook/assets/sb\_0000001-photo-03-ph2-short.jpeg)
+![SB\_0000001 Photo-03 PH2 short](<../../.gitbook/assets/SB\_0000001 Photo-03 PH2 short.jpeg>)
 
-![SB\_0000001 Photo-04 PWM CH1 Fix](../../.gitbook/assets/sb\_0000001-photo-04-pwm-ch1-fix.png)
+![SB\_0000001 Photo-04 PWM CH1 Fix](<../../.gitbook/assets/SB\_0000001 Photo-04 PWM CH1 Fix.png>)
 
 As a third thing, I am working with Michael Oborne to make a service bulletin section in mission planner. this will identify your board, and list any known issues, and give you any information you need to maintain safe flight.\
 Please keep mission planner up to date to take advantage of this service.

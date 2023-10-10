@@ -39,37 +39,37 @@ After the configuration flight mode is selected, the user should confirm that th
 
 * Open Solex
 
-![](../../.gitbook/assets/button-mapping-0.jpg)
+![](../../.gitbook/assets/041.jpg)
 
 * Click the menu in the top left corner
 
 Select **Button Mapping**
 
-![](../../.gitbook/assets/button-mapping-1.jpg)
+![](../../.gitbook/assets/042.jpg)
 
 * Choose desired button
 
-![](<../../.gitbook/assets/button-mapping-2 (1).jpg>)
+![](../../.gitbook/assets/043.jpg)
 
 * Select either Click or Long Click (**Note** this allows you to set two functions to each button)
 
-![](<../../.gitbook/assets/button-mapping-2.5 (1).jpg>)
+![](../../.gitbook/assets/044.jpg)
 
 * For example, if you want to set Button A, click Button A and then click the option box on the right to select the desired function.
 
-![](<../../.gitbook/assets/button-mapping-3 (1).png>)
+![](../../.gitbook/assets/045.png)
 
 * For example, if you want to set the button as flight mode switch, click the gear icon and choose the desired flight mode for chosen button.
 
-![](<../../.gitbook/assets/button-mapping-6 (1).jpg>)
+![](../../.gitbook/assets/046.jpg)
 
 * select desired flight mode
 
-![](<../../.gitbook/assets/button-mapping-5 (1).png>)
+![](../../.gitbook/assets/047.png)
 
 * For other BUTTONS that need to be set, please use procedure above to set corresponding function. Then click "SAVE BUTTONS" at the bottom to SAVE the Settings
 
-![](../../.gitbook/assets/button-mapping-7.jpg)
+![](../../.gitbook/assets/048.jpg)
 
 **Hardware Wheel**
 
@@ -80,28 +80,28 @@ Wheel configuration in Solex TX to Servo output channels 1-16 on the Autopilot, 
 * Select Button Mapping as above
 * Click WHEEL SETTINGS in the bottom right corner
 
-![](../../.gitbook/assets/wheel-1.jpg)
+![](../../.gitbook/assets/049.jpg)
 
 * Select the desired servo channel from 1- to 16
 
-![](<../../.gitbook/assets/image (6) (1).jpeg>)
+![](../../.gitbook/assets/050.jpg)
 
 * Set the PWM output range suitable for your application.
 
-![](../../.gitbook/assets/wheel-4.jpg)
+![](../../.gitbook/assets/051.jpg)
 
 * Click on the Enabled to activate the output,
 * Finish by clicking OK and click SAVE BUTTONS in bottom corner.
 
-![](../../.gitbook/assets/wheel-5.png)
+![](../../.gitbook/assets/052.png)
 
 * To configure a button to change the wheel servo output configure the button to WHEEL SETTINGS.
 
-![](<../../.gitbook/assets/image (7) (1).jpeg>)
+![](../../.gitbook/assets/053.jpg)
 
 * Click the gear icon and set new channel and PWM values and click OK and then SAVE BUTTONS in bottom right corner.
 
-![](<../../.gitbook/assets/image (3) (1) (1).png>)
+![](../../.gitbook/assets/054.png)
 
 * Once changed the wheel will output on the new selected channel, to return to its original servo output you will need to program one button function to Clear Wheel Settings as shown above.
 
@@ -110,11 +110,11 @@ Wheel configuration in Solex TX to Servo output channels 1-16 on the Autopilot, 
 * Open QGC
 * Click gear icon on top left corner.
 
-![](../../.gitbook/assets/qgc-button-1.jpg)
+![](../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2F-M2lI7HZGVY2STNo0O9R%2F-M2lI8\_TGw7xN5TUWLUu%2Fqgc-button-1.jpg)
 
 * Select **Button**
 * Select the box on left for desired button.
 * Click the drop-down menu to select features.
 * Repeat the procedure for each button and select desired flight mode.
 
-![](../../.gitbook/assets/screenshot-2020-03-16-at-22.35.57.png)
+![](../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2F-M2lI7HZGVY2STNo0O9R%2F-M2lI8\_VSBZllFgCQXfc%2Fscreenshot-2020-03-16-at-22.35.57.png)

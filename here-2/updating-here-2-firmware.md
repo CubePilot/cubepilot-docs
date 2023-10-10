@@ -8,7 +8,7 @@ description: >-
 
 ## **Step 1: Switching the Here 2 to CAN mode**
 
-![Step 1: Switching the Here 2 to CAN mode](../.gitbook/assets/step-1.jpg)
+![Step 1: Switching the Here 2 to CAN mode](<../.gitbook/assets/Step 1.jpg>)
 
 Remove the case from the Here 2. Unplug the 8-wire cable and replace it with the included 4-wire CAN cable. Move the switch from the I2C position to the CAN position.
 
@@ -16,7 +16,7 @@ Note: This step is only required if your Here 2 has the 8-wire Serial/I2C cable 
 
 ## Step 2: Connect to the Cube
 
-![Step 2: Connect to the Cube](../.gitbook/assets/step-2.jpg)
+![Step 2: Connect to the Cube](<../.gitbook/assets/Step 2.jpg>)
 
 Connect the CAN cable to the CAN 1 connector on the carrier board, as shown in the image to the left.
 
@@ -38,13 +38,13 @@ Released versions of ArduCopter do not have support for SLCAN as of this writing
 
 ## Step 6: Flash ArduCopter master
 
-![Step 6: Flash ArduCopter master](../.gitbook/assets/step-6.jpg)
+![Step 6: Flash ArduCopter master](<../.gitbook/assets/Step 6.jpg>)
 
 Launch Mission Planner. Click “Initial Setup,” then “Load custom firmware.” Navigate to the arducopter.apj file that you downloaded and select it.
 
 ## Step 7: Enable CAN
 
-![Step 7: Enable CAN](../.gitbook/assets/step-7.jpg)
+![Step 7: Enable CAN](<../.gitbook/assets/Step 7.jpg>)
 
 Click **Config/Tuning** then **Full Parameter List** then search for **CAN\_**, change **CAN\_P1\_DRIVER** to **1** and click **Write Params**.
 
@@ -54,19 +54,19 @@ Unplug the USB cable, plug it back in and reconnect Mission Planner.
 
 ## Step 9: Using the Mission Planner SLCAN interface
 
-![Step 9: Using the Mission Planner SLCAN interface](../.gitbook/assets/step-9.jpg)
+![Step 9: Using the Mission Planner SLCAN interface](<../.gitbook/assets/Step 9.jpg>)
 
 Click **Initial Setup**, then **Optional Hardware**, then DroneCAN, then **SLCan Mode CAN1**. Connected CAN devices (in this case, a Here 2) will be listed.
 
 ## Step 10: Flash the bootloader updater
 
-![](../.gitbook/assets/step10.jpg)
+![](../.gitbook/assets/Step10.jpg)
 
 The bootloader updater performs the procedure listed above, which will start immediately after the firmware update completes.
 
 On the Here 2 entry in the list, select **Update**, navigate to the **bootloader\_updater** file and open it. After this point, **DO NOT DISCONNECT POWER UNTIL THE LEDS ARE EITHER GREEN OR YELLOW, OR 3 MINUTES HAVE ELAPSED.**
 
-{% file src="../.gitbook/assets/here2_bootloader_updater-crc.bin" %}
+{% file src="../.gitbook/assets/Here2_bootloader_updater-crc.bin" %}
 
 ## Step 11: Flash the application
 

@@ -29,7 +29,7 @@ Here 3/3+ GPS is a Cost-efficient GNSS system that supports RTK mode. Positionin
 
 
 
-![](../.gitbook/assets/01.png)
+![](<../.gitbook/assets/01 (1).png>)
 
 | Pin | Definition | Cable color |
 | :-: | :--------: | :---------: |
@@ -111,7 +111,7 @@ Click "Write Params" when done. CAN functions will be available after rebooting 
 
 When using Cube Black , from top to bottom are compass 1 ,2 and 3 .When using Cube Orange ，from top to bottom are compass 1 and 2. The external compass will be displayed in BusType list as UAVCAN. Usually need to set the external compass to NO 1 compass , if the external compass is not NO 1 compass, please do the following operation.
 
-![](<../.gitbook/assets/2 (1).png>)
+![](../.gitbook/assets/2.png)
 
 If you want to use CAN external compass as the NO 1 compass ,please move the UAVCAN compass to the top.
 
@@ -213,7 +213,7 @@ Start with a base module setup first. During the base station setup, the rover a
 
 Open the Mission Planner ground station software on your computer and go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
-![](<../.gitbook/assets/9 (1).png>)
+![](../.gitbook/assets/9.png)
 
 Select the correct base module com port in the top left corner and click connect. In the SurveyIn Acc section, enter the absolute geographic accuracy that you expect your Here+ base station to achieve. In the Time column, enter the minimum survey time you expect. Click on Restart, the ground station will transfer the data you have entered to the Here3 base module, the base module will start a new round of surveying. You will see the following page:
 
@@ -275,7 +275,7 @@ If you connected the UAVs with 1 telemetry module, they should share the same CO
 
 Connect each Here 3 / Here 3+ 4 Pin CAN cable to the CAN 1 port of the flight controller(one at a time), and conduct the following procedure. Select "install firmware" from Mission Planner and load the latest copter and plane firmware.
 
-![](../.gitbook/assets/20.png)
+![](../.gitbook/assets/16.png)
 
 After successful installed firmware, change baud to 115200, and click connect. Then go to "Config/Tuning > Full Parameter List" and modify the following parameters:
 
@@ -285,21 +285,21 @@ CAN\_D2\_PROTOCOL：1 set virtual driver of CAN 2 to DRONECAN
 
 After successful loading, select the autopilot SLCAN COM port with 115200 baud rate and Connect and then Go to "Initial Setup - Optional Hardware - DRONECAN", click "SLCan Mode CAN1".
 
-![](../.gitbook/assets/21.png)
+![](<../.gitbook/assets/17 (1).png>)
 
 When the device settings of Here3 pop-up, click "Parameters" from the right.
 
-![](<../.gitbook/assets/22 (1).png>)
+![](<../.gitbook/assets/18 (1).png>)
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](<../.gitbook/assets/23 (1).png>)
+![](../.gitbook/assets/19.png)
 
 **Use Cube Orange to change ID:**
 
 Connect each Here 3 / Here 3+ 4Pin CAN cable to the CAN 1 port of the flight controller(one at a time), and conduct the following procedure. Select "install firmware" from Mission Planner and load the latest copter or plane firmware.
 
-![](../.gitbook/assets/16.png)
+![](../.gitbook/assets/20.png)
 
 After successful loading, select the autopilot SLCAN COM port with 115200 baud rate and Connect and then go to "Config/Tuning > Full Parameter List" and modify the following parameters:
 
@@ -313,15 +313,15 @@ After successful loading, select the autopilot SLCAN COM port with 115200 baud r
 
 Then Go to "Initial Setup - Optional Hardware - UAVCAN", click "SLCan Mode CAN1".
 
-![](<../.gitbook/assets/17 (1).png>)
+![](../.gitbook/assets/21.png)
 
 When the device settings of Here 3 / Here 3+ pop-up, click "Parameters" from the right.
 
-![](<../.gitbook/assets/18 (1).png>)
+![](../.gitbook/assets/22.png)
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](../.gitbook/assets/19.png)
+![](../.gitbook/assets/23.png)
 
 #### 2. Here 3 / Here 3+ firmware upgrade
 
@@ -333,7 +333,7 @@ Be aware that the following steps should be done when there is only 1 GPS module
 
 (The following procedure is using Here 3 firmware upgrade as an example. The other Here series GPS can also refer to this procedure.)
 
-![](<../.gitbook/assets/26 (1).png>)
+![](../.gitbook/assets/26.png)
 
 After clicking “Update”it will ask whether to search update from the Internet. Click “Yes”. (Automatically searches for upgraded to the latest stable version firmware)
 
@@ -341,7 +341,7 @@ After clicking “Update”it will ask whether to search update from the Interne
 
 Check firmware version after upgrade.After the upgrade, check whether the version is successfully upgraded.
 
-![](../.gitbook/assets/29.png)
+![](<../.gitbook/assets/29 (1).png>)
 
 If “no available updates” appears when searching updates. Please turn off your firewall in the system setting and try again.
 
@@ -373,7 +373,7 @@ The u-blox chip firmware update can be completed only when HERE 3 is updated to 
 
 This instruction uses u-center GUI from u-blox, the correct version should be v20.10 or later:
 
-![](../.gitbook/assets/39.jpg)
+![](../.gitbook/assets/31.jpg)
 
 Download the u-blox chip firmware. (The latest firmware for u-blox M8P chip is v1.4 when this guide is written):
 
@@ -389,11 +389,11 @@ u-blox M8P chip firmware: https://www.u-blox.com/en/product/neo-m8p-series#tab-d
 
 After downloading the firmware, connect to Mission Planner. Go to UAVCAN tab and modify the parameter “passthrough” to “2”. When done, click “Write Params” and “Commit Params” at the righthand side.
 
-![](../.gitbook/assets/32.png)
+![](<../.gitbook/assets/32 (1).png>)
 
 Click “Menu > Restart”. After that, uptime should be reset to “00:00:00”.
 
-![](../.gitbook/assets/33.png)
+![](<../.gitbook/assets/33 (1).png>)
 
 Click “Menu > CANPassThrough”. Set TCP port to “500” then click “OK”.
 
@@ -401,7 +401,7 @@ Click “Menu > CANPassThrough”. Set TCP port to “500” then click “OK”
 
 Open u-center and connect it (Receiver > Connection > Network connection > New.).
 
-![](../.gitbook/assets/42.jpg)
+![](../.gitbook/assets/35.jpg)
 
 Open “Firmware Update Utility” (Tools > Firmware Update.) and set the following:
 
@@ -425,7 +425,7 @@ The u-blox chip Parameter Checking can be completed only when Here 3 / Here 3+ i
 
 The u-center must be on v20.10 or later:
 
-![](../.gitbook/assets/31.jpg)
+![](../.gitbook/assets/39.jpg)
 
 Connect to Mission Planner and go to “UAVCAN” tab. Modify “passThrough” to “1”.
 
@@ -437,7 +437,7 @@ Click “Menu > CANPassThrough”. Set TCP port to 500 and click “OK”.
 
 Open u-center and connect it (Connect > Network Connection > new).
 
-![](../.gitbook/assets/35.jpg)
+![](../.gitbook/assets/42.jpg)
 
 When connected, parameters and messages can be viewed in u-center.
 

@@ -2,7 +2,7 @@
 
 ## Herelink Sunshades
 
-![](../.gitbook/assets/herelink-sunshade.jpg)
+![](<../.gitbook/assets/Herelink Sunshade .jpg>)
 
 Different sunshades designs are available and downloadable for free on [Airbot Systems](https://www.airbot-systems.com/free-downloads/) website. These files are STL and can be printed on any 3D printer.\
 \

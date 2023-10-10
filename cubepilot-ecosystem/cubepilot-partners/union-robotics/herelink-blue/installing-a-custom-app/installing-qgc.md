@@ -12,17 +12,17 @@ If you do not have the SDK "platform-tools" installed on your computer, download
 
 Enable "Developer Mode" on the HereLink Blue by navigating to `Settings`->`About Phone`->`Build Number` and tap at least 7 times on "Build Number."
 
-![Swipe down on the screen and click the "gear" icon for settings](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.07.56 PM.png>)
+![Swipe down on the screen and click the "gear" icon for settings](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.07.56 PM (1).png>)
 
-![Click "About Phone" in the settings window ](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.09.10 PM (2) (1).png>)
+![Click "About Phone" in the settings window ](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.09.10 PM (1).png>)
 
-![Click on the Build Number at least 7 times until the "Developer Mode" screen message is displayed](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.10.10 PM.png>)
+![Click on the Build Number at least 7 times until the "Developer Mode" screen message is displayed](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.10.10 PM (1).png>)
 
 Enable `Settings`->`Developer options`->`USB debugging`
 
-![Click "Developer Options" in settings](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.11.47 PM.png>)
+![Click "Developer Options" in settings](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.11.47 PM (1).png>)
 
-![Toggle USB debugging to "On"](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.13.17 PM.png>)
+![Toggle USB debugging to "On"](<../../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.13.17 PM (1).png>)
 
 Using a USB to Micro USB cable, plug the DataLink into a computer and open the computer's terminal command line
 
@@ -37,7 +37,7 @@ For Windows, navigate to the "platform-tools" folder. In this folder, hold **dow
 
 For Mac, navigate to the "platform-tools" folder. **Right Click** the folder and select  `Services`->`New Terminal at Folder`
 
-![Mac](<../../../../../.gitbook/assets/Screen Shot 2021-02-26 at 11.14.36 AM.png>)
+![Mac](<../../../../../.gitbook/assets/Screen Shot 2021-02-26 at 11.14.36 AM (1).png>)
 
 ## Check if the unit is connected
 
@@ -50,7 +50,7 @@ adb devices
 
 ```
 
-![Mac](<../../../../../.gitbook/assets/Screen Shot 2021-02-26 at 11.42.10 AM.png>)
+![Mac](<../../../../../.gitbook/assets/Screen Shot 2021-02-26 at 11.42.10 AM (1).png>)
 
 Windows:
 
@@ -59,7 +59,7 @@ Windows:
 
 ```
 
-![Windows](../../../../../.gitbook/assets/In-the-command-windowPowerShell-window-type-the-following-code.png)
+![Windows](<../../../../../.gitbook/assets/In-the-command-windowPowerShell-window-type-the-following-code (1).png>)
 
 ## Download QGC APK
 
@@ -69,7 +69,7 @@ Click the link below to download the Android 64 bit QGC .apk to your computer:&#
 
 Move the .apk file to the SDK "platform-tools" folder on your computer
 
-![](<../../../../../.gitbook/assets/Screen Shot 2021-02-26 at 11.19.47 AM.jpg>)
+![](<../../../../../.gitbook/assets/Screen Shot 2021-02-26 at 11.19.47 AM (1).jpg>)
 
 ## Installing QGC to the DataLink
 
@@ -82,7 +82,7 @@ adb install QGroundControl64.apk
 
 ```
 
-![Mac adb install](<../../../../../.gitbook/assets/Screen Shot 2021-02-26 at 11.17.43 AM.png>)
+![Mac adb install](<../../../../../.gitbook/assets/Screen Shot 2021-02-26 at 11.17.43 AM (1).png>)
 
 Windows:
 
@@ -90,7 +90,7 @@ Windows:
 .\adb install QGroundControl64.apk
 ```
 
-![Windows .\adb install](../../../../../.gitbook/assets/Capture.png)
+![Windows .\adb install](<../../../../../.gitbook/assets/Capture (1).png>)
 
 QGC should now appear in the app launcher's list.
 

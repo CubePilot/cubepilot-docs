@@ -61,7 +61,7 @@ Go to Settings > Developer Options > OPEN USB debugging, use USB to HDMI convers
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-08 at 10.37.09 AM.jpg>)
 
-![](<../../.gitbook/assets/Screenshot 2022-07-08 at 11.14.21 AM (1).jpg>)
+![](<../../.gitbook/assets/Screenshot 2022-07-08 at 11.14.21 AM.jpg>)
 
 * Right click on HUD screen to enter Video menu,choose HereLink Video then a IP input window will pop up.
 
@@ -114,7 +114,7 @@ Now，Mission Planner able to use mavlink telemetry data.
 * Right click on HUD screen to enter Video menu,choose HereLink Video then a IP input window will pop up.
 * Enter 192.168.42.129 , then the video will be showed on HUD screen.
 
-![](<../../.gitbook/assets/Screenshot 2022-07-08 at 1.04.05 PM.jpg>)
+![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.46.34 PM.jpg>)
 
 > First use of HereLink Video may require to download components
 
@@ -151,7 +151,7 @@ Connect with QGroundControl
 
 Now，Mission Planner able to use mavlink telemetry data.
 
-![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.27 PM (2) (1).jpg>)
+![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.27 PM.jpg>)
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.41 PM (1).jpg>)
 
@@ -160,7 +160,7 @@ Now，Mission Planner able to use mavlink telemetry data.
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-08 at 1.03.54 PM.jpg>)
 
-![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.46.34 PM.jpg>)
+![](<../../.gitbook/assets/Screenshot 2022-07-08 at 1.04.05 PM.jpg>)
 
 > First use of HereLink Video may require to download components
 

@@ -2,11 +2,11 @@
 
 ## About Gremsy
 
-![](../../.gitbook/assets/entry-banner.png)
+![](<../../.gitbook/assets/ENTRY BANNER.png>)
 
 Gremsy is a leading manufacturer of camera gimbal stabilisers for drones and unmanned aerial vehicles (UAVs). Our gimbals are designed to be highly adaptable for integration with various drones and cameras, providing steady footage and efficient solutions for a multitude of industrial applications. We also develop customised projects to offer customers flexible solutions tailored to their needs.
 
-![](../../.gitbook/assets/gremsy-product-lines.png)
+![](<../../.gitbook/assets/Gremsy product lines.png>)
 
 \
 To empower users in deploying multiple aerial platforms, all Gremsy gimbals (excluding H16) are built to support drones using the PX4 and Ardupilot firmware as well as popular autopilots like Pixhawk, Cubepilot. We also provide the Gremsy SDK using MAVlink protocol to allow users connectivity and communication with drone systems using Pixhawk.
@@ -15,7 +15,7 @@
 
 ### MIO
 
-![](../../.gitbook/assets/gremsy-mio.png)
+![](<../../.gitbook/assets/GREMSY MIO.png>)
 
 \
 [Mio](https://gremsy.com/mio) is the smallest and lightest Gremsy gimbal offering motorised 3 axis stabilisation for industrial and commercial uses. Mio is compatible with a wide range of cameras weighing up to 400g, including Sony mapping sensors, FLIR infrared sensors and Micasense Rededge multispectral cameras. The versatile system can be mounted on the top, bottom or front of the drone.
@@ -43,7 +43,7 @@
 
 ### PIXY U
 
-![](../../.gitbook/assets/gremsy-pixy-u.png)
+![](<../../.gitbook/assets/GREMSY PIXY U.png>)
 
 PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring Pixy quick release with integrated HDMI, a variety of I/O interfaces and ability to start up within seconds. Greatly compatible with Flir, Redege cameras and many other sensors, Pixy U is built to carry out survey, inspection, mapping and flexible aerial missions.
 
@@ -72,7 +72,7 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
 
 ### PIXY F
 
-![](../../.gitbook/assets/gremsy-pixy-f.png)
+![](<../../.gitbook/assets/GREMSY PIXY F.png>)
 
 Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PRO R. This compact gimbal offers the optimised size and weight for longer flight time.
 
@@ -96,7 +96,7 @@ Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PR
 
 ### PIXY WS
 
-![](../../.gitbook/assets/gremsy-pixy-ws.png)
+![](<../../.gitbook/assets/GREMSY PIXY WS.png>)
 
 PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Security camera. Pixy WS weighs 470g and inherits all Pixy U’s features.
 
@@ -121,7 +121,7 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 
 ### GREMSY T3
 
-![](../../.gitbook/assets/gremsy-t3.png)
+![](<../../.gitbook/assets/GREMSY T3.png>)
 
 Gremsy T3 (version 3) is the most advanced 3-axis camera stabiliser ready to fly with many industrial cameras for inspection, mapping and other demanding applications. Featuring onboard HDMI and AUX ports, the T3 ensures simple and clean setup as well as increased portability for your system. The T3 features a quick release that allows users to swap among T\&S series gimbals.
 
@@ -148,7 +148,7 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 
 ### GREMSY S1
 
-![](<../../.gitbook/assets/gremsy-s1 (1).png>)
+![](<../../.gitbook/assets/GREMSY S1.png>)
 
 
 
@@ -177,7 +177,7 @@ Gremsy S1 is a compact 3-axis gimbal for mappers, surveyors and industry experts
 
 ### GREMSY T7
 
-![](../../.gitbook/assets/gremsy-t7.png)
+![](<../../.gitbook/assets/GREMSY T7.png>)
 
 
 
@@ -204,7 +204,7 @@ Gremsy T7 is the next level of heavy lifting gimbal for industrial applications.
 
 ## Contact
 
-![](../../.gitbook/assets/main-logo-v1-small.png)
+![](<../../.gitbook/assets/Main Logo V1 small.png>)
 
 ●  152-154 Street No.02, Van Phuc Residential City, \
 Hiep Binh Phuoc Ward, Thu Duc City, Ho Chi Minh City, Vietnam\

@@ -1,6 +1,6 @@
 # Here Flow
 
-![Here Flow](../.gitbook/assets/screen-shot-2019-08-14-at-5.33.35-pm.jpg)
+![Here Flow](<../.gitbook/assets/Screen Shot 2019-08-14 at 5.33.35 PM.jpg>)
 
 ## Overview
 
@@ -16,7 +16,7 @@ The Here Flow can be setup at any node in the CAN bus without noise problem.
 
 Size: 28.8mm\*9.5mm
 
-![Here Flow Size](../.gitbook/assets/screen-shot-2019-08-14-at-5.35.52-pm.jpg)
+![Here Flow Size](<../.gitbook/assets/Screen Shot 2019-08-14 at 5.35.52 PM.jpg>)
 
 ## Performance
 
@@ -55,7 +55,7 @@ Size: 28.8mm\*9.5mm
 
 ## Installation
 
-![Here Flow Installation](../.gitbook/assets/screen-shot-2019-08-14-at-5.45.48-pm.jpg)
+![Here Flow Installation](<../.gitbook/assets/Screen Shot 2019-08-14 at 5.45.48 PM.jpg>)
 
 Connect the CAN port on module and flight controller with the 4 Pin CAN cable. Point the Y axis of Here Flow to the nose of the aircraft. Face the camera to ground and stick the module to the bottom of aircraft by 3M sticker or soft sticker (with slightly vibration isolation).
 

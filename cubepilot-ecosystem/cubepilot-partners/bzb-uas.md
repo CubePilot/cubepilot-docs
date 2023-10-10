@@ -1,6 +1,6 @@
 # BZB UAS
 
-![](../../.gitbook/assets/bzb-uas-logo.png)
+![](<../../.gitbook/assets/bzb uas logo.png>)
 
 #### **BZB UAS**
 
@@ -41,7 +41,7 @@ Impresses with its design
 
 ### **modified Freeman 2100 by BZB UAS - KOLIBER VTOL**
 
-![](../../.gitbook/assets/freeman-2100.png)
+![](<../../.gitbook/assets/freeman 2100.png>)
 
 Professional system for people that value safety and work comfort. The system delivers photogrammetric data from large-scale areas. The VTOL system makes taking off and landing easy as never before. All this means that we can recommend this system to anyone regardless of their flying skills
 
@@ -61,7 +61,7 @@ Professional system for people that value safety and work comfort. The system de
 
 ### **DROTAG X**
 
-![](../../.gitbook/assets/drotag-x-.png)
+![](<../../.gitbook/assets/drotag x .png>)
 
 DROTAG.x updated version of an earlier DROTAG. It is a small circuit board that triggers your camera and saves geotags in EXIF files (latitude, longitude, height and direction) in flight!
 
@@ -69,7 +69,7 @@ DROTAG.x updated version of an earlier DROTAG. It is a small circuit board that 
 
 ### **MOTHERBOARD** 
 
-![](../../.gitbook/assets/carrier-board-bzb-uas..-.png)
+![](<../../.gitbook/assets/carrier board BZB UAS.. .png>)
 
 Integrated electronics adapted to connect the cube autopilot and the telemetry radio from RFDesign. The system is dedicated to QuadPlane, Tilt Motor, or Fixed wing Plane UAVs. Minimize the number of wired connections.
 

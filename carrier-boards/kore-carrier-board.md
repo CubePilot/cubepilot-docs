@@ -75,21 +75,21 @@ Next to the ESC power pads are 3x3 0.1” header pins. The bottom row of pins pr
 
 The top two rows of pins are for the ESC PWM signal. These two rows correspond to two of the “Main Out” connections of The CUBE. The rows are labeled in white ink on the board. The “S”, “+”, and “-“ correspond to the PWM signal, power, and ground, respectively. All eight Main Out connections are available in the four corners of the board. It helps to look at the header pins from the side to see which row corresponds to which label.
 
-![PWMPins\_v1\_3\_1](../.gitbook/assets/pwmpins\_v1\_3\_1.png)
+![PWMPins\_v1\_3\_1](../.gitbook/assets/PWMPins\_v1\_3\_1.png)
 
 By default, the board does not supply power to the ESC PWM connections. However, if no BEC is available to power the ESCs, the user may bridge JP1 with solder to provide 5.3V from the board to the ESCs. **If JP1 is bridged with solder, do not plug a BEC into the ESC connections.**
 
-![PWMJumper](../.gitbook/assets/pwmjumper.png)
+![PWMJumper](../.gitbook/assets/PWMJumper.png)
 
 Most commercially available ESCs expect 3.3V PWM signals from the autopilot to control the motor. This is the default setting of a The CUBE. If, however, you require 5V PWM signals, there is a convenient switch for this on the carrier board. The switch is located on the right side of the board and is labeled “3V PWM” and “5V PWM”. Use a pen or a sharp tool to slide the switch to the desired voltage.
 
-![PWM\_voltage\_switch](../.gitbook/assets/pwm\_voltage\_switch.png)
+![PWM\_voltage\_switch](../.gitbook/assets/PWM\_voltage\_switch.png)
 
 ### Aux Pins
 
 Additionally, the six “Aux Out” connections are available as part of a 3x8 group of headers on the right side of the board. Refer to the labels in white ink to identify each pin. By default, the board does not supply power to the center pins of the Aux channels. An external power supply connected to these pins will supply all of the Aux pins, but will be isolated from the rest of the board. If desired, the board can supply 5.3V to the Aux rail by bridging the pads of JP2 with solder. It is recommended to only use on-board power for low-noise and low-power devices. It is not recommended to use servo motors with on-board power. **If JP2 is bridged with solder, do not connect an external power supply to the Aux pins.**
 
-![JP2Bridge](../.gitbook/assets/jp2bridge.png)
+![JP2Bridge](../.gitbook/assets/JP2Bridge.png)
 
 ## Motor Pin Assignments
 
@@ -97,7 +97,7 @@ The default Motor PWM pin arrangement of the carrier board was chosen for easy i
 
 When re-mapping PWM outputs with Ardupilot, it is important to distinguish the **motor number** from the **output number**. The **motor number** refers to the physical location of the motor, and does not change. The following graphics show the motor numbers used by the ArduCopter firmware.
 
-![MOTORS\_QuadX\_QuadPlus](../.gitbook/assets/motors\_quadx\_quadplus.jpg)
+![MOTORS\_QuadX\_QuadPlus](../.gitbook/assets/MOTORS\_QuadX\_QuadPlus.jpg)
 
 The **output number** refers to the physical pin on each board that each motor is assigned to. These pins are on the corners of the board and are numbered “MAIN1” through “MAIN8”.
 
@@ -331,7 +331,7 @@ In order to use the BATT2\_Volt\_Sense pin, a user-selected resistor must be sol
 
 Where Vmax is the maximum voltage expected on this pin. R will be the resistance in Ohms. Once this value is calculated, a common through hole style resistor should soldered to the space labeled R46 on the bottom surface of the board.
 
-![](<../.gitbook/assets/adcresistor (1).png>)
+![](../.gitbook/assets/ADCResistor.png)
 
 In order for The CUBE to accurately read the secondary voltage, the BATT2\_VOLT\_MULT parameter must be set. It can be calculated using the following equation:
 

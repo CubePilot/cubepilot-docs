@@ -1,6 +1,6 @@
 # Airbot Systems Mini Carrier Board Set User Guide
 
-![](../../.gitbook/assets/airbot-mcb-diagram.png)
+![](<../../.gitbook/assets/Airbot MCB Diagram.png>)
 
 ## Airbot Systems Mini Carrier Board Set User Guide v1.1
 
@@ -10,7 +10,7 @@ The Airbot Systems Mini carrier board is one of the way to install a Cube on a d
 
 ### DIMENSIONS
 
-![](../../.gitbook/assets/airbot-mcb-dimension.jpg)
+![](<../../.gitbook/assets/Airbot MCB Dimension.jpg>)
 
 ### FEATURES
 
@@ -34,17 +34,17 @@ The Airbot Systems Mini carrier board is one of the way to install a Cube on a d
 
 ### PINOUT
 
-![](../../.gitbook/assets/airbot-mcb-detail-diagram.jpg)
+![](<../../.gitbook/assets/Airbot MCB Detail Diagram.jpg>)
 
 ### RC SIGNAL AND POWER SELECTION
 
-![](../../.gitbook/assets/airbot-mcb-bottom.jpg)
+![](<../../.gitbook/assets/Airbot MCB Bottom.jpg>)
 
 ### POWER DISTRIBUTION BOARD (optional)
 
 The Airbot Systems Power Distribution Board Set can be installed directly under Airbot Systems Mini carrier board set. The PDB allows up to 180A through ESC interface and four pairs of low power pads (2 on top/ 2 on bottom). The mounting hole are aligned with Airbot Systems carrier board, so the board can be stacked together while separated by small nylon spacers.
 
-![](../../.gitbook/assets/airbot-mcb-pdb.jpg)
+![](<../../.gitbook/assets/Airbot MCB PDB.jpg>)
 
 ATTENTION ! : The PDB can not be attached to any conductive materials. Beware to distance from any conductive material by
 
@@ -52,6 +52,6 @@ When using nylon spacers or insulations(e.g PlastiDIP), remember to leave enough
 
 ### INSTALLATION DIAGRAM
 
-![](../../.gitbook/assets/airbot-mcb-set-with-cube-orange-side.jpg)
+![](<../../.gitbook/assets/Airbot MCB set with Cube Orange - Side.jpg>)
 
 August 16，2021

@@ -1,6 +1,6 @@
 # Airbot Systems
 
-![](../../.gitbook/assets/airbot-systems-logo.png)
+![](<../../.gitbook/assets/Airbot Systems Logo.png>)
 
 ## About Airbot Systems
 
@@ -10,9 +10,9 @@ Airbot Systems is a french company that develops and produces high standard aeri
 
 ### Airbot Systems Mini Carrier Board
 
-![](../../.gitbook/assets/airbot-mini-carrier-board.png)
+![](<../../.gitbook/assets/Airbot Mini Carrier Board.png>)
 
-![](../../.gitbook/assets/airbot-mini-carrier-board-with-cube-orange.png)
+![](<../../.gitbook/assets/Airbot Mini Carrier Board with Cube Orange.png>)
 
 \
 The Airbot Systems Mini carrier board is one of the way to install a Cube on a drone. The Mini carrier board encapsulate all the wiring in a 50.5x57.5mm board, in order to save space and weight for applications which have size limits.
@@ -37,9 +37,9 @@ A Mini PDB that can pass up to 180A now accompanies the mini carrier board. This
 
 ### &#xD;&#xD;**POWER DISTRIBUTION BOARD : (optional)**
 
-![](../../.gitbook/assets/airbot-power-distribution-board.png)
+![](<../../.gitbook/assets/Airbot POWER DISTRIBUTION BOARD.png>)
 
-![](../../.gitbook/assets/airbot-power-distribution-board-with-carrier-board.png)
+![](<../../.gitbook/assets/Airbot POWER DISTRIBUTION BOARD with carrier board.png>)
 
 The Airbot Systems Power Distribution Board Set can be installed directly under Airbot Systems Mini carrier board set. The PDB allows up to 180A through ESC interface and four pairs of low power pads (2 on top/ 2 on bottom). The mounting hole are aligned with Airbot Systems carrier board, so the board can be stacked together while separated by small nylon spacers.
 

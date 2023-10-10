@@ -1,6 +1,6 @@
 # T-MOTOR
 
-![](../../.gitbook/assets/t-motor-logo.png)
+![](<../../.gitbook/assets/T-Motor Logo.png>)
 
 ###
 
@@ -52,7 +52,7 @@ SERVICE T-MOTOR provides you with full-scale and professional services.
 
 ### T-motor Air 2216 880KV
 
-![](../../.gitbook/assets/t-motor-air-2216-880kv.png)
+![](<../../.gitbook/assets/T-motor Air 2216 880KV.png>)
 
 | Specification           |                |                                |           |
 | ----------------------- | -------------- | ------------------------------ | --------- |
@@ -69,7 +69,7 @@ For more information about T-motor Air 2216 please check below:\
 
 ### T-motor MN4010 370KV
 
-![](../../.gitbook/assets/t-motor-mn4010-370kv.png)
+![](<../../.gitbook/assets/T-motor MN4010 370KV.png>)
 
 | Specification                 |          |                                 |                |
 | ----------------------------- | -------- | ------------------------------- | -------------- |
@@ -88,7 +88,7 @@ For more information about T-motor Air MN4010 please check below:\
 
 ### T-motor U8 II 100KV
 
-![](../../.gitbook/assets/t-motor-u8-ii-100kv.png)
+![](<../../.gitbook/assets/T-motor U8 II 100KV.png>)
 
 | Specification              |               |                          |                      |
 | -------------------------- | ------------- | ------------------------ | -------------------- |

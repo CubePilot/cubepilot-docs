@@ -1,6 +1,6 @@
 # The Cube Module Overview
 
-![](../.gitbook/assets/cube-overview.jpg)
+![](<../.gitbook/assets/Cube Overview.jpg>)
 
 ### The Cube Fixed Board
 
@@ -63,7 +63,7 @@
 
 The Cube continues with the FMU + IO architecture from the previous generation, incorporating the two functional blocks in a single physical module.
 
-![](../.gitbook/assets/cube-system-architecture.png)
+![](<../.gitbook/assets/Cube System architecture.png>)
 
 ### PWM Outputs
 
@@ -129,7 +129,7 @@ The supply of 3.3v
 * Split digital and analogue power domains for FMU and sensors.
 * Backup power for IO in the case of FMU power supply failure.
 
-<figure><img src="../.gitbook/assets/System Power Distribution.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/System Power Distribution (1).svg" alt=""><figcaption></figcaption></figure>
 
 ### Power management module (separate from the FMU)
 

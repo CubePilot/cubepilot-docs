@@ -30,7 +30,7 @@ Dataflash logs are stored on microSD Card, which is plugged in the left of The C
 
 **Remark: The Cube cannot arm the vehicle without SD card. A tone alarm with 1 high tune and 2 low tune will be played when trying to arm.**
 
-![](../.gitbook/assets/photo-02.jpg)
+![](<../.gitbook/assets/Photo - 02.jpg>)
 
 ### Power Supply
 
@@ -50,7 +50,7 @@ I/O will accept power from the servo connector up to 10 V FOR MANUAL OVERRIDE. S
 
 Connect the power module to the POWER1 port via POWER cable. If there are second battery monitor, please connect it to POWER2 port. The Cube will be turned on immediately after battery is connected. Connect the XT60 on the other side of power module to the motor system and loads.
 
-![](../.gitbook/assets/photo-04.jpg)
+![](<../.gitbook/assets/Photo - 04.jpg>)
 
 ### Connect ESCs and Motors
 
@@ -62,13 +62,13 @@ ESC malfunctioning are due to incorrect wiring in most of the case. Signal and g
 
 The diagrams below show motor order for each frame type. The numbers indicate which output pin from the flight controller should be connected to each motor/propeller. The propeller direction is shown in green (clockwise, CW) or blue (counter-clockwise, CCW) Connect the cable from ESC to the MAIN OUT port on The Cube.
 
-![](../.gitbook/assets/photo-05-1.jpg)
+![](<../.gitbook/assets/Photo - 05-1.jpg>)
 
-![](../.gitbook/assets/photo-05-2.jpg)
+![](<../.gitbook/assets/Photo - 05-2.jpg>)
 
-![](../.gitbook/assets/photo-05-3.jpg)
+![](<../.gitbook/assets/Photo - 05-3.jpg>)
 
-![](../.gitbook/assets/photo-05-4.jpg)
+![](<../.gitbook/assets/Photo - 05-4.jpg>)
 
 ### Servo Connection
 
@@ -162,7 +162,7 @@ Before installing firmware to The Cube, please download latest version of Missio
 
 Using Windows 10 as example, download the .msi installation file and run it as administrator. During the installation process, some drivers will be installed together. Click "yes" if any dialog box pop up.
 
-![](../.gitbook/assets/photo-06.jpg)
+![](<../.gitbook/assets/Photo - 06.jpg>)
 
 ### Connect Mission Planner to The Cube
 
@@ -181,7 +181,7 @@ You may also install old firmware if the latest firmware is not stable enough. I
 
 Custom firmware can be installed without internet connection by selecting from local folders.
 
-![](../.gitbook/assets/photo-07.jpg)
+![](<../.gitbook/assets/Photo - 07.jpg>)
 
 ## Basic Hardware Calibration and Parameter Setting
 
@@ -189,7 +189,7 @@ Custom firmware can be installed without internet connection by selecting from l
 
 Connect to Mission Planner. On the "Initial Setup > Mandatory Hardware > Frame Type" screen select the frame type of your vehicle such as Plus frame or X frame.
 
-![](../.gitbook/assets/photo-08.jpg)
+![](<../.gitbook/assets/Photo - 08.jpg>)
 
 ### Accelerometer and Compass Calibration
 
@@ -201,43 +201,43 @@ Go to "Initial Setup > Mandatory Hardware > Accel Calibration". Click Calibrate 
 
 1. Place the vehicle LEVEL then press "Click when Done".
 
-![](../.gitbook/assets/photo-09.jpg)
+![](<../.gitbook/assets/Photo - 09.jpg>)
 
-![](../.gitbook/assets/photo-10.jpg)
+![](<../.gitbook/assets/Photo - 10.jpg>)
 
 2.Place the vehicle nose to front and left-hand-side to the ground then press "Click when Done".
 
-![](../.gitbook/assets/photo-11.jpg)
+![](<../.gitbook/assets/Photo - 11.jpg>)
 
-![](../.gitbook/assets/photo-12.jpg)
+![](<../.gitbook/assets/Photo - 12 (1).jpg>)
 
 3.Place the vehicle nose to the ground then press "Click when Done".
 
-![](../.gitbook/assets/photo-13.jpg)
+![](<../.gitbook/assets/Photo - 13.jpg>)
 
-![](../.gitbook/assets/photo-14.jpg)
+![](<../.gitbook/assets/Photo - 14.jpg>)
 
 5.Place the vehicle nose to upward then press "Click when Done".
 
-![](../.gitbook/assets/photo-15.jpg)
+![](<../.gitbook/assets/Photo - 15.jpg>)
 
-![](../.gitbook/assets/photo-16.jpg)
+![](<../.gitbook/assets/Photo - 16.jpg>)
 
 6.Place the vehicle upside-down then press "Click when Done".
 
-![](../.gitbook/assets/photo-17.jpg)
+![](<../.gitbook/assets/Photo - 17.jpg>)
 
-![](../.gitbook/assets/photo-18.jpg)
+![](<../.gitbook/assets/Photo - 18.jpg>)
 
 "Calibration successful" will be shown after calibration completed successfully.
 
-![](../.gitbook/assets/photo-19.jpg)
+![](<../.gitbook/assets/Photo - 19.jpg>)
 
 ### Level Calibration
 
 Place the vehicle horizontally and click "Calibrate Level". The text in button will become "Completed" after calibration successful.
 
-![](../.gitbook/assets/photo-20.jpg)
+![](<../.gitbook/assets/Photo - 20.jpg>)
 
 ### Compass Calibration
 
@@ -253,19 +253,19 @@ Ensure the compass has been enabled.
 
     back, left, right, top and bottom) points down towards the earth for a few seconds in turn. As the vehicle is rotated the green bars should extend further and further to the right until the calibration completes.
 
-![](../.gitbook/assets/photo-21.jpg)
+![](<../.gitbook/assets/Photo - 21.jpg>)
 
 The window below will show success. For 3 compasses, "success" will be shown 3 times.
 
-![](../.gitbook/assets/photo-22.jpg)
+![](<../.gitbook/assets/Photo - 22.jpg>)
 
 upon successful completion three rising tones will be emitted and a “Please reboot the autopilot” window will appear and you will need to reboot the autopilot before it is possible to arm the vehicle.
 
-![](../.gitbook/assets/photo-23.jpg)
+![](<../.gitbook/assets/Photo - 23.jpg>)
 
 If, after multiple attempts, you are unable to calibrate the compass, Press the “Cancel” button and change the “Fitness” drop-down to a more relaxed setting and try again.
 
-![](../.gitbook/assets/photo-24.jpg)
+![](<../.gitbook/assets/Photo - 24.jpg>)
 
 ### Radio Control Calibration
 
@@ -273,9 +273,9 @@ Connect the RC receiver to The Cube via RCIN and turn on your RC transmitter. Ve
 
 Open the "INITIAL SETUP > Mandatory Hardware > Radio Calibration" screen. If your RC receiver (Rx) and transmitter (Tx) are bound, you should see the green bars move when you move the transmitter sticks.
 
-![](../.gitbook/assets/photo-25.jpg)
+![](<../.gitbook/assets/Photo - 25.jpg>)
 
-![](../.gitbook/assets/photo-26.jpg)
+![](<../.gitbook/assets/Photo - 26.jpg>)
 
 ### Electronic Speed Controller (ESC) Calibration
 
@@ -283,21 +283,21 @@ Safety Check!
 
 Before calibrating ESCs, please ensure that your copter has NO PROPS on it and that The Cube is NOT CONNECTED to your computer via USB and the Lipo battery is disconnected.
 
-![](../.gitbook/assets/photo-27.jpg)
+![](<../.gitbook/assets/Photo - 27.jpg>)
 
 All at once calibration:
 
 1.Turn on your transmitter and put the throttle stick at maximum
 
-![](../.gitbook/assets/photo-28.jpg)
+![](<../.gitbook/assets/Photo - 28.jpg>)
 
 2.Connect the Lipo battery. The autopilot’s red, blue and yellow LEDs will light up in a cyclical pattern. This means the it’s ready to go into ESC calibration mode the next time you plug it in.
 
-![](../.gitbook/assets/photo-29.jpg)
+![](<../.gitbook/assets/Photo - 29.jpg>)
 
 3.With the transmitter throttle stick still high, disconnect and reconnect the battery.
 
-![](../.gitbook/assets/photo-30.jpg)
+![](<../.gitbook/assets/Photo - 30.jpg>)
 
 4.Press and hold the safety button until it displays solid red.
 
@@ -307,7 +307,7 @@ All at once calibration:
 
 7.Pull the transmitter’s throttle stick down to its minimum position.
 
-![](../.gitbook/assets/photo-31.jpg)
+![](<../.gitbook/assets/Photo - 31.jpg>)
 
 8.The ESCs should then emit a long tone indicating that the minimum throttle has been captured and the calibration is complete.
 
@@ -323,9 +323,9 @@ Toggle the corresponding button to the desired position. As you move your transm
 
 _You can enable up to 6 autopilot control/flight modes to be set from your RC transmitter._
 
-![](../.gitbook/assets/photo-32.jpg)
+![](<../.gitbook/assets/Photo - 32.jpg>)
 
-![](../.gitbook/assets/photo-33.jpg)
+![](<../.gitbook/assets/Photo - 33.jpg>)
 
 #### 1. Stabilize Mode
 
@@ -423,7 +423,7 @@ Connect The Cube to power module and turn it on. Connect The Cube to Mission Pla
 
 Enter the properties your module can measure, the type of module, the type of flight controller, and the battery capacity:
 
-![](../.gitbook/assets/photo-35.jpg)
+![](<../.gitbook/assets/Photo - 35.jpg>)
 
 Monitor Analog Voltage and Current ;
 
@@ -442,11 +442,11 @@ Enter the new Voltage Divider according to your calculation and reboot the fligh
 Battery Monitor 2 corresponds to POWER2 port.\
 In the "Configuration > Full Parameter Tree" screen, change the following parameters to enable battery \_\*\_monitor 2:
 
-![](../.gitbook/assets/photo-36.jpg)
+![](<../.gitbook/assets/Photo - 36.jpg>)
 
 Enter the properties your module can measure, the type of module, the type of flight controller, and the battery capacity. Calculation for voltage divider is same as Battery monitor 1.
 
-![](../.gitbook/assets/photo-37.jpg)
+![](<../.gitbook/assets/Photo - 37.jpg>)
 
 Monitor Analog Voltage Only ;
 
@@ -458,7 +458,7 @@ Current Pin Pixhawk/Pixracer/Navio2 。
 
 On the HUD right click and select "User Items" will open the "Display this" window. Select battery-voltage2 and modify the display header. Battery Monitor 2 Voltage will be displayed on the HUD after clicking "OK".
 
-![](../.gitbook/assets/photo-38.jpg)
+![](<../.gitbook/assets/Photo - 38.jpg>)
 
 ## First Flight
 

@@ -16,7 +16,7 @@ On release, the "Secret mode set to ON" message should appear.
 
 Click the hamburger menu icon in the top left corner
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 11.47.49 AM.png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 11.47.49 AM (1).png>)
 
 Select `Button Mapping` &#x20;
 
@@ -24,23 +24,23 @@ Select `Button Mapping` &#x20;
 
 Choose desired button
 
-![](../../../../.gitbook/assets/043.jpg)
+![](<../../../../.gitbook/assets/image (3).jpeg>)
 
 Select either `Click` or `Long Click` (**Note** this allows you to set two functions to each button)
 
-![](<../../../../.gitbook/assets/044 (1).jpg>)
+![](<../../../../.gitbook/assets/image (4).jpeg>)
 
 Click on drop down to select the function you want
 
-![](../../../../.gitbook/assets/045.png)
+![](<../../../../.gitbook/assets/image (1).png>)
 
 Click on small cog to select option with-in selected function
 
-![](../../../../.gitbook/assets/046.jpg)
+![](<../../../../.gitbook/assets/image (5).jpeg>)
 
 Select function option
 
-![](../../../../.gitbook/assets/047.png)
+![](<../../../../.gitbook/assets/image (2).png>)
 
 Repeat for each button assignment and click `SAVE BUTTONS` in bottom corner to finish
 
@@ -63,17 +63,17 @@ The hardware wheel is mapped to SBUS channel 5 by default but can also be config
 
 Select the desired servo channel from 1- to 16
 
-![](../../../../.gitbook/assets/050.jpg)
+![](<../../../../.gitbook/assets/image (6).jpeg>)
 
 Finish by clicking OK and click `SAVE BUTTONS` in bottom corner
 
 To configure a button to change the wheel servo output configure the button to `WHEEL SETTINGS`&#x20;
 
-![](../../../../.gitbook/assets/053.jpg)
+![](<../../../../.gitbook/assets/image (7).jpeg>)
 
 Click the cog and set new channel and PWM values and click `OK` and then `SAVE BUTTONS` in bottom right corner. &#x20;
 
-![](../../../../.gitbook/assets/054.png)
+![](<../../../../.gitbook/assets/image (3) (1).png>)
 
 Once changed the wheel will output on the new selected channel, to return to its original servo output you will need to program one button function to `Clear Wheel Settings` as shown above.
 
@@ -115,11 +115,11 @@ From App Launcher slide down the notification drawer from the top and select "Un
 
 ![](../../../../.gitbook/assets/91.png)
 
-![](<../../../../.gitbook/assets/Sbusbuttons\_1 (1).png>)
+![](<../../../../.gitbook/assets/image (4) (1).png>)
 
 Click `NEW` and type name for your new profile and press `OK`.
 
-![](<../../../../.gitbook/assets/Sbusbuttons\_Profile (1).png>)
+![](<../../../../.gitbook/assets/image (6) (2).png>)
 
 Select the first button you want to configure from the drop down menu then click `ADD` .
 
@@ -135,23 +135,23 @@ Select the first button you want to configure from the drop down menu then click
 
 Select desired button mode by tapping the letter, ie: Toggle, Momenty or leave blank for Multi
 
-![](../../../../.gitbook/assets/Sbusbuttons\_4.jpg)
+![](<../../../../.gitbook/assets/image (10).jpeg>)
 
 **Tip: To move to the top end of the range you can scroll backwards, also ‘Flicking’ the numbers will scroll faster though the range.**
 
 If setting a Multi mode button set desired active pwm output.&#x20;
 
-![](../../../../.gitbook/assets/Sbusbuttons\_6.jpg)
+![](<../../../../.gitbook/assets/image (11).jpeg>)
 
 Set sbus channel output and bus.&#x20;
 
-![](../../../../.gitbook/assets/Sbusbuttons\_5.jpg)
+![](<../../../../.gitbook/assets/image (12).jpeg>)
 
 Once configured you must click `SAVE` to store settings.
 
 Next continue to add more buttons via the above process.
 
-![](../../../../.gitbook/assets/Sbusbuttons\_7.png)
+![](<../../../../.gitbook/assets/image (8).png>)
 
 To remove a button config simply click the bin icon next to the name.&#x20;
 
@@ -161,4 +161,4 @@ Multi button config allows you to set short and long press options as well as ot
 
 When setting up Multi mode buttons at least one on each channel must be selected as default value, this sets the default output pwm the system will default to on power on.
 
-![](../../../../.gitbook/assets/Sbusbuttons\_Setupmulti.png)
+![](<../../../../.gitbook/assets/image (9) (1).png>)

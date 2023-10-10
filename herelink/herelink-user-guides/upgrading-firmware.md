@@ -14,7 +14,7 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 
 **Determine Airunit upgrade method :** If your airunit is unable to pair with controller, or did not show airunit firmware version like below or no such page. Please upgrade with PC. For other cases, please check OTA Online Upgrade below.
 
-![](<../../.gitbook/assets/009 (1).png>)
+![](../../.gitbook/assets/009.png)
 
 ## 1. Upgrade Via PC
 
@@ -83,23 +83,23 @@ If Solex is installed. Please upgarde with OTA (Via Wifi)
     **-Region** _Select the correct region and within 5mins difference_
 * Pull down from the top and select the settings cog in the top corner.
 
-![](../../.gitbook/assets/settings-1.jpg)
+![](../../.gitbook/assets/010.jpg)
 
 * Scroll to the bottom and click the 'About phone' option
 
-![](../../.gitbook/assets/settings.jpg)
+![](../../.gitbook/assets/011.jpg)
 
 * Select 'System Update'
 
-![](../../.gitbook/assets/system-update.jpg)
+![](../../.gitbook/assets/014.jpg)
 
 * Select 'CHECK FOR UPDATE' in the bottom corner
 
-![](../../.gitbook/assets/update.jpg)
+![](../../.gitbook/assets/015.jpg)
 
 * The system will now check for latest update firmware and install it automatically
 
-![](../../.gitbook/assets/updating.png)
+![](../../.gitbook/assets/016.png)
 
 > **There are 4 things the need to be checked if you receive an error**
 >
@@ -128,7 +128,7 @@ If you can view the airunit firmware version from controller, you can upgrade it
 
 * After the update screen is displayed, determine whether the current version needs to be updated.
 
-![](../../.gitbook/assets/009.png)
+![](<../../.gitbook/assets/009 (1).png>)
 
 * If there is a new online version, perform the following three steps in order to complete the upgrade.
 

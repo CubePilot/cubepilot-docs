@@ -12,9 +12,9 @@ Enter the IP of the HereLink Blue controller
 
 Enter port `14550`&#x20;
 
-![](../../../../.gitbook/assets/screen-udp-copie-min.jpg)
+![](<../../../../.gitbook/assets/image (13).jpeg>)
 
-![](../../../../.gitbook/assets/mission-planner-2.png)
+![](<../../../../.gitbook/assets/image (19) (1).png>)
 
 You will now have Mavlink working into Mission Planner
 
@@ -36,7 +36,7 @@ The first time you do this, Mission Planner may need to download the files requi
 
 A popup window will open, enter the same IP as you did in the mavlink step and click `OK`&#x20;
 
-![](../../../../.gitbook/assets/herelink-video.jpg)
+![](<../../../../.gitbook/assets/image (14).jpeg>)
 
-![](../../../../.gitbook/assets/herelink-video-ip.jpg)
+![](<../../../../.gitbook/assets/image (15).jpeg>)
 
