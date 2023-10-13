@@ -108,13 +108,13 @@ Start with a base module setup first. During the base station setup, the rover a
 
 Open the Mission Planner ground station software on your computer and go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
-<figure><img src="../.gitbook/assets/9 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MP-rtk001.jpg" alt=""><figcaption></figcaption></figure>
 
 Select the correct base module com port in the top left corner and click connect. In the SurveyIn Acc section, enter the absolute geographic accuracy that you expect your Here 4 Base station to achieve. In the Time column, enter the minimum survey time you expect. Click on Restart, the ground station will transfer the data you have entered to the Here 4 base module, the base module will start a new round of surveying. You will see the following page:
 
 
 
-<figure><img src="../.gitbook/assets/10 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MP-rtk002.jpg" alt=""><figcaption></figcaption></figure>
 
 During the survey process, the right box will show the current survey status:
 
@@ -138,15 +138,17 @@ Even if the accuracy of the base station is 1.5 to 2 m, the position accuracy of
 
 After the survey is complete, the Mission Planner will display the following page:
 
-<figure><img src="../.gitbook/assets/11 (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MP-rtk003.jpg" alt=""><figcaption></figcaption></figure>
 
 In the RTCM box it shows that the base status indicator is green and both the GPS and Glonass satellite systems are green (if you want to change the satellite system, refer to the following section). The box on the right says "Position is valid".
+
+<figure><img src="../.gitbook/assets/MP-rtk004.jpg" alt=""><figcaption></figcaption></figure>
 
 To store the current location in the Mission Planner: Click "Save Current Pos", enter a name in the dialogue box, and click "OK". As shown below, you can see your saved location in the list. Click the "Use" button for the location you saved. The base station will enter the fixed mode and the status will show "Using FixedLLA". In the future, if you set the base station in the same location, you do not need to conduct the survey again, just click the "Use" button that corresponds to the location you have saved.
 
 
 
-<figure><img src="../.gitbook/assets/12 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MP-rtk005.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Rover Module and Flight Controller Setup**
 
