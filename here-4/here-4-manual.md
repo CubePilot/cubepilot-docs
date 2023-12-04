@@ -48,7 +48,7 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 
 ## Pinout
 
-<figure><img src="../.gitbook/assets/-can-20230615-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/-can-debug-20230616-3.png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="245"></th><th></th></tr></thead><tbody><tr><td>CAN</td><td>x2（Current firmware only supports CAN1-green、blue、white、grey）</td></tr><tr><td>Working Temperature</td><td>-40 °C to +85 °C</td></tr><tr><td>Size</td><td>16 x 68 mm</td></tr><tr><td>Weight</td><td>60g (with cable)</td></tr></tbody></table>
 
