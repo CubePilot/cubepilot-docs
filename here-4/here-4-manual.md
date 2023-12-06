@@ -322,6 +322,12 @@ If you connected the UXVs with 1 telemetry module, they should share the same CO
 
 ## 6. U-Center Firmware Update
 
+
+
+{% hint style="danger" %}
+Please do not update your Here4 Ublox firmware if you purchased your unit after 7th December 2023 before consulting your reseller. The firmware on new Here4s has special firmware which adds support for Moving Baseline, firmware from ublox website do not support that feature. Updating the firmware may drop Moving Baseline support from your units.
+{% endhint %}
+
 {% hint style="info" %}
 Ensure that you have the latest firmware on Here4 before this process. Please follow [#3.-firmware-update](here-4-manual.md#3.-firmware-update "mention") to update the firmware.
 {% endhint %}
