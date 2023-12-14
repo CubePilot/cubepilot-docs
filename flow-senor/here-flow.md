@@ -26,7 +26,7 @@ Size: 28.8mm\*9.5mm
 2. CAN Protocol, which provide more reliable communication
 3. Built-in IMU Module
 4. PAW3903 Optical Flow Sensor. Effective ranges from 80 mm to infinity.\
-   \*Old generation module used to have 3901
+   **\*Old generation module used to have 3901**
 
 ### Optical Flow Sensor Specification
 
