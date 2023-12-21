@@ -322,4 +322,8 @@ If you connected the UXVs with 1 telemetry module, they should share the same CO
 
 ![](../.gitbook/assets/rtk\_frame2.png)
 
+### 8. Moving baseline setup reference
+
+<figure><img src="../.gitbook/assets/HerePro Moving Baseline-R.jpg" alt=""><figcaption></figcaption></figure>
+
 2023/07/12

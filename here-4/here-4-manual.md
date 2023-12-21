@@ -361,3 +361,7 @@ If the following option is not visible in Mission Planner, then update Mission P
 6. Select Tools>Firmware Update Utility. Select the downloaded firmware from ublox website in the tool. Ensure that baudrate is same as set in Mission Planner. And Options are correctly selected as shown below. And then click GO.
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+## 7. Moving baseline setup reference
+
+<figure><img src="../.gitbook/assets/Here4 Moving Baseline-R.jpg" alt=""><figcaption></figcaption></figure>
