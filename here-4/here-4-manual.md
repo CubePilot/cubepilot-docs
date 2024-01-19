@@ -136,6 +136,12 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 | 5   | I2C\_SDA |
 | 6   | GND      |
 
+{% hint style="danger" %}
+Please note that above Uart Pinout is for Here4 as a GPS Unit, and the pinouts are marked as they would connect to the Flight Controller.
+
+When using Here4 as Flight Controller itself the notation will change, GPS\_TX will be UART\_RX and GPS\_RX will be UART\_TX. Ensure that you make necessary changes. Most likely you will need to cross RX and TX wires when connecting peripherals to Here4 as a Flight Controller.
+{% endhint %}
+
 ## User Manual
 
 ## 1. For use with Ardupilot:
