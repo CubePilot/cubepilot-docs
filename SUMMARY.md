@@ -86,6 +86,10 @@
 
 * [Cube ID](cube-id/cube-id.md)
 
+## CubeNode
+
+* [CubeNode Specification](cubenode/cubenode-specification.md)
+
 ## FLOW SENSOR <a href="#flow-senor" id="flow-senor"></a>
 
 * [Here Flow](flow-senor/here-flow.md)
