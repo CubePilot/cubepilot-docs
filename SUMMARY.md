@@ -89,6 +89,7 @@
 ## CubeNode
 
 * [CubeNode Specification](cubenode/cubenode-specification.md)
+* [CubeNode Footprint](cubenode/cubenode-footprint.md)
 
 ## FLOW SENSOR <a href="#flow-senor" id="flow-senor"></a>
 
