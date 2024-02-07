@@ -12,6 +12,83 @@ Employing RTK (Real-Time Kinematic) technology offers more precise position esti
 
 Furthermore, the Here 4 Base is designed for user-friendliness. Setting it up to work with Mission Planner is a straightforward process, requiring minimal configuration. For data communication between rover and base modules, a pair of telemetry modules is required (please note that these modules are not included in the standard package).
 
+### Specification
+
+| GNSS                      | BeiDou, Galileo, GLONASS, GPS / QZSS                                           |
+| ------------------------- | ------------------------------------------------------------------------------ |
+| Number of concurrent GNSS | 4 Constellations                                                               |
+| GNSS bands                | B1I, B2a, E1B/C, E5a, L1C/A, L1OF, L5                                          |
+| Size                      | 40mm x 41mm x 11mm                                                             |
+| Weight                    | 43g（With cable）/ 18g（Without cable）                                            |
+| Operation temperature     | -40 ℃ to 80 ℃                                                                  |
+| Antenna                   | **L1 & L5** SMA connector Antenna ( item does not come with external antenna ) |
+
+| **Parameter**                  | **Specification**                       |                                 |
+| ------------------------------ | --------------------------------------- | ------------------------------- |
+| Receiver type                  | Multi-band GNSS high precision receiver |                                 |
+| Accuracy of time pulse signal  | RMS                                     | 30 ns                           |
+|                                | 99%                                     | 60 ns                           |
+| Frequency of time pulse signal |                                         | 0.25 Hz to 10 MHz(configurable) |
+| Operational limits             | Dynamics                                | ≤ 4 g                           |
+|                                | Altitude                                | 80,000 m                        |
+|                                | Velocity                                | 500 m/s                         |
+| Velocity accuracy              |                                         | 0.05 m/s                        |
+| Dynamic heading accuracy       |                                         | 0.3 deg                         |
+
+### Acquisition
+
+|             | GPS+GLO+GAL+BDS | GPS+BDS+GAL | GPS+GAL | GPS+GLO | GPS+BDS | GPS |
+| ----------- | --------------- | ----------- | ------- | ------- | ------- | --- |
+| Cold start  | 27s             | 28s         | 29s     | 30s     | 27s     | 37s |
+| Hot start   | 3s              | 3s          | 3s      | 3s      | 3s      | 3s  |
+| Aided start | 4s              | 4s          | 4s      | 4s      | 4s      | 5s  |
+
+### Max Navigation update rate
+
+| <p><br></p> | GPS+GLO+GAL+BDS | GPS+BDS+GAL | GPS+GAL | GPS+GLO | GPS+BDS | GPS   |
+| ----------- | --------------- | ----------- | ------- | ------- | ------- | ----- |
+| RTK         | 7 Hz            | 8 Hz        | 14 Hz   | 15 Hz   | 10 Hz   | 25 Hz |
+| PVT         | 7 Hz            | 8 Hz        | 14 Hz   | 20 Hz   | 11 Hz   | 25 Hz |
+| RAW         | 10 Hz           | 10 Hz       | 20 Hz   | 25 Hz   | 20 Hz   | 25 Hz |
+
+### Convergence Time
+
+| <p><br></p> | GPS+GLO+GAL+BDS | GPS+BDS+GAL | GPS+GAL | GPS+GLO | GPS+BDS | GPS    |
+| ----------- | --------------- | ----------- | ------- | ------- | ------- | ------ |
+| RTK         | < 12 s          | < 12 s      | < 12 s  | < 12 s  | < 12 s  | < 30 s |
+
+### Horizontal pos. accuracy
+
+|      | GPS+GLO+GAL+BDS    | GPS+BDS+GAL        | GPS+GAL            | GPS+GLO            | GPS+BDS            | GPS                |
+| ---- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
+| PVT  | 1.5 m CEP          | 1.5 m CEP          | 1.5 m CEP          | 1.5 m CEP          | 1.5 m CEP          | 1.5 m CEP          |
+| SBAS | 1.0 m CEP          | 1.0 m CEP          | 1.0 m CEP          | 1.0 m CEP          | 1.0 m CEP          | 1.0 m CEP          |
+| RTK  | 0.01 m + 1 ppm CEP | 0.01 m + 1 ppm CEP | 0.01 m + 1 ppm CEP | 0.01 m + 1 ppm CEP | 0.01 m + 1 ppm CEP | 0.01 m + 1 ppm CEP |
+
+### Vertical pos. accuracy
+
+|      | <p><br>GPS+GLO+GAL+BDS</p> | GPS+BDS+GAL        | GPS+GAL            | GPS+GLO            | GPS+BDS            | GPS                |
+| ---- | -------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
+| PVT  | 2.0 m R50                  | 2.0 m R50          | 2.0 m R50          | 2.0 m R50          | 2.0 m R50          | 2.0 m R50          |
+| SBAS | 1.5 m R50                  | 1.5 m R50          | 1.5 m R50          | 1.5 m R50          | 1.5 m R50          | 1.5 m R50          |
+| RTK  | 0.01 m + 1 ppm R50         | 0.01 m + 1 ppm R50 | 0.01 m + 1 ppm R50 | 0.01 m + 1 ppm R50 | 0.01 m + 1 ppm R50 | 0.01 m + 1 ppm R50 |
+
+| GNSS                     |        | **GPS+GLO+GAL+BDS** | **GPS+BDS+GAL** |
+| ------------------------ | ------ | ------------------- | --------------- |
+| Horizontal pos. accuracy | SPARTN | < 0.10 m CEP        | < 0.10 m CEP    |
+|                          | CLAS   | 0.04 m CEP          | 0.04 m CEP      |
+| Vertical pos. accuracy   | SPARTN | < 0.20 m R50        | < 0.20 m R50    |
+|                          | CLAS   | 0.08 m R50          | 0.08 m R50      |
+| Convergence time         | SPARTN | < 65 s              | < 65 s          |
+|                          | CLAS   | < 90 s              | < 90 s          |
+
+| GNSS        |                  | GPS+GLO+GAL+BDS |
+| ----------- | ---------------- | --------------- |
+| Sensitivity | Tracking and nav | -167 dBm        |
+| Sensitivity | Reacquisition    | -160 dBm        |
+| Sensitivity | Cold start       | -148 dBm        |
+| Sensitivity | Hot start        | -157 dBm        |
+
 ### Pinout
 
 
