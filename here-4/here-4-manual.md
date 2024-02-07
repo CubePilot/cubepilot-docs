@@ -368,6 +368,29 @@ If the following option is not visible in Mission Planner, then update Mission P
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-## 7. Moving baseline setup reference
+## 7. Moving baseline
+
+
 
 <figure><img src="../.gitbook/assets/Here4 Moving Baseline-R.jpg" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Please note that early Here4 units (Pre December 2023 Production Here4 Black and Alpha Here4 Blue Units) do not support Moving Baseline. If you have such units and require this feature you will need to contact your reseller. To check if your unit has Moving Baseline support please follow the steps below.
+{% endhint %}
+
+#### Steps to verify Ublox Firmware version
+
+*
+
+<figure><img src="../.gitbook/assets/MovingBaselineFirmwareCheck.png" alt=""><figcaption></figcaption></figure>
+
+* Connect Here4 Units as shown above and ensure the firmware running on them is atleast v1.13.
+* Connect CubeOrange to the Mission Planner and Open DroneCAN/UAVCAN window.
+* Reboot the Here4 units, and wait for few seconds until the message as shown below appears.
+* The firmware supporting Moving Baseline has firmware hash: u-blox 1 HW: 00190000 SW: EXT CORE 1.00 **(49f616)**
+
+
+
+<figure><img src="../.gitbook/assets/MovingBaselineFirmwareCheck2.png" alt=""><figcaption></figcaption></figure>
+
+Once all settings and versions are confirmed, follow these steps for setting moving baseline on Ardupilot: [https://ardupilot.org/copter/docs/common-gps-for-yaw.html#dual-dronecan-f9p-gps](https://ardupilot.org/copter/docs/common-gps-for-yaw.html#dual-dronecan-f9p-gps)
