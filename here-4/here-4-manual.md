@@ -380,8 +380,6 @@ Please note that early Here4 units (Pre December 2023 Production Here4 Black and
 
 #### Steps to verify Ublox Firmware version
 
-*
-
 <figure><img src="../.gitbook/assets/MovingBaselineFirmwareCheck.png" alt=""><figcaption></figcaption></figure>
 
 * Connect Here4 Units as shown above and ensure the firmware running on them is atleast v1.13.
