@@ -391,4 +391,12 @@ Please note that early Here4 units (Pre December 2023 Production Here4 Black and
 
 <figure><img src="../.gitbook/assets/MovingBaselineFirmwareCheck2.png" alt=""><figcaption></figcaption></figure>
 
-Once all settings and versions are confirmed, follow these steps for setting moving baseline on Ardupilot: [https://ardupilot.org/copter/docs/common-gps-for-yaw.html#dual-dronecan-f9p-gps](https://ardupilot.org/copter/docs/common-gps-for-yaw.html#dual-dronecan-f9p-gps)
+Once all settings and versions are confirmed, set following parameters for Moving Baseline on Ardupilot:\
+
+
+* [GPS\_TYPE](https://ardupilot.org/copter/docs/parameters.html#gps-type) = 22 (“DroneCAN moving baseline base”)
+* [GPS\_TYPE2](https://ardupilot.org/copter/docs/parameters.html#gps-type2) = 23 (“DroneCAN moving baseline rover”)
+* [GPS\_AUTO\_CONFIG](https://ardupilot.org/copter/docs/parameters.html#gps-auto-config) = 2 (AutoConfig DroneCAN)
+* [GPS\_AUTO\_SWITCH](https://ardupilot.org/copter/docs/parameters.html#gps-auto-switch) = 1
+* Set the [GPS\_POS1\_X](https://ardupilot.org/copter/docs/parameters.html#gps-pos1-x)/Y/Z and [GPS\_POS2\_X](https://ardupilot.org/copter/docs/parameters.html#gps-pos2-x)/Y/Z parameters for the GPS antennas (see [Sensor Position Offset are here](https://ardupilot.org/copter/docs/common-sensor-offset-compensation.html#common-sensor-offset-compensation)). You must establish the relative positions of each GPS location on the vehicle with respect the vehicle’s motion.
+* [GPS1\_CAN\_OVRIDE](https://ardupilot.org/copter/docs/parameters.html#gps1-can-ovride) (Base NODEID) and [GPS2\_CAN\_OVRIDE](https://ardupilot.org/copter/docs/parameters.html#gps2-can-ovride) (Rover NODEID) determine which physical DroneCAN GPS is used for GPS1 and GPS2. These are automatically populated at boot from the detected addresses, which are also shown in [GPS\_CAN\_NODEID1](https://ardupilot.org/copter/docs/parameters.html#gps-can-nodeid1) and [GPS\_CAN\_NODEID2](https://ardupilot.org/copter/docs/parameters.html#gps-can-nodeid2), but can be overriden, if needed. You will need to determine which physical CAN GPS is assigned as GPS1 and GPS2 in order to setup the position offsets (see [Sensor Position Offset are here](https://ardupilot.org/copter/docs/common-sensor-offset-compensation.html#common-sensor-offset-compensation))
