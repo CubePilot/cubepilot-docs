@@ -62,6 +62,7 @@
 
 ## Autopilot
 
+* [Cube Red](autopilot/cube-red.md)
 * [The Cube Module Overview](autopilot/the-cube-module-overview.md)
 * [The Cube User Manual V1.0](autopilot/the-cube-user-manual.md)
 * [The Cube - Firmware Installation & Connection Troubleshooting](autopilot/the-cube-series-firmware-and-connection-troubleshooting/README.md)
