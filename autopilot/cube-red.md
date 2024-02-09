@@ -1,6 +1,6 @@
 # Cube Red
 
-<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20240202-08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20240202-08.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Overview
 
@@ -49,7 +49,7 @@ The Cube Red is a professional dual FMU flight control system that ensures opera
 
 ### Cube Red 80-Pin DF17 Connector
 
-<figure><img src="../.gitbook/assets/cube-bottom (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cube-bottom (1).png" alt="" width="340"><figcaption></figcaption></figure>
 
 ### **Connector 1 Assignments**
 
@@ -297,7 +297,7 @@ Total connectivity:
 
 
 
-<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231127-04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231127-04.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### **SERIAL 1 / UART 1 | Port: `TELEM1`**
 
@@ -377,7 +377,7 @@ Total connectivity:
 | 2         | GND                           |         | GND         |                  | GND                      |
 | 3         | VDD\_3V3\_Spektrum            | OUT     | 3.3 V       |                  | Independent Power Supply |
 
-<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231124-05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231124-05.png" alt="" width="375"><figcaption></figcaption></figure>
 
 **SERIAL 5 / UART 5 (Debug Console) / S.Bus OUT | Port: `CONS`** **`SBUSo`**
 
@@ -432,7 +432,7 @@ Total connectivity:
 | S - 14    | IO\_CH8\_PROT   | OUT     | 3.3 V Servo Signal, Servo Rail Power | PWM Signal         |
 | S - 15    | PPM\_SBUS\_PROT | IN/OUT  | 3.3 V / 4.5 V Powered                | PPM / S.Bus Signal |
 
-<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231127-03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231127-03.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **SERIAL 2 / UART 2 | Port: `TELEM2`**
 
@@ -467,7 +467,7 @@ Total connectivity:
 
 
 
-<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231127-01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231127-01.png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Ethernet: `ETH1`**
 
@@ -484,7 +484,7 @@ Total connectivity:
 
 
 
-<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231124-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20231124-02.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **DSI / Timestamp / Boot| Port: `DSI`**
 
