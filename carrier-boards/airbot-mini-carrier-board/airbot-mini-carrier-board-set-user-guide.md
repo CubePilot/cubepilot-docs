@@ -54,4 +54,7 @@ When using nylon spacers or insulations(e.g PlastiDIP), remember to leave enough
 
 ![](<../../.gitbook/assets/Airbot MCB set with Cube Orange - Side.jpg>)
 
+**Page available for revision and updating through the Github link below:**\
+[https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md](airbot-mini-carrier-board-set-user-guide.md)
+
 August 16，2021

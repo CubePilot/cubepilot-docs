@@ -262,4 +262,7 @@ The middle solder pad of the left hand side is shorted with 5v pin. Therefore, y
 
 Solder the 3v3 solder pad with the middle solder pad at left hand side; and solder the SPKT solder pad with the middle solder pad at right hand side. So that RC IN port is compatible with SPKT signal.
 
+**Page available for revision and updating through the Github link below:**\
+[https://github.com/CubePilot/cubepilot-docs/edit/master/carrier-boards/mini-carrier-board.md](https://github.com/CubePilot/cubepilot-docs/edit/master/carrier-boards/mini-carrier-board.md)
+
 Last update: 10th Jan 2019

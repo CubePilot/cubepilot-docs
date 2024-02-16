@@ -328,17 +328,15 @@ Most digital peripheral signals (all PWM outputs, serial ports, I2C port) are dr
 
 
 
-
-
 ### Carrier board information
 
 
 
 {% embed url="https://docs.cubepilot.org/user-guides/~/changes/mvMsnRI8xnoKpbe3XhLK/carrier-boards/cube-red-standard-carrier-board-pinout" %}
 
+### **Please feel free to edit this Doc if you find any issues**
 
-
-### Please feel free to edit this Doc if you find any issues
+https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/cube-red-standard-carrier-board-pinout.md
 
 2024-02-08\
 

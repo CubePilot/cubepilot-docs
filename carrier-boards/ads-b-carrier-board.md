@@ -39,3 +39,6 @@ To enable ADSB in Ardupilot to detect aircraft on ground station you need to be 
 * AVD\_F\_RCVRY = 3 sets how the vehicle will behave after the vehicle has cleared the near-miss area (i.e. 0 = Remain in EXCER\_ADSB, 1 = resume previous flight mode, 2 = RTL, 3 = Resume if AUTO else Loiter)
 
 More information on these settings can be found [http://ardupilot.org/plane/docs/common-ads-b-receiver.html](http://ardupilot.org/plane/docs/common-ads-b-receiver.html)
+
+**Page available for revision and updating through the Github link below:**\
+[**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/ads-b-carrier-board.md**](ads-b-carrier-board.md)

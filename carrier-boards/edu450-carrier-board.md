@@ -262,4 +262,7 @@ The 8 ESC port in total is available for multi-rotor UAVs with four and coaxial 
 
 <figure><img src="../.gitbook/assets/Main power Failure.png" alt=""><figcaption></figcaption></figure>
 
+**Page available for revision and updating through the Github link below:**\
+[**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/edu450-carrier-board.md**](edu450-carrier-board.md)
+
 2023/09/21
