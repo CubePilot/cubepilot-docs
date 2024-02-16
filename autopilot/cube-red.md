@@ -1,8 +1,6 @@
 # Cube Red
 
-<figure><img src="../.gitbook/assets/Cube-Red-Manual Graphic-20240202-08.png" alt="" width="375"><figcaption></figcaption></figure>
-
-## Overview
+Overview
 
 The Cube Red is a professional dual FMU flight control system that ensures operational reliability through its two dual-core, double-precision FPU processors. The newly added Ethernet interface and DSI out provide an unprecedented flight experience. An Isolated Static Air port minimizes disruptions from external airflow, ensuring stable static pressure. Also with Ardupilot firmware, you can utilize this unit with any type of UXV.
 
@@ -232,8 +230,6 @@ The Cube Red is a professional dual FMU flight control system that ensures opera
 #### System architecture
 
 The Cube continues with the FMU + IO architecture from the previous generation, incorporating the two functional blocks in a single physical module.
-
-<figure><img src="../.gitbook/assets/Red_overview.png" alt=""><figcaption></figcaption></figure>
 
 **PWM Outputs**
 
