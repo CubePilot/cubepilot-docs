@@ -233,9 +233,7 @@ The Cube Red is a professional dual FMU flight control system that ensures opera
 
 The Cube continues with the FMU + IO architecture from the previous generation, incorporating the two functional blocks in a single physical module.
 
-
-
-<figure><img src="../.gitbook/assets/Chart-20240202-04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Red_overview.png" alt=""><figcaption></figcaption></figure>
 
 **PWM Outputs**
 
