@@ -1,5 +1,11 @@
 # UKCA Certificate
 
+## The Cube Orange+ Standard Set UKCA Certificate
+
+
+
+<figure><img src="../.gitbook/assets/The Cube Orange+ Standard Set UKCA Certificate.jpg" alt=""><figcaption></figcaption></figure>
+
 ## Here4 Multiband RTK GNSS UKCA Certificate
 
 <figure><img src="../.gitbook/assets/Here4 Multiband RTK GNSS UKCA certificate.jpg" alt=""><figcaption></figcaption></figure>

@@ -3,6 +3,10 @@
 **“Please note our address change to our new Singapore office, some documents show our old HK office"**\
 
 
+## The Cube Orange+ Standard Set CE Certificate
+
+<figure><img src="../.gitbook/assets/The Cube Orange+ Standard Set CE Certificate.jpg" alt=""><figcaption></figcaption></figure>
+
 ## Here4 Multiband RTK GNSS CE Certificate
 
 <figure><img src="../.gitbook/assets/Here4 Multiband RTK GNSS CE certificate.jpg" alt=""><figcaption></figcaption></figure>

@@ -1,5 +1,9 @@
 # RoHS Certificate
 
+## The Cube Orange+ Standard Set CoC ROHS Certificate
+
+<figure><img src="../.gitbook/assets/The Cube Orange+ Standard Set CoC ROHS certificate.jpg" alt=""><figcaption></figcaption></figure>
+
 ## Here4 Multiband RTK GNSS CoC ROHS Certificate
 
 {% file src="../.gitbook/assets/Here4 Multiband RTK GNSS CoC ROHS certificate.pdf" %}
