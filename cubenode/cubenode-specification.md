@@ -63,6 +63,8 @@ CubeNode incorporate high-speed embedded memories with a dual-bank Flash memory 
   One USB\
   One SDMMC
 
+**Soldering Notes: This device should be reflow soldered once. If doing a 2-sided assembly, the device should be soldered on during the second pass through the line. If the node cannot be run through the second pass, reflow-safe underfill should be used. Failure to follow these requirements will result in permanent damage to the device."**
+
 ## 2 Functional overview&#x20;
 
 ### 2.1 Dual Arm® Cortex® cores
