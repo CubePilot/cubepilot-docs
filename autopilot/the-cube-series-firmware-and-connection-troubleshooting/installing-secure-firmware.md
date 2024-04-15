@@ -11,7 +11,7 @@ This feature is currently only supported on Cubepilot autopilots including and r
 * Ensure that you have an account at [https://discuss.cubepilot.org](https://discuss.cubepilot.org) . If not please create one, as the account will be used to secure your cube, which means, only the users with credentials will be able to load the firmware once secured.
 * To load the secure bootloader, you will need Beta Mission Planner installed on your system.
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 * &#x20;Setup > Secure > Login
 

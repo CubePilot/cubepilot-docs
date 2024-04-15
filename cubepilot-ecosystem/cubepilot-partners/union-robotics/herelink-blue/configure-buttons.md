@@ -32,7 +32,7 @@ Select either `Click` or `Long Click` (**Note** this allows you to set two funct
 
 Click on drop down to select the function you want
 
-![](<../../../../.gitbook/assets/image (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1).png>)
 
 Click on small cog to select option with-in selected function
 
@@ -40,7 +40,7 @@ Click on small cog to select option with-in selected function
 
 Select function option
 
-![](<../../../../.gitbook/assets/image (2).png>)
+![](<../../../../.gitbook/assets/image (2) (1).png>)
 
 Repeat for each button assignment and click `SAVE BUTTONS` in bottom corner to finish
 
@@ -73,7 +73,7 @@ To configure a button to change the wheel servo output configure the button to `
 
 Click the cog and set new channel and PWM values and click `OK` and then `SAVE BUTTONS` in bottom right corner. &#x20;
 
-![](<../../../../.gitbook/assets/image (3) (1).png>)
+![](<../../../../.gitbook/assets/image (3) (1) (1).png>)
 
 Once changed the wheel will output on the new selected channel, to return to its original servo output you will need to program one button function to `Clear Wheel Settings` as shown above.
 

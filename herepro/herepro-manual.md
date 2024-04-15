@@ -263,11 +263,21 @@ Place the base station on a stable and elevated platform such as a tripod.
 
 Start with base module setup. During the base station setup, the rover and the UXV do not need to be turned on.
 
-Open Mission Planner ground station software on computer and go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
+* Connect HerePro module to Mission Planner for Parameter setting
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* Go to Parameters and set B\_ENABLE  1
+
+&#x20;
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* Disconnect HerePro and Connect it again, then go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
 <figure><img src="../.gitbook/assets/11en-1619681019905.png" alt=""><figcaption></figcaption></figure>
 
-Select the correct base module COM port (There are 2 COM port for HerePro. Eg: COM13 and COM14. Select the bottom one.) at the top-left corner. Select baud rate **38400**. Uncheck **Send GGA**. Check “**M8P/F9P autoconfig**” and “**M8P fw 130+/F9P**”. Then click connect. In the SurveyIn Acc section, enter the expected absolute geographic accuracy. In the Time column, enter the expected minimum survey time. Click Restart. The ground station will now transfer the data you have entered to the HerePro base, the base module will start surveying. You will see the following screen:
+Select the correct base module COM port at the top-left corner. Uncheck **Send GGA**. Check “**M8P/F9P autoconfig**” and “**M8P fw 130+/F9P**”. Then click connect. In the SurveyIn Acc section, enter the expected absolute geographic accuracy. In the Time column, enter the expected minimum survey time. Click Restart. The ground station will now transfer the data you have entered to the HerePro base, the base module will start surveying. You will see the following screen:
 
 <figure><img src="../.gitbook/assets/12en.png" alt=""><figcaption></figcaption></figure>
 
