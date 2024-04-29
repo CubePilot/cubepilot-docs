@@ -91,6 +91,8 @@ Additionally, the six “Aux Out” connections are available as part of a 3x8 g
 
 ![JP2Bridge](../.gitbook/assets/JP2Bridge.png)
 
+Pin label "SBUS" is sbus out, label "PPM" is Rcin.
+
 ## Motor Pin Assignments
 
 The default Motor PWM pin arrangement of the carrier board was chosen for easy integration with a standard quadcopter. For other vehicle or frame types (including X8, Hex, Octo, etc), it is necessary to re-map the motor outputs to the correct corners of the board. This is possible for ArduCopter Firmware v3.5.0+.
@@ -393,7 +395,7 @@ The carrier board features a volume control switch located at the front edge of 
 
 ## Errata
 
-The pins on connector J3 should be labeled “SCL1” and “SDA1”, not “SCL2” and “SDA2”. The label “I2C1” next to the connector is correct.
+The pins on connector J3 should be labeled “SCL1” and “SDA1”, not “SCL2” and “SDA2”. The label “I2C1” next to the connector is correct. The label "SBUS" is sbus out, label "PPM" is Rcin.
 
 ## Disclaimer <a href="#disclaimer" id="disclaimer"></a>
 
