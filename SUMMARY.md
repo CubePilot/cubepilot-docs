@@ -107,6 +107,7 @@
 * [RoHS Certificate](product-certificate/rohs-certificate.md)
 * [FCC Certificate](product-certificate/fcc-certificate.md)
 * [IC Certificate](product-certificate/ic-certificate.md)
+* [RCM Certificate](product-certificate/rcm-certificate.md)
 * [Material Safety Data Sheet - MSDS](product-certificate/material-safety-data-sheet-msds.md)
 
 ## SOLO
