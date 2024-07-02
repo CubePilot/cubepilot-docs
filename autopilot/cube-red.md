@@ -324,7 +324,9 @@ Most digital peripheral signals (all PWM outputs, serial ports, I2C port) are dr
 * One onboard compass
 * Three Barometers
 
+### Cube Red Connectors
 
+<figure><img src="../.gitbook/assets/Cube Red Connectors.png" alt=""><figcaption></figcaption></figure>
 
 ### Carrier board information
 
