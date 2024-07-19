@@ -400,3 +400,43 @@ Once all settings and versions are confirmed, set following parameters for Movin
 * [GPS\_AUTO\_SWITCH](https://ardupilot.org/copter/docs/parameters.html#gps-auto-switch) = 1
 * Set the [GPS\_POS1\_X](https://ardupilot.org/copter/docs/parameters.html#gps-pos1-x)/Y/Z and [GPS\_POS2\_X](https://ardupilot.org/copter/docs/parameters.html#gps-pos2-x)/Y/Z parameters for the GPS antennas (see [Sensor Position Offset are here](https://ardupilot.org/copter/docs/common-sensor-offset-compensation.html#common-sensor-offset-compensation)). You must establish the relative positions of each GPS location on the vehicle with respect the vehicle’s motion.
 * [GPS1\_CAN\_OVRIDE](https://ardupilot.org/copter/docs/parameters.html#gps1-can-ovride) (Base NODEID) and [GPS2\_CAN\_OVRIDE](https://ardupilot.org/copter/docs/parameters.html#gps2-can-ovride) (Rover NODEID) determine which physical DroneCAN GPS is used for GPS1 and GPS2. These are automatically populated at boot from the detected addresses, which are also shown in [GPS\_CAN\_NODEID1](https://ardupilot.org/copter/docs/parameters.html#gps-can-nodeid1) and [GPS\_CAN\_NODEID2](https://ardupilot.org/copter/docs/parameters.html#gps-can-nodeid2), but can be overriden, if needed. You will need to determine which physical CAN GPS is assigned as GPS1 and GPS2 in order to setup the position offsets (see [Sensor Position Offset are here](https://ardupilot.org/copter/docs/common-sensor-offset-compensation.html#common-sensor-offset-compensation))
+
+
+
+## 8. Installing Ardupilot on Here4
+
+*   You will require following components to upgrade Here4 to be Flight Controller
+
+    * Cube : For updating the bootloader on Here4 unit.
+    * Serial to USB connection: For talking to Here4 module over telemetry and updating firmware.
+    * Here4 Splitter board: For wiring IO pins in usable form
+
+
+* ### Step 1: Updating Here4 Bootloader:
+  * Connect Here4 to a Cube configured to operate over CAN bus.
+  * Follow the steps here to update Here4 to latest release [Firmware Update](../cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/update-firmware.md).
+  * After update, open parameters pane for Here4 Unit.
+  * Search parameter `FLASH_BOOTLOADER` , set the parameter to 1
+  * Then click `Refresh Params`, check if the parameter auto resetted to 0, confirming successful update.
+
+<figure><img src="../.gitbook/assets/Update Bootloader Here4.png" alt=""><figcaption></figcaption></figure>
+
+
+
+*   ### Step2: Updating to Here4 FC firmware
+
+
+
+    * Connect GPS\_TX and GPS\_RX pins, Vcc and Gnd to Serial to USB converter, which after update will be swapped in reference and become SERIAL0\_RX and SERIAL0\_TX , refer to the note below [Uart Pinout ](here-4-manual.md#uart)for description on why.
+    * Disconnect all connected flight controller like Cube from the system.
+    * Open Setup > Install Firmware page on Mission Planner.
+    * Plug in Here4 vis Serial to USB converter, and wait for Mission Planner to detect board type **1043** , as shown bellow. If not detected make sure you have Here4 powered and RX/TX correctly connected.
+
+<figure><img src="../.gitbook/assets/Bootloader Update State.png" alt=""><figcaption></figcaption></figure>
+
+
+
+* After detection you can move to select the Ardupilot version to update and wait for firmare flash to finish. Refer [Pinout](here-4-manual.md#pinout) for splitter board for connections.
+
+
+
