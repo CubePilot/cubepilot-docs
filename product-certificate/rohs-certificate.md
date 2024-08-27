@@ -19,3 +19,7 @@
 ## Here3+ COC-ROHS Certificate
 
 <figure><img src="../.gitbook/assets/Here3+ COC-ROHS Certificate.jpg" alt=""><figcaption></figcaption></figure>
+
+## Here3 COC-ROHS Certificate
+
+{% file src="../.gitbook/assets/Here3 COC-ROHS Certificate.pdf" %}
