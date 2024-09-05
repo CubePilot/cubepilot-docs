@@ -331,7 +331,7 @@ If you connected the UXVs with 1 telemetry module, they should share the same CO
 
 
 {% hint style="danger" %}
-Please do not update your Here4 Ublox firmware if you purchased your unit after 7th December 2023 before consulting your reseller. The firmware on new Here4s has special firmware which adds support for Moving Baseline, firmware from ublox website do not support that feature. Updating the firmware may drop Moving Baseline support from your units. To verify version please follow the steps here: [#steps-to-verify-ublox-firmware-version](here-4-manual.md#steps-to-verify-ublox-firmware-version "mention")
+Please do not update your Here4 Ublox firmware if you purchased your unit after 7th December 2023 before consulting your reseller. The firmware on new Here4s have special firmware which adds support for Moving Baseline, firmware from ublox website do not support that feature. Updating the firmware will drop Moving Baseline support from your units and you will not be able to revert back to production firmware with Moving Baseline support. To verify version please follow the steps here: [#steps-to-verify-ublox-firmware-version](here-4-manual.md#steps-to-verify-ublox-firmware-version "mention")
 {% endhint %}
 
 {% hint style="info" %}
