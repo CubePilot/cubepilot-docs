@@ -9,7 +9,7 @@
 
 ## Here4 Multiband RTK GNSS CE Certificate
 
-<figure><img src="../.gitbook/assets/Here4 Multiband RTK GNSS CE certificate.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Here4 CE Certificate.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Here3+ CE Certificate
 
