@@ -2,7 +2,7 @@
 
 ## The Cube Orange+ Standard Set CoC ROHS Certificate
 
-<figure><img src="../.gitbook/assets/The Cube Orange+ Standard Set CoC ROHS certificate.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/The Cube Orange+ Standard Set CoC ROHS Certificate -.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Here4 Multiband RTK GNSS CoC ROHS Certificate
 
