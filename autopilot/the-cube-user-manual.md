@@ -530,27 +530,40 @@ IMUs in The Cube are temperature-controlled by onboard heating resistors. Target
 
 It is recommended to set BRD\_IMU\_TARGTEMP to 60 and wait for a while for pre-heating, if you need to maximize the accuracy. After pre-heating, reboot The Cube. Flight controller will re-log the IMU data and the IMU measurement will be at best performance.
 
-### GPS Blending (aka Dual GPS)
+### GPS Blending (Dual GPS)
 
-Only GPSs that report position and speed accuracy can be used for blending. All UBlox GPSs provide this extra information while GPSs using the NMEA protocol generally do not.
+Only GPS modules that report both position and speed accuracy can be used for GPS blending.
 
-Normally blending should be done with two GPSs from the same manufacturer because the scaling of the accuracy numbers varies and will lead to favouring one GPS over the other.
+The two GPS modules should be from the same manufacturer, as differences in how the accuracy is scaled can cause one GPS to be favored over the other.
 
-Note: Two GPSs should not be used on Copter-3.4.5 (and older) firmwares because of the risk of sudden vehicle movements when the primary GPS changes. Copter 3.5 (and higher), Plane 3.8.0 (and higher) and recent versions of Rover all support GPS Blending.
+{% hint style="warning" %}
+If Copter-3.4.5 or older firmware is installed, do not use two GPS modules. Switching to the primary GPS module could result in sudden vehicle movements.
 
-### Hardware Connection
+The following firmware versions support GPS Blending:
 
-Connect the 8-pin DF13 connector on GPS module to GPS1 port. Then, connect the second GPS module to GPS2 .
+* Copter 3.5 or higher
+* Plane 3.8.0 or higher
+* Recent versions of Rover
+{% endhint %}
 
-GPS can also be connected to other ports with supported protocols. GPS blending supports up to 2 GPS modules. For Here GPS, all LEDs use the same I2C address so LED on GPS2 will not light up.
+### Connecting the GPS modules to The Cube
 
-### Setup through the Ground Station
+To connect the GPS modules to The Cube, complete the following steps:
 
-Change the following parameters in ArduPilot firmware to enable GPS blending mode.
+1. Connect the 8-pin DF13 connector on one of the GPS modules to GPS1 port.&#x20;
+2. Connect the the 8-pin DF13 connector on the other GPS module to GPS2 port.
 
-* SERIAL4\_PROTOCOL = 5 /“GPS”。Alternatively TELEM1 or TELEM2 can be used by setting SERIAL1\_PROTOCOL or SERIAL2\_PROTOCOL to 5.
-* GPS\_TYPE2 = 1 /“AUTO” or the specific number corresponding to the type of GPS
-* GPS\_AUTO\_SWITCH = 2 / “Blend”. Alternatively set to 1 / “UseBest” to only use the better GPS. The better GPS is decided based on the GPS’s self reported accuracy.
+The GPS module can be connected to other ports if that port has the supported protocols.&#x20;
+
+For Here GPS modules, all the LEDs use the same I2C address. Thus, the LED on GPS2 will not light up.
+
+### Enabling the GPS Blending Mode
+
+To enable the GPS blending mode, change the following parameters in the ArduPilot firmware:
+
+* SERIAL4\_PROTOCOL = 5 /“GPS”. Alternatively, TELEM1 or TELEM2 can be used by setting SERIAL1\_PROTOCOL or SERIAL2\_PROTOCOL to 5.
+* GPS\_TYPE2 = 1 /“AUTO” or the specific number corresponding to the GPS type.
+* GPS\_AUTO\_SWITCH = 2 / “Blend”. Alternatively, set to 1/“UseBest” to only use the better GPS, which is decided based on the GPS’s self reported accuracy.
 
 ## ADS-B Receiver
 
