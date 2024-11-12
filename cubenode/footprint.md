@@ -1,16 +1,16 @@
-# CubeNode Footprint
+# Footprint
 
-CubeNode Footprint PCBLIB
+## CubeNode Footprint PCBLIB
 
 <figure><img src="../.gitbook/assets/CubeNode Footprint PCBLIB.png" alt=""><figcaption><p>CubeNode Footprint.PcbLib</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/CubeNode Footprint.PcbLib" %}
 
-## Cube Node Footprint Dimension
+## CubeNode Footprint Dimension
 
 
 
-<figure><img src="../.gitbook/assets/Cube Node Footprint Dimension.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cube Node Footprint Dimension.png" alt=""><figcaption><p>CubeNode Footprint Dimension</p></figcaption></figure>
 
 ## CubeNode Footprint SCHLIB
 

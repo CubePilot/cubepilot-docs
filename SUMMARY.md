@@ -89,8 +89,11 @@
 
 ## CubeNode
 
-* [CubeNode Specification](cubenode/cubenode-specification.md)
-* [CubeNode Footprint](cubenode/cubenode-footprint.md)
+* [Specifications](cubenode/specifications.md)
+* [Functional Overview](cubenode/functional-overview.md)
+* [Pin Descriptions](cubenode/pin-descriptions.md)
+* [Footprint](cubenode/footprint.md)
+* [CubeNode ETH](cubenode/cubenode-eth.md)
 
 ## FLOW SENSOR <a href="#flow-senor" id="flow-senor"></a>
 
