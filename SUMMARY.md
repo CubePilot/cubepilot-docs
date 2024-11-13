@@ -62,7 +62,12 @@
 
 ## Autopilot
 
-* [Cube Red](autopilot/cube-red.md)
+* [Cube Red](autopilot/cube-red/README.md)
+  * [Specifications](autopilot/cube-red/specifications.md)
+  * [Operating Conditions and Performance](autopilot/cube-red/operating-conditions-and-performance.md)
+  * [Ports Standard and Definition](autopilot/cube-red/ports-standard-and-definition.md)
+  * [System Architecture](autopilot/cube-red/system-architecture.md)
+  * [Carrier Board Information](autopilot/cube-red/carrier-board-information.md)
 * [The Cube Module Overview](autopilot/the-cube-module-overview.md)
 * [The Cube User Manual V1.0](autopilot/the-cube-user-manual.md)
 * [The Cube - Firmware Installation & Connection Troubleshooting](autopilot/the-cube-series-firmware-and-connection-troubleshooting/README.md)
