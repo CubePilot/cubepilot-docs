@@ -54,7 +54,7 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 
 **Here 4 can enable flight controller function by connect to a Breakout board.**
 
-**(Current firmware does not support this function)**
+[**(Further information about the flight controller function setup please check Here4 Manual Section 8)**](https://docs.cubepilot.org/user-guides/here-4/here-4-manual#id-8.-installing-ardupilot-on-here4)
 
 <figure><img src="../.gitbook/assets/breakoutboard-1696904167977-7.png" alt=""><figcaption></figcaption></figure>
 
