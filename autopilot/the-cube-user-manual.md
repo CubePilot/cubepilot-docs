@@ -34,7 +34,7 @@ Dataflash logs are stored on microSD Card, which is plugged in the left of The C
 
 ### Power Supply
 
-The Cube supports triple power source, which are power module, servo rail, and USB cable.
+The Cube supports triple power source, which are power module, servo rail, and USB cable. For detailed info refer [https://docs.cubepilot.org/user-guides/autopilot/the-cube-module-overview#multiple-power-sources](https://docs.cubepilot.org/user-guides/autopilot/the-cube-module-overview#multiple-power-sources)
 
 When more than 1 power source is connected, power will be drawn from the highest-priority source with a valid input voltage. (Priority as shown in the table below)
 
@@ -44,7 +44,9 @@ When more than 1 power source is connected, power will be drawn from the highest
 | Power Module Input (Aux)  | Medium   | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 20 V       |
 | USB Cable Input           | Low      | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 6 V        |
 
-I/O will accept power from the servo connector up to 10 V FOR MANUAL OVERRIDE. System will be UNPOWERED WHEN SERVO INPUT IS ABOVE 5.7 V AND POWER MODULE INPUT IS ABSENT. FMU and peripherals will NOT accept power from the servo rail.
+I/O will accept power from the servo connector up to 10 V FOR MANUAL OVERRIDE.
+
+FMU and peripherals will NOT accept power from the servo rail.
 
 ### Power Module Connection
 
