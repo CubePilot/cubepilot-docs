@@ -1,6 +1,6 @@
 # CubeNode ETH
 
-The CubeNode ETH provides networking capabilities to Cube Flight Controllers without Ethernet support. By enabling the PPP protocol on one of the serial ports (preferably with flow control) of The Cube, you can achieve up to 12Mbit/s networking link and transport multiple protocols (CAN, MAVLink) over the network without chewing multiple serial ports. <mark style="color:orange;">CubeOrange+</mark> and <mark style="color:red;">CubeRed</mark> running ArduPilot 4.5 or above support the PPP protocol.
+The CubeNode ETH provides networking capabilities to Cube Flight Controllers without Ethernet support. By enabling the PPP protocol on one of the serial ports (preferably with flow control) of The Cube, you can achieve up to 12Mbit/s networking link and transport multiple protocols (CAN, MAVLink) over the network without chewing multiple serial ports. <mark style="color:orange;">CubeOrange+</mark> and <mark style="color:red;">CubeRed</mark> running ArduPilot 4.5  or above release firmwares support the PPP protocol out of the box. <mark style="color:orange;">CubeOrange</mark>  and older Cubes built with networking enabled in the build can support PPP protocol as well.
 
 ## Setting Up the Physical Connection between the Cube, CubeNode, and laptop/PC
 
