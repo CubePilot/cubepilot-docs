@@ -38,11 +38,11 @@ The Cube supports triple power source, which are power module, servo rail, and U
 
 When more than 1 power source is connected, power will be drawn from the highest-priority source with a valid input voltage. (Priority as shown in the table below)
 
-| Power Sources      | Priority | Regular range | Limit         | Protection Range |
-| ------------------ | -------- | ------------- | ------------- | ---------------- |
-| Power Module Input | High     | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 20 V       |
-| Servo Rail Input   | Medium   | 4.8 V - 5.4 V | 4.1 V - 10 V  | 0 V - 20 V       |
-| USB Cable Input    | Low      | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 6 V        |
+| Power Sources             | Priority | Regular range | Limit         | Protection Range |
+| ------------------------- | -------- | ------------- | ------------- | ---------------- |
+| Power Module Input (Main) | High     | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 20 V       |
+| Power Module Input (Aux)  | Medium   | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 20 V       |
+| USB Cable Input           | Low      | 4.8 V - 5.4 V | 4.1 V - 5.7 V | 0 V - 6 V        |
 
 I/O will accept power from the servo connector up to 10 V FOR MANUAL OVERRIDE. System will be UNPOWERED WHEN SERVO INPUT IS ABOVE 5.7 V AND POWER MODULE INPUT IS ABSENT. FMU and peripherals will NOT accept power from the servo rail.
 
