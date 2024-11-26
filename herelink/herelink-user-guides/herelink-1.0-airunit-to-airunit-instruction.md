@@ -5,9 +5,9 @@ description: AirUnit HDMI + GroundUnit Ethernet
 # Herelink 1.0 AirUnit to AirUnit instruction
 
 Device required:\
-\-Airunit x 2 (**\*firmware minimum 20211229 and above**)\
-\-Ethernet adapter\
-\-Installing a fan on both airunits to achieve better performance\
+-Airunit x 2 (**\*firmware minimum 20211229 and above**)\
+-Ethernet adapter\
+-Installing a fan on both airunits to achieve better performance\
 [https://docs.cubepilot.org/user-guides/herelink/herelink-faq#herelink-airunit-fan-installation](https://docs.cubepilot.org/user-guides/herelink/herelink-faq#herelink-airunit-fan-installation)\
 \- usb otg+power cable if ethernet adapter doesn't include a method to power it
 
@@ -19,16 +19,16 @@ AX88772 - Ground (not tested Airside)\
 [PLUGABLE](https://plugable.com/products/usb2-otge100/) - directly connect to OTG. Nice for the ground side.
 
 AX88179 - Ground and Air\
-[UGREEN Ethernet Adapter for Chromecast](https://www.amazon.co.uk/UGREEN-Ethernet-Adaptor-Chromecast-Network/dp/B01N1X28F1/ref=asc\_df\_B01N1X28F1/?tag=googshopuk-21\&linkCode=df0\&hvadid=309964054975\&hvpos=\&hvnetw=g\&hvrand=13338390534555592071\&hvpone=\&hvptwo=\&hvqmt=\&hvdev=c\&hvdvcmdl=\&hvlocint=\&hvlocphy=9045387\&hvtargid=pla-303357944812\&psc=1) has an additional standard USB to power on airside, cables are quite long however.
+[UGREEN Ethernet Adapter for Chromecast](https://www.amazon.co.uk/UGREEN-Ethernet-Adaptor-Chromecast-Network/dp/B01N1X28F1/ref=asc_df_B01N1X28F1/?tag=googshopuk-21\&linkCode=df0\&hvadid=309964054975\&hvpos=\&hvnetw=g\&hvrand=13338390534555592071\&hvpone=\&hvptwo=\&hvqmt=\&hvdev=c\&hvdvcmdl=\&hvlocint=\&hvlocphy=9045387\&hvtargid=pla-303357944812\&psc=1) has an additional standard USB to power on airside, cables are quite long however.
 
 R8152 / R8153 - Airside only\
-[Cable Matters](https://www.amazon.co.uk/gp/product/B00ET4KHJ2/ref=ppx\_yo\_dt\_b\_asin\_title\_o04\_s01?ie=UTF8\&psc=1)
+[Cable Matters](https://www.amazon.co.uk/gp/product/B00ET4KHJ2/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8\&psc=1)
 
-[Anker USB 3.0](https://www.amazon.co.uk/gp/product/B00NPJP33M/ref=ppx\_yo\_dt\_b\_asin\_title\_o04\_s00?ie=UTF8\&psc=1) - no blinky lights on the Ethernet port, maybe annoying for debugging
+[Anker USB 3.0](https://www.amazon.co.uk/gp/product/B00NPJP33M/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8\&psc=1) - no blinky lights on the Ethernet port, maybe annoying for debugging
 
 **Note：**\
 **-Upgrade both units to the latest firmware before toggling the switches.**\
-**-Toggle switches both down position as default AirUnit function, firmware only can be upgraded when switches both at down position.**
+&#xNAN;**-Toggle switches both down position as default AirUnit function, firmware only can be upgraded when switches both at down position.**
 
 ## 1. GroundUnit and AirUnit Setup
 
@@ -53,12 +53,8 @@ Press and hold the pairing button for 3s on both AirUnit and GroundUnit within 3
 
 \*Once pairing is completed LED will turn solid GREEN.
 
-<div align="center">
-
-<img src="../../.gitbook/assets/AirUnit 1.0 Switches - 1 and 2.jpg" alt="1＝Pairing button
-2＝Indicator Led">
-
-</div>
+<div align="center"><img src="../../.gitbook/assets/AirUnit 1.0 Switches - 1 and 2.jpg" alt="1＝Pairing button
+2＝Indicator Led"></div>
 
 ## 3. AirUnit HDMI functionality
 

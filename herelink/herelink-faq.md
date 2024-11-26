@@ -7,11 +7,11 @@ description: "Herelink \bFAQ Resources"
 ## Herelink - Register Failure
 
 **-Wi-Fi**\
-_5.8GHz_ \
-**-IP Address**\
-_Not in range 192.168.0.x_\
-**-Region**\
-_Select the correct region and within 5mins difference_\
+&#xNAN;_&#x35;.8GHz_ \
+&#xNAN;**-IP Address**\
+&#xNAN;_&#x4E;ot in range 192.168.0.x_\
+&#xNAN;**-Region**\
+&#xNAN;_&#x53;elect the correct region and within 5mins difference_\
 \
 _\*_ Please check and fulfil three requirements, otherwise register failure as a result
 

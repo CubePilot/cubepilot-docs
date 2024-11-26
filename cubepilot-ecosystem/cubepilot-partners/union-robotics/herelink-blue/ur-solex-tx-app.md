@@ -90,12 +90,12 @@ When clicking on the layers button on the Map View, the layers option menu will 
 The DataLink has many alarm, warning and failure indicators. All alarm, warning and failure indicators will be displayed in a red bar across the top of the ground station screen.\
 
 
-![](https://docs.union-robotics.com/\~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MTS1Xx6Kx3fwJFjqpWk%2F-MTXPm9kt-0FWt1LSnQy%2F-MTXfpBZsRic3y36UfF9%2FScreen%20Shot%202021-01-18%20at%205.02.33%20PM.png?alt=media\&token=aabbb50d-b4d3-4d69-bdcd-dfc8087d1f47)
+![](https://docs.union-robotics.com/~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MTS1Xx6Kx3fwJFjqpWk%2F-MTXPm9kt-0FWt1LSnQy%2F-MTXfpBZsRic3y36UfF9%2FScreen%20Shot%202021-01-18%20at%205.02.33%20PM.png?alt=media\&token=aabbb50d-b4d3-4d69-bdcd-dfc8087d1f47)
 
 |                                            |                                                                                                               |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
 | Alert                                      | Specification                                                                                                 |
-| Low Battery**:**                           | Battery failsafe has triggered, should land immediately                                                       |
+| Low Batter&#x79;**:**                      | Battery failsafe has triggered, should land immediately                                                       |
 | No GPS Fix:                                | Warns pilot that the GPS can not get a satellite fix                                                          |
 | Telemetry Lost:                            | Warns pilot that the telemetry signal has been lost                                                           |
 | High GPS HDOP:                             | GPS signal quality is insufficient                                                                            |
@@ -206,7 +206,7 @@ Altitudes in missions are defined as distance from the ground (AGL) at the takeo
 
 **NOTICE:** You only need the internet connection while you're applying elevations to waypoints during mission editing. You don't need it to fly the mission. Also, if you move any waypoints after applying elevations, you should apply elevations again to make sure their altitudes work with their new ground elevations.
 
-For example, a mission where the first waypoint is at the bottom of a 30-meter hill and the next waypoint is at the top of the hill, and the altitudes of both waypoints are at 10 meters. After applying elevation, the altitude of the second top-of-the-hill waypoint will be 40 meters**.**
+For example, a mission where the first waypoint is at the bottom of a 30-meter hill and the next waypoint is at the top of the hill, and the altitudes of both waypoints are at 10 meters. After applying elevation, the altitude of the second top-of-the-hill waypoint will be 40 meter&#x73;**.**
 
 **WARNING:** If a waypoint is set at the bottom of a hill, and another one is down the far side of a hill or at the bottom of the opposite side. Solex will look for the highest elevation between those points and check whether the angle to the high point is higher than the angle between the destination points. If it is, it will warn you of problem areas and mark them on the map so you can put additional waypoints of your choice there. Drop additional waypoints, and drag them to the right position in the bottom waypoint list view. Once they're in place, run Terrain Follow again.
 
