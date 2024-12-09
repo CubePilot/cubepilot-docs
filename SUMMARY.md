@@ -74,6 +74,8 @@
   * [Installing Mission Planner](autopilot/the-cube-series-firmware-and-connection-troubleshooting/installing-mission-planner.md)
   * [Installing Ardupilot](autopilot/the-cube-series-firmware-and-connection-troubleshooting/installing-ardupilot.md)
   * [Installing Secure Firmware](autopilot/the-cube-series-firmware-and-connection-troubleshooting/installing-secure-firmware.md)
+* [Conducting the First Flight](autopilot/conducting-the-first-flight/README.md)
+  * [Tips for New Pilots](autopilot/conducting-the-first-flight/tips-for-new-pilots.md)
 * [The Cube FAQ](autopilot/the-cube-faq.md)
 
 ## Carrier Boards
