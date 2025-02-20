@@ -99,9 +99,9 @@
 | 66          |          | NC                  | For future use                                |
 | 67          | O        | FMU\_DAC            | FMU analog output                             |
 | 68          |          | NC                  | For future use                                |
-| 69          | O        | IO\_DAC             | IO analog output                              |
+| 69          |          | GND                 | System GND                                    | 
 | 70          |          | NC                  | For future use                                |
-| 71          |          | GND                 | System GND                                    |
+| 71          | O        | IO\_DAC             | IO analog output                              |
 | 72          |          | NC                  | For future use                                |
 | 73          | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
 | 74          |          | NC                  | For future use                                |
