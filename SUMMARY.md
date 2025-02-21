@@ -101,6 +101,7 @@
 * [Pin Descriptions](cubenode/pin-descriptions.md)
 * [Footprint](cubenode/footprint.md)
 * [CubeNode ETH](cubenode/cubenode-eth.md)
+* [Soldering a CubeNode onto a PCB](cubenode/soldering-a-cubenode-onto-a-pcb.md)
 
 ## FLOW SENSOR <a href="#flow-senor" id="flow-senor"></a>
 
