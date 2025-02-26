@@ -265,13 +265,13 @@ Start with base module setup. During the base station setup, the rover and the U
 
 * Connect HerePro module to Mission Planner for Parameter setting
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * Go to Parameters and set B\_ENABLE  1
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Disconnect HerePro and Connect it again, then go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
@@ -326,11 +326,11 @@ There are 2 methods to do this:
 
 Ground station configuration: connect all telemetry modules to the computer via USB hub. Open Mission Planner to locate the base then connect it with flight controllers. Select AUTO connecting as shown below. All recognized flight controllers on the ports will be connected. You may select the UAV from the dropdown list below:
 
-![](../.gitbook/assets/rtk\_frame.png)
+![](../.gitbook/assets/rtk_frame.png)
 
 If you connected the UXVs with 1 telemetry module, they should share the same COM port:
 
-![](../.gitbook/assets/rtk\_frame2.png)
+![](../.gitbook/assets/rtk_frame2.png)
 
 ### 8. Moving baseline setup reference
 

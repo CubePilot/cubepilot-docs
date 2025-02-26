@@ -346,7 +346,7 @@ Latest NEO F9P L1L5 firmware can be found here under Firmware Update section. [h
 If the following option is not visible in Mission Planner, then update Mission Planner to latest Beta from Help menu.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Select port for u-Center to connect on.
 
