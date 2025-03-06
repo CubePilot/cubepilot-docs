@@ -1,5 +1,11 @@
 # RoHS Certificate
 
+The Cube Red Pro Standard Set CoC ROHS Certificate\
+ <a href="#the-cube-orange-standard-set-coc-rohs-certificate" id="the-cube-orange-standard-set-coc-rohs-certificate"></a>
+-------------------------------------------------------------------------------------------------------------------------
+
+{% file src="../.gitbook/assets/The Cube Red Pro Standard Set ROHS certificate.pdf" %}
+
 ## The Cube Orange+ Standard Set CoC ROHS Certificate
 
 <figure><img src="../.gitbook/assets/The Cube Orange+ Standard Set CoC ROHS Certificate -.jpg" alt=""><figcaption></figcaption></figure>
