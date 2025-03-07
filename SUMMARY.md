@@ -100,7 +100,9 @@
 * [Functional Overview](cubenode/functional-overview.md)
 * [Pin Descriptions](cubenode/pin-descriptions.md)
 * [Footprint](cubenode/footprint.md)
-* [CubeNode ETH](cubenode/cubenode-eth.md)
+* [CubeNode ETH](cubenode/cubenode-eth/README.md)
+  * [Specifications](cubenode/cubenode-eth/specifications.md)
+  * [Setting Up the Physical Connection between the Cube, CubeNode, and laptop/PC](cubenode/cubenode-eth/setting-up-the-physical-connection-between-the-cube-cubenode-and-laptop-pc.md)
 * [Soldering a CubeNode onto a PCB](cubenode/soldering-a-cubenode-onto-a-pcb.md)
 
 ## Switch

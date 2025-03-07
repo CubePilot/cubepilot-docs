@@ -46,15 +46,15 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 | Protocols                   | NMEA、UBX binary、RTCM 3.3、SPARTN 2.0.1                                                                                      |
 | Anti-spoofing               | Advanced anti-spoofing algorithms                                                                                          |
 
-## Pinout
+## Pinout with Case
 
 <figure><img src="../.gitbook/assets/-can-debug-20230616-3.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="245"></th><th></th></tr></thead><tbody><tr><td>CAN</td><td>x2（Current firmware only supports CAN1-green、blue、white、grey）</td></tr><tr><td>Working Temperature</td><td>-40 °C to +85 °C</td></tr><tr><td>Size</td><td>16 x 68 mm</td></tr><tr><td>Weight</td><td>60g (with cable)</td></tr></tbody></table>
 
-**Here 4 can enable flight controller function by connect to a Breakout board.**
 
-[**(Further information about the flight controller function setup please check Here4 Manual Section 8)**](https://docs.cubepilot.org/user-guides/here-4/here-4-manual#id-8.-installing-ardupilot-on-here4)
+<table><thead><tr><th width="245">Parameter</th><th>Description</th></tr></thead><tbody><tr><td>CAN</td><td>Two (current firmware only supports one CAN port where the cable color is green, blue, white, and grey)</td></tr><tr><td>Working Temperature</td><td>-40 °C to +85 °C</td></tr><tr><td>Size</td><td>16 x 68 mm</td></tr><tr><td>Weight</td><td>60g (with cable)</td></tr></tbody></table>
+
+Here 4 can enable the flight controller function when connected to a breakout board. For details on how to set up the flight controller, refer to the following link: [https://docs.cubepilot.org/user-guides/here-4/here-4-manual#id-8.-installing-ardupilot-on-here4](https://docs.cubepilot.org/user-guides/here-4/here-4-manual#id-8.-installing-ardupilot-on-here4)
 
 <figure><img src="../.gitbook/assets/breakoutboard-1696904167977-7.png" alt=""><figcaption></figcaption></figure>
 
@@ -125,7 +125,7 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 | 3   | CAN\_L |
 | 4   | GND    |
 
-### **Uart**
+### **UART**
 
 | PIN | Name     |
 | --- | -------- |
@@ -137,10 +137,49 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 | 6   | GND      |
 
 {% hint style="danger" %}
-Please note that above Uart Pinout is for Here4 as a GPS Unit, and the pinouts are marked as they would connect to the Flight Controller.
+The UART pinout shown above applies when using Here 4 as a GPS unit, with the pin labels indicating connections to a flight controller.
 
-When using Here4 as Flight Controller itself the notation will change, GPS\_TX will be UART\_RX and GPS\_RX will be UART\_TX. Ensure that you make necessary changes. Most likely you will need to cross RX and TX wires when connecting peripherals to Here4 as a Flight Controller.
+When using Here 4 as a flight controller, the pinout changes: GPS\_TX becomes UART\_RX, and GPS\_RX becomes UART\_TX. Ensure that you make the necessary adjustments, which will most likely involve crossing the RX and TX wires when connecting peripherals to Here 4 as a flight controller.
 {% endhint %}
+
+## Pinout without Case
+
+<figure><img src="../.gitbook/assets/image (45).png" alt="" width="563"><figcaption></figcaption></figure>
+
+### Connector 1
+
+| Pin Number | Definition |
+| ---------- | ---------- |
+| 1          | 5V\_IN     |
+| 2          | CAN1\_H    |
+| 3          | CAN1\_L    |
+| 4          | CAN2\_H    |
+| 5          | CAN2\_L    |
+| 6          | SERIAL\_RX |
+| 7          | SERIAL\_TX |
+| 8          | I2C\_SCL   |
+| 9          | I2C\_SDA   |
+| 10         | GND        |
+
+### Connector 2
+
+| Pin Number | Definition        |
+| ---------- | ----------------- |
+| 1          | PWM8 Input/Output |
+| 2          | PWM7 Input/Output |
+| 3          | PWM6 Input/Output |
+| 4          | PWM5 Input/Output |
+| 5          | PWM4 Input/Output |
+| 6          | PWM3 Input/Output |
+| 7          | PWM2 Input/Output |
+| 8          | PWM1 Input/Output |
+| 9          | RC input          |
+| 10         | Hotshoe signal    |
+| 11         | PPS signal        |
+
+### Dimensions
+
+<figure><img src="../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## User Manual
 
