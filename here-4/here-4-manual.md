@@ -179,7 +179,7 @@ When using Here 4 as a flight controller, the pinout changes: GPS\_TX becomes UA
 
 ### Dimensions
 
-<figure><img src="../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## User Manual
 
