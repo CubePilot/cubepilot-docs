@@ -453,7 +453,7 @@ Once all settings and versions are confirmed, set following parameters for Movin
 
 * ### Step 1: Updating Here4 Bootloader:
   * Connect Here4 to a Cube configured to operate over CAN bus.
-  * Follow the steps here to update Here4 to latest release [Firmware Update](../cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/update-firmware.md).
+  * Follow the steps here to update Here4 to latest release [Firmware Update](here-4-manual.md#id-3.-firmware-update).
   * After update, open parameters pane for Here4 Unit.
   * Search parameter `FLASH_BOOTLOADER` , set the parameter to 1
   * Then click `Refresh Params`, check if the parameter auto resetted to 0, confirming successful update.
