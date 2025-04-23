@@ -24,11 +24,26 @@ This carrier board is primarily designed with geometric optimization for quadcop
 
 ## Power
 
-The carrier board incorporates built-in voltage and current Hall sensor. Users can directly connect the main battery to the XT60 "MAIN PWR" on the board, eliminating the need for an external power brick.
+The carrier board incorporates a built-in voltage and Hall current sensor. The main battery can be connected to the XT60 "MAIN PWR" port on the board, removing the need for an external power brick.
 
-The power distribution system is rated to distribute 100A in total to the ESCs when exposed to stagnant air at room temperature.
+The power distribution system is rated to distribute 100A in total to the ESCs when under stagnant, room-temperature air conditions.
 
-If the EDU450 Carrier Board will be installed inside an enclosure or used in challenging conditions, like high temperatures, it might be essential to reduce the current capacity rating. For users who anticipate running their vehicle at consistently high currents, it is advisable to conduct a ground test by using a temperature gun before flight.
+If the EDU450 carrier board is installed within an enclosure or used in challenging conditions, such as high temperatures, the current capacity rating needs to be reduced. For vehicles operating consistently at high currents, conduct a ground test first by using a temperature gun to assess the thermal performance.
+
+To ensure the built-in sensors on the EDU-450 board accurately read the voltage and current numbers, complete the following steps:
+
+1. Go to Mission Planner.
+2. Go to **Config/Tuning** -> **Full Parameter List**.
+3. Configure the following parameters to the values shown below.
+
+| Parameter          | Value |
+| ------------------ | ----- |
+| BATT\_AMP\_OFFSET  | 0.25  |
+| BATT\_AMP\_PERVOLT | 50    |
+| BATT\_CURR\_PIN    | 3     |
+| BATT\_MONITOR      | 4     |
+| BATT\_VOLT\_MULT   | 12.05 |
+| BATT\_VOLT\_PIN    | 2     |
 
 ## Specification
 
