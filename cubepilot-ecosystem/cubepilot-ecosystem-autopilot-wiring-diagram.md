@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # CubePilot Ecosystem Autopilot Wiring Diagram (Multilingual)
 
 ## CubePilot Ecosystem Autopilot Wiring Diagram - English
