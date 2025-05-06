@@ -127,6 +127,8 @@
 * [IC Certificate](product-certificate/ic-certificate.md)
 * [RCM Certificate](product-certificate/rcm-certificate.md)
 * [Material Safety Data Sheet - MSDS](product-certificate/material-safety-data-sheet-msds.md)
+* [CE LVD VOC Certificate](product-certificate/ce-lvd-voc-certificate.md)
+* [CB Scheme Safety test Certificate](product-certificate/cb-scheme-safety-test-certificate.md)
 
 ## SOLO
 
