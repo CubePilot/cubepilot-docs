@@ -2,9 +2,7 @@
 
 <figure><img src="../.gitbook/assets/CubePilot Ecosystem - OEM Carrier Board.jpg" alt=""><figcaption></figcaption></figure>
 
-Thank you to some awesome CubePilot Ecosystem members, HexAero, CubePilot, Airbot Systems, Bask Aerospace, Taiwan Drone 100, RFDesign, Spektreworks, and Vamatis
-
-HexAero: [https://www.cubepilot.org/](https://www.cubepilot.org/)
+Thank you to some awesome CubePilot Ecosystem members - CubePilot, Airbot Systems, Bask Aerospace, Taiwan Drone 100, RFDesign, Spektreworks, and Vamatis
 
 CubePilot: [https://www.cubepilot.org/](https://www.cubepilot.org/)
 
