@@ -213,8 +213,8 @@
       * [Bug Report](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/bug-report.md)
       * [HereLink Blue FAQs](cubepilot-ecosystem/cubepilot-partners/union-robotics/herelink-blue/herelink-blue-faqs.md)
   * [Yates Electrospace Corporation](cubepilot-ecosystem/cubepilot-partners/yates-electrospace-corporation.md)
-  * [Hexsoon](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
-    * [Multirotor Frame](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
+  * [CubePilot Frames](cubepilot-ecosystem/cubepilot-partners/hexsoon/README.md)
+    * [Multirotor Frames](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/README.md)
       * [EDU-450](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/edu-450.md)
       * [EDU-650](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-650.md)
       * [TD-900](cubepilot-ecosystem/cubepilot-partners/hexsoon/multirotor-frame/td-900.md)
@@ -231,7 +231,7 @@
 * [Here 3 Istand](3d-printing/here-3-stand.md)
 * [HerePro Istand](3d-printing/herepro-istand.md)
 * [Kore Multi-Rotor Carrier Board Case](3d-printing/kore-multi-rotor-carrier-board-case.md)
-* [Hexsoon Multirotor Frame](3d-printing/hexsoon-multirotor-frame.md)
+* [CubePilot Multirotor Frame](3d-printing/hexsoon-multirotor-frame.md)
 
 ## Product Media
 

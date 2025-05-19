@@ -1,6 +1,4 @@
-# Multirotor Frame
-
-{% embed url="https://www.youtube.com/watch?v=fneGk4ffJ_w" %}
+# Multirotor Frames
 
 {% content-ref url="edu-450.md" %}
 [edu-450.md](edu-450.md)
