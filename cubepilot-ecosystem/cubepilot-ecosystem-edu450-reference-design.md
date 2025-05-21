@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # CubePilot Ecosystem Edu450 Reference Design (Multilingual)
 
 ## CubePilot Ecosystem Edu450 Reference Design - English
