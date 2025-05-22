@@ -1,3 +1,3 @@
 # Herelink QuickStart Guide
 
-![](<../.gitbook/assets/Herelink QuickStart Guide en Edit by Chris.jpg>)
+<figure><img src="../.gitbook/assets/Herelink Manual .jpg" alt=""><figcaption></figcaption></figure>
