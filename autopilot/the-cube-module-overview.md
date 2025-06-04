@@ -1,6 +1,8 @@
 # The Cube Module Overview
 
-![](<../.gitbook/assets/Cube Overview.jpg>)
+###
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-06-04 at 11.50.10 AM.png" alt=""><figcaption></figcaption></figure>
 
 ### The Cube Fixed Board
 
@@ -249,13 +251,13 @@ Low density: 0.1” over mould Futaba keyed servo connectors (Mfg. to be identif
 
 > Cabling: AWG24, ribbon or round, iconic colour scheme
 
-Stack: [Hirose DF17, 80pos](http://www.hirose.co.jp/cataloge\_hp/en\_DF17\_20130411.pdf) , 4 mm stacking height, 0.5 mm pitch, drop-proof
+Stack: [Hirose DF17, 80pos](http://www.hirose.co.jp/cataloge_hp/en_DF17_20130411.pdf) , 4 mm stacking height, 0.5 mm pitch, drop-proof
 
-High density: [JST-GH](http://www.jst-mfg.com/product/detail\_e.php?series=105\\) 1.25 mm
+High density: [JST-GH](http://www.jst-mfg.com/product/detail_e.php?series=105\\) 1.25 mm
 
 > Cabling: AWG28, ribbon, iconic colour scheme
 
-Power Module: [Molex Clik-Mate](https://www.molex.com/molex/products/family/clikmate\_wiretoboard\_connectors) 2 mm for both main and backup power(on bottom of board?)
+Power Module: [Molex Clik-Mate](https://www.molex.com/molex/products/family/clikmate_wiretoboard_connectors) 2 mm for both main and backup power(on bottom of board?)
 
 **The Cube**
 
