@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Here+V2 User Manual
 
 ## Overview
@@ -16,9 +20,9 @@ Many applications of UAV need better precision than what regular GNSS can provid
 
 RTK Differential GPS that is compatible with open source flight controllers The Cube (formerly known as Pixhawk)、ixhawkAPM.
 
-\-Support 1 Base to Multiple Rovers\
-\-Light and Power Efficient RTK Real-time DGPS Solution\
-\-Centimeters Level Positioning and Navigation
+-Support 1 Base to Multiple Rovers\
+-Light and Power Efficient RTK Real-time DGPS Solution\
+-Centimeters Level Positioning and Navigation
 
 By Real-time kinematic technology, HERE+ provides real-time 3D coordinate of the observing point. Transmitting carrier phase measurement of the base to rover for correction. Comparing carrier phase from GPS and base respectively, the module calculate the phase difference to obtain centimeters level positioning in real-time.
 

@@ -1,7 +1,5 @@
 # The Cube Module Overview
 
-###
-
 <figure><img src="../.gitbook/assets/Screenshot 2025-06-04 at 11.50.10 AM.png" alt=""><figcaption></figcaption></figure>
 
 ### The Cube Fixed Board
