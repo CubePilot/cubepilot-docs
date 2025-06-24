@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Here+V2 User Manual
 
 ## Overview
@@ -154,7 +150,7 @@ Upgrading firmware requires the use of Ublox’s Windows software U-center. To d
 
 Then follow the prompts to install U-cent software. During the installation process, you will be prompted to install the device Driver, please ensure that only the Standard Driver For Windows is checked, as shown below.（at the newer updates, there will be only 1 selectable driver）
 
-![](../.gitbook/assets/Here+V2-2.jpg)
+<figure><img src="../.gitbook/assets/19.png" alt=""><figcaption></figcaption></figure>
 
 ### **Get Firmware**
 
@@ -166,22 +162,22 @@ You will also need to download firmware here Click the choice: u-blox M8 Flash F
 
 When upgrading the **base** station module, use the USB cable to connect the base station module to the computer USB interface, as shown in the following photo:
 
-![](../.gitbook/assets/Here+V2-3.jpg)
+<figure><img src="../.gitbook/assets/20.png" alt=""><figcaption></figcaption></figure>
 
 When upgrading a **Here+ V1 rover** module (for **Here+ V2** upgrade, please refer to the later section), use a hexagonal screwdriver to open the case. The rover module has a USB interface connector identical to the base module, you can use the base module USB cable to connect rover to computer. In addition, during the firmware upgrading process, the rover module needs to be powered by connecting to flight controller, as shown in the following photo:
 
-![](../.gitbook/assets/Here+V2-4.jpg)
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 ### Upgrading Process
 
 Open the U-center software, click the connection button (as shown in the red circle), select the com port that corresponds to your base/ rover module. Please be reminded that the port should not be connected to other software otherwise the port will be occupied and unavailable.
 
-![](../.gitbook/assets/Here+V2-5.jpg)
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 Click "tools →u-blox 5 – 8 Flash Firmware Update and click the settings as shown below:\
 In the higher versions, "u-blox 5 – 8 Flash Firmware Update" has been changed to "legacy firmware update", please operate according to the software version.
 
-![](../.gitbook/assets/Here+V2-6.jpg)
+<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 In Firmware image, unzip and select the downloaded 1.30 Firmware.
 
@@ -189,11 +185,11 @@ In Firmware image, unzip and select the downloaded 1.30 Firmware.
 
 **For rover module, choose the firmware:** UBX\_M8\_301\_HPG\_130\_ROVER\_NEOM8P0.3ee86a9e4775e3335e742b53527fa5 d0.bin
 
-![](../.gitbook/assets/Here+V2-7.jpg)
+<figure><img src="../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
 
 In Flash Information Structure(FIS) File, select Flash.xml，which is located in the installation address of Ucentre software (U-center\_v8.25→flash.xml).
 
-![](../.gitbook/assets/Here+V2-8.jpg)
+<figure><img src="../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
 
 Click "OK" and wait for the firmware uploading to complete. For Here+ V1, uploading usually takes only a minute or less. Here+ V2 will take longer time. If the uploading is successful, the upgrade interface is displayed in green; if the upgrade is aborted, the interface is displayed in red. If the process is interrupted, or if it is not responding for a long time, the modules will need to be power cycled and uploading needs to be done again.
 
@@ -201,7 +197,7 @@ Click "OK" and wait for the firmware uploading to complete. For Here+ V1, upload
 
 When base/rover is already connected to U-center, click View, go to "View→Message View→ UBX → MON → VER". You will see the interface below:
 
-![](../.gitbook/assets/Here+V2-9.jpg)
+<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
 
 As shown in the figure, the current firmware version is FWVER = HPG 1.30 REF, indicating that the current firmware version is 1.30 for base module.
 
@@ -215,15 +211,15 @@ As shown in the figure, the current firmware version is FWVER = HPG 1.30 REF, in
 | Cables                 |   |
 | Hexagonal screw driver |   |
 
-![](../.gitbook/assets/Here+V2-10.jpg)
+<figure><img src="../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>
 
 Connect the cable with UART-USB converter. Connect the red wire to 5V pin and black wire to GND pin.
 
-![](../.gitbook/assets/Here+V2-11.jpg)
+<figure><img src="../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
 
 Remove the cover of Here+ v2 with hexagonal screw driver (You have to press and hold to remove the buckle). Then replace the cable.
 
-![](../.gitbook/assets/Here+V2-12.jpg)
+<figure><img src="../.gitbook/assets/9.png" alt=""><figcaption></figcaption></figure>
 
 Plug the connector to the computer USB port. Check if all drivers are ready in device manager. If not, drivers can be downloaded here: [link to download connector driver ](http://winchiphead.com/download/CH341/CH341SER.ZIP)
 
@@ -234,7 +230,7 @@ The correct driver should be "USB-SERIAL CH340(COM#)"\
 
 Open u-center and select the COM port for connector. Set the baud rate to 9600 then connect.
 
-![](../.gitbook/assets/Here+V2-13.5.jpg)
+<figure><img src="../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
 
 After connection, select "Tools>legacy firmware update" to enter firmware update UI. Check the option "USB alternative update method" and select the firmware to be updated. (firmware for here+ and here2+ are the same, please look for detailed procedures from the here+ update procedure). Click OK to begin update.
 
@@ -242,7 +238,7 @@ After connection, select "Tools>legacy firmware update" to enter firmware update
 
 Wait for the progress bar to finish. If the window turns green, update is successful.
 
-![](../.gitbook/assets/Here+V2-16.jpg)
+<figure><img src="../.gitbook/assets/11.png" alt=""><figcaption></figcaption></figure>
 
 If connection failed after the update window shows up, please change the baud rate to 115200 then update it twice (it maybe still failed at the first retry so please retry it twice).
 
@@ -258,7 +254,7 @@ This part of the tutorial uses Mission Planner ground control software and Arduc
 
 To use HERE+ on a UAV, you need the following hardware： Computer, telemetry modules, here+ rover module, here+ Base Antenna, here+ Base, Tripod(Stand)
 
-![](../.gitbook/assets/Here+V2-17.jpg)
+<figure><img src="../.gitbook/assets/12.png" alt=""><figcaption></figcaption></figure>
 
 Before using, make sure the hardware are connected correctly：\
 **Ground side:** The base station module is connected to the computer port through USB port; a telemetry module is connected to another USB port of the same computer.\
@@ -276,11 +272,11 @@ Start with base module setup first. During the base station setup, the rover and
 
 Open the Mission Planner ground station software on your computer and go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
-![](../.gitbook/assets/Here+V2-20.jpg)
+<figure><img src="../.gitbook/assets/17.png" alt=""><figcaption></figcaption></figure>
 
 Select the correct base module com port in the top left corner and click connect. In the SurveyIn Acc section, enter the absolute geographic accuracy that you expect your HERE + base station to achieve. In the Time column, enter the minimum survey time you expect. Click on Restart, the ground station will transfer the data you have entered to the HERE + base module, the base module will start a new round of surveying. You will see the following page:
 
-![](../.gitbook/assets/Here+V2-21.jpg)
+<figure><img src="../.gitbook/assets/18 (2).png" alt=""><figcaption></figcaption></figure>
 
 During the survey process, the right box will show the current survey status: **Position is invalid:** base station has not yet reached a valid location;\
 **In Progress:** survey is still in progress；\
@@ -331,7 +327,7 @@ One function of the U-center is to record the base / rover module data for later
 
 Then, click into "View → message view → UBX → RXM → RTCM(RTCM input status)", right click to "enable message".
 
-![](../.gitbook/assets/Here+V2-27.jpg)
+<figure><img src="../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
 
 Finally, click on the red recording icon on the upper left corner of the interface (shown below), select an address to save the recording, click OK, the recording will begin. When recording is stopped, the recording will appear in the previously saved address.
 
@@ -385,7 +381,7 @@ The uBlox 1.30 firmware uses the GPS + GLONASS navigation system for location se
 
 To save the current settings, go to "View→Messages view→UBX→CFG (Configuration)" page and click the Save current configuration option, then click Send (as shown below).
 
-![](../.gitbook/assets/Here+V2-34.jpg)
+<figure><img src="../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
 
 **Note:** Base station and rover should use the same navigation system configuration, or rover will not be able to enter RTK modes.
 
@@ -393,11 +389,11 @@ To save the current settings, go to "View→Messages view→UBX→CFG (Configura
 
 u-blox M8P chip supports a variety of input and output protocols, including USB, UART, I2C and so on. The HERE + base station module uses the USB port for data communication and RTK outputs. If you need to confirm the current settings, go to "View→Messages view → UBX → CGF → PRT" and select 3-USB in the Target field. The correct input and output protocols are shown below:
 
-![](../.gitbook/assets/Here+V2-35.jpg)
+<figure><img src="../.gitbook/assets/15.png" alt=""><figcaption></figcaption></figure>
 
 If you want to use more output protocols (such as UART), you can also select the output protocol and a specific message combination on this page. If you want to set a string of specific messages to output under a variety of protocols, you can go to "View→Messages view → UBX → CGF → MSG" .Then select a specific message, and then check the type of protocol you want to output.
 
-![](../.gitbook/assets/Here+V2-36.jpg)
+<figure><img src="../.gitbook/assets/21.png" alt=""><figcaption></figcaption></figure>
 
 To save the current settings, go to "View→Messages view→UBX→CFG (Configuration)" and click the "Save" current configuration option, then click Send.
 
@@ -405,7 +401,7 @@ To save the current settings, go to "View→Messages view→UBX→CFG (Configura
 
 By default, the output frequency of the position information by the rover module is 1HZ. If you need to speed up the position output frequency, you can enter "View→Messages view→UBX →CGF→RATE" and modify "Measurement Period". For example, adjust "Measurement Period" to 200ms then the "Measurement Frequency" will be increased to 5Hz.
 
-![](../.gitbook/assets/Here+V2-37.jpg)
+<figure><img src="../.gitbook/assets/16.png" alt=""><figcaption></figcaption></figure>
 
 To save the current settings, go to "View→Messages view→UBX→CFG (Configuration" and click the Save current configuration option, then click Send.
 
@@ -415,17 +411,17 @@ HERE + base module antenna is a Taoglas antenna. Users can select different ante
 
 **It should be noted that** the following data are not sufficient to give a comprehensive conclusion about which antenna is better, but the user can use the following methods to test, compare different antennas to find he one more suitable for their application.
 
-![Test Antenna A](../.gitbook/assets/Here+V2-38.jpg)
+<figure><img src="../.gitbook/assets/22.png" alt=""><figcaption></figcaption></figure>
 
-![Test Antenna B](../.gitbook/assets/Here+V2-39.jpg)
+<figure><img src="../.gitbook/assets/23.png" alt=""><figcaption></figcaption></figure>
 
-![Original Antenna](../.gitbook/assets/Here+V2-40.jpg)
+<figure><img src="../.gitbook/assets/24.png" alt=""><figcaption></figcaption></figure>
 
 ![Base status with Antenna A (Survey Antenna) at TIME Mode](../.gitbook/assets/Here+V2-41.jpg)
 
 ![Base status with Antenna B (GNSS Antenna) at TIME Mode](../.gitbook/assets/Here+V2-42.jpg)
 
-![Base status with original Antenna data at TIME Mode](../.gitbook/assets/Here+V2-43.jpg)
+<figure><img src="../.gitbook/assets/25.png" alt=""><figcaption></figcaption></figure>
 
 ![Satellite signal comparison for each satellite](../.gitbook/assets/Here+V2-44.jpg)
 

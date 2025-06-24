@@ -111,15 +111,15 @@ Click "Write Params" when done. CAN functions will be available after rebooting 
 
 When using Cube Black , from top to bottom are compass 1 ,2 and 3 .When using Cube Orange ，from top to bottom are compass 1 and 2. The external compass will be displayed in BusType list as UAVCAN. Usually need to set the external compass to NO 1 compass , if the external compass is not NO 1 compass, please do the following operation.
 
-![](../.gitbook/assets/2.png)
+![](<../.gitbook/assets/2 (1).png>)
 
 If you want to use CAN external compass as the NO 1 compass ,please move the UAVCAN compass to the top.
 
-![](../.gitbook/assets/3.png)
+![](<../.gitbook/assets/3 (1).png>)
 
 Select the compass you want to use (the default is normally ok).Then click "Start" to begin calibrate the compass,follow the process until the calibration is done .
 
-![](../.gitbook/assets/4.png)
+![](<../.gitbook/assets/4 (1).png>)
 
 #### 2. Using PX4 firmware：
 
@@ -127,7 +127,7 @@ As the document is written，The firmware used for flight control is PX4 V1.12.3
 
 > Old firmware might not be able to automatically allocate CAN node ID . Need to manually assigning node ID Here 3 / Here 3+ with latest firmware and perform following operation
 
-![](../.gitbook/assets/5.png)
+![](<../.gitbook/assets/5 (1).png>)
 
 Load PX4 firmware into the autopilot. Connect the 4pin CAN connector from Here3 to CAN1 or CAN2 port on flight control.
 
@@ -213,7 +213,7 @@ Start with a base module setup first. During the base station setup, the rover a
 
 Open the Mission Planner ground station software on your computer and go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
-![](../.gitbook/assets/9.png)
+![](<../.gitbook/assets/9 (1).png>)
 
 Select the correct base module com port in the top left corner and click connect. In the SurveyIn Acc section, enter the absolute geographic accuracy that you expect your Here+ base station to achieve. In the Time column, enter the minimum survey time you expect. Click on Restart, the ground station will transfer the data you have entered to the Here3 base module, the base module will start a new round of surveying. You will see the following page:
 
@@ -275,7 +275,7 @@ If you connected the UAVs with 1 telemetry module, they should share the same CO
 
 Connect each Here 3 / Here 3+ 4 Pin CAN cable to the CAN 1 port of the flight controller(one at a time), and conduct the following procedure. Select "install firmware" from Mission Planner and load the latest copter and plane firmware.
 
-![](../.gitbook/assets/16.png)
+![](<../.gitbook/assets/16 (1).png>)
 
 After successful installed firmware, change baud to 115200, and click connect. Then go to "Config/Tuning > Full Parameter List" and modify the following parameters:
 
@@ -285,21 +285,21 @@ CAN\_D2\_PROTOCOL：1 set virtual driver of CAN 2 to DRONECAN
 
 After successful loading, select the autopilot SLCAN COM port with 115200 baud rate and Connect and then Go to "Initial Setup - Optional Hardware - DRONECAN", click "SLCan Mode CAN1".
 
-![](<../.gitbook/assets/17 (1).png>)
+![](<../.gitbook/assets/17 (1) (1).png>)
 
 When the device settings of Here3 pop-up, click "Parameters" from the right.
 
-![](<../.gitbook/assets/18 (1).png>)
+![](<../.gitbook/assets/18 (1) (1).png>)
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](../.gitbook/assets/19.png)
+![](<../.gitbook/assets/19 (1).png>)
 
 **Use Cube Orange to change ID:**
 
 Connect each Here 3 / Here 3+ 4Pin CAN cable to the CAN 1 port of the flight controller(one at a time), and conduct the following procedure. Select "install firmware" from Mission Planner and load the latest copter or plane firmware.
 
-![](../.gitbook/assets/20.png)
+![](<../.gitbook/assets/20 (1).png>)
 
 After successful loading, select the autopilot SLCAN COM port with 115200 baud rate and Connect and then go to "Config/Tuning > Full Parameter List" and modify the following parameters:
 
@@ -313,15 +313,15 @@ After successful loading, select the autopilot SLCAN COM port with 115200 baud r
 
 Then Go to "Initial Setup - Optional Hardware - UAVCAN", click "SLCan Mode CAN1".
 
-![](../.gitbook/assets/21.png)
+![](<../.gitbook/assets/21 (1).png>)
 
 When the device settings of Here 3 / Here 3+ pop-up, click "Parameters" from the right.
 
-![](../.gitbook/assets/22.png)
+![](<../.gitbook/assets/22 (1).png>)
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](../.gitbook/assets/23.png)
+![](<../.gitbook/assets/23 (1).png>)
 
 #### 2. Here 3 / Here 3+ firmware upgrade
 
@@ -363,7 +363,7 @@ gnssConfig = 97 for GPS+GLONASS+QZSS
 
 When done, click “Write Params” and “Commit Params” at the righthand side.
 
-![](../.gitbook/assets/24.png)
+![](<../.gitbook/assets/24 (2).png>)
 
 #### 4. HERE3 u-blox Chip Firmware Update
 

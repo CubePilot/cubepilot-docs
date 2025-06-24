@@ -22,11 +22,11 @@ This will take you to the “Pre-Flight Checklist” screen, where you are requi
 
 **WARNING: Physically inspect the aircraft for each item on the Pre-Flight Checklist before checking the box on the screen. Failure to do so could result in aircraft failure or injury.**
 
-![](<../../../../.gitbook/assets/1 (1).png>)
+![](<../../../../.gitbook/assets/1 (1) (1).png>)
 
 Once all items have been checked on the Pre-Flight Checklist screen, you will be automatically directed to the Verify Controls screen. This screen reminds the pilot to verify all the aircraft controls properly function upon take off before starting the mission. Click `GO!` to be directed to the flight screen
 
-![](<../../../../.gitbook/assets/2 (1).png>)
+![](<../../../../.gitbook/assets/2 (1) (1).png>)
 
 ## **UI Overview**
 
@@ -142,7 +142,7 @@ The primary way to create and edit missions is in the Mission Editor, accessible
 
 When the mission editor is opened, it should be positioned at your current location on the map. If you have a specific place you want to create a mission at, then select "Search Address" from the menu. (You'll need an internet connection for this.) Type in the address, ZIP code, etc. you're interested in, and it will show you a list of addresses matching what you typed. Pick one, and the map will pan to that location. You can also search for a lat/lng directly by typing it into the search field.
 
-![](../../../../.gitbook/assets/6.png)
+![](<../../../../.gitbook/assets/6 (1).png>)
 
 ### **Mission Vehicle Type**
 
@@ -156,11 +156,11 @@ Click the `VEHICLE TYPE` button in the top right of the missions screen. Select 
 
 To create a mission using  waypoints, click the `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose Waypoint.
 
-![](<../../../../.gitbook/assets/22 (1).png>)
+![](<../../../../.gitbook/assets/22 (1) (1).png>)
 
 To add waypoints, click on the map where you want the aircraft to fly, starting with the place of launch. At each point, a marker will be placed on the map.
 
-![](<../../../../.gitbook/assets/23 (1).png>)
+![](<../../../../.gitbook/assets/23 (1) (1).png>)
 
 To change settings on each waypoint, click either the waypoint marker on the map, or the item in the horizontal list at the bottom. A panel will appear on the right of the screen with slider attributes. These are attributes of the waypoint that can be edited. The top sliders are common to most waypoints (i.e Altitude, speed). The next set (under "Details") is the set of attributes specific to that type of waypoint.
 
@@ -222,7 +222,7 @@ Draw all of your waypoints on the map, then select `Follow Terrain` from the men
 
 On the dialog box that appears, click `Apply Elevations`.
 
-![](../../../../.gitbook/assets/25.png)
+![](<../../../../.gitbook/assets/25 (1).png>)
 
 UR/Solex TX will look up the elevation for each location in your mission to find the ground elevation at each location. For each location in the mission, it will add the difference between the first location's elevation and the current location's elevation to the current location's altitude.
 
@@ -254,27 +254,27 @@ Depending on how it's configured and tuned, a vehicle may tend to wander after i
 
 To create a mission using  Grid, click the `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose `Grid`.
 
-![](../../../../.gitbook/assets/7.png)
+![](<../../../../.gitbook/assets/7 (1).png>)
 
 Tab the map in the area you want to create a grid.
 
-![](../../../../.gitbook/assets/8.png)
+![](<../../../../.gitbook/assets/8 (1).png>)
 
 Use your finger or stylus pen to draw the perimeter of the area you want to to add a grid mission.
 
-![](<../../../../.gitbook/assets/9 (1).png>)
+![](<../../../../.gitbook/assets/9 (1) (1).png>)
 
 Upon lifting your finger from drawing, a grid will automatically be placed within the area you outlined.
 
-![](../../../../.gitbook/assets/10.png)
+![](<../../../../.gitbook/assets/10 (1).png>)
 
 ### **Wall Scan Missions**
 
 Wall Scan is a mission item type useful for doing linear scans of straight areas from the side.
 
-![](../../../../.gitbook/assets/17.png)
+![](<../../../../.gitbook/assets/17 (1).png>)
 
-![](../../../../.gitbook/assets/18.png)
+![](<../../../../.gitbook/assets/18 (3).png>)
 
 To use it, drop a Wall Scan item on the location you want to scan. Set the Wall Length setting to the length of the scan, and it will expand on either side of the dropped location. Use the At Distance setting to control how close to the location the vehicle will fly. Use Scan Angle to control which direction the scan will go. Scan Angle is expressed in degrees relative to the dropped point, with the scan direction being 90 degrees to that. So for example if you drop the point on a location and leave Scan Angle at 0 (North), the vehicle will fly on the North side of the object from East to West (or vice versa, depending on whether you have Reverse checked in the Wall Scan options). To fly North/South on the East side of the object, set the Scan Angle setting to 90 (East). Options are as follows:
 
@@ -341,13 +341,13 @@ Surveys are kind of their own thing within missions. A Survey is an item in a mi
 
 To create a Survey, click the Add button and pick `Survey` from the waypoint type list.&#x20;
 
-![](<../../../../.gitbook/assets/19 (1).png>)
+![](<../../../../.gitbook/assets/19 (1) (1).png>)
 
 Tap the map where you want the center of the survey to be, and it will display a message saying to draw the survey region. Draw a shape, and a polygon will be created that approximates what you drew. If you want a square, draw something vaguely square-shaped, and a polygon will appear that's sort of square-shaped. It won't be perfect, but it's OK because you can adjust it.
 
-![](<../../../../.gitbook/assets/20 (1).png>)
+![](<../../../../.gitbook/assets/20 (1) (1).png>)
 
-![](<../../../../.gitbook/assets/21 (1).png>)
+![](<../../../../.gitbook/assets/21 (1) (1).png>)
 
 To adjust a Survey, use the normal editing tools. Move polygon points by dragging them around, and delete them by clicking the Delete button and clicking the points. If you don't like a move or delete you've just done, hit Undo and it will go back to where it was.
 
