@@ -145,7 +145,7 @@ Operator are able to check UAV's location, ID , operator ID, distance from opera
 
 * CubeID should appear as com.cubepilot.cubeid in the list, click **Menu > Update** to start the update process, Mission Planner will fetch the latest firmware binary automatically and start the process
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Note: If you want to use different tool to update CubeID CAN module, you can get the latest firmware from [https://firmware.cubepilot.org/UAVCAN/com.cubepilot.cubeid/1.0/firmware.bin](https://firmware.cubepilot.org/UAVCAN/com.cubepilot.cubeid/1.0/firmware.bin)
 

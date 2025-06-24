@@ -1,8 +1,7 @@
 # Carrier Boards FAQ
 
-## Mini Carrier Board - SBUSo port
+## 1. Is there a SBUS port on the Mini Carrier Board?
 
-[**There is no SBUSo port on mini carrier board**](https://discuss.cubepilot.org/t/mini-carreri-sbuso-port/3552)
+**Ans**: There is no SBUS port on the Mini carrier board.
 
-**Page available for revision and updating through the Github link below:**\
-[**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/carrier-boards-faq.md**](carrier-boards-faq.md)
+For more details, refer to the following Github link: [**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/carrier-boards-faq.md**](carrier-boards-faq.md)

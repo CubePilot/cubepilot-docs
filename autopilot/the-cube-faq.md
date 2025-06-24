@@ -24,8 +24,8 @@ Most USB connection issues are caused by outdated software or firmware. See belo
 
 **1.** Update Mission Planner and its drivers. For details, see the **Installing ArduPilot** section. If this does not work, go to the next step.
 
-{% content-ref url="the-cube-series-firmware-and-connection-troubleshooting/installing-ardupilot.md" %}
-[installing-ardupilot.md](the-cube-series-firmware-and-connection-troubleshooting/installing-ardupilot.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 2. Update the Windows operating system to Windows 10 or above. If this does not work, go to the next step.

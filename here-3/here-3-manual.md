@@ -337,7 +337,7 @@ Be aware that the following steps should be done when there is only 1 GPS module
 
 After clicking “Update”it will ask whether to search update from the Internet. Click “Yes”. (Automatically searches for upgraded to the latest stable version firmware)
 
-![](<../.gitbook/assets/27 (1).png>)
+![](<../.gitbook/assets/27 (1) (1).png>)
 
 Check firmware version after upgrade.After the upgrade, check whether the version is successfully upgraded.
 

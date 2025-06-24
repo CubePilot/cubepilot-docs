@@ -1,61 +1,89 @@
----
-description: Kore v1.3.1 and Newer
----
-
 # Kore Carrier Board
-
-![Kore Carrier Board](../.gitbook/assets/thekore.jpg)
 
 ## Introduction
 
-The primary purpose of the Kore Multi-Rotor Carrier Board for The CUBE is to reduce the rat’s nest of wires and modules typically associated with a multi-rotor assembly. It provides built-in power distribution, redundant power supplies for the autopilot, built-in fail-over power selection, a separate payload power regulator, and many other features.
+The primary purpose of the Kore Multi-Rotor Carrier Board is to minimize the entangled wiring and modules typically associated with a multi-rotor assembly. It provides many features, such as built-in power distribution, redundant power supplies for the autopilot, built-in fail-over power selection, and a separate payload power regulator.
 
-While this carrier board is geometrically optimized for quadcopters, X8 configurations, and octocopters, it provides connections for every function of The CUBE autopilot. Therefore, this board can be integrated into any vehicle type that is supported by The CUBE, including all other multi-rotor frame types, plane, rover, sub, and antenna tracker.
+Although this carrier board is geometrically optimized for quadcopters, X8 configurations, and octocopters, it provides connections that can support the various functions supported by The CUBE. Thus, it can be integrated into any vehicle type supported by The Cube, which includes various multi-rotor frame types, planes, rovers, submarines, and antenna trackers.
 
-## Features At-A-Glance
+![](../.gitbook/assets/thekore.jpg)
+
+## Features
 
 * Up to 12-cell Lithium battery (50.4V)
 * 140A continuous current with 280A surges
-* Power and signal for ESCs conveniently located in corners
+* Power and signal for ESCs located at the corners
 * 12V navigation light power available at each corner
 * Built-in power distribution
 * Built-in voltage and current sense
 * Redundant power supplies for flight critical components
 * Payload connectors with resettable fuses for 5V, 12V, and direct battery power
-* Good power and error indicator lights
+* Power Good and Power Error indicator lights
 * Built-in buzzer with volume control
-* Connectors for every function of The CUBE
+* Connectors for every function of The Cube
 * Easily accessible PWM voltage level selector (3.3V or 5V)
 * Resistant to ground bounce on PWM signal
-* Connector-compatible with standard CubePilot carrier board
-* Connector ports for debugging IO and FMU processors
+* Connector-compatible with Standard carrier board
+* Connector ports for debugging I/O and FMU processors
 
 ## Power
 
-The system battery should be connected directly to the large pads labeled “MAIN PWR”. Pads are available on both top and bottom of the board. No external power brick is necessary, as voltage and current sense is done directly on the board. Pay special attention to the polarity symbols, as there is no reverse protection. Batteries up to 12S, or 50.4V, may be used.
+The system battery should be connected directly to the large pads labeled “MAIN PWR”. These Pads are located at the top and bottom of the board. No external power brick is necessary, as voltage and current sense is done directly on the board. Pay special attention to the polarity symbols, as there is no reverse protection. Batteries up to 12S or 50.4V can be used.
 
-The power distribution system is rated to supply 140A to the ESCs when exposed to stagnant air at room temperature, with surges up to 280A. If the board will have continuous airflow across it (exposed to prop wash during flight), significantly higher currents may be sourced. Alternatively, if the board will be mounted within an enclosure or if flown on a very hot day, it may be necessary to de-rate the current capacity. For users that expect to operate their vehicle continuously at high currents (over 100A), it is recommended that ground testing is done with a temperature gun prior to flight. The surface of the carrier board should never exceed 100°C.
+The power distribution system is rated to supply 140A to the ESCs when exposed to stagnant room-temperature air, with current surges reaching up to 280A. If the board encounters continuous airflow (exposed to prop wash during flight), significantly higher currents can be supported. Alternatively, if the board is mounted within an enclosure or if flown on a very hot day, it may be necessary to de-rate the current capacity. For users that expect to operate the vehicle continuously at high currents (over 100A), conduct ground testing with a temperature gun prior to flight. The surface of the carrier board should never exceed 100°C.
 
-In order to accurately read the voltage and current using the built-in sensors on the board, the following parameters should be set in The CUBE:
+## Ensuring the Built-In Sensors Accurately Read the Voltage and Current
+
+Some parameters need to be configured to ensure the built-in sensors on the board accurately read the voltage and current. See below for the steps:&#x20;
+
+### **Method 1**
+
+1. Open Mission Planner.&#x20;
+2. Connect The Cube to Mission Planner.&#x20;
+3. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+4. Click **Config** -> **Full Parameter List.**
+5. Download this [parameter file](http://docs.spektreworks.com/assets/params/Multirotor_PCB_Power.param).
+6. Click **Load from file** to upload the file to Mission Planner.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+7. Click **Write Params**.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+8. Reboot The Cube.
+
+### **Method 2**
+
+1. Open Mission Planner.&#x20;
+2. Connect The Cube to Mission Planner.
+3. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+4. Click **Config** -> **Full Parameter List.**
+5. Configure the BATT\_Monitor value to "4".&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-12-09 172450.png" alt=""><figcaption></figcaption></figure>
+
+6. Click **Write Params**.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+7. Reboot The Cube.&#x20;
+8. Click **Config** -> **Full Parameter List.**
+9. Set the following parameters to the values shown in the table.
 
 | Parameter          | Value |
 | ------------------ | ----- |
 | BATT\_AMP\_OFFSET  | 0.45  |
 | BATT\_AMP\_PERVOLT | 50    |
 | BATT\_CURR\_PIN    | 3     |
-| BATT\_MONITOR      | 4     |
 | BATT\_VOLT\_MULT   | 15.3  |
 | BATT\_VOLT\_PIN    | 2     |
 
-To set these parameters in mission planner, navigate to the **Config/Tuning -> Full Parameter List** Page.
-
-* **Note:** If you are using a fresh installation of mission planner you will have to enable this page by setting **Config/Tuning->Planner->Layout** to **“Advanced”**
-
-You may either type in these parameters manually, or download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor\_PCB\_Power.param)and upload via mission planner. After inputting via either method, be sure to click “Write Params” to save the parameters in the Cube.
+10. Click **Write Params**.
 
 ### General Use Payload Power Connectors
 
-There are three general use payload power connectors to source power for external devices and payloads. They are labeled as J1, J14, and J19 in white ink on the board. Molex brand Clik-Mate connectors are used for the power connectors.
+Three general-purpose power connectors, labeled J1, J14, and J19, are provided to supply power to external devices and payloads. Molex Clik-Mate power connectors are used.
 
 | Reference | Voltage         | Max Current | Pinout                 | Mating Part Number |
 | --------- | --------------- | ----------- | ---------------------- | ------------------ |
@@ -63,153 +91,250 @@ There are three general use payload power connectors to source power for externa
 | J14       | 5.3V            | 1.5A        | 1-2: 5.3V, 3-4: GND    | Molex 5023800400   |
 | J19       | 12.2V           | 2A          | 1-2: 12.2V, 3-5: GND   | Molex 5023800500   |
 
-The battery voltage and 5.3V power connectors are independently fused with resettable fuses. If a short occurs, the fuse will cut power to the offending connector. If this occurs, identify the short and remove it. Wait a couple of minutes and the fuse should reset. **The fuses may not react instantly and damage may occur to your carrier board if an external device has a short.** SpektreWorks is not responsible for damage caused by an external device.
+The battery voltage and 5.3V power connectors are independently fused with resettable fuses. If a short circuit occurs, the fuse will cut power to the affected connector. When this happens, complete the following steps:
 
-The 12.2V power connector is **not** internally fused. It is highly recommended that the user fuse any external loads to prevent excessive current from damaging the carrier board.
+1. Remove the power source that is providing the excessive current.
+2. Wait for a couple of minutes for the fuse to reset.
+
+{% hint style="warning" %}
+If the external device uses too much current and the fuse does not immediately cut power, it may damage the carrier board. Cubepilot is not responsible for any damage caused by external devices.
+{% endhint %}
 
 ### ESC Connections
 
-At each corner of the board are solder pads for ESC power. The power wires from your ESCs may be soldered to the pads on the top or bottom surface.
+Solder pads for ESC power are located at each corner of the board. The power wires from the ESCs can be soldered to the pads on either the top or bottom of the board.
 
-Next to the ESC power pads are 3x3 0.1” header pins. The bottom row of pins provides power for navigation lights. The center pin is 12V and the right pin is ground. The left pin is unused and should be removed. **Make sure you do not plug in an ESC cable into the bottom row of this connector.**
+Next to the ESC power pads are 3x3 0.1” header pins. The bottom row of these pins provides power for navigation lights.&#x20;
 
-The top two rows of pins are for the ESC PWM signal. These two rows correspond to two of the “Main Out” connections of The CUBE. The rows are labeled in white ink on the board. The “S”, “+”, and “-“ correspond to the PWM signal, power, and ground, respectively. All eight Main Out connections are available in the four corners of the board. It helps to look at the header pins from the side to see which row corresponds to which label.
+* **Right pin**: Ground
+* **Center pin**: Supplies 12V
+* **Left pin**: Unused and should be removed.
 
-![PWMPins\_v1\_3\_1](../.gitbook/assets/PWMPins\_v1\_3\_1.png)
+{% hint style="warning" %}
+Do not plug an ESC cable into the bottom row of this connector.
+{% endhint %}
 
-By default, the board does not supply power to the ESC PWM connections. However, if no BEC is available to power the ESCs, the user may bridge JP1 with solder to provide 5.3V from the board to the ESCs. **If JP1 is bridged with solder, do not plug a BEC into the ESC connections.**
+The top two rows of pins are for the ESC PWM signal. These pins correspond to two of the **Main Out** connections of The Cube.&#x20;
 
-![PWMJumper](../.gitbook/assets/PWMJumper.png)
+* S: PWM signal
+* +: Power
+* \-: Ground
 
-Most commercially available ESCs expect 3.3V PWM signals from the autopilot to control the motor. This is the default setting of a The CUBE. If, however, you require 5V PWM signals, there is a convenient switch for this on the carrier board. The switch is located on the right side of the board and is labeled “3V PWM” and “5V PWM”. Use a pen or a sharp tool to slide the switch to the desired voltage.
+All eight Main Out connections are available at the four corners of the board. Check the header pins from the side to determine which row corresponds to which label.
 
-![PWM\_voltage\_switch](../.gitbook/assets/PWM\_voltage\_switch.png)
+![PWMPins\_v1\_3\_1](../.gitbook/assets/PWMPins_v1_3_1.png)
+
+By default, the board does not supply power to the ESC PWM connections. However, if no BEC is available to power the ESCs, bridge JP1 with solder to provide 5.3V from the board to the ESCs.&#x20;
+
+{% hint style="warning" %}
+Do not plug a BEC into the ESC connections when JP1 is bridged with solder.
+{% endhint %}
+
+![](../.gitbook/assets/PWMJumper.png)
+
+Most commercially available ESCs expect 3.3V PWM signals from the autopilot to control the motor. This is the default setting of The CUBE. To change to 5V PWM signals, use a pen or a pointed tool to move the switch, which is located on the right side of the board and labeled as **3V PWM** / **5V PWM**.&#x20;
+
+![](../.gitbook/assets/PWM_voltage_switch.png)
 
 ### Aux Pins
 
-Additionally, the six “Aux Out” connections are available as part of a 3x8 group of headers on the right side of the board. Refer to the labels in white ink to identify each pin. By default, the board does not supply power to the center pins of the Aux channels. An external power supply connected to these pins will supply all of the Aux pins, but will be isolated from the rest of the board. If desired, the board can supply 5.3V to the Aux rail by bridging the pads of JP2 with solder. It is recommended to only use on-board power for low-noise and low-power devices. It is not recommended to use servo motors with on-board power. **If JP2 is bridged with solder, do not connect an external power supply to the Aux pins.**
+There are six “Aux Out” connections located within a 3x8 group of headers on the right side of the board. The pins are labeled for easy identification. By default, the board does not supply power to the center pins of the Aux channels. An external power supply connected to these pins will supply power to all the Aux pins, but it will be isolated from the rest of the board. Alternatively, by bridging the pads of JP2 with solder, the board can provide 5.3V to the Aux rail.
 
-![JP2Bridge](../.gitbook/assets/JP2Bridge.png)
+{% hint style="info" %}
+* Use on-board power only for low-noise and low-power devices.
+* Do not use servo motors with on-board power.
+* Do not connect an external power supply to the Aux pins if JP2 is bridged with solder.
+{% endhint %}
 
-Pin label "SBUS" is sbus out, label "PPM" is Rcin.
+![](../.gitbook/assets/JP2Bridge.png)
+
+| Pin Label | Description |
+| --------- | ----------- |
+| SBUS      | SBUS Out    |
+| PPM       | Rcin        |
 
 ## Motor Pin Assignments
 
-The default Motor PWM pin arrangement of the carrier board was chosen for easy integration with a standard quadcopter. For other vehicle or frame types (including X8, Hex, Octo, etc), it is necessary to re-map the motor outputs to the correct corners of the board. This is possible for ArduCopter Firmware v3.5.0+.
+By default, the Motor PWM pins on the carrier board are arranged for easy integration with a standard quadcopter. For other vehicle or frame types (including X8, Hex, Octo, etc.), it is necessary to re-map the motor outputs to the correct corners on the board. This can be done using ArduCopter Firmware v3.5.0 or above.
 
-When re-mapping PWM outputs with Ardupilot, it is important to distinguish the **motor number** from the **output number**. The **motor number** refers to the physical location of the motor, and does not change. The following graphics show the motor numbers used by the ArduCopter firmware.
+When re-mapping PWM outputs with Ardupilot, it is important to distinguish the motor number from the output number.
 
-![MOTORS\_QuadX\_QuadPlus](../.gitbook/assets/MOTORS\_QuadX\_QuadPlus.jpg)
+**Motor number**: Refers to the physical location of the motor and does not change. The following graphic shows the motor numbers used by the ArduCopter firmware.
 
-The **output number** refers to the physical pin on each board that each motor is assigned to. These pins are on the corners of the board and are numbered “MAIN1” through “MAIN8”.
+![](../.gitbook/assets/MOTORS_QuadX_QuadPlus.jpg)
 
-Any motor number can be re-mapped to any output. This is done by setting the SERVOX\_FUNCTION (where x is the output number) to the appropriate value given in the table below.
+**Output number**: Refers to the physical pin on the board to which each motor is assigned. These pins are labeled "MAIN1" to "MAIN8" and are located on the board's corners.
 
-| Motor Number Desired | SERVORX\_FUNCTION Value |
-| -------------------- | ----------------------- |
-| 1                    | 33                      |
-| 2                    | 34                      |
-| 3                    | 35                      |
-| 4                    | 36                      |
-| 5                    | 37                      |
-| 6                    | 38                      |
-| 7                    | 39                      |
-| 8                    | 40                      |
+Any motor number can be re-mapped to any output. This is done by setting the SERVOX\_FUNCTION (where x is the output number) to the appropriate value shown in the table below.
 
-For example, if I wanted to plug Motor 3 into the MAIN5 connector on the board, I would set the SERVO5\_FUNCTION parameter to 35.
+| Required Motor Number | SERVORX\_FUNCTION Value |
+| --------------------- | ----------------------- |
+| 1                     | 33                      |
+| 2                     | 34                      |
+| 3                     | 35                      |
+| 4                     | 36                      |
+| 5                     | 37                      |
+| 6                     | 38                      |
+| 7                     | 39                      |
+| 8                     | 40                      |
 
-### Hexacopter Setup
+For example, to plug Motor 3 into the MAIN5 connector on the board, set the SERVO5\_FUNCTION parameter to 35.
 
-The following procedure may be used to configure the board for a hexacopter:
+### Hexa Setup
 
-1. Flash the cube with ArduCopter 3.5.0 or later.
-2. Connect to the cube in mission planner and navigate to the **Initial Setup -> Mandatory Hardware -> Frame Type** page.
-3. Set the FRAME\_CLASS to Hexa
-4. Reboot The CUBE
-5. Navigate to the **Config/Tuning -> Full Parameter List** Page.
-   * **Note:** If you are using a fresh installation of mission planner you will have to enable this page by setting **Config/Tuning->Planner->Layout** to **“Advanced”**
-6. Set the following parameter values:
-   * SERVO1\_FUNCTION=37
-   * SERVO2\_FUNCTION=38
-   * SERVO3\_FUNCTION=35
-   * SERVO4\_FUNCTION=36
-   * SERVO5\_FUNCTION=34
-   * SERVO6\_FUNCTION=33
-   * You may either type in these parameters manually, or download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor\_PCB\_HEX.param)and upload via mission planner. After inputting via either method, be sure to click “Write Params” to save the parameters in the Cube.
-7.  Connect your ESCs according to the following table using the motor numbers from the “Hexa X” picture above
+To configure the carrier board for a hexacopter, complete the following steps:
 
-    | Motor Number | Output |
-    | ------------ | ------ |
-    | 1            | MAIN6  |
-    | 2            | MAIN5  |
-    | 3            | MAIN3  |
-    | 4            | MAIN4  |
-    | 5            | MAIN1  |
-    | 6            | MAIN2  |
+1. Mount The Cube to the carrier board.
+2. Open Mission Planner.&#x20;
+3. Connect The Cube to Mission Planner.
+4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+5. Flash The Cube with ArduCopter 3.5.0 or above.
+6. Click **Setup** -> **Mandatory Hardware -> Frame Type**.
+7. Select the frame picture with six motors arranged in a radial pattern for the **Frame Class** and choose a **Frame Type**.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-12-16 174154.png" alt=""><figcaption></figcaption></figure>
+
+8. Reboot The CUBE
+9. Click **Config** -> **Full Parameter List**.
+10. Set the following parameters to the values shown in the table below. This can be done in two ways:
+
+    * Enter the values manually.
+    * Download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_HEX.param)and then click **Load from file** to upload it to Mission Planner.&#x20;
+
+    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+| Parameter        | Value |
+| ---------------- | ----- |
+| SERVO1\_FUNCTION | 37    |
+| SERVO2\_FUNCTION | 38    |
+| SERVO3\_FUNCTION | 35    |
+| SERVO4\_FUNCTION | 36    |
+| SERVO5\_FUNCTION | 34    |
+| SERVO6\_FUNCTION | 33    |
+
+11. Click **Write Params**.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
+12. Reboot The Cube.
+13. Connect the ESCs, as shown in the table below.
+
+| Motor Number | Output |
+| ------------ | ------ |
+| 1            | MAIN6  |
+| 2            | MAIN5  |
+| 3            | MAIN3  |
+| 4            | MAIN4  |
+| 5            | MAIN1  |
+| 6            | MAIN2  |
 
 ### Octa Setup
 
-The following procedure may be used to configure the board for a flat octacopter:
+To configure the carrier board for a flat octacopter, complete the following steps:
 
-1. Flash the cube with ArduCopter 3.5.0 or later.
-2. Connect to the cube in mission planner and navigate to the **Initial Setup -> Mandatory Hardware -> Frame Type** page.
-3. Set the FRAME\_CLASS to Octa
-4. Reboot The CUBE
-5. Navigate to the **Config/Tuning -> Full Parameter List** Page.
-   * **Note:** If you are using a fresh installation of mission planner you will have to enable this page by setting **Config/Tuning->Planner->Layout** to **“Advanced”**
-6. Set the following parameter values:
-   * SERVO1\_FUNCTION=33
-   * SERVO2\_FUNCTION=34
-   * SERVO3\_FUNCTION=39
-   * SERV04\_FUNCTION=36
-   * SERVO5\_FUNCTION=37
-   * SERVO6\_FUNCTION=35
-   * SERVO7\_FUNCTION=40
-   * SERVO8\_FUNCTION=38
-   * You may either type in these parameters manually, or download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor\_PCB\_OCTA.param)and upload via mission planner. After inputting via either method, be sure to click “Write Params” to save the parameters in the Cube.
-7.  Connect your ESCs according to the following table using the motor numbers from the “Octo X” picture above
+1. Mount The Cube to the carrier board.
+2. Open Mission Planner.&#x20;
+3. Connect The Cube to Mission Planner.
+4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+5. Flash The Cube with ArduCopter 3.5.0 or above.
+6. Click **Setup** -> **Mandatory Hardware -> Frame Type**.
+7. Select the frame picture with eight motors arranged in a radial pattern for the **Frame Class** and choose a **Frame Type**.&#x20;
 
-    | Motor Number | Output |
-    | ------------ | ------ |
-    | 1            | MAIN1  |
-    | 2            | MAIN2  |
-    | 3            | MAIN6  |
-    | 4            | MAIN4  |
-    | 5            | MAIN5  |
-    | 6            | MAIN8  |
-    | 7            | MAIN3  |
-    | 8            | MAIN7  |
+<figure><img src="../.gitbook/assets/Screenshot 2024-12-23 161049.png" alt=""><figcaption></figcaption></figure>
+
+8. Reboot The CUBE.
+9. Click **Config** -> **Full Parameter List**.
+10. Set the following parameters to the values shown in the table below. This can be done in two ways:
+
+    * Enter the values manually.
+    * Download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_OCTA.param)and then click **Load from file** to upload it to Mission Planner.&#x20;
+
+    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+
+
+| Parameter        | Value |
+| ---------------- | ----- |
+| SERVO1\_FUNCTION | 33    |
+| SERVO2\_FUNCTION | 34    |
+| SERVO3\_FUNCTION | 39    |
+| SERV04\_FUNCTION | 36    |
+| SERVO5\_FUNCTION | 37    |
+| SERVO6\_FUNCTION | 35    |
+| SERVO7\_FUNCTION | 40    |
+| SERVO8\_FUNCTION | 38    |
+
+11. Click **Write Params**.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+12. Reboot The Cube.
+13. Connect the ESCs, as shown in the table below.
+
+| Motor Number | Output |
+| ------------ | ------ |
+| 1            | MAIN1  |
+| 2            | MAIN2  |
+| 3            | MAIN6  |
+| 4            | MAIN4  |
+| 5            | MAIN5  |
+| 6            | MAIN8  |
+| 7            | MAIN3  |
+| 8            | MAIN7  |
 
 ### X-8 Setup
 
-The following procedure may be used to configure the board for an X-8 (OctaQuad):
+To configure the carrier board for an X-8 (OctaQuad), complete the following steps:
 
-1. Flash the cube with ArduCopter 3.5.0 or later.
-2. Connect to the cube in mission planner and navigate to the **Initial Setup -> Mandatory Hardware -> Frame Type** page.
-3. Set the FRAME\_CLASS to OctaQuad
-4. Reboot The CUBE
-5. Navigate to the **Config/Tuning -> Full Parameter List** Page.
-   * **Note:** If you are using a fresh installation of mission planner you will have to enable this page by setting **Config/Tuning->Planner->Layout** to **“Advanced”**
-6. Set the following parameter values:
-   * SERVO2\_FUNCTION=35
-   * SERVO3\_FUNCTION=34
-   * You may either type in these parameters manually, or download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor\_PCB\_X8.param)and upload via mission planner. After inputting via either method, be sure to click “Write Params” to save the parameters in the Cube.
-7.  Connect your ESCs according to the following table using the motor numbers from the “Octo X” picture above
+1. Mount The Cube to the carrier board.
+2. Open Mission Planner.&#x20;
+3. Connect The Cube to Mission Planner.
+4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+5. Flash The Cube with ArduCopter 3.5.0 or above.
+6. Click **Setup** -> **Mandatory Hardware** -> **Frame Type**.
+7. Select the frame picture with eight motors arranged in a square pattern, with one motor stacked on top of another at each corner. Then, choose a **Frame Type**.&#x20;
 
-    | Motor Number | Output |
-    | ------------ | ------ |
-    | 1            | MAIN1  |
-    | 2            | MAIN3  |
-    | 3            | MAIN2  |
-    | 4            | MAIN4  |
-    | 5            | MAIN5  |
-    | 6            | MAIN6  |
-    | 7            | MAIN7  |
-    | 8            | MAIN8  |
+<figure><img src="../.gitbook/assets/Screenshot 2024-12-23 161306.png" alt=""><figcaption></figcaption></figure>
+
+8. Reboot The CUBE.
+9. Click **Config** -> **Full Parameter List**.
+10. Set the following parameters to the values shown in the table below. This can be done in two ways:
+
+    * Enter the values manually.
+    * Download this [parameter file](http://docs.spektreworks.com/assets/params/Multirotor_PCB_X8.param)[ ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_OCTA.param)and then click **Load from file** to upload it to Mission Planner.&#x20;
+
+    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+
+
+| Parameter        | Value |
+| ---------------- | ----- |
+| SERVO2\_FUNCTION | 35    |
+| SERVO3\_FUNCTION | 34    |
+
+11. Click **Write Params**.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+12. Reboot The Cube.
+13. Connect the ESCs, as shown in the table below.
+
+| Motor Number | Output |
+| ------------ | ------ |
+| 1            | MAIN1  |
+| 2            | MAIN3  |
+| 3            | MAIN2  |
+| 4            | MAIN4  |
+| 5            | MAIN5  |
+| 6            | MAIN6  |
+| 7            | MAIN7  |
+| 8            | MAIN8  |
 
 ## Digital and Analog Connectors <a href="#digital-and-analog-connectors" id="digital-and-analog-connectors"></a>
 
-The SpektreWorks carrier board comes with all of the same JST-brand receptacles as the standard CubePilot carrier board with a few exceptions. The tables below describe the pin-out of each JST connector.
+The Kore carrier board has the same JST-brand receptacles as the standard carrier board, with a few exceptions. The tables below show the pin-out of each JST connector.
 
 ### Telemetry 1
 
@@ -305,7 +430,9 @@ The SpektreWorks carrier board comes with all of the same JST-brand receptacles 
 |      |       | 6. DRDY  |
 |      |       | 7. GND   |
 
-Note: The SPI port will likely be removed in future versions of this carrier board.
+{% hint style="info" %}
+The SPI port is expected to be removed in future versions of this carrier board.
+{% endhint %}
 
 ### ADC
 
@@ -316,7 +443,9 @@ Note: The SPI port will likely be removed in future versions of this carrier boa
 |      |       | 3. NC      |
 |      |       | 4. GND     |
 
+{% hint style="info" %}
 The ADC\_IN input voltage is divided by two using a symmetric 10kΩ voltage divider on the board. Do not exceed analog voltages above 6.6V on this pin.
+{% endhint %}
 
 ### BATT2 Sense
 
@@ -327,23 +456,26 @@ The ADC\_IN input voltage is divided by two using a symmetric 10kΩ voltage div
 |             |       | 3. BATT2\_Current\_Sense |
 |             |       | 4. GND                   |
 
-In order to use the BATT2\_Volt\_Sense pin, a user-selected resistor must be soldered to the board. Use the following equation to select the resistor value:
+In order to use the BATT2\_Volt\_Sense pin, a user-selected resistor must be soldered to the board. Use the following equation to determine the resistor value:
 
-[![](https://latex.codecogs.com/gif.latex?R\&space;=\&space;3030\&space;\*\&space;V\_{max}-10000)](https://www.codecogs.com/eqnedit.php?latex=R\&space;=\&space;3030\&space;\*\&space;V\_{max}-10000)
+[![](https://latex.codecogs.com/gif.latex?R\&space;=\&space;3030\&space;*\&space;V_{max}-10000)](https://www.codecogs.com/eqnedit.php?latex=R\&space;=\&space;3030\&space;*\&space;V_{max}-10000)
 
-Where Vmax is the maximum voltage expected on this pin. R will be the resistance in Ohms. Once this value is calculated, a common through hole style resistor should soldered to the space labeled R46 on the bottom surface of the board.
+* **Vmax**: Maximum voltage expected on this pin.
+* **R**: Resistance (Ohms)
+
+When the value is calculated, a common through-hole style resistor should be soldered to the space labeled R46 underneath the board.
 
 ![](../.gitbook/assets/ADCResistor.png)
 
-In order for The CUBE to accurately read the secondary voltage, the BATT2\_VOLT\_MULT parameter must be set. It can be calculated using the following equation:
+For The CUBE to accurately read the secondary voltage, the BATT2\_VOLT\_MULT parameter must be set. Use the following equation to calculate the value.&#x20;
 
-[![](https://latex.codecogs.com/gif.latex?BATT2\_VOLT\_MULT=\frac{V\_{max\}}{3.3})](https://www.codecogs.com/eqnedit.php?latex=BATT2\_VOLT\_MULT=\frac{V\_{max\}}{3.3})
+[![](https://latex.codecogs.com/gif.latex?BATT2_VOLT_MULT=\frac{V_{max\}}{3.3})](https://www.codecogs.com/eqnedit.php?latex=BATT2_VOLT_MULT=\frac{V_{max\}}{3.3})
 
 ### Debug
 
-Two Debug connectors are provided for developer use. One debug header is provided for each process on The CUBE.
+Two debug connectors are provided for developer use. One debug header is provided for each processer on The CUBE.
 
-Connector is JST brand and mates with SHR-06V-S-B or SHR-06V-S
+The connector is from the JST brand and mates with SHR-06V-S-B or SHR-06V-S.
 
 | Name         | Label | Pins           |
 | ------------ | ----- | -------------- |
@@ -367,41 +499,56 @@ Connector is JST brand and mates with SHR-06V-S-B or SHR-06V-S
 
 The carrier board has two indicator lights on the top surface labeled “Pwr” and “Err”.
 
-**Pwr Light:** There are two independent 5V regulators that provide power to the autopilot and other peripherals. This light will shine blue if and only if both regulators are working. **Do not fly if this light is not blue.**
+**Pwr Light:** Two independent 5V regulators provide power to The Cube and other peripherals. A constant blue light indicates both regulators are working.&#x20;
 
-**Err Light:** If one of the two regulators has failed, this light will shine red. **Do not fly if this light is red.**
+**Err Light:** A constant red light indicates one of the two regulators has failed.&#x20;
 
-![](http://docs.spektreworks.com/assets/images/light\_truth\_table.PNG)
+{% hint style="warning" %}
+* Do not fly the vehicle if the blue Pwr Light is not lit.
+* Do not fly the vehicle if the Err Light is lit.&#x20;
+{% endhint %}
+
+![](http://docs.spektreworks.com/assets/images/light_truth_table.PNG)
 
 ## Buzzer and Volume Control <a href="#buzzer-and-volume-control" id="buzzer-and-volume-control"></a>
 
-The carrier board comes with a piezoelectric buzzer mounted on the underside of the board. No external buzzer is required. For safety reasons, do not mount the board on your vehicle in a manner that causes the buzzer to be muffled.
+The carrier board includes a piezoelectric buzzer mounted on its underside. Thus, no external buzzer is needed.&#x20;
 
-The carrier board features a volume control switch located at the front edge of the board. When the switch is pushed to the right, the buzzer will be at full, ear-splitting volume. When pushed to the left, the volume is reduced. For safety reasons, never fly with the switch at the lower volume.
+{% hint style="warning" %}
+Do not mount the board onto the vehicle in a way that muffles the buzzer sound.
+{% endhint %}
+
+The carrier board has a volume control switch located at the front edge.&#x20;
+
+* **Switch moved to the right**: Buzzer volume is at maximum volume.&#x20;
+* **Switch moved to the left**: Buzzer volume is at a reduced level. &#x20;
+
+{% hint style="warning" %}
+Never fly the vehicle with the buzzer volume set to a reduced level. &#x20;
+{% endhint %}
 
 ## Mechanical Information
 
 ### Mass
 
-79g without Cube 108g with Cube
+* **Without The Cube**: 79g
+* **With The Cube**: 108g
 
 ### Outer Dimensions
 
-![](http://docs.spektreworks.com/assets/images/carrier\_board\_dimensions.png)
+![](http://docs.spektreworks.com/assets/images/carrier_board_dimensions.png)
 
 ### Mounting Hole Locations
 
-![](http://docs.spektreworks.com/assets/images/carrier\_board\_holes.png)
+![](http://docs.spektreworks.com/assets/images/carrier_board_holes.png)
 
 ## Errata
 
-The pins on connector J3 should be labeled “SCL1” and “SDA1”, not “SCL2” and “SDA2”. The label “I2C1” next to the connector is correct. The label "SBUS" is sbus out, label "PPM" is Rcin.
+The pins on connector J3 should be labeled “SCL1” and “SDA1”, not “SCL2” and “SDA2”. The label “I2C1” next to the connector is correct. The l"SBUS" label refers to SBUS out, and the "PPM" label denotes Rcin.
 
 ## Disclaimer <a href="#disclaimer" id="disclaimer"></a>
 
-Due to the complex nature of any drone vehicle, there are many causes of failure that may result in damaged components. SpektreWorks cannot warranty the carrier board against damage caused by external devices (ESCs, motors, peripherals, etc.) or due to a crash. SpektreWorks will replace a carrier board that has a manufacturer defect within 30 days of purchase.
+Due to the complex nature of any drone vehicle, there are many causes of failure that may result in damaged components. SpektreWorks does not warranty the carrier board against damage caused by external devices (ESCs, motors, peripherals, etc.) or due to a crash. SpektreWorks will replace a carrier board that has a manufacturer defect within 30 days of purchase.
 
-
-
-**Page available for revision and updating through the Github link below:** \
+The following Github link can be used to revise and update the Kore carrier board informatio&#x6E;**:** \
 [**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/kore-carrier-board.md**](kore-carrier-board.md)

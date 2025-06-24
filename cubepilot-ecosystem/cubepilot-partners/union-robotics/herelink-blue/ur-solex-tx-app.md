@@ -170,7 +170,7 @@ To change settings on each waypoint, click either the waypoint marker on the map
 
 To change the first waypoint to a Takeoff, click the top of the panel, and it will drop down a list of items. Click `Takeoff` in the list. The panel's contents will change to show just the relevant attributes for a Takeoff. The waypoint also disappears off of the map, because a Takeoff doesn't really have a defined point; it's just the location your vehicle is sitting when it takes off.
 
-![](../../../../.gitbook/assets/27.png)
+![](<../../../../.gitbook/assets/27 (1).png>)
 
 ![](../../../../.gitbook/assets/28.png)
 

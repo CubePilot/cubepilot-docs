@@ -265,13 +265,13 @@ Start with base module setup. During the base station setup, the rover and the U
 
 * Connect HerePro module to Mission Planner for Parameter setting
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Go to Parameters and set B\_ENABLE  1
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Disconnect HerePro and Connect it again, then go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 

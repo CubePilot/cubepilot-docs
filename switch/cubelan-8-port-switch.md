@@ -22,7 +22,7 @@ The CubeLAN 8-port switch is a miniature Ethernet switch that can connect up to 
 
 ## Mechanical Specifications
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (36).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -53,7 +53,7 @@ The CubeLAN 8-port switch is a miniature Ethernet switch that can connect up to 
 | 7          | No connection (NC) |
 | 8          | No connection (NC) |
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
