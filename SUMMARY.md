@@ -34,7 +34,7 @@
   * [OEM Image Setup](herelink/herelink-user-guides/oem-image-setup.md)
   * [Generate a bug report](herelink/herelink-user-guides/generate-a-bug-report.md)
 * [Herelink Accessories](herelink/herelink-accessories.md)
-* [Herelink QuickStart Guide](herelink/herelink-quickstart-guide.md)
+* [Herelink Quick Start Guide](herelink/herelink-quickstart-guide.md)
 * [Herelink FAQ](herelink/herelink-faq.md)
 
 ## HERE 2
