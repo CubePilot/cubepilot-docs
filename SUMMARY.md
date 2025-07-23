@@ -171,6 +171,7 @@
 * [CubePilot Ecosystem Mistral-Qualcomm MRD5165](cubepilot-ecosystem/cubepilot-ecosystem-mistral-qualcomm-mrd5165.md)
 * [CubePilot Ecosystem Precision Landing Air Test Operation (PLATO)](cubepilot-ecosystem/cubepilot-ecosystem-precision-landing-air-test-operation-plato.md)
 * [CubePilot Ecosystem Hionos](cubepilot-ecosystem/cubepilot-ecosystem-hionos.md)
+* [2025 CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/2025-cubepilot-ecosystem-autopilot-wiring-diagram.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
