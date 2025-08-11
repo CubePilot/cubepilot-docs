@@ -1,6 +1,6 @@
-# SB\_0000002 Critical service bulletin for Cubes Purchased between JAN 2019 to JUL 2019. DO NOT FLY
+# SB\_0000002 Critical Service Bulletin for Cubes Purchased between JAN 2019 to JUL 2019. DO NOT FLY
 
-**Latest update please refer to:**\
+**For the latest updates, refer to the following link:**\
 [SB\_0000002 Critical service bulletin for Cubes Purchased between January 2019 to July 2019. DO NOT FLY](https://discuss.cubepilot.org/t/sb-0000002-critical-service-bulletin-for-cubes-purchased-between-january-2019-to-july-2019-do-not-fly/406)
 
 [Cube Blue (USA) is not affected by safety Bulletin 2\
@@ -20,12 +20,10 @@ Please ensure you are using at least Arducopter 3.6.10\
 SB\_0000002 Critical service bulletin for Cubes Purchased between January 2019 to present.\
 **flight is possible under the following conditions** :
 
-1.You MUST run Latest Ardupilot RELEASE **CUBE BLACK** code.
-
-2.You must use latest Mission Planner or Latest QGC
-
-3.Set the following parameters\
-[CUBE\_BLACK.param 32](https://discuss.cubepilot.org/uploads/default/original/1X/d4ace0149f9bfbabac84c30cdff2d53ec98879de.param) (98 Bytes)
+1. You MUST run Latest Ardupilot RELEASE **CUBE BLACK** code.
+2. You must use latest Mission Planner or Latest QGC
+3. Set the following parameters\
+   [CUBE\_BLACK.param 32](https://discuss.cubepilot.org/uploads/default/original/1X/d4ace0149f9bfbabac84c30cdff2d53ec98879de.param) (98 Bytes)
 
 > BRD\_TYPE == 3 \
 > EK2\_IMU\_MASK == 7 \
@@ -34,9 +32,8 @@ SB\_0000002 Critical service bulletin for Cubes Purchased between January 2019 t
 > INS\_USE2 == 1 \
 > INS\_USE3 == 1
 
-4.Save the parametersReboot the cube
-
-5.reconnect mission planner
+4. Save the parameters and reboot the cube.
+5. Reconnect mission planner
 
 6.If Mission planner flags your code, contact your local re-seller, and log the issue. DO NOT FLY TILL I HAVE PERSONALLY CHECKED YOUR LOGS, and either given the go ahead, or, organised what we will do next in your case.
 

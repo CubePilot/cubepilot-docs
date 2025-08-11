@@ -1,4 +1,4 @@
-# SB\_0000001 Critical service bulletin for Beta Cube 2.1 (2016)
+# SB\_0000001 Critical Service Bulletin for Beta Cube 2.1 (2016)
 
 **Latest update please refer to:**\
 [SB\_0000001 Critical service bulletin for Beta Cube 2.1 (2016)](https://discuss.cubepilot.org/t/sb-0000001-critical-service-bulletin-for-beta-cube-2-1-2016/405)
@@ -16,25 +16,26 @@ There are two solutions to this issue.
 
 1. As short term, software fix to keep you in the air…
 
-Please move channel one to channel 5 by setting the following parameters.\
-Firmware 3.4 set RC5\_FUNCTION=33\
-Firmware 3.5 set SERVO5\_FUNCTION=33\
+Move channel 1 to channel 5 by setting the following parameters:
 
+* Firmware 3.4 set RC5\_FUNCTION=33
+* Firmware 3.5 set SERVO5\_FUNCTION=33
 
-![](<../../.gitbook/assets/SB\_0000001 Photo-01.jpeg>)
+![](<../../.gitbook/assets/SB_0000001 Photo-01.jpeg>)
 
-After you have made these changes, please leave I/O channel 1 disconnected… plug Aileron / ESC1 to I/O5
+After you have made these changes, leave I/O channel 1 disconnected… plug Aileron / ESC1 to I/O5
 
-2.We will be sending all affected users a mod kit. This will involve a insulating sticker that will fit in the corner of the board.
+2. We will be sending all affected users a mod kit. This will involve an insulating sticker that will fit in the corner of the board.
 
-![SB\_0000001 Photo-02 PH2 ch 1-4](<../../.gitbook/assets/SB\_0000001 Photo-02 PH2 ch 1-4.jpeg>)
+![SB\_0000001 Photo-02 PH2 ch 1-4](<../../.gitbook/assets/SB_0000001 Photo-02 PH2 ch 1-4.jpeg>)
 
-![SB\_0000001 Photo-03 PH2 short](<../../.gitbook/assets/SB\_0000001 Photo-03 PH2 short.jpeg>)
+![SB\_0000001 Photo-03 PH2 short](<../../.gitbook/assets/SB_0000001 Photo-03 PH2 short.jpeg>)
 
-![SB\_0000001 Photo-04 PWM CH1 Fix](<../../.gitbook/assets/SB\_0000001 Photo-04 PWM CH1 Fix.png>)
+![SB\_0000001 Photo-04 PWM CH1 Fix](<../../.gitbook/assets/SB_0000001 Photo-04 PWM CH1 Fix.png>)
 
-As a third thing, I am working with Michael Oborne to make a service bulletin section in mission planner. this will identify your board, and list any known issues, and give you any information you need to maintain safe flight.\
-Please keep mission planner up to date to take advantage of this service.
+As a third thing, I am working with Michael Oborne to make a service bulletin section in mission planner. this will identify your board, and list any known issues, and give you any information you need to maintain safe flight.
 
-the modification is a user mod, and instructions will be posted for these.
+Keep mission planner up to date to take advantage of this service.
+
+The modification is a user mod, and instructions will be posted for these.
 

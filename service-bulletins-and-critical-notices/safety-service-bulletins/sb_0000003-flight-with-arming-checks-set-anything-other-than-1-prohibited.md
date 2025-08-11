@@ -1,6 +1,6 @@
-# SB\_0000003 Flight with arming checks set anything other than 1 prohibited
+# SB\_0000003 Flight with Arming Checks Set Anything other than 1 prohibited
 
-**Latest update please refer to:**\
+**For the latest updates, refer to the following link:**\
 [SB\_0000003 Flight with arming checks set to anything other than 1 prohibited](https://discuss.cubepilot.org/t/sb-0000003-flight-with-arming-checks-set-to-anything-other-than-1-prohibited/857)
 
 We are seeing too many logs where arming checks are set at either 0, or at a value other than 1.

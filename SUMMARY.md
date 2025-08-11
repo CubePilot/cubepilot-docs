@@ -7,14 +7,18 @@
 ## Service Bulletins and Critical Notices
 
 * [Safety/Service Bulletins](service-bulletins-and-critical-notices/safety-service-bulletins/README.md)
-  * [SB\_0000001 Critical service bulletin for Beta Cube 2.1 (2016)](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000001-critical-service-bulletin-for-beta-cube-2.1-2016.md)
-  * [SB\_0000002 Critical service bulletin for Cubes Purchased between JAN 2019 to JUL 2019. DO NOT FLY](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000002-critical-service-bulletin-for-cubes-purchased-between-jan-2019-to-jul-2019.-do-not-fly.md)
-  * [SB\_0000003 Flight with arming checks set anything other than 1 prohibited](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000003-flight-with-arming-checks-set-anything-other-than-1-prohibited.md)
-  * [SB\_0000004 Limited power capacity of the RCIN power rail on Pixhawk Autopilots](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000004-limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots.md)
-  * [SB\_0000005 I2C Storm can cause inflight reboots, Chibios ONLY, not Nuttx (all cube and Pixhawk hardw](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000005-i2c-storm-can-cause-inflight-reboots-chibios-only-not-nuttx-all-cube-and-pixhawk-hardw.md)
-  * [SB\_0000006 time to Go Orange](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000006-time-to-go-orange.md)
+  * [SB\_0000001 Critical Service Bulletin for Beta Cube 2.1 (2016)](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000001-critical-service-bulletin-for-beta-cube-2.1-2016.md)
+  * [SB\_0000002 Critical Service Bulletin for Cubes Purchased between JAN 2019 to JUL 2019. DO NOT FLY](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000002-critical-service-bulletin-for-cubes-purchased-between-jan-2019-to-jul-2019.-do-not-fly.md)
+  * [SB\_0000003 Flight with Arming Checks Set Anything other than 1 prohibited](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000003-flight-with-arming-checks-set-anything-other-than-1-prohibited.md)
+  * [SB\_0000004 Limited Power Capacity of the RCIN Power Rail on Pixhawk Autopilots](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000004-limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots.md)
+  * [SB\_0000005 I2C Storm can cause Inflight Reboots, Chibios ONLY, not Nuttx (all cube+Pixhawk hardware](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000005-i2c-storm-can-cause-inflight-reboots-chibios-only-not-nuttx-all-cube-and-pixhawk-hardw.md)
+  * [SB\_0000006 Time to Go Orange](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000006-time-to-go-orange.md)
+  * [SB\_0000007 Ethernet on Herelink One a SIYI Camera](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000007-ethernet-on-herelink-one-a-siyi-camera.md)
+  * [SB\_0000008 Here4 Magnetometer (Flight Status Restored)](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000008-here4-magnetometer-flight-status-restored.md)
+  * [SB\_0000009 Cube Red Free Upgrade for Beta Hardware](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000009-cube-red-free-upgrade-for-beta-hardware.md)
+  * [SB\_0000010 Mandatory Here4 Bootloader Update before Further Flight](service-bulletins-and-critical-notices/safety-service-bulletins/sb_0000010-mandatory-here4-bootloader-update-before-further-flight.md)
 * [Critical Notices](service-bulletins-and-critical-notices/critical-notices/README.md)
-  * [Powering Telemetry radios externally](service-bulletins-and-critical-notices/critical-notices/powering-telemetry-radios-externally.md)
+  * [Powering Telemetry Radios Externally](service-bulletins-and-critical-notices/critical-notices/powering-telemetry-radios-externally.md)
 
 ## Herelink
 
