@@ -1,12 +1,16 @@
 # Safety/Service Bulletins
 
-**Any Mandatory safety Bulletins for any Cube, Here, or accessory will be listed here.**
+**Any Mandatory Safety Bulletins for any Cube, Here, or accessory will be listed here.**
 
 **FAILURE TO COMPLY WITH ANY DIRECTIONS GIVEN IN THESE BULLETINS MAY LEAD TO SERIOUS CONSEQUENCES, OR DEATH**
 
 **Each Bulletin will contain the brief issue, any actions you must take, any planned remedies, and whether the issue is solved, and how to apply the solution to your hardware.**
 
 **It is YOUR responsibility NOT to fly until the issue has been resolved for your vehicle.**
+
+{% hint style="info" %}
+**Safety bulletin updates in this online documentation may occasionally be delayed. For the latest information, go to** [**https://discuss.cubepilot.org/c/msb/16**](https://discuss.cubepilot.org/c/msb/16)**.**
+{% endhint %}
 
 {% content-ref url="sb_0000001-critical-service-bulletin-for-beta-cube-2.1-2016.md" %}
 [sb\_0000001-critical-service-bulletin-for-beta-cube-2.1-2016.md](sb_0000001-critical-service-bulletin-for-beta-cube-2.1-2016.md)
