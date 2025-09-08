@@ -46,13 +46,13 @@ To calibrate Battery Monitor 2, complete the following steps:
 
 3. Enter the power module's properties and type, the flight controller type, and the battery capacity. The Voltage Divider calculation is the same as for the Battery Monitor.
 
-![](<../../.gitbook/assets/Photo - 37.jpg>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-08 165944.png" alt=""><figcaption></figcaption></figure>
 
-Monitor Analog Voltage Only ;
+Monitor: Analog Voltage Only
 
-Volt Pin Pixhawk/Pixracer/Navio2 ;
+Volt Pin: Pixhawk/Pixracer/Navio2/Pixhawk
 
-Current Pin Pixhawk/Pixracer/Navio2 。
+Current Pin: Pixhawk/Pixracer/Navio2/Pixhawk
 
 ### Displaying Battery Monitor 2 Voltage on HUD
 

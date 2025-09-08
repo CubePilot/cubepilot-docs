@@ -255,7 +255,4 @@
 
 * [CubePilot Logos](product-media/cubepilot-logos.md)
 * [Product Media Cloud Drive](product-media/product-media-cloud-drive.md)
-
-***
-
-* [OEM Carrier Board](oem-carrier-board.md)
+* [OEM Carrier Board](product-media/oem-carrier-board.md)
