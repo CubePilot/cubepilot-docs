@@ -3,7 +3,7 @@
 **Latest update please refer to:**\
 [SB\_0000001 Critical service bulletin for Beta Cube 2.1 (2016)](https://discuss.cubepilot.org/t/sb-0000001-critical-service-bulletin-for-beta-cube-2-1-2016/405)
 
-### If you have a Pixhawk 2.1 _**Delivered in 2016**_, please follow these instructions before further flight.
+### If you have a Beta Cube 2.1 **Delivered** **in 2016**, follow these instructions before further flight.
 
 \*\*
 

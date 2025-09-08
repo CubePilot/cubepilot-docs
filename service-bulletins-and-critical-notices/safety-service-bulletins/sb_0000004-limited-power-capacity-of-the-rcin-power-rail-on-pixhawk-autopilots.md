@@ -1,9 +1,9 @@
-# SB\_0000004 Limited Power Capacity of the RCIN Power Rail on Pixhawk Autopilots
+# SB\_0000004 Limited Power Capacity of the RCIN Power Rail on The Cube Autopilots
 
 **For the latest updates, refer to the following link:**\
-[SB\_0000004 Limited power capacity of the RCIN power rail on Pixhawk Autopilots](https://discuss.cubepilot.org/t/sb-0000004limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots/1853)
+[SB\_0000004 Limited power capacity of the RCIN power rail on The Cube Autopilots](https://discuss.cubepilot.org/t/sb-0000004limited-power-capacity-of-the-rcin-power-rail-on-pixhawk-autopilots/1853)
 
-This bulletin applies to ALL Pixhawk and Pixhawk related hardware including all genuine boards (3DR and CubePilot) as well as all clones and derivatives.
+This bulletin applies to all The Cube hardware.
 
 DO NOT POWER anything off the RCIN power pin other than a traditional RC Receiver, and do not connect any servos to the RCIN pin, nor to the Receiver itself.
 

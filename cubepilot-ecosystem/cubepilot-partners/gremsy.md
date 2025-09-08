@@ -9,7 +9,7 @@
 ![](<../../.gitbook/assets/Gremsy product lines.png>)
 
 \
-To empower users in deploying multiple aerial platforms, all Gremsy gimbals (excluding H16) are built to support drones using the PX4 and Ardupilot firmware as well as popular autopilots like Pixhawk, Cubepilot. We also provide the Gremsy SDK using MAVlink protocol to allow users connectivity and communication with drone systems using Pixhawk.
+To empower users in deploying multiple aerial platforms, all Gremsy gimbals (excluding H16) are built to support drones using the PX4 and Ardupilot firmware as well as popular autopilots such as Cubepilot. We also provide the Gremsy SDK using MAVlink protocol to allow users connectivity and communication with drone systems using The Cube.
 
 ## Product Description
 
@@ -25,7 +25,7 @@
 ● Versatile payload\
 ● Flexible mounting option\
 ● Support Herelink for drone & camera gimbal control\
-● Support autonomous flight using Pixhawk
+● Support autonomous flight using The Cube
 
 {% embed url="https://www.youtube.com/watch?v=kAMOtPT3jnQ&ab_channel=Gremsy-3AxisCameraStabilizer" %}
 
@@ -52,7 +52,7 @@ PIXY U is a 3- axis gimbal that can handle a wide variety of cameras, featuring 
 ●  Compact & lightweight design\
 ●  Upside down perspective\
 ●  Support Herelink for drone & camera gimbal control \
-●  Support autonomous flight using Pixhawk
+●  Support autonomous flight using The Cube
 
 
 
@@ -80,7 +80,7 @@ Pixy F is a lightweight, palm-sized gimbal specifically designed for FLIR DUO PR
 ●  Super lightweight gimbal\
 ●  Fully support Flir duo pro R\
 ●  Support Herelink for drone & camera gimbal control\
-●  Support autonomous flight using Pixhawk
+●  Support autonomous flight using The Cube
 
 | <p>Specifications for <br>PIXY F</p> |                                                                                                           |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -105,7 +105,7 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 ●  No balancing nor tuning\
 ●  Upside down perspective\
 ●  Support Herelink for drone & camera gimbal control \
-●  Support autonomous flight using Pixhawk
+●  Support autonomous flight using The Cube
 
 | <p>Specifications for <br>PIXY WS</p> |                                                                                                                 |
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -130,7 +130,7 @@ PIXY WS is the customised gimbal built upon Pixy U but tailored for Wiris Securi
 ●  Multi-Camera Support\
 ●  Fully-featured advanced I/O interfaces\
 ●  Support Herelink for drone & camera gimbal control\
-●  Support autonomous flight using Pixhawk
+●  Support autonomous flight using The Cube
 
 {% embed url="https://www.youtube.com/watch?v=LQzXEjOjRlM&ab_channel=Gremsy-3AxisCameraStabilizer" %}
 
@@ -159,7 +159,7 @@ Gremsy S1 is a compact 3-axis gimbal for mappers, surveyors and industry experts
 ●  Compact design. Multi-Camera Support\
 ●  Flexible in camera mounting\
 ●  Support Herelink for drone & camera gimbal control \
-●  Support autonomous flight using Pixhawk
+●  Support autonomous flight using The Cube
 
 {% embed url="https://www.youtube.com/watch?v=4hdR6KJ9jeA&ab_channel=Gremsy-3AxisCameraStabilizer" %}
 
@@ -188,7 +188,7 @@ Gremsy T7 is the next level of heavy lifting gimbal for industrial applications.
 ●  Handle heavy-lift cameras\
 ●  Multiple-camera mounting with ease\
 ●  Support Herelink for drone & camera gimbal control \
-●  Support autonomous flight using Pixhawk
+●  Support autonomous flight using The Cube
 
 {% embed url="https://www.youtube.com/watch?v=Nwnilc-HcIE&ab_channel=Gremsy-3AxisCameraStabilizer" %}
 
