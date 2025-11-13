@@ -22,3 +22,7 @@
 ## Herelink v1.1 Air Unit CE Certificate
 
 {% file src="../.gitbook/assets/HERELINK v1.1 Air Unit CE certificat.pdf" %}
+
+## Herepro CE Certificate
+
+{% file src="../.gitbook/assets/CE certificate_HX4-06216.pdf" %}

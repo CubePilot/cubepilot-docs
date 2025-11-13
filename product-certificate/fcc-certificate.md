@@ -33,3 +33,7 @@
 ## Cube ID\_CAN FCC Certificate
 
 {% file src="../.gitbook/assets/Cube ID_CAN FCC certificates_2A6CG-HX406253.pdf" %}
+
+## Herepro FCC Certificate
+
+{% file src="../.gitbook/assets/FCC certificate_HX4-06216.pdf" %}
