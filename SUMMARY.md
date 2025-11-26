@@ -109,7 +109,8 @@
 
 ## Cube ID
 
-* [Cube ID](cube-id/cube-id.md)
+* [CubeID™](cube-id/cube-id.md)
+* [CubeID™ Telecommunication Service](cube-id/cubeid-tm-telecommunication-service.md)
 
 ## CubeNode
 
