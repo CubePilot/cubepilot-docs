@@ -62,7 +62,7 @@ The following lists the CubeNode specification.&#x20;
 
 | Parameter                               | Description    |
 | --------------------------------------- | -------------- |
-| Standard Operating Voltage              | 5.5V \~ 30V    |
+| Standard Operating Voltage              | 4.5V \~ 5.5V   |
 | Standard Operating Voltage (HV\_IN pin) | 5.5V \~ 30V    |
 | Operating Ambient Temperature           | -40°C \~ 85°C  |
 | Operating Junction Temperature          | -40°C \~ 125°C |
