@@ -47,8 +47,7 @@ HerePro does not come with connector installed. Before first time using, install
 Align the mount holes on port connect and HerePro. Then lock them tightly with 3 M3\*8 screws.
 
 \
-\
-
+<br>
 
 ![](../.gitbook/assets/HerePro-edge20230615-1.png)
 
@@ -216,8 +215,7 @@ Modify parameters **“GPS\_TYPE = 1“**，**“SERIAL\_PASS1 = 0“**. After t
 
 ![](<../.gitbook/assets/fw5 (1).png>)
 
-Connect another HerePro and continue.\
-
+Connect another HerePro and continue.<br>
 
 **HerePro Base parameter settings(Ground side):**&#x20;
 

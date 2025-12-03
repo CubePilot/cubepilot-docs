@@ -30,8 +30,7 @@ Using a USB to Micro USB cable, plug the DataLink into a computer and open the c
 
 ## Open the Terminal <a href="#open-the-terminal" id="open-the-terminal"></a>
 
-For Windows, navigate to the "platform-tools" folder. In this folder, hold **down Shift and then right-click**. From the menu select the “**Open Command window here**” option. If the option to open the command window is not available, then click on the "open PowerShell window here".\
-
+For Windows, navigate to the "platform-tools" folder. In this folder, hold **down Shift and then right-click**. From the menu select the “**Open Command window here**” option. If the option to open the command window is not available, then click on the "open PowerShell window here".<br>
 
 ![Windows](<../../../../../.gitbook/assets/Click-on-the-“Open-PowerShell-window-here”-1024x731-1 (1).png>)
 

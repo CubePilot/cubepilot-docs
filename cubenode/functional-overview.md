@@ -80,21 +80,14 @@ If the Ethernet port is used, USART2 will be unavailable, because it shares the 
 
 ### Controller Area Network (FDCAN1, FDCAN2)
 
-The controller area network (CAN) subsystem consists of two CAN modules, a shared message RAM memory, and a clock calibration unit.
+The controller area network (CAN) subsystem consists of two CAN modules: a shared message RAM memory and a clock calibration unit designed for high-speed Classical CAN and CAN FD (up to 8 Mbit/s) applications
 
 The following features are provided:
 
-* Supports CAN 2.0 and CAN with Flexible Data-Rate (CAN FD) Physical Layer Transceiver Requirements
-* Optimized for CAN FD at 2, 5, and 8 Mbps operation
-* Maximum propagation delay: 120 ns
-* Loop delay symmetry: -10%/+10% (2 Mbps)
-* Qualified according to AEC-Q100 Rev. G&#x20;
-* Automatic thermal shutdown protection
-* Detection of ground fault
-* Permanent dominant detection on TXD
-* Permanent dominant detection on bus
-* Automatic thermal shutdown protection
-* Suitable for 12V and 24V systems
+* CANH/CANL Short Circuit and Overtemperature Protection
+* Receive Only Mode for Node Diagnostics and Fault Confinement
+* Communication Speed up to 8 Mbit/s
+* High Electrostatic Discharge (ESD) Handling Protection on the Bus Pins
 
 ### USB
 
@@ -102,25 +95,24 @@ A USB On-The-Go (OTG) full-speed device/host/OTG peripheral with integrated tran
 
 ### Three Axis Accelerometer (Optional)
 
-The CubeNode features IMU with 20-bit data format with 19 bits of real data support in FIFO for high-data resolution. This FIFO format encapsulates 18-bits of accelerometer data.&#x20;
+The CubeNode features IMU with 20-bit data format with 19 bits of real data support in FIFO for accelerometer data.&#x20;
 
-* User-selectable accelerometer full-scale range (g): ± 2/4/8/16
+* User-selectable accelerometer full-scale range (g): ± 2/4/8/16/32
 
 ### Three Axis Gyroscope (Optional)
 
-The CubeNode features IMU with 20-bit data format support in FIFO for high-data resolution. This FIFO format encapsulates 19-bits of gyroscope data.
+The CubeNode features IMU with 20-bit data format support in FIFO for high-data resolution. This FIFO format encapsulates 20-bits of gyroscope data.
 
-* User-selectable Gyro Full-scale range (dps): ±15.6/31.2/62.5/125/250/500/1000/2000
+* User-selectable Gyro Full-scale range (dps): ±15.625/31.25/62.5/125/250/500/1000/2000/4000
 
 ### Ethernet Interface
 
 A high-performance 10/100BaseT Ethernet transceiver is included, which has the following features:
 
-* Compliant with IEEE802.3/802.3u (Fast Ethernet)
-* Compliant with ISO 802-3/IEEE 802.3 (10BASE-T)&#x20;
-* Loop-back modes
+* Compliant with Energy Efficient Ethernet (EEE) IEEE 802.3az
+* Compliant to IEEE 802.3 100BASE-TX and 10BASE-Te
+* Diagnostics tools: cable diagnostics, built-in self test (BIST), loopback modes
 * Auto-negotiation
 * Automatic polarity detection and correction
 * Vendor specific register functions
 * HP Auto-MDIX support
-* Integrated power-on reset circuit

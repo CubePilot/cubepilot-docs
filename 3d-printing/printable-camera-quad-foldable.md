@@ -20,11 +20,9 @@ CubePilot URL:\
 [Q7 Drone](https://grabcad.com/library/q7-camera-drone-sony-axxxx-series-1)\
 \
 Youtube URL:\
-[Drone Gimbal Vibration Testing](https://www.youtube.com/watch?v=E0OPrHs6smE)\
-
-
-\
-\
-
+[Drone Gimbal Vibration Testing](https://www.youtube.com/watch?v=E0OPrHs6smE)<br>
 
 \
+<br>
+
+<br>

@@ -42,8 +42,8 @@ To connect Mission Planner to The Cube, select one of the following options:
 1. Open Mission Planner.
 2. Add Ethernet support to The Cube. See the CubeNode ETH section for details.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/wpM2wNIaCUm6YWw2bNUI" %}
+[Broken link](/broken/pages/wpM2wNIaCUm6YWw2bNUI)
 {% endcontent-ref %}
 
 2. Use an Ethernet cable to connect The Cube to a router.

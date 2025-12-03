@@ -30,10 +30,9 @@ Using a USB to Micro USB cable, plug the HereLink Blue into a computer and open 
 
 ## Open the Terminal <a href="#open-the-terminal" id="open-the-terminal"></a>
 
-For Windows, navigate to the "platform-tools" folder. In this folder, hold **down Shift and then right-click**. From the menu select the “**Open Command window here**” option. If the option to open the command window is not available, then click on the "open PowerShell window here".\
+For Windows, navigate to the "platform-tools" folder. In this folder, hold **down Shift and then right-click**. From the menu select the “**Open Command window here**” option. If the option to open the command window is not available, then click on the "open PowerShell window here".<br>
 
-
-![](https://docs.union-robotics.com/\~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MTS1Xx6Kx3fwJFjqpWk%2F-MUUbr0dnuRHkGpp73qV%2F-MUUkDY9A-6Upvid92Q7%2FClick-on-the-%E2%80%9COpen-PowerShell-window-here%E2%80%9D-1024x731-1.png?alt=media\&token=28273723-a0ed-48ce-9f01-9c486bfe446d)
+![](https://docs.union-robotics.com/~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MTS1Xx6Kx3fwJFjqpWk%2F-MUUbr0dnuRHkGpp73qV%2F-MUUkDY9A-6Upvid92Q7%2FClick-on-the-%E2%80%9COpen-PowerShell-window-here%E2%80%9D-1024x731-1.png?alt=media\&token=28273723-a0ed-48ce-9f01-9c486bfe446d)
 
 For Mac, navigate to the "platform-tools" folder. **Right Click** the folder and select  `Services`->`New Terminal at Folder`
 

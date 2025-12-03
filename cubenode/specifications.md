@@ -56,12 +56,13 @@ The following lists the CubeNode specification.&#x20;
 * Up to 3 I2Cs
 * Up to 24 Timer Channels
 * Up to 17 Analog Channels
-* Up to 66 General Purpose I/Os
+* Up to 66 General Purpose I/O
 
 ## Recommended Operating Conditions
 
-| Parameter                      | Description    |
-| ------------------------------ | -------------- |
-| Standard Operating Voltage     | 4.5V \~ 5.5V   |
-| Operating Ambient Temperature  | -40°C \~ 85°C  |
-| Operating Junction Temperature | -40°C \~ 125°C |
+| Parameter                               | Description    |
+| --------------------------------------- | -------------- |
+| Standard Operating Voltage              | 5.5V \~ 30V    |
+| Standard Operating Voltage (HV\_IN pin) | 5.5V \~ 30V    |
+| Operating Ambient Temperature           | -40°C \~ 85°C  |
+| Operating Junction Temperature          | -40°C \~ 125°C |

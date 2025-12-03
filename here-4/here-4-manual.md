@@ -430,8 +430,7 @@ Please note that early Here4 units (Pre December 2023 Production Here4 Black and
 
 <figure><img src="../.gitbook/assets/MovingBaselineFirmwareCheck2.png" alt=""><figcaption></figcaption></figure>
 
-Once all settings and versions are confirmed, set following parameters for Moving Baseline on Ardupilot:\
-
+Once all settings and versions are confirmed, set following parameters for Moving Baseline on Ardupilot:<br>
 
 * [GPS\_TYPE](https://ardupilot.org/copter/docs/parameters.html#gps-type) = 22 (“DroneCAN moving baseline base”)
 * [GPS\_TYPE2](https://ardupilot.org/copter/docs/parameters.html#gps-type2) = 23 (“DroneCAN moving baseline rover”)

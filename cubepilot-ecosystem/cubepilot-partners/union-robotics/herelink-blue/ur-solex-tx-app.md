@@ -87,8 +87,7 @@ When clicking on the layers button on the Map View, the layers option menu will 
 
 ### **Alert Indications** <a href="#alert-indications" id="alert-indications"></a>
 
-The DataLink has many alarm, warning and failure indicators. All alarm, warning and failure indicators will be displayed in a red bar across the top of the ground station screen.\
-
+The DataLink has many alarm, warning and failure indicators. All alarm, warning and failure indicators will be displayed in a red bar across the top of the ground station screen.<br>
 
 ![](https://docs.union-robotics.com/~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MTS1Xx6Kx3fwJFjqpWk%2F-MTXPm9kt-0FWt1LSnQy%2F-MTXfpBZsRic3y36UfF9%2FScreen%20Shot%202021-01-18%20at%205.02.33%20PM.png?alt=media\&token=aabbb50d-b4d3-4d69-bdcd-dfc8087d1f47)
 
@@ -393,4 +392,4 @@ You can hit `Pause` to freeze the mission. At this point, you can either hit `Re
 
 ### **Editing from the Mission Layer**
 
-To edit a mission from the Mission layer, click the `Edit` button on the layer list panel. The currently-loaded mission will load into the Mission Editor, and it will appear. Mess around with it, press Save, and press Back. It should appear in the Mission Layer with the updates in place. You'll still need to send it to the vehicle manually.\
+To edit a mission from the Mission layer, click the `Edit` button on the layer list panel. The currently-loaded mission will load into the Mission Editor, and it will appear. Mess around with it, press Save, and press Back. It should appear in the Mission Layer with the updates in place. You'll still need to send it to the vehicle manually.<br>

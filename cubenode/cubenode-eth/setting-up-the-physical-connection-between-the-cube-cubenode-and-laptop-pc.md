@@ -33,8 +33,7 @@ To set up the <mark style="color:orange;">Cube Orange+ (Cube)</mark>, complete t
 
     <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeCD3N9J4obuzR81CxhqfAvNkxlg6OWQF9srokg-8Nby845Nn9Sm7rrtkbdYTG5_ZWa7oPhA8v1T2wZvWt7Xxa_MTTrSb0FXHW4tvH1MtyrBWiihut4wx3EO_-3BL6aJejf3_zrYL6P7ebIZDUlxkUs-8bA?key=bvcUefsHSl5fdD0CqJ3ZUw" alt=""><figcaption></figcaption></figure>
 2. Open Mission Planner.
-3. Click **Config** -> **Full Parameter List**.\
-
+3. Click **Config** -> **Full Parameter List**.<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfnVrW7TZnug7u7qslEAA7yE4Lvx531QYodybxcXfqnGdLKSUBR_9L5R2KCunzU6pZcTYqP8BI4jmU9h52awMOlsfoP-CISGXfg9CrSqcPiymAnliGnVANlVGsezVRbYBYPZx9AGirfeVDKccvwCWl3Snaq-WKsav9uGP9X?key=bvcUefsHSl5fdD0CqJ3ZUw" alt="" width="563"><figcaption></figcaption></figure>
 
