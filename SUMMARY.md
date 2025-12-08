@@ -1,6 +1,7 @@
 # Table of contents
 
 * [CubePilot](README.md)
+* [Conflict Minerals (3TG) Position Statement](conflict-minerals-3tg-position-statement.md)
 * [Licenses](licences.md)
 * [US Defence](us-defence.md)
 
