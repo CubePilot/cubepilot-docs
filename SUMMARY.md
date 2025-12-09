@@ -178,6 +178,7 @@
 * [CubePilot Ecosystem Precision Landing Air Test Operation (PLATO)](cubepilot-ecosystem/cubepilot-ecosystem-precision-landing-air-test-operation-plato.md)
 * [CubePilot Ecosystem Hionos](cubepilot-ecosystem/cubepilot-ecosystem-hionos.md)
 * [2025 CubePilot Ecosystem Autopilot Wiring Diagram](cubepilot-ecosystem/2025-cubepilot-ecosystem-autopilot-wiring-diagram.md)
+* [2025 CubePilot Ecosystem CubeID](cubepilot-ecosystem/2025-cubepilot-ecosystem-cubeid.md)
 * [CubePilot Partners](cubepilot-ecosystem/cubepilot-partners/README.md)
   * [SpektreWorks](cubepilot-ecosystem/cubepilot-partners/spektreworks.md)
   * [RFDesign Pty Ltd](cubepilot-ecosystem/cubepilot-partners/rfdesign-pty-ltd.md)
