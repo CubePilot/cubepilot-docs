@@ -86,7 +86,7 @@ All flight sensors in The Cube are connected via SPI.
 | <mark style="color:orange;">**Cube Orange+**</mark>                                                                                                                                                                | ACTIVE     | ICM45686 / ICM20649 | ICM20948 / ICM42688 / ICM45686\_EXT2 | ICM42688 / ICM45686 | MS5611     | MS5611     |
 
 {% hint style="info" %}
-* IMU1 is not isolated.
-* IMU2 and IMU3 are isolated.
+* IMU1 and IMU2 are isolated.
+* IMU3 is not isolated.
 * Data-ready signals from any of the sensors are **NOT ROUTED on the Isolated IMU.**
 {% endhint %}
