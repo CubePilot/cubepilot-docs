@@ -256,6 +256,14 @@ Click the Update button. A window will pop up and ask if you want to search the 
 
 Wait for the firmware update to complete. Confirm the change in _**SW**_ Version. If the update was successful, reboot the Here 4.
 
+<mark style="color:$warning;">**If update gets stuck at SOFTWARE UPDATE:**</mark> When updating from version [1.15.6 and earlier](https://github.com/CubePilot/GNSSPeriph-release/releases), restarting the Here4 may be required before updating. If the Update message box is stuck at SOFTWARE UPDATE with no progress change:
+
+* Cancel the update
+* Restart the Here4
+* After restarting, confirm the unit is in mode MAINTENANCE then attempt the update again
+
+This is resolved in version 1.15.7 and above.
+
 ## 4.Cube\_ID setting
 
 For the set up procedure, please check\
