@@ -234,6 +234,10 @@ Connect to autopilot through GCS. Modify the parameter _**UAVCAN\_ENABLE**_ to _
 
 ## 3. Firmware update
 
+{% hint style="info" %}
+Latest firmware releases along with notes is available here [https://github.com/CubePilot/GNSSPeriph-release/releases](https://github.com/CubePilot/GNSSPeriph-release/releases) . Ensure that your units are running latest firmware for safe operation.
+{% endhint %}
+
 Update procedures are shown as the following when there are any future firmware updates.
 
 Mission Planner must be updated to the following or later version to have the new feature available:
