@@ -123,6 +123,7 @@
   * [Specifications](cubenode/cubenode-eth/specifications.md)
   * [Setting Up the Physical Connection between the Cube, CubeNode, and laptop/PC](cubenode/cubenode-eth/setting-up-the-physical-connection-between-the-cube-cubenode-and-laptop-pc.md)
 * [Soldering a CubeNode onto a PCB](cubenode/soldering-a-cubenode-onto-a-pcb.md)
+* [CubeNode V4 New Features](cubenode/cubenode-v4-new-features.md)
 
 ## Switch
 
