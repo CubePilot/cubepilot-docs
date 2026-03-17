@@ -4,4 +4,4 @@
 
 “The above statement applies to all our products other than Herelink, which we have been clear from the start is assembled in China, as part of a cooperative process”
 
-{% file src=".gitbook/assets/CubePilot NDAA product declaration.pdf" %}
+{% file src=".gitbook/assets/CubePilot NDAA product declaration (1).pdf" %}

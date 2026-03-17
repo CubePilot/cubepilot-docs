@@ -24,4 +24,4 @@ Cubepilot logo-4 (For Black background)
 
 ## CubePilot Logo - Vector
 
-{% file src="../.gitbook/assets/Cubepilot Logo (Color and B&W) vector .eps" %}
+{% file src="../.gitbook/assets/Cubepilot Logo (Color and B&W) vector  251110.eps" %}
