@@ -60,6 +60,7 @@
 
 * [Here 4 Manual](here-4/here-4-manual.md)
 * [Here 4 Base](here-4/here-4-base.md)
+* [Here 4 Blue](here-4/here-4-blue.md)
 
 ## HEREPRO
 
