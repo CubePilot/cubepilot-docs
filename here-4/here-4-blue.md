@@ -4,6 +4,8 @@
 
 The Here4 Blue is a professional-grade GNSS navigation module featuring integrated Remote ID broadcasting capability (CubeID™)**.** It provides accurate positioning data to the flight controller while simultaneously broadcasting identification and telemetry data via Bluetooth to meet regulatory requirements.
 
+<figure><img src="../.gitbook/assets/HEX –HERE4-BLUE – CAN GPS with M8P – 3DXR – Unmanned Aircraft Systems &#x26; The Cube Autopilot.png" alt="" width="563"><figcaption></figcaption></figure>
+
 **Core Capabilities**
 
 * Precision Navigation: Supports multi-band GNSS for reliable flight control and autonomous positioning.
@@ -23,4 +25,3 @@ The Here4 Blue has undergone extensive third-party laboratory testing to ensure 
 
 * Radio Interference: FCC (USA), CE (EU), UKCA (UK), RCM (Australia/NZ)
 * Material Safety: RoHS (Hazardous Substances), California Proposition 65 (Chemical Disclosure)
-
