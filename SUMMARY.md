@@ -93,6 +93,7 @@
       * [Installing Secure Firmware](autopilot/the-cube/setup/firmware/installing-secure-firmware.md)
   * [Mandatory Hardware Basic Configuration](autopilot/the-cube/mandatory-hardware-basic-configuration.md)
   * [Optional Hardware Basic Configuration](autopilot/the-cube/optional-hardware-basic-configuration.md)
+  * [Cosmetic Change Notification](autopilot/the-cube/cosmetic-change-notification.md)
 * [Conducting the First Flight](autopilot/conducting-the-first-flight/README.md)
   * [Tips for New Pilots](autopilot/conducting-the-first-flight/tips-for-new-pilots.md)
 * [The Cube FAQ](autopilot/the-cube-faq.md)
