@@ -122,25 +122,25 @@ Before calibrating the ESC, ensure the following:
 * The LiPo battery is disconnected.
 {% endhint %}
 
-![](<../../.gitbook/assets/Photo - 27.jpg>)
+<img src="../../.gitbook/assets/Photo - 27.jpg" alt="" width="375">
 
 1. Turn on the transmitter and adjust the throttle stick to maximum.
 
-![](<../../.gitbook/assets/Photo - 28.jpg>)
+<img src="../../.gitbook/assets/Photo - 28.jpg" alt="" width="375">
 
 2. Connect the LiPo battery to the power module.  When connected, The Cube's red, blue, and yellow LEDs will light up in a cyclical pattern.&#x20;
 
-![](<../../.gitbook/assets/Photo - 29.jpg>)
+<img src="../../.gitbook/assets/Photo - 29.jpg" alt="" width="375">
 
 3. With the transmitter throttle stick still adjusted to high, disconnect and reconnect the battery.
 
-![](<../../.gitbook/assets/Photo - 30.jpg>)
+<img src="../../.gitbook/assets/Photo - 30.jpg" alt="" width="375">
 
 4. Press and hold the safety button until it displays a solid red color. The autopilot is now in ESC calibration mode. The red and blue LEDs will blink on and off.
 5. Wait for the ESCs to emit a musical tone -> a series of beeps indicating the battery cell count (e.g., 3 beeps for 3S, 4 beeps for 4S), followed by two additional beeps to confirm maximum throttle capture.
 6. Adjust the transmitter’s throttle stick to minimum. The ESCs will emit a long tone indicating the minimum throttle has been captured and the calibration is complete.
 
-![](<../../.gitbook/assets/Photo - 31.jpg>)
+<img src="../../.gitbook/assets/Photo - 31.jpg" alt="" width="375">
 
 7. Verify a long tone is emitted, which indicates the ESCs are “live” now.&#x20;
 8. Test if the motors can spin by slightly raising the throttle and then lowering it.

@@ -24,4 +24,4 @@
 
 ## Herepro CE Certificate
 
-{% file src="../.gitbook/assets/CE certificate_HX4-06216.pdf" %}
+{% file src="../.gitbook/assets/CE NB certificate-HerePro .pdf" %}

@@ -68,11 +68,11 @@ The figures below show the motor order for each frame type. The numbers indicate
 
 ![](<../../../.gitbook/assets/Photo - 05-1.jpg>)
 
-![](<../../../.gitbook/assets/Photo - 05-2.jpg>)
+<img src="../../../.gitbook/assets/Photo - 05-2.jpg" alt="" width="375">
 
 ![](<../../../.gitbook/assets/Photo - 05-3.jpg>)
 
-![](<../../../.gitbook/assets/Photo - 05-4.jpg>)
+<img src="../../../.gitbook/assets/Photo - 05-4.jpg" alt="" width="563">
 
 ## Sensors Connection
 
