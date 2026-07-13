@@ -4,4 +4,4 @@
 
 **Ans**: There is no SBUS port on the Mini carrier board.
 
-For more details, refer to the following Github link: [**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/carrier-boards-faq.md**](carrier-boards-faq.md)
+For more details, refer to the following Github link: [**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/carrier-boards-faq.md**](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/carrier-boards-faq.md)

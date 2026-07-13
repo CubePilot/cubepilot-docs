@@ -53,5 +53,5 @@ The PDB can not be in contact with any conductive materials. Ensure there is suf
 
 The following Github links can be used to revise and update the Airbot Systems Mini carrier board informatio&#x6E;**:**&#x20;
 
-* [https://github.com/CubePilot/cubepilot-docs/tree/master/carrier-boards/airbot-mini-carrier-board](https://github.com/CubePilot/cubepilot-docs/tree/master/carrier-boards/airbot-mini-carrier-board)
-* [https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md](../airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md)
+* [https://github.com/CubePilot/cubepilot-docs/tree/master/carrier-boards/airbot-mini-carrier-board](../airbot-mini-carrier-board)
+* [https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md)

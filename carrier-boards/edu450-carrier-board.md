@@ -288,4 +288,4 @@ The eight ESC ports are for multi-rotor UAVs with either four rotors or eight co
 <figure><img src="../.gitbook/assets/Main power Failure.png" alt=""><figcaption></figcaption></figure>
 
 The following Github link can be used to revise and update the EDU450 carrier board informatio&#x6E;**:** \
-[**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/edu450-carrier-board.md**](edu450-carrier-board.md)
+[**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/edu450-carrier-board.md**](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/edu450-carrier-board.md)

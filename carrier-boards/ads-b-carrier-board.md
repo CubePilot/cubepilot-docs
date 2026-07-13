@@ -60,4 +60,4 @@ To enable the ADS-B alarm, sense, and avoid functions, complete the following st
 For more information on these settings, go to [http://ardupilot.org/plane/docs/common-ads-b-receiver.html](http://ardupilot.org/plane/docs/common-ads-b-receiver.html).
 
 The following Github link can be used to revise and update the ADS-IN carrier board informatio&#x6E;**:** \
-[https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/ads-b-carrier-board.md](ads-b-carrier-board.md)
+[https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/ads-b-carrier-board.md](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/ads-b-carrier-board.md)

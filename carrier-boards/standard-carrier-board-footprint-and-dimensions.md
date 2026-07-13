@@ -9,4 +9,4 @@ The following shows the footprint and dimensions of the standard carrier board a
 ![](../.gitbook/assets/standard-carrier-board-dimentions.png)
 
 The following Github link can be used to revise and update the standard carrier board information:\
-[https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/standard-carrier-board-footprint-and-dimensions.md](standard-carrier-board-footprint-and-dimensions.md)
+[https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/standard-carrier-board-footprint-and-dimensions.md](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/standard-carrier-board-footprint-and-dimensions.md)

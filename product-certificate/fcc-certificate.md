@@ -1,8 +1,10 @@
 # FCC Certificate
 
+## Here4 Blue Multiband RTK GNSS FCC Certificate
+
+{% file src="../.gitbook/assets/Here4 Blue Multiband RTK GNSS FCC Certificate.pdf" %}
+
 ## The Cube Orange+ Standard Set FCC Certificate
-
-
 
 <figure><img src="../.gitbook/assets/The Cube Orange+ Standard Set FCC Certificate.jpg" alt=""><figcaption></figcaption></figure>
 

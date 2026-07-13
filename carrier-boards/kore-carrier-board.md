@@ -551,4 +551,4 @@ The pins on connector J3 should be labeled “SCL1” and “SDA1”, not “SCL
 Due to the complex nature of any drone vehicle, there are many causes of failure that may result in damaged components. SpektreWorks does not warranty the carrier board against damage caused by external devices (ESCs, motors, peripherals, etc.) or due to a crash. SpektreWorks will replace a carrier board that has a manufacturer defect within 30 days of purchase.
 
 The following Github link can be used to revise and update the Kore carrier board informatio&#x6E;**:** \
-[**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/kore-carrier-board.md**](kore-carrier-board.md)
+[**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/kore-carrier-board.md**](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/kore-carrier-board.md)
