@@ -127,6 +127,16 @@
 * [Soldering a CubeNode onto a PCB](cubenode/soldering-a-cubenode-onto-a-pcb.md)
 * [CubeNode V4 New Features](cubenode/cubenode-v4-new-features.md)
 
+## CUBENANOBITS
+
+* [CUBENANOBITS™](cubenanobits/cubenanobits-tm.md)
+* [CUBENANOBITS™ Telecommunication Service](cubenanobits/cubenanobits-tm-telecommunication-service.md)
+
+## CUBENANO
+
+* [CUBENANO™](cubenano/cubenano-tm.md)
+* [CUBENANO™ Telecommunication Service](cubenano/cubenano-tm-telecommunication-service.md)
+
 ## Switch
 
 * [CubeLAN 8 Port Switch](switch/cubelan-8-port-switch.md)
