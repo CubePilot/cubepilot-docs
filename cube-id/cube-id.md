@@ -63,7 +63,9 @@ Keep the antenna away from the propeller.
 > * For OEM use, create your OEM OpenDroneID ArduPilot firmware. For details, refer to the following:
 >   * [https://ardupilot.org/dev/docs/opendroneid.html#opendroneid](https://ardupilot.org/dev/docs/opendroneid.html#opendroneid)
 >   * [https://www.youtube.com/watch?v=Az8v4Kx4hS0](https://www.youtube.com/watch?v=Az8v4Kx4hS0)
-> * For regular use,  load the latest ArduPilot firmware. Ensure that the build you are using has OpenDroneID feature enabled. The easiest way to confirm this is to check whether the  `DID_*` parameters appear.
+> * For regular use, load the latest ArduPilot firmware. Ensure that the build you are using has OpenDroneID feature enabled. The easiest way to confirm this is to check whether the  `DID_*` parameters appear. To create a custom build with OpenDroneID enabled:
+>   1. Go to [https://custom.ardupilot.org/add\_build](https://custom.ardupilot.org/add_build) and select the **Version** and **Board**.
+>   2. Under **Ident**, check **Enable OpenDroneID (Remote ID);** then, click **Generate build**.
 
 ### Initial Settings
 
@@ -93,7 +95,7 @@ Keep the antenna away from the propeller.
 
 ### Serial Settings
 
-1. Search for Serialx\_PROTOCAL and change it to Mavlink.
+1. Search for SERIALx\_PROTOCOL and change it to Mavlink.
 
 <figure><img src="../.gitbook/assets/serial.png" alt=""><figcaption></figcaption></figure>
 
@@ -135,7 +137,7 @@ For more information about Remote ID, refer to the following Wiki link:
 ## Persistent UAS ID
 
 * To meet FAA requirements for manufacturers, a persistent ID needs to be recorded in the flight system.
-* In a CubeID™ + Ardupilot setup, this is achieved using ArduPilot's persistent storage feature.
+* In a CubeID™ + ArduPilot setup, this is achieved using ArduPilot's persistent storage feature.
 * The manufacturer needs to integrate the following changes depending on the ArduPilot release:
   * ArduPilot 4.3 releases ([https://github.com/ArduPilot/ardupilot/pull/24367](https://github.com/ArduPilot/ardupilot/pull/24367))
   * ArduPilot 4.4 releases ([https://github.com/ArduPilot/ardupilot/pull/24370](https://github.com/ArduPilot/ardupilot/pull/24370))
@@ -188,9 +190,7 @@ This device complies with Part 15 of the FCC Rules. Operation is subject to the 
 
 NOTE: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation.
 
-If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the
-
-interference by one or more of the following measures:
+If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the interference by one or more of the following measures:
 
 \-- Reorient or relocate the receiving antenna.
 
