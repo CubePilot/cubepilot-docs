@@ -28,7 +28,7 @@ R8152 / R8153 - Airside only\
 
 **Note：**\
 **-Upgrade both units to the latest firmware before toggling the switches.**\
-&#xNAN;**-Toggle switches both down position as default AirUnit function, firmware only can be upgraded when switches both at down position.**
+**-Toggle switches both down position as default AirUnit function, firmware only can be upgraded when switches both at down position.**
 
 ## 1. GroundUnit and AirUnit Setup
 

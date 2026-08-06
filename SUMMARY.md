@@ -91,6 +91,7 @@
     * [Firmware](autopilot/the-cube/setup/firmware/README.md)
       * [Installing ArduPilot](autopilot/the-cube/setup/firmware/installing-ardupilot.md)
       * [Installing Secure Firmware](autopilot/the-cube/setup/firmware/installing-secure-firmware.md)
+      * [Firmware Recovery](autopilot/the-cube/setup/firmware/firmware-recovery.md)
   * [Mandatory Hardware Basic Configuration](autopilot/the-cube/mandatory-hardware-basic-configuration.md)
   * [Optional Hardware Basic Configuration](autopilot/the-cube/optional-hardware-basic-configuration.md)
   * [Cosmetic Change Notification](autopilot/the-cube/cosmetic-change-notification.md)
