@@ -177,6 +177,19 @@ When using Here 4 as a flight controller, the pinout changes: GPS\_TX becomes UA
 | 10         | Hotshoe signal    |
 | 11         | PPS signal        |
 
+### FMU Debug
+
+JST SUR 6-pin plug
+
+| Pin Number | Name               | I/O | Voltage           | Wire Color | Description            |
+| ---------- | ------------------ | --- | ----------------- | ---------- | ---------------------- |
+| 1          | VDD 5V PEIPH       | OUT | 5 V               |            | 5V                     |
+| 2          | FMU\_TX (SERIAL 5) | OUT | 3.3 V - 5.0 V TTL |            | TX of AP FMU\_uart5 TX |
+| 3          | FMU\_RX (SERIAL 5) | IN  | 3.3V - 5.0 V TTL  |            | RX of AP FMU\_uart5 RX |
+| 4          | FMU-SWDIO          | I/O | 3.3 V - 5.0 V TTL |            | Serial wire debug I/O  |
+| 5          | FMU-SWCLK          | I/O | 3.3 V - 5.0 V TTL |            | Serial wire Clock      |
+| 6          | GND                | OUT | GND               |            | GND connection         |
+
 ### Dimensions
 
 <figure><img src="../.gitbook/assets/image (46).png" alt="" width="563"><figcaption></figcaption></figure>
