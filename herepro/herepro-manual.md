@@ -189,6 +189,8 @@ Wait for the firmware update to complete. Confirm the change in SW Version. If t
 
 ![](../.gitbook/assets/fw3.png)
 
+<mark style="color:$warning;">**Note:**</mark> If you see the message 'Found unexpected valget key 0x10010001 reset required' after updating the HerePro firmware, use u-center to update the ublox firmware to the latest version.
+
 ### 7. RTK manual
 
 This part of the tutorial uses Mission Planner ground software and Arducopter-4.3.5 flight firmware for operating instructions. RTK mode requires a base station. The following tutorial Uses HerePro as an example. Users can also use other u-blox M8P/F9P base stations (such as Here+ RTK Base, etc.), or use the local wireless RTK correction service.
