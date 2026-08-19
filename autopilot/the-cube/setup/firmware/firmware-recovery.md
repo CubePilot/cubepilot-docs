@@ -15,7 +15,7 @@ Attempt flashing the bootloader via SWD port if the Cube is:
 ## Prerequisites
 
 * J-Link device (i.e. EDU Mini V2) or similar
-* J-Link Adapter Board and 6-pin JST SUR plug for SWD port
+* J-Link adapter and **6-pin JST SUR** plug for SWD port
   * Refer here for Carrier Board pinout: [FMU Debug pinout](https://docs.cubepilot.org/user-guides/autopilot/the-cube/introduction/interface-specifications#fmu-debug)
   * Pinout of example J-Link Adapter Board w/ JST SUR plug: [J-Link Adapter Board](https://docs.cubepilot.org/user-guides/~gitbook/image?url=https%3A%2F%2F3175993181-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LUhw7cdLeWVORgnTA3i%252Fuploads%252F06RF3owVp843GLe2ZqdE%252FJ-Link%2520Adapter%2520Board.jpg%3Falt%3Dmedia%26token%3Dfb2b0fb7-36ec-43fa-b9d8-c6da37077af7\&width=768\&dpr=3\&quality=100\&sign=ab4adf7d\&sv=2)
 * “J-Link Software and Documentation Pack” ([segger.com/downloads/jlink/](https://www.segger.com/downloads/jlink/))
