@@ -17,5 +17,5 @@
 | 94         | **Reserved Don’t Use** | DSI\_CKP    |
 | 95         | **Reserved Don’t Use** | DSI\_CKN    |
 | 104        | **Reserved Don’t Use** | DSI\_D1N    |
-| 105        | **Reserved Don’t Use** | DSI\_D1N    |
+| 105        | **Reserved Don’t Use** | DSI\_D0N    |
 

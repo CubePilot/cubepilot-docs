@@ -14,10 +14,6 @@
 
 ## CubeNode Footprint SCHLIB
 
-<figure><img src="../.gitbook/assets/CubeNode Footprint SCHLIB-2.png" alt=""><figcaption><p>CubeNode Footprint SCHLIB-1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/signal-2026-09-17-15-00-41-137.png" alt=""><figcaption></figcaption></figure>
 
-
-
-<figure><img src="../.gitbook/assets/图像 (1) (1).png" alt=""><figcaption><p>CubeNode Footprint SCHLIB-2</p></figcaption></figure>
-
-{% file src="../.gitbook/assets/CubeNode Footprint (1).SCHLIB" %}
+{% file src="../.gitbook/assets/CP_CubePilot.SCHLIB" %}
