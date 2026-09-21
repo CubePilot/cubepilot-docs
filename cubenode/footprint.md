@@ -2,18 +2,22 @@
 
 ## CubeNode Footprint PCBLIB
 
-<figure><img src="../.gitbook/assets/图像 (1).png" alt=""><figcaption><p>CubeNode Footprint.PcbLib</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/V3 PCBLIB.png" alt=""><figcaption></figcaption></figure>
 
-{% file src="../.gitbook/assets/CubeNode Footprint (1).PcbLib" %}
+<figure><img src="../.gitbook/assets/V4_PCBLIB (1).png" alt=""><figcaption></figcaption></figure>
+
+{% file src="../.gitbook/assets/CubeNode_v3 and v4_FootPrint.PcbLib" %}
 
 ## CubeNode Footprint Dimension
 
+<figure><img src="../.gitbook/assets/V3 Footprint dimension.png" alt=""><figcaption></figcaption></figure>
 
-
-<figure><img src="../.gitbook/assets/CUBENODE 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/V4 Footprint Dimension (1).png" alt=""><figcaption></figcaption></figure>
 
 ## CubeNode Footprint SCHLIB
 
-<figure><img src="../.gitbook/assets/signal-2026-09-17-15-00-41-137.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/V3_Footprint.png" alt=""><figcaption></figcaption></figure>
 
-{% file src="../.gitbook/assets/CP_CubePilot.SCHLIB" %}
+<figure><img src="../.gitbook/assets/V4_Footprint.png" alt=""><figcaption></figcaption></figure>
+
+{% file src="../.gitbook/assets/CubeNode_v3 and v4_Footprint.SCHLIB" %}
