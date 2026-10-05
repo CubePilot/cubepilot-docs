@@ -164,6 +164,7 @@
 * [Material Safety Data Sheet - MSDS](product-certificate/material-safety-data-sheet-msds.md)
 * [EN 62368 CE LVD VOC Certificate](product-certificate/en-62368-ce-lvd-voc-certificate.md)
 * [IEC 62368 CB Scheme Safety test Certificate](product-certificate/iec-62368-cb-scheme-safety-test-certificate.md)
+* [UN38.3](product-certificate/un38.3.md)
 
 ## SOLO
 
