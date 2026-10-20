@@ -48,9 +48,9 @@
 * [Here 2 CAN Mode Instruction](here-2/here-2-can-mode-instruction.md)
 * [Here 2 Firmware Update Troubleshooting](here-2/here-2-firmware-update-troubleshooting.md)
 
-## Here 3
+## Here 3/3+
 
-* [Here 3 Manual](here-3/here-3-manual.md)
+* [Here 3/3+ Manual](here-3/here-3-manual.md)
 
 ## Here+
 
