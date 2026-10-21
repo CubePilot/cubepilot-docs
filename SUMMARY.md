@@ -159,6 +159,7 @@
 * [UKCA Certificate](product-certificate/ukca-certificate.md)
 * [RoHS Certificate](product-certificate/rohs-certificate.md)
 * [FCC Certificate](product-certificate/fcc-certificate.md)
+* [FCC Report](product-certificate/fcc-report.md)
 * [IC Certificate](product-certificate/ic-certificate.md)
 * [RCM Certificate](product-certificate/rcm-certificate.md)
 * [Material Safety Data Sheet - MSDS](product-certificate/material-safety-data-sheet-msds.md)

@@ -109,12 +109,7 @@ Wheel configuration in Solex TX to Servo output channels 1-16 on the Autopilot, 
 
 * Open QGC
 * Click gear icon on top left corner.
-
-![](../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2F-M2lI7HZGVY2STNo0O9R%2F-M2lI8\_TGw7xN5TUWLUu%2Fqgc-button-1.jpg)
-
 * Select **Button**
 * Select the box on left for desired button.
 * Click the drop-down menu to select features.
 * Repeat the procedure for each button and select desired flight mode.
-
-![](../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2F-M2lI7HZGVY2STNo0O9R%2F-M2lI8\_VSBZllFgCQXfc%2Fscreenshot-2020-03-16-at-22.35.57.png)

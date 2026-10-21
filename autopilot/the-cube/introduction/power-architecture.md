@@ -1,8 +1,8 @@
 # Power Architecture
 
-The Cube has removed the power management from the FMU. Thus, the servo rail is no longer the primary backup power source for the FMU. It remains there as a failsafe for I/O functions.&#x20;
+The Cube has removed the power management from the FMU. Thus, the servo rail is no longer the primary backup power source for the FMU. It remains there as a failsafe for I/O functions.
 
-<figure><img src="../../../.gitbook/assets/System Power Distribution (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/System Power Distribution.svg" alt=""><figcaption></figcaption></figure>
 
 ### Power Management Module (separate from the FMU)
 
@@ -26,11 +26,11 @@ Power may be supplied to The Cube via USB, the power brick port, or the second b
 Cube F4 series
 
 * FMU + IO power budget, which includes all the LEDs and the Piezo buzzer, is 450mA.
-* &#x20;The total peripheral power is limited to 2.5A.&#x20;
+* The total peripheral power is limited to 2.5A.
 
 Cube F7 and H7 series
 
-* FMU + IO power budget, which includes all LEDs and the Piezo buzzer, is 550mA.&#x20;
+* FMU + IO power budget, which includes all LEDs and the Piezo buzzer, is 550mA.
 * Peripheral power is limited to 2.5A.
 
 <mark style="color:orange;">**Cube Orange**</mark>
@@ -43,7 +43,7 @@ USB is not recommended in flight on Nuttx code.
 
 ### Power Brick Port
 
-The brick port is the preferred power source for The Cube. It will be selected by default when available.&#x20;
+The brick port is the preferred power source for The Cube. It will be selected by default when available.
 
 ### Servo Power
 
@@ -57,7 +57,7 @@ The FMU and peripherals will not accept power from the servo connector.
 
 ### Aux Power
 
-The Cube backup power port is configured the same as the primary power input.&#x20;
+The Cube backup power port is configured the same as the primary power input.
 
 When the input voltage exceeds 5.7V, the power is locked out. The Cube and its peripherals may draw up to 2.75A in total when operating on Aux power, provided that the Brick or other power source can supply the required current.
 
@@ -67,7 +67,7 @@ The Cube never supplies power to the servos.
 
 ### Servo Rail
 
-The I/O chip can draw power reaching up to 10.5V from the servo rail.&#x20;
+The I/O chip can draw power reaching up to 10.5V from the servo rail.
 
 The servo rail can be used to revert to manual mode when the other two main power sources fail. This is only useful for planes and when the I/O chip has been mapped correctly.
 
@@ -95,7 +95,7 @@ The input voltage range that each component can accept is shown below.
 
 ### Power Management Peripherals
 
-The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, which ensures that no more than 5.5V is supplied to the peripheral devices.&#x20;
+The Cube provides power routing, over/under voltage detection and protection, filtering, switching, current-limiting and transient suppression for peripherals. Power outputs to peripherals feature ESD and EMI filtering, which ensures that no more than 5.5V is supplied to the peripheral devices.
 
 Power is disconnected from the peripherals when the following occurs:
 
@@ -120,15 +120,15 @@ The Spektrum/DSM R/C interface draws power from its own regulator, and not from 
 
 ### S.Bus and CPPM Receivers
 
-S.Bus and CPPM receivers are powered by a dedicated power supply.&#x20;
+S.Bus and CPPM receivers are powered by a dedicated power supply.
 
 {% hint style="warning" %}
-Do not connect any servos to this power supply. It only provides power to the RX.&#x20;
+Do not connect any servos to this power supply. It only provides power to the RX.
 {% endhint %}
 
 ### Capacitor Backup
 
-Both the FMU and I/O microcontrollers feature capacitor-backed real-time clocks and SRAM. The on-board backup capacitor has sufficient capacity to allow orderly recovery from unintended power loss or in-air restarts.&#x20;
+Both the FMU and I/O microcontrollers feature capacitor-backed real-time clocks and SRAM. The on-board backup capacitor has sufficient capacity to allow orderly recovery from unintended power loss or in-air restarts.
 
 The capacitors can be recharged from the FMU 3.3V rail if software is included to support this feature.
 

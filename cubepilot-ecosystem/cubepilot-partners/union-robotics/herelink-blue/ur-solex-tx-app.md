@@ -4,7 +4,7 @@
 
 If the Ground Station and Air Unit link does not automatically connect, press the `CONNECT` button on the left hand side of the display screen.
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.40.58 PM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.40.58 PM.png>)
 
 Once connected, the UR/Solex TX app will download the vehicle's parameters
 
@@ -14,7 +14,7 @@ Once connected, the UR/Solex TX app will download the vehicle's parameters
 
 To view the flight screen, click on the Union Robotics logo at the bottom left side of the screen.
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.44.45 PM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.44.45 PM.png>)
 
 ### Pre-Flight Checklist Screen
 
@@ -32,7 +32,7 @@ Once all items have been checked on the Pre-Flight Checklist screen, you will be
 
 ### **Flight Screen**
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.17.26 PM (2).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.17.26 PM.png>)
 
 |                        |                                                                         |
 | ---------------------- | ----------------------------------------------------------------------- |
@@ -63,7 +63,7 @@ Once all items have been checked on the Pre-Flight Checklist screen, you will be
 
 ### **Control Panel**
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.06.59 PM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-01-18 at 5.06.59 PM.png>)
 
 |                   |                                                                      |
 | ----------------- | -------------------------------------------------------------------- |
@@ -153,7 +153,7 @@ Click the `VEHICLE TYPE` button in the top right of the missions screen. Select 
 
 ### **Waypoint Missions**
 
-To create a mission using  waypoints, click the `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose Waypoint.
+To create a mission using waypoints, click the `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose Waypoint.
 
 ![](<../../../../.gitbook/assets/22 (1) (1).png>)
 
@@ -201,7 +201,7 @@ To stop deleting things when you click them, click the trash can icon until it's
 
 #### **Terrain Following**
 
-Altitudes in missions are defined as distance from the ground (AGL) at the takeoff location. If a mission encompasses a hill or valley, you'll have to manage your waypoint altitude carefully to avoid either flying too high, or flying into the side of a hill. Or, you can use the Follow Terrain action in the Mission Editor. In order to use this, you have to have access to an internet connection.&#x20;
+Altitudes in missions are defined as distance from the ground (AGL) at the takeoff location. If a mission encompasses a hill or valley, you'll have to manage your waypoint altitude carefully to avoid either flying too high, or flying into the side of a hill. Or, you can use the Follow Terrain action in the Mission Editor. In order to use this, you have to have access to an internet connection.
 
 **NOTICE:** You only need the internet connection while you're applying elevations to waypoints during mission editing. You don't need it to fly the mission. Also, if you move any waypoints after applying elevations, you should apply elevations again to make sure their altitudes work with their new ground elevations.
 
@@ -213,9 +213,9 @@ On infrequent occasions, Solex might flag a point right next to a waypoint as a 
 
 **NOTICE:** Terrain following does not apply to multi-point waypoint items such as surveys, Wall Scan, Tower Scan, Structure Scan, etc. Only the altitude of the item itself will be adjusted.
 
-Draw all of your waypoints on the map, then select `Follow Terrain` from the menu (it will be grayed out if you don't have an internet connection, or your mission is empty).&#x20;
+Draw all of your waypoints on the map, then select `Follow Terrain` from the menu (it will be grayed out if you don't have an internet connection, or your mission is empty).
 
-![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 9.42.24 AM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 9.42.24 AM.png>)
 
 ![](<../../../../.gitbook/assets/24 (1).png>)
 
@@ -251,7 +251,7 @@ Turn Delay and Run Delay can be used to control how long the vehicle waits betwe
 
 Depending on how it's configured and tuned, a vehicle may tend to wander after it makes a turn at the end and heads toward the waypoint at the opposite end of the run. Or, like a plane, it might swing wide around the waypoint and head to the opposite end at an angle. If this is undesirable, you can add Guide points to each run to give the vehicle something close to aim for, and get on track more quickly. You can also assign actions to be run at each Guide point if you want to. You can control how many Guide points there are between the ends of a run with the Guide Count attribute.
 
-To create a mission using  Grid, click the `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose `Grid`.
+To create a mission using Grid, click the `+` marker in the toolbar, which will then turn green. To the right on the toolbar, there will be a drop-down list of waypoint types that you can drop, choose `Grid`.
 
 ![](<../../../../.gitbook/assets/7 (1).png>)
 
@@ -328,8 +328,6 @@ A Horizontal scan starts at the base altitude and flies horizontally, stopping f
 
 **NOTICE:** When setting up a Tower Scan, pay close attention to the path drawn on the map. The path will show entry into and the exit from the scan, which may not appear on the side of the tower scan you expect it too. This is because the path crosses from left to right and back during the scan, and the exit point (the one which heads to the next waypoint) will be on the side where the scan finishes. The path is clearly shown on the map, so you can avoid crossing over to a waypoint that could cause your vehicle to collide with the object you're scanning. If you want to change the exit side of the scan, you can do so by adjusting the step height or top altitude of the scan.
 
-
-
 ### **Survey Missions**
 
 Surveys are kind of their own thing within missions. A Survey is an item in a mission that contains its own waypoints. Your vehicle won't fly straight to the waypoint, but will follow the path determined by the Survey.
@@ -338,7 +336,7 @@ Surveys are kind of their own thing within missions. A Survey is an item in a mi
 
 #### **Creating a Survey**
 
-To create a Survey, click the Add button and pick `Survey` from the waypoint type list.&#x20;
+To create a Survey, click the Add button and pick `Survey` from the waypoint type list.
 
 ![](<../../../../.gitbook/assets/19 (1) (1).png>)
 
@@ -368,9 +366,9 @@ To Fly a created mission, you will need to save the mission. Click `SAVE` on the
 
 ## **Fly a Mission**
 
-Flying missions  are done from the Map view in the flight screen. In the Map view, one of the layers is `Missions`. Click `Missions`, and you'll see a list of missions.
+Flying missions are done from the Map view in the flight screen. In the Map view, one of the layers is `Missions`. Click `Missions`, and you'll see a list of missions.
 
-![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 11.06.51 AM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2020-09-27 at 11.06.51 AM.png>)
 
 ![](../../../../.gitbook/assets/47.png)
 
@@ -386,7 +384,7 @@ Once underway, you can click a waypoint on the solexMap and you'll see a prompt 
 
 ### **Pausing/Resuming Missions**
 
-You can hit `Pause` to freeze the mission. At this point, you can either hit `Resume`to resume the mission, `Home` to RTL, or hit the `FLY` button on your transmitter to take manual control and fly normally. `Land` lands the vehicle right where it is, which you'll most likely only want to do in special cases. In the case of  `Resume`, your vehicle will start flying at the last speed it was flying at according to the waypoint speeds in your mission. If no waypoint speeds were set in a mission, then it will resume flying at the overall mission speed.
+You can hit `Pause` to freeze the mission. At this point, you can either hit `Resume`to resume the mission, `Home` to RTL, or hit the `FLY` button on your transmitter to take manual control and fly normally. `Land` lands the vehicle right where it is, which you'll most likely only want to do in special cases. In the case of `Resume`, your vehicle will start flying at the last speed it was flying at according to the waypoint speeds in your mission. If no waypoint speeds were set in a mission, then it will resume flying at the overall mission speed.
 
 ###
 

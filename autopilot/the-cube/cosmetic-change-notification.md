@@ -18,7 +18,4 @@ See the following example using the Cube Orange+.
   * Design in Australia ; Proudly made in Taiwan.
 * Bottom cover: Design in Australia ; Proudly made in Taiwan
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
-
-
-
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>

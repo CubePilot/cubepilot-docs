@@ -63,26 +63,26 @@ Keep the antenna away from the propeller.
 > * For OEM use, create your OEM OpenDroneID ArduPilot firmware. For details, refer to the following:
 >   * [https://ardupilot.org/dev/docs/opendroneid.html#opendroneid](https://ardupilot.org/dev/docs/opendroneid.html#opendroneid)
 >   * [https://www.youtube.com/watch?v=Az8v4Kx4hS0](https://www.youtube.com/watch?v=Az8v4Kx4hS0)
-> * For regular use, load the latest ArduPilot firmware. Ensure that the build you are using has OpenDroneID feature enabled. The easiest way to confirm this is to check whether the  `DID_*` parameters appear. To create a custom build with OpenDroneID enabled:
+> * For regular use, load the latest ArduPilot firmware. Ensure that the build you are using has OpenDroneID feature enabled. The easiest way to confirm this is to check whether the `DID_*` parameters appear. To create a custom build with OpenDroneID enabled:
 >   1. Go to [https://custom.ardupilot.org/add\_build](https://custom.ardupilot.org/add_build) and select the **Version** and **Board**.
 >   2. Under **Ident**, check **Enable OpenDroneID (Remote ID);** then, click **Generate build**.
 
 ### Initial Settings
 
-1. Connect The Cube to a computer via a USB cable.&#x20;
-2. Launch the latest version of Mission Planner.&#x20;
+1. Connect The Cube to a computer via a USB cable.
+2. Launch the latest version of Mission Planner.
 3. Click **Load custom firmware** to install the OpenDroneID firmware.
 
 <figure><img src="../.gitbook/assets/load_firmware.png" alt=""><figcaption></figcaption></figure>
 
-4. Go to **Full Parameter List** and search for "DID\_ENABLE".&#x20;
+4. Go to **Full Parameter List** and search for "DID\_ENABLE".
 5. Change the value to "1" to enable ODID.
 
 <figure><img src="../.gitbook/assets/odid.png" alt=""><figcaption></figcaption></figure>
 
 ### CAN Settings
 
-1. Go to "Full Parameter List" and search for "CAN\_P1\_DRIVER".&#x20;
+1. Go to "Full Parameter List" and search for "CAN\_P1\_DRIVER".
 
 <figure><img src="../.gitbook/assets/can.png" alt=""><figcaption></figcaption></figure>
 
@@ -90,8 +90,6 @@ Keep the antenna away from the propeller.
 3.  Modify the following parameter:
 
     **DID\_CANDRIVER: 1** (enables the corresponding CAN port)
-
-<figure><img src="../.gitbook/assets/}L1NN5&#x60;KJKLVD]7&#x60;Z%1YD2-1691373851187-2.png" alt=""><figcaption></figcaption></figure>
 
 ### Serial Settings
 
@@ -123,8 +121,8 @@ Keep the antenna away from the propeller.
 
 Download the appropriate app based on your mobile operating system to detect and monitor nearby UAVs:
 
-* iO&#x53;**: DroneScanner**&#x20;
-* Android: **OpenDroneID** or **DroneScanner**&#x20;
+* iO&#x53;**: DroneScanner**
+* Android: **OpenDroneID** or **DroneScanner**
 
 These apps allow you to check the UAV’s location, ID, operator ID, distance from the operator, and other relevant information.
 
@@ -156,7 +154,7 @@ For more information about Remote ID, refer to the following Wiki link:
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-2. Verify that CubeID™ appears as com.cubepilot.cubeid on the list.&#x20;
+2. Verify that CubeID™ appears as com.cubepilot.cubeid on the list.
 3. Click **Menu > Update** to start the update process. Mission Planner will retrieve the latest firmware binary automatically and start updating.
 
 <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
@@ -165,7 +163,7 @@ For more information about Remote ID, refer to the following Wiki link:
 To use a different tool to update the CubeID™ CAN module, download the latest firmware from: [https://firmware.cubepilot.org/UAVCAN/com.cubepilot.cubeid/1.0/firmware.bin](https://firmware.cubepilot.org/UAVCAN/com.cubepilot.cubeid/1.0/firmware.bin)
 {% endhint %}
 
-### CubeID™ Serial Module Update&#x20;
+### CubeID™ Serial Module Update
 
 > If the CubeID™ Update tab is not visible in Mission Planner, update Mission Planner to the latest beta version: [https://ardupilot.org/planner/docs/mission-planner-overview.html?highlight=beta#support](https://ardupilot.org/planner/docs/mission-planner-overview.html?highlight=beta#support)
 
@@ -174,7 +172,7 @@ To use a different tool to update the CubeID™ CAN module, download the latest 
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-3. Select ODID TX RX device from the list in the upper left corner.&#x20;
+3. Select ODID TX RX device from the list in the upper left corner.
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
@@ -207,7 +205,5 @@ This equipment complies with FCC radiation exposure limits set forth for an unco
 This equipment should be installed and operated with a minimum distance of 20cm between the radiator and your body.
 
 This transmitter must not be co-located or operating in conjunction with any other antenna or transmitter.
-
-
 
 Last modify: 14th March 2023

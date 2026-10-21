@@ -71,7 +71,7 @@ The carrier board features a dedicated HerePro interface designed for data strea
 
 ### ADS-B External Antenna
 
-The integrated ADS-B system is used to receive air traffic information. You can connect an external antenna to the standard SMA interface to extend the data reception range.&#x20;
+The integrated ADS-B system is used to receive air traffic information. You can connect an external antenna to the standard SMA interface to extend the data reception range.
 
 <figure><img src="../.gitbook/assets/ADS_B ext antenna.png" alt=""><figcaption></figcaption></figure>
 
@@ -145,14 +145,14 @@ The eight ESC ports are for multi-rotor UAVs with either four rotors or eight co
 
 ### I2C
 
-<figure><img src="../.gitbook/assets/4pin-20230818-2-1692329616925-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4pin-20230818-2.png" alt=""><figcaption></figcaption></figure>
 
-| Pin Number  | Name        |
-| ----------- | ----------- |
-| 1           | VCC\_5V     |
-| 2           | I2C\_2\_SCL |
-| 3           | I2C\_2\_SDA |
-| 4           | GND         |
+| Pin Number | Name        |
+| ---------- | ----------- |
+| 1          | VCC\_5V     |
+| 2          | I2C\_2\_SCL |
+| 3          | I2C\_2\_SDA |
+| 4          | GND         |
 
 ### BUZZER
 
@@ -175,20 +175,20 @@ The eight ESC ports are for multi-rotor UAVs with either four rotors or eight co
 
 ### 5V (BEC POWER)
 
-<figure><img src="../.gitbook/assets/6pin-20230818-2-1692329630451-7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6pin -20230818-2.png" alt=""><figcaption></figcaption></figure>
 
-| Pin Number  | Name |
-| ----------- | ---- |
-| 1           | 5V   |
-| 2           | 5V   |
-| 3           | 5V   |
-| 4           | GND  |
-| 5           | GND  |
-| 6           | GND  |
+| Pin Number | Name |
+| ---------- | ---- |
+| 1          | 5V   |
+| 2          | 5V   |
+| 3          | 5V   |
+| 4          | GND  |
+| 5          | GND  |
+| 6          | GND  |
 
 ### CAN
 
-<figure><img src="../.gitbook/assets/4pin-20230818-2-1692329636361-9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4pin-20230818-2.png" alt=""><figcaption></figcaption></figure>
 
 | Pin Number | Name    |
 | ---------- | ------- |
@@ -199,7 +199,7 @@ The eight ESC ports are for multi-rotor UAVs with either four rotors or eight co
 
 ### Serial (Uart)
 
-<figure><img src="../.gitbook/assets/6pin-20230818-2-1692329640608-11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6pin -20230818-2.png" alt=""><figcaption></figcaption></figure>
 
 **SERIAL 1 | Telem 1**
 
@@ -287,5 +287,5 @@ The eight ESC ports are for multi-rotor UAVs with either four rotors or eight co
 
 <figure><img src="../.gitbook/assets/Main power Failure.png" alt=""><figcaption></figcaption></figure>
 
-The following Github link can be used to revise and update the EDU450 carrier board informatio&#x6E;**:** \
+The following Github link can be used to revise and update the EDU450 carrier board informatio&#x6E;**:**\
 [**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/edu450-carrier-board.md**](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/edu450-carrier-board.md)

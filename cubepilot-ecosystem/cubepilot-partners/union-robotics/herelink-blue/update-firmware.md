@@ -10,13 +10,13 @@ Pull down from the top and select the settings cog in the top corner or click th
 
 Scroll to the bottom and click the `About Phone` option
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.09.10 PM (2).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 1.09.10 PM.png>)
 
-Select `System Update`&#x20;
+Select `System Update`
 
 ![](<../../../../.gitbook/assets/Screen Shot 2021-02-26 at 4.08.56 PM.png>)
 
-Select `CHECK FOR UPDATE` in the bottom corner&#x20;
+Select `CHECK FOR UPDATE` in the bottom corner
 
 ![](<../../../../.gitbook/assets/Screen Shot 2021-03-02 at 9.05.51 AM.png>)
 
@@ -38,7 +38,7 @@ There are 3 things the need to be checked if you receive an error
 
 ## Update Air Unit
 
-In the `Radio Settings` menu, select `AIRUNIT` tab. The app will download the settings from the air unit and search online to see if there is an update available.&#x20;
+In the `Radio Settings` menu, select `AIRUNIT` tab. The app will download the settings from the air unit and search online to see if there is an update available.
 
 ![](<../../../../.gitbook/assets/Screen Shot 2021-09-03 at 4.29.39 PM.png>)
 

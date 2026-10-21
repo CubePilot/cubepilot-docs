@@ -24,12 +24,7 @@ To select the mode either press T for Toggle, M for Momantry, when neither T or 
 
 You can set Sbus button configuration in **Herelink Settings**>**button**
 
-![](../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2Fsync%2Ffe37395557c778046215bb011458d284f666a86a.png)
-
 * Click NEW and type name for your new profile and press OK.
-
-![](../../.gitbook/assets/assets%2F-LUhw7cdLeWVORgnTA3i%2Fsync%2F0d6efbc80556581964177a3a8c51978b9239d23f.png)
-
 * Select the first button you want to configure from the drop down menu then click ADD .
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-07 at 1.24.23 PM.jpg>)

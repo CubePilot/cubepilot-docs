@@ -34,13 +34,13 @@ The power distribution system is rated to supply 140A to the ESCs when exposed t
 
 ## Ensuring the Built-In Sensors Accurately Read the Voltage and Current
 
-Some parameters need to be configured to ensure the built-in sensors on the board accurately read the voltage and current. See below for the steps:&#x20;
+Some parameters need to be configured to ensure the built-in sensors on the board accurately read the voltage and current. See below for the steps:
 
 ### **Method 1**
 
-1. Open Mission Planner.&#x20;
-2. Connect The Cube to Mission Planner.&#x20;
-3. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+1. Open Mission Planner.
+2. Connect The Cube to Mission Planner.
+3. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**
 4. Click **Config** -> **Full Parameter List.**
 5. Download this [parameter file](http://docs.spektreworks.com/assets/params/Multirotor_PCB_Power.param).
 6. Click **Load from file** to upload the file to Mission Planner.
@@ -55,11 +55,11 @@ Some parameters need to be configured to ensure the built-in sensors on the boar
 
 ### **Method 2**
 
-1. Open Mission Planner.&#x20;
+1. Open Mission Planner.
 2. Connect The Cube to Mission Planner.
-3. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+3. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**
 4. Click **Config** -> **Full Parameter List.**
-5. Configure the BATT\_Monitor value to "4".&#x20;
+5. Configure the BATT\_Monitor value to "4".
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-09 172450.png" alt=""><figcaption></figcaption></figure>
 
@@ -67,7 +67,7 @@ Some parameters need to be configured to ensure the built-in sensors on the boar
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-7. Reboot The Cube.&#x20;
+7. Reboot The Cube.
 8. Click **Config** -> **Full Parameter List.**
 9. Set the following parameters to the values shown in the table.
 
@@ -104,7 +104,7 @@ If the external device uses too much current and the fuse does not immediately c
 
 Solder pads for ESC power are located at each corner of the board. The power wires from the ESCs can be soldered to the pads on either the top or bottom of the board.
 
-Next to the ESC power pads are 3x3 0.1” header pins. The bottom row of these pins provides power for navigation lights.&#x20;
+Next to the ESC power pads are 3x3 0.1” header pins. The bottom row of these pins provides power for navigation lights.
 
 * **Right pin**: Ground
 * **Center pin**: Supplies 12V
@@ -114,7 +114,7 @@ Next to the ESC power pads are 3x3 0.1” header pins. The bottom row of these p
 Do not plug an ESC cable into the bottom row of this connector.
 {% endhint %}
 
-The top two rows of pins are for the ESC PWM signal. These pins correspond to two of the **Main Out** connections of The Cube.&#x20;
+The top two rows of pins are for the ESC PWM signal. These pins correspond to two of the **Main Out** connections of The Cube.
 
 * S: PWM signal
 * +: Power
@@ -124,7 +124,7 @@ All eight Main Out connections are available at the four corners of the board. C
 
 ![PWMPins\_v1\_3\_1](../.gitbook/assets/PWMPins_v1_3_1.png)
 
-By default, the board does not supply power to the ESC PWM connections. However, if no BEC is available to power the ESCs, bridge JP1 with solder to provide 5.3V from the board to the ESCs.&#x20;
+By default, the board does not supply power to the ESC PWM connections. However, if no BEC is available to power the ESCs, bridge JP1 with solder to provide 5.3V from the board to the ESCs.
 
 {% hint style="warning" %}
 Do not plug a BEC into the ESC connections when JP1 is bridged with solder.
@@ -132,7 +132,7 @@ Do not plug a BEC into the ESC connections when JP1 is bridged with solder.
 
 ![](../.gitbook/assets/PWMJumper.png)
 
-Most commercially available ESCs expect 3.3V PWM signals from the autopilot to control the motor. This is the default setting of The CUBE. To change to 5V PWM signals, use a pen or a pointed tool to move the switch, which is located on the right side of the board and labeled as **3V PWM** / **5V PWM**.&#x20;
+Most commercially available ESCs expect 3.3V PWM signals from the autopilot to control the motor. This is the default setting of The CUBE. To change to 5V PWM signals, use a pen or a pointed tool to move the switch, which is located on the right side of the board and labeled as **3V PWM** / **5V PWM**.
 
 ![](../.gitbook/assets/PWM_voltage_switch.png)
 
@@ -185,12 +185,12 @@ For example, to plug Motor 3 into the MAIN5 connector on the board, set the SERV
 To configure the carrier board for a hexacopter, complete the following steps:
 
 1. Mount The Cube to the carrier board.
-2. Open Mission Planner.&#x20;
+2. Open Mission Planner.
 3. Connect The Cube to Mission Planner.
-4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**
 5. Flash The Cube with ArduCopter 3.5.0 or above.
 6. Click **Setup** -> **Mandatory Hardware -> Frame Type**.
-7. Select the frame picture with six motors arranged in a radial pattern for the **Frame Class** and choose a **Frame Type**.&#x20;
+7. Select the frame picture with six motors arranged in a radial pattern for the **Frame Class** and choose a **Frame Type**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-16 174154.png" alt=""><figcaption></figcaption></figure>
 
@@ -199,7 +199,7 @@ To configure the carrier board for a hexacopter, complete the following steps:
 10. Set the following parameters to the values shown in the table below. This can be done in two ways:
 
     * Enter the values manually.
-    * Download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_HEX.param)and then click **Load from file** to upload it to Mission Planner.&#x20;
+    * Download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_HEX.param)and then click **Load from file** to upload it to Mission Planner.
 
     <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -215,8 +215,6 @@ To configure the carrier board for a hexacopter, complete the following steps:
 11. Click **Write Params**.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-
 
 12. Reboot The Cube.
 13. Connect the ESCs, as shown in the table below.
@@ -235,12 +233,12 @@ To configure the carrier board for a hexacopter, complete the following steps:
 To configure the carrier board for a flat octacopter, complete the following steps:
 
 1. Mount The Cube to the carrier board.
-2. Open Mission Planner.&#x20;
+2. Open Mission Planner.
 3. Connect The Cube to Mission Planner.
-4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**
 5. Flash The Cube with ArduCopter 3.5.0 or above.
 6. Click **Setup** -> **Mandatory Hardware -> Frame Type**.
-7. Select the frame picture with eight motors arranged in a radial pattern for the **Frame Class** and choose a **Frame Type**.&#x20;
+7. Select the frame picture with eight motors arranged in a radial pattern for the **Frame Class** and choose a **Frame Type**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-23 161049.png" alt=""><figcaption></figcaption></figure>
 
@@ -249,11 +247,9 @@ To configure the carrier board for a flat octacopter, complete the following ste
 10. Set the following parameters to the values shown in the table below. This can be done in two ways:
 
     * Enter the values manually.
-    * Download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_OCTA.param)and then click **Load from file** to upload it to Mission Planner.&#x20;
+    * Download this [parameter file ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_OCTA.param)and then click **Load from file** to upload it to Mission Planner.
 
-    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-
+    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 | Parameter        | Value |
 | ---------------- | ----- |
@@ -289,12 +285,12 @@ To configure the carrier board for a flat octacopter, complete the following ste
 To configure the carrier board for an X-8 (OctaQuad), complete the following steps:
 
 1. Mount The Cube to the carrier board.
-2. Open Mission Planner.&#x20;
+2. Open Mission Planner.
 3. Connect The Cube to Mission Planner.
-4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**&#x20;
+4. If Mission Planner was just installed, click **Config** -> **Planner** and select **"**_**Advanced**_**"** for the **Layout.**
 5. Flash The Cube with ArduCopter 3.5.0 or above.
 6. Click **Setup** -> **Mandatory Hardware** -> **Frame Type**.
-7. Select the frame picture with eight motors arranged in a square pattern, with one motor stacked on top of another at each corner. Then, choose a **Frame Type**.&#x20;
+7. Select the frame picture with eight motors arranged in a square pattern, with one motor stacked on top of another at each corner. Then, choose a **Frame Type**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-23 161306.png" alt=""><figcaption></figcaption></figure>
 
@@ -303,11 +299,9 @@ To configure the carrier board for an X-8 (OctaQuad), complete the following ste
 10. Set the following parameters to the values shown in the table below. This can be done in two ways:
 
     * Enter the values manually.
-    * Download this [parameter file](http://docs.spektreworks.com/assets/params/Multirotor_PCB_X8.param)[ ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_OCTA.param)and then click **Load from file** to upload it to Mission Planner.&#x20;
+    * Download this [parameter file](http://docs.spektreworks.com/assets/params/Multirotor_PCB_X8.param)[ ](http://docs.spektreworks.com/assets/params/Multirotor_PCB_OCTA.param)and then click **Load from file** to upload it to Mission Planner.
 
-    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-
+    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 | Parameter        | Value |
 | ---------------- | ----- |
@@ -458,18 +452,18 @@ The ADC\_IN input voltage is divided by two using a symmetric 10kΩ voltage div
 
 In order to use the BATT2\_Volt\_Sense pin, a user-selected resistor must be soldered to the board. Use the following equation to determine the resistor value:
 
-[![](https://latex.codecogs.com/gif.latex?R\&space;=\&space;3030\&space;*\&space;V_{max}-10000)](https://www.codecogs.com/eqnedit.php?latex=R\&space;=\&space;3030\&space;*\&space;V_{max}-10000)
+[![](https://latex.codecogs.com/gif.latex?R\&space;=\&space;3030\&space;*\&space;V_%7Bmax%7D-10000)](https://www.codecogs.com/eqnedit.php?latex=R\&space;=\&space;3030\&space;*\&space;V_{max}-10000)
 
 * **Vmax**: Maximum voltage expected on this pin.
 * **R**: Resistance (Ohms)
 
 When the value is calculated, a common through-hole style resistor should be soldered to the space labeled R46 underneath the board.
 
-![](../.gitbook/assets/ADCResistor.png)
+![](../.gitbook/assets/adcresistor.png)
 
-For The CUBE to accurately read the secondary voltage, the BATT2\_VOLT\_MULT parameter must be set. Use the following equation to calculate the value.&#x20;
+For The CUBE to accurately read the secondary voltage, the BATT2\_VOLT\_MULT parameter must be set. Use the following equation to calculate the value.
 
-[![](https://latex.codecogs.com/gif.latex?BATT2_VOLT_MULT=\frac{V_{max\}}{3.3})](https://www.codecogs.com/eqnedit.php?latex=BATT2_VOLT_MULT=\frac{V_{max\}}{3.3})
+[![](https://latex.codecogs.com/gif.latex?BATT2_VOLT_MULT=%5Cfrac%7BV_%7Bmax%7D%7D%7B3.3%7D)](https://www.codecogs.com/eqnedit.php?latex=BATT2_VOLT_MULT=\frac{V_{max\}}{3.3})
 
 ### Debug
 
@@ -499,32 +493,32 @@ The connector is from the JST brand and mates with SHR-06V-S-B or SHR-06V-S.
 
 The carrier board has two indicator lights on the top surface labeled “Pwr” and “Err”.
 
-**Pwr Light:** Two independent 5V regulators provide power to The Cube and other peripherals. A constant blue light indicates both regulators are working.&#x20;
+**Pwr Light:** Two independent 5V regulators provide power to The Cube and other peripherals. A constant blue light indicates both regulators are working.
 
-**Err Light:** A constant red light indicates one of the two regulators has failed.&#x20;
+**Err Light:** A constant red light indicates one of the two regulators has failed.
 
 {% hint style="warning" %}
 * Do not fly the vehicle if the blue Pwr Light is not lit.
-* Do not fly the vehicle if the Err Light is lit.&#x20;
+* Do not fly the vehicle if the Err Light is lit.
 {% endhint %}
 
 ![](http://docs.spektreworks.com/assets/images/light_truth_table.PNG)
 
 ## Buzzer and Volume Control <a href="#buzzer-and-volume-control" id="buzzer-and-volume-control"></a>
 
-The carrier board includes a piezoelectric buzzer mounted on its underside. Thus, no external buzzer is needed.&#x20;
+The carrier board includes a piezoelectric buzzer mounted on its underside. Thus, no external buzzer is needed.
 
 {% hint style="warning" %}
 Do not mount the board onto the vehicle in a way that muffles the buzzer sound.
 {% endhint %}
 
-The carrier board has a volume control switch located at the front edge.&#x20;
+The carrier board has a volume control switch located at the front edge.
 
-* **Switch moved to the right**: Buzzer volume is at maximum volume.&#x20;
-* **Switch moved to the left**: Buzzer volume is at a reduced level. &#x20;
+* **Switch moved to the right**: Buzzer volume is at maximum volume.
+* **Switch moved to the left**: Buzzer volume is at a reduced level.
 
 {% hint style="warning" %}
-Never fly the vehicle with the buzzer volume set to a reduced level. &#x20;
+Never fly the vehicle with the buzzer volume set to a reduced level.
 {% endhint %}
 
 ## Mechanical Information
@@ -550,5 +544,5 @@ The pins on connector J3 should be labeled “SCL1” and “SDA1”, not “SCL
 
 Due to the complex nature of any drone vehicle, there are many causes of failure that may result in damaged components. SpektreWorks does not warranty the carrier board against damage caused by external devices (ESCs, motors, peripherals, etc.) or due to a crash. SpektreWorks will replace a carrier board that has a manufacturer defect within 30 days of purchase.
 
-The following Github link can be used to revise and update the Kore carrier board informatio&#x6E;**:** \
+The following Github link can be used to revise and update the Kore carrier board informatio&#x6E;**:**\
 [**https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/kore-carrier-board.md**](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/kore-carrier-board.md)

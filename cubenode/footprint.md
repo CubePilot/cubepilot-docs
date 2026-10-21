@@ -4,7 +4,7 @@
 
 <figure><img src="../.gitbook/assets/V3 PCBLIB.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/V4_PCBLIB (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/V4_PCBLIB.png" alt=""><figcaption></figcaption></figure>
 
 {% file src="../.gitbook/assets/CubeNode_v3 and v4_FootPrint.PcbLib" %}
 

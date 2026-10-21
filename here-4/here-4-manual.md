@@ -50,8 +50,6 @@ The Here 4 goes beyond being a simple GNSS module. It combines flight control an
 
 <figure><img src="../.gitbook/assets/-can-debug-20230616-3.png" alt=""><figcaption></figcaption></figure>
 
-
-
 <table><thead><tr><th width="245">Parameter</th><th>Description</th></tr></thead><tbody><tr><td>CAN</td><td>Two (current firmware only supports one CAN port where the cable color is green, blue, white, and grey)</td></tr><tr><td>Working Temperature</td><td>-40 °C to +85 °C</td></tr><tr><td>Size</td><td>16 x 68 mm</td></tr><tr><td>Weight</td><td>60g (with cable)</td></tr></tbody></table>
 
 Here 4 can enable the flight controller function when connected to a breakout board. For details on how to set up the flight controller, refer to the following link: [https://docs.cubepilot.org/user-guides/here-4/here-4-manual#id-8.-installing-ardupilot-on-here4](https://docs.cubepilot.org/user-guides/here-4/here-4-manual#id-8.-installing-ardupilot-on-here4)
@@ -144,7 +142,7 @@ When using Here 4 as a flight controller, the pinout changes: GPS\_TX becomes UA
 
 ## Pinout without Case
 
-<figure><img src="../.gitbook/assets/image (45).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Connector 1
 
@@ -236,7 +234,7 @@ Select the compasses by using the default setting (generally default setting is 
 
 ## 2. Using with PX4:
 
-By the time of this writing, PX4 v1.13 is being used. \
+By the time of this writing, PX4 v1.13 is being used.\
 \***Please make sure that you are using the most recent stable release of PX4 firmware.**
 
 Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port
@@ -300,11 +298,11 @@ To use Here 4 on a UXV, you need the following hardware： Computer, telemetry m
 
 **Before use, please make sure that the hardware connection is correct:**
 
-**Ground side:** Connect the base antenna to the base station, then connect the base station module to the computer through the USB port; The Telemetry module should be connected to another USB port of the same computer.&#x20;
+**Ground side:** Connect the base antenna to the base station, then connect the base station module to the computer through the USB port; The Telemetry module should be connected to another USB port of the same computer.
 
 **UXV side:** Connect Here 4 to CAN interface, and telemetry module to the TELEM interface on flight control.
 
-<figure><img src="../.gitbook/assets/rtk0real.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/7.jpg" alt=""><figcaption></figcaption></figure>
 
 #### **Antenna Placing**
 
@@ -324,7 +322,7 @@ Please place the base station in an outdoor environment with sufficient sky cove
 
 Place the base station on a stable and elevated platform, such as a tripod.
 
-<figure><img src="../.gitbook/assets/rtk1real.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/8.jpg" alt=""><figcaption></figcaption></figure>
 
 **Base Module Setting using Mission Planner**
 
@@ -332,11 +330,11 @@ Start with a base module setup first. During the base station setup, the rover a
 
 Open the Mission Planner ground station software on your computer and go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
-<figure><img src="../.gitbook/assets/rtk2real.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/9 (1).png" alt=""><figcaption></figcaption></figure>
 
 Select the correct base module com port in the top left corner and click ‘connect’. In the SurveyIn Acc section, enter the absolute geographic accuracy that you expect your Here+ base station to achieve. In the Time column, enter the minimum survey time you expect. Click on Restart, the ground station will transfer the data you have entered to the base module, the base module will start a new round of surveying. You will see the following page:
 
-<figure><img src="../.gitbook/assets/rtk0real1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10.jpg" alt=""><figcaption></figcaption></figure>
 
 During the survey process, the right box will show the current survey status:
 
@@ -350,7 +348,7 @@ During the survey process, the right box will show the current survey status:
 
 **Current Acc:** Absolute geographic accuracy that the current base station can achieve;
 
-**The Green bar** at the lower part of the Mission Planner page shows the current satellites being detected and the signal strength related to each satellite. At least eight or more satellite signals need to be guaranteed to exceed the red line (Only when the satellite signal exceeds the red line,  the effective number of satellites have been connected).
+**The Green bar** at the lower part of the Mission Planner page shows the current satellites being detected and the signal strength related to each satellite. At least eight or more satellite signals need to be guaranteed to exceed the red line (Only when the satellite signal exceeds the red line, the effective number of satellites have been connected).
 
 The base station needs a certain amount of time to meet the accuracy requirements of your input. Testing shows that in an open area without sky coverage, the base station will achieve the absolute accuracy of 2m within a few minutes; to reach the absolute accuracy of less than 30cm takes about an hour; to reach the absolute accuracy of 10cm takes a few hours.
 
@@ -360,19 +358,19 @@ Even if the accuracy of the base station is 1.5 to 2 m, the position accuracy of
 
 After the survey is complete, the Mission Planner will display the following page:
 
-<figure><img src="../.gitbook/assets/rtk0real11.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/11.jpg" alt=""><figcaption></figcaption></figure>
 
 In the RTCM box it shows that the base status indicator is green and both GPS and Glonass satellite systems are green (if you want to change the satellite system, refer to the following section). The box on the right says "Position is valid".
 
 To store the current location in Mission Planner: Click "Save Current Pos", enter a name in the dialogue box, and click "OK". As shown below, you can see your saved location in the list. Click the "Use" button for the location you saved. The base station will enter the fixed mode and the status will show "Using FixedLLA". In the future, if you set the base station in the same location, you do not need to conduct the survey again, just click the "Use" button that corresponds to the location you have saved.
 
-<figure><img src="../.gitbook/assets/rtk0real12.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/12.jpg" alt=""><figcaption></figcaption></figure>
 
 **Rover Module and Flight Controller Setup**
 
 Once the base station is established, you can activate the UXV. By utilizing the same telemetry module to connect with Mission Planner, the base station data will be transmitted through the telemetry module to the Here4 rover module on the UXV. On the main page of Mission Planner, you will be able to observe the current GPS status, which will be indicated as either RTK Float, RTK Fixed, or 3D RTK. These indications signify that the UXV's positioning has entered the RTK mode. RTK Float represents a floating-point solution, while RTK Fixed represents a fixed solution. RTK Fixed mode offers higher accuracy but requires a stronger signal strength. The term "3D RTK" is a comprehensive reference to both RTK Float and RTK Fixed in the Mission Planner interface.
 
-<figure><img src="../.gitbook/assets/rtk0real13.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/13.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **2. Single Base to Multiple Rovers**
 
@@ -386,13 +384,11 @@ or
 
 Ground station configuration: connect all telemetry modules to the computer via USB hub. Open Mission Planner to locate the base then connect it with flight controllers. Select AUTO connecting as shown below. All recognized flight controllers on the ports will be connected. You may select the UXV from the dropdown list below:
 
-<figure><img src="../.gitbook/assets/rtk0real14.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/14.jpg" alt=""><figcaption></figcaption></figure>
 
 If you connected the UXVs with 1 telemetry module, they should share the same COM port:
 
 ## 6. U-Center Firmware Update
-
-
 
 {% hint style="danger" %}
 Please do not update your Here4 Ublox firmware if you purchased your unit after 7th December 2023 before consulting your reseller. The firmware on new Here4s have our customised firmware which adds support for Moving Baseline, firmware from ublox website do not support that feature. Updating the firmware will drop Moving Baseline support from your units and you will not be able to revert back to production firmware with Moving Baseline support. To verify version please follow the steps here: [#steps-to-verify-ublox-firmware-version](here-4-manual.md#steps-to-verify-ublox-firmware-version "mention")
@@ -402,7 +398,7 @@ Please do not update your Here4 Ublox firmware if you purchased your unit after 
 Ensure that you have the latest firmware on Here4 before this process. Please follow [#3.-firmware-update](here-4-manual.md#3.-firmware-update "mention") to update the firmware.
 {% endhint %}
 
-Latest NEO F9P L1L5 firmware can be found here under Firmware Update section. [https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources](https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources)&#x20;
+Latest NEO F9P L1L5 firmware can be found here under Firmware Update section. [https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources](https://www.u-blox.com/en/product/neo-f9p-module?legacy=Current#Documentation-&-resources)
 
 1. Inside DroneCAN/UAVCAN config page of Mission Planner. Select Menu and Check
 
@@ -434,8 +430,6 @@ If the following option is not visible in Mission Planner, then update Mission P
 
 ## 7. Moving baseline
 
-
-
 <figure><img src="../.gitbook/assets/Here4 Moving Baseline-R.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
@@ -451,8 +445,6 @@ Please note that early Here4 units (Pre December 2023 Production Here4 Black and
 * Reboot the Here4 units, and wait for few seconds until the message as shown below appears.
 * The firmware supporting Moving Baseline has firmware hash: u-blox 1 HW: 00190000 SW: EXT CORE 1.00 **(49f616)**
 
-
-
 <figure><img src="../.gitbook/assets/MovingBaselineFirmwareCheck2.png" alt=""><figcaption></figcaption></figure>
 
 Once all settings and versions are confirmed, set following parameters for Moving Baseline on Ardupilot:<br>
@@ -464,17 +456,12 @@ Once all settings and versions are confirmed, set following parameters for Movin
 * Set the [GPS\_POS1\_X](https://ardupilot.org/copter/docs/parameters.html#gps-pos1-x)/Y/Z and [GPS\_POS2\_X](https://ardupilot.org/copter/docs/parameters.html#gps-pos2-x)/Y/Z parameters for the GPS antennas (see [Sensor Position Offset are here](https://ardupilot.org/copter/docs/common-sensor-offset-compensation.html#common-sensor-offset-compensation)). You must establish the relative positions of each GPS location on the vehicle with respect the vehicle’s motion.
 * [GPS1\_CAN\_OVRIDE](https://ardupilot.org/copter/docs/parameters.html#gps1-can-ovride) (Base NODEID) and [GPS2\_CAN\_OVRIDE](https://ardupilot.org/copter/docs/parameters.html#gps2-can-ovride) (Rover NODEID) determine which physical DroneCAN GPS is used for GPS1 and GPS2. These are automatically populated at boot from the detected addresses, which are also shown in [GPS\_CAN\_NODEID1](https://ardupilot.org/copter/docs/parameters.html#gps-can-nodeid1) and [GPS\_CAN\_NODEID2](https://ardupilot.org/copter/docs/parameters.html#gps-can-nodeid2), but can be overriden, if needed. You will need to determine which physical CAN GPS is assigned as GPS1 and GPS2 in order to setup the position offsets (see [Sensor Position Offset are here](https://ardupilot.org/copter/docs/common-sensor-offset-compensation.html#common-sensor-offset-compensation))
 
-
-
 ## 8. Installing Ardupilot on Here4
 
-*   You will require following components to upgrade Here4 to be Flight Controller
-
-    * Cube : For updating the bootloader on Here4 unit.
-    * Serial to USB connection: For talking to Here4 module over telemetry and updating firmware.
-    * Here4 Splitter board: For wiring IO pins in usable form
-
-
+* You will require following components to upgrade Here4 to be Flight Controller
+  * Cube : For updating the bootloader on Here4 unit.
+  * Serial to USB connection: For talking to Here4 module over telemetry and updating firmware.
+  * Here4 Splitter board: For wiring IO pins in usable form
 * ### Step 1: Updating Here4 Bootloader:
   * Connect Here4 to a Cube configured to operate over CAN bus.
   * Follow the steps here to update Here4 to latest release [Firmware Update](here-4-manual.md#id-3.-firmware-update).
@@ -484,22 +471,12 @@ Once all settings and versions are confirmed, set following parameters for Movin
 
 <figure><img src="../.gitbook/assets/Update Bootloader Here4.png" alt=""><figcaption></figcaption></figure>
 
-
-
-*   ### Step2: Updating to Here4 FC firmware
-
-
-
-    * Connect GPS\_TX and GPS\_RX pins, Vcc and Gnd to Serial to USB converter, which after update will be swapped in reference and become SERIAL0\_RX and SERIAL0\_TX , refer to the note below [Uart Pinout ](here-4-manual.md#uart)for description on why.
-    * Disconnect all connected flight controller like Cube from the system.
-    * Open Setup > Install Firmware page on Mission Planner.
-    * Plug in Here4 vis Serial to USB converter, and wait for Mission Planner to detect board type **1043** , as shown bellow. If not detected make sure you have Here4 powered and RX/TX correctly connected.
+* ### Step2: Updating to Here4 FC firmware
+  * Connect GPS\_TX and GPS\_RX pins, Vcc and Gnd to Serial to USB converter, which after update will be swapped in reference and become SERIAL0\_RX and SERIAL0\_TX , refer to the note below [Uart Pinout ](here-4-manual.md#uart)for description on why.
+  * Disconnect all connected flight controller like Cube from the system.
+  * Open Setup > Install Firmware page on Mission Planner.
+  * Plug in Here4 vis Serial to USB converter, and wait for Mission Planner to detect board type **1043** , as shown bellow. If not detected make sure you have Here4 powered and RX/TX correctly connected.
 
 <figure><img src="../.gitbook/assets/Bootloader Update State.png" alt=""><figcaption></figcaption></figure>
 
-
-
 * After detection you can move to select the Ardupilot version to update and wait for firmare flash to finish. Refer [Pinout](here-4-manual.md#pinout) for splitter board for connections.
-
-
-

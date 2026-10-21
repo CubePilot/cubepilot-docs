@@ -24,8 +24,6 @@ While George provides the flexibility of The Cube platform, it’s sweet spot is
 
 Learn more: [George UAV Autopilot](https://uavionix.com/products/george/)
 
-
-
 ### **truFYX**
 
 <figure><img src="../../.gitbook/assets/Cube Black change logo copy.png" alt=""><figcaption></figcaption></figure>
@@ -46,25 +44,23 @@ Learn more: [truFYX](https://uavionix.com/products/trufyx/)
 
 ###
 
-### **ping200X**&#x20;
+### **ping200X**
 
 ![](../../.gitbook/assets/ping200X_Money.png)
 
 **Transponder & ADSB Out Device. This is the 1st and only TSOd unit on the market for UAS.**
 
-| **Specification** |                                                                                 |
-| ----------------- | ------------------------------------------------------------------------------- |
-| Weight            | 50 grams                                                                        |
-| Size              | 47 x 54 x 9 mm                                                                  |
-| Input Voltage     | <p>11-34V (3S-8S LiPo)<br>1.5W Continuous On/Alt. <br>4W Peak (8ms maximum)</p> |
+| **Specification** |                                                                                |
+| ----------------- | ------------------------------------------------------------------------------ |
+| Weight            | 50 grams                                                                       |
+| Size              | 47 x 54 x 9 mm                                                                 |
+| Input Voltage     | <p>11-34V (3S-8S LiPo)<br>1.5W Continuous On/Alt.<br>4W Peak (8ms maximum)</p> |
 
 ping200X is the premier FAA TSO Certified Mode S ADS-B OUT transponder for UAS. Enabling airspace access, regulator and Air Navigation Service Provider (ANSP) acceptance worldwide, ping200X enables your aircraft to be detected by Secondary Surveillance Radar (SSR), Traffic Collision Avoidance Systems (TCAS), and ADS-B IN receivers.
 
 Compact and light, ping200X is a Level 2els, Class 1 transponder small enough to fit on Class 1 and 2 sUAS. At only 50-grams, the ping200X transponder packs a punch managing to outperform bulkier transponders while drawing only 1.5 Watts.
 
 Learn more: [**ping200X**](https://uavionix.com/products/ping200x/)
-
-
 
 ### ping2020i / ping1090i
 
@@ -84,13 +80,11 @@ ping2020i is the world’s smallest, lightest, and most affordable full-range, d
 
 Learn more: [ping2020i](https://uavionix.com/products/ping2020/)
 
-
-
 ### pingRX PRO
 
 ![](<../../.gitbook/assets/pingRX PRO.png>)
 
-**Professional detect and avoid ADSB Receiver.**&#x20;
+**Professional detect and avoid ADSB Receiver.**
 
 pingRX Pro is a dual-band ADS-B receiver capable of tracking aircraft on both 978MHz and 1090MHz.
 
@@ -100,16 +94,14 @@ The all-new pingRX Pro is the latest purpose-built Detect and Avoid (DAA) system
 
 pingRX Pro features a maximum range of nearly 100 times any competitive solution and meets all suggested well clear distances.
 
-| Specification         |                                                  |
-| --------------------- | ------------------------------------------------ |
-| Weight                | 8 grams                                          |
-| Size                  | 32x31x9mm                                        |
-| Input Voltage / Power | 4-6V / 150mA                                     |
-| Interface             | <p>MAVLink Serial 57600bps </p><p>UCP 115200</p> |
+| Specification         |                                                 |
+| --------------------- | ----------------------------------------------- |
+| Weight                | 8 grams                                         |
+| Size                  | 32x31x9mm                                       |
+| Input Voltage / Power | 4-6V / 150mA                                    |
+| Interface             | <p>MAVLink Serial 57600bps</p><p>UCP 115200</p> |
 
 Learn more: [pingRX PRO](https://uavionix.com/products/pingrx-pro/)
-
-
 
 ### SkyLine
 
@@ -121,13 +113,11 @@ Learn more: [pingRX PRO](https://uavionix.com/products/pingrx-pro/)
 
 Monitor and control aircraft location, network health, signal strength, and load balancing and roaming capabilities from the SkyLine Service Platform
 
-![](<../../.gitbook/assets/scalable-2x (2) (1).png>)
+![](../../.gitbook/assets/Scalable@2x.png)
 
 The SkyLink hardware and Managed Infrastructure services provide centralized control over your mission, be it linear infrastructure or wide-area coverage.
 
 Learn more: [SkyLine](https://uavionix.com/products/skyline/)
-
-
 
 ### microLink
 
@@ -147,8 +137,6 @@ microLink and skyStation use GPS UTC timing for its precision frequency hopping 
 | Bandwidth     | 200kHz                                                                       |
 
 Learn more: [microLink](https://uavionix.com/products/microlink/)
-
-
 
 ## Contact Information
 

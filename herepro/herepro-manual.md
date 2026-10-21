@@ -12,7 +12,7 @@ HerePro utilizes multi-frequency DGNSS signals with advanced algorithms to conve
 
 ### Features
 
-**1.**  Equipped with u-blox F9P, a professional high precision Multi-band RTK navigation module.&#x20;
+**1.** Equipped with u-blox F9P, a professional high precision Multi-band RTK navigation module.
 
 **2.** Powerful processing performance provided by a built-in STM32H7 chip. It offers real-time processing and data optimization, and Unmanned Industry standard AP\_Periph Firmware.
 
@@ -36,7 +36,7 @@ HerePro utilizes multi-frequency DGNSS signals with advanced algorithms to conve
 
 ## Specifications
 
-<table data-header-hidden><thead><tr><th>Features</th><th></th><th data-hidden><select></select></th></tr></thead><tbody><tr><td><strong>Features</strong></td><td></td><td></td></tr><tr><td>Receiver type</td><td>184-channel u-blox F9P</td><td></td></tr><tr><td>GNSS systems</td><td>BeiDou, Galileo, GLONASS, GPS, QZSS</td><td></td></tr><tr><td>Satellite bands</td><td>BDS B1I B2I, GPS L1C/A L2C, GLONASS L1OF L2OF, GALILEO E1B/C E5b, QZSS L1C/A L2C</td><td></td></tr><tr><td>Number of concurrent GNSS</td><td>4</td><td></td></tr><tr><td>Navigation update rate</td><td>Up to 20 Hz for RTK</td><td></td></tr><tr><td>Horizontal and vertical accuracy</td><td>RTK 0.01m +1ppm CEP</td><td></td></tr><tr><td>Heading accuracy</td><td>0.4 degrees</td><td></td></tr><tr><td>PVT horizontal positioning accuracy</td><td>1.5m CEP</td><td></td></tr><tr><td>Maximum altitude</td><td>50,000 m</td><td></td></tr><tr><td>Maximum speed</td><td>500 m/s</td><td></td></tr><tr><td>Convergence time</td><td>RTK &#x3C; 10s</td><td></td></tr><tr><td>Acquisition</td><td>Cold starts 24s</td><td></td></tr><tr><td></td><td>Aided starts 2s</td><td></td></tr><tr><td></td><td>Reacquisition 2s</td><td></td></tr><tr><td>Sensitivity</td><td>Tracking &#x26; Navigation: –167 dBm</td><td></td></tr><tr><td></td><td>Cold starts: –148 dBm</td><td></td></tr><tr><td></td><td>Hot starts: –157 dBm</td><td></td></tr><tr><td></td><td>Reacquisition: –160 dBm</td><td></td></tr><tr><td>Antenna</td><td>Multi-band dual antenna</td><td></td></tr><tr><td>Timepulse</td><td>Configurable from 0.25hz to 10mhz</td><td></td></tr><tr><td>Protocols</td><td>NMEA、UBX binary、RTCM 3.3</td><td></td></tr><tr><td>Anti-jamming</td><td>Active CW detection and removal</td><td></td></tr><tr><td></td><td>Onboard band pass filter</td><td></td></tr><tr><td>Anti-spoofing</td><td>Advanced anti-spoofing algorithms</td><td></td></tr><tr><td><strong>Pinout</strong></td><td></td><td></td></tr><tr><td>Power (XT30)</td><td>x2</td><td></td></tr><tr><td></td><td><img src="../.gitbook/assets/XT30.png" alt="" data-size="original"> </td><td></td></tr><tr><td>Debug</td><td>x1</td><td></td></tr><tr><td></td><td><img src="../.gitbook/assets/-debug-20230614-1.png" alt="" data-size="original"></td><td></td></tr><tr><td>CAN </td><td>x2</td><td></td></tr><tr><td></td><td><img src="../.gitbook/assets/HerePro Can Picture replacement.png" alt="" data-size="original"> </td><td></td></tr><tr><td>USB / GPIO</td><td>x1</td><td></td></tr><tr><td></td><td><img src="../.gitbook/assets/-usb-20230614-1.png" alt="" data-size="original"> </td><td></td></tr><tr><td><strong>Others</strong></td><td></td><td></td></tr><tr><td>EMMC</td><td>2G</td><td></td></tr><tr><td>Flash</td><td>2M</td><td></td></tr><tr><td>RAM</td><td>1M</td><td></td></tr><tr><td>Input voltage</td><td>6 V - 40 V (maximum 60V)</td><td></td></tr><tr><td>Working Temperature</td><td>-40 °C to +85 °C</td><td></td></tr><tr><td>Size</td><td>17 x 78 mm</td><td></td></tr><tr><td>Weight</td><td>110g（without cable，with pogo pin board）</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th>Features</th><th></th><th data-hidden><select></select></th></tr></thead><tbody><tr><td><strong>Features</strong></td><td></td><td></td></tr><tr><td>Receiver type</td><td>184-channel u-blox F9P</td><td></td></tr><tr><td>GNSS systems</td><td>BeiDou, Galileo, GLONASS, GPS, QZSS</td><td></td></tr><tr><td>Satellite bands</td><td>BDS B1I B2I, GPS L1C/A L2C, GLONASS L1OF L2OF, GALILEO E1B/C E5b, QZSS L1C/A L2C</td><td></td></tr><tr><td>Number of concurrent GNSS</td><td>4</td><td></td></tr><tr><td>Navigation update rate</td><td>Up to 20 Hz for RTK</td><td></td></tr><tr><td>Horizontal and vertical accuracy</td><td>RTK 0.01m +1ppm CEP</td><td></td></tr><tr><td>Heading accuracy</td><td>0.4 degrees</td><td></td></tr><tr><td>PVT horizontal positioning accuracy</td><td>1.5m CEP</td><td></td></tr><tr><td>Maximum altitude</td><td>50,000 m</td><td></td></tr><tr><td>Maximum speed</td><td>500 m/s</td><td></td></tr><tr><td>Convergence time</td><td>RTK &#x3C; 10s</td><td></td></tr><tr><td>Acquisition</td><td>Cold starts 24s</td><td></td></tr><tr><td></td><td>Aided starts 2s</td><td></td></tr><tr><td></td><td>Reacquisition 2s</td><td></td></tr><tr><td>Sensitivity</td><td>Tracking &#x26; Navigation: –167 dBm</td><td></td></tr><tr><td></td><td>Cold starts: –148 dBm</td><td></td></tr><tr><td></td><td>Hot starts: –157 dBm</td><td></td></tr><tr><td></td><td>Reacquisition: –160 dBm</td><td></td></tr><tr><td>Antenna</td><td>Multi-band dual antenna</td><td></td></tr><tr><td>Timepulse</td><td>Configurable from 0.25hz to 10mhz</td><td></td></tr><tr><td>Protocols</td><td>NMEA、UBX binary、RTCM 3.3</td><td></td></tr><tr><td>Anti-jamming</td><td>Active CW detection and removal</td><td></td></tr><tr><td></td><td>Onboard band pass filter</td><td></td></tr><tr><td>Anti-spoofing</td><td>Advanced anti-spoofing algorithms</td><td></td></tr><tr><td><strong>Pinout</strong></td><td></td><td></td></tr><tr><td>Power (XT30)</td><td>x2</td><td></td></tr><tr><td></td><td><img src="../.gitbook/assets/XT30.png" alt="" data-size="original"></td><td></td></tr><tr><td>Debug</td><td>x1</td><td></td></tr><tr><td></td><td><img src="../.gitbook/assets/-debug-20230614-1.png" alt="" data-size="original"></td><td></td></tr><tr><td>CAN</td><td>x2</td><td></td></tr><tr><td></td><td><img src="../.gitbook/assets/HerePro Can Picture replacement.png" alt="" data-size="original"></td><td></td></tr><tr><td>USB / GPIO</td><td>x1</td><td></td></tr><tr><td></td><td><img src="../.gitbook/assets/-usb-20230614-1.png" alt="" data-size="original"></td><td></td></tr><tr><td><strong>Others</strong></td><td></td><td></td></tr><tr><td>EMMC</td><td>2G</td><td></td></tr><tr><td>Flash</td><td>2M</td><td></td></tr><tr><td>RAM</td><td>1M</td><td></td></tr><tr><td>Input voltage</td><td>6 V - 40 V (maximum 60V)</td><td></td></tr><tr><td>Working Temperature</td><td>-40 °C to +85 °C</td><td></td></tr><tr><td>Size</td><td>17 x 78 mm</td><td></td></tr><tr><td>Weight</td><td>110g（without cable，with pogo pin board）</td><td></td></tr></tbody></table>
 
 ## User Manual
 
@@ -71,8 +71,6 @@ Turn on the autopilot and connect it to Mission Planner. Go to Config - Full Par
 
 Once completed, click "Write Params". CAN function should be enabled after rebooting the autopilot.
 
-
-
 **Compass Setting (Using the current firmware):**
 
 > **There is no safety switch. Safety switch can be disabled by modifying BRD\_SAFETYENABLE to 0. Connecting external safety switch to GPS1 port is also an option.**
@@ -105,7 +103,7 @@ Install PX4 firmware. Connect the 4pin CAN cable to CAN1 or CAN2 port. Then, sup
 
 Two u-blox F9 GPS modules can be used to estimate yaw which removes the need for a compass which may suffer from magnetic interference from the ground or the vehicle’s motors and ESCs. This works even if the GPSs do not have RTK fix (RTCM data from a fixed RTK station or NTRIP server).
 
-When DroneCAN GPS are used ,make sure that no SERIAL ports are setup with GPS protocol . Also be sure that the two DroneCAN GPS are on the same physical CAN bus from the autopilot（CAN port on the same flight control）. This might requires that a CAN bus splitter be used.&#x20;
+When DroneCAN GPS are used ,make sure that no SERIAL ports are setup with GPS protocol . Also be sure that the two DroneCAN GPS are on the same physical CAN bus from the autopilot（CAN port on the same flight control）. This might requires that a CAN bus splitter be used.
 
 Then set these parameters:
 
@@ -145,13 +143,13 @@ LED arrays on HerePro supports Lua script. The script can be saved into the EMMC
 
 Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro.
 
-Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:&#x20;
+Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:
 
 ![](../.gitbook/assets/1en.png)
 
 Modify parameters “GPS\_TYPE” = 1，**“GPS\_RTCMSOURCE” = 0**，**“GPS\_RTCMSOURCE” = 0**. After that, click write params then Commit Params and reboot the HerePro.
 
-![](<../.gitbook/assets/2en (1).png>)
+![](../.gitbook/assets/2en.png)
 
 After power cycle the HerePro, connect it to the computer through its USB port. Select the lower COM port as there are 2 for HerePro.
 
@@ -163,17 +161,17 @@ After connecting, go to Config > MAVFtp > APM > scripts screen and right click. 
 
 Or connect HerePro to PC with USB-Type c directly.
 
-Connect the HerePro to Mission Planner via USB. Go to Config > Full Parameter page to modify the relative parameters:&#x20;
+Connect the HerePro to Mission Planner via USB. Go to Config > Full Parameter page to modify the relative parameters:
 
-<figure><img src="../.gitbook/assets/type-c (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/type-c.png" alt=""><figcaption></figcaption></figure>
 
 ### 6. Firmware update
 
 > Update procedures are as shown as following if there are any future firmware update
 
-**Mission Planner must be later or at the following version to have the new feature available:**&#x20;
+**Mission Planner must be later or at the following version to have the new feature available:**
 
-![](<../.gitbook/assets/HerePro missionplanner.png>)
+![](<../.gitbook/assets/0 (1).png>)
 
 Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro. Connect the autopilot to Mission Planner and go to UAVCAN screen. Click SLCan Mode CAN1 to load CAN GPS status.
 
@@ -205,43 +203,43 @@ To use HerePro on a UXV, you need the following hardware : Computer, telemetry m
 
 The following operations use 2 HerePro modules, with one as base and one as rover respectively. Connecting them 1 by 1 to setup their parameters.
 
-**HerePro RTK rover parameter settings:**&#x20;
+**HerePro RTK rover parameter settings:**
 
 Connect the 4pin CAN cable from CAN port on HerePro to CAN1 or CAN2 on autopilot. Then, supply 6V - 40V to HerePro.
 
-Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:&#x20;
+Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:
 
 ![](../.gitbook/assets/fw4.png)
 
 Modify parameters **“GPS\_TYPE = 1“**，**“SERIAL\_PASS1 = 0“**. After that, click write params then Commit Params and disconnect the HerePro.
 
-![](<../.gitbook/assets/fw5 (1).png>)
+![](../.gitbook/assets/fw5.png)
 
 Connect another HerePro and continue.<br>
 
-**HerePro Base parameter settings(Ground side):**&#x20;
+**HerePro Base parameter settings(Ground side):**
 
 Connect the 4pin CAN cable from left-hand-side CAN port on HerePro to CAN1 or CAN2 on autopilot. supply 6V - 40V to HerePro.
 
-Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:&#x20;
+Connect the autopilot to Mission Planner via USB. Go to Initial Settings > Optional Hardware > UAVCAN page and click SLCan Mode CAN1. CAN device status will show up. Click Menu > parameters at the right-hand-side to modify the following parameters:
 
-<figure><img src="../.gitbook/assets/fw4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fw4.png" alt=""><figcaption></figcaption></figure>
 
 Modify parameters **“SERIAL\_PASS1 = 1”**. After that, click write params then Commit Params and disconnect the HerePro.
 
 <figure><img src="../.gitbook/assets/fw5.png" alt=""><figcaption></figcaption></figure>
 
-**Before using, please ensure that everything are correctly connected.:**&#x20;
+**Before using, please ensure that everything are correctly connected.:**
 
-**Base:** \
-Power the HerePro base with 6V-40V. \
+**Base:**\
+Power the HerePro base with 6V-40V.\
 Connect its USB port to the computer USB port. (Or connect HerePro with type-c cable to PC)\
 Connect a telemetry to another port on the computer.
 
-**Rover:** \
+**Rover:**\
 Power the HerePro with 6V-40V. Connect it to CAN1 port on autopilot. Connect a telemetry to TELEM1 port on autopilot.
 
-**Antenna Placement:** \
+**Antenna Placement:**\
 **RTK Antenna placement is very important for getting precise RTK positioning**\
 RTK requires a much better environment to work. There are special requirements on placement of its antenna.
 
@@ -253,11 +251,9 @@ The best environment requires the base and rover antenna to have a clear view of
 
 Do not place the antenna near electronic devices, as high power electronic devices in close proximity may affect the radio frequency noise of the GPS signal. Examples are mobile phone base stations, high voltage transformers, and etc.
 
-Please place the base station in an outdoor environment with sufficient sky coverage to obtain good satellite signal.&#x20;
+Please place the base station in an outdoor environment with sufficient sky coverage to obtain good satellite signal.
 
 Place the base station on a stable and elevated platform such as a tripod.
-
-
 
 ### **Base Module Setting using Mission Planner:**
 
@@ -267,11 +263,9 @@ Start with base module setup. During the base station setup, the rover and the U
 
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-* Go to Parameters and set B\_ENABLE  1
+* Go to Parameters and set B\_ENABLE 1
 
-&#x20;
-
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Disconnect HerePro and Connect it again, then go to the "initial setup → Optional Hardware → RTK/GPS Inject". You will see the following page:
 
@@ -303,7 +297,7 @@ Even if the accuracy of the base station is 1.5 to 2 m, the position accuracy of
 
 After the survey is complete, the Mission Planner will display the following page:
 
-<figure><img src="../.gitbook/assets/15en (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/15en.png" alt=""><figcaption></figcaption></figure>
 
 In the RTCM box, the base status indicator is green and indicators for different GNSS systems are also green. The box on the right shows Position is valid.
 

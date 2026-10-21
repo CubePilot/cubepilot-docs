@@ -32,7 +32,7 @@ Attempt flashing the bootloader via SWD port if the Cube is:
 
 1. Plug J-Link into the left port on the Carrier Board.
 
-<img src="../../../../.gitbook/assets/unknown (1).jpeg" alt="" height="228" width="384">
+<img src="../../../../.gitbook/assets/unknown.jpeg" alt="" height="228" width="384">
 
 2. Connect J-Link to PC over USB.
 3. Open J-Flash Lite (JFlashLite.exe).
@@ -61,4 +61,3 @@ Attempt flashing the bootloader via SWD port if the Cube is:
 
 Check the version matches the .hex file flashed.\
 You should now be able install firmware using Mission Planner.
-

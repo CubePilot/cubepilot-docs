@@ -1,6 +1,6 @@
 # HereLink Blue
 
-![HereLink Blue](../../../../.gitbook/assets/BlueHereLink\_web.png)
+![HereLink Blue](../../../../.gitbook/assets/BlueHereLink_web.png)
 
 ## Overview
 
@@ -11,14 +11,14 @@ HereLink Blue allows RC control, HD video and telemetry data to be transmitted u
 ## Features
 
 * Android based smart device with 5.46 inch 1080P capacitive touch screen.
-* Integrated digital transmission system simultaneously transmitting video, telemetry and control.&#x20;
-* Custom UR/Solex TX  ground station software with MAVlink support for Ardupilot and PX4.
-* Dual hall effect self centering gimbals with removable sticks.&#x20;
-* 1080P HD video with dual digital video inputs.&#x20;
+* Integrated digital transmission system simultaneously transmitting video, telemetry and control.
+* Custom UR/Solex TX ground station software with MAVlink support for Ardupilot and PX4.
+* Dual hall effect self centering gimbals with removable sticks.
+* 1080P HD video with dual digital video inputs.
 * Dual S.bus signal output for simultaneous control of autopilot and pan/tilt cameras.
-* 6 customizable Mavlink buttons and Mavlink/Sbus hardware wheel.&#x20;
-* Tether and share video and telemetry via wifi ground station such as Mission Planner.&#x20;
-* Onboard Arm Cortex A53 & Cortex A53 SOC in both air and ground units for custom applications.&#x20;
+* 6 customizable Mavlink buttons and Mavlink/Sbus hardware wheel.
+* Tether and share video and telemetry via wifi ground station such as Mission Planner.
+* Onboard Arm Cortex A53 & Cortex A53 SOC in both air and ground units for custom applications.
 * Precision machined 6061 aluminum housing, hard-anodized
 * Waterproof hard storage case
 
@@ -59,7 +59,7 @@ HereLink Blue allows RC control, HD video and telemetry data to be transmitted u
 
 ## Ground Station
 
-![HereLink Blue Ground Station](../../../../.gitbook/assets/BlueHereLink\_GCS.png)
+![HereLink Blue Ground Station](../../../../.gitbook/assets/BlueHereLink_GCS.png)
 
 |                    |                                                                                                                                |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -77,7 +77,7 @@ HereLink Blue allows RC control, HD video and telemetry data to be transmitted u
 
 ### Air Unit
 
-![HereLink Blue Air Unit](<../../../../.gitbook/assets/BlueHereLink\_AIR\_web (1).png>)
+![HereLink Blue Air Unit](../../../../.gitbook/assets/BlueHereLink_AIR_web.png)
 
 |                 |                                                                                                                                                                                           |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -88,4 +88,4 @@ HereLink Blue allows RC control, HD video and telemetry data to be transmitted u
 | Control Output: | 4 Pin interface x 1: Two 3.3V level RC output connectors (S.bus in phase, S.bus inverting or PPM signal output, ground terminal control)                                                  |
 | USB:            | Micro USB x 1: for debugging upgrades, support OTG mode                                                                                                                                   |
 | Antenna:        | MMCX antenna jack x 2: used for signal transmission and ground communication                                                                                                              |
-| Size:           | 104.5mm  x 30.5mm x 16mm                                                                                                                                                                  |
+| Size:           | 104.5mm x 30.5mm x 16mm                                                                                                                                                                   |

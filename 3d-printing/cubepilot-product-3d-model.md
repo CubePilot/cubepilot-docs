@@ -54,7 +54,7 @@ HereLink Air Unit.STEP (ZIP)
 
 ![](<../.gitbook/assets/Herelink Air Unit Antenna.jpg>)
 
-{% file src="../.gitbook/assets/HereLink Air Unit Antenna.STEP.zip" %}
+{% file src="../.gitbook/assets/Herelink Air Unit Antenna.STEP.zip" %}
 HereLink Air Unit Antenna.STEP (ZIP)
 {% endfile %}
 

@@ -2,36 +2,34 @@
 
 ## Mounting
 
-Use the 3M double-layered tape and screws from the package to mount The Cube as close as possible to the unmanned aerial vehicle's (UAV) center of gravity. The carrier board screws are designed for 1.8 mm boards. The length of the customized M2.5 screws should be around 6 mm to 7.55 mm in order to mount The Cube onto the board.&#x20;
+Use the 3M double-layered tape and screws from the package to mount The Cube as close as possible to the unmanned aerial vehicle's (UAV) center of gravity. The carrier board screws are designed for 1.8 mm boards. The length of the customized M2.5 screws should be around 6 mm to 7.55 mm in order to mount The Cube onto the board.
 
 {% hint style="info" %}
 Ensure that the arrow on The Cube is pointing towards the front of the UAV.
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/Photo%20-%2001-R.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The Cube can be mounted in reverse or upside-down. For such situations, the parameters related to the orientation of The Cube may need to be modified accordingly.
 {% endhint %}
 
 {% hint style="warning" %}
-The Cube is not waterproof. Ensure it is adequately protected when operating in a rainy or humid environment.&#x20;
+The Cube is not waterproof. Ensure it is adequately protected when operating in a rainy or humid environment.
 {% endhint %}
 
 ## Peripheral Connection
 
-According to the peripheral type, size, dynamic structure, and load, the installation and parameter settings may vary. See the following for details.&#x20;
+According to the peripheral type, size, dynamic structure, and load, the installation and parameter settings may vary. See the following for details.
 
 {% hint style="warning" %}
 Connect the GPS, sensors, telemetry, etc. to The Cube according to the connector pinout. Check the wiring order carefully, as most peripheral malfunctions are due to incorrect wiring. Since there are limitations on every interface on The Cube, connect your high-power peripheral to an external BEC.
 {% endhint %}
 
-### Installing the  MicroSD Card
+### Installing the MicroSD Card
 
 Data flash logs are stored on the MicroSD card, which is inserted in the left slot of The Cube. It is recommended to use a Class 4 or higher MicroSD card.
 
 {% hint style="info" %}
-The Cube cannot arm the UAV without a MicroSD card. An alarm with one high tone and two low tones will be played when The Cube arms the UAV.&#x20;
+The Cube cannot arm the UAV without a MicroSD card. An alarm with one high tone and two low tones will be played when The Cube arms the UAV.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/27.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -44,7 +42,7 @@ The Cube supports three different power sources, which include the following:
 * Servo rail
 * USB cable
 
-When more than one power source is connected, power is drawn from the highest-priority source with a valid input voltage.&#x20;
+When more than one power source is connected, power is drawn from the highest-priority source with a valid input voltage.
 
 <table><thead><tr><th width="157">Power Source</th><th width="120">Priority</th><th width="152">Regular Range</th><th width="141">Limit</th><th>Protection Range</th></tr></thead><tbody><tr><td>Power Module Input</td><td>High</td><td>4.8 V - 5.4 V</td><td>4.1 V - 5.7 V</td><td>0 V - 20 V</td></tr><tr><td>Servo Rail Input</td><td>Medium</td><td>4.8 V - 5.4 V</td><td>4.1 V - 10 V</td><td>0 V - 20 V</td></tr><tr><td>USB Cable Input</td><td>Low</td><td>4.8 V - 5.4 V</td><td>4.1 V - 5.7 V</td><td>0 V - 6 V</td></tr></tbody></table>
 
@@ -116,14 +114,12 @@ The function of the wireless telemetry is to establish two-way communication bet
 
 #### **Telemetry Requirement: Mavlink protocol, Passthrough protocol, or TTL serial interface**
 
-Ensure that the pin assignment of the cable matches the pinout of TELEM1 on The Cube.&#x20;
+Ensure that the pin assignment of the cable matches the pinout of TELEM1 on The Cube.
 
 After confirming, the telemetry cable can be connected to either the TELEM1 or TELEM2 port. Connect the other end of the cable to one of the COM ports on the GCS. The baud rate is typically 57600.
 
 {% hint style="info" %}
 The default baud rate of TELEM1 port is 57600. It must match the telemetry baud rate.
 {% endhint %}
-
-
 
 Last Update: 11th June 2019

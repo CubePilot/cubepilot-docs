@@ -22,7 +22,7 @@ To configure press and hold hotspot logo, and you should see following screen.
 
 Then under Set up Wifi hotspot configure name and password for the hotspot.
 
-![](<../../../../.gitbook/assets/image (12) (1).png>)
+![](../../../../.gitbook/assets/password.png)
 
 The video stream will be available at `rtsp://192.168.43.1:8554/fpv_stream`to connected devices.
 
@@ -30,11 +30,11 @@ The video stream will be available at `rtsp://192.168.43.1:8554/fpv_stream`to co
 
 Press and hold the Hotspot button under notification logo.
 
-![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 12.35.35 PM (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 12.35.35 PM.png>)
 
 Under `Tethering & portable hotspot` find `USB tethering`, turn it on.
 
-![](<../../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../../.gitbook/assets/image (10).png>)
 
 ![](<../../../../.gitbook/assets/Screen Shot 2021-02-14 at 12.41.01 PM.png>)
 
@@ -60,10 +60,10 @@ In this example we use VLC media player
 
 Open VLC and go to File >> Open network
 
-Type the url address provided on the HereLink Blue stream menu and click `Open`&#x20;
+Type the url address provided on the HereLink Blue stream menu and click `Open`
 
-![](<../../../../.gitbook/assets/image (16) (1).png>)
+![](../../../../.gitbook/assets/vlc-stream.png)
 
 The video stream window will automatically opens, if not, you can force it by clicking right on the video stream link >> Play
 
-![](<../../../../.gitbook/assets/image (18) (1).png>)
+![](../../../../.gitbook/assets/vlc_2.png)

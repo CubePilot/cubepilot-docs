@@ -22,9 +22,9 @@ Herelink can be updated on PC, Mac and Linux as per the below process. Newer fir
 
 ### **Download firmware upgrade application**
 
-* Windows ：[https://herelinkfw.cubepilot.org/flasher\_win.zip](https://herelinkfw.cubepilot.org/flasher\_win.zip)
-* MAC ：[https://herelinkfw.cubepilot.org/flasher\_mac.zip](https://herelinkfw.cubepilot.org/flasher\_mac.zip)
-* Linux ：[https://herelinkfw.cubepilot.org/flasher\_linux.zip](https://herelinkfw.cubepilot.org/flasher\_linux.zip)
+* Windows ：[https://herelinkfw.cubepilot.org/flasher\_win.zip](https://herelinkfw.cubepilot.org/flasher_win.zip)
+* MAC ：[https://herelinkfw.cubepilot.org/flasher\_mac.zip](https://herelinkfw.cubepilot.org/flasher_mac.zip)
+* Linux ：[https://herelinkfw.cubepilot.org/flasher\_linux.zip](https://herelinkfw.cubepilot.org/flasher_linux.zip)
 
 ### **Controller Upgrade**
 
@@ -128,7 +128,7 @@ If you can view the airunit firmware version from controller, you can upgrade it
 
 * After the update screen is displayed, determine whether the current version needs to be updated.
 
-![](<../../.gitbook/assets/009 (1).png>)
+![](../../.gitbook/assets/009.png)
 
 * If there is a new online version, perform the following three steps in order to complete the upgrade.
 

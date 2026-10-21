@@ -8,7 +8,7 @@
 
 <figure><img src="../.gitbook/assets/Cubepilot-logo-2-(For-White-background)-.png" alt=""><figcaption><p>CubePilot logo-2(For White background) transparent background PNG file please download below</p></figcaption></figure>
 
-{% file src="../.gitbook/assets/Cubepilot-logo-2-(For-White-background)- (1).png" %}
+{% file src="../.gitbook/assets/Cubepilot-logo-2-(For-White-background)-.png" %}
 Cubepilot logo-2 (For White background)
 {% endfile %}
 

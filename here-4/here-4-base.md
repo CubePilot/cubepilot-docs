@@ -1,10 +1,8 @@
 # Here 4 Base
 
-<figure><img src="../.gitbook/assets/Here4-Base-EN-20230905-1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Here4-Base-EN-20230905-1.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
-
-
 
 The Here 4 Base, a product of CubePilot, compatibile with both Ardupilot and PX4 systems. It also seamlessly interfaces with ground control stations, including Mission Planner and QGroundControl.
 
@@ -91,8 +89,6 @@ Furthermore, the Here 4 Base is designed for user-friendliness. Setting it up to
 
 ### Pinout
 
-
-
 <figure><img src="../.gitbook/assets/-debug-20230928-2.png" alt=""><figcaption></figcaption></figure>
 
 | Pin | Definition |
@@ -145,19 +141,13 @@ Done
 
 To use Here 4 Base on a UXV, you need the following hardware： Computer, telemetry modules, Here4 Base , Base Antenna, Tripod.
 
-
-
 <figure><img src="../.gitbook/assets/here4Base-20230908-EN-01R (1).jpg" alt=""><figcaption></figcaption></figure>
 
 **Before starting to use, please make sure that the hardware connection is correct:**
 
-
-
 **Ground side:** Connect base antenna to base station, then connect the base station module to computer through USB port; Telemetry module is connected to another USB port of the same computer. **UXV side**: Connect Here 4 Base to CAN interface , telemetry module to the TELEM interface on flight control.
 
-
-
-<figure><img src="../.gitbook/assets/7 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/7.jpg" alt=""><figcaption></figcaption></figure>
 
 #### **Antenna Placing**
 
@@ -177,7 +167,7 @@ Please place the base station in an outdoor environment with sufficient sky cove
 
 Place the base station on a stable and elevated platform, such as a tripod.
 
-<figure><img src="../.gitbook/assets/8 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/8.jpg" alt=""><figcaption></figcaption></figure>
 
 #### **Base Module Setting using Mission Planner**
 
@@ -188,8 +178,6 @@ Open the Mission Planner ground station software on your computer and go to the 
 <figure><img src="../.gitbook/assets/MP-rtk001.jpg" alt=""><figcaption></figcaption></figure>
 
 Select the correct base module com port in the top left corner and click connect. In the SurveyIn Acc section, enter the absolute geographic accuracy that you expect your Here 4 Base station to achieve. In the Time column, enter the minimum survey time you expect. Click on Restart, the ground station will transfer the data you have entered to the Here 4 base module, the base module will start a new round of surveying. You will see the following page:
-
-
 
 <figure><img src="../.gitbook/assets/MP-rtk002.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -223,15 +211,13 @@ In the RTCM box it shows that the base status indicator is green and both the GP
 
 To store the current location in the Mission Planner: Click "Save Current Pos", enter a name in the dialogue box, and click "OK". As shown below, you can see your saved location in the list. Click the "Use" button for the location you saved. The base station will enter the fixed mode and the status will show "Using FixedLLA". In the future, if you set the base station in the same location, you do not need to conduct the survey again, just click the "Use" button that corresponds to the location you have saved.
 
-
-
 <figure><img src="../.gitbook/assets/MP-rtk005.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Rover Module and Flight Controller Setup**
 
 After the base station is set up, you can turn on the UXV. Using the same telemetry module to connect Mission Planner, the base station data will be transmitted through the telemetry module to the Here 4 rover module on the UXV. In the Mission Planner main page, you can see the current GPS status displayed as RTK Float / RTK Fixed / 3D RTK, indicating that the positioning of the UXV has entered the RTK mode. RTK Float is a floating-point solution; RTK Fixed is a fixed solution. RTK Fixed mode has higher accuracy and requires better signal strength. 3D RTK is unified saying of RTK Float / RTK in the Mission Planner version.
 
-<figure><img src="../.gitbook/assets/13 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/13.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **2. Single Base to Multiple Rovers**
 

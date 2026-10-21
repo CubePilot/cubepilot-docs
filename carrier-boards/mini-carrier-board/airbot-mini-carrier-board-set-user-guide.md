@@ -37,7 +37,7 @@ The Airbot Systems carrier board connectors are the same as those on the standar
 
 ## RC Signal and Power Selection <a href="#rc-signal-and-power-selection" id="rc-signal-and-power-selection"></a>
 
-<figure><img src="../../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-legacy-files_o_assets_2F-LUhw7cdLeWVORgnTA3i_2F-MhvLADMbCAWmh9NBc1-_2F-MhvgfOo6YGBJCFvdE7Z_2FAirbot_20MCB_20Bottom (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-legacy-files_o_assets_2F-LUhw7cdLeWVORgnTA3i_2F-MhvLADMbCAWmh9NBc1-_2F-MhvgfOo6YGBJCFvdE7Z_2FAirbot_20MCB_20Bottom.avif" alt=""><figcaption></figcaption></figure>
 
 ## Airbot Systems Power Distribution Board (optional) <a href="#airbot-systems-power-distribution-board-optional" id="airbot-systems-power-distribution-board-optional"></a>
 
@@ -51,7 +51,7 @@ The PDB can not be in contact with any conductive materials. Ensure there is suf
 
 <figure><img src="../../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-legacy-files_o_assets_2F-LUhw7cdLeWVORgnTA3i_2F-MhvLADMbCAWmh9NBc1-_2F-Mhvh8YbJERxb2EO_PXl_2FAirbot_20MCB_20set_20with_20Cube_20Orange_20-_20Side.avif" alt=""><figcaption></figcaption></figure>
 
-The following Github links can be used to revise and update the Airbot Systems Mini carrier board informatio&#x6E;**:**&#x20;
+The following Github links can be used to revise and update the Airbot Systems Mini carrier board informatio&#x6E;**:**
 
-* [https://github.com/CubePilot/cubepilot-docs/tree/master/carrier-boards/airbot-mini-carrier-board](../airbot-mini-carrier-board)
+* [https://github.com/CubePilot/cubepilot-docs/tree/master/carrier-boards/airbot-mini-carrier-board](../airbot-mini-carrier-board/)
 * [https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md](https://github.com/CubePilot/cubepilot-docs/blob/master/carrier-boards/airbot-mini-carrier-board/airbot-mini-carrier-board-set-user-guide.md)

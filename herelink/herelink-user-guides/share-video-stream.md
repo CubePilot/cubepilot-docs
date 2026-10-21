@@ -114,7 +114,7 @@ Now，Mission Planner able to use mavlink telemetry data.
 * Right click on HUD screen to enter Video menu,choose HereLink Video then a IP input window will pop up.
 * Enter 192.168.42.129 , then the video will be showed on HUD screen.
 
-![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.46.34 PM.jpg>)
+![](<../../.gitbook/assets/Screenshot 2022-07-08 at 1.04.05 PM.jpg>)
 
 > First use of HereLink Video may require to download components
 
@@ -153,7 +153,7 @@ Now，Mission Planner able to use mavlink telemetry data.
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.27 PM.jpg>)
 
-![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.41 PM (1).jpg>)
+![](<../../.gitbook/assets/Screenshot 2022-07-08 at 12.58.41 PM.jpg>)
 
 * Right click on HUD screen to enter Video menu, choose HereLink Video then a IP input window will pop up.
 * Enter the IP address obtained in the previous step，then the video will be showed on HUD screen.
@@ -177,6 +177,6 @@ Connect with QGroundControl
 In this example, we use VLC player
 
 * Open VLC player and click Media>>Open network stream
-* Enter IP address provide by HereLink，Then click “Play”&#x20;
+* Enter IP address provide by HereLink，Then click “Play”
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-08 at 1.07.08 PM.jpg>)

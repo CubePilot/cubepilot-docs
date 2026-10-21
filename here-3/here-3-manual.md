@@ -27,8 +27,6 @@ Here 3/3+ GPS is a Cost-efficient GNSS system that supports RTK mode. Positionin
 
 #### Pinout
 
-
-
 ![](<../.gitbook/assets/01 (1).png>)
 
 | Pin | Definition | Cable color |
@@ -39,8 +37,6 @@ Here 3/3+ GPS is a Cost-efficient GNSS system that supports RTK mode. Positionin
 |  4  |     GND    |    black    |
 
 ![](<../.gitbook/assets/Here3 Can2.png>)
-
-
 
 | Pin | Definition | Cable color |
 | :-: | :--------: | :---------: |
@@ -185,8 +181,6 @@ To use Here 3 / Here 3+ on a UAV, you need the following hardware： Computer, t
 
 ![](../.gitbook/assets/7.jpg)
 
-
-
 **Antenna Placing**
 
 **Placing the RTK Antenna is very important for getting precise RTK positioning**
@@ -285,11 +279,11 @@ CAN\_D2\_PROTOCOL：1 set virtual driver of CAN 2 to DRONECAN
 
 After successful loading, select the autopilot SLCAN COM port with 115200 baud rate and Connect and then Go to "Initial Setup - Optional Hardware - DRONECAN", click "SLCan Mode CAN1".
 
-![](<../.gitbook/assets/17 (1) (1).png>)
+![](<../.gitbook/assets/21 (1).png>)
 
 When the device settings of Here3 pop-up, click "Parameters" from the right.
 
-![](<../.gitbook/assets/18 (1) (1).png>)
+![](<../.gitbook/assets/22 (1).png>)
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
@@ -299,7 +293,7 @@ In parameter setting page, change uavcan.node\_id to 0-125. Click before enterin
 
 Connect each Here 3 / Here 3+ 4Pin CAN cable to the CAN 1 port of the flight controller(one at a time), and conduct the following procedure. Select "install firmware" from Mission Planner and load the latest copter or plane firmware.
 
-![](<../.gitbook/assets/20 (1).png>)
+![](<../.gitbook/assets/16 (1).png>)
 
 After successful loading, select the autopilot SLCAN COM port with 115200 baud rate and Connect and then go to "Config/Tuning > Full Parameter List" and modify the following parameters:
 
@@ -321,7 +315,7 @@ When the device settings of Here 3 / Here 3+ pop-up, click "Parameters" from the
 
 In parameter setting page, change uavcan.node\_id to 0-125. Click before entering a value. Then, click "Commit Params" to save the changes and completed manual CAN id allocation.
 
-![](<../.gitbook/assets/23 (1).png>)
+![](<../.gitbook/assets/19 (1).png>)
 
 #### 2. Here 3 / Here 3+ firmware upgrade
 
@@ -425,7 +419,7 @@ The u-blox chip Parameter Checking can be completed only when Here 3 / Here 3+ i
 
 The u-center must be on v20.10 or later:
 
-![](../.gitbook/assets/39.jpg)
+![](../.gitbook/assets/31.jpg)
 
 Connect to Mission Planner and go to “UAVCAN” tab. Modify “passThrough” to “1”.
 
@@ -437,14 +431,12 @@ Click “Menu > CANPassThrough”. Set TCP port to 500 and click “OK”.
 
 Open u-center and connect it (Connect > Network Connection > new).
 
-![](../.gitbook/assets/42.jpg)
+![](../.gitbook/assets/35.jpg)
 
 When connected, parameters and messages can be viewed in u-center.
 
 When finished reviewing, go back to Mission Planner and set “passThrough” to “0”.
 
 ![](<../.gitbook/assets/43 (1).png>)
-
-
 
 2022.06.27

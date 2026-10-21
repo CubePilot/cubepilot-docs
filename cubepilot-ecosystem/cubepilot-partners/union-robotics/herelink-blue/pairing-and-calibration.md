@@ -4,10 +4,10 @@ HereLink Blue has a dedicated system settings app for the setup and configuratio
 
 The HereLink Blue Settings app allows you to:
 
-* Pair The Air Unit&#x20;
+* Pair The Air Unit
 * See Radio & System Status
 * Calibrate the RC
-* Set RC Mode & Throttle Settings&#x20;
+* Set RC Mode & Throttle Settings
 * Calibrate HW Wheel and Set Channel
 * Set Radio Regional Settings
 * Configure Sbus Buttons
@@ -18,7 +18,7 @@ From the "App Launcher" screen, slide down the notification drawer from the top 
 
 ![](../../../../.gitbook/assets/90.png)
 
-Select the "Union Robotics Settings"&#x20;
+Select the "Union Robotics Settings"
 
 ![](../../../../.gitbook/assets/91.png)
 
@@ -46,7 +46,7 @@ Here you will find the sticks and hardware wheel options and calibration setting
 
 From this screen you can:
 
-* See RC Calibration Status&#x20;
+* See RC Calibration Status
 * Calibrate Hardware Wheel
 * Calibrate Sticks
 * Set RC Stick Mode
@@ -56,9 +56,9 @@ From this screen you can:
 
 ## Calibrate the hardware wheel
 
-Select `HW WHEEL CAL`&#x20;
+Select `HW WHEEL CAL`
 
-![](../../../../.gitbook/assets/wheel\_cal.jpeg)
+![](../../../../.gitbook/assets/wheel_cal.jpg)
 
 Click `Start rollwheel` and follow the calibration steps.
 
@@ -68,23 +68,21 @@ Click `Start rollwheel` and follow the calibration steps.
 
 Once calibration is complete you can set the Sbus channel output and Bus output for the wheel on the highlighted settings
 
-Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 16, on bus 2 the wheel can be set to channels 1 -16.&#x20;
+Bus 1 is the same output as the sticks and the wheel can be set to channels 5 - 16, on bus 2 the wheel can be set to channels 1 -16.
 
-![](../../../../.gitbook/assets/Wheel\_ch.jpeg)
+![](../../../../.gitbook/assets/Wheel_ch.jpg)
 
 Once complete click `SAVE` to store settings
 
 ## Calibrate the joysticks
 
+* Click `HW JS CAL`
 
-
-* Click `HW JS CAL`&#x20;
-
-![](../../../../.gitbook/assets/Stick\_cal.jpeg)
+![](../../../../.gitbook/assets/Stick_cal.jpg)
 
 ![](../../../../.gitbook/assets/94.png)
 
-This screen is split into 2 sections, joystick calibration on the left, joystick testing on the bottom right, instructions for the user to follow will be shown in the green box.  Click `Start Calibration` to begin the process and follow the instructions in the green box  and the sick movement arrows located around the sticks on the remote as highlighted in red below.
+This screen is split into 2 sections, joystick calibration on the left, joystick testing on the bottom right, instructions for the user to follow will be shown in the green box. Click `Start Calibration` to begin the process and follow the instructions in the green box and the sick movement arrows located around the sticks on the remote as highlighted in red below.
 
 **Note:** The joystick testing area in the bottom right will not move or show any input while you are calibrating the sticks. This is normal, this area will only display input after the joysticks have been calibrated.
 
@@ -100,9 +98,9 @@ At the end of this process if you are happy with the input behavior you can clic
 
 DataLink supports RC modes 1-4 as well as the option to set the throttle centre as zero PWM output and reverse each channel.
 
-Set throttle center and RC mode via the below settings.&#x20;
+Set throttle center and RC mode via the below settings.
 
-![](../../../../.gitbook/assets/Rc\_mode.jpeg)
+![](../../../../.gitbook/assets/Rc_mode.jpg)
 
 The stick sbus output can be reversed by clicking on ‘REV’ next to the channel you want to change.
 
@@ -114,15 +112,15 @@ After making any changes click `SAVE` to store settings.
 
 To calibrate the joystick SBUS outputs click `SBUS OUT CAL`.
 
-![](<../../../../.gitbook/assets/image (1).jpeg>)
+![](../../../../.gitbook/assets/Sbus_cal.jpg)
 
 Follow the RC stock movement steps as shown in the highlight section moving the stick through each position.
 
-![](<../../../../.gitbook/assets/image (13).png>)
+![](../../../../.gitbook/assets/Sbus_cal2.png)
 
-![](<../../../../.gitbook/assets/image (2).jpeg>)
+![](../../../../.gitbook/assets/Sbus_cal1.jpg)
 
-Once complete click `SAVE` to store settings.&#x20;
+Once complete click `SAVE` to store settings.
 
 ## **Selecting FCC/CE settings**
 

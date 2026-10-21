@@ -21,7 +21,7 @@
 
 ### <mark style="color:red;">Cube Red</mark> 80-Pin DF17 Connector
 
-<figure><img src="../../.gitbook/assets/cube-bottom (1).png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cube-bottom.png" alt="" width="340"><figcaption></figcaption></figure>
 
 ### **Connector 1 Assignments**
 
@@ -29,86 +29,85 @@
 
 ### **Connector 2 Assignments**
 
-| Pin Number  | Pin Type | Pin Name            | Description                                   |
-| ----------- | -------- | ------------------- | --------------------------------------------- |
-| 1           |          | GND                 | System GND                                    |
-| 2           | I        | FMU\_BOOT           | FMU boot                                      |
-| 3           | I/O      | FC\_NET\_TX+        | Ethernet TX+,Auto-MDIX support                |
-| 4           |          | NC                  | For future use                                |
-| 5           |          | GND                 | System GND                                    |
-| 6           |          | IO\_BOOT            | IO MCU boot                                   |
-| 7           | I/O      | FC\_NET\_TX-        | Ethernet TX-, Auto-MDIX support               |
-| 8           |          | NC                  | For future use                                |
-| 9           |          | GND                 | System GND                                    |
-| 10          |          | NC                  | For future use                                |
-| 11          | I/O      | FC\_NET\_RX+        | Ethernet RX+, Auto-MDIX support               |
-| 12          |          | NC                  | For future use                                |
-| 13          |          | GND                 | System GND                                    |
-| 14          |          | NC                  | For future use                                |
-| 15          | I/O      | FC\_NET\_RX-        | Ethernet RX-, Auto-MDIX support               |
-| 16          |          | NC                  | For future use                                |
-| 17          |          | GND                 | System GND                                    |
-| 18          |          | NC                  | For future use                                |
-| 19          | O        | FC\_NET\_LEDY       | Link speed LED indication                     |
-| 20          |          | NC                  | For future use                                |
-| 21          | O        | FC\_NET\_LEDG       | Ethernet link activity LED indication         |
-| 22          |          | NC                  | For future use                                |
-| 23          | I        | FC\_NET\_VCC        | Ethernet 3.3V power in                        |
-| 24          |          | NC                  | For future use                                |
-| 25          | I        | Timestamp rtc       | Timestamp RTC                                 |
-| 26          |          | NC                  | For future use                                |
-| 27          |          | GND                 | System GND                                    |
-| 28          |          | NC                  | For future use                                |
-| 29          | I/O      | CAN\_L\_1           | CAN bus low signal driver                     |
-| 30          |          | NC                  | For future use                                |
-| 31          | I/O      | CAN\_H\_1           | CAN bus high signal driver                    |
-| 32          |          | NC                  | For future use                                |
-| 33          | I/O      | CAN\_L\_2           | CAN bus low signal driver                     |
-| 34          |          | NC                  | For future use                                |
-| 35          | I/O      | CAN\_H\_2           | CAN bus high signal driver                    |
-| 36          |          | NC                  | For future use                                |
-| 37          | I/O      | CAN\_L\_3           | CAN bus low signal driver                     |
-| 38          |          | NC                  | For future use                                |
-| 39          | I/O      | CAN\_H\_3           | CAN bus high signal driver                    |
-| 40          |          | NC                  | For future use                                |
-| 41          |          | GND                 | System GND                                    |
-| 42          |          | NC                  | For future use                                |
-| 43          | I        | UART8\_RX           | IO UART 8 RX (receive data)                   |
-| 44          |          | NC                  | For future use                                |
-| 45          | O        | UART8\_TX           | IO UART 8 TX (transmit data)                  |
-| 46          |          | NC                  | For future use                                |
-| 47          |          | GND                 | System GND                                    |
-| 48          |          | NC                  | For future use                                |
-| 49          | O        | DSI\_CKP            | MIPI DSI host clock postive                   |
-| 50          |          | NC                  | For future use                                |
-| 51          | O        | DSI\_CKN            | MIPI DSI host clock negative                  |
-| 52          |          | NC                  | For future use                                |
-| 53          |          | GND                 | System GND                                    |
-| 54          |          | NC                  | For future use                                |
-| 55          | O        | DSI\_D0P            | MIPI DSI host DATA0 postive                   |
-| 56          |          | NC                  | For future use                                |
-| 57          | O        | DSI\_D0N            | MIPI DSI host DATA0 negative                  |
-| 58          |          | NC                  | For future use                                |
-| 59          |          | GND                 | System GND                                    |
-| 60          |          | NC                  | For future use                                |
-| 61          | O        | DSI\_D1P            | MIPI DSI host DATA1 postive                   |
-| 62          |          | NC                  | For future use                                |
-| 63          | O        | DSI\_D1N            | MIPI DSI host DATA1 negative                  |
-| 64          |          | NC                  | For future use                                |
-| 65          |          | GND                 | System GND                                    |
-| 66          |          | NC                  | For future use                                |
-| 67          | O        | FMU\_DAC            | FMU analog output                             |
-| 68          |          | NC                  | For future use                                |
-| 69          |          | GND                 | System GND                                    | 
-| 70          |          | NC                  | For future use                                |
-| 71          | O        | IO\_DAC             | IO analog output                              |
-| 72          |          | NC                  | For future use                                |
-| 73          | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
-| 74          |          | NC                  | For future use                                |
-| 75          | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
-| 76          |          | NC                  | For future use                                |
-| 77          | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
-| 78          |          | NC                  | For future use                                |
-| 79          | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
-| 80          |          | NC                  | For future use                                |
-
+| Pin Number | Pin Type | Pin Name            | Description                                   |
+| ---------- | -------- | ------------------- | --------------------------------------------- |
+| 1          |          | GND                 | System GND                                    |
+| 2          | I        | FMU\_BOOT           | FMU boot                                      |
+| 3          | I/O      | FC\_NET\_TX+        | Ethernet TX+,Auto-MDIX support                |
+| 4          |          | NC                  | For future use                                |
+| 5          |          | GND                 | System GND                                    |
+| 6          |          | IO\_BOOT            | IO MCU boot                                   |
+| 7          | I/O      | FC\_NET\_TX-        | Ethernet TX-, Auto-MDIX support               |
+| 8          |          | NC                  | For future use                                |
+| 9          |          | GND                 | System GND                                    |
+| 10         |          | NC                  | For future use                                |
+| 11         | I/O      | FC\_NET\_RX+        | Ethernet RX+, Auto-MDIX support               |
+| 12         |          | NC                  | For future use                                |
+| 13         |          | GND                 | System GND                                    |
+| 14         |          | NC                  | For future use                                |
+| 15         | I/O      | FC\_NET\_RX-        | Ethernet RX-, Auto-MDIX support               |
+| 16         |          | NC                  | For future use                                |
+| 17         |          | GND                 | System GND                                    |
+| 18         |          | NC                  | For future use                                |
+| 19         | O        | FC\_NET\_LEDY       | Link speed LED indication                     |
+| 20         |          | NC                  | For future use                                |
+| 21         | O        | FC\_NET\_LEDG       | Ethernet link activity LED indication         |
+| 22         |          | NC                  | For future use                                |
+| 23         | I        | FC\_NET\_VCC        | Ethernet 3.3V power in                        |
+| 24         |          | NC                  | For future use                                |
+| 25         | I        | Timestamp rtc       | Timestamp RTC                                 |
+| 26         |          | NC                  | For future use                                |
+| 27         |          | GND                 | System GND                                    |
+| 28         |          | NC                  | For future use                                |
+| 29         | I/O      | CAN\_L\_1           | CAN bus low signal driver                     |
+| 30         |          | NC                  | For future use                                |
+| 31         | I/O      | CAN\_H\_1           | CAN bus high signal driver                    |
+| 32         |          | NC                  | For future use                                |
+| 33         | I/O      | CAN\_L\_2           | CAN bus low signal driver                     |
+| 34         |          | NC                  | For future use                                |
+| 35         | I/O      | CAN\_H\_2           | CAN bus high signal driver                    |
+| 36         |          | NC                  | For future use                                |
+| 37         | I/O      | CAN\_L\_3           | CAN bus low signal driver                     |
+| 38         |          | NC                  | For future use                                |
+| 39         | I/O      | CAN\_H\_3           | CAN bus high signal driver                    |
+| 40         |          | NC                  | For future use                                |
+| 41         |          | GND                 | System GND                                    |
+| 42         |          | NC                  | For future use                                |
+| 43         | I        | UART8\_RX           | IO UART 8 RX (receive data)                   |
+| 44         |          | NC                  | For future use                                |
+| 45         | O        | UART8\_TX           | IO UART 8 TX (transmit data)                  |
+| 46         |          | NC                  | For future use                                |
+| 47         |          | GND                 | System GND                                    |
+| 48         |          | NC                  | For future use                                |
+| 49         | O        | DSI\_CKP            | MIPI DSI host clock postive                   |
+| 50         |          | NC                  | For future use                                |
+| 51         | O        | DSI\_CKN            | MIPI DSI host clock negative                  |
+| 52         |          | NC                  | For future use                                |
+| 53         |          | GND                 | System GND                                    |
+| 54         |          | NC                  | For future use                                |
+| 55         | O        | DSI\_D0P            | MIPI DSI host DATA0 postive                   |
+| 56         |          | NC                  | For future use                                |
+| 57         | O        | DSI\_D0N            | MIPI DSI host DATA0 negative                  |
+| 58         |          | NC                  | For future use                                |
+| 59         |          | GND                 | System GND                                    |
+| 60         |          | NC                  | For future use                                |
+| 61         | O        | DSI\_D1P            | MIPI DSI host DATA1 postive                   |
+| 62         |          | NC                  | For future use                                |
+| 63         | O        | DSI\_D1N            | MIPI DSI host DATA1 negative                  |
+| 64         |          | NC                  | For future use                                |
+| 65         |          | GND                 | System GND                                    |
+| 66         |          | NC                  | For future use                                |
+| 67         | O        | FMU\_DAC            | FMU analog output                             |
+| 68         |          | NC                  | For future use                                |
+| 69         |          | GND                 | System GND                                    |
+| 70         |          | NC                  | For future use                                |
+| 71         | O        | IO\_DAC             | IO analog output                              |
+| 72         |          | NC                  | For future use                                |
+| 73         | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
+| 74         |          | NC                  | For future use                                |
+| 75         | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
+| 76         |          | NC                  | For future use                                |
+| 77         | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
+| 78         |          | NC                  | For future use                                |
+| 79         | I        | VDD\_5V\_IN\_backup | Main power (5V) into FMU from power selection |
+| 80         |          | NC                  | For future use                                |
