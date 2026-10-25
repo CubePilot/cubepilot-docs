@@ -122,6 +122,7 @@
 * [Specifications](cubenode/specifications.md)
 * [Functional Overview](cubenode/functional-overview.md)
 * [V4 Pin Descriptions](cubenode/pin-descriptions.md)
+* [V3 Pin Descriptions](cubenode/v3-pin-descriptions.md)
 * [V3 and V4 Pin Difference](cubenode/v3-and-v4-pin-difference.md)
 * [Footprint](cubenode/footprint.md)
 * [CubeNode ETH](cubenode/cubenode-eth/README.md)
