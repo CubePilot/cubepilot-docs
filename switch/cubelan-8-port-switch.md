@@ -28,15 +28,15 @@ The CubeLAN 8-port switch is a miniature Ethernet switch that can connect up to 
 
 ## Pinout Definition
 
-<figure><img src="https://3175993181-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LUhw7cdLeWVORgnTA3i%2Fuploads%2FjJpeZ4kiIpJuyCs725Gt%2Fimage.png?alt=media&#x26;token=5c04320d-125b-435f-adc3-a2aaa6da5e79" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cubelan-gh5-connector-side.png" alt="JST GH 5-pin Ethernet connector, front view" width="563"><figcaption></figcaption></figure>
 
 | Pin Number | Definition   |
 | ---------- | ------------ |
-| 1          | Ethernet RX+ |
-| 2          | Ethernet RX- |
+| 1          | Ethernet TX- |
+| 2          | Ethernet TX+ |
 | 3          | Ground       |
-| 4          | Ethernet TX+ |
-| 5          | Ethernet TX- |
+| 4          | Ethernet RX- |
+| 5          | Ethernet RX+ |
 
 <figure><img src="https://3175993181-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LUhw7cdLeWVORgnTA3i%2Fuploads%2FTKZD1KIu5aWS16bBj5ii%2Fimage.png?alt=media&#x26;token=aa409ef3-9b2b-4e90-8069-1830afcc7f10" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -51,7 +51,7 @@ The CubeLAN 8-port switch is a miniature Ethernet switch that can connect up to 
 | 7          | No connection (NC) |
 | 8          | No connection (NC) |
 
-<figure><img src="https://3175993181-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LUhw7cdLeWVORgnTA3i%2Fuploads%2FlbgAT0tnFQ9znXKysLvL%2Fimage.png?alt=media&#x26;token=6732bf28-2458-4b5a-9c9d-cbc9c016d785" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cubelan-power-connector-side.png" alt="JST GH 2-pin power connector, front view" width="563"><figcaption></figcaption></figure>
 
 | Pin Number | Definition    |
 | ---------- | ------------- |
