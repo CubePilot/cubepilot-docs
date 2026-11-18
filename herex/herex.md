@@ -95,18 +95,6 @@ The supplied cable connects HereX to the Cube Orange+ **GPS1** port. The drawing
 * **PPS:** ArduPilot on Cube Orange+ does not use a GPS PPS signal. Leave the PPS lead unconnected.
 * **EXTINT:** see [Event input (EXTINT)](herex.md#event-input-extint).
 
-### Status LED
-
-HereX has a status LED that ArduPilot drives as a notification LED (ProfiLED). The supplied cable carries the LED clock and data on GPS1 pins 6 and 7, and the Cube's IO processor sends the LED signal on them (ProfiLED\_IOMCU).
-
-| Parameter          | Value                                                                                |
-| ------------------ | ------------------------------------------------------------------------------------ |
-| `BRD_OPTIONS`      | add bit 9, "Use safety pins as profiled" (value 512), then reboot                    |
-| `NTF_LED_TYPES`    | include bit 19 (ProfiLED\_IOMCU); on by default on Cube Orange+ from ArduPilot 4.7.0 |
-| `BRD_SAFETY_DEFLT` | 0, so the vehicle starts with safety off                                             |
-
-GPS1 pins 6 and 7 are the port's safety-switch pins. With the HereX LED on them, the safety state is set from the ground station or by `BRD_SAFETY_DEFLT`, not by a safety switch on GPS1.
-
 ## Antennas
 
 For best performance, use an **active** antenna that meets the minimum requirements below. Tested antennas: Calian helical antennas (active) and a Kyocera all-band antenna (passive, on HereX Single).
@@ -163,7 +151,9 @@ These are u-blox receiver settings. Change them in u-center 2 over USB-C and sav
 
 ## ArduPilot setup (Cube Orange+)
 
-HereX is supported from ArduPilot 4.7.0. HereX Dual heading setup is below the check list.
+HereX is supported from **ArduPilot 4.7.0**.
+
+HereX Dual Heading setup should only be completed for the HereX Dual.&#x20;
 
 | Parameter                  | Value                                                            |
 | -------------------------- | ---------------------------------------------------------------- |
@@ -177,7 +167,19 @@ Check it works:
 * Outdoors, the ground station reports a 3D fix.
 * After corrections are sent, it reports RTK Float, then RTK Fixed.
 
-### HereX Dual heading
+### Status LED
+
+HereX has a status LED that ArduPilot drives as a notification LED (ProfiLED). The supplied cable carries the LED clock and data on GPS1 pins 6 and 7, and the Cube's IO processor sends the LED signal on them (ProfiLED\_IOMCU). The status LED will not work prior to ArduPilot 4.7.0.
+
+| Parameter          | Value                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------ |
+| `BRD_OPTIONS`      | add bit 9, "Use safety pins as profiled" (value 512), then reboot                    |
+| `NTF_LED_TYPES`    | include bit 19 (ProfiLED\_IOMCU); on by default on Cube Orange+ from ArduPilot 4.7.0 |
+| `BRD_SAFETY_DEFLT` | 0, so the vehicle starts with safety off                                             |
+
+GPS1 pins 6 and 7 are the port's safety-switch pins. With the HereX LED on them, the safety state is set from the ground station or by `BRD_SAFETY_DEFLT`, not by a safety switch on GPS1.
+
+### HereX Dual Heading
 
 HereX Dual heading needs ArduPilot 4.8 or later (4.7.x once the backport is released) and receiver firmware HDG 2.00 or later. Set the parameters above, plus:
 
