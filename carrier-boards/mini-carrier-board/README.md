@@ -82,9 +82,9 @@ The red dot on the plug side denotes Pin 1.
 
 | Pin Number | Name                 | Direction | Voltage           | Wire Color | Caption                         |
 | ---------- | -------------------- | --------- | ----------------- | ---------- | ------------------------------- |
-| 1          | VCC\_5V              | IN        | 5 V               | RED        | VCC Power Supply To GPS From AP |
-| 3          | SERIAL\_3\_TX        | OUT       | 3.3 V - 5.0 V TTL | BLACK      | UART 3 TX (Transmit Data)       |
-| 2          | SERIAL\_3\_RX        | IN        | 3.3 V - 5.0 V TTL | BLACK      | UART 3 RX (Receive Data)        |
+| 1          | VCC\_5V              | OUT       | 5 V               | RED        | VCC Power Supply To GPS From AP |
+| 2          | SERIAL\_3\_TX        | OUT       | 3.3 V - 5.0 V TTL | BLACK      | UART 3 TX (Transmit Data)       |
+| 3          | SERIAL\_3\_RX        | IN        | 3.3 V - 5.0 V TTL | BLACK      | UART 3 RX (Receive Data)        |
 | 4          | I2C\_1\_SCL          | IN        | 3.3 V             | BLACK      | I2C 1 Clock Signal              |
 | 5          | I2C\_1\_SDA          | IN/OUT    | 3.3 V             | BLACK      | I2C 1 Serial Data               |
 | 6          | BUTTON               |           | GND               | BLACK      | Signal shorted to GND on press  |
@@ -187,5 +187,5 @@ To modify the PCB to receive SPKT signals, complete the following steps:
 
 ![](<../../.gitbook/assets/Purple Cube and Mini Carrier Board -7.jpg>)
 
-The following Github link can be used to revise and update the Mini carrier board informatio&#x6E;**:** \
+The following Github link can be used to revise and update the Mini carrier board informatio&#x6E;**:**\
 [https://github.com/CubePilot/cubepilot-docs/edit/master/carrier-boards/mini-carrier-board.md](https://github.com/CubePilot/cubepilot-docs/edit/master/carrier-boards/mini-carrier-board.md)
