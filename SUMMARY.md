@@ -63,6 +63,11 @@
 * [Here 4 Blue](here-4/here-4-blue.md)
 * [Recovering the Firmware](here-4/recovering-the-firmware.md)
 
+## HereX
+
+* [HereX Manual](herex/herex.md)
+* [HereX Dual Heading](herex/herex-dual-heading.md)
+
 ## HEREPRO
 
 * [HerePro Manual](herepro/herepro-manual.md)
