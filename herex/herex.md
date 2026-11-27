@@ -22,6 +22,12 @@ HereX connects to the flight controller over serial.
 Setup on this page is documented for **Cube Orange+** with ArduPilot.
 {% endhint %}
 
+{% hint style="warning" %}
+**If you see 0 satellites and are using an active antenna,** the antenna power most likely needs enabling.
+
+Connect to u-center2 and go to Device Configuration -> CFG-HW, set **ANT\_CFG\_VOLTCTRL = 1**, check all 'Write to layer' boxes, click Set and then Send.
+{% endhint %}
+
 ## Features
 
 * RTK with RTCM 3.4 corrections in, and RTCM 3.4 output
